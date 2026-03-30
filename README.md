@@ -3,7 +3,7 @@
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
     <strong>Ingeniería de Software</strong><br><br>
     <strong> Aplicaciones para dispositivos Móviles </strong> <br>
-    202520<br><br>
+    2026-10<br><br>
     <strong>NRC:</strong> 3821 <br>
     <strong>PROFESOR:</strong> Mayta Guillermo, Jorge Luis
     <strong>Nombre del Producto: - </strong>
