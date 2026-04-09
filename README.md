@@ -9,20 +9,38 @@
     <strong>Nombre del Producto: - </strong>
 </p>
 
-<h4>Integrantes</h4>
+<center><strong>Integrantes:</strong></center>
+  
+  <table border="1px" align="center">
+    <thead>
+        <tr>
+            <th><center>Apellidos, Nombres</center></th>
+            <th><center>Código</center></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><center>Velarde Gonzales, Néstor Hernán</center></td>
+            <td><center>U20211C221</center></td>
+        </tr>
+        <tr>
+            <td><center>apellido, nombres</center></td>
+            <td><center>codigo</center></td>
+        </tr>
+        <tr>
+            <td><center>apellido, nombres</center></td>
+            <td><center>codigo</center></td>
+        </tr>
+        <tr>
+            <td><center>apellido, nombres</center></td>
+            <td><center>codigo</center></td>
+        </tr>
+    </tbody>
+  </table>
 
-<strong> - </strong> 
-<strong> - </strong><br>
-<strong> - </strong>
-<strong> - </strong><br>
-<strong> - </strong>
-<strong> - </strong><br>
-<strong> - </strong>
-<strong> - </strong><br>
-<strong> - </strong>
-<strong> - </strong>
+  <br/><br/>
 
-<p align="center"><strong> Abril, 2026 </strong></p>
+## <center><strong>Abril, 2026</strong></center> <br/>
 
 
 # Registro de Versiones del Informe
