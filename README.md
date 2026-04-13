@@ -24,8 +24,8 @@
             <td><center>U20211C221</center></td>
         </tr>
         <tr>
-            <td><center>apellido, nombres</center></td>
-            <td><center>codigo</center></td>
+            <td><center>Curi Marcelo, Angelo Marcio</center></td>
+            <td><center>u202022387</center></td>
         </tr>
         <tr>
             <td><center>apellido, nombres</center></td>
@@ -160,5 +160,234 @@
 # Student Outcome
 
 # Objetivos SMART
+
+
+# Capítulo I: Introducción
+
+## 1.1. Startup Profile
+
+### 1.1.1. Descripción de la Startup
+
+**Frock** es una Startup que busca modernizar el transporte colectivo informal mediante **Chapaturuta**, una aplicación mobile que organiza y muestra la visibilidad de rutas, paraderos y horarios. 
+
+Nuestro objetivo es mejorar la conexión entre ciudades y distritos, facilitando información clara tanto para usuarios como conductores. Con esta solución aportamos orden sin perder la flexibilidad del servicio, ofreciendo una movilidad más accesible, eficiente y ajustada a las necesidades reales de las personas.
+
+### 1.1.2. Perfiles de integrantes del equipo
+
+| Integrante | Perfil Profesional |
+| :--- | :--- |
+| ![Integrante1](url_de_la_foto) <br> **Nombre** | "descripcion" |
+| ![Integrante1](url_de_la_foto) <br> **Nombre** | "descripcion" |
+
+### 1.2. Solution Profile
+
+#### 1.2.1. Nombre del producto
+Nuestro producto **Chapaturuta** es una aplicación móvil desarrollada por el equipo de **Frock** que organiza y moderniza el transporte colectivo informal a través de información clara sobre rutas, paraderos y horarios que conecta ciudades y distritos brindando mayor accesibilidad y eficiencia para usuarios y conductores.
+
+#### 1.2.2. Antecedentes y problemática
+En muchas regiones del Perú, especialmente en provincias y zonas rurales, los colectivos (autos compartidos que cubren rutas fijas entre pueblos o distritos) representan un medio de transporte esencial. Estas unidades operan de forma semiinformal, sin horarios estrictos ni plataformas digitales que informen sobre sus rutas, tarifas o paraderos. A pesar de su utilidad, la informalidad del servicio genera desinformación, falta de confianza y dificultad para planificar los viajes, especialmente para personas no familiarizadas con la zona. Es común que los pasajeros deban preguntar a transeúntes o esperar en puntos conocidos sin certeza del tiempo de espera o del costo del servicio.
+
+Por otro lado, los conductores de colectivos enfrentan problemas para captar nuevos pasajeros, organizar eficientemente sus recorridos y diferenciarse en un mercado competitivo e informal. Esta situación genera ineficiencias tanto para usuarios como para operadores del servicio. En este contexto, surge la necesidad de una solución digital accesible que brinde visibilidad, organización y confianza al sistema informal de colectivos interurbanos, sin perder su flexibilidad, adaptándose a la realidad tecnológica y cultural de estas zonas.
+
+La problemática se puede resumir en los siguientes puntos:
+
+* **I. Desinformación sobre rutas y paraderos:** Los pasajeros no tienen acceso a información clara sobre las rutas disponibles, ubicación de los paraderos, horarios aproximados o tarifas. Esta falta de visibilidad dificulta la planificación del viaje y desalienta el uso del servicio, especialmente entre personas que no conocen la zona o viajan por primera vez.
+* **II. Dependencia de canales informales:** En ausencia de señalización oficial o plataformas digitales, los usuarios deben confiar en el “boca a boca” o el conocimiento local para encontrar un colectivo. Esto limita el acceso al servicio y excluye a quienes no dominan estas redes informales, como turistas, personas mayores o nuevos residentes.
+* **III. Falta de herramientas para conductores:** Los conductores operan sin apoyo tecnológico para anunciar su disponibilidad, comunicar sus rutas o gestionar sus viajes. Esto reduce su eficiencia, genera tiempos muertos y limita su capacidad para captar más pasajeros.
+* **IV. Baja percepción de seguridad:** La falta de perfiles visibles y verificables de los conductores, así como la ausencia de información sobre los vehículos y las rutas, genera desconfianza. Esto impacta directamente en la decisión de uso del servicio, especialmente entre mujeres o personas en situación vulnerable.
+* **V. Barreras tecnológicas en la adopción digital:** Muchos usuarios potenciales viven en zonas con conectividad limitada o tienen baja familiaridad con el uso de aplicaciones móviles. Las plataformas de transporte tradicionales no están diseñadas para este público, al requerir registros complejos, conexión permanente o interfaces poco intuitivas.
+* **VI. Ausencia en el ecosistema de movilidad regional:** Al ser un sistema informal, los colectivos no están integrados en los planes de movilidad ni reciben soporte institucional. Esto contribuye a su invisibilidad como alternativa de transporte sostenible y eficiente en provincias del país.
+
+#### 1.2.3. Lean UX Process
+
+##### 1.2.3.1. Lean UX Problem Statement
+Nuestra aplicación busca ayudar a personas que desean trasladarse de forma económica entre ciudades o pueblos cercanos, y que actualmente no cuentan con información clara ni accesible sobre dónde se ubican los paraderos de colectivos, sus rutas, horarios aproximados y tarifas.
+
+Este problema afecta especialmente a viajeros locales, personas con recursos limitados o visitantes no familiarizados con la zona, que dependen del transporte colectivo para moverse de forma rápida y asequible. Al resolver este problema, esperamos que los usuarios puedan localizar fácilmente los puntos de embarque, planificar sus viajes con mayor confianza y acceder a una red de rutas informales que, aunque eficientes, hoy son invisibles para la mayoría.
+
+##### 1.2.3.2. Lean UX Assumptions
+
+**a. Business Outcomes Assumptions**
+* Creemos que al organizar y hacer visible el servicio de colectivos informales, podemos capturar un mercado desatendido en regiones con transporte público limitado.
+* Creemos que ofrecer visibilidad a los conductores aumentará su volumen de pasajeros y generará tracción para monetizar la plataforma en el mediano plazo.
+* Creemos que facilitar el acceso a transporte interurbano económico incrementará el uso de la aplicación y atraerá a aliados estratégicos (municipalidades, asociaciones de transporte, ONG,s de movilidad).
+
+**b. Users Assumptions**
+* Creemos que nuestros usuarios principales son personas entre 20 y 60 años, de nivel socioeconómico medio-bajo, que se movilizan entre distritos, pueblos o zonas periféricas.
+* Creemos que actualmente encuentran colectivos preguntando en la calle, por recomendación o yendo a puntos conocidos, sin información clara o digital.
+* Creemos que los conductores son independientes, operan de forma informal, y no usan ninguna app para captar pasajeros.
+
+**c. Users Assumptions**
+* Creemos que los pasajeros necesitan planificar sus viajes con confianza, saber dónde tomar el colectivo, cuánto pagar y en qué horario aproximado.
+* Creemos que, si los conductores logran visibilizar su ruta, ubicación y disponibilidad, podrán captar más pasajeros de forma más eficiente.
+* Creemos que los usuarios valorarán poder ubicar fácilmente colectivos, sin perder la flexibilidad del servicio.
+
+**d. Users Assumptions**
+* Creemos que una app móvil sencilla (desarrollada en **Flutter** para el segmento de pasajeros y en **Kotlin/Android** para el segmento de conductores), sin necesidad de registro obligatorio para el consultante, con geolocalización de paraderos y rutas, será suficiente para ayudar al pasajero.
+* Creemos que perfiles de conductor con información básica (placa, tipo de vehículo, ruta habitual) mejorarán la percepción de seguridad.
+* Creemos que el sistema debe adaptarse al funcionamiento flexible del colectivo (sin horarios fijos, rutas semi estables).
+
+##### 1.2.3.3. Lean UX Hypothesis
+
+* **Hipótesis 1: Mapa con rutas y paraderos**
+Creemos que el objetivo de que más personas usen la aplicación para organizar sus viajes se logrará si los pasajeros interurbanos obtienen confianza y claridad sobre cómo tomar un colectivo con un mapa interactivo que muestre rutas disponibles, paraderos, horarios estimados y tarifas de referencia.
+
+* **Hipótesis 2: Visibilidad de conductores**
+Creemos que aumentar la cantidad de pasajeros por viaje se logrará si los conductores de colectivos obtienen una mejor captación de pasajeros y reducción del tiempo de espera con una funcionalidad en la aplicación **Android (Kotlin)** que muestre su ruta, ubicación actual y hora estimada de salida a los usuarios cercanos que utilicen la aplicación **Flutter**.
+
+* **Hipótesis 3: Perfil del conductor**
+Creemos que aumentar la confianza de los usuarios y su retención en la app se logrará si los pasajeros obtienen una mayor sensación de seguridad y legitimidad del servicio con un perfil de conductor que incluya información del vehículo, ruta habitual, calificaciones y verificación básica.
+
+* **Hipótesis 4: Interfaz sin registro obligatorio**
+Creemos que aumentar la accesibilidad de la app y alcanzar a más usuarios en zonas con baja alfabetización digital se logrará si los pasajeros ocasionales obtienen acceso rápido y sin fricciones a la información de viaje con una interfaz sencilla que no requiera registro obligatorio.
+
+##### 1.2.3.4. Lean UX Canvas
+
+## 1.3. Segmentos objetivo
+
+### 1. Pasajeros
+Este segmento está compuesto principalmente por personas que necesitan movilizarse entre zonas periféricas, pueblos cercanos o distritos colindantes donde el transporte público tradicional es limitado, ineficiente o inexistente.
+
+**Características demográficas:**
+* **Edad promedio:** 20 - 60 años.
+* **Ocupación:** Trabajadores informales, comerciantes, estudiantes universitarios y técnicos, amas de casa.
+* **Nivel socioeconómico:** Medio bajo a bajo.
+* **Ubicación:** Viven en zonas urbanas periféricas o rurales con acceso limitado al transporte público.
+* **Frecuencia de uso:** Diaria o inter diaria, especialmente en horarios punta.
+
+**Necesidades:**
+* Movilidad rápida, económica y flexible.
+* Disponibilidad de transporte en horarios amplios (incluyendo temprano en la mañana y noche).
+* Información clara sobre puntos de partida, paraderos, tarifas y horarios.
+
+### 2. Conductores
+Este grupo representa a los operadores informales que ofrecen servicios de transporte colectivo, mayoritariamente en vehículos particulares. Ellos cubren rutas establecidas entre distritos o pueblos, recogiendo y dejando pasajeros en puntos acordados o paraderos informales.
+
+**Características demográficas:**
+* **Edad promedio:** 30 - 55 años.
+* **Ocupación:** Conductores independientes, en su mayoría informales.
+* **Nivel educativo:** Secundaria completa en promedio.
+* **Tipo de vehículo:** Autos sedán, minivanes, station wagon, en su mayoría propios.
+* **Zona de operación:** Zonas periféricas, pueblos intermedios y distritos con alta demanda y poca oferta de transporte formal.
+
+**Motivaciones:**
+* Generar ingresos diarios de forma flexible.
+* Maximizar recorridos eficientes con más pasajeros en menor tiempo.
+* Contar con herramientas que les permitan ser más visibles y captar pasajeros fácilmente.
+
+# Capítulo II: Requirements & Analysis
+
+## 2.1. Competidores
+
+| Nombre | Moovit | RedBus | QuickRide | Frock |
+| :--- | :--- | :--- | :--- | :--- |
+| **Logo** | ![Moovit](https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Moovit_Logo.svg/1200px-Moovit_Logo.svg.png) | ![RedBus](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/RedBus_logo.svg/2560px-RedBus_logo.svg.png) | ![QuickRide](https://quickride.in/assets/img/logo_qr.png) | ![Frock](https://i.imgur.com/v8tT9Tz.png) |
+| **Overview** | Plataforma global para planificar viajes en transporte público, incluyendo colectivos y buses, con mapas, horarios y rutas. | Plataforma digital de compra de pasajes en buses interprovinciales en LATAM y Asia. | App india para compartir viajes al trabajo (carpooling) entre particulares con rutas fijas. | Plataforma enfocada en el transporte colectivo informal interurbano en zonas rurales y periféricas de Perú. Informa sobre paraderos, rutas, disponibilidad y tarifas. |
+| **Ventajas Competitivas** | Amplia cobertura internacional, mapas en tiempo real, integración con transporte formal e informal. | Facilita pagos seguros y reservas anticipadas, alianzas con empresas de buses formales. | Permite compartir autos con rutas definidas entre compañeros de trabajo, bajo costo y menor congestión. | Adaptación cultural y tecnológica al entorno rural y periférico peruano, interfaz sin registro obligatorio, visibilidad de conductores informales, enfoque flexible e inclusivo. |
+| **Modelo de Negocio** | Freemium para usuarios, venta de datos a operadores de transporte y gobiernos. | Comisión por pasaje vendido, acuerdos con empresas de transporte. | Comisión por viaje compartido, modelo B2C y B2B. | Modelo freemium: gratuito para usuarios, monetización a futuro por suscripciones o tarifas a conductores u organizaciones aliadas. |
+| **Usuarios Objetivo** | Usuarios urbanos y suburbanos que usan transporte público. | Usuarios que viajan entre ciudades con servicios de buses formales. | Profesionales que comparten auto en horarios laborales. | Pasajeros de zonas rurales o periurbanas (20-60 años), conductores informales independientes, municipios o asociaciones de transporte. |
+| **Tecnologías Clave** | GPS, API de mapas, predicción de llegada, alertas de tráfico. | Pasarela de pago, integración con operadores formales. | Geolocalización, agrupación por rutas y horarios. | GPS, interfaz simple y perfiles verificados de conductor, mapeo colaborativo de rutas y paraderos. |
+| **Debilidades** | Requiere conectividad constante, enfoque urbano. | No cubre colectivos ni rutas informales. | Limitado a carpooling urbano, no apto para zonas rurales. | Depende de la adopción digital en zonas con conectividad limitada; requiere mapeo inicial colaborativo. |
+
+## 2.2. Entrevistas
+
+Para conocer a nuestros segmentos objetivos, se diseñaron preguntas en específico para conocerá a detalle sus experiencias diarias en el transporte sea viajes o como transportistas.
+
+### Preguntas Generales:
+* ¿Cuál es su nombre?
+* ¿Cuántos años tienes?
+* ¿A qué se dedica actualmente?
+* ¿En qué ciudad vive?
+
+### Preguntas para usuarios (Pasajeros):
+* ¿Por qué eliges colectivo y no otra forma de transporte?
+* ¿Has llegado a perder tiempo o equivocarte de lugar por no tener información?
+* ¿Cómo sueles enterarte de qué colectivo tomar?
+* ¿Alguna vez has tenido problemas para encontrar un paradero?
+* ¿Te gustaría una aplicación móvil que te muestre los paraderos y rutas?
+* ¿Qué tan confiable consideras la información que ves en redes o te dicen otros?
+* ¿Te sentirías más tranquilo si pudieras ver una información concisa en un mapa antes de salir?
+* ¿Sabes aproximadamente cuánto demora en salir un auto? ¿Te incomoda esperar?
+* ¿Cómo sabes si todavía hay autos disponibles en ciertas horas?
+* ¿Qué te gustaría ver en una App de colectivos? (rutas, horarios, mapas, precios, fotos…)
+
+### Líderes de ruta (Transportistas)
+* ¿Cómo decides cuándo sale cada auto o bus?
+* ¿Cuántos autos o buses de colectivo hay normalmente en la ruta?
+* ¿Cómo se organizan los horarios y salidas?
+* ¿En qué horarios hay más movimiento?
+* ¿Los pasajeros te llaman? ¿Llegan directo al paradero?
+* ¿Cómo se enteran los pasajeros de dónde están ustedes?
+* ¿Alguna vez te han dicho que se perdieron o que no encontraron el paradero?
+* ¿Te molestaría si alguien pone tu paradero en una App?
+* ¿Tú mismo estarías dispuesto a dar información actualizada de horarios o rutas?
+* ¿Preferirías que lo haga otra persona o tener una persona que te apoye?
+* ¿Te interesaría aparecer como “empresa recomendada”?
+
+---
+
+### Registro de entrevista a usuarios (Pasajeros)
+
+A continuación, se demostrará las entrevistas realizadas a los usuarios (pasajeros) y los transportistas para conocer sus experiencias diarias en el transporte.
+
+#### Entrevistador N 01:
+* **Entrevistador:**
+    * Nombre: Néstor Velarde Gonzales
+* **Entrevistado:**
+    * Nombre: Angel Mamani Cayampi
+    * Edad: 20 años
+    * Ocupación: Estudiante
+    * Distrito: San Miguel
+    * Link de video: [Video](#)
+
+**Imagen 01. Entrevista a Ángel**
+
+Se realizó una entrevista a Angel Mamani Cayampi, una Joven estudiante de 20 años que vive actualmente en distrito de San Miguel, Ángel actualmente se dedica a rubro de taxí desde hace unos años atrás, debido que es autofinancia sus estudios en un instituto para costear su carrera técnica, Mayormente los pasajeros no son satisfactorios como él lo espera, paraderos vacíos, pasajeros que cancelan el viaje a la ultima hora entre otros.
+
+### Conclusión de Entrevistas
+
+## 2.3. Nedfinding
+
+### 2.3.1. User Personas
+
+**User Persona - pasajeros**
+**Imagen:** [Foto](#)
+
+**User Persona - conductores**
+**Imagen:** [Foto](#)
+
+### 2.3.2. User Task Matrix
+
+Los segmentos objetivo representados por los User Personas: Jesús Ramírez (pasajero
+interurbano) y Elmer Huamán (conductor de colectivo), serán una parte crucial para este 'User
+Task Matrix'. Las tareas listadas reflejan acciones que los usuarios ya realizan actualmente para
+alcanzar sus objetivos, independientemente del uso de una aplicación o tecnología. Esta matriz
+permite identificar oportunidades donde la solución digital de Frock puede generar mayor valor.
+
+| TASK | User Story ID | CARRIER FREQUENCY | CARRIER IMPORTANCE | USERS FREQUENCY | USERS IMPORTANCE |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| Buscar rutas disponibles para llegar a su destino | **US01** | High | High | Medium | High |
+| Identificar paraderos adecuados para abordar | **US02** | High | High | Medium | Medium |
+| Ver información del conductor | **US03** | Media | High | Medium | High |
+| Avisar disponibilidad a pasajeros frecuentes | **US08** | Low | Medium | Alta | High |
+| Ajustar su horario según los momentos de mayor demanda | **US09** | Low | Medium | Alta | High |
+| Recordar o registrar los viajes que ha hecho | **US05** | Medium | Low | Low | Low |
+| Evaluar la experiencia del viaje con un conductor | **US04** | Medium | High | Medium | Medium |
+
+### 2.3.3. Empathy Maps 
+
+**Conductor:**
+
+![EmpathyMap1](./images/ConductorEmpathyMap.png)
+
+**Pasajero:**
+
+![EmpathyMap2](./images/PasajeroEmpathyMap.png)
+
+
+
+
+
+
 
 
