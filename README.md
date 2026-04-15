@@ -1,3 +1,5 @@
+<div align="justify">
+
 <p align="center">
     <img src="https://www.upc.edu.pe/static/img/logo_upc_red.png" width="120px" alt="Logo UPC"><br><br>
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
@@ -6,10 +8,8 @@
     2026-10<br><br>
     <strong>NRC:</strong> 3821 <br>
     <strong>PROFESOR:</strong> Mayta Guillermo, Jorge Luis <br><br>
-    <strong>Nombre del Producto: FirstCommit </strong>
-</p>
-
-<center><strong>Integrantes:</strong></center>
+    <strong>Nombre del Producto: FirstCommit </strong> <br><br>
+    <strong>Integrantes:</strong>
   
   <table border="1px" align="center">
     <thead>
@@ -25,7 +25,7 @@
         </tr>
         <tr>
             <td><center>Curi Marcelo, Angelo Marcio</center></td>
-            <td><center>u202022387</center></td>
+            <td><center>U202022387</center></td>
         </tr>
         <tr>
             <td><center>apellido, nombres</center></td>
@@ -44,7 +44,8 @@
 
   <br/><br/>
 
-## <center><strong>Lima, 16 de abril del 2026</strong></center> <br/>
+<strong>Lima, 16 de abril del 2026</strong></center> <br/>
+</p>
 
 <div style="page-break-after: always;"></div>
 
@@ -186,7 +187,7 @@
 
 ## ABET - EAC - Student Outcome 7
 
-Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea
+**Criterio:** La capacidad de adquirir y aplicar nuevos conocimientos según sea
 necesario, utilizando estrategias de aprendizaje apropiadas.
 
 En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones
@@ -229,10 +230,36 @@ Nuestro objetivo es mejorar la conexión entre ciudades y distritos, facilitando
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-| Integrante | Perfil Profesional |
-| :--- | :--- |
-| ![Integrante1](url_de_la_foto) <br> **Nombre** | "descripcion" |
-| ![Integrante1](url_de_la_foto) <br> **Nombre** | "descripcion" |
+<table border="1px" align="center">
+    <thead>
+        <tr>
+            <th>Integrante</th>
+            <th>Perfil Profesional</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Foto</td>
+            <td>Datos</td>
+        </tr>
+        <tr>
+            <td>Foto</td>
+            <td>Datos</td>
+        </tr>
+        <tr>
+            <td>Foto</td>
+            <td>Datos</td>
+        </tr>
+        <tr>
+            <td>Foto</td>
+            <td>Datos</td>
+        </tr>
+        <tr>
+            <td>Foto</td>
+            <td>Datos</td>
+        </tr>
+    </tbody>
+</table>
 
 ### 1.2. Solution Profile
 
@@ -334,15 +361,68 @@ Este grupo representa a los operadores informales que ofrecen servicios de trans
 
 ## 2.1. Competidores
 
-| Nombre | Moovit | RedBus | QuickRide | Frock |
-| :--- | :--- | :--- | :--- | :--- |
-| **Logo** | ![Moovit](https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Moovit_Logo.svg/1200px-Moovit_Logo.svg.png) | ![RedBus](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/RedBus_logo.svg/2560px-RedBus_logo.svg.png) | ![QuickRide](https://quickride.in/assets/img/logo_qr.png) | ![Frock](https://i.imgur.com/v8tT9Tz.png) |
-| **Overview** | Plataforma global para planificar viajes en transporte público, incluyendo colectivos y buses, con mapas, horarios y rutas. | Plataforma digital de compra de pasajes en buses interprovinciales en LATAM y Asia. | App india para compartir viajes al trabajo (carpooling) entre particulares con rutas fijas. | Plataforma enfocada en el transporte colectivo informal interurbano en zonas rurales y periféricas de Perú. Informa sobre paraderos, rutas, disponibilidad y tarifas. |
-| **Ventajas Competitivas** | Amplia cobertura internacional, mapas en tiempo real, integración con transporte formal e informal. | Facilita pagos seguros y reservas anticipadas, alianzas con empresas de buses formales. | Permite compartir autos con rutas definidas entre compañeros de trabajo, bajo costo y menor congestión. | Adaptación cultural y tecnológica al entorno rural y periférico peruano, interfaz sin registro obligatorio, visibilidad de conductores informales, enfoque flexible e inclusivo. |
-| **Modelo de Negocio** | Freemium para usuarios, venta de datos a operadores de transporte y gobiernos. | Comisión por pasaje vendido, acuerdos con empresas de transporte. | Comisión por viaje compartido, modelo B2C y B2B. | Modelo freemium: gratuito para usuarios, monetización a futuro por suscripciones o tarifas a conductores u organizaciones aliadas. |
-| **Usuarios Objetivo** | Usuarios urbanos y suburbanos que usan transporte público. | Usuarios que viajan entre ciudades con servicios de buses formales. | Profesionales que comparten auto en horarios laborales. | Pasajeros de zonas rurales o periurbanas (20-60 años), conductores informales independientes, municipios o asociaciones de transporte. |
-| **Tecnologías Clave** | GPS, API de mapas, predicción de llegada, alertas de tráfico. | Pasarela de pago, integración con operadores formales. | Geolocalización, agrupación por rutas y horarios. | GPS, interfaz simple y perfiles verificados de conductor, mapeo colaborativo de rutas y paraderos. |
-| **Debilidades** | Requiere conectividad constante, enfoque urbano. | No cubre colectivos ni rutas informales. | Limitado a carpooling urbano, no apto para zonas rurales. | Depende de la adopción digital en zonas con conectividad limitada; requiere mapeo inicial colaborativo. |
+<table border="1">
+    <thead>
+        <tr>
+            <th>Criterio</th>
+            <th>Moovit</th>
+            <th>RedBus</th>
+            <th>QuickRide</th>
+            <th>Frock</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Logo</strong></td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Moovit_Logo.svg/1200px-Moovit_Logo.svg.png" width="100" alt="Moovit"></td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/RedBus_logo.svg/2560px-RedBus_logo.svg.png" width="100" alt="RedBus"></td>
+            <td><img src="https://quickride.in/assets/img/logo_qr.png" width="100" alt="QuickRide"></td>
+            <td><img src="https://i.imgur.com/v8tT9Tz.png" width="100" alt="Frock"></td>
+        </tr>
+        <tr>
+            <td><strong>Overview</strong></td>
+            <td>Plataforma global para planificar viajes en transporte público, incluyendo colectivos y buses, con mapas, horarios y rutas.</td>
+            <td>Plataforma digital de compra de pasajes en buses interprovinciales en LATAM y Asia.</td>
+            <td>App india para compartir viajes al trabajo (carpooling) entre particulares con rutas fijas.</td>
+            <td>Plataforma enfocada en el transporte colectivo informal interurbano en zonas rurales y periféricas de Perú. Informa sobre paraderos, rutas, disponibilidad y tarifas.</td>
+        </tr>
+        <tr>
+            <td><strong>Ventajas Competitivas</strong></td>
+            <td>Amplia cobertura internacional, mapas en tiempo real, integración con transporte formal e informal.</td>
+            <td>Facilita pagos seguros y reservas anticipadas, alianzas con empresas de buses formales.</td>
+            <td>Permite compartir autos con rutas definidas entre compañeros de trabajo, bajo costo y menor congestión.</td>
+            <td>Adaptación cultural y tecnológica al entorno rural y periférico peruano, interfaz sin registro obligatorio, visibilidad de conductores informales, enfoque flexible e inclusivo.</td>
+        </tr>
+        <tr>
+            <td><strong>Modelo de Negocio</strong></td>
+            <td>Freemium para usuarios, venta de datos a operadores de transporte y gobiernos.</td>
+            <td>Comisión por pasaje vendido, acuerdos con empresas de transporte.</td>
+            <td>Comisión por viaje compartido, modelo B2C y B2B.</td>
+            <td>Modelo freemium: gratuito para usuarios, monetización a futuro por suscripciones o tarifas a conductores u organizaciones aliadas.</td>
+        </tr>
+        <tr>
+            <td><strong>Usuarios Objetivo</strong></td>
+            <td>Usuarios urbanos y suburbanos que usan transporte público.</td>
+            <td>Usuarios que viajan entre ciudades con servicios de buses formales.</td>
+            <td>Profesionales que comparten auto en horarios laborales.</td>
+            <td>Pasajeros de zonas rurales o periurbanas (20-60 años), conductores informales independientes, municipios o asociaciones de transporte.</td>
+        </tr>
+        <tr>
+            <td><strong>Tecnologías Clave</strong></td>
+            <td>GPS, API de mapas, predicción de llegada, alertas de tráfico.</td>
+            <td>Pasarela de pago, integración con operadores formales.</td>
+            <td>Geolocalización, agrupación por rutas y horarios.</td>
+            <td>GPS, interfaz simple y perfiles verificados de conductor, mapeo colaborativo de rutas y paraderos.</td>
+        </tr>
+        <tr>
+            <td><strong>Debilidades</strong></td>
+            <td>Requiere conectividad constante, enfoque urbano.</td>
+            <td>No cubre colectivos ni rutas informales.</td>
+            <td>Limitado a carpooling urbano, no apto para zonas rurales.</td>
+            <td>Depende de la adopción digital en zonas con conectividad limitada; requiere mapeo inicial colaborativo.</td>
+        </tr>
+    </tbody>
+</table>
 
 ## 2.2. Entrevistas
 
@@ -423,15 +503,76 @@ Task Matrix'. Las tareas listadas reflejan acciones que los usuarios ya realizan
 alcanzar sus objetivos, independientemente del uso de una aplicación o tecnología. Esta matriz
 permite identificar oportunidades donde la solución digital de Frock puede generar mayor valor.
 
-| TASK | User Story ID | CARRIER FREQUENCY | CARRIER IMPORTANCE | USERS FREQUENCY | USERS IMPORTANCE |
-| :--- | :---: | :---: | :---: | :---: | :---: |
-| Buscar rutas disponibles para llegar a su destino | **US01** | High | High | Medium | High |
-| Identificar paraderos adecuados para abordar | **US02** | High | High | Medium | Medium |
-| Ver información del conductor | **US03** | Media | High | Medium | High |
-| Avisar disponibilidad a pasajeros frecuentes | **US08** | Low | Medium | Alta | High |
-| Ajustar su horario según los momentos de mayor demanda | **US09** | Low | Medium | Alta | High |
-| Recordar o registrar los viajes que ha hecho | **US05** | Medium | Low | Low | Low |
-| Evaluar la experiencia del viaje con un conductor | **US04** | Medium | High | Medium | Medium |
+<table border="1">
+    <thead>
+        <tr>
+            <th>Task</th>
+            <th>User story ID</th>
+            <th>Carrier frequency</th>
+            <th>Carrier importance</th>
+            <th>Users frequency</th>
+            <th>Users importance</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Buscar rutas disponibles para llegar a su destino</td>
+            <td><strong>US01</strong></td>
+            <td>High</td>
+            <td>High</td>
+            <td>Medium</td>
+            <td>High</td>
+        </tr>
+        <tr>
+            <td>Identificar paraderos adecuados para abordar</td>
+            <td><strong>US02</strong></td>
+            <td>High</td>
+            <td>High</td>
+            <td>Medium</td>
+            <td>Medium</td>
+        </tr>
+        <tr>
+            <td>Ver información del conductor</td>
+            <td><strong>US03</strong></td>
+            <td>Media</td>
+            <td>High</td>
+            <td>Medium</td>
+            <td>High</td>
+        </tr>
+        <tr>
+            <td>Avisar disponibilidad a pasajeros frecuentes</td>
+            <td><strong>US08</strong></td>
+            <td>Low</td>
+            <td>Medium</td>
+            <td>Alta</td>
+            <td>High</td>
+        </tr>
+        <tr>
+            <td>Ajustar su horario según los momentos de mayor demanda</td>
+            <td><strong>US09</strong></td>
+            <td>Low</td>
+            <td>Medium</td>
+            <td>Alta</td>
+            <td>High</td>
+        </tr>
+        <tr>
+            <td>Recordar o registrar los viajes que ha hecho</td>
+            <td><strong>US05</strong></td>
+            <td>Medium</td>
+            <td>Low</td>
+            <td>Low</td>
+            <td>Low</td>
+        </tr>
+        <tr>
+            <td>Evaluar la experiencia del viaje con un conductor</td>
+            <td><strong>US04</strong></td>
+            <td>Medium</td>
+            <td>High</td>
+            <td>Medium</td>
+            <td>Medium</td>
+        </tr>
+    </tbody>
+</table>
 
 ### 2.3.3. Empathy Maps 
 
@@ -444,7 +585,7 @@ permite identificar oportunidades donde la solución digital de Frock puede gene
 ![EmpathyMap2](./images/PasajeroEmpathyMap.png)
 
 
-
+</div>
 
 
 
