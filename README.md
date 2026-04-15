@@ -5,8 +5,8 @@
     <strong> Aplicaciones para dispositivos Móviles </strong> <br>
     2026-10<br><br>
     <strong>NRC:</strong> 3821 <br>
-    <strong>PROFESOR:</strong> Mayta Guillermo, Jorge Luis
-    <strong>Nombre del Producto: - </strong>
+    <strong>PROFESOR:</strong> Mayta Guillermo, Jorge Luis <br><br>
+    <strong>Nombre del Producto: FirstCommit </strong>
 </p>
 
 <center><strong>Integrantes:</strong></center>
@@ -35,21 +35,45 @@
             <td><center>apellido, nombres</center></td>
             <td><center>codigo</center></td>
         </tr>
+        <tr>
+            <td><center>apellido, nombres</center></td>
+            <td><center>codigo</center></td>
+        </tr>
     </tbody>
   </table>
 
   <br/><br/>
 
-## <center><strong>Abril, 2026</strong></center> <br/>
+## <center><strong>Lima, 16 de abril del 2026</strong></center> <br/>
 
+<div style="page-break-after: always;"></div>
 
 # Registro de Versiones del Informe
 
-| Versión | Fecha      | Autor(es)                                                                                                                                                                         | Descripción de la modificación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-|---------|------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **AV1** | 21/09/2025 |  <br><br>  <br><br>  <br><br>  <br><br>  |    |
+<table border="1px" align="center">
+    <thead>
+        <tr>
+            <th>Versión</th>
+            <th>Fecha</th>
+            <th>Autor(es)</th>
+            <th>Descripción de la modificación</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1.0</td>
+            <td>05/04/2026</td>
+            <td>Velarde Gonzales, Néstor Hernán</td>
+            <td>Creación inicial del documento</td>
+        </tr>
+    </tbody>
+</table>
+
+<div style="page-break-after: always;"></div>
 
 # Project Report Collaboration Insights
+
+<div style="page-break-after: always;"></div>
 
 # Contenido
 
@@ -156,11 +180,42 @@
 - [**Bibliografía**](#bibliografía)
 - [**Anexos**](#anexos)
 
+<div style="page-break-after: always;"></div> 
 
 # Student Outcome
 
-# Objetivos SMART
+## ABET - EAC - Student Outcome 7
 
+Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea
+necesario, utilizando estrategias de aprendizaje apropiadas.
+
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones
+por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET –
+**EAC - Student Outcome 7**
+
+<table border="1px" align="center">
+    <tbody>
+        <tr>
+            <td>Criterio específico</td>
+            <td>Acciones realizadas</td>
+            <td>Conclusiones</td>
+        </tr>
+        <tr>
+            <td>Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software</td>
+            <td>- </td>
+            <td>- </td>
+        </tr>
+        <tr>
+            <td>Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.</td>
+            <td>- </td>
+            <td>- </td>
+        </tr>
+    </tbody>
+</table>
+
+<div style="page-break-after: always;"></div> 
+
+# Objetivos SMART
 
 # Capítulo I: Introducción
 
