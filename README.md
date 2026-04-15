@@ -1,15 +1,16 @@
 <div align="justify">
 
-<p align="center">
+<div align="center">
     <img src="https://www.upc.edu.pe/static/img/logo_upc_red.png" width="120px" alt="Logo UPC"><br><br>
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
-    <strong>Ingeniería de Software</strong><br><br>
+    <strong>Ingeniería de Software / Séptimo Ciclo</strong><br><br>
     <strong> Aplicaciones para dispositivos Móviles </strong> <br>
     2026-10<br><br>
     <strong>NRC:</strong> 3821 <br>
-    <strong>PROFESOR:</strong> Mayta Guillermo, Jorge Luis <br><br>
+    <strong>Profesor:</strong> Mayta Guillermo, Jorge Luis <br><br>
     <strong>Nombre del Producto: FirstCommit </strong> <br><br>
     <strong>Integrantes:</strong>
+</div>
   
   <table border="1px" align="center">
     <thead>
@@ -44,8 +45,9 @@
 
   <br/><br/>
 
-<strong>Lima, 16 de abril del 2026</strong></center> <br/>
-</p>
+<div align="center">
+<strong>Lima, 16 de abril del 2026</strong><br/>
+</div>
 
 <div style="page-break-after: always;"></div>
 
@@ -73,6 +75,8 @@
 <div style="page-break-after: always;"></div>
 
 # Project Report Collaboration Insights
+
+<img width="1286" height="897" alt="Image" src="https://github.com/user-attachments/assets/9eb8409d-1d4d-4516-9237-a87b46ccbfe5" />
 
 <div style="page-break-after: always;"></div>
 
