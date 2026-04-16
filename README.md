@@ -501,6 +501,8 @@ Se realizó una entrevista a Jhudith Pumallihua, una joven estudiante de 20 año
 
 **Imagen 01. Entrevista a Ángel**
 
+![EntrevistaConductor](./images/Entrevista_Conductor1.png)
+
 Se realizó una entrevista a Angel Mamani Cayampi, una Joven estudiante de 20 años que vive actualmente en distrito de San Miguel, Ángel actualmente se dedica a rubro de taxí desde hace unos años atrás, debido que es autofinancia sus estudios en un instituto para costear su carrera técnica, Mayormente los pasajeros no son satisfactorios como él lo espera, paraderos vacíos, pasajeros que cancelan el viaje a la ultima hora entre otros.
 
 
