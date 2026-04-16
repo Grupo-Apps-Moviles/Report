@@ -378,9 +378,9 @@ Este grupo representa a los operadores informales que ofrecen servicios de trans
     <tbody>
         <tr>
             <td><strong>Logo</strong></td>
-           <td><img src="./images/moovit.png"></td>
-            <td><img src="./images/redbus.png"></td>
-            <td><img src="./images/quickride.png"></td>
+           <td><img src="https://raw.githubusercontent.com/Grupo-Apps-Moviles/Report/refs/heads/main/images/moovit.png"></td>
+            <td><img src="https://raw.githubusercontent.com/Grupo-Apps-Moviles/Report/refs/heads/main/images/redbus.png"></td>
+            <td><img src="https://raw.githubusercontent.com/Grupo-Apps-Moviles/Report/refs/heads/main/images/quickride.png"></td>
             <td><img src="https://i.imgur.com/v8tT9Tz.png" width="100" alt="Frock"></td>
         </tr>
         <tr>
