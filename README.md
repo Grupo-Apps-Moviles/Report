@@ -431,6 +431,8 @@ Este grupo representa a los operadores informales que ofrecen servicios de trans
 
 ## 2.2. Entrevistas
 
+### 2.2.1. Diseño de entrevistas
+
 Para conocer a nuestros segmentos objetivos, se diseñaron preguntas en específico para conocerá a detalle sus experiencias diarias en el transporte sea viajes o como transportistas.
 
 ### Preguntas Generales:
@@ -465,10 +467,27 @@ Para conocer a nuestros segmentos objetivos, se diseñaron preguntas en específ
 * ¿Te interesaría aparecer como “empresa recomendada”?
 
 ---
+### 2.2.2. Registro de entrevistas
 
-### Registro de entrevista a usuarios (Pasajeros)
+#### Registro de entrevista a usuarios (Pasajeros)
 
-A continuación, se demostrará las entrevistas realizadas a los usuarios (pasajeros) y los transportistas para conocer sus experiencias diarias en el transporte.
+A continuación, se demostrará las entrevistas realizadas a los usuarios (pasajeros) para conocer sus experiencias diarias en el transporte.
+
+#### Entrevistador N 01:
+* **Entrevistador:**
+    * Nombre: Néstor Velarde Gonzales
+* **Entrevistado:**
+    * Nombre: Jhudith Pumallihua Huayanay
+    * Edad: 20 años
+    * Ocupación: Estudiante
+    * Distrito: San Juan de Lurigancho, Lima, Lima
+    * Link de video: [Video](#)
+
+**Imagen 01. Entrevista a Jhudith**
+
+Se realizó una entrevista a Jhudith Pumallihua, una joven estudiante de 20 años que vive actualmente en el distrito de San Juan de Lurigancho. Jhudith suele viajar con transporte público con mayor frecuencia día a día a sus destinos aquí en la ciudad de Lima. Cada día ella atraviesa dificultades al abordar un transporte debido a que no reconoce con claridad qué transporte pasa por el lugar al que quiere llegar. Los paraderos no son tan estables para los buses que aborda, muchas rutas cambian y ella se siente confundida. El mayor desafío que ha tenido es la pérdida de tiempo al esperar un transporte. Jhudith considera que usar la aplicación chapaturuta será valiosa por permitir una información concisa para cada viaje a su destino y con qué carro (transporte) movilizarse.
+
+#### Registro de entrevista a usuarios (Conductor)
 
 #### Entrevistador N 01:
 * **Entrevistador:**
@@ -478,13 +497,14 @@ A continuación, se demostrará las entrevistas realizadas a los usuarios (pasaj
     * Edad: 20 años
     * Ocupación: Estudiante
     * Distrito: San Miguel
-    * Link de video: [Video](#)
+    * Link de video: [Video](https://upcedupe-my.sharepoint.com/personal/u20211c221_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20211c221%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevista%20Chofer%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E3ceadd31%2Df7d2%2D4a0d%2Daf16%2D3cb87206fc38)
 
 **Imagen 01. Entrevista a Ángel**
 
 Se realizó una entrevista a Angel Mamani Cayampi, una Joven estudiante de 20 años que vive actualmente en distrito de San Miguel, Ángel actualmente se dedica a rubro de taxí desde hace unos años atrás, debido que es autofinancia sus estudios en un instituto para costear su carrera técnica, Mayormente los pasajeros no son satisfactorios como él lo espera, paraderos vacíos, pasajeros que cancelan el viaje a la ultima hora entre otros.
 
-### Conclusión de Entrevistas
+
+### 2.2.3. Análisis de entrevistas
 
 ## 2.3. Nedfinding
 
