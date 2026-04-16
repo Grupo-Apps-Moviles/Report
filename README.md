@@ -619,7 +619,7 @@ permite identificar oportunidades donde la solución digital de Frock puede gene
 
 ### 2.3.5. Big Picture EventStorming
 
-![EventStorming](./images/BigPictureEventStorming.jpg)
+<img width="786" height="1271" alt="Image" src="https://github.com/user-attachments/assets/aa808bb9-db1c-453f-ba92-3b296a963033" />
 
 Link: https://miro.com/app/board/uXjVGh3gqW0=/?share_link_id=125731988466
 
