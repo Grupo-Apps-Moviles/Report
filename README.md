@@ -990,7 +990,7 @@ En esta presente imagen, las clases del dominio IAM incluyen User como aggregate
 registro, Value Objects para encapsular datos importantes, e interfaces para los servicios de dominio con sus respectivas implementaciones.
 
 
-![Domain](./images/Domain.png)
+<img width="1386" height="830" alt="Image" src="https://github.com/user-attachments/assets/8adc3ac4-3ba0-4f27-b99a-76a12d985ed5" />
 
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
 
