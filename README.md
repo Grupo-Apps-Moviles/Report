@@ -983,4 +983,13 @@ Este diagrama representa la descomposición interna del container IAM Applicatio
 
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
+
+Diagrama de clases de la capa Domain:
+
+En esta presente imagen, las clases del dominio IAM incluyen User como aggregate root, Commands para las operaciones de autenticación y
+registro, Value Objects para encapsular datos importantes, e interfaces para los servicios de dominio con sus respectivas implementaciones.
+
+
+![Domain](./images/Domain.png)
+
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
