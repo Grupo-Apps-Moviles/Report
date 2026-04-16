@@ -619,7 +619,7 @@ permite identificar oportunidades donde la solución digital de Frock puede gene
 
 ### 2.3.5. Big Picture EventStorming
 
-<img width="786" height="1271" alt="Image" src="https://github.com/user-attachments/assets/aa808bb9-db1c-453f-ba92-3b296a963033" />
+<img width="1015" height="1538" alt="Image" src="https://github.com/user-attachments/assets/61567015-349d-4c7c-aea1-c769a49787a6" />
 
 Link: https://miro.com/app/board/uXjVGh3gqW0=/?share_link_id=125731988466
 
@@ -817,6 +817,23 @@ Este lenguaje común define los términos clave utilizados para el proyecto **Ch
 A continuación se presenta el EventStorming completo de ChapaTuRuta, realizado con el objetivo de mapear visualmente todo el dominio del negocio, identificar los eventos clave, actores, reglas de negocio y oportunidades de mejora.
 
 Link: https://miro.com/app/board/uXjVGh3gqW0=/?share_link_id=673497866524
+
+##### Bounded Context (IAM)
+
+<img width="1430" height="1092" alt="Image" src="https://github.com/user-attachments/assets/43d027b0-124a-4327-b4ca-56fa2413ca4a" />
+
+##### Bounded Context (Rutas y paraderos)
+
+<img width="1422" height="1098" alt="Image" src="https://github.com/user-attachments/assets/aa49d188-ba79-478e-b366-a5065433de09" />
+
+##### Bounded Context (Seguimiento y Localización)
+
+<img width="1415" height="1103" alt="Image" src="https://github.com/user-attachments/assets/afc5901c-ae23-48b5-825b-61858806aae6" />
+
+##### Bounded Context (Operaciones de viaje)
+
+<img width="1069" height="1460" alt="Image" src="https://github.com/user-attachments/assets/7ddd145a-f31d-4808-a44d-ba1b2e32642e" />
+
 
 #### 2.5.1.1. Candidate Context Discovery
 #### 2.5.1.2. Domain Message Flows Modeling
