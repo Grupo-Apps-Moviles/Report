@@ -993,3 +993,22 @@ registro, Value Objects para encapsular datos importantes, e interfaces para los
 ![Domain](./images/Domain.png)
 
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
+
+
+| Nombre        | Descripción                                                                 |
+|---------------|-----------------------------------------------------------------------------|
+| id            | Identificador único del registro, generalmente una clave primaria.          |
+| created_at    | Fecha y hora en que se creó el registro.                                    |
+| updated_at    | Fecha y hora de la última actualización del registro.                       |
+| company_name  | Nombre de la empresa asociada al usuario o entidad.                         |
+| email         | Dirección de correo electrónico del usuario.                                |
+| first_name    | Primer nombre del usuario.                                                  |
+| last_name     | Apellido del usuario.                                                       |
+| password      | Contraseña del usuario (almacenada de forma segura, usualmente encriptada). |
+| trial         | Indica si el usuario está en un período de prueba (true/false).             |
+| username      | Nombre de usuario único utilizado para iniciar sesión.                      |
+
+
+
+
+
