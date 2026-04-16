@@ -267,10 +267,9 @@ Nuestro objetivo es mejorar la conexión entre ciudades y distritos, facilitando
 
 ### 1.2. Solution Profile
 
-#### 1.2.1. Nombre del producto
 Nuestro producto **Chapaturuta** es una aplicación móvil desarrollada por el equipo de **Frock** que organiza y moderniza el transporte colectivo informal a través de información clara sobre rutas, paraderos y horarios que conecta ciudades y distritos brindando mayor accesibilidad y eficiencia para usuarios y conductores.
 
-#### 1.2.2. Antecedentes y problemática
+#### 1.2.1. Antecedentes y problemática
 En muchas regiones del Perú, especialmente en provincias y zonas rurales, los colectivos (autos compartidos que cubren rutas fijas entre pueblos o distritos) representan un medio de transporte esencial. Estas unidades operan de forma semiinformal, sin horarios estrictos ni plataformas digitales que informen sobre sus rutas, tarifas o paraderos. A pesar de su utilidad, la informalidad del servicio genera desinformación, falta de confianza y dificultad para planificar los viajes, especialmente para personas no familiarizadas con la zona. Es común que los pasajeros deban preguntar a transeúntes o esperar en puntos conocidos sin certeza del tiempo de espera o del costo del servicio.
 
 Por otro lado, los conductores de colectivos enfrentan problemas para captar nuevos pasajeros, organizar eficientemente sus recorridos y diferenciarse en un mercado competitivo e informal. Esta situación genera ineficiencias tanto para usuarios como para operadores del servicio. En este contexto, surge la necesidad de una solución digital accesible que brinde visibilidad, organización y confianza al sistema informal de colectivos interurbanos, sin perder su flexibilidad, adaptándose a la realidad tecnológica y cultural de estas zonas.
@@ -284,14 +283,14 @@ La problemática se puede resumir en los siguientes puntos:
 * **V. Barreras tecnológicas en la adopción digital:** Muchos usuarios potenciales viven en zonas con conectividad limitada o tienen baja familiaridad con el uso de aplicaciones móviles. Las plataformas de transporte tradicionales no están diseñadas para este público, al requerir registros complejos, conexión permanente o interfaces poco intuitivas.
 * **VI. Ausencia en el ecosistema de movilidad regional:** Al ser un sistema informal, los colectivos no están integrados en los planes de movilidad ni reciben soporte institucional. Esto contribuye a su invisibilidad como alternativa de transporte sostenible y eficiente en provincias del país.
 
-#### 1.2.3. Lean UX Process
+#### 1.2.2. Lean UX Process
 
-##### 1.2.3.1. Lean UX Problem Statement
+##### 1.2.2.1. Lean UX Problem Statement
 Nuestra aplicación busca ayudar a personas que desean trasladarse de forma económica entre ciudades o pueblos cercanos, y que actualmente no cuentan con información clara ni accesible sobre dónde se ubican los paraderos de colectivos, sus rutas, horarios aproximados y tarifas.
 
 Este problema afecta especialmente a viajeros locales, personas con recursos limitados o visitantes no familiarizados con la zona, que dependen del transporte colectivo para moverse de forma rápida y asequible. Al resolver este problema, esperamos que los usuarios puedan localizar fácilmente los puntos de embarque, planificar sus viajes con mayor confianza y acceder a una red de rutas informales que, aunque eficientes, hoy son invisibles para la mayoría.
 
-##### 1.2.3.2. Lean UX Assumptions
+##### 1.2.2.2. Lean UX Assumptions
 
 **a. Business Outcomes Assumptions**
 * Creemos que al organizar y hacer visible el servicio de colectivos informales, podemos capturar un mercado desatendido en regiones con transporte público limitado.
@@ -313,7 +312,7 @@ Este problema afecta especialmente a viajeros locales, personas con recursos lim
 * Creemos que perfiles de conductor con información básica (placa, tipo de vehículo, ruta habitual) mejorarán la percepción de seguridad.
 * Creemos que el sistema debe adaptarse al funcionamiento flexible del colectivo (sin horarios fijos, rutas semi estables).
 
-##### 1.2.3.3. Lean UX Hypothesis
+##### 1.2.2.3. Lean UX Hypothesis
 
 * **Hipótesis 1: Mapa con rutas y paraderos**
 Creemos que el objetivo de que más personas usen la aplicación para organizar sus viajes se logrará si los pasajeros interurbanos obtienen confianza y claridad sobre cómo tomar un colectivo con un mapa interactivo que muestre rutas disponibles, paraderos, horarios estimados y tarifas de referencia.
@@ -327,7 +326,9 @@ Creemos que aumentar la confianza de los usuarios y su retención en la app se l
 * **Hipótesis 4: Interfaz sin registro obligatorio**
 Creemos que aumentar la accesibilidad de la app y alcanzar a más usuarios en zonas con baja alfabetización digital se logrará si los pasajeros ocasionales obtienen acceso rápido y sin fricciones a la información de viaje con una interfaz sencilla que no requiera registro obligatorio.
 
-##### 1.2.3.4. Lean UX Canvas
+##### 1.2.2.4. Lean UX Canvas
+
+![Canvas](./images/canvas.png)
 
 ## 1.3. Segmentos objetivo
 
