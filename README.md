@@ -976,6 +976,11 @@ Siguiendo el modelo de arquitectura 'Clean Architecture' hemos dividido el proye
 
 
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+Este diagrama representa la descomposición interna del container IAM Application, correspondiente al bounded context de identidad y autenticación (IAM) dentro del sistema.
+
+![diagrama1](./images/diagrama1.png)
+
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
