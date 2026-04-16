@@ -1008,7 +1008,7 @@ registro, Value Objects para encapsular datos importantes, e interfaces para los
 | trial         | Indica si el usuario está en un período de prueba (true/false).             |
 | username      | Nombre de usuario único utilizado para iniciar sesión.                      |
 
-
+<img width="352" height="285" alt="Image" src="https://github.com/user-attachments/assets/e4b1a0bf-b854-470c-90d9-3f303102e76f" />
 
 
 
