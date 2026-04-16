@@ -378,9 +378,9 @@ Este grupo representa a los operadores informales que ofrecen servicios de trans
     <tbody>
         <tr>
             <td><strong>Logo</strong></td>
-            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Moovit_Logo.svg/1200px-Moovit_Logo.svg.png" width="100" alt="Moovit"></td>
-            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/RedBus_logo.svg/2560px-RedBus_logo.svg.png" width="100" alt="RedBus"></td>
-            <td><img src="https://quickride.in/assets/img/logo_qr.png" width="100" alt="QuickRide"></td>
+            <td><img src="./images/moovit.png>"></td>
+            <td><img src="./images/redbus.png>"></td>
+            <td><img src="./images/quickride.png>"></td>
             <td><img src="https://i.imgur.com/v8tT9Tz.png" width="100" alt="Frock"></td>
         </tr>
         <tr>
