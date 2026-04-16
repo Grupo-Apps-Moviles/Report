@@ -601,6 +601,10 @@ permite identificar oportunidades donde la solución digital de Frock puede gene
     </tbody>
 </table>
 
+### 2.3.3. User Journey Mapping
+
+
+
 ### 2.3.4. Empathy Maps 
 
 **Conductor:**
@@ -612,7 +616,12 @@ permite identificar oportunidades donde la solución digital de Frock puede gene
 ![EmpathyMap2](./images/PasajeroEmpathyMap.png)
 
 
-</div>
+
+### 2.3.5. Big Picture EventStorming
+
+![EventStorming](./images/BigPictureEventStorming.jpg)
+
+Link: https://miro.com/app/board/uXjVGh3gqW0=/?share_link_id=125731988466
 
 ### 2.3.6. Ubiquitous Language
 
