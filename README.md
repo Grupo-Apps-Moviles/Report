@@ -813,6 +813,11 @@ Este lenguaje común define los términos clave utilizados para el proyecto **Ch
 ## 2.5. Strategic-Level Domain-Driven Design
 
 ### 2.5.1. EventStorming
+
+A continuación se presenta el EventStorming completo de ChapaTuRuta, realizado con el objetivo de mapear visualmente todo el dominio del negocio, identificar los eventos clave, actores, reglas de negocio y oportunidades de mejora.
+
+Link: https://miro.com/app/board/uXjVGh3gqW0=/?share_link_id=673497866524
+
 #### 2.5.1.1. Candidate Context Discovery
 #### 2.5.1.2. Domain Message Flows Modeling
 #### 2.5.1.3. Bounded Context Canvases
