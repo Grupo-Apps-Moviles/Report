@@ -1200,36 +1200,111 @@ Siguiendo el modelo de arquitectura 'Clean Architecture' hemos dividido el proye
 
 ##### Sub-capa REST - Resources
 
-| Tipo     | Nombre                        | Descripción                                                              | Responsabilidad Principal                                                      | Relación con otros elementos                                      |
-|----------|-------------------------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------------|-------------------------------------------------------------------|
-| Resource | AuthenticatedUserResource     | Estructura de respuesta para usuario autenticado                         | Representar datos del usuario autenticado de forma estructurada                | Usado en AuthenticationController para respuestas de autenticación exitosa |
-| Resource | SignInResource                | Estructura de una petición para iniciar sesión                           | Representar y exponer datos del dominio de forma accesible y estructurada para el cliente | Uso en el "AuthenticationController" para peticionar datos de una manera predeterminada en la autenticación |
-| Resource | SignUpResource                | Estructura de una petición para registrar un usuario                     | Representar y exponer datos del dominio de forma accesible y estructurada para el cliente | Uso en el "AuthenticationController" para peticionar datos de una manera predeterminada en el registro |
-| Resource | UserResource                  | Estructura de datos del usuario                                          | Representar y exponer datos del dominio de forma accesible y estructurada para el cliente | Uso en el "UsersController" para emitir datos de una manera predeterminada sobre usuarios |
+<table border="1px" align="center">
+<thead>
+<tr>
+<th>Tipo</th>
+<th>Nombre</th>
+<th>Descripción</th>
+<th>Responsabilidad Principal</th>
+<th>Relación con otros elementos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Resource</td>
+<td>OperationResource</td>
+<td>Estructura de datos de una operación técnica</td>
+<td>Representar y exponer datos de mantenimiento de forma accesible para el cliente</td>
+<td>Uso en OperationsController para emitir datos sobre mantenimiento de flota</td>
+</tr>
+<tr>
+<td>Resource</td>
+<td>CreateOperationResource</td>
+<td>Estructura para registrar una nueva operación</td>
+<td>Representar la petición del cliente para iniciar un proceso operativo</td>
+<td>Uso en OperationsController para capturar datos de entrada</td>
+</tr>
+</tbody>
+</table>
 
 ##### Sub-capa REST - Transform (Assemblers)
 
-| Tipo      | Nombre                                      | Descripción                                                              | Responsabilidad Principal                                                      | Relación con otros elementos                                      |
-|-----------|---------------------------------------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------------|-------------------------------------------------------------------|
-| Assembler | AuthenticatedUserResourceFromEntityAssembler | Transformador de entidad User a AuthenticatedUserResource                | Convertir la entidad del dominio a su representación REST correspondiente      | Usado en controladores para transformar respuestas                |
-| Assembler | SignInCommandFromResourceAssembler          | Transformador de SignInResource a SignInCommand                          | Convertir la petición REST a comando del dominio                               | Usado en AuthenticationController para procesar peticiones de login |
-| Assembler | SignUpCommandFromResourceAssembler          | Transformador de SignUpResource a SignUpCommand                          | Convertir la petición REST a comando del dominio                               | Usado en AuthenticationController para procesar peticiones de registro |
-| Assembler | UserResourceFromEntityAssembler             | Transformador de entidad User a UserResource                             | Convertir la entidad del dominio a su representación REST correspondiente      | Usado en UsersController para transformar respuestas              |
+<table border="1px" align="center">
+<thead>
+<tr>
+<th>Tipo</th>
+<th>Nombre</th>
+<th>Descripción</th>
+<th>Responsabilidad Principal</th>
+<th>Relación con otros elementos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Assembler</td>
+<td>OperationResourceFromEntityAssembler</td>
+<td>Transformador de entidad Operation a OperationResource</td>
+<td>Convertir la entidad de dominio a su representación estructurada REST</td>
+<td>Usado en controladores para transformar respuestas de la API</td>
+</tr>
+<tr>
+<td>Assembler</td>
+<td>CreateOperationCommandFromResourceAssembler</td>
+<td>Transformador de CreateOperationResource a Command</td>
+<td>Convertir la petición REST a un comando procesable por el dominio</td>
+<td>Usado en OperationsController para procesar registros técnicos</td>
+</tr>
+</tbody>
+</table>
 
 
 ##### Sub-capa REST - Controllers
 
-| Tipo      | Nombre                   | Descripción                                                      | Responsabilidad Principal                                           | Relación con otros elementos                                      |
-|-----------|--------------------------|------------------------------------------------------------------|---------------------------------------------------------------------|-------------------------------------------------------------------|
-| Controller| AuthenticationController | Controlador para operaciones de autenticación                    | Manejar las peticiones HTTP relacionadas con autenticación y registro | Usa los services de aplicación y los assemblers para procesar peticiones |
-| Controller| UsersController          | Controlador para operaciones de gestión de usuarios              | Manejar las peticiones HTTP relacionadas con operaciones CRUD de usuarios | Usa los query services y assemblers para procesar peticiones      |
+<table border="1px" align="center">
+<thead>
+<tr>
+<th>Tipo</th>
+<th>Nombre</th>
+<th>Descripción</th>
+<th>Responsabilidad Principal</th>
+<th>Relación con otros elementos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Controller</td>
+<td>OperationsController</td>
+<td>Controlador para gestión de flota y mantenimiento</td>
+<td>Manejar las peticiones HTTP relacionadas con tareas técnicas y operativas</td>
+<td>Usa servicios de aplicación y assemblers para procesar flujos de trabajo</td>
+</tr>
+</tbody>
+</table>
 
 
 ##### Sub-capa ACL
 
-| Tipo    | Nombre             | Descripción                                              | Responsabilidad Principal                                           | Relación con otros elementos                                      |
-|---------|--------------------|----------------------------------------------------------|---------------------------------------------------------------------|-------------------------------------------------------------------|
-| Service | IamContextFacade   | Servicio de fachada para IAM                             | Proporcionar una interfaz simplificada para interactuar con el contexto IAM desde otros bounded contexts | Relacionado con otros bounded contexts que necesitan servicios de identidad y acceso |
+<table border="1px" align="center">
+<thead>
+<tr>
+<th>Tipo</th>
+<th>Nombre</th>
+<th>Descripción</th>
+<th>Responsabilidad Principal</th>
+<th>Relación con otros elementos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Service</td>
+<td>OperationsContextFacade</td>
+<td>Servicio de fachada para Operaciones</td>
+<td>Proporcionar una interfaz simplificada para consultar el estado operativo y técnico de los vehículos desde otros contextos</td>
+<td>Relacionado con el contexto de Rutas para validar si un vehículo está apto para ser asignado</td>
+</tr>
+</tbody>
+</table>
 
 
 
@@ -1237,93 +1312,157 @@ Siguiendo el modelo de arquitectura 'Clean Architecture' hemos dividido el proye
 
 ##### Sub-capa Internal - CommandServices
 
-| Tipo          | Nombre              | Descripción                                      | Responsabilidad Principal                                      | Relación con otros elementos                                      |
-|---------------|---------------------|--------------------------------------------------|----------------------------------------------------------------|-------------------------------------------------------------------|
-| CommandHandler| UserCommandService  | Implementación de los Comandos de Autenticación  | Implementar los métodos para el servicio de autenticación      | Implementa los métodos de la interface de su mismo nombre en la capa de "Services" |
+<table border="1px" align="center">
+<thead>
+<tr>
+<th>Tipo</th>
+<th>Nombre</th>
+<th>Descripción</th>
+<th>Responsabilidad Principal</th>
+<th>Relación con otros elementos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CommandHandler</td>
+<td>OperationCommandService</td>
+<td>Implementación de los comandos de gestión operativa</td>
+<td>Ejecutar la lógica de negocio para la creación y actualización de tareas de mantenimiento</td>
+<td>Implementa los métodos de la interfaz IOperationCommandService definida en la capa de Domain Services</td>
+</tr>
+</tbody>
+</table>
 
 ##### Sub-capa Internal - OutboundServices
 
-| Tipo    | Nombre            | Descripción                                      | Responsabilidad Principal                                      | Relación con otros elementos                                      |
-|---------|-------------------|--------------------------------------------------|----------------------------------------------------------------|-------------------------------------------------------------------|
-| Service | IHashingService   | Interfaz para servicios de hashing               | Definir contratos para operaciones de hash de contraseñas      | Implementado en la capa Infrastructure                            |
-| Service | ITokenService     | Interfaz para servicios de tokens                | Definir contratos para generación y validación de tokens       | Implementado en la capa Infrastructure                            |
+<table border="1px" align="center">
+<thead>
+<tr>
+<th>Tipo</th>
+<th>Nombre</th>
+<th>Descripción</th>
+<th>Responsabilidad Principal</th>
+<th>Relación con otros elementos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Service</td>
+<td>IExternalVehicleService</td>
+<td>Interfaz para validación de recursos externos</td>
+<td>Definir contratos para verificar estados de vehículos en sistemas externos o sensores</td>
+<td>Implementado en la capa de Infrastructure para comunicación con hardware o APIs externas</td>
+</tr>
+</tbody>
+</table>
+
 
 ##### Sub-capa Internal - QueryServices
 
-| Tipo        | Nombre            | Descripción                                      | Responsabilidad Principal                                      | Relación con otros elementos                                      |
-|-------------|-------------------|--------------------------------------------------|----------------------------------------------------------------|-------------------------------------------------------------------|
-| QueryHandler| UserQueryService  | Implementación de las consultas de usuarios      | Implementar los métodos para las consultas de usuarios        | Implementa los métodos de la interface de su mismo nombre en la capa de "Services" |
+<table border="1px" align="center">
+<thead>
+<tr>
+<th>Tipo</th>
+<th>Nombre</th>
+<th>Descripción</th>
+<th>Responsabilidad Principal</th>
+<th>Relación con otros elementos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>QueryHandler</td>
+<td>OperationQueryService</td>
+<td>Implementación de las consultas de operaciones</td>
+<td>Orquestar la recuperación de datos técnicos y estados de la flota para el cliente</td>
+<td>Implementa los métodos de la interfaz IOperationQueryService definida en la capa de Domain Services</td>
+</tr>
+</tbody>
+</table>
 
 
 
 #### 2.6.1.4 Infrastructure Layer
 
-##### Sub-capa Hashing (BCrypt)
-
-| Tipo    | Nombre          | Descripción                                           | Responsabilidad Principal                                      | Relación con otros elementos                                      |
-|---------|-----------------|-------------------------------------------------------|----------------------------------------------------------------|-------------------------------------------------------------------|
-| Service | HashingService  | Servicio para el hash de contraseñas usando BCrypt    | Proporcionar métodos para hashear y verificar contraseñas de forma segura | Relacionado con la seguridad de la aplicación y usado en UserCommandService |
-
 
 ##### Sub-capa Persistence (EFC)
 
-| Tipo       | Nombre         | Descripción                                                | Responsabilidad Principal                                      | Relación con otros elementos                                      |
-|------------|----------------|------------------------------------------------------------|----------------------------------------------------------------|-------------------------------------------------------------------|
-| Repository | UserRepository | Repositorio para usar del modelo "User" con Entity Framework Core | Acceder y manipular datos persistidos en la base de datos      | Usado en la Capa "Application" para implementar el registro y autenticación de un usuario |
+<table border="1px" align="center">
+<thead>
+<tr>
+<th>Tipo</th>
+<th>Nombre</th>
+<th>Descripción</th>
+<th>Responsabilidad Principal</th>
+<th>Relación con otros elementos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Repository</td>
+<td>OperationRepository</td>
+<td>Repositorio para el modelo "Operation" con Entity Framework Core</td>
+<td>Gestionar la persistencia y recuperación de datos sobre el mantenimiento y estado técnico vehicular</td>
+<td>Usado en la Capa "Application" para implementar la lógica de gestión de flota</td>
+</tr>
+</tbody>
+</table>
 
-##### Sub-capa Pipeline (Middleware)
+##### Sub-capa External Services (Hardware/API)
 
-| Tipo       | Nombre                             | Descripción                                              | Responsabilidad Principal                                      | Relación con otros elementos                                      |
-|------------|------------------------------------|----------------------------------------------------------|----------------------------------------------------------------|-------------------------------------------------------------------|
-| Attribute  | AllowAnonymousAttribute            | Atributo para permitir acceso anónimo                    | Marcar endpoints que no requieren autenticación                | Usado en controladores para endpoints públicos                    |
-| Attribute  | AuthorizeAttribute                 | Atributo para requerir autorización                      | Marcar endpoints que requieren autenticación y/o autorización específica | Usado en controladores para proteger endpoints                    |
-| Component  | RequestAuthorizationMiddleware     | Middleware para autorización de peticiones               | Interceptar y validar autorización en cada petición HTTP       | Relacionado con el pipeline de la aplicación                      |
-| Extension  | RequestAuthorizationMiddlewareExtensions | Extensiones para el middleware de autorización      | Proporcionar métodos de extensión para configurar el middleware | Usado para configurar el pipeline de autorización                 |
-
-
-##### Sub-capa Tokens (JWT)
-
-| Tipo    | Nombre          | Descripción                                                              | Responsabilidad Principal                                                      | Relación con otros elementos                                      |
-|---------|-----------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------------|-------------------------------------------------------------------|
-| Config  | TokenSettings   | Configuración de tokens JWT                                              | Almacenar configuraciones relacionadas con la generación y validación de tokens | Usado por TokenService para configurar JWT                        |
-| Service | TokenService    | Servicio para manejo de tokens JWT                                       | Encapsular toda la lógica relacionada con el manejo de tokens JWT (generación, validación, decodificación) | Relacionado con la seguridad de la aplicación y usado en autenticación |
+<table border="1px" align="center">
+<thead>
+<tr>
+<th>Tipo</th>
+<th>Nombre</th>
+<th>Descripción</th>
+<th>Responsabilidad Principal</th>
+<th>Relación con otros elementos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Service</td>
+<td>VehicleExternalService</td>
+<td>Adaptador para comunicación con sistemas de diagnóstico externo</td>
+<td>Implementar la comunicación técnica para obtener estados reales del motor o sensores del vehículo</td>
+<td>Implementa la interfaz IExternalVehicleService de la capa Application</td>
+</tr>
+</tbody>
+</table>
 
 
 
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
 
-Este diagrama representa la descomposición interna del container IAM Application, correspondiente al bounded context de identidad y autenticación (IAM) dentro del sistema.
+Este diagrama representa la descomposición interna del container Operaciones, correspondiente al bounded context de operaciones de los conductores al aceptar una petición dentro del sistema.
 
-![diagrama1](./images/diagrama1.png)
+<img width="2369" height="554" alt="Image" src="https://github.com/user-attachments/assets/8c96be6f-82e8-4e44-ac3e-f0943a4627cb" />
 
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
 
 Diagrama de clases de la capa Domain:
 
-En esta presente imagen, las clases del dominio IAM incluyen User como aggregate root, Commands para las operaciones de autenticación y
-registro, Value Objects para encapsular datos importantes, e interfaces para los servicios de dominio con sus respectivas implementaciones.
+En esta presente imagen, las clases del dominio Operaciones incluyen Operation como Aggregate Root, el cual centraliza la gestión del estado técnico de la flota. Se presentan Commands para la creación y actualización de tareas operativas, Queries para la consulta de registros, Value Objects para asegurar la integridad de los estados de mantenimiento, e interfaces que definen los contratos para los servicios de dominio y la persistencia de datos.
 
 
-<img width="1386" height="830" alt="Image" src="https://github.com/user-attachments/assets/8adc3ac4-3ba0-4f27-b99a-76a12d985ed5" />
+<img width="1389" height="746" alt="Image" src="https://github.com/user-attachments/assets/8daf8c53-2e3c-4c45-bfa7-f71f19114437" />
 
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
 
 
-| Nombre        | Descripción                                                                 |
-|---------------|-----------------------------------------------------------------------------|
-| id            | Identificador único del registro, generalmente una clave primaria.          |
-| created_at    | Fecha y hora en que se creó el registro.                                    |
-| updated_at    | Fecha y hora de la última actualización del registro.                       |
-| company_name  | Nombre de la empresa asociada al usuario o entidad.                         |
-| email         | Dirección de correo electrónico del usuario.                                |
-| first_name    | Primer nombre del usuario.                                                  |
-| last_name     | Apellido del usuario.                                                       |
-| password      | Contraseña del usuario (almacenada de forma segura, usualmente encriptada). |
-| trial         | Indica si el usuario está en un período de prueba (true/false).             |
-| username      | Nombre de usuario único utilizado para iniciar sesión.                      |
+|Nombre |Descripción|
+|id|Identificador único del registro de la operación (Primary Key).|
+|vehicle_id |Identificador del vehículo que realiza la operación (Foreign Key).|
+|driver_id| Identificador del conductor que acepta y ejecuta la operación.|
+|description |Detalles adicionales sobre el servicio o la ruta solicitada.|
+|status |"Estado actual de la operación (ej. PENDING, ACCEPTED, COMPLETED)."|
+|operation_cost |Monto o tarifa calculada para el trayecto u operación.|
+|created_at |Fecha y hora en que se generó la solicitud de operación.|
+|updated_at |Fecha y hora de la última actualización del estado.|
 
-<img width="352" height="285" alt="Image" src="https://github.com/user-attachments/assets/e4b1a0bf-b854-470c-90d9-3f303102e76f" />
+<img width="486" height="228" alt="Image" src="https://github.com/user-attachments/assets/1e7d7643-081e-4877-97ee-17f50d9ce57f" />
 
 
 
