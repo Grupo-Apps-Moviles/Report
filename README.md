@@ -1464,5 +1464,457 @@ En esta presente imagen, las clases del dominio Operaciones incluyen Operation c
 
 <img width="486" height="228" alt="Image" src="https://github.com/user-attachments/assets/1e7d7643-081e-4877-97ee-17f50d9ce57f" />
 
+### 2.6.2. Bounded Context: Rutas
+
+Siguiendo el modelo de arquitectura 'Clean Architecture' hemos dividido el proyecto en capas. A continuación detallamos las capas del Bounded Context Rutas.
+
+#### 2.6.2.1. Domain Layer
+
+##### Sub-capa Model - Aggregates
+
+<table border="1px" align="center">
+<thead>
+<tr>
+<th>Tipo</th>
+<th>Nombre</th>
+<th>Descripción</th>
+<th>Responsabilidad Principal</th>
+<th>Relación con otros elementos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Aggregate</td>
+<td>Route</td>
+<td>Clase para definir el trayecto de transporte</td>
+<td>Gestionar la lógica de los recorridos, precios y horarios de salida</td>
+<td>Relacionado con paraderos y colecciones de rutas creadas por pasajeros</td>
+</tr>
+</tbody>
+</table>
+
+
+##### Sub-capa Model - Commands
+
+<table border="1px" align="center">
+<thead>
+<tr>
+<th>Tipo</th>
+<th>Nombre</th>
+<th>Descripción</th>
+<th>Responsabilidad Principal</th>
+<th>Relación con otros elementos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Command</td>
+<td>CreateRouteCommand</td>
+<td>Comando para registrar una nueva ruta</td>
+<td>Representar la intención de crear un nuevo trayecto vinculando paraderos</td>
+<td>Usado en el servicio de comandos de rutas para la gestión empresarial</td>
+</tr>
+<tr>
+<td>Command</td>
+<td>UpdateRouteCommand</td>
+<td>Comando para editar una ruta existente</td>
+<td>Representar cambios en tarifas, horarios o paraderos asociados</td>
+<td>Usado para mantener actualizada la oferta de servicios de la empresa</td>
+</tr>
+<tr>
+<td>Command</td>
+<td>DeleteRouteCommand</td>
+<td>Comando para eliminar una ruta</td>
+<td>Representar la baja de un servicio del listado público</td>
+<td>Utilizado para que la ruta no interfiera en las búsquedas de los viajeros</td>
+</tr>
+</tbody>
+</table>
+
+##### Sub-capa Model - Queries
+
+<table border="1px" align="center">
+<thead>
+<tr>
+<th>Tipo</th>
+<th>Nombre</th>
+<th>Descripción</th>
+<th>Responsabilidad Principal</th>
+<th>Relación con otros elementos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Query</td>
+<td>GetAllRoutesQuery</td>
+<td>Consulta para obtener todas las rutas</td>
+<td>Representar la intención de listar todos los trayectos disponibles</td>
+<td>Usado para mostrar resultados en las búsquedas y filtros por ubicación</td>
+</tr>
+<tr>
+<td>Query</td>
+<td>GetRouteByIdQuery</td>
+<td>Consulta para obtener detalles de una ruta</td>
+<td>Representar la intención de visualizar información completa de un recorrido</td>
+<td>Usado para mostrar detalles de empresa, duración y tarifas al pasajero</td>
+</tr>
+</tbody>
+</table>
+
+
+##### Sub-capa Model - Value Objects
+
+<table border="1px" align="center">
+<thead>
+<tr>
+<th>Tipo</th>
+<th>Nombre</th>
+<th>Descripción</th>
+<th>Responsabilidad Principal</th>
+<th>Relación con otros elementos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value Object</td>
+<td>RouteLocation</td>
+<td>Ubicación geográfica de la ruta</td>
+<td>Encapsular datos de región, provincia, distrito y ciudad</td>
+<td>Usado en el agregado "Route" para el filtrado por locación</td>
+</tr>
+<tr>
+<td>Value Object</td>
+<td>RouteSchedule</td>
+<td>Horarios de atención</td>
+<td>Representar los intervalos y horarios de salida de los colectivos</td>
+<td>Usado para informar al viajero la disponibilidad horaria</td>
+</tr>
+</tbody>
+</table>
+
+##### Sub-capa Services
+
+<table border="1px" align="center">
+<thead>
+<tr>
+<th>Tipo</th>
+<th>Nombre</th>
+<th>Descripción</th>
+<th>Responsabilidad Principal</th>
+<th>Relación con otros elementos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Interface</td>
+<td>IRouteCommandService</td>
+<td>Servicio para métodos de gestión de rutas</td>
+<td>Estipular la estructura para crear, editar o eliminar trayectos</td>
+<td>Implementado en la capa de aplicación para la lógica de negocio empresarial</td>
+</tr>
+<tr>
+<td>Interface</td>
+<td>IRouteQueryService</td>
+<td>Servicio para consultas de itinerarios</td>
+<td>Estipular la estructura para la recuperación y filtrado de rutas</td>
+<td>Utilizado para responder a las búsquedas de rutas cercanas de los pasajeros</td>
+</tr>
+</tbody>
+</table>
+
+##### Sub-capa Repositories
+
+<table border="1px" align="center">
+<thead>
+<tr>
+<th>Tipo</th>
+<th>Nombre</th>
+<th>Descripción</th>
+<th>Responsabilidad Principal</th>
+<th>Relación con otros elementos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Interface</td>
+<td>IRouteRepository</td>
+<td>Repositorio para persistencia de rutas</td>
+<td>Definir contratos para operaciones CRUD del modelo Route</td>
+<td>Implementado en la capa de Infrastructure para acceso a datos</td>
+</tr>
+</tbody>
+</table>
+
+
+#### 2.6.1.2. Interface Layer
+
+
+##### Sub-capa REST - Resources
+
+<table border="1px" align="center">
+<thead>
+<tr>
+<th>Tipo</th>
+<th>Nombre</th>
+<th>Descripción</th>
+<th>Responsabilidad Principal</th>
+<th>Relación con otros elementos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Resource</td>
+<td>RouteResource</td>
+<td>Estructura de datos de una ruta o trayecto</td>
+<td>Representar y exponer los detalles de la ruta (tarifas, horarios, paraderos) de forma accesible para el cliente</td>
+<td>Uso en RoutesController para emitir datos sobre los trayectos disponibles</td>
+</tr>
+<tr>
+<td>Resource</td>
+<td>CreateRouteResource</td>
+<td>Estructura para registrar una nueva ruta</td>
+<td>Representar la petición del cliente para crear un nuevo recorrido en el sistema</td>
+<td>Uso en RoutesController para capturar datos de entrada desde el gestor de la empresa</td>
+</tr>
+</tbody>
+</table>
+
+##### Sub-capa REST - Transform (Assemblers)
+
+<table border="1px" align="center">
+<thead>
+<tr>
+<th>Tipo</th>
+<th>Nombre</th>
+<th>Descripción</th>
+<th>Responsabilidad Principal</th>
+<th>Relación con otros elementos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Assembler</td>
+<td>RouteResourceFromEntityAssembler</td>
+<td>Transformador de entidad Route a RouteResource</td>
+<td>Convertir la entidad de dominio Route a su representación estructurada JSON para la API</td>
+<td>Usado en los controladores para transformar las respuestas enviadas al viajero o empresa</td>
+</tr>
+<tr>
+<td>Assembler</td>
+<td>CreateRouteCommandFromResourceAssembler</td>
+<td>Transformador de CreateRouteResource a Command</td>
+<td>Convertir el recurso de creación recibido por HTTP en un comando ejecutable por el dominio</td>
+<td>Usado en RoutesController para procesar el registro de nuevos itinerarios</td>
+</tr>
+</tbody>
+</table>
+
+
+##### Sub-capa REST - Controllers
+
+<table border="1px" align="center">
+<thead>
+<tr>
+<th>Tipo</th>
+<th>Nombre</th>
+<th>Descripción</th>
+<th>Responsabilidad Principal</th>
+<th>Relación con otros elementos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Controller</td>
+<td>RoutesController</td>
+<td>Controlador para la gestión y consulta de rutas</td>
+<td>Manejar las peticiones HTTP relacionadas con la creación, edición, eliminación y búsqueda de rutas</td>
+<td>Usa servicios de aplicación y assemblers para coordinar el flujo de gestión de trayectos</td>
+</tr>
+</tbody>
+</table>
+
+
+##### Sub-capa ACL
+
+<table border="1px" align="center">
+<thead>
+<tr>
+<th>Tipo</th>
+<th>Nombre</th>
+<th>Descripción</th>
+<th>Responsabilidad Principal</th>
+<th>Relación con otros elementos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Service</td>
+<td>RoutesContextFacade</td>
+<td>Servicio de fachada para el contexto de Rutas</td>
+<td>Exponer métodos simplificados para que otros contextos consulten paraderos o validen trayectos</td>
+<td>Utilizado por el contexto de Seguimiento para verificar los puntos de control de una ruta activa</td>
+</tr>
+</tbody>
+</table>
+
+
+#### 2.6.1.3. Application Layer
+
+##### Sub-capa Internal - CommandServices
+
+<table border="1px" align="center">
+<thead>
+<tr>
+<th>Tipo</th>
+<th>Nombre</th>
+<th>Descripción</th>
+<th>Responsabilidad Principal</th>
+<th>Relación con otros elementos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CommandHandler</td>
+<td>RouteCommandService</td>
+<td>Implementación de los comandos de gestión de rutas</td>
+<td>Ejecutar la lógica de negocio para la creación, edición y eliminación de rutas y paraderos</td>
+<td>Implementa los métodos de la interfaz IRouteCommandService definida en la capa de Domain Services</td>
+</tr>
+</tbody>
+</table>
+
+##### Sub-capa Internal - OutboundServices
+
+<table border="1px" align="center">
+<thead>
+<tr>
+<th>Tipo</th>
+<th>Nombre</th>
+<th>Descripción</th>
+<th>Responsabilidad Principal</th>
+<th>Relación con otros elementos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Service</td>
+<td>IExternalMapsService</td>
+<td>Interfaz para servicios de cartografía externos</td>
+<td>Definir contratos para validar coordenadas geográficas y calcular distancias entre paraderos</td>
+<td>Implementado en la capa de Infrastructure para comunicación con APIs de mapas (Google Maps/Mapbox)</td>
+</tr>
+</tbody>
+</table>
+
+
+##### Sub-capa Internal - QueryServices
+
+<table border="1px" align="center">
+<thead>
+<tr>
+<th>Tipo</th>
+<th>Nombre</th>
+<th>Descripción</th>
+<th>Responsabilidad Principal</th>
+<th>Relación con otros elementos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>QueryHandler</td>
+<td>RouteQueryService</td>
+<td>Implementación de las consultas de rutas e itinerarios</td>
+<td>Orquestar la recuperación de trayectos, filtrado por ubicación y visualización de colecciones para el viajero</td>
+<td>Implementa los métodos de la interfaz IRouteQueryService definida en la capa de Domain Services</td>
+</tr>
+</tbody>
+</table>
+
+
+#### 2.6.1.4 Infrastructure Layer
+
+
+##### Sub-capa Persistence (EFC)
+
+<table border="1px" align="center">
+<thead>
+<tr>
+<th>Tipo</th>
+<th>Nombre</th>
+<th>Descripción</th>
+<th>Responsabilidad Principal</th>
+<th>Relación con otros elementos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Repository</td>
+<td>RouteRepository</td>
+<td>Repositorio para el modelo "Route" con Entity Framework Core</td>
+<td>Gestionar la persistencia y recuperación de datos de trayectos, paraderos y horarios en la base de datos</td>
+<td>Usado en la Capa "Application" por RouteCommandService y RouteQueryService para gestionar el ciclo de vida de las rutas</td>
+</tr>
+</tbody>
+</table>
+
+##### Sub-capa External Services (Hardware/API)
+
+<table border="1px" align="center">
+<thead>
+<tr>
+<th>Tipo</th>
+<th>Nombre</th>
+<th>Descripción</th>
+<th>Responsabilidad Principal</th>
+<th>Relación con otros elementos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Service</td>
+<td>MapsExternalService</td>
+<td>Adaptador para servicios de mapas externos (Google Maps / Mapbox)</td>
+<td>Implementar la lógica técnica para la validación de coordenadas, cálculo de distancias y visualización de paraderos</td>
+<td>Implementa la interfaz IExternalMapsService de la capa Application para proveer datos geoespaciales precisos</td>
+</tr>
+</tbody>
+</table>
+
+
+
+#### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+Este diagrama representa la descomposición interna del container Rutas, correspondiente al bounded context de rutas de los pasajeros al momento de pedir el servicio dentro del sistema.
+
+<img width="2277" height="554" alt="Image" src="https://github.com/user-attachments/assets/80d37ae4-ec54-4d66-bdab-687036ff34bb" />
+
+#### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
+
+Diagrama de clases de la capa Domain:
+
+En esta presente imagen, las clases del dominio Rutas incluyen Route como Aggregate Root, el cual gestiona la lógica de los recorridos, precios y paraderos. Se presentan Commands para la creación, actualización y eliminación de rutas, Queries para la búsqueda y filtrado de trayectos, Value Objects para encapsular la ubicación geográfica y los horarios de salida, e interfaces que definen los contratos para los servicios de dominio y la persistencia de datos.
+
+
+<img width="1619" height="779" alt="Image" src="https://github.com/user-attachments/assets/0e44e84f-d046-4962-b16d-04c9d75d42da" />
+
+##### 2.6.1.6.2. Bounded Context Database Design Diagram
+
+
+|Nombre |Descripción| 
+|id| Identificador único de la ruta (Primary Key).|
+|company_id| Identificador de la empresa de transporte dueña de la ruta (Foreign Key).|
+|origin_stop_id| ID del paradero de inicio del trayecto.|
+|dest_stop_id |ID del paradero de fin del trayecto.|
+|region| "Región geográfica donde opera la ruta (ej. Lima, Cusco)."|
+|province| Provincia correspondiente a la zona de operación.|
+|district| Distrito para el filtrado específico por ubicación.|
+|base_price| Tarifa estándar establecida para el recorrido.|
+|departure_time |Horario programado para la salida del colectivo.|
+|created_at |Fecha y hora de creación del registro de la ruta.|
+|updated_at |Fecha y hora de la última actualización de datos.|
+
+<img width="433" height="277" alt="Image" src="https://github.com/user-attachments/assets/05d496d5-187f-43d8-8908-e34e1ee86275" />
+
 
 
