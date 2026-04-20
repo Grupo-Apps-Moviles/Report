@@ -1901,18 +1901,20 @@ En esta presente imagen, las clases del dominio Rutas incluyen Route como Aggreg
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
 
 
-|Nombre |Descripción| 
-|id| Identificador único de la ruta (Primary Key).|
-|company_id| Identificador de la empresa de transporte dueña de la ruta (Foreign Key).|
-|origin_stop_id| ID del paradero de inicio del trayecto.|
-|dest_stop_id |ID del paradero de fin del trayecto.|
-|region| "Región geográfica donde opera la ruta (ej. Lima, Cusco)."|
-|province| Provincia correspondiente a la zona de operación.|
-|district| Distrito para el filtrado específico por ubicación.|
-|base_price| Tarifa estándar establecida para el recorrido.|
-|departure_time |Horario programado para la salida del colectivo.|
-|created_at |Fecha y hora de creación del registro de la ruta.|
-|updated_at |Fecha y hora de la última actualización de datos.|
+| Nombre         | Descripción                                                               |
+|----------------|---------------------------------------------------------------------------|
+| id             | Identificador único de la ruta (Primary Key).                             |
+| company_id     | Identificador de la empresa de transporte dueña de la ruta (Foreign Key). |
+| origin_stop_id | ID del paradero de inicio del trayecto.                                   |
+| dest_stop_id   | ID del paradero de fin del trayecto.                                      |
+| region         | "Región geográfica donde opera la ruta (ej. Lima, Cusco)."                |
+| province       | Provincia correspondiente a la zona de operación.                         |
+| district       | Distrito para el filtrado específico por ubicación.                       |
+| base_price     | Tarifa estándar establecida para el recorrido.                            |
+| departure_time | Horario programado para la salida del colectivo.                          |
+| created_at     | Fecha y hora de creación del registro de la ruta.                         |
+| updated_at     | Fecha y hora de la última actualización de datos.                         |
+
 
 <img width="433" height="277" alt="Image" src="https://github.com/user-attachments/assets/05d496d5-187f-43d8-8908-e34e1ee86275" />
 
