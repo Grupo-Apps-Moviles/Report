@@ -527,12 +527,10 @@ Se realiz√≥ una entrevista a Angel Mamani Cayampi, una Joven estudiante de 20 a√
 ### 2.3.1. User Personas
 
 **User Persona - pasajeros**
-**Imagen:**
 
-![EmpathyMap1](./images/PasajeroUserPersona.png)
+<img width="1050" height="1858" alt="Image" src="https://github.com/user-attachments/assets/dad2f416-e35b-484f-a3ce-be17c6d90a3c" />
 
 **User Persona - conductores**
-**Imagen:** [Foto](#)
 
 ![EmpathyMap2](./images/ConductorUserPersona.png)
 
