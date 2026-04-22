@@ -348,8 +348,8 @@ Ser el ecosistema digital líder en la gestión del transporte interurbano y rur
             </td>
         </tr>
         <tr>
-            <td>Foto</td>
-            <td>Datos</td>
+            <td><img width="2064" height="2758" alt="Image" src="https://github.com/user-attachments/assets/fb7d3127-17d1-40f8-86bb-cfb703bfd728" /></td>
+            <td>Soy **Angelo Curi Marcelo**, estudiante de Ingeniería de Software en la **Universidad Peruana de Ciencias Aplicadas (UPC)**, con conocimientos en lenguajes de programación como **C++** y **Python**. Además, manejo herramientas que apoyan el desarrollo eficiente de proyectos de software. Siempre me esfuerzo por adquirir nuevas habilidades y mejorar mis competencias técnicas para afrontar los desafíos del desarrollo de software. Me considero una persona responsable, comprometida y enfocada en la calidad del trabajo. Tengo la capacidad de adaptarme rápidamente a nuevas tecnologías y entornos. Cumplo con los plazos establecidos y tengo una gran disposición para aprender y colaborar en equipo. </td>
         </tr>
         <tr>
             <td>Foto</td>
@@ -2558,7 +2558,43 @@ Diagrama de clases de la capa Domain:
 
 # Conclusiones y recomendaciones
 
-> *(Sección pendiente de desarrollo)*
+## Conclusiones
+
+Tras el desarrollo del presente informe y la ejecución del primer avance del proyecto **WayPass**, se han determinado las siguientes conclusiones:
+
+### 1. Sobre la Problemática y la Propuesta de Valor
+* **Modernización del Sector Informal:** Se concluye que existe una oportunidad crítica para digitalizar el sistema de colectivos interurbanos en Perú. WayPass logra transformar un sistema basado en la desinformación en una red organizada, permitiendo que el transporte informal adquiera niveles de visibilidad y confianza propios de sistemas formales.
+* **Reducción de la Brecha de Información:** La centralización de rutas, paraderos y tarifas en una plataforma única resuelve el problema de la dependencia de canales tradicionales (boca a boca), beneficiando directamente la planificación de viajes de los usuarios.
+
+### 2. Sobre el Diseño Centrado en el Usuario (UX)
+* **Accesibilidad e Inclusión Digital:** La decisión de permitir el acceso a la información de rutas sin registro obligatorio para los pasajeros es un factor de éxito clave. Esto asegura que la aplicación sea inclusiva para usuarios con baja alfabetización digital o aquellos que requieren rapidez en situaciones de movilidad.
+* **Seguridad y Confianza:** La implementación de perfiles de conductores verificados y la transparencia en los costos del servicio actúan como mitigadores de la desconfianza, un problema recurrente identificado en el análisis de *Needfinding*.
+
+### 3. Sobre la Arquitectura y el Desarrollo Técnico
+* **Robustez mediante DDD:** La adopción del enfoque *Domain-Driven Design* (DDD) permite que el sistema sea escalable y mantenible. La separación clara de contextos (IAM, Profiles, Routes, Stops) asegura que la lógica de negocio esté protegida contra cambios externos.
+* **Eficiencia en la Integración:** El uso de una Capa Anticorrupción (ACL) garantiza una comunicación fluida y segura entre los microservicios de identidad y los perfiles de usuario, evitando la propagación de modelos de datos inconsistentes.
+
+### 4. Sobre el Impacto del Modelo de Negocio
+* **Sostenibilidad mediante B2B:** El modelo de suscripción para conductores independientes se perfila como una solución viable, ya que les ofrece una herramienta de gestión profesional a cambio de una inversión mínima, permitiéndoles competir en un mercado cada vez más tecnológico.
+
+## Recomendaciones
+
+Basado en el análisis del proyecto y los hallazgos durante el avance, se sugieren las siguientes acciones para asegurar el éxito y la sostenibilidad de **WayPass**:
+
+### 1. Sobre el Producto y la Experiencia de Usuario (UX)
+* **Gamificación para Conductores:** Se recomienda implementar un sistema de medallas o puntos para los conductores que mantengan sus horarios y rutas actualizados en tiempo real. Esto incentivará la precisión de los datos, que es el núcleo del valor de la aplicación.
+* **Modo Offline:** Dada la variabilidad de la cobertura de red en rutas interurbanas y rurales, es fundamental desarrollar una funcionalidad de caché que permita a los pasajeros consultar las rutas y paraderos descargados previamente sin necesidad de conexión activa a internet.
+
+### 2. Sobre la Estrategia de Mercado y Validación
+* **Alianzas Estratégicas:** Se sugiere establecer contactos con asociaciones de transportistas locales para realizar planes piloto. Esto facilitará la adopción masiva y permitirá obtener feedback directo de los usuarios reales en un entorno controlado.
+* **Campañas de Alfabetización Digital:** Realizar material educativo simplificado (videos cortos o infografías físicas en los paraderos) que explique el uso de la aplicación, enfocándose en los beneficios de seguridad y ahorro de tiempo para el pasajero.
+
+### 3. Sobre el Desarrollo Técnico y Escalabilidad
+* **Implementación de Notificaciones Push:** Integrar un sistema de alertas en tiempo real que notifique a los pasajeros sobre cambios de último minuto en las tarifas o retrasos en las rutas debido a factores externos (clima, tráfico o mantenimiento vial).
+
+### 4. Sobre la Seguridad y el Cumplimiento
+* **Monitoreo de Veracidad:** Desarrollar un algoritmo de validación o un sistema de reportes por parte de los usuarios para identificar y sancionar perfiles de conductores que brinden información falsa sobre precios o rutas, manteniendo así la integridad de la plataforma.
+* **Protección de Datos:** Asegurar que el contexto de IAM (Identity and Access Management) cumpla estrictamente con la Ley de Protección de Datos Personales, especialmente al manejar información sensible de los conductores suscritos.
 
 # Video App Validation
 
