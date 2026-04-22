@@ -1154,7 +1154,7 @@ registro, Value Objects para encapsular datos importantes, e interfaces para los
 
 ### 2.6.2. Bounded Context: Profile
 
-Siguiendo el modelo de arquitectura 'Clean Architecture' hemos dividido el proyecto en capas. A continuación detallamos las capas del Bounded Context Operaciones.
+Siguiendo el modelo de arquitectura 'Clean Architecture' hemos dividido el proyecto en capas. A continuación detallamos las capas del Bounded Context Profile.
 
 #### 2.6.2.1. Domain Layer
 
@@ -1575,4 +1575,450 @@ En esta imagen se muestran las clases del dominio Profile que incluyen Company c
 </table>
 
 <img width="440" height="262" alt="Image" src="https://github.com/user-attachments/assets/aa97aacc-350d-43d7-9489-93b550a1c120" />
+
+
+### 2.6.2. Bounded Context: STOPS
+
+Siguiendo el modelo de arquitectura 'Clean Architecture' hemos dividido el proyecto en capas. A continuación detallamos las capas del Bounded Context STOPS.
+
+#### 2.6.2.1. Domain Layer
+
+#### Sub-capa Model - Aggregates: 
+
+<table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="padding: 10px;">Tipo</th>
+      <th style="padding: 10px;">Nombre</th>
+      <th style="padding: 10px;">Descripción</th>
+      <th style="padding: 10px;">Responsabilidad Principal</th>
+      <th style="padding: 10px;">Relación con otros elementos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px;">Aggregate</td>
+      <td style="padding: 10px;">Stop</td>
+      <td style="padding: 10px;">Representa una <b>parada</b> en el sistema (colectivo o transporte). Incluye información como nombre, dirección, referencia, empresa y ubicación geográfica.</td>
+      <td style="padding: 10px;">Representar y mantener el estado consistente de una parada dentro del bounded context <b>Stops</b>, asegurando que los datos cumplan las reglas de negocio.</td>
+      <td style="padding: 10px;">Se relaciona con los <b>Commands</b> y <b>Queries</b>. Puede ser consumido por otros bounded contexts, como <b>Routes</b>.</td>
+    </tr>
+  </tbody>
+</table>
+
+#### Sub-capa Model - Commands:
+
+<table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="padding: 10px;">Tipo</th>
+      <th style="padding: 10px;">Nombre</th>
+      <th style="padding: 10px;">Descripción</th>
+      <th style="padding: 10px;">Responsabilidad Principal</th>
+      <th style="padding: 10px;">Relación con otros elementos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px;">Commands</td>
+      <td style="padding: 10px;">CreateStopCommand</td>
+      <td style="padding: 10px;">Representa la intención de <b>crear</b> una nueva parada en el sistema. Contiene los datos iniciales necesarios: nombre, dirección, referencia, empresa y distrito.</td>
+      <td style="padding: 10px;">Transportar la información requerida desde la capa de aplicación hasta el dominio para permitir la creación de un nuevo aggregate <b>Stop</b>.</td>
+      <td style="padding: 10px;">Se consume en el aggregate <b>Stop</b>, que lo utiliza para inicializar su estado.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">Commands</td>
+      <td style="padding: 10px;">UpdateStopCommand</td>
+      <td style="padding: 10px;">Representa la intención de <b>actualizar</b> la información de una parada existente. Incluye el identificador de la parada y los nuevos valores de sus atributos.</td>
+      <td style="padding: 10px;">Transportar los cambios desde la capa de aplicación hasta el dominio para mantener actualizada la información de un aggregate <b>Stop</b>.</td>
+      <td style="padding: 10px;">Se consume en el aggregate <b>Stop</b>, que aplica los cambios al estado existente.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">Commands</td>
+      <td style="padding: 10px;">DeleteStopCommand</td>
+      <td style="padding: 10px;">Representa la intención de <b>eliminar</b> una parada del sistema. Requiere el identificador de la parada a borrar.</td>
+      <td style="padding: 10px;">Indicar la eliminación de un aggregate <b>Stop</b> dentro del bounded context <b>Stops</b>.</td>
+      <td style="padding: 10px;">Se consume en el aggregate <b>Stop</b>, que interpreta la eliminación y ajusta su estado en consecuencia.</td>
+    </tr>
+  </tbody>
+</table>
+
+#### Sub-capa Model - DTOs:
+
+
+<table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="padding: 10px;">Tipo</th>
+      <th style="padding: 10px;">Nombre</th>
+      <th style="padding: 10px;">Descripción</th>
+      <th style="padding: 10px;">Responsabilidad Principal</th>
+      <th style="padding: 10px;">Relación con otros elementos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px;">DTOs</td>
+      <td style="padding: 10px;">GeoResponseDto</td>
+      <td style="padding: 10px;">Objeto de transferencia de datos que encapsula información geográfica: departamento (NOM_DEP), provincia (NOM_PROV), distrito (NOM_DIST) y código (COD_UBIGEO).</td>
+      <td style="padding: 10px;">Transportar información geográfica de respuesta, principalmente para exponer datos jerárquicos de ubicación hacia la capa de aplicación o servicios externos.</td>
+      <td style="padding: 10px;">Puede ser utilizado en consultas de paradas para complementar la información de localización. Relacionado indirectamente con el aggregate <b>Stop</b> mediante <b>FkIdDistrict</b>.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">DTOs</td>
+      <td style="padding: 10px;">LocationHierarchyDto</td>
+      <td style="padding: 10px;">DTO pensado para representar la jerarquía de localizaciones (departamento → provincia → distrito). Actualmente definido como clase vacía a la espera de ser completada.</td>
+      <td style="padding: 10px;">Servirá como estructura de transporte para organizar la información de ubicaciones en diferentes niveles jerárquicos dentro del dominio.</td>
+      <td style="padding: 10px;">Complementará al aggregate <b>Stop</b> al permitir exponer datos completos de localización. Se integrará con <b>GeoResponseDto</b> y claves foráneas de ubicación.</td>
+    </tr>
+  </tbody>
+</table>
+
+
+#### Sub-capa Model - Queries:
+
+<table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="padding: 10px;">Tipo</th>
+      <th style="padding: 10px;">Nombre</th>
+      <th style="padding: 10px;">Descripción</th>
+      <th style="padding: 10px;">Responsabilidad Principal</th>
+      <th style="padding: 10px;">Relación con otros elementos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px;">Queries</td>
+      <td style="padding: 10px;">GetAllStopsByFkIdCompanyQuery</td>
+      <td style="padding: 10px;">Consulta para obtener todas las paradas asociadas a una empresa específica mediante el campo <b>FkIdCompany</b>.</td>
+      <td style="padding: 10px;">Permitir la recuperación de colecciones de paradas filtradas por empresa, facilitando la gestión de paradas en contextos multiempresa.</td>
+      <td style="padding: 10px;">Se relaciona con el aggregate <b>Stop</b>, devolviendo un conjunto de entidades que cumplen con el criterio de la compañía.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">Queries</td>
+      <td style="padding: 10px;">GetAllStopsQuery</td>
+      <td style="padding: 10px;">Consulta para recuperar la lista completa de paradas disponibles en el sistema, sin filtros adicionales.</td>
+      <td style="padding: 10px;">Proporcionar una visión global de todas las paradas registradas en el dominio.</td>
+      <td style="padding: 10px;">Devuelve una colección de aggregates <b>Stop</b>, utilizada en interfaces administrativas o reportes.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">Queries</td>
+      <td style="padding: 10px;">GetStopByIdQuery</td>
+      <td style="padding: 10px;">Consulta para recuperar la información de una parada específica identificada por su <b>Id</b>.</td>
+      <td style="padding: 10px;">Facilitar la obtención puntual de los datos de un aggregate <b>Stop</b>.</td>
+      <td style="padding: 10px;">Se relaciona directamente con un único aggregate <b>Stop</b>, permitiendo exponer sus atributos al exterior.</td>
+    </tr>
+  </tbody>
+</table>
+
+
+#### Sub-capa Services:
+
+<table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="padding: 10px;">Tipo</th>
+      <th style="padding: 10px;">Nombre</th>
+      <th style="padding: 10px;">Descripción</th>
+      <th style="padding: 10px;">Responsabilidad Principal</th>
+      <th style="padding: 10px;">Relación con otros elementos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px;">Interface</td>
+      <td style="padding: 10px;">IGeoImportService</td>
+      <td style="padding: 10px;">Servicio de dominio que permite obtener información geográfica desde una API externa y trasladarla al dominio mediante <b>GeoResponseDto</b>.</td>
+      <td style="padding: 10px;">Facilitar la integración con fuentes de datos externas, asegurando que la información geográfica pueda ser consumida en el bounded context <b>Stops</b>.</td>
+      <td style="padding: 10px;">Produce <b>GeoResponseDto</b>, usado por otros componentes del dominio o aplicación.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">Interfaces</td>
+      <td style="padding: 10px;">IStopCommandService</td>
+      <td style="padding: 10px;">Servicio encargado de manejar los <b>Commands</b> relacionados con el agregado <b>Stop</b>. Define operaciones para crear, actualizar y eliminar paradas en el dominio.</td>
+      <td style="padding: 10px;">Coordinar la ejecución de <b>CreateStopCommand</b>, <b>UpdateStopCommand</b> y <b>DeleteStopCommand</b>, garantizando la consistencia del agregado.</td>
+      <td style="padding: 10px;">Se relaciona directamente con el aggregate <b>Stop</b> y los <b>Commands</b> de dominio.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">Interfaces</td>
+      <td style="padding: 10px;">IStopQueryService</td>
+      <td style="padding: 10px;">Servicio encargado de manejar las consultas (<b>Queries</b>) sobre el agregado <b>Stop</b>. Permite recuperar colecciones o instancias puntuales de paradas.</td>
+      <td style="padding: 10px;">Ejecutar queries como <b>GetAllStopsQuery</b>, <b>GetStopByIdQuery</b>, <b>GetAllStopsByFkIdCompanyQuery</b>, <b>GetAllStopsByFkIdDistrictQuery</b> y <b>GetStopByNameAndFkIdDistrictQuery</b>.</td>
+      <td style="padding: 10px;">Se relaciona directamente con el aggregate <b>Stop</b>, los <b>Queries</b> y potencialmente con <b>DTOs</b> para exponer resultados.</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+#### 2.6.1.2. Interface Layer
+
+#### Sub-capa REST - Resources:
+
+<table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="padding: 10px;">Tipo</th>
+      <th style="padding: 10px;">Nombre</th>
+      <th style="padding: 10px;">Descripción</th>
+      <th style="padding: 10px;">Responsabilidad Principal</th>
+      <th style="padding: 10px;">Relación con otros elementos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px;">Resource</td>
+      <td style="padding: 10px;">CreateStopFormResource</td>
+      <td style="padding: 10px;">Modelo que representa los datos enviados desde un formulario para crear una parada, incluyendo imagen opcional.</td>
+      <td style="padding: 10px;">Recibir y validar datos de entrada (multipart/form-data) para la creación de un Stop.</td>
+      <td style="padding: 10px;">Consumido por <b>StopsController</b>, transformado a <b>CreateStopResource</b> y luego a <b>CreateStopCommand</b>.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">Resource</td>
+      <td style="padding: 10px;">CreateStopResource</td>
+      <td style="padding: 10px;">Modelo simplificado de datos necesarios para crear una parada, incluyendo referencia a imagen ya procesada.</td>
+      <td style="padding: 10px;">Transportar datos desde la capa Interface hacia el dominio en un formato limpio.</td>
+      <td style="padding: 10px;">Convertido en <b>CreateStopCommand</b> mediante <b>CreateStopCommandFromResourceAssembler</b>.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">Resource</td>
+      <td style="padding: 10px;">DeleteStopResource</td>
+      <td style="padding: 10px;">Modelo que encapsula el identificador de una parada a eliminar.</td>
+      <td style="padding: 10px;">Permitir transportar el Id de la parada desde la capa Interface al dominio.</td>
+      <td style="padding: 10px;">Usado por <b>DeleteStopCommandFromResourceAssembler</b> para generar un <b>DeleteStopCommand</b>.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">Assembler</td>
+      <td style="padding: 10px;">CreateStopCommandFromResourceAssembler</td>
+      <td style="padding: 10px;">Convierte un <b>CreateStopResource</b> en un <b>CreateStopCommand</b>.</td>
+      <td style="padding: 10px;">Traducir objetos de la capa Interface en comandos del dominio.</td>
+      <td style="padding: 10px;">Usado en <b>StopsController</b> al procesar el endpoint de creación de paradas.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">Assembler</td>
+      <td style="padding: 10px;">DeleteStopCommandFromResourceAssembler</td>
+      <td style="padding: 10px;">Convierte un <b>DeleteStopResource</b> en un <b>DeleteStopCommand</b>.</td>
+      <td style="padding: 10px;">Traducir solicitudes de eliminación desde la capa Interface hacia el dominio.</td>
+      <td style="padding: 10px;">Usado en <b>StopsController</b> al procesar eliminaciones.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">Assembler</td>
+      <td style="padding: 10px;">StopResourceFromEntityAssembler</td>
+      <td style="padding: 10px;">Convierte una entidad <b>Stop</b> en un <b>StopResource</b> para exponerla en la API.</td>
+      <td style="padding: 10px;">Transformar datos de entidades de dominio en recursos REST.</td>
+      <td style="padding: 10px;">Usado en <b>StopsController</b> y otros controllers para exponer resultados en formato JSON.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">Controller</td>
+      <td style="padding: 10px;">GeographicController</td>
+      <td style="padding: 10px;">Controlador REST que maneja operaciones relacionadas con regiones, provincias y distritos.</td>
+      <td style="padding: 10px;">Exponer endpoints GET para recuperar entidades geográficas (por id, o colecciones completas).</td>
+      <td style="padding: 10px;">Se apoya en servicios como <b>IRegionQueryService</b>, <b>IProvinceQueryService</b> e <b>IDistrictQueryService</b>, entre otros.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">Controller</td>
+      <td style="padding: 10px;">StopsController</td>
+      <td style="padding: 10px;">Controlador REST principal para la gestión de paradas (Stop).</td>
+      <td style="padding: 10px;">Exponer endpoints CRUD y de consulta (por empresa, distrito, nombre).</td>
+      <td style="padding: 10px;">Depende de <b>IStopCommandService</b>, <b>IStopQueryService</b> e <b>ICloudinaryService</b>; usa assemblers y resources para comunicar dominio e interfaz.</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+
+#### 2.6.1.3. Application Layer
+
+
+#### Sub-capa Internal - CommandServices:
+
+<table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="padding: 10px;">Tipo</th>
+      <th style="padding: 10px;">Nombre</th>
+      <th style="padding: 10px;">Descripción</th>
+      <th style="padding: 10px;">Responsabilidad Principal</th>
+      <th style="padding: 10px;">Relación con otros elementos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px;">Command Service</td>
+      <td style="padding: 10px;">StopCommandService</td>
+      <td style="padding: 10px;">Implementación concreta de IStopCommandService para manejar comandos de creación, actualización y eliminación de paradas.</td>
+      <td style="padding: 10px;">Orquestar la lógica de aplicación para procesar comandos (Create, Update, Delete) sobre el aggregate <b>Stop</b>, utilizando el repositorio y el unit of work.</td>
+      <td style="padding: 10px;">Depende de <b>IStopRepository</b> e <b>IUnitOfWork</b>; se comunica con el dominio mediante <b>CreateStopCommand</b>, <b>UpdateStopCommand</b> y <b>DeleteStopCommand</b>.</td>
+    </tr>
+  </tbody>
+</table>
+
+#### Sub-capa Internal - QueryServices:
+
+<table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="padding: 10px;">Tipo</th>
+      <th style="padding: 10px;">Nombre</th>
+      <th style="padding: 10px;">Descripción</th>
+      <th style="padding: 10px;">Responsabilidad Principal</th>
+      <th style="padding: 10px;">Relación con otros elementos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px;">Query Service</td>
+      <td style="padding: 10px;">StopQueryService</td>
+      <td style="padding: 10px;">Implementación de IStopQueryService que gestiona consultas relacionadas con las paradas (Stops).</td>
+      <td style="padding: 10px;">Ejecutar queries para obtener datos de paradas según criterios (por empresa, distrito, id, nombre) o listar todas las existentes.</td>
+      <td style="padding: 10px;">Depende de <b>IStopRepository</b>; responde a queries como <b>GetAllStopsByFkIdCompanyQuery</b>, <b>GetAllStopsByFkIdDistrictQuery</b>, entre otras. Es utilizado por <b>StopsController</b>.</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 2.6.1.4 Infrastructure Layer
+
+#### Sub-capa Persistence - Repositories:
+
+<table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="padding: 10px;">Tipo</th>
+      <th style="padding: 10px;">Nombre</th>
+      <th style="padding: 10px;">Descripción</th>
+      <th style="padding: 10px;">Responsabilidad Principal</th>
+      <th style="padding: 10px;">Relación con otros elementos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px;">Repository</td>
+      <td style="padding: 10px;">StopRepository</td>
+      <td style="padding: 10px;">Implementación concreta de IStopRepository utilizando Entity Framework Core.</td>
+      <td style="padding: 10px;">Acceder y manipular datos persistidos de la entidad <b>Stop</b> en la base de datos, proveyendo métodos específicos de búsqueda (compañía, distrito, nombre).</td>
+      <td style="padding: 10px;">Extiende de <b>BaseRepository</b> y depende de <b>AppDbContext</b>. Es utilizado por <b>StopCommandService</b> y <b>StopQueryService</b>.</td>
+    </tr>
+  </tbody>
+</table>
+
+#### Initialization (Seeders)
+
+<table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="padding: 10px;">Tipo</th>
+      <th style="padding: 10px;">Nombre</th>
+      <th style="padding: 10px;">Descripción</th>
+      <th style="padding: 10px;">Responsabilidad Principal</th>
+      <th style="padding: 10px;">Relación con otros elementos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px;">Seeder</td>
+      <td style="padding: 10px;">GeographicDataSeeder</td>
+      <td style="padding: 10px;">Clase encargada de inicializar datos de regiones, provincias y distritos consumiendo información de una API externa.</td>
+      <td style="padding: 10px;">Consultar la API mediante <b>IGeoImportService</b> y poblar la base de datos con Region, Province y District usando servicios de comando.</td>
+      <td style="padding: 10px;">Depende de <b>IGeoImportService</b>, servicios de comando de ubicación y <b>ILogger</b>. Se ejecuta en la inicialización del sistema.</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+#### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+Este diagrama representa la descomposición interna del container Stops Application, correspondiente al bounded context de gestión de stops de empresa dentro del sistema. Se trata de un backend desarrollado bajo los principios de Clean Architecture y Domain-Driven Design(DDD), y se ilustra aquí en el Nivel 3 del C4 Model (Component Diagram).
+
+<img width="1351" height="1079" alt="Image" src="https://github.com/user-attachments/assets/b15849c3-9726-409b-8bec-e900ba75b20f" />
+
+#### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
+
+Diagrama de clases de la capa Domain:
+
+La Capa de Dominio del Bounded Context STOPS actúa como el núcleo central del sistema bajo principios de Domain-Driven Design (DDD), donde el agregado Stop centraliza la lógica de negocio y garantiza la integridad de los datos de las paradas, interactuando con Commands y Queries para separar las acciones de escritura y lectura mediante el patrón CQRS. Este ecosistema se mantiene desacoplado de la infraestructura gracias a interfaces de servicios y repositorios que definen los contratos de persistencia e integración geográfica, permitiendo que la lógica fundamental —apoyada en DTOs como GeoResponseDto para la gestión de ubicaciones— permanezca pura, testeable y protegida frente a cambios en tecnologías externas.
+
+<img width="1736" height="953" alt="Image" src="https://github.com/user-attachments/assets/f61c8792-ff53-42e5-8d59-d2be56de575b" />
+
+
+##### 2.6.1.6.2. Bounded Context Database Design Diagram
+
+<table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
+<thead>
+<tr style="background-color: #f2f2f2;">
+<th style="padding: 10px;">Nombre</th>
+<th style="padding: 10px;">Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="padding: 10px;"><strong>id</strong></td>
+<td style="padding: 10px;">Identificador único de la parada (Primary Key).</td>
+</tr>
+<tr>
+<td style="padding: 10px;"><strong>name</strong></td>
+<td style="padding: 10px;">Nombre descriptivo de la parada (ej. "Paradero Central").</td>
+</tr>
+<tr>
+<td style="padding: 10px;"><strong>address</strong></td>
+<td style="padding: 10px;">Dirección física detallada de la ubicación.</td>
+</tr>
+<tr>
+<td style="padding: 10px;"><strong>reference</strong></td>
+<td style="padding: 10px;">Información adicional para localizar la parada (puntos de referencia).</td>
+</tr>
+<tr>
+<td style="padding: 10px;"><strong>fk_id_company</strong></td>
+<td style="padding: 10px;">Identificador de la empresa propietaria o gestora (Foreign Key lógica / Índice).</td>
+</tr>
+<tr>
+<td style="padding: 10px;"><strong>fk_id_district</strong></td>
+<td style="padding: 10px;">Referencia al distrito donde se ubica la parada (Foreign Key).</td>
+</tr>
+<tr>
+<td style="padding: 10px;"><strong>image_url</strong></td>
+<td style="padding: 10px;">Ruta o enlace a la imagen almacenada en la nube (Cloudinary).</td>
+</tr>
+<tr>
+<td style="padding: 10px;"><strong>created_at</strong></td>
+<td style="padding: 10px;">Fecha y hora de registro de la parada.</td>
+</tr>
+<tr>
+<td style="padding: 10px;"><strong>updated_at</strong></td>
+<td style="padding: 10px;">Fecha y hora de la última modificación.</td>
+</tr>
+</tbody>
+</table>
+
+#### Tablas Geográficas
+
+<table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
+<thead>
+<tr style="background-color: #f2f2f2;">
+<th style="padding: 10px;">Tabla</th>
+<th style="padding: 10px;">Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="padding: 10px;"><strong>regions</strong></td>
+<td style="padding: 10px;">Almacena los departamentos/regiones (ej. Lima, Cusco).</td>
+</tr>
+<tr>
+<td style="padding: 10px;"><strong>provinces</strong></td>
+<td style="padding: 10px;">Relaciona las provincias con sus respectivas regiones.</td>
+</tr>
+<tr>
+<td style="padding: 10px;"><strong>districts</strong></td>
+<td style="padding: 10px;">Almacena los distritos y su código UBIGEO, siendo el nivel final de ubicación para los <i>Stops</i>.</td>
+</tr>
+</tbody>
+</table>
+
+<img width="440" height="797" alt="Image" src="https://github.com/user-attachments/assets/7547c6d9-bcb3-4d15-97d8-698bf312bcf1" />
+
 
