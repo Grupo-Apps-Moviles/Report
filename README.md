@@ -29,8 +29,8 @@
             <td><center>U202022387</center></td>
         </tr>
         <tr>
-            <td><center>apellido, nombres</center></td>
-            <td><center>codigo</center></td>
+            <td><center>Guzmán Cabrejos, Yaku Mateo</center></td>
+            <td><center>U20231B173</center></td>
         </tr>
         <tr>
             <td><center>apellido, nombres</center></td>
@@ -371,7 +371,14 @@ Ser el ecosistema digital líder en la gestión del transporte interurbano y rur
         </tr>
         <tr>
             <td>Foto</td>
-            <td>Datos</td>
+            <td>Soy Yaku Guzmán, estudiante de Ingeniería de Software en el séptimo ciclo. 
+Cuento con conocimientos en lenguajes de programación como Python, C#, Java, 
+C++ y TypeScript, así como en frameworks y tecnologías modernas como Vue.js, 
+Angular, Spring Boot y ASP.NET Core. He desarrollado proyectos reales aplicando 
+arquitectura Domain-Driven Design (DDD), REST APIs y despliegue con Docker. 
+Además, tengo experiencia en diseño de infraestructura de redes empresariales. 
+Me considero autodidacta, analítico y comprometido con la calidad del trabajo 
+en equipo.</td>
         </tr>
         <tr>
             <td>Foto</td>
