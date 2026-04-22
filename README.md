@@ -300,13 +300,13 @@ por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET
         </tr>
         <tr>
             <td>Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software</td>
-            <td>- </td>
-            <td>- </td>
+            <td> <br>Joaquin Carranza:</br><br> Avance 1: Entendi que debo dominar las arquitecturas en tiempo real y el Geofencing, ya que las entrevistas me demostraron que la información es dinámica y los paraderos son informales. Necesito construir un software capaz de procesar eventos al instante para que el usuario reciba datos precisos sobre el llenado y la ubicación de las unidades, apoyado en una UX minimalista que permita reportes rápidos desde la calle.</br></td>
+            <td><br>Joaquin Carranza:</br><br> Avance 1: Las entrevistas confirman que el transporte local sufre una crisis de información que puedo resolver digitalizando la función del "datero". Mi proyecto debe actuar como el puente que elimine la incertidumbre del pasajero y optimice el llenado del transportista, transformando el caos de la informalidad en un sistema predecible y eficiente mediante una solución técnica adaptada a mi entorno.</br> </td>
         </tr>
         <tr>
             <td>Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.</td>
-            <td>- </td>
-            <td>- </td>
+            <td><br>Joaquin Carranza:</br><br> Avance 1: Comprendi que la tecnología en transporte avanza más rápido que la infraestructura física, lo que me obliga a aprender permanentemente sobre arquitecturas escalables y sincronización de datos en tiempo real. Entiendo que no basta con saber programar; necesito actualizarme constantemente en herramientas de Geofencing y UX móvil para que mi software no quede obsoleto ante los cambios constantes de paraderos y rutas que los mismos transportistas me reportaron.</br> </td>
+            <td><br>Joaquin Carranza:</br><br> Avance 1: He reconocido que el desarrollo de software es un proceso vivo: las entrevistas me enseñaron que una solución estática fracasaría en el entorno dinámico. Por ello, concluyo que el aprendizaje permanente es mi mejor herramienta para adaptar mi proyecto a las nuevas necesidades de los usuarios y choferes, asegurando que mi rol como profesional sea el de un facilitador que sabe integrar las últimas innovaciones técnicas para resolver problemas sociales reales y cambiantes.</br> </td>
         </tr>
     </tbody>
 </table>
@@ -365,8 +365,9 @@ Ser el ecosistema digital líder en la gestión del transporte interurbano y rur
             <td>Soy Angelo Curi Marcelo, con conocimientos en lenguajes de programación como C++ y Python. Además, manejo herramientas que apoyan el desarrollo eficiente de proyectos de software. Siempre me esfuerzo por adquirir nuevas habilidades y mejorar mis competencias técnicas para afrontar los desafíos del desarrollo de software. Me considero una persona responsable, comprometida y enfocada en la calidad del trabajo. Tengo la capacidad de adaptarme rápidamente a nuevas tecnologías y entornos. Cumplo con los plazos establecidos y tengo una gran disposición para aprender y colaborar en equipo. </td>
         </tr>
         <tr>
-            <td>Foto</td>
-            <td>Datos</td>
+            <td><img width="404" height="521" alt="foto" src="https://github.com/user-attachments/assets/2dd80fc1-e903-4b8e-b550-505cd7712d19" />
+</td>
+            <td>Hola, soy Joaquín Carranza. Tengo 25 años y actualmente curso el septimo ciclo de la carrera de Ingeniería de Software. Me gusta la tecnología y la forma en que ayuda a las personas a resolver problemas de manera más rápida y eficiente. Me interesa especialmente el manejo de datos y la ciberseguridad. Siento que puedo aportar a mi equipo ideas desde otra perspectiva, ya que siempre me cuestiono cómo se podría mejorar el producto o hacia qué objetivo estamos apuntando.</td>
         </tr>
         <tr>
             <td>Foto</td>
