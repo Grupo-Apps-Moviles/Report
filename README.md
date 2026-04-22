@@ -1074,13 +1074,13 @@ Existe una dependencia funcional crítica donde **Routes** consume la informaci�
 
 En este diagrama de contexto se aprecia cómo el sistema centraliza la comunicación entre sus actores principales y los servicios de apoyo. Mientras que los Pasajeros interactúan con la plataforma para gestionar sus viajes, los Gestores utilizan las herramientas administrativas para organizar la logística de transporte. Para complementar la experiencia, el sistema delega funciones específicas a servicios externos especializados en mapas, transacciones financieras y envíos de notificaciones.
 
-<img width="840" height="677" alt="Image" src="https://github.com/user-attachments/assets/6c5639ac-ec32-48db-9cc6-ca2217dc4e76" />
+<img width="3400" height="2000" alt="Image" src="https://github.com/user-attachments/assets/e79cb8fe-220e-4982-9bb1-02b63dc2d0db" />
 
 #### 2.5.3.2. Software Architecture Container Level Diagrams
 
 El siguiente diagrama de contenedores representa los principales componentes del sistema y cómo interactúan entre sí. Se muestra la aplicación móvil para pasajeros y conductores, el gestor de backend que centraliza la lógica de negocio, y los bounded contexts de IAM, Profile, Routes y Stops, así como la base de datos y la integración con los servicios externos.
 
-<img width="5278" height="3299" alt="Image" src="https://github.com/user-attachments/assets/6fbf283e-309f-49b3-82eb-face6e106bb3" />
+<img width="3804" height="3300" alt="Image" src="https://github.com/user-attachments/assets/57a95646-c383-4a43-ace9-26348d91bc7f" />
 
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
