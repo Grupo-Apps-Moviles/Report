@@ -532,7 +532,7 @@ Se realiz√≥ una entrevista a Angel Mamani Cayampi, una Joven estudiante de 20 a√
 
 **User Persona - conductores**
 
-![EmpathyMap2](./images/ConductorUserPersona.png)
+<img width="1050" height="1798" alt="Image" src="https://github.com/user-attachments/assets/634a3ff9-1310-4672-915c-04d78eff25d1" />
 
 ### 2.3.2. User Task Matrix
 
