@@ -2022,3 +2022,322 @@ La Capa de Dominio del Bounded Context STOPS actúa como el núcleo central del 
 <img width="440" height="797" alt="Image" src="https://github.com/user-attachments/assets/7547c6d9-bcb3-4d15-97d8-698bf312bcf1" />
 
 
+### 2.6.2. Bounded Context: Routes
+
+Siguiendo el modelo de arquitectura 'Clean Architecture' hemos dividido el proyecto en capas. A continuación detallamos las capas del Bounded Context Routes.
+
+#### 2.6.2.1. Domain Layer
+
+#### Sub-capa Model:
+
+<table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="padding: 10px;">Tipo</th>
+      <th style="padding: 10px;">Nombre</th>
+      <th style="padding: 10px;">Descripción</th>
+      <th style="padding: 10px;">Responsabilidad Principal</th>
+      <th style="padding: 10px;">Relación con otros elementos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px;">Aggregate</td>
+      <td style="padding: 10px;">Route</td>
+      <td style="padding: 10px;">Clase para definir una ruta en la aplicación.</td>
+      <td style="padding: 10px;">Ser el punto de entrada para modificar y mantener la integridad de la entidad ruta.</td>
+      <td style="padding: 10px;">Se relaciona con <b>RouteStops</b> y <b>Schedule</b> para definir la estructura completa de un trayecto.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">Entity</td>
+      <td style="padding: 10px;">RouteStops</td>
+      <td style="padding: 10px;">Representa las paradas que conforman una ruta.</td>
+      <td style="padding: 10px;">Encapsular la lógica de negocio de cada parada de la ruta.</td>
+      <td style="padding: 10px;">Parte integral del agregado <b>Route</b>; vincula las rutas con los paraderos físicos.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">Entity</td>
+      <td style="padding: 10px;">Schedule</td>
+      <td style="padding: 10px;">Representa los horarios de una ruta.</td>
+      <td style="padding: 10px;">Manejar los tiempos asociados a una ruta.</td>
+      <td style="padding: 10px;">Entidad dependiente de <b>Route</b> que define la disponibilidad temporal del servicio.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">Command</td>
+      <td style="padding: 10px;">CreateFullRouteCommand</td>
+      <td style="padding: 10px;">Comando para la creación de rutas completas.</td>
+      <td style="padding: 10px;">Representar la intención de crear una ruta.</td>
+      <td style="padding: 10px;">Inicia el proceso de persistencia de una nueva <b>Route</b> en el sistema.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">Command</td>
+      <td style="padding: 10px;">UpdateRouteCommand</td>
+      <td style="padding: 10px;">Comando para actualizar rutas.</td>
+      <td style="padding: 10px;">Representar la intención de actualizar una ruta.</td>
+      <td style="padding: 10px;">Modifica el estado de un agregado <b>Route</b> existente.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">Command</td>
+      <td style="padding: 10px;">DeleteRouteCommand</td>
+      <td style="padding: 10px;">Comando para eliminar rutas.</td>
+      <td style="padding: 10px;">Representar la intención de eliminar una ruta.</td>
+      <td style="padding: 10px;">Marca o remueve el agregado <b>Route</b> del dominio.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">Query</td>
+      <td style="padding: 10px;">GetAllRoutesQuery</td>
+      <td style="padding: 10px;">Consulta de todas las rutas.</td>
+      <td style="padding: 10px;">Obtener el listado de rutas registradas.</td>
+      <td style="padding: 10px;">Devuelve una colección de recursos de tipo ruta para la interfaz.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">Query</td>
+      <td style="padding: 10px;">GetRouteByIdQuery</td>
+      <td style="padding: 10px;">Consulta de una ruta específica por ID.</td>
+      <td style="padding: 10px;">Obtener la información detallada de una ruta.</td>
+      <td style="padding: 10px;">Permite visualizar el detalle completo de un agregado <b>Route</b>, incluyendo sus paradas y horarios.</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+#### Sub-capa Services:
+
+<table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="padding: 10px;">Tipo</th>
+      <th style="padding: 10px;">Nombre</th>
+      <th style="padding: 10px;">Descripción</th>
+      <th style="padding: 10px;">Responsabilidad Principal</th>
+      <th style="padding: 10px;">Relación con otros elementos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px;">Interface</td>
+      <td style="padding: 10px;">IRouteCommandService</td>
+      <td style="padding: 10px;">Servicio para manejar los comandos de rutas.</td>
+      <td style="padding: 10px;">Estipular una estructura clara a seguir para operaciones de creación, actualización y eliminación.</td>
+      <td style="padding: 10px;">Define el contrato para la implementación de lógica de escritura sobre el aggregate <b>Route</b>.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">Interface</td>
+      <td style="padding: 10px;">IRouteQueryService</td>
+      <td style="padding: 10px;">Servicio para manejar las consultas de rutas.</td>
+      <td style="padding: 10px;">Estipular una estructura clara a seguir para operaciones de consulta.</td>
+      <td style="padding: 10px;">Define el contrato para la recuperación de datos mediante <b>Queries</b> como <b>GetAllRoutesQuery</b>.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">Interface</td>
+      <td style="padding: 10px;">IRouteRepository</td>
+      <td style="padding: 10px;">Servicio para operaciones de persistencia.</td>
+      <td style="padding: 10px;">Definir contrato para acceso y manipulación de datos de rutas.</td>
+      <td style="padding: 10px;">Implementado en la capa de Infrastructure para interactuar con la base de datos de rutas.</td>
+    </tr>
+  </tbody>
+</table>        
+
+
+
+#### 2.6.1.2. Interface Layer
+
+
+<table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="padding: 10px;">Tipo</th>
+      <th style="padding: 10px;">Nombre</th>
+      <th style="padding: 10px;">Descripción</th>
+      <th style="padding: 10px;">Responsabilidad Principal</th>
+      <th style="padding: 10px;">Relación con otros elementos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px;">Controller</td>
+      <td style="padding: 10px;">RoutesController</td>
+      <td style="padding: 10px;">Controlador principal de rutas.</td>
+      <td style="padding: 10px;">Recibir solicitudes HTTP, coordinar la ejecución y devolver respuestas.</td>
+      <td style="padding: 10px;">Depende de <b>IRouteCommandService</b> e <b>IRouteQueryService</b> para gestionar el flujo de datos.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">Resource</td>
+      <td style="padding: 10px;">CreateFullRouteResource</td>
+      <td style="padding: 10px;">DTO para creación de rutas completas.</td>
+      <td style="padding: 10px;">Representar datos de entrada para creación de rutas.</td>
+      <td style="padding: 10px;">Es transformado por el assembler en un <b>CreateFullRouteCommand</b>.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">Resource</td>
+      <td style="padding: 10px;">UpdateRouteResource</td>
+      <td style="padding: 10px;">DTO para actualización de rutas.</td>
+      <td style="padding: 10px;">Representar datos de entrada para actualizar rutas.</td>
+      <td style="padding: 10px;">Utilizado en los endpoints de actualización del <b>RoutesController</b>.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">Assembler</td>
+      <td style="padding: 10px;">CreateFullRouteCommandFromResource</td>
+      <td style="padding: 10px;">Convierte un recurso en un comando.</td>
+      <td style="padding: 10px;">Evitar la corrupción entre la comunicación de datos.</td>
+      <td style="padding: 10px;">Mapea el <b>CreateFullRouteResource</b> hacia el comando de dominio correspondiente.</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+#### 2.6.1.3. Application Layer
+
+<table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="padding: 10px;">Tipo</th>
+      <th style="padding: 10px;">Nombre</th>
+      <th style="padding: 10px;">Descripción</th>
+      <th style="padding: 10px;">Responsabilidad Principal</th>
+      <th style="padding: 10px;">Relación con otros elementos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px;">CommandHandlers</td>
+      <td style="padding: 10px;">RouteCommandService</td>
+      <td style="padding: 10px;">Implementación de los comandos de rutas.</td>
+      <td style="padding: 10px;">Implementar los métodos definidos en <b>IRouteCommandService</b>.</td>
+      <td style="padding: 10px;">Se encarga de procesar la lógica de negocio para la creación, actualización y eliminación de rutas.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">QueryHandlers</td>
+      <td style="padding: 10px;">RouteQueryService</td>
+      <td style="padding: 10px;">Implementación de las consultas de rutas.</td>
+      <td style="padding: 10px;">Implementar los métodos definidos en <b>IRouteQueryService</b>.</td>
+      <td style="padding: 10px;">Gestiona la recuperación de información de rutas para ser expuesta a través de la API.</td>
+    </tr>
+  </tbody>
+</table>
+
+
+#### 2.6.1.4 Infrastructure Layer
+
+#### Sub-capa Persistence - Repositories:
+
+<table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="padding: 10px;">Tipo</th>
+      <th style="padding: 10px;">Nombre</th>
+      <th style="padding: 10px;">Descripción</th>
+      <th style="padding: 10px;">Responsabilidad Principal</th>
+      <th style="padding: 10px;">Relación con otros elementos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px;">Repository</td>
+      <td style="padding: 10px;">RouteRepository</td>
+      <td style="padding: 10px;">Repositorio de persistencia de rutas.</td>
+      <td style="padding: 10px;">Acceder y manipular datos persistidos de rutas.</td>
+      <td style="padding: 10px;">Provee el soporte de almacenamiento para las entidades del Bounded Context de Routes.</td>
+    </tr>
+  </tbody>
+</table>
+
+
+#### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+Este diagrama representa la descomposición interna del container Routes Application, correspondiente al bounded context de gestión de Routes de empresa dentro del sistema. Se trata de un backend desarrollado bajo los principios de Clean Architecture y Domain-Driven Design(DDD), y se ilustra aquí en el Nivel 3 del C4 Model (Component Diagram).
+
+<img width="838" height="1027" alt="Image" src="https://github.com/user-attachments/assets/65b6c584-47ee-4bc4-b6d8-360ab2e85464" />
+
+#### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
+
+Diagrama de clases de la capa Domain:
+
+<img width="2008" height="860" alt="Image" src="https://github.com/user-attachments/assets/c7276920-7fb4-42ee-87fe-ff8a27d65d77" />
+
+
+##### 2.6.1.6.2. Bounded Context Database Design Diagram
+
+#### Tabla: routes
+<table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
+<thead>
+<tr style="background-color: #f2f2f2;">
+<th style="padding: 10px;">Nombre</th>
+<th style="padding: 10px;">Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="padding: 10px;"><strong>id</strong></td>
+<td style="padding: 10px;">Identificador único de la ruta (Primary Key).</td>
+</tr>
+<tr>
+<td style="padding: 10px;"><strong>name</strong></td>
+<td style="padding: 10px;">Nombre identificador de la ruta (ej. "Ruta Norte Express").</td>
+</tr>
+<tr>
+<td style="padding: 10px;"><strong>status</strong></td>
+<td style="padding: 10px;">Estado operativo de la ruta (ej. ACTIVE, INACTIVE).</td>
+</tr>
+</tbody>
+</table>
+
+#### Tabla: route_stops
+<table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
+<thead>
+<tr style="background-color: #f2f2f2;">
+<th style="padding: 10px;">Nombre</th>
+<th style="padding: 10px;">Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="padding: 10px;"><strong>id</strong></td>
+<td style="padding: 10px;">Identificador único de la relación ruta-parada (Primary Key).</td>
+</tr>
+<tr>
+<td style="padding: 10px;"><strong>fk_id_route</strong></td>
+<td style="padding: 10px;">Clave foránea que vincula la parada con una ruta específica.</td>
+</tr>
+<tr>
+<td style="padding: 10px;"><strong>fk_id_stop</strong></td>
+<td style="padding: 10px;">Referencia al ID de la parada física (proveniente del contexto STOPS).</td>
+</tr>
+<tr>
+<td style="padding: 10px;"><strong>stop_order</strong></td>
+<td style="padding: 10px;">Número entero que define la secuencia de la parada en el trayecto.</td>
+</tr>
+</tbody>
+</table>
+
+#### Tabla: schedules
+<table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
+<thead>
+<tr style="background-color: #f2f2f2;">
+<th style="padding: 10px;">Nombre</th>
+<th style="padding: 10px;">Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="padding: 10px;"><strong>fk_id_route</strong></td>
+<td style="padding: 10px;">Clave foránea única que vincula el horario a su ruta correspondiente.</td>
+</tr>
+<tr>
+<td style="padding: 10px;"><strong>departure_time</strong></td>
+<td style="padding: 10px;">Hora de inicio del primer servicio de la ruta.</td>
+</tr>
+<tr>
+<td style="padding: 10px;"><strong>frequency_minutes</strong></td>
+<td style="padding: 10px;">Intervalo de tiempo entre servicios en minutos.</td>
+</tr>
+</tbody>
+</table>
+
+<img width="585" height="451" alt="Image" src="https://github.com/user-attachments/assets/d6cc472b-6bb6-435d-a59e-60810793e778" />
+
+
