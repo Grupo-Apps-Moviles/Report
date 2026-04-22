@@ -552,7 +552,7 @@ Los segmentos objetivo representados por los User Personas: Javier Ramirez (pasa
 <tbody>
 <tr>
 <td>Consultar rutas y disponibilidad de colectivos en tiempo real</td>
-<td><strong>US01</strong></td>
+<td><strong>US01, US07, US41, US42</strong></td>
 <td>High</td>
 <td>High</td>
 <td>High</td>
@@ -560,7 +560,7 @@ Los segmentos objetivo representados por los User Personas: Javier Ramirez (pasa
 </tr>
 <tr>
 <td>Ubicar paraderos exactos y puntos de abordaje seguros</td>
-<td><strong>US02</strong></td>
+<td><strong>US02, US11, US22, US33</strong></td>
 <td>High</td>
 <td>Medium</td>
 <td>High</td>
@@ -568,7 +568,7 @@ Los segmentos objetivo representados por los User Personas: Javier Ramirez (pasa
 </tr>
 <tr>
 <td>Verificar tarifas y evitar cobros excesivos por desconocimiento</td>
-<td><strong>US03</strong></td>
+<td><strong>US25, US38, US43</strong> (y US03 original)</td>
 <td>Medium</td>
 <td>High</td>
 <td>High</td>
@@ -576,7 +576,7 @@ Los segmentos objetivo representados por los User Personas: Javier Ramirez (pasa
 </tr>
 <tr>
 <td>Notificar disponibilidad de asientos para llenar el vehículo rápido</td>
-<td><strong>US04</strong></td>
+<td><strong>US08</strong></td>
 <td>High</td>
 <td>High</td>
 <td>Medium</td>
@@ -584,7 +584,7 @@ Los segmentos objetivo representados por los User Personas: Javier Ramirez (pasa
 </tr>
 <tr>
 <td>Coordinar horarios para reducir tiempos de espera en paraderos</td>
-<td><strong>US05</strong></td>
+<td><strong>US40</strong></td>
 <td>High</td>
 <td>High</td>
 <td>High</td>
@@ -592,7 +592,7 @@ Los segmentos objetivo representados por los User Personas: Javier Ramirez (pasa
 </tr>
 <tr>
 <td>Validar la identidad/confiabilidad de la contraparte (Seguridad)</td>
-<td><strong>US06</strong></td>
+<td><strong>US03, US19, US30</strong></td>
 <td>Medium</td>
 <td>High</td>
 <td>Medium</td>
@@ -600,7 +600,7 @@ Los segmentos objetivo representados por los User Personas: Javier Ramirez (pasa
 </tr>
 <tr>
 <td>Registrar ingresos o gastos diarios de los trayectos realizados</td>
-<td><strong>US07</strong></td>
+<td><strong>US05, US21</strong></td>
 <td>High</td>
 <td>Medium</td>
 <td>Low</td>
@@ -608,7 +608,7 @@ Los segmentos objetivo representados por los User Personas: Javier Ramirez (pasa
 </tr>
 <tr>
 <td>Calificar la experiencia del servicio o el comportamiento del pasajero</td>
-<td><strong>US08</strong></td>
+<td><strong>US04, US10</strong></td>
 <td>Medium</td>
 <td>Medium</td>
 <td>Medium</td>
