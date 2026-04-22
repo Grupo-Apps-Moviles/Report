@@ -8,7 +8,8 @@
     2026-10<br><br>
     <strong>NRC:</strong> 3821 <br>
     <strong>Profesor:</strong> Mayta Guillermo, Jorge Luis <br><br>
-    <strong>Nombre del Producto: FirstCommit </strong> <br><br>
+    <strong>Startup: Viacore </strong> <br>
+    <strong>Nombre del Producto: WayPass </strong> <br><br>
     <strong>Integrantes:</strong>
 </div>
   
@@ -46,7 +47,7 @@
   <br/><br/>
 
 <div align="center">
-  <strong>Lima, 16 de abril del 2026</strong><br/>
+  <strong>Lima, 22 de abril del 2026</strong><br/>
 </div>
 
 <div style="page-break-after: always;"></div>
@@ -76,8 +77,6 @@
 
 # Project Report Collaboration Insights
 
-<img width="1286" height="897" alt="Image" src="https://github.com/user-attachments/assets/9eb8409d-1d4d-4516-9237-a87b46ccbfe5" />
-
 <div style="page-break-after: always;"></div>
 
 # Contenido
@@ -88,38 +87,35 @@
 - [Student Outcome](#student-outcome)
   - [ABET - EAC - Student Outcome 7](#abet---eac---student-outcome-7)
 - [Objetivos SMART](#objetivos-smart)
-- [Capítulo I: Introducción](#capítulo-i-introducción)
+- [Capítulo I: Presentación](#capítulo-i-presentación)
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
     - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-    - [1.2. Solution Profile](#12-solution-profile)
-      - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-      - [1.2.2. Lean UX Process](#122-lean-ux-process)
-        - [1.2.2.1. Lean UX Problem Statement](#1221-lean-ux-problem-statement)
-        - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-        - [1.2.2.3. Lean UX Hypothesis](#1223-lean-ux-hypothesis)
-        - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
   - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
     - [1. Pasajeros](#1-pasajeros)
     - [2. Conductores](#2-conductores)
-- [Capítulo II: Requirements \& Analysis](#capítulo-ii-requirements--analysis)
+- [Capítulo II: Requirements Development and Software Solution Design](#capítulo-ii-requirements-development-and-software-solution-design)
   - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
   - [2.2. Entrevistas](#22-entrevistas)
     - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-    - [Preguntas Generales:](#preguntas-generales)
-    - [Preguntas para usuarios (Pasajeros):](#preguntas-para-usuarios-pasajeros)
-    - [Líderes de ruta (Transportistas)](#líderes-de-ruta-transportistas)
     - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
       - [Registro de entrevista a usuarios (Pasajeros)](#registro-de-entrevista-a-usuarios-pasajeros)
-      - [Entrevistador N 01:](#entrevistador-n-01)
       - [Registro de entrevista a usuarios (Conductor)](#registro-de-entrevista-a-usuarios-conductor)
-      - [Entrevistador N 01:](#entrevistador-n-01-1)
     - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-  - [2.3. Nedfinding](#23-nedfinding)
+  - [2.3. Needfinding](#23-needfinding)
     - [2.3.1. User Personas](#231-user-personas)
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
     - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-    - [2.3.4. Empathy Maps](#234-empathy-maps)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
     - [2.3.5. Big Picture EventStorming](#235-big-picture-eventstorming)
     - [2.3.6. Ubiquitous Language](#236-ubiquitous-language)
       - [GLOSARIO](#glosario)
@@ -159,7 +155,7 @@
         - [Sub-capa Internal - CommandServices](#sub-capa-internal---commandservices)
         - [Sub-capa Internal - OutboundServices](#sub-capa-internal---outboundservices)
         - [Sub-capa Internal - QueryServices](#sub-capa-internal---queryservices)
-      - [2.6.1.4 Infrastructure Layer](#2614-infrastructure-layer)
+      - [2.6.1.4. Infrastructure Layer](#2614-infrastructure-layer)
         - [Sub-capa Hashing (BCrypt)](#sub-capa-hashing-bcrypt)
         - [Sub-capa Persistence (EFC)](#sub-capa-persistence-efc)
         - [Sub-capa Pipeline (Middleware)](#sub-capa-pipeline-middleware)
@@ -175,55 +171,101 @@
       - [Sub-capa Model - Queries:](#sub-capa-model---queries-1)
       - [Sub-capa Repositories:](#sub-capa-repositories-1)
       - [Sub-capa Services:](#sub-capa-services-1)
-      - [2.6.1.2. Interface Layer](#2612-interface-layer-1)
+      - [2.6.2.2. Interface Layer](#2622-interface-layer)
       - [Sub-capa REST - Resources:](#sub-capa-rest---resources-1)
       - [Sub-capa REST - Transform:](#sub-capa-rest---transform)
-      - [2.6.1.3. Application Layer](#2613-application-layer-1)
+      - [2.6.2.3. Application Layer](#2623-application-layer)
       - [Sub-capa Internal - CommandServices:](#sub-capa-internal---commandservices-1)
       - [Sub-capa Internal - QueryServices:](#sub-capa-internal---queryservices-1)
-      - [2.6.1.4 Infrastructure Layer](#2614-infrastructure-layer-1)
+      - [2.6.2.4. Infrastructure Layer](#2624-infrastructure-layer)
       - [Sub-capa Persistence - Repositories:](#sub-capa-persistence---repositories)
-      - [2.6.1.5. Bounded Context Software Architecture Component Level Diagrams](#2615-bounded-context-software-architecture-component-level-diagrams-1)
-      - [2.6.1.6. Bounded Context Software Architecture Code Level Diagrams](#2616-bounded-context-software-architecture-code-level-diagrams-1)
-        - [2.6.1.6.1. Bounded Context Domain Layer Class Diagrams](#26161-bounded-context-domain-layer-class-diagrams-1)
-        - [2.6.1.6.2. Bounded Context Database Design Diagram](#26162-bounded-context-database-design-diagram-1)
-    - [2.6.2. Bounded Context: STOPS](#262-bounded-context-stops)
-      - [2.6.2.1. Domain Layer](#2621-domain-layer-1)
+      - [2.6.2.5. Bounded Context Software Architecture Component Level Diagrams](#2625-bounded-context-software-architecture-component-level-diagrams)
+      - [2.6.2.6. Bounded Context Software Architecture Code Level Diagrams](#2626-bounded-context-software-architecture-code-level-diagrams)
+        - [2.6.2.6.1. Bounded Context Domain Layer Class Diagrams](#26261-bounded-context-domain-layer-class-diagrams)
+        - [2.6.2.6.2. Bounded Context Database Design Diagram](#26262-bounded-context-database-design-diagram)
+    - [2.6.3. Bounded Context: Stops](#263-bounded-context-stops)
+      - [2.6.3.1. Domain Layer](#2631-domain-layer)
       - [Sub-capa Model - Aggregates:](#sub-capa-model---aggregates-2)
       - [Sub-capa Model - Commands:](#sub-capa-model---commands-2)
       - [Sub-capa Model - DTOs:](#sub-capa-model---dtos)
       - [Sub-capa Model - Queries:](#sub-capa-model---queries-2)
       - [Sub-capa Services:](#sub-capa-services-2)
-      - [2.6.1.2. Interface Layer](#2612-interface-layer-2)
+      - [2.6.3.2. Interface Layer](#2632-interface-layer)
       - [Sub-capa REST - Resources:](#sub-capa-rest---resources-2)
-      - [2.6.1.3. Application Layer](#2613-application-layer-2)
+      - [2.6.3.3. Application Layer](#2633-application-layer)
       - [Sub-capa Internal - CommandServices:](#sub-capa-internal---commandservices-2)
       - [Sub-capa Internal - QueryServices:](#sub-capa-internal---queryservices-2)
-      - [2.6.1.4 Infrastructure Layer](#2614-infrastructure-layer-2)
+      - [2.6.3.4. Infrastructure Layer](#2634-infrastructure-layer)
       - [Sub-capa Persistence - Repositories:](#sub-capa-persistence---repositories-1)
       - [Initialization (Seeders)](#initialization-seeders)
-      - [2.6.1.5. Bounded Context Software Architecture Component Level Diagrams](#2615-bounded-context-software-architecture-component-level-diagrams-2)
-      - [2.6.1.6. Bounded Context Software Architecture Code Level Diagrams](#2616-bounded-context-software-architecture-code-level-diagrams-2)
-        - [2.6.1.6.1. Bounded Context Domain Layer Class Diagrams](#26161-bounded-context-domain-layer-class-diagrams-2)
-        - [2.6.1.6.2. Bounded Context Database Design Diagram](#26162-bounded-context-database-design-diagram-2)
+      - [2.6.3.5. Bounded Context Software Architecture Component Level Diagrams](#2635-bounded-context-software-architecture-component-level-diagrams)
+      - [2.6.3.6. Bounded Context Software Architecture Code Level Diagrams](#2636-bounded-context-software-architecture-code-level-diagrams)
+        - [2.6.3.6.1. Bounded Context Domain Layer Class Diagrams](#26361-bounded-context-domain-layer-class-diagrams)
+        - [2.6.3.6.2. Bounded Context Database Design Diagram](#26362-bounded-context-database-design-diagram)
       - [Tablas Geográficas](#tablas-geográficas)
-    - [2.6.2. Bounded Context: Routes](#262-bounded-context-routes)
-      - [2.6.2.1. Domain Layer](#2621-domain-layer-2)
+    - [2.6.4. Bounded Context: Routes](#264-bounded-context-routes)
+      - [2.6.4.1. Domain Layer](#2641-domain-layer)
       - [Sub-capa Model:](#sub-capa-model)
       - [Sub-capa Services:](#sub-capa-services-3)
-      - [2.6.1.2. Interface Layer](#2612-interface-layer-3)
-      - [2.6.1.3. Application Layer](#2613-application-layer-3)
-      - [2.6.1.4 Infrastructure Layer](#2614-infrastructure-layer-3)
+      - [2.6.4.2. Interface Layer](#2642-interface-layer)
+      - [2.6.4.3. Application Layer](#2643-application-layer)
+      - [2.6.4.4. Infrastructure Layer](#2644-infrastructure-layer)
       - [Sub-capa Persistence - Repositories:](#sub-capa-persistence---repositories-2)
-      - [2.6.1.5. Bounded Context Software Architecture Component Level Diagrams](#2615-bounded-context-software-architecture-component-level-diagrams-3)
-      - [2.6.1.6. Bounded Context Software Architecture Code Level Diagrams](#2616-bounded-context-software-architecture-code-level-diagrams-3)
-        - [2.6.1.6.1. Bounded Context Domain Layer Class Diagrams](#26161-bounded-context-domain-layer-class-diagrams-3)
-        - [2.6.1.6.2. Bounded Context Database Design Diagram](#26162-bounded-context-database-design-diagram-3)
+      - [2.6.4.5. Bounded Context Software Architecture Component Level Diagrams](#2645-bounded-context-software-architecture-component-level-diagrams)
+      - [2.6.4.6. Bounded Context Software Architecture Code Level Diagrams](#2646-bounded-context-software-architecture-code-level-diagrams)
+        - [2.6.4.6.1. Bounded Context Domain Layer Class Diagrams](#26461-bounded-context-domain-layer-class-diagrams)
+        - [2.6.4.6.2. Bounded Context Database Design Diagram](#26462-bounded-context-database-design-diagram)
       - [Tabla: routes](#tabla-routes)
       - [Tabla: route\_stops](#tabla-route_stops)
       - [Tabla: schedules](#tabla-schedules)
+- [Capítulo III: Solution UI/UX Design](#capítulo-iii-solution-uiux-design)
+  - [3.1. Product design](#31-product-design)
+    - [3.1.1. Style Guidelines](#311-style-guidelines)
+      - [3.1.1.1. General Style Guidelines](#3111-general-style-guidelines)
+    - [3.1.2. Information Architecture](#312-information-architecture)
+      - [3.1.2.1. Organization Systems](#3121-organization-systems)
+      - [3.1.2.2. Labelling Systems](#3122-labelling-systems)
+      - [3.1.2.3. SEO Tags and Meta Tags](#3123-seo-tags-and-meta-tags)
+      - [3.1.2.4. Searching Systems](#3124-searching-systems)
+      - [3.1.2.5. Navigation Systems](#3125-navigation-systems)
+    - [3.1.3. Landing Page UI Design](#313-landing-page-ui-design)
+      - [3.1.3.1. Landing Page Wireframe](#3131-landing-page-wireframe)
+      - [3.1.3.2. Landing Page Mock-up](#3132-landing-page-mock-up)
+    - [3.1.4. Mobile Applications UX/UI Design](#314-mobile-applications-uxui-design)
+      - [3.1.4.1. Mobile Applications Wireframes](#3141-mobile-applications-wireframes)
+      - [3.1.4.2. Mobile Applications Wireflow Diagrams](#3142-mobile-applications-wireflow-diagrams)
+      - [3.1.4.3. Mobile Applications Mock-ups](#3143-mobile-applications-mock-ups)
+      - [3.1.4.4. Mobile Applications User Flow Diagrams](#3144-mobile-applications-user-flow-diagrams)
+      - [3.1.4.5. Mobile Applications Prototyping](#3145-mobile-applications-prototyping)
+- [Capítulo IV: Product Implementation \& Validation](#capítulo-iv-product-implementation--validation)
+  - [4.1. Software Configuration Management](#41-software-configuration-management)
+    - [4.1.1. Software Development Environment Configuration](#411-software-development-environment-configuration)
+    - [4.1.2. Source Code Management](#412-source-code-management)
+    - [4.1.3. Source Code Style Guide \& Conventions](#413-source-code-style-guide--conventions)
+    - [4.1.4. Software Deployment Configuration](#414-software-deployment-configuration)
+  - [4.2. Landing Page \& Mobile Application Implementation](#42-landing-page--mobile-application-implementation)
+    - [4.2.1. Sprint 1](#421-sprint-1)
+      - [4.2.1.1. Sprint Planning 1](#4211-sprint-planning-1)
+      - [4.2.1.2. Sprint Backlog 1](#4212-sprint-backlog-1)
+      - [4.2.1.3. Development Evidence for Sprint Review](#4213-development-evidence-for-sprint-review)
+      - [4.2.1.4. Testing Suite Evidence for Sprint Review](#4214-testing-suite-evidence-for-sprint-review)
+      - [4.2.1.5. Execution Evidence for Sprint Review](#4215-execution-evidence-for-sprint-review)
+      - [4.2.1.6. Services Documentation Evidence for Sprint Review](#4216-services-documentation-evidence-for-sprint-review)
+      - [4.2.1.7. Software Deployment Evidence for Sprint Review](#4217-software-deployment-evidence-for-sprint-review)
+      - [4.2.1.8. Team Collaboration Insights during Sprint](#4218-team-collaboration-insights-during-sprint)
+  - [4.3. Validation Interviews](#43-validation-interviews)
+    - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
+    - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
+    - [4.3.3. Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas)
+- [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+- [Video App Validation](#video-app-validation)
+- [Video About the product](#video-about-the-product)
+- [Video About the team](#video-about-the-team)
+- [Glosario](#glosario-1)
+- [Bibliografía](#bibliografía)
+- [Anexos](#anexos)
 
-<div style="page-break-after: always;"></div> 
+<div style="page-break-after: always;"></div>
 
 # Student Outcome
 
@@ -256,11 +298,11 @@ por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET
     </tbody>
 </table>
 
-<div style="page-break-after: always;"></div> 
+<div style="page-break-after: always;"></div>
 
 # Objetivos SMART
 
-# Capítulo I: Introducción
+# Capítulo I: Presentación
 
 La introducción desempeña un papel fundamental en la estructuración y comprensión del proyecto, ya que establece el marco conceptual y contextual sobre el cual se desarrollará el trabajo. En esta sección inicial, se presenta una visión general que permite al lector comprender los objetivos principales que se desean alcanzar, así como los antecedentes que han llevado a la formulación del proyecto. También se delimita el alcance del mismo, es decir, hasta dónde se pretende llegar con el desarrollo de la propuesta. Asimismo, la introducción cumple la función de contextualizar la relevancia del proyecto en un entorno específico, destacando las razones que justifican su realización, los desafíos que se pretenden abordar y los beneficios esperados a partir de su implementación. En suma, esta parte inicial no solo informa, sino que también orienta y motiva al lector a profundizar en el contenido que se presentará a lo largo del documento.
 
@@ -324,11 +366,11 @@ Ser el ecosistema digital líder en la gestión del transporte interurbano y rur
     </tbody>
 </table>
 
-### 1.2. Solution Profile
+## 1.2. Solution Profile
 
 Nuestro producto **WayPass** es una aplicación móvil desarrollada por el equipo de **Viacore** que organiza y moderniza el transporte colectivo informal a través de información clara sobre rutas, paraderos y horarios que conecta ciudades y distritos brindando mayor accesibilidad y eficiencia para usuarios y conductores.
 
-#### 1.2.1. Antecedentes y problemática
+### 1.2.1. Antecedentes y problemática
 En muchas regiones del Perú, especialmente en provincias y zonas rurales, los colectivos (autos compartidos que cubren rutas fijas entre pueblos o distritos) representan un medio de transporte esencial. Estas unidades operan de forma semiinformal, sin horarios estrictos ni plataformas digitales que informen sobre sus rutas, tarifas o paraderos. A pesar de su utilidad, la informalidad del servicio genera desinformación, falta de confianza y dificultad para planificar los viajes, especialmente para personas no familiarizadas con la zona. Es común que los pasajeros deban preguntar a transeúntes o esperar en puntos conocidos sin certeza del tiempo de espera o del costo del servicio.
 
 Por otro lado, los conductores de colectivos enfrentan problemas para captar nuevos pasajeros, organizar eficientemente sus recorridos y diferenciarse en un mercado competitivo e informal. Esta situación genera ineficiencias tanto para usuarios como para operadores del servicio. En este contexto, surge la necesidad de una solución digital accesible que brinde visibilidad, organización y confianza al sistema informal de colectivos interurbanos, sin perder su flexibilidad, adaptándose a la realidad tecnológica y cultural de estas zonas.
@@ -336,20 +378,20 @@ Por otro lado, los conductores de colectivos enfrentan problemas para captar nue
 La problemática se puede resumir en los siguientes puntos:
 
 * **I. Desinformación sobre rutas y paraderos:** Los pasajeros no tienen acceso a información clara sobre las rutas disponibles, ubicación de los paraderos, horarios aproximados o tarifas. Esta falta de visibilidad dificulta la planificación del viaje y desalienta el uso del servicio, especialmente entre personas que no conocen la zona o viajan por primera vez.
-* **II. Dependencia de canales informales:** En ausencia de señalización oficial o plataformas digitales, los usuarios deben confiar en el “boca a boca” o el conocimiento local para encontrar un colectivo. Esto limita el acceso al servicio y excluye a quienes no dominan estas redes informales, como turistas, personas mayores o nuevos residentes.
+* **II. Dependencia de canales informales:** En ausencia de señalización oficial o plataformas digitales, los usuarios deben confiar en el "boca a boca" o el conocimiento local para encontrar un colectivo. Esto limita el acceso al servicio y excluye a quienes no dominan estas redes informales, como turistas, personas mayores o nuevos residentes.
 * **III. Falta de herramientas para conductores:** Los conductores operan sin apoyo tecnológico para anunciar su disponibilidad, comunicar sus rutas o gestionar sus viajes. Esto reduce su eficiencia, genera tiempos muertos y limita su capacidad para captar más pasajeros.
 * **IV. Baja percepción de seguridad:** La falta de perfiles visibles y verificables de los conductores, así como la ausencia de información sobre los vehículos y las rutas, genera desconfianza. Esto impacta directamente en la decisión de uso del servicio, especialmente entre mujeres o personas en situación vulnerable.
 * **V. Barreras tecnológicas en la adopción digital:** Muchos usuarios potenciales viven en zonas con conectividad limitada o tienen baja familiaridad con el uso de aplicaciones móviles. Las plataformas de transporte tradicionales no están diseñadas para este público, al requerir registros complejos, conexión permanente o interfaces poco intuitivas.
 * **VI. Ausencia en el ecosistema de movilidad regional:** Al ser un sistema informal, los colectivos no están integrados en los planes de movilidad ni reciben soporte institucional. Esto contribuye a su invisibilidad como alternativa de transporte sostenible y eficiente en provincias del país.
 
-#### 1.2.2. Lean UX Process
+### 1.2.2. Lean UX Process
 
-##### 1.2.2.1. Lean UX Problem Statement
+#### 1.2.2.1. Lean UX Problem Statements
 Nuestra aplicación busca ayudar a personas que desean trasladarse de forma económica entre ciudades o pueblos cercanos, y que actualmente no cuentan con información clara ni accesible sobre dónde se ubican los paraderos de colectivos, sus rutas, horarios aproximados y tarifas.
 
 Este problema afecta especialmente a viajeros locales, personas con recursos limitados o visitantes no familiarizados con la zona, que dependen del transporte colectivo para moverse de forma rápida y asequible. Al resolver este problema, esperamos que los usuarios puedan localizar fácilmente los puntos de embarque, planificar sus viajes con mayor confianza y acceder a una red de rutas informales que, aunque eficientes, hoy son invisibles para la mayoría.
 
-##### 1.2.2.2. Lean UX Assumptions
+#### 1.2.2.2. Lean UX Assumptions
 
 **a. Business Outcomes Assumptions**
 * Creemos que al organizar y hacer visible el servicio de colectivos informales, podemos capturar un mercado desatendido en regiones con transporte público limitado.
@@ -371,7 +413,7 @@ Este problema afecta especialmente a viajeros locales, personas con recursos lim
 * Creemos que perfiles de conductor con información básica (placa, tipo de vehículo, ruta habitual) mejorarán la percepción de seguridad.
 * Creemos que el sistema debe adaptarse al funcionamiento flexible del colectivo (sin horarios fijos, rutas semi estables).
 
-##### 1.2.2.3. Lean UX Hypothesis
+#### 1.2.2.3. Lean UX Hypothesis Statements
 
 * **Hipótesis 1: Mapa con rutas y paraderos**
 Creemos que el objetivo de que más personas usen la aplicación para organizar sus viajes se logrará si los pasajeros interurbanos obtienen confianza y claridad sobre cómo tomar un colectivo con un mapa interactivo que muestre rutas disponibles, paraderos, horarios estimados y tarifas de referencia.
@@ -385,7 +427,7 @@ Creemos que aumentar la confianza de los usuarios y su retención en la app se l
 * **Hipótesis 4: Interfaz sin registro obligatorio**
 Creemos que aumentar la accesibilidad de la app y alcanzar a más usuarios en zonas con baja alfabetización digital se logrará si los pasajeros ocasionales obtienen acceso rápido y sin fricciones a la información de viaje con una interfaz sencilla que no requiera registro obligatorio.
 
-##### 1.2.2.4. Lean UX Canvas
+#### 1.2.2.4. Lean UX Canvas
 
 Link: https://miro.com/app/board/uXjVHeXxRtw=/?share_link_id=413104933358
 
@@ -423,9 +465,11 @@ Este grupo representa a los operadores informales que ofrecen servicios de trans
 * Maximizar recorridos eficientes con más pasajeros en menor tiempo.
 * Contar con herramientas que les permitan ser más visibles y captar pasajeros fácilmente.
 
-# Capítulo II: Requirements & Analysis
+# Capítulo II: Requirements Development and Software Solution Design
 
 ## 2.1. Competidores
+
+### 2.1.1. Análisis competitivo
 
 <table border="1">
     <thead>
@@ -490,19 +534,23 @@ Este grupo representa a los operadores informales que ofrecen servicios de trans
     </tbody>
 </table>
 
+### 2.1.2. Estrategias y tácticas frente a competidores
+
+> *(Sección pendiente de desarrollo)*
+
 ## 2.2. Entrevistas
 
 ### 2.2.1. Diseño de entrevistas
 
-Para conocer a nuestros segmentos objetivos, se diseñaron preguntas en específico para conocerá a detalle sus experiencias diarias en el transporte sea viajes o como transportistas.
+Para conocer a nuestros segmentos objetivos, se diseñaron preguntas en específico para conocer a detalle sus experiencias diarias en el transporte sea viajes o como transportistas.
 
-### Preguntas Generales:
+**Preguntas Generales:**
 * ¿Cuál es su nombre?
 * ¿Cuántos años tienes?
 * ¿A qué se dedica actualmente?
 * ¿En qué ciudad vive?
 
-### Preguntas para usuarios (Pasajeros):
+**Preguntas para usuarios (Pasajeros):**
 * ¿Por qué eliges colectivo y no otra forma de transporte?
 * ¿Has llegado a perder tiempo o equivocarte de lugar por no tener información?
 * ¿Cómo sueles enterarte de qué colectivo tomar?
@@ -514,7 +562,7 @@ Para conocer a nuestros segmentos objetivos, se diseñaron preguntas en específ
 * ¿Cómo sabes si todavía hay autos disponibles en ciertas horas?
 * ¿Qué te gustaría ver en una App de colectivos? (rutas, horarios, mapas, precios, fotos…)
 
-### Líderes de ruta (Transportistas)
+**Líderes de ruta (Transportistas):**
 * ¿Cómo decides cuándo sale cada auto o bus?
 * ¿Cuántos autos o buses de colectivo hay normalmente en la ruta?
 * ¿Cómo se organizan los horarios y salidas?
@@ -525,16 +573,15 @@ Para conocer a nuestros segmentos objetivos, se diseñaron preguntas en específ
 * ¿Te molestaría si alguien pone tu paradero en una App?
 * ¿Tú mismo estarías dispuesto a dar información actualizada de horarios o rutas?
 * ¿Preferirías que lo haga otra persona o tener una persona que te apoye?
-* ¿Te interesaría aparecer como “empresa recomendada”?
+* ¿Te interesaría aparecer como "empresa recomendada"?
 
----
 ### 2.2.2. Registro de entrevistas
 
 #### Registro de entrevista a usuarios (Pasajeros)
 
 A continuación, se demostrará las entrevistas realizadas a los usuarios (pasajeros) para conocer sus experiencias diarias en el transporte.
 
-#### Entrevistador N 01:
+**Entrevistador N 01:**
 * **Entrevistador:**
     * Nombre: Néstor Velarde Gonzales
 * **Entrevistado:**
@@ -546,11 +593,11 @@ A continuación, se demostrará las entrevistas realizadas a los usuarios (pasaj
 
 **Imagen 01. Entrevista a Jhudith**
 
-Se realizó una entrevista a Jhudith Pumallihua, una joven estudiante de 20 años que vive actualmente en el distrito de San Juan de Lurigancho. Jhudith suele viajar con transporte público con mayor frecuencia día a día a sus destinos aquí en la ciudad de Lima. Cada día ella atraviesa dificultades al abordar un transporte debido a que no reconoce con claridad qué transporte pasa por el lugar al que quiere llegar. Los paraderos no son tan estables para los buses que aborda, muchas rutas cambian y ella se siente confundida. El mayor desafío que ha tenido es la pérdida de tiempo al esperar un transporte. Jhudith considera que usar la aplicación chapaturuta será valiosa por permitir una información concisa para cada viaje a su destino y con qué carro (transporte) movilizarse.
+Se realizó una entrevista a Jhudith Pumallihua, una joven estudiante de 20 años que vive actualmente en el distrito de San Juan de Lurigancho. Jhudith suele viajar con transporte público con mayor frecuencia día a día a sus destinos aquí en la ciudad de Lima. Cada día ella atraviesa dificultades al abordar un transporte debido a que no reconoce con claridad qué transporte pasa por el lugar al que quiere llegar. Los paraderos no son tan estables para los buses que aborda, muchas rutas cambian y ella se siente confundida. El mayor desafío que ha tenido es la pérdida de tiempo al esperar un transporte. Jhudith considera que usar la aplicación será valiosa por permitir una información concisa para cada viaje a su destino y con qué carro (transporte) movilizarse.
 
 #### Registro de entrevista a usuarios (Conductor)
 
-#### Entrevistador N 01:
+**Entrevistador N 01:**
 * **Entrevistador:**
     * Nombre: Néstor Velarde Gonzales
 * **Entrevistado:**
@@ -558,7 +605,7 @@ Se realizó una entrevista a Jhudith Pumallihua, una joven estudiante de 20 año
     * Edad: 20 años
     * Ocupación: Estudiante
     * Distrito: San Miguel
-    * Link de video: [Video](https://upcedupe-my.sharepoint.com/personal/u20211c221_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20211c221%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevista%20Chofer%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E3ceadd31%2Df7d2%2D4a0d%2Daf16%2D3cb87206fc38)
+    * Link de video: [Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c221_upc_edu_pe/IQD-bYEjh-GLQoq68cMdLq4yAZA3_Jak5O6ABfYQ5CGzkQQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=qiPmmQ)
 
 **Imagen 01. Entrevista a Ángel**
 
@@ -566,10 +613,11 @@ Se realizó una entrevista a Jhudith Pumallihua, una joven estudiante de 20 año
 
 Se realizó una entrevista a Angel Mamani Cayampi, una Joven estudiante de 20 años que vive actualmente en distrito de San Miguel, Ángel actualmente se dedica a rubro de taxí desde hace unos años atrás, debido que es autofinancia sus estudios en un instituto para costear su carrera técnica, Mayormente los pasajeros no son satisfactorios como él lo espera, paraderos vacíos, pasajeros que cancelan el viaje a la ultima hora entre otros.
 
-
 ### 2.2.3. Análisis de entrevistas
 
-## 2.3. Nedfinding
+> *(Sección pendiente de desarrollo)*
+
+## 2.3. Needfinding
 
 ### 2.3.1. User Personas
 
@@ -615,7 +663,7 @@ Los segmentos objetivo representados por los User Personas: Javier Ramirez (pasa
 </tr>
 <tr>
 <td>Verificar tarifas y evitar cobros excesivos por desconocimiento</td>
-<td><strong>US25, US38, US43</strong> (y US03 original)</td>
+<td><strong>US25, US38, US43</strong></td>
 <td>Medium</td>
 <td>High</td>
 <td>High</td>
@@ -666,9 +714,9 @@ Los segmentos objetivo representados por los User Personas: Javier Ramirez (pasa
 
 ### 2.3.3. User Journey Mapping
 
+> *(Sección pendiente de desarrollo)*
 
-
-### 2.3.4. Empathy Maps 
+### 2.3.4. Empathy Mapping
 
 **Conductor:**
 
@@ -677,8 +725,6 @@ Los segmentos objetivo representados por los User Personas: Javier Ramirez (pasa
 **Pasajero:**
 
 ![EmpathyMap2](./images/PasajeroEmpathyMap.png)
-
-
 
 ### 2.3.5. Big Picture EventStorming
 
@@ -746,7 +792,6 @@ El lenguaje ubicuo es una parte fundamental de la estrategia de UX. Se refiere a
     </tr>
   </tbody>
 </table>
-
 
 ## 2.4. Requirements specification
 
@@ -819,7 +864,6 @@ El lenguaje ubicuo es una parte fundamental de la estrategia de UX. Se refiere a
 | **TS11** | Simulación de paraderos y localidades | Como desarrollador, quiero definir paraderos y localidades para representar puntos de embarque y desembarque | **Escenario 1:** Paraderos visibles<br>Dado que accedo a la Fake API, Cuando consulto el endpoint de paraderos, Entonces deben mostrarse correctamente con su localidad correspondiente. | EP05 |
 
 ### 2.4.2. Impact Mapping
-
 
 ![Impact](./images/Impact.png)
 
@@ -916,6 +960,7 @@ Bounded Context.
 
 <img width="710" height="636" alt="Image" src="https://github.com/user-attachments/assets/9698eea9-c110-462c-ac4a-48adb8c62986" />
 
+
 #### 2.5.1.1. Candidate Context Discovery
 
 Durante esta fase, empleamos la técnica de Candidate Context Discovery para delimitar los posibles contextos del sistema. Nos centramos en la identificación de pivotal events (eventos pivotales) para detectar transiciones críticas en el negocio. 
@@ -954,7 +999,6 @@ Al analizar hitos como ParaderoCreado, RutaCreada y UsuarioRegistrado, logramos 
   </tbody>
 </table>
 
-
 #### 2.5.1.2. Domain Message Flows Modeling
 
 El Domain Message Flow Modelling se utiliza para diagramar el intercambio de mensajes de dominio —específicamente comandos, eventos y consultas— a través de los diversos contextos delimitados. Esta metodología tiene como fin establecer con claridad las dependencias mutuas, así como las responsabilidades e interacciones de cada componente del sistema.
@@ -973,8 +1017,6 @@ Link: https://miro.com/app/board/uXjVHe6wZGo=/?share_link_id=531861330130
 
 <img width="1239" height="787" alt="Image" src="https://github.com/user-attachments/assets/985e52d2-9999-4acf-b1c4-cae7c311fc3e" />
 
-
-
 #### 2.5.1.3. Bounded Context Canvases
 
 El Bounded Context Canvas es una herramienta visual aplicada en el marco del Domain-Driven Design (DDD) que permite representar de manera clara los límites, responsabilidades e interacciones de cada contexto dentro de un sistema complejo. Su propósito es facilitar que los equipos construyan una visión compartida sobre el nombre y objetivo de cada contexto, las entidades y agregados que lo conforman, así como las reglas de negocio que gobiernan su funcionamiento. 
@@ -992,9 +1034,7 @@ En esta sección se presentan los Bounded Context Canvases correspondientes a lo
 
 <img width="1025" height="903" alt="Image" src="https://github.com/user-attachments/assets/ed8216b9-4977-487d-9de1-18fba54f548b" />
 
-
 ### 2.5.2. Context Mapping
-
 
 <img width="962" height="584" alt="Image" src="https://github.com/user-attachments/assets/d703dddc-e8a8-463b-b038-45734b9617c1" />
 
@@ -1028,7 +1068,6 @@ Existe una dependencia funcional crítica donde **Routes** consume la informaci�
 
 ### 2.5.3. Software Architecture
 
-
 #### 2.5.3.1. Software Architecture Context Level Diagrams
 
 En este diagrama de contexto se aprecia cómo el sistema centraliza la comunicación entre sus actores principales y los servicios de apoyo. Mientras que los Pasajeros interactúan con la plataforma para gestionar sus viajes, los Gestores utilizan las herramientas administrativas para organizar la logística de transporte. Para complementar la experiencia, el sistema delega funciones específicas a servicios externos especializados en mapas, transacciones financieras y envíos de notificaciones.
@@ -1040,7 +1079,6 @@ En este diagrama de contexto se aprecia cómo el sistema centraliza la comunicac
 El siguiente diagrama de contenedores representa los principales componentes del sistema y cómo interactúan entre sí. Se muestra la aplicación móvil para pasajeros y conductores, el gestor de backend que centraliza la lógica de negocio, y los bounded contexts de IAM, Profile, Routes y Stops, así como la base de datos y la integración con los servicios externos.
 
 <img width="5278" height="3299" alt="Image" src="https://github.com/user-attachments/assets/6fbf283e-309f-49b3-82eb-face6e106bb3" />
-
 
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
@@ -1104,7 +1142,6 @@ Siguiendo el modelo de arquitectura 'Clean Architecture' hemos dividido el proye
 
 #### 2.6.1.2. Interface Layer
 
-
 ##### Sub-capa REST - Resources
 
 | Tipo     | Nombre                        | Descripción                                                              | Responsabilidad Principal                                                      | Relación con otros elementos                                      |
@@ -1139,7 +1176,6 @@ Siguiendo el modelo de arquitectura 'Clean Architecture' hemos dividido el proye
 | Service | IamContextFacade   | Servicio de fachada para IAM                             | Proporcionar una interfaz simplificada para interactuar con el contexto IAM desde otros bounded contexts | Relacionado con otros bounded contexts que necesitan servicios de identidad y acceso |
 
 
-
 #### 2.6.1.3. Application Layer
 
 ##### Sub-capa Internal - CommandServices
@@ -1162,8 +1198,7 @@ Siguiendo el modelo de arquitectura 'Clean Architecture' hemos dividido el proye
 | QueryHandler| UserQueryService  | Implementación de las consultas de usuarios      | Implementar los métodos para las consultas de usuarios        | Implementa los métodos de la interface de su mismo nombre en la capa de "Services" |
 
 
-
-#### 2.6.1.4 Infrastructure Layer
+#### 2.6.1.4. Infrastructure Layer
 
 ##### Sub-capa Hashing (BCrypt)
 
@@ -1195,8 +1230,6 @@ Siguiendo el modelo de arquitectura 'Clean Architecture' hemos dividido el proye
 | Config  | TokenSettings   | Configuración de tokens JWT                                              | Almacenar configuraciones relacionadas con la generación y validación de tokens | Usado por TokenService para configurar JWT                        |
 | Service | TokenService    | Servicio para manejo de tokens JWT                                       | Encapsular toda la lógica relacionada con el manejo de tokens JWT (generación, validación, decodificación) | Relacionado con la seguridad de la aplicación y usado en autenticación |
 
-
-
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
 
 Este diagrama representa la descomposición interna del container IAM Application, correspondiente al bounded context de identidad y autenticación (IAM) dentro del sistema.
@@ -1204,6 +1237,7 @@ Este diagrama representa la descomposición interna del container IAM Applicatio
 ![diagrama1](./images/diagrama1.png)
 
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
+
 ##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
 
 Diagrama de clases de la capa Domain:
@@ -1215,7 +1249,6 @@ registro, Value Objects para encapsular datos importantes, e interfaces para los
 <img width="1386" height="830" alt="Image" src="https://github.com/user-attachments/assets/8adc3ac4-3ba0-4f27-b99a-76a12d985ed5" />
 
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
-
 
 | Nombre        | Descripción                                                                 |
 |---------------|-----------------------------------------------------------------------------|
@@ -1231,7 +1264,6 @@ registro, Value Objects para encapsular datos importantes, e interfaces para los
 | username      | Nombre de usuario único utilizado para iniciar sesión.                      |
 
 <img width="352" height="285" alt="Image" src="https://github.com/user-attachments/assets/e4b1a0bf-b854-470c-90d9-3f303102e76f" />
-
 
 ### 2.6.2. Bounded Context: Profile
 
@@ -1403,10 +1435,7 @@ Siguiendo el modelo de arquitectura 'Clean Architecture' hemos dividido el proye
   </tbody>
 </table>
 
-
-
-
-#### 2.6.1.2. Interface Layer
+#### 2.6.2.2. Interface Layer
 
 #### Sub-capa REST - Resources:
 
@@ -1517,11 +1546,7 @@ Siguiendo el modelo de arquitectura 'Clean Architecture' hemos dividido el proye
   </tbody>
 </table>
 
-
-
-
-#### 2.6.1.3. Application Layer
-
+#### 2.6.2.3. Application Layer
 
 #### Sub-capa Internal - CommandServices:
 
@@ -1569,9 +1594,7 @@ Siguiendo el modelo de arquitectura 'Clean Architecture' hemos dividido el proye
   </tbody>
 </table>
 
-
-
-#### 2.6.1.4 Infrastructure Layer
+#### 2.6.2.4. Infrastructure Layer
 
 #### Sub-capa Persistence - Repositories:
 
@@ -1596,18 +1619,15 @@ Siguiendo el modelo de arquitectura 'Clean Architecture' hemos dividido el proye
   </tbody>
 </table>
 
-
-
-
-
-#### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
 
 Este diagrama representa la descomposición interna del container Profile Application, correspondiente al bounded context de gestión de perfiles de empresa dentro del sistema. Se trata de un backend desarrollado bajo los principios de Clean Architecture y Domain-Driven Design(DDD), y se ilustra aquí en el Nivel 3 del C4 Model (Component Diagram).
 
 <img width="1095" height="848" alt="Image" src="https://github.com/user-attachments/assets/c83ffd98-8100-4c7c-afbd-7d67a27665df" />
 
-#### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
-##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
+#### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
+
+##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
 
 Diagrama de clases de la capa Domain:
 
@@ -1616,9 +1636,7 @@ En esta imagen se muestran las clases del dominio Profile que incluyen Profile c
 
 <img width="1226" height="645" alt="Image" src="https://github.com/user-attachments/assets/c744279b-4d37-46c2-9028-5a73a477c9c2" />
 
-
-##### 2.6.1.6.2. Bounded Context Database Design Diagram
-
+##### 2.6.2.6.2. Bounded Context Database Design Diagram
 
 <table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
 <thead>
@@ -1657,12 +1675,11 @@ En esta imagen se muestran las clases del dominio Profile que incluyen Profile c
 
 <img width="440" height="262" alt="Image" src="https://github.com/user-attachments/assets/aa97aacc-350d-43d7-9489-93b550a1c120" />
 
-
-### 2.6.2. Bounded Context: STOPS
+### 2.6.3. Bounded Context: Stops
 
 Siguiendo el modelo de arquitectura 'Clean Architecture' hemos dividido el proyecto en capas. A continuación detallamos las capas del Bounded Context STOPS.
 
-#### 2.6.2.1. Domain Layer
+#### 2.6.3.1. Domain Layer
 
 #### Sub-capa Model - Aggregates: 
 
@@ -1831,9 +1848,7 @@ Siguiendo el modelo de arquitectura 'Clean Architecture' hemos dividido el proye
   </tbody>
 </table>
 
-
-
-#### 2.6.1.2. Interface Layer
+#### 2.6.3.2. Interface Layer
 
 #### Sub-capa REST - Resources:
 
@@ -1907,12 +1922,7 @@ Siguiendo el modelo de arquitectura 'Clean Architecture' hemos dividido el proye
   </tbody>
 </table>
 
-
-
-
-
-#### 2.6.1.3. Application Layer
-
+#### 2.6.3.3. Application Layer
 
 #### Sub-capa Internal - CommandServices:
 
@@ -1960,7 +1970,7 @@ Siguiendo el modelo de arquitectura 'Clean Architecture' hemos dividido el proye
   </tbody>
 </table>
 
-#### 2.6.1.4 Infrastructure Layer
+#### 2.6.3.4. Infrastructure Layer
 
 #### Sub-capa Persistence - Repositories:
 
@@ -2008,16 +2018,15 @@ Siguiendo el modelo de arquitectura 'Clean Architecture' hemos dividido el proye
   </tbody>
 </table>
 
-
-
-#### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
 
 Este diagrama representa la descomposición interna del container Stops Application, correspondiente al bounded context de gestión de stops de empresa dentro del sistema. Se trata de un backend desarrollado bajo los principios de Clean Architecture y Domain-Driven Design(DDD), y se ilustra aquí en el Nivel 3 del C4 Model (Component Diagram).
 
 <img width="1351" height="1079" alt="Image" src="https://github.com/user-attachments/assets/b15849c3-9726-409b-8bec-e900ba75b20f" />
 
-#### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
-##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
+#### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
+
+##### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
 
 Diagrama de clases de la capa Domain:
 
@@ -2025,8 +2034,7 @@ La Capa de Dominio del Bounded Context STOPS actúa como el núcleo central del 
 
 <img width="1736" height="953" alt="Image" src="https://github.com/user-attachments/assets/f61c8792-ff53-42e5-8d59-d2be56de575b" />
 
-
-##### 2.6.1.6.2. Bounded Context Database Design Diagram
+##### 2.6.3.6.2. Bounded Context Database Design Diagram
 
 <table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
 <thead>
@@ -2102,12 +2110,11 @@ La Capa de Dominio del Bounded Context STOPS actúa como el núcleo central del 
 
 <img width="440" height="797" alt="Image" src="https://github.com/user-attachments/assets/7547c6d9-bcb3-4d15-97d8-698bf312bcf1" />
 
-
-### 2.6.2. Bounded Context: Routes
+### 2.6.4. Bounded Context: Routes
 
 Siguiendo el modelo de arquitectura 'Clean Architecture' hemos dividido el proyecto en capas. A continuación detallamos las capas del Bounded Context Routes.
 
-#### 2.6.2.1. Domain Layer
+#### 2.6.4.1. Domain Layer
 
 #### Sub-capa Model:
 
@@ -2218,12 +2225,9 @@ Siguiendo el modelo de arquitectura 'Clean Architecture' hemos dividido el proye
       <td style="padding: 10px;">Implementado en la capa de Infrastructure para interactuar con la base de datos de rutas.</td>
     </tr>
   </tbody>
-</table>        
+</table> 
 
-
-
-#### 2.6.1.2. Interface Layer
-
+#### 2.6.4.2. Interface Layer
 
 <table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
   <thead>
@@ -2267,10 +2271,7 @@ Siguiendo el modelo de arquitectura 'Clean Architecture' hemos dividido el proye
   </tbody>
 </table>
 
-
-
-
-#### 2.6.1.3. Application Layer
+#### 2.6.4.3. Application Layer
 
 <table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
   <thead>
@@ -2300,8 +2301,7 @@ Siguiendo el modelo de arquitectura 'Clean Architecture' hemos dividido el proye
   </tbody>
 </table>
 
-
-#### 2.6.1.4 Infrastructure Layer
+#### 2.6.4.4. Infrastructure Layer
 
 #### Sub-capa Persistence - Repositories:
 
@@ -2326,22 +2326,21 @@ Siguiendo el modelo de arquitectura 'Clean Architecture' hemos dividido el proye
   </tbody>
 </table>
 
-
-#### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
 
 Este diagrama representa la descomposición interna del container Routes Application, correspondiente al bounded context de gestión de Routes de empresa dentro del sistema. Se trata de un backend desarrollado bajo los principios de Clean Architecture y Domain-Driven Design(DDD), y se ilustra aquí en el Nivel 3 del C4 Model (Component Diagram).
 
 <img width="838" height="1027" alt="Image" src="https://github.com/user-attachments/assets/65b6c584-47ee-4bc4-b6d8-360ab2e85464" />
 
-#### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
-##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
+#### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
+
+##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
 
 Diagrama de clases de la capa Domain:
 
 <img width="2008" height="860" alt="Image" src="https://github.com/user-attachments/assets/c7276920-7fb4-42ee-87fe-ff8a27d65d77" />
 
-
-##### 2.6.1.6.2. Bounded Context Database Design Diagram
+##### 2.6.4.6.2. Bounded Context Database Design Diagram
 
 #### Tabla: routes
 <table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
@@ -2421,4 +2420,164 @@ Diagrama de clases de la capa Domain:
 
 <img width="585" height="451" alt="Image" src="https://github.com/user-attachments/assets/d6cc472b-6bb6-435d-a59e-60810793e778" />
 
+# Capítulo III: Solution UI/UX Design
 
+## 3.1. Product design
+
+### 3.1.1. Style Guidelines
+
+#### 3.1.1.1. General Style Guidelines
+
+> *(Sección pendiente de desarrollo)*
+
+### 3.1.2. Information Architecture
+
+#### 3.1.2.1. Organization Systems
+
+> *(Sección pendiente de desarrollo)*
+
+#### 3.1.2.2. Labelling Systems
+
+> *(Sección pendiente de desarrollo)*
+
+#### 3.1.2.3. SEO Tags and Meta Tags
+
+> *(Sección pendiente de desarrollo)*
+
+#### 3.1.2.4. Searching Systems
+
+> *(Sección pendiente de desarrollo)*
+
+#### 3.1.2.5. Navigation Systems
+
+> *(Sección pendiente de desarrollo)*
+
+### 3.1.3. Landing Page UI Design
+
+#### 3.1.3.1. Landing Page Wireframe
+
+> *(Sección pendiente de desarrollo)*
+
+#### 3.1.3.2. Landing Page Mock-up
+
+> *(Sección pendiente de desarrollo)*
+
+### 3.1.4. Mobile Applications UX/UI Design
+
+#### 3.1.4.1. Mobile Applications Wireframes
+
+> *(Sección pendiente de desarrollo)*
+
+#### 3.1.4.2. Mobile Applications Wireflow Diagrams
+
+> *(Sección pendiente de desarrollo)*
+
+#### 3.1.4.3. Mobile Applications Mock-ups
+
+> *(Sección pendiente de desarrollo)*
+
+#### 3.1.4.4. Mobile Applications User Flow Diagrams
+
+> *(Sección pendiente de desarrollo)*
+
+#### 3.1.4.5. Mobile Applications Prototyping
+
+> *(Sección pendiente de desarrollo)*
+
+# Capítulo IV: Product Implementation & Validation
+
+## 4.1. Software Configuration Management
+
+### 4.1.1. Software Development Environment Configuration
+
+> *(Sección pendiente de desarrollo)*
+
+### 4.1.2. Source Code Management
+
+> *(Sección pendiente de desarrollo)*
+
+### 4.1.3. Source Code Style Guide & Conventions
+
+> *(Sección pendiente de desarrollo)*
+
+### 4.1.4. Software Deployment Configuration
+
+> *(Sección pendiente de desarrollo)*
+
+## 4.2. Landing Page & Mobile Application Implementation
+
+### 4.2.1. Sprint 1
+
+#### 4.2.1.1. Sprint Planning 1
+
+> *(Sección pendiente de desarrollo)*
+
+#### 4.2.1.2. Sprint Backlog 1
+
+> *(Sección pendiente de desarrollo)*
+
+#### 4.2.1.3. Development Evidence for Sprint Review
+
+> *(Sección pendiente de desarrollo)*
+
+#### 4.2.1.4. Testing Suite Evidence for Sprint Review
+
+> *(Sección pendiente de desarrollo)*
+
+#### 4.2.1.5. Execution Evidence for Sprint Review
+
+> *(Sección pendiente de desarrollo)*
+
+#### 4.2.1.6. Services Documentation Evidence for Sprint Review
+
+> *(Sección pendiente de desarrollo)*
+
+#### 4.2.1.7. Software Deployment Evidence for Sprint Review
+
+> *(Sección pendiente de desarrollo)*
+
+#### 4.2.1.8. Team Collaboration Insights during Sprint
+
+> *(Sección pendiente de desarrollo)*
+
+## 4.3. Validation Interviews
+
+### 4.3.1. Diseño de Entrevistas
+
+> *(Sección pendiente de desarrollo)*
+
+### 4.3.2. Registro de Entrevistas
+
+> *(Sección pendiente de desarrollo)*
+
+### 4.3.3. Evaluaciones según heurísticas
+
+> *(Sección pendiente de desarrollo)*
+
+# Conclusiones y recomendaciones
+
+> *(Sección pendiente de desarrollo)*
+
+# Video App Validation
+
+> *(Sección pendiente de desarrollo)*
+
+# Video About the product
+
+> *(Sección pendiente de desarrollo)*
+
+# Video About the team
+
+> *(Sección pendiente de desarrollo)*
+
+# Glosario
+
+> *(Sección pendiente de desarrollo)*
+
+# Bibliografía
+
+> *(Sección pendiente de desarrollo)*
+
+# Anexos
+
+> *(Sección pendiente de desarrollo)*
