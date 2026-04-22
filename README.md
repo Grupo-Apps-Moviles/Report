@@ -952,7 +952,7 @@ Existe una dependencia funcional crítica donde **Routes** consume la informaci�
 
 En este diagrama de contexto se aprecia cómo el sistema centraliza la comunicación entre sus actores principales y los servicios de apoyo. Mientras que los Pasajeros interactúan con la plataforma para gestionar sus viajes, los Gestores utilizan las herramientas administrativas para organizar la logística de transporte. Para complementar la experiencia, el sistema delega funciones específicas a servicios externos especializados en mapas, transacciones financieras y envíos de notificaciones.
 
-<img width="840" height="677" alt="Image" src="https://github.com/user-attachments/assets/6c5639ac-ec32-48db-9cc6-ca2217dc4e76" />
+<img width="5278" height="3299" alt="Image" src="https://github.com/user-attachments/assets/00bf91fb-1eb5-4329-b2f6-b9b62a646054" />
 
 #### 2.5.3.2. Software Architecture Container Level Diagrams
 
