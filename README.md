@@ -875,12 +875,51 @@ Al analizar hitos como ParaderoCreado, RutaCreada y UsuarioRegistrado, logramos 
 
 
 #### 2.5.1.2. Domain Message Flows Modeling
+
+El Domain Message Flow Modelling se utiliza para diagramar el intercambio de mensajes de dominio —específicamente comandos, eventos y consultas— a través de los diversos contextos delimitados. Esta metodología tiene como fin establecer con claridad las dependencias mutuas, así como las responsabilidades e interacciones de cada componente del sistema.
+
+Link: https://miro.com/app/board/uXjVHe6wZGo=/?share_link_id=531861330130
+
+<img width="1250" height="795" alt="Image" src="https://github.com/user-attachments/assets/0cc437ed-798a-408b-978b-1e4990ba07bf" />
+
+<img width="1234" height="789" alt="Image" src="https://github.com/user-attachments/assets/62966ed7-c29f-4d25-a8f1-9411685bc964" />
+
+<img width="1245" height="800" alt="Image" src="https://github.com/user-attachments/assets/fdeea1a1-1f0b-493e-9059-466e8c0303ad" />
+
+<img width="1239" height="794" alt="Image" src="https://github.com/user-attachments/assets/c0ec5dd5-00c6-44a3-b7a7-1a1feab31ced" />
+
+<img width="1234" height="786" alt="Image" src="https://github.com/user-attachments/assets/811ce2b8-32a0-471a-8677-6442e92f4b97" />
+
+<img width="1239" height="787" alt="Image" src="https://github.com/user-attachments/assets/985e52d2-9999-4acf-b1c4-cae7c311fc3e" />
+
+
+
 #### 2.5.1.3. Bounded Context Canvases
 ### 2.5.2. Context Mapping
+
+
 ### 2.5.3. Software Architecture
+
+
 #### 2.5.3.1. Software Architecture Context Level Diagrams
+
+En este diagrama de contexto se aprecia cómo el sistema centraliza la comunicación entre sus actores principales y los servicios de apoyo. Mientras que los Pasajeros interactúan con la plataforma para gestionar sus viajes, los Gestores utilizan las herramientas administrativas para organizar la logística de transporte. Para complementar la experiencia, el sistema delega funciones específicas a servicios externos especializados en mapas, transacciones financieras y envíos de notificaciones.
+
+<img width="840" height="677" alt="Image" src="https://github.com/user-attachments/assets/6c5639ac-ec32-48db-9cc6-ca2217dc4e76" />
+
 #### 2.5.3.2. Software Architecture Container Level Diagrams
+
+El siguiente diagrama de contenedores representa los principales componentes del sistema y cómo interactúan entre sí. Se muestra la aplicación móvil para pasajeros y conductores, el gestor de backend que centraliza la lógica de negocio, y los bounded contexts de IAM, Profile, Routes y Stops, así como la base de datos y la integración con los servicios externos.
+
+<img width="5278" height="3299" alt="Image" src="https://github.com/user-attachments/assets/789c627f-ef48-46ca-9dbe-3a4a14e61043" />
+
+
 #### 2.5.3.3. Software Architecture Deployment Diagrams
+
+El siguiente diagrama de despliegue describe la infraestructura física y lógica en la que se ejecutan los principales componentes del sistema.
+
+<img width="6467" height="1100" alt="Image" src="https://github.com/user-attachments/assets/c05f6c09-1531-43dd-ba46-84ef52bc4585" />
+
 ## 2.6. Tactical-Level Domain-Driven Design
 
 ### 2.6.1. Bounded Context: IAM
