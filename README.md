@@ -639,48 +639,64 @@ Link: https://miro.com/app/board/uXjVGh3gqW0=/?share_link_id=125731988466
 
 ### 2.3.6. Ubiquitous Language
 
-Este lenguaje común define los términos clave utilizados para el proyecto **Chapaturuta**. En esta arquitectura monolítica, los 4 contextos conviven en una misma base de código pero mantienen límites lógicos claros, optimizados para una experiencia de usuario móvil.
+El lenguaje ubicuo es una parte fundamental de la estrategia de UX. Se refiere al conjunto de términos y frases que, aunque no pertenecen al contexto técnico del desarrollo, se utilizan para expresar la lógica del negocio. Esto permite que todos los involucrados en el proyecto, incluidos los usuarios finales, puedan entender y participar mejor en el desarrollo del producto.
 
-## 1. Bounded Context: Identidad y Seguridad (IAM)
-*Gestiona el acceso, los roles y la confianza dentro de la aplicación.*
+#### GLOSARIO
 
-| Término | Definición en el Dominio |
-| :--- | :--- |
-| **Pasajero** | Usuario que busca transporte y visualiza unidades en el mapa para reducir su incertidumbre. |
-| **Conductor** | Usuario verificado que opera una unidad de transporte y publica su disponibilidad. |
-| **Perfil de Confianza** | Ficha técnica (nombre, foto, placa) visible para el pasajero que valida la identidad del conductor. |
-| **Autenticación Directa** | Proceso de validación de credenciales gestionado internamente por el módulo de seguridad del monolito. |
-
-## 2. Bounded Context: Rutas y Paraderos (Stops & Routes)
-*Define la estructura física y lógica por donde circulan las unidades.*
-
-| Término | Definición en el Dominio |
-| :--- | :--- |
-| **Ruta Nominal** | Trayecto predefinido que sigue una línea de transporte (ej. Chosicano, Todo Evitamiento). |
-| **Geo-Stop (Paradero)** | Punto de embarque virtual con coordenadas fijas, visualizado como marcador en la app móvil. |
-| **Tramo** | Segmento de una ruta comprendido entre dos Geo-Stops consecutivos. |
-| **Catálogo de Rutas** | Repositorio interno de todas las trayectorias disponibles en la zona de operación. |
-
-## 3. Bounded Context: Seguimiento y Localización (Tracking)
-*Se encarga de la captura y procesamiento de señales GPS en tiempo real.*
-
-| Término | Definición en el Dominio |
-| :--- | :--- |
-| **Señal de Ubicación** | Coordenada (latitud/longitud) enviada periódicamente por el dispositivo móvil del conductor. |
-| **Unidad Cercana** | Vehículo cuya posición actual se encuentra dentro del radio de visualización del pasajero. |
-| **ETA (Estimated Time)** | Tiempo calculado internamente que tardará el conductor en llegar al Geo-Stop más cercano al pasajero. |
-| **Modo Ahorro** | Ajuste en la frecuencia de actualización de GPS para optimizar la batería del smartphone del conductor. |
-
-## 4. Bounded Context: Operaciones de Viaje (Trip Operations)
-*Gestiona el estado dinámico del servicio y la interacción conductor-pasajero.*
-
-| Término | Definición en el Dominio |
-| :--- | :--- |
-| **Ruta Activa** | Instancia de una ruta que un conductor está recorriendo en un momento específico. |
-| **Estado de Disponibilidad** | Switch dinámico (Disponible / Lleno / Fuera de Servicio) que el conductor cambia en su interfaz. |
-| **Check-in de Paradero** | Evento lógico que ocurre cuando la ubicación del conductor coincide con el radio de un Geo-Stop. |
-| **Alerta de Proximidad** | Notificación enviada al pasajero cuando una Ruta Activa está a menos de una distancia crítica. |
-
+<table>
+  <thead>
+    <tr style="background-color: #2c3e50; color: white;">
+      <th style="padding: 10px; border: 1px solid #ddd;">Término</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Definición</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Colectivo</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Automóvil que opera en rutas fijas entre pueblos o distritos, transportando varios pasajeros a la vez.</td>
+    </tr>
+    <tr style="background-color: #f9f9f9;">
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Whereabouts (Paradero)</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Punto habitual donde los colectivos recogen o dejan pasajeros. Geolocalizado en la plataforma.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Route (Ruta)</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Trayecto fijo que sigue un colectivo, desde un punto de partida hasta un destino.</td>
+    </tr>
+    <tr style="background-color: #f9f9f9;">
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Route request</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Acción del usuario para solicitar información sobre una ruta específica.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Verified driver</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Conductor registrado con identidad y datos del vehículo verificados.</td>
+    </tr>
+    <tr style="background-color: #f9f9f9;">
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Driver´s profile</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Información pública (foto, calificación, comentarios) para generar confianza.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Availability</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Estado activo del conductor indicando cupos disponibles en ruta.</td>
+    </tr>
+    <tr style="background-color: #f9f9f9;">
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Viaje (Ride)</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Servicio individual de abordaje que puede monitorearse en tiempo real.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Fare (Tarifa)</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Costo estimado basado en distancia y ruta; sirve como referencia.</td>
+    </tr>
+    <tr style="background-color: #f9f9f9;">
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Monitoring</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Supervisión de rutas y tiempos estimados de llegada.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Coverage areas</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Zonas geográficas donde opera el servicio y se planean expansiones.</td>
+    </tr>
+  </tbody>
+</table>
 ## 2.4. Requirements specification
 
 ### 2.4.1. User Stories
