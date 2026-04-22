@@ -915,6 +915,36 @@ En esta sección se presentan los Bounded Context Canvases correspondientes a lo
 ### 2.5.2. Context Mapping
 
 
+<img width="962" height="584" alt="Image" src="https://github.com/user-attachments/assets/d703dddc-e8a8-463b-b038-45734b9617c1" />
+
+A continuación, se describen las relaciones y estrategias de integración entre los Bounded Contexts del sistema, basadas en los patrones de **Domain-Driven Design (DDD)**.
+
+---
+
+### 1. IAM → Profile 
+* **Relación:** Upstream (IAM) / Downstream (Profile)
+* **Patrón:** **Anti-Corruption Layer (ACL)**
+
+En este vínculo, **IAM** actúa como el proveedor de identidades validadas. **Profile** consume esta identidad para asociarla a atributos de datos personales. Se implementa una **Capa Anticorrupción (ACL)** en el lado de Profile para proteger su modelo de dominio; esto garantiza que cualquier cambio estructural en el sistema de autenticación no impacte negativamente en la lógica de perfiles.
+
+### 2. Profile → Routes
+* **Relación:** Upstream (Profile) / Downstream (Routes)
+* **Patrón:** **Conformist**
+
+El contexto de **Routes** requiere conocer la identidad de los conductores para asignar la autoría y administración de las rutas. Dado que el modelo de usuario de Profile es estable y compatible, Routes adopta una postura **Conformista**, integrando directamente el modelo de Profile sin realizar transformaciones, priorizando la simplicidad y la velocidad de integración.
+
+### 3. Profile → Stops
+* **Relación:** Upstream (Profile) / Downstream (Stops)
+* **Patrón:** **Conformist**
+
+De manera similar, el contexto de **Stops** depende de los datos de usuario para la trazabilidad de quienes gestionan los paraderos. Al establecerse como **Conformist**, Stops se ajusta estrictamente al modelo definido por Profile, asegurando coherencia e integridad de datos en los registros de auditoría de cada punto geográfico.
+
+### 4. Stops → Routes
+* **Relación:** Upstream / Supplier (Stops) - Downstream / Customer (Routes)
+* **Patrón:** **Customer/Supplier**
+
+Existe una dependencia funcional crítica donde **Routes** consume la información de **Stops** para construir la secuencia de los recorridos (inicio, puntos intermedios y fin). Esta relación se gestiona bajo el esquema de **Cliente/Proveedor**, donde el equipo de Stops (Proveedor) se compromete a entregar los datos necesarios para que el equipo de Rutas (Cliente) pueda cumplir sus objetivos de negocio.
+
 ### 2.5.3. Software Architecture
 
 
