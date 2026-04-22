@@ -1152,895 +1152,427 @@ registro, Value Objects para encapsular datos importantes, e interfaces para los
 <img width="352" height="285" alt="Image" src="https://github.com/user-attachments/assets/e4b1a0bf-b854-470c-90d9-3f303102e76f" />
 
 
-### 2.6.2. Bounded Context: Operaciones 
+### 2.6.2. Bounded Context: Profile
 
 Siguiendo el modelo de arquitectura 'Clean Architecture' hemos dividido el proyecto en capas. A continuación detallamos las capas del Bounded Context Operaciones.
 
 #### 2.6.2.1. Domain Layer
 
-##### Sub-capa Model - Aggregates
+#### Sub-capa Model - Aggregates: 
 
-<table border="1px" align="center">
-<thead>
-<tr>
-<th>Tipo</th>
-<th>Nombre</th>
-<th>Descripción</th>
-<th>Responsabilidad Principal</th>
-<th>Relación con otros elementos</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Aggregate</td>
-<td>Operation</td>
-<td>Clase para definir el registro de operación de flota</td>
-<td>Ser el punto de entrada para gestionar el estado técnico y operativo de los vehículos</td>
-<td>Relacionado con el Bounded Context de Rutas para validar la disponibilidad operativa de la unidad</td>
-</tr>
-</tbody>
+<table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="padding: 10px;">Tipo</th>
+      <th style="padding: 10px;">Nombre</th>
+      <th style="padding: 10px;">Descripción</th>
+      <th style="padding: 10px;">Responsabilidad Principal</th>
+      <th style="padding: 10px;">Relación con otros elementos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px;">Aggregate</td>
+      <td style="padding: 10px;">Profile</td>
+      <td style="padding: 10px;">Entidad que representa un perfil en el sistema</td>
+      <td style="padding: 10px;">Ser el punto de entrada para modificar y mantener la integridad de la información del perfil como entidad del dominio</td>
+      <td style="padding: 10px;">Relacionado con otros bounded contexts que requieren información de perfiles</td>
+    </tr>
+  </tbody>
+</table>
+
+#### Sub-capa Model - Commands:
+
+<table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="padding: 10px;">Tipo</th>
+      <th style="padding: 10px;">Nombre</th>
+      <th style="padding: 10px;">Descripción</th>
+      <th style="padding: 10px;">Responsabilidad Principal</th>
+      <th style="padding: 10px;">Relación con otros elementos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px;">Command</td>
+      <td style="padding: 10px;">CreateProfileCommand</td>
+      <td style="padding: 10px;">Comando para crear un nuevo perfil</td>
+      <td style="padding: 10px;">Representar la intención de crear un nuevo perfil en el sistema</td>
+      <td style="padding: 10px;">Usado en la implementación del servicio de comandos de perfil</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">Command</td>
+      <td style="padding: 10px;">CreateProfileWithFileCommand</td>
+      <td style="padding: 10px;">Comando para crear un perfil con archivo adjunto</td>
+      <td style="padding: 10px;">Representar la intención de crear un nuevo perfil incluyendo archivos de documentación</td>
+      <td style="padding: 10px;">Usado en la implementación del servicio de comandos de perfil</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">Command</td>
+      <td style="padding: 10px;">DeleteProfileCommand</td>
+      <td style="padding: 10px;">Comando para eliminar un perfil</td>
+      <td style="padding: 10px;">Representar la intención de eliminar un perfil del sistema</td>
+      <td style="padding: 10px;">Usado en la implementación del servicio de comandos de perfil</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">Command</td>
+      <td style="padding: 10px;">UpdateProfileCommand</td>
+      <td style="padding: 10px;">Comando para actualizar información de perfil</td>
+      <td style="padding: 10px;">Representar la intención de modificar los datos de un perfil existente</td>
+      <td style="padding: 10px;">Usado en la implementación del servicio de comandos de perfil</td>
+    </tr>
+  </tbody>
+</table>
+
+#### Sub-capa Model - Queries:
+
+<table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="padding: 10px;">Tipo</th>
+      <th style="padding: 10px;">Nombre</th>
+      <th style="padding: 10px;">Descripción</th>
+      <th style="padding: 10px;">Responsabilidad Principal</th>
+      <th style="padding: 10px;">Relación con otros elementos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px;">Query</td>
+      <td style="padding: 10px;">GetAllProfilesQuery</td>
+      <td style="padding: 10px;">Consulta para obtener todos los perfiles</td>
+      <td style="padding: 10px;">Representar la intención de obtener la lista completa de perfiles registrados</td>
+      <td style="padding: 10px;">Usado en la implementación del servicio de consultas</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">Query</td>
+      <td style="padding: 10px;">GetProfileByRucUserQuery</td>
+      <td style="padding: 10px;">Consulta para obtener perfil por RUC de usuario</td>
+      <td style="padding: 10px;">Representar la intención de buscar un perfil específico por el RUC del usuario asociado</td>
+      <td style="padding: 10px;">Usado en la implementación del servicio de consultas</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">Query</td>
+      <td style="padding: 10px;">GetProfileByIdQuery</td>
+      <td style="padding: 10px;">Consulta para obtener perfil por ID</td>
+      <td style="padding: 10px;">Representar la intención de buscar un perfil específico por su identificador único</td>
+      <td style="padding: 10px;">Usado en la implementación del servicio de consultas</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">Query</td>
+      <td style="padding: 10px;">GetProfileByNameQuery</td>
+      <td style="padding: 10px;">Consulta para obtener perfil por nombre</td>
+      <td style="padding: 10px;">Representar la intención de buscar un perfil específico por su nombre comercial</td>
+      <td style="padding: 10px;">Usado en la implementación del servicio de consultas</td>
+    </tr>
+  </tbody>
+</table>
+
+#### Sub-capa Repositories:
+
+<table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="padding: 10px;">Tipo</th>
+      <th style="padding: 10px;">Nombre</th>
+      <th style="padding: 10px;">Descripción</th>
+      <th style="padding: 10px;">Responsabilidad Principal</th>
+      <th style="padding: 10px;">Relación con otros elementos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px;">Interface</td>
+      <td style="padding: 10px;">IProfileRepository</td>
+      <td style="padding: 10px;">Repositorio para operaciones de persistencia del modelo Profile</td>
+      <td style="padding: 10px;">Definir contratos para operaciones CRUD de perfiles</td>
+      <td style="padding: 10px;">Implementado en la capa de Infrastructure</td>
+    </tr>
+  </tbody>
+</table>
+
+#### Sub-capa Services:
+
+<table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="padding: 10px;">Tipo</th>
+      <th style="padding: 10px;">Nombre</th>
+      <th style="padding: 10px;">Descripción</th>
+      <th style="padding: 10px;">Responsabilidad Principal</th>
+      <th style="padding: 10px;">Relación con otros elementos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px;">Interface</td>
+      <td style="padding: 10px;">IProfileCommandService</td>
+      <td style="padding: 10px;">Servicio para métodos de comandos de perfil</td>
+      <td style="padding: 10px;">Estipular una estructura clara a seguir para operaciones de escritura</td>
+      <td style="padding: 10px;">Uso en la capa "application" para implementar los métodos dados</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">Interface</td>
+      <td style="padding: 10px;">IProfileQueryService</td>
+      <td style="padding: 10px;">Servicio para métodos de consulta de perfil</td>
+      <td style="padding: 10px;">Estipular una estructura clara a seguir para operaciones de lectura</td>
+      <td style="padding: 10px;">Usado en la capa "Infrastructure" para la implementación de los métodos</td>
+    </tr>
+  </tbody>
 </table>
 
 
-##### Sub-capa Model - Commands
 
-<table border="1px" align="center">
-<thead>
-<tr>
-<th>Tipo</th>
-<th>Nombre</th>
-<th>Descripción</th>
-<th>Responsabilidad Principal</th>
-<th>Relación con otros elementos</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Command</td>
-<td>CreateOperationCommand</td>
-<td>Comando para registrar una nueva operación</td>
-<td>Representar la intención de iniciar un mantenimiento o tarea técnica</td>
-<td>Usado en la implementación del servicio de comandos de operaciones</td>
-</tr>
-<tr>
-<td>Command</td>
-<td>UpdateOperationStatusCommand</td>
-<td>Comando para actualizar el estado técnico</td>
-<td>Representar el cambio de estado de una tarea operativa</td>
-<td>Usado para notificar disponibilidad al sistema de asignación de rutas</td>
-</tr>
-</tbody>
-</table>
-
-##### Sub-capa Model - Queries
-
-<table border="1px" align="center">
-<thead>
-<tr>
-<th>Tipo</th>
-<th>Nombre</th>
-<th>Descripción</th>
-<th>Responsabilidad Principal</th>
-<th>Relación con otros elementos</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Query</td>
-<td>GetAllOperationsQuery</td>
-<td>Consulta para obtener todas las operaciones</td>
-<td>Representar la intención de obtener la lista completa de actividades técnicas</td>
-<td>Usado en la implementación del servicio de consultas</td>
-</tr>
-<tr>
-<td>Query</td>
-<td>GetOperationByIdQuery</td>
-<td>Consulta para obtener una operación por ID</td>
-<td>Representar la intención de buscar un registro operativo específico por su ID</td>
-<td>Usado en la implementación del servicio de consultas</td>
-</tr>
-</tbody>
-</table>
-
-
-##### Sub-capa Model - Value Objects
-
-<table border="1px" align="center">
-<thead>
-<tr>
-<th>Tipo</th>
-<th>Nombre</th>
-<th>Descripción</th>
-<th>Responsabilidad Principal</th>
-<th>Relación con otros elementos</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Value Object</td>
-<td>OperationStatus</td>
-<td>Estado de la tarea operativa</td>
-<td>Representar los diferentes estados (Programado, En Curso, Finalizado)</td>
-<td>Usado en el agregado "Operation"</td>
-</tr>
-</tbody>
-</table>
-
-##### Sub-capa Services
-
-<table border="1px" align="center">
-<thead>
-<tr>
-<th>Tipo</th>
-<th>Nombre</th>
-<th>Descripción</th>
-<th>Responsabilidad Principal</th>
-<th>Relación con otros elementos</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Interface</td>
-<td>IOperationCommandService</td>
-<td>Servicio para métodos de registro técnico</td>
-<td>Estipular una estructura clara para la creación de datos</td>
-<td>Uso en la capa "application" para implementar la lógica de negocio</td>
-</tr>
-<tr>
-<td>Interface</td>
-<td>IOperationQueryService</td>
-<td>Servicio para métodos de consulta operativa</td>
-<td>Estipular una estructura clara para la recuperación de datos</td>
-<td>Uso en la capa "Infrastructure" para la implementación de métodos</td>
-</tr>
-</tbody>
-</table>
-
-##### Sub-capa Repositories
-
-<table border="1px" align="center">
-<thead>
-<tr>
-<th>Tipo</th>
-<th>Nombre</th>
-<th>Descripción</th>
-<th>Responsabilidad Principal</th>
-<th>Relación con otros elementos</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Interface</td>
-<td>IOperationRepository</td>
-<td>Repositorio para persistencia de operaciones</td>
-<td>Definir contratos para operaciones CRUD del modelo Operation</td>
-<td>Implementado en la capa de Infrastructure</td>
-</tr>
-</tbody>
-</table>
 
 #### 2.6.1.2. Interface Layer
 
+#### Sub-capa REST - Resources:
 
-##### Sub-capa REST - Resources
-
-<table border="1px" align="center">
-<thead>
-<tr>
-<th>Tipo</th>
-<th>Nombre</th>
-<th>Descripción</th>
-<th>Responsabilidad Principal</th>
-<th>Relación con otros elementos</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Resource</td>
-<td>OperationResource</td>
-<td>Estructura de datos de una operación técnica</td>
-<td>Representar y exponer datos de mantenimiento de forma accesible para el cliente</td>
-<td>Uso en OperationsController para emitir datos sobre mantenimiento de flota</td>
-</tr>
-<tr>
-<td>Resource</td>
-<td>CreateOperationResource</td>
-<td>Estructura para registrar una nueva operación</td>
-<td>Representar la petición del cliente para iniciar un proceso operativo</td>
-<td>Uso en OperationsController para capturar datos de entrada</td>
-</tr>
-</tbody>
+<table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="padding: 10px;">Tipo</th>
+      <th style="padding: 10px;">Nombre</th>
+      <th style="padding: 10px;">Descripción</th>
+      <th style="padding: 10px;">Responsabilidad Principal</th>
+      <th style="padding: 10px;">Relación con otros elementos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px;">Resource</td>
+      <td style="padding: 10px;">ProfileResource</td>
+      <td style="padding: 10px;">Estructura de datos de perfil para API</td>
+      <td style="padding: 10px;">Representar y exponer datos de perfil de forma accesible y estructurada para el cliente</td>
+      <td style="padding: 10px;">Usado en controladores para estructurar respuestas de perfil</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">Resource</td>
+      <td style="padding: 10px;">CreateProfileFormResource</td>
+      <td style="padding: 10px;">Estructura de petición para crear perfil con formulario</td>
+      <td style="padding: 10px;">Representar datos de entrada para creación de perfil a través de formulario</td>
+      <td style="padding: 10px;">Usado en controlador para procesar peticiones de creación</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">Resource</td>
+      <td style="padding: 10px;">CreateProfileResource</td>
+      <td style="padding: 10px;">Estructura de petición para crear perfil</td>
+      <td style="padding: 10px;">Representar datos de entrada para creación de perfil estándar</td>
+      <td style="padding: 10px;">Usado en controlador para procesar peticiones de creación estándar</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">Resource</td>
+      <td style="padding: 10px;">CreateProfileWithFileResource</td>
+      <td style="padding: 10px;">Estructura de petición para crear perfil con archivos</td>
+      <td style="padding: 10px;">Representar datos de entrada para creación de perfil incluyendo archivos adjuntos</td>
+      <td style="padding: 10px;">Usado en controlador para procesar peticiones con documentos</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">Resource</td>
+      <td style="padding: 10px;">DeleteProfileResource</td>
+      <td style="padding: 10px;">Estructura de petición para eliminar perfil</td>
+      <td style="padding: 10px;">Representar datos necesarios para identificar y eliminar un perfil</td>
+      <td style="padding: 10px;">Usado en controlador para procesar peticiones de eliminación</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">Resource</td>
+      <td style="padding: 10px;">UpdateProfileResource</td>
+      <td style="padding: 10px;">Estructura de petición para actualizar perfil</td>
+      <td style="padding: 10px;">Representar datos de entrada para actualización de información de perfil</td>
+      <td style="padding: 10px;">Usado en controlador para procesar peticiones de actualización</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">Resource</td>
+      <td style="padding: 10px;">UpdateProfileWithFileResource</td>
+      <td style="padding: 10px;">Estructura de petición para actualizar perfil con archivos</td>
+      <td style="padding: 10px;">Representar datos de entrada para actualización de perfil incluyendo archivos adjuntos</td>
+      <td style="padding: 10px;">Usado en controlador para procesar actualizaciones con documentos</td>
+    </tr>
+  </tbody>
 </table>
 
-##### Sub-capa REST - Transform (Assemblers)
+#### Sub-capa REST - Transform:
 
-<table border="1px" align="center">
-<thead>
-<tr>
-<th>Tipo</th>
-<th>Nombre</th>
-<th>Descripción</th>
-<th>Responsabilidad Principal</th>
-<th>Relación con otros elementos</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Assembler</td>
-<td>OperationResourceFromEntityAssembler</td>
-<td>Transformador de entidad Operation a OperationResource</td>
-<td>Convertir la entidad de dominio a su representación estructurada REST</td>
-<td>Usado en controladores para transformar respuestas de la API</td>
-</tr>
-<tr>
-<td>Assembler</td>
-<td>CreateOperationCommandFromResourceAssembler</td>
-<td>Transformador de CreateOperationResource a Command</td>
-<td>Convertir la petición REST a un comando procesable por el dominio</td>
-<td>Usado en OperationsController para procesar registros técnicos</td>
-</tr>
-</tbody>
+<table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="padding: 10px;">Tipo</th>
+      <th style="padding: 10px;">Nombre</th>
+      <th style="padding: 10px;">Descripción</th>
+      <th style="padding: 10px;">Responsabilidad Principal</th>
+      <th style="padding: 10px;">Relación con otros elementos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px;">Assembler</td>
+      <td style="padding: 10px;">ProfileResourceFromEntityAssembler</td>
+      <td style="padding: 10px;">Transformador de entidad Profile a ProfileResource</td>
+      <td style="padding: 10px;">Convertir la entidad del dominio a su representación REST correspondiente</td>
+      <td style="padding: 10px;">Usado en controladores para transformar respuestas</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">Assembler</td>
+      <td style="padding: 10px;">CreateProfileCommandFromResourceAssembler</td>
+      <td style="padding: 10px;">Transformador de CreateProfileResource a CreateProfileCommand</td>
+      <td style="padding: 10px;">Convertir la petición REST a comando del dominio</td>
+      <td style="padding: 10px;">Usado en controlador para procesar peticiones de creación</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">Assembler</td>
+      <td style="padding: 10px;">DeleteProfileCommandFromResourceAssembler</td>
+      <td style="padding: 10px;">Transformador de DeleteProfileResource a DeleteProfileCommand</td>
+      <td style="padding: 10px;">Convertir la petición REST a comando del dominio</td>
+      <td style="padding: 10px;">Usado en controlador para procesar peticiones de eliminación</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px;">Assembler</td>
+      <td style="padding: 10px;">UpdateProfileCommandFromResourceAssembler</td>
+      <td style="padding: 10px;">Transformador de UpdateProfileResource a UpdateProfileCommand</td>
+      <td style="padding: 10px;">Convertir la petición REST a comando del dominio</td>
+      <td style="padding: 10px;">Usado en controlador para procesar peticiones de actualización</td>
+    </tr>
+  </tbody>
 </table>
 
-
-##### Sub-capa REST - Controllers
-
-<table border="1px" align="center">
-<thead>
-<tr>
-<th>Tipo</th>
-<th>Nombre</th>
-<th>Descripción</th>
-<th>Responsabilidad Principal</th>
-<th>Relación con otros elementos</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Controller</td>
-<td>OperationsController</td>
-<td>Controlador para gestión de flota y mantenimiento</td>
-<td>Manejar las peticiones HTTP relacionadas con tareas técnicas y operativas</td>
-<td>Usa servicios de aplicación y assemblers para procesar flujos de trabajo</td>
-</tr>
-</tbody>
-</table>
-
-
-##### Sub-capa ACL
-
-<table border="1px" align="center">
-<thead>
-<tr>
-<th>Tipo</th>
-<th>Nombre</th>
-<th>Descripción</th>
-<th>Responsabilidad Principal</th>
-<th>Relación con otros elementos</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Service</td>
-<td>OperationsContextFacade</td>
-<td>Servicio de fachada para Operaciones</td>
-<td>Proporcionar una interfaz simplificada para consultar el estado operativo y técnico de los vehículos desde otros contextos</td>
-<td>Relacionado con el contexto de Rutas para validar si un vehículo está apto para ser asignado</td>
-</tr>
-</tbody>
-</table>
 
 
 
 #### 2.6.1.3. Application Layer
 
-##### Sub-capa Internal - CommandServices
 
-<table border="1px" align="center">
-<thead>
-<tr>
-<th>Tipo</th>
-<th>Nombre</th>
-<th>Descripción</th>
-<th>Responsabilidad Principal</th>
-<th>Relación con otros elementos</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>CommandHandler</td>
-<td>OperationCommandService</td>
-<td>Implementación de los comandos de gestión operativa</td>
-<td>Ejecutar la lógica de negocio para la creación y actualización de tareas de mantenimiento</td>
-<td>Implementa los métodos de la interfaz IOperationCommandService definida en la capa de Domain Services</td>
-</tr>
-</tbody>
+#### Sub-capa Internal - CommandServices:
+
+<table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="padding: 10px;">Tipo</th>
+      <th style="padding: 10px;">Nombre</th>
+      <th style="padding: 10px;">Descripción</th>
+      <th style="padding: 10px;">Responsabilidad Principal</th>
+      <th style="padding: 10px;">Relación con otros elementos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px;">CommandHandler</td>
+      <td style="padding: 10px;">ProfileCommandService</td>
+      <td style="padding: 10px;">Implementación de comandos de perfil</td>
+      <td style="padding: 10px;">Implementar los métodos para el servicio de gestión de perfiles</td>
+      <td style="padding: 10px;">Implementa los métodos de la interface IProfileCommandService en la capa de "Services"</td>
+    </tr>
+  </tbody>
 </table>
 
-##### Sub-capa Internal - OutboundServices
+#### Sub-capa Internal - QueryServices:
 
-<table border="1px" align="center">
-<thead>
-<tr>
-<th>Tipo</th>
-<th>Nombre</th>
-<th>Descripción</th>
-<th>Responsabilidad Principal</th>
-<th>Relación con otros elementos</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Service</td>
-<td>IExternalVehicleService</td>
-<td>Interfaz para validación de recursos externos</td>
-<td>Definir contratos para verificar estados de vehículos en sistemas externos o sensores</td>
-<td>Implementado en la capa de Infrastructure para comunicación con hardware o APIs externas</td>
-</tr>
-</tbody>
-</table>
-
-
-##### Sub-capa Internal - QueryServices
-
-<table border="1px" align="center">
-<thead>
-<tr>
-<th>Tipo</th>
-<th>Nombre</th>
-<th>Descripción</th>
-<th>Responsabilidad Principal</th>
-<th>Relación con otros elementos</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>QueryHandler</td>
-<td>OperationQueryService</td>
-<td>Implementación de las consultas de operaciones</td>
-<td>Orquestar la recuperación de datos técnicos y estados de la flota para el cliente</td>
-<td>Implementa los métodos de la interfaz IOperationQueryService definida en la capa de Domain Services</td>
-</tr>
-</tbody>
+<table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="padding: 10px;">Tipo</th>
+      <th style="padding: 10px;">Nombre</th>
+      <th style="padding: 10px;">Descripción</th>
+      <th style="padding: 10px;">Responsabilidad Principal</th>
+      <th style="padding: 10px;">Relación con otros elementos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px;">QueryHandler</td>
+      <td style="padding: 10px;">ProfileQueryService</td>
+      <td style="padding: 10px;">Implementación de consultas de perfil</td>
+      <td style="padding: 10px;">Implementar los métodos para las consultas de perfiles</td>
+      <td style="padding: 10px;">Implementa los métodos de la interface IProfileQueryService en la capa de "Services"</td>
+    </tr>
+  </tbody>
 </table>
 
 
 
 #### 2.6.1.4 Infrastructure Layer
 
+#### Sub-capa Persistence - Repositories:
 
-##### Sub-capa Persistence (EFC)
-
-<table border="1px" align="center">
-<thead>
-<tr>
-<th>Tipo</th>
-<th>Nombre</th>
-<th>Descripción</th>
-<th>Responsabilidad Principal</th>
-<th>Relación con otros elementos</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Repository</td>
-<td>OperationRepository</td>
-<td>Repositorio para el modelo "Operation" con Entity Framework Core</td>
-<td>Gestionar la persistencia y recuperación de datos sobre el mantenimiento y estado técnico vehicular</td>
-<td>Usado en la Capa "Application" para implementar la lógica de gestión de flota</td>
-</tr>
-</tbody>
+<table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="padding: 10px;">Tipo</th>
+      <th style="padding: 10px;">Nombre</th>
+      <th style="padding: 10px;">Descripción</th>
+      <th style="padding: 10px;">Responsabilidad Principal</th>
+      <th style="padding: 10px;">Relación con otros elementos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px;">Repository</td>
+      <td style="padding: 10px;">ProfileRepository</td>
+      <td style="padding: 10px;">Repositorio para usar del modelo "Profile"</td>
+      <td style="padding: 10px;">Acceder y manipular datos persistidos de perfiles en la base de datos</td>
+      <td style="padding: 10px;">Usado en la Capa "Application" para implementar operaciones CRUD de perfiles</td>
+    </tr>
+  </tbody>
 </table>
 
-##### Sub-capa External Services (Hardware/API)
 
-<table border="1px" align="center">
-<thead>
-<tr>
-<th>Tipo</th>
-<th>Nombre</th>
-<th>Descripción</th>
-<th>Responsabilidad Principal</th>
-<th>Relación con otros elementos</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Service</td>
-<td>VehicleExternalService</td>
-<td>Adaptador para comunicación con sistemas de diagnóstico externo</td>
-<td>Implementar la comunicación técnica para obtener estados reales del motor o sensores del vehículo</td>
-<td>Implementa la interfaz IExternalVehicleService de la capa Application</td>
-</tr>
-</tbody>
-</table>
 
 
 
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
 
-Este diagrama representa la descomposición interna del container Operaciones, correspondiente al bounded context de operaciones de los conductores al aceptar una petición dentro del sistema.
+Este diagrama representa la descomposición interna del container Profile Application, correspondiente al bounded context de gestión de perfiles de empresa dentro del sistema. Se trata de un backend desarrollado bajo los principios de Clean Architecture y Domain-Driven Design(DDD), y se ilustra aquí en el Nivel 3 del C4 Model (Component Diagram).
 
-<img width="2369" height="554" alt="Image" src="https://github.com/user-attachments/assets/8c96be6f-82e8-4e44-ac3e-f0943a4627cb" />
+<img width="1095" height="848" alt="Image" src="https://github.com/user-attachments/assets/c83ffd98-8100-4c7c-afbd-7d67a27665df" />
 
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
 
 Diagrama de clases de la capa Domain:
 
-En esta presente imagen, las clases del dominio Operaciones incluyen Operation como Aggregate Root, el cual centraliza la gestión del estado técnico de la flota. Se presentan Commands para la creación y actualización de tareas operativas, Queries para la consulta de registros, Value Objects para asegurar la integridad de los estados de mantenimiento, e interfaces que definen los contratos para los servicios de dominio y la persistencia de datos.
+En esta imagen se muestran las clases del dominio Profile que incluyen Company como aggregate root, Commands para las operaciones CRUD de empresas, Queries para las consultas de información, e interfaces para los servicios de dominio con sus respectivas implementaciones.
 
 
-<img width="1389" height="746" alt="Image" src="https://github.com/user-attachments/assets/8daf8c53-2e3c-4c45-bfa7-f71f19114437" />
+<img width="1226" height="645" alt="Image" src="https://github.com/user-attachments/assets/c744279b-4d37-46c2-9028-5a73a477c9c2" />
+
 
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
 
 
-|Nombre |Descripción|
-|id|Identificador único del registro de la operación (Primary Key).|
-|vehicle_id |Identificador del vehículo que realiza la operación (Foreign Key).|
-|driver_id| Identificador del conductor que acepta y ejecuta la operación.|
-|description |Detalles adicionales sobre el servicio o la ruta solicitada.|
-|status |"Estado actual de la operación (ej. PENDING, ACCEPTED, COMPLETED)."|
-|operation_cost |Monto o tarifa calculada para el trayecto u operación.|
-|created_at |Fecha y hora en que se generó la solicitud de operación.|
-|updated_at |Fecha y hora de la última actualización del estado.|
-
-<img width="486" height="228" alt="Image" src="https://github.com/user-attachments/assets/1e7d7643-081e-4877-97ee-17f50d9ce57f" />
-
-### 2.6.2. Bounded Context: Rutas
-
-Siguiendo el modelo de arquitectura 'Clean Architecture' hemos dividido el proyecto en capas. A continuación detallamos las capas del Bounded Context Rutas.
-
-#### 2.6.2.1. Domain Layer
-
-##### Sub-capa Model - Aggregates
-
-<table border="1px" align="center">
+<table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
 <thead>
-<tr>
-<th>Tipo</th>
-<th>Nombre</th>
-<th>Descripción</th>
-<th>Responsabilidad Principal</th>
-<th>Relación con otros elementos</th>
+<tr style="background-color: #f2f2f2;">
+<th style="padding: 10px;">Nombre</th>
+<th style="padding: 10px;">Descripción</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Aggregate</td>
-<td>Route</td>
-<td>Clase para definir el trayecto de transporte</td>
-<td>Gestionar la lógica de los recorridos, precios y horarios de salida</td>
-<td>Relacionado con paraderos y colecciones de rutas creadas por pasajeros</td>
+<td style="padding: 10px;"><strong>id</strong></td>
+<td style="padding: 10px;">Identificador único del perfil de empresa (Primary Key).</td>
+</tr>
+<tr>
+<td style="padding: 10px;"><strong>ruc_user</strong></td>
+<td style="padding: 10px;">Número de RUC asociado al usuario, utilizado como identificador de búsqueda comercial.</td>
+</tr>
+<tr>
+<td style="padding: 10px;"><strong>name</strong></td>
+<td style="padding: 10px;">Nombre comercial o razón social que identifica a la entidad en el sistema.</td>
+</tr>
+<tr>
+<td style="padding: 10px;"><strong>documentation_file_url</strong></td>
+<td style="padding: 10px;">Dirección URL o ruta del archivo digital que contiene la documentación legal de soporte.</td>
+</tr>
+<tr>
+<td style="padding: 10px;"><strong>created_at</strong></td>
+<td style="padding: 10px;">Fecha y hora en la que se realizó el registro inicial del perfil.</td>
+</tr>
+<tr>
+<td style="padding: 10px;"><strong>updated_at</strong></td>
+<td style="padding: 10px;">Fecha y hora de la última modificación de los datos del perfil.</td>
 </tr>
 </tbody>
 </table>
 
-
-##### Sub-capa Model - Commands
-
-<table border="1px" align="center">
-<thead>
-<tr>
-<th>Tipo</th>
-<th>Nombre</th>
-<th>Descripción</th>
-<th>Responsabilidad Principal</th>
-<th>Relación con otros elementos</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Command</td>
-<td>CreateRouteCommand</td>
-<td>Comando para registrar una nueva ruta</td>
-<td>Representar la intención de crear un nuevo trayecto vinculando paraderos</td>
-<td>Usado en el servicio de comandos de rutas para la gestión empresarial</td>
-</tr>
-<tr>
-<td>Command</td>
-<td>UpdateRouteCommand</td>
-<td>Comando para editar una ruta existente</td>
-<td>Representar cambios en tarifas, horarios o paraderos asociados</td>
-<td>Usado para mantener actualizada la oferta de servicios de la empresa</td>
-</tr>
-<tr>
-<td>Command</td>
-<td>DeleteRouteCommand</td>
-<td>Comando para eliminar una ruta</td>
-<td>Representar la baja de un servicio del listado público</td>
-<td>Utilizado para que la ruta no interfiera en las búsquedas de los viajeros</td>
-</tr>
-</tbody>
-</table>
-
-##### Sub-capa Model - Queries
-
-<table border="1px" align="center">
-<thead>
-<tr>
-<th>Tipo</th>
-<th>Nombre</th>
-<th>Descripción</th>
-<th>Responsabilidad Principal</th>
-<th>Relación con otros elementos</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Query</td>
-<td>GetAllRoutesQuery</td>
-<td>Consulta para obtener todas las rutas</td>
-<td>Representar la intención de listar todos los trayectos disponibles</td>
-<td>Usado para mostrar resultados en las búsquedas y filtros por ubicación</td>
-</tr>
-<tr>
-<td>Query</td>
-<td>GetRouteByIdQuery</td>
-<td>Consulta para obtener detalles de una ruta</td>
-<td>Representar la intención de visualizar información completa de un recorrido</td>
-<td>Usado para mostrar detalles de empresa, duración y tarifas al pasajero</td>
-</tr>
-</tbody>
-</table>
-
-
-##### Sub-capa Model - Value Objects
-
-<table border="1px" align="center">
-<thead>
-<tr>
-<th>Tipo</th>
-<th>Nombre</th>
-<th>Descripción</th>
-<th>Responsabilidad Principal</th>
-<th>Relación con otros elementos</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Value Object</td>
-<td>RouteLocation</td>
-<td>Ubicación geográfica de la ruta</td>
-<td>Encapsular datos de región, provincia, distrito y ciudad</td>
-<td>Usado en el agregado "Route" para el filtrado por locación</td>
-</tr>
-<tr>
-<td>Value Object</td>
-<td>RouteSchedule</td>
-<td>Horarios de atención</td>
-<td>Representar los intervalos y horarios de salida de los colectivos</td>
-<td>Usado para informar al viajero la disponibilidad horaria</td>
-</tr>
-</tbody>
-</table>
-
-##### Sub-capa Services
-
-<table border="1px" align="center">
-<thead>
-<tr>
-<th>Tipo</th>
-<th>Nombre</th>
-<th>Descripción</th>
-<th>Responsabilidad Principal</th>
-<th>Relación con otros elementos</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Interface</td>
-<td>IRouteCommandService</td>
-<td>Servicio para métodos de gestión de rutas</td>
-<td>Estipular la estructura para crear, editar o eliminar trayectos</td>
-<td>Implementado en la capa de aplicación para la lógica de negocio empresarial</td>
-</tr>
-<tr>
-<td>Interface</td>
-<td>IRouteQueryService</td>
-<td>Servicio para consultas de itinerarios</td>
-<td>Estipular la estructura para la recuperación y filtrado de rutas</td>
-<td>Utilizado para responder a las búsquedas de rutas cercanas de los pasajeros</td>
-</tr>
-</tbody>
-</table>
-
-##### Sub-capa Repositories
-
-<table border="1px" align="center">
-<thead>
-<tr>
-<th>Tipo</th>
-<th>Nombre</th>
-<th>Descripción</th>
-<th>Responsabilidad Principal</th>
-<th>Relación con otros elementos</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Interface</td>
-<td>IRouteRepository</td>
-<td>Repositorio para persistencia de rutas</td>
-<td>Definir contratos para operaciones CRUD del modelo Route</td>
-<td>Implementado en la capa de Infrastructure para acceso a datos</td>
-</tr>
-</tbody>
-</table>
-
-
-#### 2.6.1.2. Interface Layer
-
-
-##### Sub-capa REST - Resources
-
-<table border="1px" align="center">
-<thead>
-<tr>
-<th>Tipo</th>
-<th>Nombre</th>
-<th>Descripción</th>
-<th>Responsabilidad Principal</th>
-<th>Relación con otros elementos</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Resource</td>
-<td>RouteResource</td>
-<td>Estructura de datos de una ruta o trayecto</td>
-<td>Representar y exponer los detalles de la ruta (tarifas, horarios, paraderos) de forma accesible para el cliente</td>
-<td>Uso en RoutesController para emitir datos sobre los trayectos disponibles</td>
-</tr>
-<tr>
-<td>Resource</td>
-<td>CreateRouteResource</td>
-<td>Estructura para registrar una nueva ruta</td>
-<td>Representar la petición del cliente para crear un nuevo recorrido en el sistema</td>
-<td>Uso en RoutesController para capturar datos de entrada desde el gestor de la empresa</td>
-</tr>
-</tbody>
-</table>
-
-##### Sub-capa REST - Transform (Assemblers)
-
-<table border="1px" align="center">
-<thead>
-<tr>
-<th>Tipo</th>
-<th>Nombre</th>
-<th>Descripción</th>
-<th>Responsabilidad Principal</th>
-<th>Relación con otros elementos</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Assembler</td>
-<td>RouteResourceFromEntityAssembler</td>
-<td>Transformador de entidad Route a RouteResource</td>
-<td>Convertir la entidad de dominio Route a su representación estructurada JSON para la API</td>
-<td>Usado en los controladores para transformar las respuestas enviadas al viajero o empresa</td>
-</tr>
-<tr>
-<td>Assembler</td>
-<td>CreateRouteCommandFromResourceAssembler</td>
-<td>Transformador de CreateRouteResource a Command</td>
-<td>Convertir el recurso de creación recibido por HTTP en un comando ejecutable por el dominio</td>
-<td>Usado en RoutesController para procesar el registro de nuevos itinerarios</td>
-</tr>
-</tbody>
-</table>
-
-
-##### Sub-capa REST - Controllers
-
-<table border="1px" align="center">
-<thead>
-<tr>
-<th>Tipo</th>
-<th>Nombre</th>
-<th>Descripción</th>
-<th>Responsabilidad Principal</th>
-<th>Relación con otros elementos</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Controller</td>
-<td>RoutesController</td>
-<td>Controlador para la gestión y consulta de rutas</td>
-<td>Manejar las peticiones HTTP relacionadas con la creación, edición, eliminación y búsqueda de rutas</td>
-<td>Usa servicios de aplicación y assemblers para coordinar el flujo de gestión de trayectos</td>
-</tr>
-</tbody>
-</table>
-
-
-##### Sub-capa ACL
-
-<table border="1px" align="center">
-<thead>
-<tr>
-<th>Tipo</th>
-<th>Nombre</th>
-<th>Descripción</th>
-<th>Responsabilidad Principal</th>
-<th>Relación con otros elementos</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Service</td>
-<td>RoutesContextFacade</td>
-<td>Servicio de fachada para el contexto de Rutas</td>
-<td>Exponer métodos simplificados para que otros contextos consulten paraderos o validen trayectos</td>
-<td>Utilizado por el contexto de Seguimiento para verificar los puntos de control de una ruta activa</td>
-</tr>
-</tbody>
-</table>
-
-
-#### 2.6.1.3. Application Layer
-
-##### Sub-capa Internal - CommandServices
-
-<table border="1px" align="center">
-<thead>
-<tr>
-<th>Tipo</th>
-<th>Nombre</th>
-<th>Descripción</th>
-<th>Responsabilidad Principal</th>
-<th>Relación con otros elementos</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>CommandHandler</td>
-<td>RouteCommandService</td>
-<td>Implementación de los comandos de gestión de rutas</td>
-<td>Ejecutar la lógica de negocio para la creación, edición y eliminación de rutas y paraderos</td>
-<td>Implementa los métodos de la interfaz IRouteCommandService definida en la capa de Domain Services</td>
-</tr>
-</tbody>
-</table>
-
-##### Sub-capa Internal - OutboundServices
-
-<table border="1px" align="center">
-<thead>
-<tr>
-<th>Tipo</th>
-<th>Nombre</th>
-<th>Descripción</th>
-<th>Responsabilidad Principal</th>
-<th>Relación con otros elementos</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Service</td>
-<td>IExternalMapsService</td>
-<td>Interfaz para servicios de cartografía externos</td>
-<td>Definir contratos para validar coordenadas geográficas y calcular distancias entre paraderos</td>
-<td>Implementado en la capa de Infrastructure para comunicación con APIs de mapas (Google Maps/Mapbox)</td>
-</tr>
-</tbody>
-</table>
-
-
-##### Sub-capa Internal - QueryServices
-
-<table border="1px" align="center">
-<thead>
-<tr>
-<th>Tipo</th>
-<th>Nombre</th>
-<th>Descripción</th>
-<th>Responsabilidad Principal</th>
-<th>Relación con otros elementos</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>QueryHandler</td>
-<td>RouteQueryService</td>
-<td>Implementación de las consultas de rutas e itinerarios</td>
-<td>Orquestar la recuperación de trayectos, filtrado por ubicación y visualización de colecciones para el viajero</td>
-<td>Implementa los métodos de la interfaz IRouteQueryService definida en la capa de Domain Services</td>
-</tr>
-</tbody>
-</table>
-
-
-#### 2.6.1.4 Infrastructure Layer
-
-
-##### Sub-capa Persistence (EFC)
-
-<table border="1px" align="center">
-<thead>
-<tr>
-<th>Tipo</th>
-<th>Nombre</th>
-<th>Descripción</th>
-<th>Responsabilidad Principal</th>
-<th>Relación con otros elementos</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Repository</td>
-<td>RouteRepository</td>
-<td>Repositorio para el modelo "Route" con Entity Framework Core</td>
-<td>Gestionar la persistencia y recuperación de datos de trayectos, paraderos y horarios en la base de datos</td>
-<td>Usado en la Capa "Application" por RouteCommandService y RouteQueryService para gestionar el ciclo de vida de las rutas</td>
-</tr>
-</tbody>
-</table>
-
-##### Sub-capa External Services (Hardware/API)
-
-<table border="1px" align="center">
-<thead>
-<tr>
-<th>Tipo</th>
-<th>Nombre</th>
-<th>Descripción</th>
-<th>Responsabilidad Principal</th>
-<th>Relación con otros elementos</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Service</td>
-<td>MapsExternalService</td>
-<td>Adaptador para servicios de mapas externos (Google Maps / Mapbox)</td>
-<td>Implementar la lógica técnica para la validación de coordenadas, cálculo de distancias y visualización de paraderos</td>
-<td>Implementa la interfaz IExternalMapsService de la capa Application para proveer datos geoespaciales precisos</td>
-</tr>
-</tbody>
-</table>
-
-
-
-#### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
-
-Este diagrama representa la descomposición interna del container Rutas, correspondiente al bounded context de rutas de los pasajeros al momento de pedir el servicio dentro del sistema.
-
-<img width="2277" height="554" alt="Image" src="https://github.com/user-attachments/assets/80d37ae4-ec54-4d66-bdab-687036ff34bb" />
-
-#### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
-##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
-
-Diagrama de clases de la capa Domain:
-
-En esta presente imagen, las clases del dominio Rutas incluyen Route como Aggregate Root, el cual gestiona la lógica de los recorridos, precios y paraderos. Se presentan Commands para la creación, actualización y eliminación de rutas, Queries para la búsqueda y filtrado de trayectos, Value Objects para encapsular la ubicación geográfica y los horarios de salida, e interfaces que definen los contratos para los servicios de dominio y la persistencia de datos.
-
-
-<img width="1619" height="779" alt="Image" src="https://github.com/user-attachments/assets/0e44e84f-d046-4962-b16d-04c9d75d42da" />
-
-##### 2.6.1.6.2. Bounded Context Database Design Diagram
-
-
-| Nombre         | Descripción                                                               |
-|----------------|---------------------------------------------------------------------------|
-| id             | Identificador único de la ruta (Primary Key).                             |
-| company_id     | Identificador de la empresa de transporte dueña de la ruta (Foreign Key). |
-| origin_stop_id | ID del paradero de inicio del trayecto.                                   |
-| dest_stop_id   | ID del paradero de fin del trayecto.                                      |
-| region         | "Región geográfica donde opera la ruta (ej. Lima, Cusco)."                |
-| province       | Provincia correspondiente a la zona de operación.                         |
-| district       | Distrito para el filtrado específico por ubicación.                       |
-| base_price     | Tarifa estándar establecida para el recorrido.                            |
-| departure_time | Horario programado para la salida del colectivo.                          |
-| created_at     | Fecha y hora de creación del registro de la ruta.                         |
-| updated_at     | Fecha y hora de la última actualización de datos.                         |
-
-
-<img width="433" height="277" alt="Image" src="https://github.com/user-attachments/assets/05d496d5-187f-43d8-8908-e34e1ee86275" />
-
-
+<img width="440" height="262" alt="Image" src="https://github.com/user-attachments/assets/aa97aacc-350d-43d7-9489-93b550a1c120" />
 
