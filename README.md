@@ -1530,7 +1530,7 @@ Este diagrama representa la descomposición interna del container Profile Applic
 
 Diagrama de clases de la capa Domain:
 
-En esta imagen se muestran las clases del dominio Profile que incluyen Company como aggregate root, Commands para las operaciones CRUD de empresas, Queries para las consultas de información, e interfaces para los servicios de dominio con sus respectivas implementaciones.
+En esta imagen se muestran las clases del dominio Profile que incluyen Profile como aggregate root, Commands para las operaciones CRUD de empresas, Queries para las consultas de información, e interfaces para los servicios de dominio con sus respectivas implementaciones.
 
 
 <img width="1226" height="645" alt="Image" src="https://github.com/user-attachments/assets/c744279b-4d37-46c2-9028-5a73a477c9c2" />
