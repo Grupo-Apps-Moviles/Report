@@ -728,7 +728,9 @@ Los segmentos objetivo representados por los User Personas: Javier Ramirez (pasa
 
 ### 2.3.5. Big Picture EventStorming
 
-<img width="1240" height="806" alt="Image" src="https://github.com/user-attachments/assets/d619abfa-bff0-45da-8b65-6077fb78beea" />
+El siguiente Big Picture EventStorming representa el flujo end-to-end de nuestra plataforma de transporte. Este mapa visualiza la coreografía de eventos desde el registro de usuarios y conductores hasta la culminación del servicio, permitiendo identificar momentos críticos de valor y posibles fricciones operativas en el ecosistema
+
+<img width="794" height="1259" alt="Image" src="https://github.com/user-attachments/assets/57edff33-c74a-46f8-9591-861c4aabb174" />
 
 ### 2.3.6. Ubiquitous Language
 
