@@ -1,4 +1,4 @@
-<div align="justify">
+<img width="886" height="362" alt="Captura de pantalla 2026-04-22 172125" src="https://github.com/user-attachments/assets/b441ff86-7c07-4631-9f75-1f9a883e05a9" /><div align="justify">
 
 <div align="center">
     <img src="https://www.upc.edu.pe/static/img/logo_upc_red.png" width="120px" alt="Logo UPC"><br><br>
@@ -626,7 +626,25 @@ Se realizó una entrevista a Jhudith Pumallihua, una joven estudiante de 20 año
 ![EntrevistaConductor](./images/Entrevista_Conductor1.png)
 
 Se realizó una entrevista a Angel Mamani Cayampi, una Joven estudiante de 20 años que vive actualmente en distrito de San Miguel, Ángel actualmente se dedica a rubro de taxí desde hace unos años atrás, debido que es autofinancia sus estudios en un instituto para costear su carrera técnica, Mayormente los pasajeros no son satisfactorios como él lo espera, paraderos vacíos, pasajeros que cancelan el viaje a la ultima hora entre otros.
+**Imagen 02. Entrevista a Jean Pierre**
+<img width="889" height="316" alt="Captura de pantalla 2026-04-22 171824" src="https://github.com/user-attachments/assets/d2789d3e-4783-4a80-8266-9988f0039b10" />
 
+Jean Pierre relató que prefiere el colectivo por pura velocidad, ya que los buses grandes demoran demasiado en salir del distrito, aunque esto le signifique pagar más. Confesó que su día a día es una adivinanza constante, preguntando a dateros o vecinos dónde están los paraderos porque estos cambian de sitio sin aviso, lo que a veces le hace perder tiempo o terminar en lugares equivocados. Para él, una app sería la solución a la ansiedad de no saber si encontrará transporte tarde en la noche o cuánto le querrán cobrar por el viaje.
+
+**Imagen 03. Entrevista a x**
+
+**Imagen 04. Entrevista a Fabian**
+<img width="882" height="295" alt="Captura de pantalla 2026-04-22 171958" src="https://github.com/user-attachments/assets/95831038-4065-4d64-8fac-2b15230bfd23" />
+
+Fabian explicó que su salida no depende de un reloj, sino de completar sus cuatro pasajeros lo más rápido posible para ganarle a la competencia. Admitió que su relación con los pasajeros es de mucha confianza, al punto de coordinar por WhatsApp con algunos frecuentes, y que se apoya totalmente en el datero para saber si la ruta está libre. Se mostró muy a favor de aparecer en una app, pues asegura que mientras más gente sepa dónde se cuadra, más rápido llena el auto y más vueltas puede dar al día.
+**Imagen 05. Entrevista a Roberto**
+<img width="886" height="362" alt="Captura de pantalla 2026-04-22 172125" src="https://github.com/user-attachments/assets/ec1cd09d-a9a1-414c-88c6-799137c99c00" />
+
+Roberto narró que su operación es más rígida, basada en un "cartel" de horarios controlados por un despachador que le pone multas si se adelanta o se atrasa. Su gran frustración es ver cómo los colectivos le "quitan" gente mientras él cumple su ruta establecida, por lo que considera que una app le daría ventaja al avisar al pasajero exactamente por dónde viene el bus. Dejó claro que él no puede usar el celular por seguridad, pero que su cobrador sería el encargado de mantener la información actualizada.
+**Imagen 06. Entrevista a Emmanuel**
+<img width="886" height="311" alt="Captura de pantalla 2026-04-22 172203" src="https://github.com/user-attachments/assets/c89cb7ba-3039-4bdd-8e1f-edcd429a17d7" />
+
+Emmanuel escribió una realidad mucho más tensa, donde decide su ruta y sus salidas al momento, dependiendo de cuánta gente haya en la calle y de dónde esté la policía. Contó que no tiene paraderos fijos y que se cuadra donde ve bulto de gente, cambiando de camino según le convenga para evitar el tráfico o las multas. Aunque le atrae la idea de que una app le traiga más clientes, expresó temor de que la tecnología también facilite que los inspectores de transporte lo ubiquen y le quiten la unidad.
 ### 2.2.3. Análisis de entrevistas
 
 > *(Sección pendiente de desarrollo)*
