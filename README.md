@@ -1,4 +1,3 @@
-<img width="886" height="362" alt="Captura de pantalla 2026-04-22 172125" src="https://github.com/user-attachments/assets/b441ff86-7c07-4631-9f75-1f9a883e05a9" /><div align="justify">
 
 <div align="center">
     <img src="https://www.upc.edu.pe/static/img/logo_upc_red.png" width="120px" alt="Logo UPC"><br><br>
