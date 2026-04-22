@@ -728,9 +728,7 @@ Los segmentos objetivo representados por los User Personas: Javier Ramirez (pasa
 
 ### 2.3.5. Big Picture EventStorming
 
-<img width="1015" height="1538" alt="Image" src="https://github.com/user-attachments/assets/61567015-349d-4c7c-aea1-c769a49787a6" />
-
-Link: https://miro.com/app/board/uXjVGh3gqW0=/?share_link_id=125731988466
+<img width="1240" height="806" alt="Image" src="https://github.com/user-attachments/assets/d619abfa-bff0-45da-8b65-6077fb78beea" />
 
 ### 2.3.6. Ubiquitous Language
 
