@@ -608,6 +608,32 @@ A continuación, se demostrará las entrevistas realizadas a los usuarios (pasaj
 
 Se realizó una entrevista a Jhudith Pumallihua, una joven estudiante de 20 años que vive actualmente en el distrito de San Juan de Lurigancho. Jhudith suele viajar con transporte público con mayor frecuencia día a día a sus destinos aquí en la ciudad de Lima. Cada día ella atraviesa dificultades al abordar un transporte debido a que no reconoce con claridad qué transporte pasa por el lugar al que quiere llegar. Los paraderos no son tan estables para los buses que aborda, muchas rutas cambian y ella se siente confundida. El mayor desafío que ha tenido es la pérdida de tiempo al esperar un transporte. Jhudith considera que usar la aplicación será valiosa por permitir una información concisa para cada viaje a su destino y con qué carro (transporte) movilizarse.
 
+**Entrevistador N 02:**
+* **Entrevistador:**
+    * Nombre: Joaquin Carranza
+* **Entrevistado:**
+    * Nombre: Jean Pierre Medina
+    * Edad: 25 años
+    * Ocupación: Estudiante
+    * Distrito: Lurin, Lima, Lima
+    * Link de video: [Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191b935_upc_edu_pe/IQAB7Wn_YSbLR704iEz5oFW-AcRMKjQc3OL1E05zu_G-mHM?e=krAcbr&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+**Imagen 02. Entrevista a Jean Pierre**
+<img width="889" height="316" alt="Captura de pantalla 2026-04-22 171824" src="https://github.com/user-attachments/assets/d2789d3e-4783-4a80-8266-9988f0039b10" />
+
+Jean Pierre relató que prefiere el colectivo por pura velocidad, ya que los buses grandes demoran demasiado en salir del distrito, aunque esto le signifique pagar más. Confesó que su día a día es una adivinanza constante, preguntando a dateros o vecinos dónde están los paraderos porque estos cambian de sitio sin aviso, lo que a veces le hace perder tiempo o terminar en lugares equivocados. Para él, una app sería la solución a la ansiedad de no saber si encontrará transporte tarde en la noche o cuánto le querrán cobrar por el viaje.
+
+**Entrevistador N 03:**
+* **Entrevistador:**
+    * Nombre: 
+* **Entrevistado:**
+    * Nombre: 
+    * Edad: 
+    * Ocupación: 
+    * Distrito: , Lima, Lima
+    * Link de video:
+
+
 #### Registro de entrevista a usuarios (Conductor)
 
 **Entrevistador N 01:**
@@ -625,25 +651,52 @@ Se realizó una entrevista a Jhudith Pumallihua, una joven estudiante de 20 año
 ![EntrevistaConductor](./images/Entrevista_Conductor1.png)
 
 Se realizó una entrevista a Angel Mamani Cayampi, una Joven estudiante de 20 años que vive actualmente en distrito de San Miguel, Ángel actualmente se dedica a rubro de taxí desde hace unos años atrás, debido que es autofinancia sus estudios en un instituto para costear su carrera técnica, Mayormente los pasajeros no son satisfactorios como él lo espera, paraderos vacíos, pasajeros que cancelan el viaje a la ultima hora entre otros.
-**Imagen 02. Entrevista a Jean Pierre**
-<img width="889" height="316" alt="Captura de pantalla 2026-04-22 171824" src="https://github.com/user-attachments/assets/d2789d3e-4783-4a80-8266-9988f0039b10" />
 
-Jean Pierre relató que prefiere el colectivo por pura velocidad, ya que los buses grandes demoran demasiado en salir del distrito, aunque esto le signifique pagar más. Confesó que su día a día es una adivinanza constante, preguntando a dateros o vecinos dónde están los paraderos porque estos cambian de sitio sin aviso, lo que a veces le hace perder tiempo o terminar en lugares equivocados. Para él, una app sería la solución a la ansiedad de no saber si encontrará transporte tarde en la noche o cuánto le querrán cobrar por el viaje.
+**Entrevistador N 02:**
+* **Entrevistador:**
+    * Nombre: Joaquin Carranza
+* **Entrevistado:**
+    * Nombre: Fabian Arteaga
+    * Edad: 22 años
+    * Ocupación: Estudiante
+    * Distrito: San Miguel
+    * Link de video: [Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191b935_upc_edu_pe/IQCaUyONn87NQKK0hqmsH_VIAT71uPsgQH68m-7iw5MIYyI?e=uUZ4ms&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
-**Imagen 03. Entrevista a x**
-
-**Imagen 04. Entrevista a Fabian**
+**Imagen 02. Entrevista a Fabian**
 <img width="882" height="295" alt="Captura de pantalla 2026-04-22 171958" src="https://github.com/user-attachments/assets/95831038-4065-4d64-8fac-2b15230bfd23" />
 
 Fabian explicó que su salida no depende de un reloj, sino de completar sus cuatro pasajeros lo más rápido posible para ganarle a la competencia. Admitió que su relación con los pasajeros es de mucha confianza, al punto de coordinar por WhatsApp con algunos frecuentes, y que se apoya totalmente en el datero para saber si la ruta está libre. Se mostró muy a favor de aparecer en una app, pues asegura que mientras más gente sepa dónde se cuadra, más rápido llena el auto y más vueltas puede dar al día.
-**Imagen 05. Entrevista a Roberto**
+
+**Entrevistador N 03:**
+* **Entrevistador:**
+    * Nombre: Joaquin Carranza
+* **Entrevistado:**
+    * Nombre: Roberto Garcia
+    * Edad: 21 años
+    * Ocupación: Estudiante
+    * Distrito: Chorrillos
+    * Link de video: [Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191b935_upc_edu_pe/IQAF6xNplYcJSaqEjJ6ElTBHAcw81VKhsCN-VAWcHO0hEQk?e=ThPAn4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+**Imagen 03. Entrevista a Roberto**
 <img width="886" height="362" alt="Captura de pantalla 2026-04-22 172125" src="https://github.com/user-attachments/assets/ec1cd09d-a9a1-414c-88c6-799137c99c00" />
 
 Roberto narró que su operación es más rígida, basada en un "cartel" de horarios controlados por un despachador que le pone multas si se adelanta o se atrasa. Su gran frustración es ver cómo los colectivos le "quitan" gente mientras él cumple su ruta establecida, por lo que considera que una app le daría ventaja al avisar al pasajero exactamente por dónde viene el bus. Dejó claro que él no puede usar el celular por seguridad, pero que su cobrador sería el encargado de mantener la información actualizada.
-**Imagen 06. Entrevista a Emmanuel**
+
+**Entrevistador N 04:**
+* **Entrevistador:**
+    * Nombre: Joaquin Carranza
+* **Entrevistado:**
+    * Nombre: Emmanuel Ñahuiña
+    * Edad: 23 años
+    * Ocupación: Estudiante
+    * Distrito: Villa el salvador
+    * Link de video: [Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191b935_upc_edu_pe/IQDTS-Ehj0I4Qa2cJdNSY7E-ASsu3kLZNb_H8Bha4_CEolQ?e=5eA7Z6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+**Imagen 04. Entrevista a Emmanuel**
 <img width="886" height="311" alt="Captura de pantalla 2026-04-22 172203" src="https://github.com/user-attachments/assets/c89cb7ba-3039-4bdd-8e1f-edcd429a17d7" />
 
 Emmanuel escribió una realidad mucho más tensa, donde decide su ruta y sus salidas al momento, dependiendo de cuánta gente haya en la calle y de dónde esté la policía. Contó que no tiene paraderos fijos y que se cuadra donde ve bulto de gente, cambiando de camino según le convenga para evitar el tráfico o las multas. Aunque le atrae la idea de que una app le traiga más clientes, expresó temor de que la tecnología también facilite que los inspectores de transporte lo ubiquen y le quiten la unidad.
+
 ### 2.2.3. Análisis de entrevistas
 
 > *(Sección pendiente de desarrollo)*
