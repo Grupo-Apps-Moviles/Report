@@ -895,6 +895,23 @@ Link: https://miro.com/app/board/uXjVHe6wZGo=/?share_link_id=531861330130
 
 
 #### 2.5.1.3. Bounded Context Canvases
+
+El Bounded Context Canvas es una herramienta visual aplicada en el marco del Domain-Driven Design (DDD) que permite representar de manera clara los límites, responsabilidades e interacciones de cada contexto dentro de un sistema complejo. Su propósito es facilitar que los equipos construyan una visión compartida sobre el nombre y objetivo de cada contexto, las entidades y agregados que lo conforman, así como las reglas de negocio que gobiernan su funcionamiento. 
+
+link: https://miro.com/app/board/uXjVHeO0rMw=/?share_link_id=610453112459
+
+En esta sección se presentan los Bounded Context Canvases correspondientes a los contextos identificados en nuestro proyecto.
+
+
+<img width="1022" height="902" alt="Image" src="https://github.com/user-attachments/assets/2d8ed69a-77ca-4f86-b09d-3b8f34a0a5c0" />
+
+<img width="1023" height="903" alt="Image" src="https://github.com/user-attachments/assets/3d1eaae9-17af-456f-a8ea-4c6adc395718" />
+
+<img width="1021" height="905" alt="Image" src="https://github.com/user-attachments/assets/0973a377-b45d-452c-9693-99e4db53fa9a" />
+
+<img width="1025" height="903" alt="Image" src="https://github.com/user-attachments/assets/ed8216b9-4977-487d-9de1-18fba54f548b" />
+
+
 ### 2.5.2. Context Mapping
 
 
