@@ -714,17 +714,17 @@ Los segmentos objetivo representados por los User Personas: Javier Ramirez (pasa
 
 ### 2.3.3. User Journey Mapping
 
-> *(Sección pendiente de desarrollo)*
+<img width="1277" height="782" alt="Image" src="https://github.com/user-attachments/assets/c51acc22-1fd4-4b0f-9591-ff79c360abe4" />
 
 ### 2.3.4. Empathy Mapping
 
 **Conductor:**
 
-![EmpathyMap1](./images/ConductorEmpathyMap.png)
+<img width="1050" height="1408" alt="Image" src="https://github.com/user-attachments/assets/af1561c0-88cd-4e8a-ada0-b97ea67bfc88" />
 
 **Pasajero:**
 
-![EmpathyMap2](./images/PasajeroEmpathyMap.png)
+<img width="1050" height="1468" alt="Image" src="https://github.com/user-attachments/assets/bffbde0f-ceed-4356-9631-88a3b92140a2" />
 
 ### 2.3.5. Big Picture EventStorming
 
@@ -865,7 +865,9 @@ El lenguaje ubicuo es una parte fundamental de la estrategia de UX. Se refiere a
 
 ### 2.4.2. Impact Mapping
 
-![Impact](./images/Impact.png)
+El Impact Mapping permite alinear los objetivos del proyecto con las necesidades de conductores de colectivos y pasajeros, mostrando cómo cada decisión impacta en la experiencia de ambos. Así, se convierte en una guía estratégica para diseñar soluciones que generen beneficios reales y respondan efectivamente a sus necesidades.
+
+<img width="1121" height="944" alt="Image" src="https://github.com/user-attachments/assets/778a66ff-9186-4f75-90c5-bf7a1aef60b9" />
 
 ### 2.4.3. Product Backlog
 
