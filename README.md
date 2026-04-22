@@ -536,81 +536,85 @@ Se realizó una entrevista a Angel Mamani Cayampi, una Joven estudiante de 20 a�
 
 ### 2.3.2. User Task Matrix
 
-Los segmentos objetivo representados por los User Personas: Jesús Ramírez (pasajero
-interurbano) y Elmer Huamán (conductor de colectivo), serán una parte crucial para este 'User
-Task Matrix'. Las tareas listadas reflejan acciones que los usuarios ya realizan actualmente para
-alcanzar sus objetivos, independientemente del uso de una aplicación o tecnología. Esta matriz
-permite identificar oportunidades donde la solución digital de Frock puede generar mayor valor.
+Los segmentos objetivo representados por los User Personas: Javier Ramirez (pasajero interurbano/técnico) y José Marcelo (conductor de minivan/colectivo), son la base de este 'User Task Matrix'.
 
 <table border="1">
-    <thead>
-        <tr>
-            <th>Task</th>
-            <th>User story ID</th>
-            <th>Carrier frequency</th>
-            <th>Carrier importance</th>
-            <th>Users frequency</th>
-            <th>Users importance</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Buscar rutas disponibles para llegar a su destino</td>
-            <td><strong>US01</strong></td>
-            <td>High</td>
-            <td>High</td>
-            <td>Medium</td>
-            <td>High</td>
-        </tr>
-        <tr>
-            <td>Identificar paraderos adecuados para abordar</td>
-            <td><strong>US02</strong></td>
-            <td>High</td>
-            <td>High</td>
-            <td>Medium</td>
-            <td>Medium</td>
-        </tr>
-        <tr>
-            <td>Ver información del conductor</td>
-            <td><strong>US03</strong></td>
-            <td>Media</td>
-            <td>High</td>
-            <td>Medium</td>
-            <td>High</td>
-        </tr>
-        <tr>
-            <td>Avisar disponibilidad a pasajeros frecuentes</td>
-            <td><strong>US08</strong></td>
-            <td>Low</td>
-            <td>Medium</td>
-            <td>Alta</td>
-            <td>High</td>
-        </tr>
-        <tr>
-            <td>Ajustar su horario según los momentos de mayor demanda</td>
-            <td><strong>US09</strong></td>
-            <td>Low</td>
-            <td>Medium</td>
-            <td>Alta</td>
-            <td>High</td>
-        </tr>
-        <tr>
-            <td>Recordar o registrar los viajes que ha hecho</td>
-            <td><strong>US05</strong></td>
-            <td>Medium</td>
-            <td>Low</td>
-            <td>Low</td>
-            <td>Low</td>
-        </tr>
-        <tr>
-            <td>Evaluar la experiencia del viaje con un conductor</td>
-            <td><strong>US04</strong></td>
-            <td>Medium</td>
-            <td>High</td>
-            <td>Medium</td>
-            <td>Medium</td>
-        </tr>
-    </tbody>
+<thead>
+<tr>
+<th>Task (Tarea)</th>
+<th>User story ID</th>
+<th>Carrier frequency (José)</th>
+<th>Carrier importance (José)</th>
+<th>Users frequency (Javier)</th>
+<th>Users importance (Javier)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Consultar rutas y disponibilidad de colectivos en tiempo real</td>
+<td><strong>US01</strong></td>
+<td>High</td>
+<td>High</td>
+<td>High</td>
+<td>High</td>
+</tr>
+<tr>
+<td>Ubicar paraderos exactos y puntos de abordaje seguros</td>
+<td><strong>US02</strong></td>
+<td>High</td>
+<td>Medium</td>
+<td>High</td>
+<td>High</td>
+</tr>
+<tr>
+<td>Verificar tarifas y evitar cobros excesivos por desconocimiento</td>
+<td><strong>US03</strong></td>
+<td>Medium</td>
+<td>High</td>
+<td>High</td>
+<td>High</td>
+</tr>
+<tr>
+<td>Notificar disponibilidad de asientos para llenar el vehículo rápido</td>
+<td><strong>US04</strong></td>
+<td>High</td>
+<td>High</td>
+<td>Medium</td>
+<td>Medium</td>
+</tr>
+<tr>
+<td>Coordinar horarios para reducir tiempos de espera en paraderos</td>
+<td><strong>US05</strong></td>
+<td>High</td>
+<td>High</td>
+<td>High</td>
+<td>High</td>
+</tr>
+<tr>
+<td>Validar la identidad/confiabilidad de la contraparte (Seguridad)</td>
+<td><strong>US06</strong></td>
+<td>Medium</td>
+<td>High</td>
+<td>Medium</td>
+<td>High</td>
+</tr>
+<tr>
+<td>Registrar ingresos o gastos diarios de los trayectos realizados</td>
+<td><strong>US07</strong></td>
+<td>High</td>
+<td>Medium</td>
+<td>Low</td>
+<td>Low</td>
+</tr>
+<tr>
+<td>Calificar la experiencia del servicio o el comportamiento del pasajero</td>
+<td><strong>US08</strong></td>
+<td>Medium</td>
+<td>Medium</td>
+<td>Medium</td>
+<td>Medium</td>
+</tr>
+</tbody>
 </table>
 
 ### 2.3.3. User Journey Mapping
