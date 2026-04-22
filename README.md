@@ -228,9 +228,13 @@ por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET
 
 ### 1.1.1. Descripción de la Startup
 
-**Frock** es una Startup que busca modernizar el transporte colectivo informal mediante **Chapaturuta**, una aplicación mobile que organiza y muestra la visibilidad de rutas, paraderos y horarios. 
+Viacore es una startup dedicada a la modernización del transporte colectivo informal mediante innovación tecnológica. A través de nuestra plataforma WayPass, buscamos estructurar la conectividad entre ciudades y distritos, centralizando información crítica como rutas, paraderos y horarios en una interfaz digital accesible. Reconocemos la importancia del sistema de colectivos y, con WayPass, aportamos la visibilidad y el orden necesarios para profesionalizar el servicio sin sacrificar su flexibilidad. Nuestro compromiso es transformar la movilidad cotidiana en una experiencia más eficiente, cómoda y centrada en el usuario.
 
-Nuestro objetivo es mejorar la conexión entre ciudades y distritos, facilitando información clara tanto para usuarios como conductores. Con esta solución aportamos orden sin perder la flexibilidad del servicio, ofreciendo una movilidad más accesible, eficiente y ajustada a las necesidades reales de las personas.
+**Misión**
+Transformar y organizar el transporte colectivo informal mediante soluciones tecnológicas accesibles, brindando estructura, visibilidad y eficiencia a un sistema vital de movilidad. Buscamos mejorar la calidad de vida de usuarios y conductores, facilitando la conexión entre comunidades sin perder la flexibilidad que caracteriza al servicio.
+
+**Visión**
+Ser el ecosistema digital líder en la gestión del transporte interurbano y rural en la región, convirtiendo la informalidad en un sistema inteligente, conectado y centrado en las personas, donde viajar de un punto a otro sea siempre una experiencia clara, segura y eficiente.
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
@@ -267,7 +271,7 @@ Nuestro objetivo es mejorar la conexión entre ciudades y distritos, facilitando
 
 ### 1.2. Solution Profile
 
-Nuestro producto **Chapaturuta** es una aplicación móvil desarrollada por el equipo de **Frock** que organiza y moderniza el transporte colectivo informal a través de información clara sobre rutas, paraderos y horarios que conecta ciudades y distritos brindando mayor accesibilidad y eficiencia para usuarios y conductores.
+Nuestro producto **WayPass** es una aplicación móvil desarrollada por el equipo de **Viacore** que organiza y moderniza el transporte colectivo informal a través de información clara sobre rutas, paraderos y horarios que conecta ciudades y distritos brindando mayor accesibilidad y eficiencia para usuarios y conductores.
 
 #### 1.2.1. Antecedentes y problemática
 En muchas regiones del Perú, especialmente en provincias y zonas rurales, los colectivos (autos compartidos que cubren rutas fijas entre pueblos o distritos) representan un medio de transporte esencial. Estas unidades operan de forma semiinformal, sin horarios estrictos ni plataformas digitales que informen sobre sus rutas, tarifas o paraderos. A pesar de su utilidad, la informalidad del servicio genera desinformación, falta de confianza y dificultad para planificar los viajes, especialmente para personas no familiarizadas con la zona. Es común que los pasajeros deban preguntar a transeúntes o esperar en puntos conocidos sin certeza del tiempo de espera o del costo del servicio.
@@ -302,12 +306,12 @@ Este problema afecta especialmente a viajeros locales, personas con recursos lim
 * Creemos que actualmente encuentran colectivos preguntando en la calle, por recomendación o yendo a puntos conocidos, sin información clara o digital.
 * Creemos que los conductores son independientes, operan de forma informal, y no usan ninguna app para captar pasajeros.
 
-**c. Users Assumptions**
+**c. User Features Assumptions**
 * Creemos que los pasajeros necesitan planificar sus viajes con confianza, saber dónde tomar el colectivo, cuánto pagar y en qué horario aproximado.
 * Creemos que, si los conductores logran visibilizar su ruta, ubicación y disponibilidad, podrán captar más pasajeros de forma más eficiente.
 * Creemos que los usuarios valorarán poder ubicar fácilmente colectivos, sin perder la flexibilidad del servicio.
 
-**d. Users Assumptions**
+**d. Design Assumptions**
 * Creemos que una app móvil sencilla (desarrollada en **Flutter** para el segmento de pasajeros y en **Kotlin/Android** para el segmento de conductores), sin necesidad de registro obligatorio para el consultante, con geolocalización de paraderos y rutas, será suficiente para ayudar al pasajero.
 * Creemos que perfiles de conductor con información básica (placa, tipo de vehículo, ruta habitual) mejorarán la percepción de seguridad.
 * Creemos que el sistema debe adaptarse al funcionamiento flexible del colectivo (sin horarios fijos, rutas semi estables).
@@ -328,7 +332,9 @@ Creemos que aumentar la accesibilidad de la app y alcanzar a más usuarios en zo
 
 ##### 1.2.2.4. Lean UX Canvas
 
-![Canvas](./images/canvas.png)
+Link: https://miro.com/app/board/uXjVHeXxRtw=/?share_link_id=413104933358
+
+<img width="1231" height="811" alt="Image" src="https://github.com/user-attachments/assets/d9a3bfa7-3b48-4cc4-af58-b6186c6a6069" />
 
 ## 1.3. Segmentos objetivo
 
