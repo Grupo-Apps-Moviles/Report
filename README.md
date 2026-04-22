@@ -697,6 +697,8 @@ El lenguaje ubicuo es una parte fundamental de la estrategia de UX. Se refiere a
     </tr>
   </tbody>
 </table>
+
+
 ## 2.4. Requirements specification
 
 ### 2.4.1. User Stories
