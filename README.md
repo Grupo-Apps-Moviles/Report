@@ -70,6 +70,18 @@
             <td>Velarde Gonzales, Néstor Hernán</td>
             <td>Creación inicial del documento</td>
         </tr>
+        <tr>
+            <td>2.0</td>
+            <td>15/04/2026</td>
+            <td>Todos</td>
+            <td>Completar capitulo I</td>
+        </tr>
+        <tr>
+            <td>3.0</td>
+            <td>22/04/2026</td>
+            <td>Todos</td>
+            <td>Completar capitulo II</td>
+        </tr>
     </tbody>
 </table>
 
@@ -349,7 +361,7 @@ Ser el ecosistema digital líder en la gestión del transporte interurbano y rur
         </tr>
         <tr>
             <td><img width="2064" height="2758" alt="Image" src="https://github.com/user-attachments/assets/fb7d3127-17d1-40f8-86bb-cfb703bfd728" /></td>
-            <td>Soy **Angelo Curi Marcelo**, estudiante de Ingeniería de Software en la **Universidad Peruana de Ciencias Aplicadas (UPC)**, con conocimientos en lenguajes de programación como **C++** y **Python**. Además, manejo herramientas que apoyan el desarrollo eficiente de proyectos de software. Siempre me esfuerzo por adquirir nuevas habilidades y mejorar mis competencias técnicas para afrontar los desafíos del desarrollo de software. Me considero una persona responsable, comprometida y enfocada en la calidad del trabajo. Tengo la capacidad de adaptarme rápidamente a nuevas tecnologías y entornos. Cumplo con los plazos establecidos y tengo una gran disposición para aprender y colaborar en equipo. </td>
+            <td>Soy Angelo Curi Marcelo, con conocimientos en lenguajes de programación como C++ y Python. Además, manejo herramientas que apoyan el desarrollo eficiente de proyectos de software. Siempre me esfuerzo por adquirir nuevas habilidades y mejorar mis competencias técnicas para afrontar los desafíos del desarrollo de software. Me considero una persona responsable, comprometida y enfocada en la calidad del trabajo. Tengo la capacidad de adaptarme rápidamente a nuevas tecnologías y entornos. Cumplo con los plazos establecidos y tengo una gran disposición para aprender y colaborar en equipo. </td>
         </tr>
         <tr>
             <td>Foto</td>
