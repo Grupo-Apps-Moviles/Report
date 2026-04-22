@@ -958,7 +958,7 @@ En este diagrama de contexto se aprecia cómo el sistema centraliza la comunicac
 
 El siguiente diagrama de contenedores representa los principales componentes del sistema y cómo interactúan entre sí. Se muestra la aplicación móvil para pasajeros y conductores, el gestor de backend que centraliza la lógica de negocio, y los bounded contexts de IAM, Profile, Routes y Stops, así como la base de datos y la integración con los servicios externos.
 
-<img width="5278" height="3299" alt="Image" src="https://github.com/user-attachments/assets/789c627f-ef48-46ca-9dbe-3a4a14e61043" />
+<img width="5278" height="3299" alt="Image" src="https://github.com/user-attachments/assets/00bf91fb-1eb5-4329-b2f6-b9b62a646054" />
 
 
 #### 2.5.3.3. Software Architecture Deployment Diagrams
