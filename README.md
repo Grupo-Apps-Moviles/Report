@@ -814,28 +814,66 @@ Este lenguaje común define los términos clave utilizados para el proyecto **Ch
 
 ### 2.5.1. EventStorming
 
-A continuación se presenta el EventStorming completo de ChapaTuRuta, realizado con el objetivo de mapear visualmente todo el dominio del negocio, identificar los eventos clave, actores, reglas de negocio y oportunidades de mejora.
+Con el objetivo de establecer los contextos delimitados, realizamos un ejercicio de EventStorming dividido en cuatro etapas. 
 
-Link: https://miro.com/app/board/uXjVGh3gqW0=/?share_link_id=673497866524
+Link: https://miro.com/app/board/uXjVHe62Coc=/?share_link_id=80941229308
 
-##### Bounded Context (IAM)
+En primer lugar, debemos identificar los eventos y trazarlos mediante una linea de tiempo imaginaria que va de izquierda a derecha. Además, se usa post-it anaranjado para identificar a los eventos.
 
-<img width="1430" height="1092" alt="Image" src="https://github.com/user-attachments/assets/43d027b0-124a-4327-b4ca-56fa2413ca4a" />
+<img width="543" height="747" alt="Image" src="https://github.com/user-attachments/assets/310a9fa1-422a-4d54-982c-9eb148bf58b1" />
 
-##### Bounded Context (Rutas y paraderos)
+Como segundo paso, identificamos los comandos que disparan o llevan a acabo el evento. Identificamos a estos con un post-it de color azul.
 
-<img width="1422" height="1098" alt="Image" src="https://github.com/user-attachments/assets/aa49d188-ba79-478e-b366-a5065433de09" />
+<img width="852" height="785" alt="Image" src="https://github.com/user-attachments/assets/21b92dc6-c193-40c4-adf7-354608281189" />
 
-##### Bounded Context (Seguimiento y Localización)
+Como tercer paso, identificamos los agentes que realizan o usan el comando. Estos se representan mediante un post-it de color amarillo.
 
-<img width="1415" height="1103" alt="Image" src="https://github.com/user-attachments/assets/afc5901c-ae23-48b5-825b-61858806aae6" />
+<img width="830" height="712" alt="Image" src="https://github.com/user-attachments/assets/0b4ac2ab-b40d-4a88-a073-2118ec6cb028" />
 
-##### Bounded Context (Operaciones de viaje)
+Como último paso, identificamos los eventos que se relacionen entre sí mediante los agregados y entidades que utilizan, agrupandolos por
+Bounded Context.
 
-<img width="1069" height="1460" alt="Image" src="https://github.com/user-attachments/assets/7ddd145a-f31d-4808-a44d-ba1b2e32642e" />
-
+<img width="710" height="636" alt="Image" src="https://github.com/user-attachments/assets/9698eea9-c110-462c-ac4a-48adb8c62986" />
 
 #### 2.5.1.1. Candidate Context Discovery
+
+Durante esta fase, empleamos la técnica de Candidate Context Discovery para delimitar los posibles contextos del sistema. Nos centramos en la identificación de pivotal events (eventos pivotales) para detectar transiciones críticas en el negocio. 
+
+Al analizar hitos como ParaderoCreado, RutaCreada y UsuarioRegistrado, logramos diferenciar las diversas responsabilidades y reglas lógicas, lo que derivó en la estructuración de los siguientes Bounded Contexts:
+
+<table style="width: 100%; border-collapse: collapse; font-family: sans-serif; margin-top: 20px;">
+  <thead>
+    <tr style="border-bottom: 2px solid black; text-align: left;">
+      <th style="padding: 10px;">Bounded Context</th>
+      <th style="padding: 10px;">Descripción</th>
+      <th style="padding: 10px;">Eventos clave</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom: 1px solid #ccc;">
+      <td style="padding: 10px; font-weight: bold;">IAM</td>
+      <td style="padding: 10px;">Maneja la autenticación y autorización de los usuarios, asegurando accesos.</td>
+      <td style="padding: 10px; color: #d4a017; font-family: monospace;">Usuario Registrado, Usuario Autenticado</td>
+    </tr>
+    <tr style="border-bottom: 1px solid #ccc;">
+      <td style="padding: 10px; font-weight: bold;">Profile</td>
+      <td style="padding: 10px;">Administra la información de perfil de conductores y pasajeros.</td>
+      <td style="padding: 10px; color: #d4a017; font-family: monospace;">Perfil Creado, Perfil Actualizado</td>
+    </tr>
+    <tr style="border-bottom: 1px solid #ccc;">
+      <td style="padding: 10px; font-weight: bold;">Stops Management</td>
+      <td style="padding: 10px;">Permite crear, editar y eliminar paraderos, que sirven como puntos de ruta.</td>
+      <td style="padding: 10px; color: #d4a017; font-family: monospace;">Paradero Creado, Paradero Actualizado, Paradero Eliminado</td>
+    </tr>
+    <tr style="border-bottom: 1px solid #ccc;">
+      <td style="padding: 10px; font-weight: bold;">Routes Management</td>
+      <td style="padding: 10px;">Administra la creación, edición y eliminación de rutas con paraderos.</td>
+      <td style="padding: 10px; color: #d4a017; font-family: monospace;">Ruta Creada, Ruta Actualizada, Ruta Eliminada</td>
+    </tr>
+  </tbody>
+</table>
+
+
 #### 2.5.1.2. Domain Message Flows Modeling
 #### 2.5.1.3. Bounded Context Canvases
 ### 2.5.2. Context Mapping
