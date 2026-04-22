@@ -1236,7 +1236,7 @@ Siguiendo el modelo de arquitectura 'Clean Architecture' hemos dividido el proye
 
 Este diagrama representa la descomposición interna del container IAM Application, correspondiente al bounded context de identidad y autenticación (IAM) dentro del sistema.
 
-![diagrama1](./images/diagrama1.png)
+<img width="2020" height="1029" alt="Image" src="https://github.com/user-attachments/assets/49a55668-9b5f-4ab2-97fc-ccd0d245465f" />
 
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 
