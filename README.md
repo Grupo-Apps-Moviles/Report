@@ -100,6 +100,8 @@
 - [Student Outcome](#student-outcome)
   - [ABET - EAC - Student Outcome 7](#abet---eac---student-outcome-7)
 - [Objetivos SMART](#objetivos-smart)
+    - [Objetivo Principal](#objetivo-principal)
+    - [Objetivos Específicos](#objetivos-específicos)
 - [Capítulo I: Presentación](#capítulo-i-presentación)
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
@@ -118,12 +120,19 @@
   - [2.1. Competidores](#21-competidores)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
     - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+      - [Estrategia de Nicho y Especialización](#estrategia-de-nicho-y-especialización)
+      - [Estrategia de Accesibilidad y Baja Fricción](#estrategia-de-accesibilidad-y-baja-fricción)
+      - [Estrategia de Seguridad y Verificación](#estrategia-de-seguridad-y-verificación)
+      - [Estrategia de Fidelización del Conductor](#estrategia-de-fidelización-del-conductor)
   - [2.2. Entrevistas](#22-entrevistas)
     - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
     - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
       - [Registro de entrevista a usuarios (Pasajeros)](#registro-de-entrevista-a-usuarios-pasajeros)
       - [Registro de entrevista a usuarios (Conductor)](#registro-de-entrevista-a-usuarios-conductor)
     - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+      - [Segmento Pasajeros: Incertidumbre y Pérdida de Tiempo](#segmento-pasajeros-incertidumbre-y-pérdida-de-tiempo)
+      - [Segmento Conductores: Eficiencia Operativa y Seguridad](#segmento-conductores-eficiencia-operativa-y-seguridad)
+      - [Conclusiones del Análisis](#conclusiones-del-análisis)
   - [2.3. Needfinding](#23-needfinding)
     - [2.3.1. User Personas](#231-user-personas)
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
@@ -271,6 +280,16 @@
     - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
     - [4.3.3. Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas)
 - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+  - [Conclusiones](#conclusiones)
+    - [1. Sobre la Problemática y la Propuesta de Valor](#1-sobre-la-problemática-y-la-propuesta-de-valor)
+    - [2. Sobre el Diseño Centrado en el Usuario (UX)](#2-sobre-el-diseño-centrado-en-el-usuario-ux)
+    - [3. Sobre la Arquitectura y el Desarrollo Técnico](#3-sobre-la-arquitectura-y-el-desarrollo-técnico)
+    - [4. Sobre el Impacto del Modelo de Negocio](#4-sobre-el-impacto-del-modelo-de-negocio)
+  - [Recomendaciones](#recomendaciones)
+    - [1. Sobre el Producto y la Experiencia de Usuario (UX)](#1-sobre-el-producto-y-la-experiencia-de-usuario-ux)
+    - [2. Sobre la Estrategia de Mercado y Validación](#2-sobre-la-estrategia-de-mercado-y-validación)
+    - [3. Sobre el Desarrollo Técnico y Escalabilidad](#3-sobre-el-desarrollo-técnico-y-escalabilidad)
+    - [4. Sobre la Seguridad y el Cumplimiento](#4-sobre-la-seguridad-y-el-cumplimiento)
 - [Video App Validation](#video-app-validation)
 - [Video About the product](#video-about-the-product)
 - [Video About the team](#video-about-the-team)
@@ -363,10 +382,8 @@ Ser el ecosistema digital líder en la gestión del transporte interurbano y rur
     </thead>
     <tbody>
         <tr>
-            <td><img width="245" height="236" alt="Image" src="https://github.com/user-attachments/assets/ff035024-f015-4b7b-9b2b-0abdb15bda50" /></td>
+            <td><img width="800" height="236" alt="Image" src="https://github.com/user-attachments/assets/ff035024-f015-4b7b-9b2b-0abdb15bda50" /></td>
             <td>
-                <strong>Velarde Gonzales, Néstor Hernán</strong>
-                <hr/>
                 Cuento con conocimientos y experiencia en diversos lenguajes de 
                 programación como Python, C#, Java, C++ y JavaScript, lo que me 
                 permite adaptarme con facilidad a distintos entornos y proyectos. 
@@ -376,16 +393,16 @@ Ser el ecosistema digital líder en la gestión del transporte interurbano y rur
             </td>
         </tr>
         <tr>
-            <td><img width="245" height="236" alt="foto" src="https://github.com/user-attachments/assets/fb7d3127-17d1-40f8-86bb-cfb703bfd728" /></td>
+            <td><img width="800" height="236" alt="foto" src="https://github.com/user-attachments/assets/fb7d3127-17d1-40f8-86bb-cfb703bfd728" /></td>
             <td>Soy Angelo Curi Marcelo, con conocimientos en lenguajes de programación como C++ y Python. Además, manejo herramientas que apoyan el desarrollo eficiente de proyectos de software. Siempre me esfuerzo por adquirir nuevas habilidades y mejorar mis competencias técnicas para afrontar los desafíos del desarrollo de software. Me considero una persona responsable, comprometida y enfocada en la calidad del trabajo. Tengo la capacidad de adaptarme rápidamente a nuevas tecnologías y entornos. Cumplo con los plazos establecidos y tengo una gran disposición para aprender y colaborar en equipo. </td>
         </tr>
         <tr>
-            <td><img width="245" height="236" alt="foto" src="https://github.com/user-attachments/assets/2dd80fc1-e903-4b8e-b550-505cd7712d19" />
+            <td><img width="800" height="236" alt="foto" src="https://github.com/user-attachments/assets/2dd80fc1-e903-4b8e-b550-505cd7712d19" />
 </td>
             <td>Hola, soy Joaquín Carranza. Tengo 25 años y actualmente curso el septimo ciclo de la carrera de Ingeniería de Software. Me gusta la tecnología y la forma en que ayuda a las personas a resolver problemas de manera más rápida y eficiente. Me interesa especialmente el manejo de datos y la ciberseguridad. Siento que puedo aportar a mi equipo ideas desde otra perspectiva, ya que siempre me cuestiono cómo se podría mejorar el producto o hacia qué objetivo estamos apuntando.</td>
         </tr>
         <tr>
-            <td><img width="250" height="323" alt="yaku" src="https://github.com/user-attachments/assets/833d2d67-a1be-4101-a601-6b674dfe2408" />
+            <td><img width="800" height="323" alt="yaku" src="https://github.com/user-attachments/assets/833d2d67-a1be-4101-a601-6b674dfe2408" />
 </td>
             <td>Soy Yaku Guzmán, estudiante de Ingeniería de Software en el séptimo ciclo. 
 Cuento con conocimientos en lenguajes de programación como Python, C#, Java, 
