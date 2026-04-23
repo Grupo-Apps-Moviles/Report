@@ -33,8 +33,8 @@
             <td><center>U20231B173</center></td>
         </tr>
         <tr>
-            <td><center>apellido, nombres</center></td>
-            <td><center>codigo</center></td>
+            <td><center>Quiroz Cáceres, Adrian</center></td>
+            <td><center>U202214864</center></td>
         </tr>
         <tr>
             <td><center>apellido, nombres</center></td>
@@ -381,8 +381,8 @@ Me considero autodidacta, analítico y comprometido con la calidad del trabajo
 en equipo.</td>
         </tr>
         <tr>
-            <td>Foto</td>
-            <td>Datos</td>
+            <td><img width="678" height="902" alt="Image" src="https://github.com/user-attachments/assets/a0fb7f84-81aa-452a-913c-4bd584faedaa" /></td>
+            <td>Soy Adrian Quiroz, tengo 21 años y actualmente curso el quinto ciclo de Ingeniería de Software. Poseo conocimientos en C++ y bases de datos, áreas que me permiten contribuir al desarrollo de soluciones digitales.</td>
         </tr>
     </tbody>
 </table>
