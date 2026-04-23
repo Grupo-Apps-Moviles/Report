@@ -425,18 +425,24 @@ en equipo.</td>
 Nuestro producto **WayPass** es una aplicación móvil desarrollada por el equipo de **Viacore** que organiza y moderniza el transporte colectivo informal a través de información clara sobre rutas, paraderos y horarios que conecta ciudades y distritos brindando mayor accesibilidad y eficiencia para usuarios y conductores.
 
 ### 1.2.1. Antecedentes y problemática
-En muchas regiones del Perú, especialmente en provincias y zonas rurales, los colectivos (autos compartidos que cubren rutas fijas entre pueblos o distritos) representan un medio de transporte esencial. Estas unidades operan de forma semiinformal, sin horarios estrictos ni plataformas digitales que informen sobre sus rutas, tarifas o paraderos. A pesar de su utilidad, la informalidad del servicio genera desinformación, falta de confianza y dificultad para planificar los viajes, especialmente para personas no familiarizadas con la zona. Es común que los pasajeros deban preguntar a transeúntes o esperar en puntos conocidos sin certeza del tiempo de espera o del costo del servicio.
 
-Por otro lado, los conductores de colectivos enfrentan problemas para captar nuevos pasajeros, organizar eficientemente sus recorridos y diferenciarse en un mercado competitivo e informal. Esta situación genera ineficiencias tanto para usuarios como para operadores del servicio. En este contexto, surge la necesidad de una solución digital accesible que brinde visibilidad, organización y confianza al sistema informal de colectivos interurbanos, sin perder su flexibilidad, adaptándose a la realidad tecnológica y cultural de estas zonas.
+En el Perú, la movilidad urbana y regional enfrenta una crisis de fragmentación. Según el Plan de Movilidad Urbana (PMU, 2023) de la ATU, en Lima y Callao se realizan más de 22 millones de viajes diarios, donde el transporte público masivo solo cubre una fracción de la demanda, dejando una brecha que es llenada por sistemas no convencionales. Esta realidad se replica con mayor severidad en provincias y zonas rurales, donde los colectivos (autos compartidos) son el eje vertebral del transporte.
+
+Sin embargo, como señala el informe de Lima Cómo Vamos, el transporte informal es la principal fuente de insatisfacción ciudadana debido a la inseguridad y la falta de previsibilidad. A pesar de su importancia, estas unidades operan sin horarios estrictos ni plataformas digitales, generando un escenario de desinformación constante (RPP, 2024). Ante este vacío, ciudades como Trujillo ya están apostando por la digitalización mediante aplicativos para fiscalizar y ordenar el servicio, evidenciando que la tecnología es el camino para mejorar la experiencia del ciudadano (MPT, 2026).
 
 La problemática se puede resumir en los siguientes puntos:
 
-* **I. Desinformación sobre rutas y paraderos:** Los pasajeros no tienen acceso a información clara sobre las rutas disponibles, ubicación de los paraderos, horarios aproximados o tarifas. Esta falta de visibilidad dificulta la planificación del viaje y desalienta el uso del servicio, especialmente entre personas que no conocen la zona o viajan por primera vez.
-* **II. Dependencia de canales informales:** En ausencia de señalización oficial o plataformas digitales, los usuarios deben confiar en el "boca a boca" o el conocimiento local para encontrar un colectivo. Esto limita el acceso al servicio y excluye a quienes no dominan estas redes informales, como turistas, personas mayores o nuevos residentes.
-* **III. Falta de herramientas para conductores:** Los conductores operan sin apoyo tecnológico para anunciar su disponibilidad, comunicar sus rutas o gestionar sus viajes. Esto reduce su eficiencia, genera tiempos muertos y limita su capacidad para captar más pasajeros.
-* **IV. Baja percepción de seguridad:** La falta de perfiles visibles y verificables de los conductores, así como la ausencia de información sobre los vehículos y las rutas, genera desconfianza. Esto impacta directamente en la decisión de uso del servicio, especialmente entre mujeres o personas en situación vulnerable.
-* **V. Barreras tecnológicas en la adopción digital:** Muchos usuarios potenciales viven en zonas con conectividad limitada o tienen baja familiaridad con el uso de aplicaciones móviles. Las plataformas de transporte tradicionales no están diseñadas para este público, al requerir registros complejos, conexión permanente o interfaces poco intuitivas.
-* **VI. Ausencia en el ecosistema de movilidad regional:** Al ser un sistema informal, los colectivos no están integrados en los planes de movilidad ni reciben soporte institucional. Esto contribuye a su invisibilidad como alternativa de transporte sostenible y eficiente en provincias del país.
+- I. Desinformación sobre rutas y paraderos: Según el diagnóstico de la ATU, la falta de información integrada es una de las mayores barreras para la eficiencia. Los pasajeros no cuentan con datos sobre rutas o tarifas, lo que genera una pérdida de tiempo significativa en la espera de unidades.
+
+- II. Dependencia de canales informales: En ausencia de señalización, los usuarios dependen exclusivamente del conocimiento local ("boca a boca"). Esto limita el acceso a nuevos usuarios o turistas y perpetúa un sistema "invisible" para la gestión inteligente de las ciudades.
+
+- III. Falta de herramientas para conductores: Se identifica que los operadores carecen de tecnología para gestionar sus recorridos. La ausencia de una plataforma les impide anunciar su disponibilidad, generando tiempos muertos y recorridos ineficientes que congestionan las vías.
+
+- IV. Baja percepción de seguridad: El informe de Lima Cómo Vamos destaca que la inseguridad es el segundo mayor problema percibido en el transporte. La falta de perfiles verificables alimenta esta desconfianza, afectando especialmente a poblaciones vulnerables.
+
+- V. Barreras tecnológicas en la adopción digital: Las soluciones tradicionales suelen ignorar zonas con baja alfabetización digital. Existe una necesidad de interfaces intuitivas que se adapten a la realidad cultural y técnica de las provincias peruanas.
+
+- VI. Ausencia en el ecosistema de movilidad regional: Al no estar integrados en los planes oficiales, los colectivos pierden la oportunidad de transformarse en una alternativa organizada, sostenible y eficiente dentro del crecimiento de las regiones.
 
 ### 1.2.2. Lean UX Process
 
