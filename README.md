@@ -37,8 +37,8 @@
             <td><center>U202214864</center></td>
         </tr>
         <tr>
-            <td><center>apellido, nombres</center></td>
-            <td><center>codigo</center></td>
+            <td><center>Carranza Tesén, Joaquín Enrique</center></td>
+            <td><center>U20191B935</center></td>
         </tr>
     </tbody>
   </table>
