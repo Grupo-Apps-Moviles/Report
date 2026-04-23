@@ -501,6 +501,8 @@ Fuente: Elaboracipon propia en la plataforma Miro. Disponible en: https://miro.c
 
 ## 1.3. Segmentos objetivo
 
+En esta sección se identifican los segmentos objetivos del proyecto, los cuales permiten personalizar la propuesta de valor y las estrategias de comunicación. El análisis de estos perfiles asegura que la solución responda directamente a las problemáticas reales de movilidad y gestión de rutas, integrando las necesidades tanto de los pasajeros como de los conductores de Viacore.
+
 ### 1. Pasajeros
 Este segmento está compuesto principalmente por personas que necesitan movilizarse entre zonas periféricas, pueblos cercanos o distritos colindantes donde el transporte público tradicional es limitado, ineficiente o inexistente.
 
@@ -533,9 +535,13 @@ Este grupo representa a los operadores informales que ofrecen servicios de trans
 
 # Capítulo II: Requirements Development and Software Solution Design
 
+En este capítulo se detalla el proceso de ingeniería de requisitos y el diseño de la solución de software para Viacore. Se abarca desde el análisis comparativo con soluciones existentes en el mercado hasta la definición técnica de los requerimientos funcionales y no funcionales, permitiendo establecer una base sólida para la arquitectura y el desarrollo posterior de la plataforma.
+
 ## 2.1. Competidores
 
 ### 2.1.1. Análisis competitivo
+
+En esta sección se identifican y analizan las soluciones existentes en el mercado que abordan problemas de movilidad similares. El análisis de competidores permite evaluar las fortalezas y debilidades de las alternativas actuales, con el fin de diferenciar a WayPass mediante una propuesta de valor que resuelva las carencias en la gestión de rutas y seguridad del transporte colectivo.
 
 <table border="1">
     <thead>
@@ -1057,7 +1063,13 @@ Como se observa en la distribución demográfica de nuestras entrevistas, existe
 
 ## 2.3. Needfinding
 
+En esta sección se profundiza en el proceso de Needfinding, el cual tiene como objetivo descubrir y comprender las necesidades latentes, los comportamientos y los puntos de dolor de los usuarios. A través de este análisis, el equipo de Viacore puede identificar oportunidades clave para diseñar una solución que no solo sea funcional, sino que también genere una conexión real con las experiencias cotidianas de los pasajeros y conductores.
+
 ### 2.3.1. User Personas
+
+En esta sección se identifican y presentan los User Personas, que son representaciones semi-ficticias de nuestros usuarios ideales. La creación de estos perfiles nos permite empatizar con los usuarios, comprendiendo sus motivaciones, frustraciones y metas, lo que facilita la toma de decisiones centradas en el ser humano durante todo el proceso de diseño de WayPass.
+
+A continuación, se detallan los perfiles de User Personas para cada segmento objetivo:
 
 **User Persona - pasajeros**
 
