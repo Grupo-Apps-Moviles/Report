@@ -957,7 +957,7 @@ Emmanuel escribió una realidad mucho más tensa, donde decide su ruta y sus sal
 
 Tras las entrevistas realizadas a pasajeros y conductores de diversos distritos de Lima (San Juan de Lurigancho, Lurín, Villa El Salvador, San Miguel y Chorrillos), se han identificado patrones críticos que validan la necesidad de la plataforma WayPass. El análisis se divide en los dos perfiles de usuario:
 
-- Segmento Pasajeros: Incertidumbre y Pérdida de Tiempo
+#### Segmento Pasajeros: Incertidumbre y Pérdida de Tiempo
 
 El análisis de las entrevistas a Jhudith, Jean Pierre y Mateo revela tres puntos de dolor principales:
 
@@ -967,7 +967,7 @@ El análisis de las entrevistas a Jhudith, Jean Pierre y Mateo revela tres punto
 
  - Optimización del Tiempo: El mayor desafío es el tiempo perdido en la espera. Los pasajeros ven en una aplicación la solución para obtener información concisa y orientación en tiempo real, lo que transformaría su experiencia de viaje de una "adivinanza" a un proceso planificado.
 
-- Segmento Conductores: Eficiencia Operativa y Seguridad
+#### Segmento Conductores: Eficiencia Operativa y Seguridad
 Las entrevistas a Angel, Fabian, Roberto y Emmanuel muestran una realidad dividida entre la necesidad de ingresos y el miedo a la fiscalización:
 
  - La "Llenada" del Vehículo: Para los conductores de colectivos (Fabian y Angel), el éxito del día depende de qué tan rápido completen sus asientos. Actualmente dependen de dateros o de la suerte de encontrar "bulto de gente", por lo que ven una ventaja competitiva en aparecer en una app que los conecte con pasajeros de forma remota.
