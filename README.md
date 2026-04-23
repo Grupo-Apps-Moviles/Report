@@ -1449,15 +1449,11 @@ Figura 12. Identificación de eventos de WayPass
 
 <img width="543" height="747" alt="Image" src="https://github.com/user-attachments/assets/310a9fa1-422a-4d54-982c-9eb148bf58b1" />
 
-Fuente: Elaboración propia en la plataforma Miro. Encontrado en: https://miro.com/app/board/uXjVHe62Coc=/?share_link_id=80941229308
-
 Como segundo paso, identificamos los comandos que disparan o llevan a acabo el evento. Identificamos a estos con un post-it de color azul.
 
 Figura 13. Identificación de comandos de WayPass
 
 <img width="852" height="785" alt="Image" src="https://github.com/user-attachments/assets/21b92dc6-c193-40c4-adf7-354608281189" />
-
-Fuente: Elaboración propia en la plataforma Miro. Encontrado en: https://miro.com/app/board/uXjVHe62Coc=/?share_link_id=80941229308
 
 Como tercer paso, identificamos los agentes que realizan o usan el comando. Estos se representan mediante un post-it de color amarillo.
 
@@ -1465,7 +1461,6 @@ Figura 14. Identificación de agentes  de WayPass
 
 <img width="830" height="712" alt="Image" src="https://github.com/user-attachments/assets/0b4ac2ab-b40d-4a88-a073-2118ec6cb028" />
 
-Fuente: Elaboración propia en la plataforma Miro. Encontrado en: https://miro.com/app/board/uXjVHe62Coc=/?share_link_id=80941229308
 
 Como último paso, identificamos los eventos que se relacionen entre sí mediante los agregados y entidades que utilizan, agrupandolos por
 Bounded Context.
