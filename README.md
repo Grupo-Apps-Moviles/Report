@@ -1608,17 +1608,23 @@ Existe una dependencia funcional crítica donde **Routes** consume la informaci�
 
 En este diagrama de contexto se aprecia cómo el sistema centraliza la comunicación entre sus actores principales y los servicios de apoyo. Mientras que los Pasajeros interactúan con la plataforma para gestionar sus viajes, los Gestores utilizan las herramientas administrativas para organizar la logística de transporte. Para complementar la experiencia, el sistema delega funciones específicas a servicios externos especializados en mapas, transacciones financieras y envíos de notificaciones.
 
+Figura 27. Diagrama de Contexto de WayPass
+
 <img  width="1022" height="902" alt="Image" src="https://github.com/user-attachments/assets/e79cb8fe-220e-4982-9bb1-02b63dc2d0db" />
 
 #### 2.5.3.2. Software Architecture Container Level Diagrams
 
 El siguiente diagrama de contenedores representa los principales componentes del sistema y cómo interactúan entre sí. Se muestra la aplicación móvil para pasajeros y conductores, el gestor de backend que centraliza la lógica de negocio, y los bounded contexts de IAM, Profile, Routes y Stops, así como la base de datos y la integración con los servicios externos.
 
+Figura 28. Diagrama de Contenedores - WayPass
+
 <img  width="1022" height="902" alt="Image" src="https://github.com/user-attachments/assets/57a95646-c383-4a43-ace9-26348d91bc7f" />
 
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
 El siguiente diagrama de despliegue describe la infraestructura física y lógica en la que se ejecutan los principales componentes del sistema.
+
+Figura 29. Diagrama de despliegue - WayPass
 
 <img 
   src="https://github.com/user-attachments/assets/c05f6c09-1531-43dd-ba46-84ef52bc4585" 
@@ -1774,6 +1780,8 @@ Siguiendo el modelo de arquitectura 'Clean Architecture' hemos dividido el proye
 
 Este diagrama representa la descomposición interna del container IAM Application, correspondiente al bounded context de identidad y autenticación (IAM) dentro del sistema.
 
+Figura 30. Diagrama de componentes del Bounded Context IAM - WayPass
+
 <img width="1819" height="1085" alt="Image" src="https://github.com/user-attachments/assets/ecc76aae-e486-4314-b19b-18c67c75ada1" />
 
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
@@ -1785,6 +1793,7 @@ Diagrama de clases de la capa Domain:
 En esta presente imagen, las clases del dominio IAM incluyen User como aggregate root, Commands para las operaciones de autenticación y
 registro, Value Objects para encapsular datos importantes, e interfaces para los servicios de dominio con sus respectivas implementaciones.
 
+Figura 31. Diagrama de clases del Bounded Context IAM - WayPass
 
 <img width="1386" height="830" alt="Image" src="https://github.com/user-attachments/assets/8adc3ac4-3ba0-4f27-b99a-76a12d985ed5" />
 
@@ -1802,6 +1811,8 @@ registro, Value Objects para encapsular datos importantes, e interfaces para los
 | password      | Contraseña del usuario (almacenada de forma segura, usualmente encriptada). |
 | trial         | Indica si el usuario está en un período de prueba (true/false).             |
 | username      | Nombre de usuario único utilizado para iniciar sesión.                      |
+
+Figura 32. Diagrama de base de datos del Bounded Context IAM - WayPass
 
 <img width="352" height="285" alt="Image" src="https://github.com/user-attachments/assets/e4b1a0bf-b854-470c-90d9-3f303102e76f" />
 
@@ -2163,6 +2174,8 @@ Siguiendo el modelo de arquitectura 'Clean Architecture' hemos dividido el proye
 
 Este diagrama representa la descomposición interna del container Profile Application, correspondiente al bounded context de gestión de perfiles de empresa dentro del sistema. Se trata de un backend desarrollado bajo los principios de Clean Architecture y Domain-Driven Design(DDD), y se ilustra aquí en el Nivel 3 del C4 Model (Component Diagram).
 
+Figura 33. Diagrama de componentes del Bounded Context Profile - WayPass
+
 <img width="1095" height="848" alt="Image" src="https://github.com/user-attachments/assets/c83ffd98-8100-4c7c-afbd-7d67a27665df" />
 
 #### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
@@ -2173,6 +2186,7 @@ Diagrama de clases de la capa Domain:
 
 En esta imagen se muestran las clases del dominio Profile que incluyen Profile como aggregate root, Commands para las operaciones CRUD de empresas, Queries para las consultas de información, e interfaces para los servicios de dominio con sus respectivas implementaciones.
 
+Figura 34. Diagrama de clases del Bounded Context Profile - WayPass
 
 <img width="1226" height="645" alt="Image" src="https://github.com/user-attachments/assets/c744279b-4d37-46c2-9028-5a73a477c9c2" />
 
@@ -2212,6 +2226,8 @@ En esta imagen se muestran las clases del dominio Profile que incluyen Profile c
 </tr>
 </tbody>
 </table>
+
+Figura 35. Diagrama de base de datos del Bounded Context Profile - WayPass
 
 <img width="440" height="262" alt="Image" src="https://github.com/user-attachments/assets/aa97aacc-350d-43d7-9489-93b550a1c120" />
 
@@ -2562,6 +2578,8 @@ Siguiendo el modelo de arquitectura 'Clean Architecture' hemos dividido el proye
 
 Este diagrama representa la descomposición interna del container Stops Application, correspondiente al bounded context de gestión de stops de empresa dentro del sistema. Se trata de un backend desarrollado bajo los principios de Clean Architecture y Domain-Driven Design(DDD), y se ilustra aquí en el Nivel 3 del C4 Model (Component Diagram).
 
+Figura 36. Diagrama de componentes del Bounded Context STOPS - WayPass
+
 <img width="1351" height="1079" alt="Image" src="https://github.com/user-attachments/assets/b15849c3-9726-409b-8bec-e900ba75b20f" />
 
 #### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
@@ -2571,6 +2589,8 @@ Este diagrama representa la descomposición interna del container Stops Applicat
 Diagrama de clases de la capa Domain:
 
 La Capa de Dominio del Bounded Context STOPS actúa como el núcleo central del sistema bajo principios de Domain-Driven Design (DDD), donde el agregado Stop centraliza la lógica de negocio y garantiza la integridad de los datos de las paradas, interactuando con Commands y Queries para separar las acciones de escritura y lectura mediante el patrón CQRS. Este ecosistema se mantiene desacoplado de la infraestructura gracias a interfaces de servicios y repositorios que definen los contratos de persistencia e integración geográfica, permitiendo que la lógica fundamental —apoyada en DTOs como GeoResponseDto para la gestión de ubicaciones— permanezca pura, testeable y protegida frente a cambios en tecnologías externas.
+
+Figura 37. Diagrama de clases del Bounded Context STOPS - WayPass
 
 <img width="1736" height="953" alt="Image" src="https://github.com/user-attachments/assets/f61c8792-ff53-42e5-8d59-d2be56de575b" />
 
@@ -2647,6 +2667,8 @@ La Capa de Dominio del Bounded Context STOPS actúa como el núcleo central del 
 </tr>
 </tbody>
 </table>
+
+Figura 38. Diagrama de base de datos del Bounded Context STOPS - WayPass
 
 <img width="440" height="797" alt="Image" src="https://github.com/user-attachments/assets/7547c6d9-bcb3-4d15-97d8-698bf312bcf1" />
 
@@ -2870,6 +2892,8 @@ Siguiendo el modelo de arquitectura 'Clean Architecture' hemos dividido el proye
 
 Este diagrama representa la descomposición interna del container Routes Application, correspondiente al bounded context de gestión de Routes de empresa dentro del sistema. Se trata de un backend desarrollado bajo los principios de Clean Architecture y Domain-Driven Design(DDD), y se ilustra aquí en el Nivel 3 del C4 Model (Component Diagram).
 
+Figura 39. Diagrama de componentes del Bounded Context Routes - WayPass
+
 <img width="838" height="1027" alt="Image" src="https://github.com/user-attachments/assets/65b6c584-47ee-4bc4-b6d8-360ab2e85464" />
 
 #### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
@@ -2877,6 +2901,8 @@ Este diagrama representa la descomposición interna del container Routes Applica
 ##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
 
 Diagrama de clases de la capa Domain:
+
+Figura 40. Diagrama de clases del Bounded Context Routes - WayPass
 
 <img width="2008" height="860" alt="Image" src="https://github.com/user-attachments/assets/c7276920-7fb4-42ee-87fe-ff8a27d65d77" />
 
@@ -2957,6 +2983,8 @@ Diagrama de clases de la capa Domain:
 </tr>
 </tbody>
 </table>
+
+Figura 41. Diagrama de base de datos del Bounded Context Routes - WayPass
 
 <img width="585" height="451" alt="Image" src="https://github.com/user-attachments/assets/d6cc472b-6bb6-435d-a59e-60810793e778" />
 
