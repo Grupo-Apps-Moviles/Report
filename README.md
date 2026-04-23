@@ -385,7 +385,8 @@ Ser el ecosistema digital líder en la gestión del transporte interurbano y rur
             <td>Hola, soy Joaquín Carranza. Tengo 25 años y actualmente curso el septimo ciclo de la carrera de Ingeniería de Software. Me gusta la tecnología y la forma en que ayuda a las personas a resolver problemas de manera más rápida y eficiente. Me interesa especialmente el manejo de datos y la ciberseguridad. Siento que puedo aportar a mi equipo ideas desde otra perspectiva, ya que siempre me cuestiono cómo se podría mejorar el producto o hacia qué objetivo estamos apuntando.</td>
         </tr>
         <tr>
-            <td>Foto</td>
+            <td><img width="250" height="323" alt="yaku" src="https://github.com/user-attachments/assets/833d2d67-a1be-4101-a601-6b674dfe2408" />
+</td>
             <td>Soy Yaku Guzmán, estudiante de Ingeniería de Software en el séptimo ciclo. 
 Cuento con conocimientos en lenguajes de programación como Python, C#, Java, 
 C++ y TypeScript, así como en frameworks y tecnologías modernas como Vue.js, 
