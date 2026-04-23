@@ -602,108 +602,338 @@ Para conocer a nuestros segmentos objetivos, se diseñaron preguntas en específ
 
 A continuación, se demostrará las entrevistas realizadas a los usuarios (pasajeros) para conocer sus experiencias diarias en el transporte.
 
-**Entrevistador N 01:**
-* **Entrevistador:**
-    * Nombre: Néstor Velarde Gonzales
-* **Entrevistado:**
-    * Nombre: Jhudith Pumallihua Huayanay
-    * Edad: 20 años
-    * Ocupación: Estudiante
-    * Distrito: San Juan de Lurigancho, Lima, Lima
-    * Link de video: [Video](#)
+<tr>
+<td>Link</td>
+<td><p><a target="_blank"  href="https://shorturl.at/0SoRt" title="Title">https://shorturl.at/0SoRt</p></td>
+</tr>
 
-**Imagen 01. Entrevista a Jhudith**
-
+<table>
+<colgroup>
+</colgroup>
+<thead>
+<tr>
+<th colspan="2">Entrevista #1<br></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nombre</td>
+<td>Jhudith</td>
+</tr>
+<tr>
+<td>Apellidos</td>
+<td>Pumallihua Huayanay</td>
+</tr>
+<tr>
+<td>Edad</td>
+<td>20 años</td>
+</tr>
+<tr>
+<td>Ocupación</td>
+<td>Estudiante</td>
+</tr>
+<td>Distrito</td>
+<td>San Juan de Lurigancho, Lima, Lima</td>
+</tr>
+<tr>
+<td>Evidencia</td>
+<td><div align="center"><img src="../images/Entrevista1.png" alt="Entrevista"></td>
+</tr>
+<td>Resumen</td>
+<td>
 Se realizó una entrevista a Jhudith Pumallihua, una joven estudiante de 20 años que vive actualmente en el distrito de San Juan de Lurigancho. Jhudith suele viajar con transporte público con mayor frecuencia día a día a sus destinos aquí en la ciudad de Lima. Cada día ella atraviesa dificultades al abordar un transporte debido a que no reconoce con claridad qué transporte pasa por el lugar al que quiere llegar. Los paraderos no son tan estables para los buses que aborda, muchas rutas cambian y ella se siente confundida. El mayor desafío que ha tenido es la pérdida de tiempo al esperar un transporte. Jhudith considera que usar la aplicación será valiosa por permitir una información concisa para cada viaje a su destino y con qué carro (transporte) movilizarse.
+</td>
+  </tr>
+</tbody>
+</table>
 
-**Entrevistador N 02:**
-* **Entrevistador:**
-    * Nombre: Joaquin Carranza
-* **Entrevistado:**
-    * Nombre: Jean Pierre Medina
-    * Edad: 25 años
-    * Ocupación: Estudiante
-    * Distrito: Lurin, Lima, Lima
-    * Link de video: [Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191b935_upc_edu_pe/IQAB7Wn_YSbLR704iEz5oFW-AcRMKjQc3OL1E05zu_G-mHM?e=krAcbr&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-
-**Imagen 02. Entrevista a Jean Pierre**
-<img width="889" height="316" alt="Captura de pantalla 2026-04-22 171824" src="https://github.com/user-attachments/assets/d2789d3e-4783-4a80-8266-9988f0039b10" />
-
+<table>
+<colgroup>
+</colgroup>
+<thead>
+<tr>
+<th colspan="2">Entrevista #2<br></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nombre</td>
+<td>Jean Pierre</td>
+</tr>
+<tr>
+<td>Apellidos</td>
+<td>Medina</td>
+</tr>
+<tr>
+<td>Edad</td>
+<td>25 años</td>
+</tr>
+<tr>
+<td>Ocupación</td>
+<td>Estudiante</td>
+</tr>
+<td>Distrito</td>
+<td>Lurin, Lima, Lima</td>
+</tr>
+<tr>
+<td>Evidencia</td>
+<td><img width="889" height="316" alt="Captura de pantalla 2026-04-22 171824" src="https://github.com/user-attachments/assets/d2789d3e-4783-4a80-8266-9988f0039b10" /></td>
+</tr>
+<td>Timing donde inicia la entrevista<br></td>
+<td>00:05 min</td>
+</tr>
+<tr>
+<td>Duración de la entrevista<br></td>
+<td>07:53 min</td>
+<tr>
+<td>Resumen</td>
+<td>
 Jean Pierre relató que prefiere el colectivo por pura velocidad, ya que los buses grandes demoran demasiado en salir del distrito, aunque esto le signifique pagar más. Confesó que su día a día es una adivinanza constante, preguntando a dateros o vecinos dónde están los paraderos porque estos cambian de sitio sin aviso, lo que a veces le hace perder tiempo o terminar en lugares equivocados. Para él, una app sería la solución a la ansiedad de no saber si encontrará transporte tarde en la noche o cuánto le querrán cobrar por el viaje.
+</td>
+  </tr>
+</tbody>
+</table>
 
-**Entrevistador N 03:**
-* **Entrevistador:**
-    * Nombre: 
-* **Entrevistado:**
-    * Nombre: 
-    * Edad: 
-    * Ocupación: 
-    * Distrito: , Lima, Lima
-    * Link de video:
+<table>
+<colgroup>
+</colgroup>
+<thead>
+<tr>
+<th colspan="2">Entrevista #3<br></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nombre</td>
+<td>Jhudith</td>
+</tr>
+<tr>
+<td>Apellidos</td>
+<td>Pumallihua Huayanay</td>
+</tr>
+<tr>
+<td>Edad</td>
+<td>20 años</td>
+</tr>
+<tr>
+<td>Ocupación</td>
+<td>Estudiante</td>
+</tr>
+<td>Distrito</td>
+<td>San Juan de Lurigancho, Lima, Lima</td>
+</tr>
+<tr>
+<td>Evidencia</td>
+<td><div align="center"><img src="../images/Entrevista1.png" alt="Entrevista"></td>
+</tr>
+<tr>
+<td>Link</td>
+<td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">https://shorturl.at/uoNBn</p></td>
+</tr>
+<td>Timing donde inicia la entrevista<br></td>
+<td>00:00 min</td>
+</tr>
+<tr>
+<td>Duración de la entrevista<br></td>
+<td>04:28 min</td>
+<tr>
+<td>Resumen</td>
+<td>
 
+</td>
+  </tr>
+</tbody>
+</table>
 
 #### Registro de entrevista a usuarios (Conductor)
 
-**Entrevistador N 01:**
-* **Entrevistador:**
-    * Nombre: Néstor Velarde Gonzales
-* **Entrevistado:**
-    * Nombre: Angel Mamani Cayampi
-    * Edad: 20 años
-    * Ocupación: Estudiante
-    * Distrito: San Miguel
-    * Link de video: [Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c221_upc_edu_pe/IQD-bYEjh-GLQoq68cMdLq4yAZA3_Jak5O6ABfYQ5CGzkQQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=qiPmmQ)
-
-**Imagen 01. Entrevista a Ángel**
-
-![EntrevistaConductor](./images/Entrevista_Conductor1.png)
-
+<table>
+<colgroup>
+</colgroup>
+<thead>
+<tr>
+<th colspan="2">Entrevista #4<br></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nombre</td>
+<td>Angel</td>
+</tr>
+<tr>
+<td>Apellidos</td>
+<td>Mamani Cayampi</td>
+</tr>
+<tr>
+<td>Edad</td>
+<td>20 años</td>
+</tr>
+<tr>
+<td>Ocupación</td>
+<td>Estudiante</td>
+</tr>
+<td>Distrito</td>
+<td>San Miguel</td>
+</tr>
+<tr>
+<td>Evidencia</td>
+<td><img width="882" height="295" alt="Captura de pantalla 2026-04-22 171958" src="https://github.com/Grupo-Apps-Moviles/Report/blob/main/images/Entrevista_Conductor1.png" /></td>
+</tr>
+<td>Timing donde inicia la entrevista<br></td>
+<td>11:07 min</td>
+</tr>
+<tr>
+<td>Duración de la entrevista<br></td>
+<td>04:14 min</td>
+<tr>
+<td>Resumen</td>
+<td>
 Se realizó una entrevista a Angel Mamani Cayampi, una Joven estudiante de 20 años que vive actualmente en distrito de San Miguel, Ángel actualmente se dedica a rubro de taxí desde hace unos años atrás, debido que es autofinancia sus estudios en un instituto para costear su carrera técnica, Mayormente los pasajeros no son satisfactorios como él lo espera, paraderos vacíos, pasajeros que cancelan el viaje a la ultima hora entre otros.
+</td>
+  </tr>
+</tbody>
+</table>
 
-**Entrevistador N 02:**
-* **Entrevistador:**
-    * Nombre: Joaquin Carranza
-* **Entrevistado:**
-    * Nombre: Fabian Arteaga
-    * Edad: 22 años
-    * Ocupación: Estudiante
-    * Distrito: San Miguel
-    * Link de video: [Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191b935_upc_edu_pe/IQCaUyONn87NQKK0hqmsH_VIAT71uPsgQH68m-7iw5MIYyI?e=uUZ4ms&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+<table>
+<colgroup>
+</colgroup>
+<thead>
+<tr>
+<th colspan="2">Entrevista #5<br></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nombre</td>
+<td>Fabian</td>
+</tr>
+<tr>
+<td>Apellidos</td>
+<td>Arteaga</td>
+</tr>
+<tr>
+<td>Edad</td>
+<td>22 años</td>
+</tr>
+<tr>
+<td>Ocupación</td>
+<td>Estudiante</td>
+</tr>
+<td>Distrito</td>
+<td>San Miguel</td>
+</tr>
+<tr>
+<td>Evidencia</td>
+<td><img width="882" height="295" alt="Captura de pantalla 2026-04-22 171958" src="https://github.com/user-attachments/assets/95831038-4065-4d64-8fac-2b15230bfd23" /></td>
+</tr>
+<td>Timing donde inicia la entrevista<br></td>
+<td>15:22 min</td>
+</tr>
+<tr>
+<td>Duración de la entrevista<br></td>
+<td>06:01 min</td>
+<tr>
+<td>Resumen</td>
+<td>
+Fabian explicó que su salida no depende de un reloj, sino de completar sus cuatro pasajeros lo más rápido posible para ganarle a la competencia. Admitió que su relación con los pasajeros es de mucha confianza, al punto de coordinar por WhatsApp con algunos frecuentes, y que se apoya totalmente en el datero para saber si la ruta está libre. Se mostró muy a favor de aparecer en una app, pues asegura que mientras más gente sepa dónde se cuadra, más rápido llena el auto y más vueltas puede dar al día. 
+</td>
+  </tr>
+</tbody>
+</table>
 
-**Imagen 02. Entrevista a Fabian**
-<img width="882" height="295" alt="Captura de pantalla 2026-04-22 171958" src="https://github.com/user-attachments/assets/95831038-4065-4d64-8fac-2b15230bfd23" />
-
-Fabian explicó que su salida no depende de un reloj, sino de completar sus cuatro pasajeros lo más rápido posible para ganarle a la competencia. Admitió que su relación con los pasajeros es de mucha confianza, al punto de coordinar por WhatsApp con algunos frecuentes, y que se apoya totalmente en el datero para saber si la ruta está libre. Se mostró muy a favor de aparecer en una app, pues asegura que mientras más gente sepa dónde se cuadra, más rápido llena el auto y más vueltas puede dar al día.
-
-**Entrevistador N 03:**
-* **Entrevistador:**
-    * Nombre: Joaquin Carranza
-* **Entrevistado:**
-    * Nombre: Roberto Garcia
-    * Edad: 21 años
-    * Ocupación: Estudiante
-    * Distrito: Chorrillos
-    * Link de video: [Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191b935_upc_edu_pe/IQAF6xNplYcJSaqEjJ6ElTBHAcw81VKhsCN-VAWcHO0hEQk?e=ThPAn4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-
-**Imagen 03. Entrevista a Roberto**
-<img width="886" height="362" alt="Captura de pantalla 2026-04-22 172125" src="https://github.com/user-attachments/assets/ec1cd09d-a9a1-414c-88c6-799137c99c00" />
-
+<table>
+<colgroup>
+</colgroup>
+<thead>
+<tr>
+<th colspan="2">Entrevista #6<br></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nombre</td>
+<td>Roberto</td>
+</tr>
+<tr>
+<td>Apellidos</td>
+<td>Garcia</td>
+</tr>
+<tr>
+<td>Edad</td>
+<td>21 años</td>
+</tr>
+<tr>
+<td>Ocupación</td>
+<td>Estudiante</td>
+</tr>
+<td>Distrito</td>
+<td>Chorrillos</td>
+</tr>
+<tr>
+<td>Evidencia</td>
+<td><img width="886" height="362" alt="Captura de pantalla 2026-04-22 172125" src="https://github.com/user-attachments/assets/ec1cd09d-a9a1-414c-88c6-799137c99c00" /></td>
+</tr>
+<td>Timing donde inicia la entrevista<br></td>
+<td>21:23 min</td>
+</tr>
+<tr>
+<td>Duración de la entrevista<br></td>
+<td>06:35 min</td>
+<tr>
+<td>Resumen</td>
+<td>
 Roberto narró que su operación es más rígida, basada en un "cartel" de horarios controlados por un despachador que le pone multas si se adelanta o se atrasa. Su gran frustración es ver cómo los colectivos le "quitan" gente mientras él cumple su ruta establecida, por lo que considera que una app le daría ventaja al avisar al pasajero exactamente por dónde viene el bus. Dejó claro que él no puede usar el celular por seguridad, pero que su cobrador sería el encargado de mantener la información actualizada.
+</td>
+  </tr>
+</tbody>
+</table>
 
-**Entrevistador N 04:**
-* **Entrevistador:**
-    * Nombre: Joaquin Carranza
-* **Entrevistado:**
-    * Nombre: Emmanuel Ñahuiña
-    * Edad: 23 años
-    * Ocupación: Estudiante
-    * Distrito: Villa el salvador
-    * Link de video: [Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191b935_upc_edu_pe/IQDTS-Ehj0I4Qa2cJdNSY7E-ASsu3kLZNb_H8Bha4_CEolQ?e=5eA7Z6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-
-**Imagen 04. Entrevista a Emmanuel**
-<img width="886" height="311" alt="Captura de pantalla 2026-04-22 172203" src="https://github.com/user-attachments/assets/c89cb7ba-3039-4bdd-8e1f-edcd429a17d7" />
-
+<table>
+<colgroup>
+</colgroup>
+<thead>
+<tr>
+<th colspan="2">Entrevista #7<br></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nombre</td>
+<td>Emmanuel</td>
+</tr>
+<tr>
+<td>Apellidos</td>
+<td>Ñahuiña</td>
+</tr>
+<tr>
+<td>Edad</td>
+<td>23 años</td>
+</tr>
+<tr>
+<td>Ocupación</td>
+<td>Estudiante</td>
+</tr>
+<td>Distrito</td>
+<td>Villa el Salvador</td>
+</tr>
+<tr>
+<td>Evidencia</td>
+<td><img width="886" height="311" alt="Captura de pantalla 2026-04-22 172203" src="https://github.com/user-attachments/assets/c89cb7ba-3039-4bdd-8e1f-edcd429a17d7" /></td>
+</tr>
+<td>Timing donde inicia la entrevista<br></td>
+<td>27:59 min</td>
+</tr>
+<tr>
+<td>Duración de la entrevista<br></td>
+<td>04:21 min</td>
+<tr>
+<td>Resumen</td>
+<td>
 Emmanuel escribió una realidad mucho más tensa, donde decide su ruta y sus salidas al momento, dependiendo de cuánta gente haya en la calle y de dónde esté la policía. Contó que no tiene paraderos fijos y que se cuadra donde ve bulto de gente, cambiando de camino según le convenga para evitar el tráfico o las multas. Aunque le atrae la idea de que una app le traiga más clientes, expresó temor de que la tecnología también facilite que los inspectores de transporte lo ubiquen y le quiten la unidad.
+</td>
+  </tr>
+</tbody>
+</table>
 
 ### 2.2.3. Análisis de entrevistas
 
