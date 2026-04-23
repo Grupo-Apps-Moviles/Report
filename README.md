@@ -594,14 +594,14 @@ Identificamos que la competencia suele exigir registros complejos o conectividad
 #### Estrategia de Seguridad y Verificación
 Mientras que el carpooling (QuickRide) es entre particulares, WayPass profesionaliza al conductor informal.
 
-- Táctica: Confianza: Implementar una insignia de "Conductor Verificado" mediante el registro de placa y DNI, ofreciendo una capa de seguridad que hoy no existe en el paradero físico.
+- Táctica: Implementar una insignia de "Conductor Verificado" mediante el registro de placa y DNI, ofreciendo una capa de seguridad que hoy no existe en el paradero físico.
 
-- Táctica: Sistema de Calificación Bidireccional: Permitir que la comunidad califique la seguridad y el trato del conductor, emulando la confianza de apps como Uber pero aplicada al colectivo popular.
+- Táctica: Permitir que la comunidad califique la seguridad y el trato del conductor, emulando la confianza de apps como Uber pero aplicada al colectivo popular.
 
 #### Estrategia de Fidelización del Conductor
 El conductor es el motor de la plataforma. La competencia no les ofrece herramientas de gestión.
 
-- Táctica: Indicador de Demanda: Notificar a los conductores sobre paraderos con alta afluencia de pasajeros, ayudándoles a "llenar el auto" más rápido y reducir el tiempo de espera improductivo.
+- Táctica: Notificar a los conductores sobre paraderos con alta afluencia de pasajeros, ayudándoles a "llenar el auto" más rápido y reducir el tiempo de espera improductivo.
 
 - Táctica: Ofrecer una alternativa tecnológica a la información del datero tradicional, proporcionando datos sobre la fluidez de la ruta de manera digital.
 
