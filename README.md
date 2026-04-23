@@ -602,10 +602,16 @@ Para conocer a nuestros segmentos objetivos, se diseñaron preguntas en específ
 
 A continuación, se demostrará las entrevistas realizadas a los usuarios (pasajeros) para conocer sus experiencias diarias en el transporte.
 
-<tr>
-<td>Link</td>
-<td><p><a target="_blank"  href="https://shorturl.at/0SoRt" title="Title">https://shorturl.at/0SoRt</p></td>
-</tr>
+<table>
+  <tr>
+    <td>Link</td>
+    <td>
+      <p>
+        <a target="_blank" href="https://shorturl.at/0SoRt" title="Title">https://shorturl.at/0SoRt</a>
+      </p>
+    </td>
+  </tr>
+</table>
 
 <table>
 <colgroup>
