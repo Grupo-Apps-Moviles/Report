@@ -1512,42 +1512,67 @@ Al analizar hitos como ParaderoCreado, RutaCreada y UsuarioRegistrado, logramos 
 
 El Domain Message Flow Modelling se utiliza para diagramar el intercambio de mensajes de dominio —específicamente comandos, eventos y consultas— a través de los diversos contextos delimitados. Esta metodología tiene como fin establecer con claridad las dependencias mutuas, así como las responsabilidades e interacciones de cada componente del sistema.
 
-Link: https://miro.com/app/board/uXjVHe6wZGo=/?share_link_id=531861330130
+Figura 16. Crear Nuevo paradero - Domain Message Flows Modeling
 
 <img width="1250" height="795" alt="Image" src="https://github.com/user-attachments/assets/0cc437ed-798a-408b-978b-1e4990ba07bf" />
 
+Figura 17. Editar paradero - Domain Message Flows Modeling
+
 <img width="1234" height="789" alt="Image" src="https://github.com/user-attachments/assets/62966ed7-c29f-4d25-a8f1-9411685bc964" />
+
+Figura 18. Eliminar paradero - Domain Message Flows Modeling
 
 <img width="1245" height="800" alt="Image" src="https://github.com/user-attachments/assets/fdeea1a1-1f0b-493e-9059-466e8c0303ad" />
 
+Figura 19. Crear nueva ruta usando paradero existente - Domain Message Flows Modeling
+
 <img width="1239" height="794" alt="Image" src="https://github.com/user-attachments/assets/c0ec5dd5-00c6-44a3-b7a7-1a1feab31ced" />
+
+Figura 20. Editar ruta usando paradero existente - Domain Message Flows Modeling
 
 <img width="1234" height="786" alt="Image" src="https://github.com/user-attachments/assets/811ce2b8-32a0-471a-8677-6442e92f4b97" />
 
+Figura 21. Eliminar ruta - Domain Message Flows Modeling
+
 <img width="1239" height="787" alt="Image" src="https://github.com/user-attachments/assets/985e52d2-9999-4acf-b1c4-cae7c311fc3e" />
+
+Fuente: Elaboración propia en la plataforma Miro. Registrado en: https://miro.com/app/board/uXjVHe6wZGo=/?share_link_id=531861330130
 
 #### 2.5.1.3. Bounded Context Canvases
 
 El Bounded Context Canvas es una herramienta visual aplicada en el marco del Domain-Driven Design (DDD) que permite representar de manera clara los límites, responsabilidades e interacciones de cada contexto dentro de un sistema complejo. Su propósito es facilitar que los equipos construyan una visión compartida sobre el nombre y objetivo de cada contexto, las entidades y agregados que lo conforman, así como las reglas de negocio que gobiernan su funcionamiento. 
 
-link: https://miro.com/app/board/uXjVHeO0rMw=/?share_link_id=610453112459
+
 
 En esta sección se presentan los Bounded Context Canvases correspondientes a los contextos identificados en nuestro proyecto.
 
+Figura 22. IAM - Bounded context
 
 <img width="1022" height="902" alt="Image" src="https://github.com/user-attachments/assets/2d8ed69a-77ca-4f86-b09d-3b8f34a0a5c0" />
 
+Figura 23. Profile - Bounded context
+
 <img width="1023" height="903" alt="Image" src="https://github.com/user-attachments/assets/3d1eaae9-17af-456f-a8ea-4c6adc395718" />
+
+Figura 24. Stops Management - Bounded context
 
 <img width="1021" height="905" alt="Image" src="https://github.com/user-attachments/assets/0973a377-b45d-452c-9693-99e4db53fa9a" />
 
+Figura 25. Routes Management - Bounded context
+
 <img width="1025" height="903" alt="Image" src="https://github.com/user-attachments/assets/ed8216b9-4977-487d-9de1-18fba54f548b" />
+
+Fuente: Elaboración propia en la plataforma de Miro. Revisar en: https://miro.com/app/board/uXjVHeO0rMw=/?share_link_id=610453112459
 
 ### 2.5.2. Context Mapping
 
 En esta sección se desarrolla el Context Mapping, una herramienta estratégica que permite visualizar las relaciones y dependencias entre los distintos contextos delimitados identificados en el sistema. A través de este mapa, el equipo de Viacore puede definir claramente cómo fluye la información y como interactúan los módulos, asegurando la integridad del modelo de dominio y facilitando la colaboración entre las diferentes partes del software.
 
+Figura 26. Context Mapping
+
 <img width="962" height="584" alt="Image" src="https://github.com/user-attachments/assets/d703dddc-e8a8-463b-b038-45734b9617c1" />
+
+Fuente: Elaboración propia en la plataforma de Miro. Revisar en: https://miro.com/app/board/uXjVHeO0rMw=/?share_link_id=610453112459
 
 A continuación, se describen las relaciones y estrategias de integración entre los Bounded Contexts del sistema, basadas en los patrones de **Domain-Driven Design (DDD)**.
 
