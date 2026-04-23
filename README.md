@@ -968,6 +968,8 @@ El análisis de las entrevistas a Jhudith, Jean Pierre y Mateo revela tres punto
 
  - Optimización del Tiempo: El mayor desafío es el tiempo perdido en la espera. Los pasajeros ven en una aplicación la solución para obtener información concisa y orientación en tiempo real, lo que transformaría su experiencia de viaje de una "adivinanza" a un proceso planificado.
 
+<img width="1653" height="993" alt="Image" src="https://github.com/user-attachments/assets/163c8f02-7114-4f30-afa3-c7fdec59dfc0" />
+
 #### Segmento Conductores: Eficiencia Operativa y Seguridad
 Las entrevistas a Angel, Fabian, Roberto y Emmanuel muestran una realidad dividida entre la necesidad de ingresos y el miedo a la fiscalización:
 
@@ -976,6 +978,22 @@ Las entrevistas a Angel, Fabian, Roberto y Emmanuel muestran una realidad dividi
  - Estructura vs. Informalidad: Mientras algunos operan bajo horarios rígidos y multas de despachadores (Roberto), otros como Emmanuel operan en una incertidumbre total, cambiando de ruta según el tráfico o la presencia policial.
 
  - Barreras Tecnológicas y Miedo: Existe una dualidad; por un lado, el deseo de captar más clientes y, por otro, el temor de que la geolocalización sea utilizada por inspectores de transporte para sanciones. Además, se identifica la necesidad de roles auxiliares (como el cobrador) para manejar la app mientras el conductor se enfoca en el volante.
+
+<img width="1653" height="993" alt="Image" src="https://github.com/user-attachments/assets/4e08e7b3-a62c-472e-938e-59a0f06f1150" />
+
+
+#### Conclusiones del Análisis 
+
+Como se observa en la distribución demográfica de nuestras entrevistas, existe una alta concentración de usuarios jóvenes dispuestos a adoptar tecnología:
+
+<img width="1653" height="993" alt="Image" src="https://github.com/user-attachments/assets/5268f477-4f21-4666-aba2-fd4b18acf88a" />
+
+- Validación de la Solución: Ambos segmentos coinciden en que la digitalización de los paraderos y rutas informales reduciría el estrés y mejoraría la eficiencia económica (conductores llenan más rápido, pasajeros esperan menos).
+
+- Funcionalidad Crítica: La aplicación no solo debe mostrar rutas, sino también tarifas de referencia y verificación de conductores para mitigar la desconfianza y la volatilidad de precios mencionada por los entrevistados.
+
+- Oportunidad de Mercado: Existe un nicho desatendido en las conexiones interurbanas (rutas de cono a cono) donde el transporte formal es ineficiente y el informal carece de estructura informativa.
+
 
 ## 2.3. Needfinding
 
