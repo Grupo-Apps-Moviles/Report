@@ -705,43 +705,40 @@ Jean Pierre relató que prefiere el colectivo por pura velocidad, ya que los bus
 <tbody>
 <tr>
 <td>Nombre</td>
-<td>Jhudith</td>
+<td>Mateo</td>
 </tr>
 <tr>
 <td>Apellidos</td>
-<td>Pumallihua Huayanay</td>
+<td>Rivas</td>
 </tr>
 <tr>
 <td>Edad</td>
-<td>20 años</td>
+<td>19 años</td>
 </tr>
 <tr>
 <td>Ocupación</td>
 <td>Estudiante</td>
 </tr>
 <td>Distrito</td>
-<td>San Juan de Lurigancho, Lima, Lima</td>
+<td>Villa el Salvador</td>
 </tr>
 <tr>
 <td>Evidencia</td>
-<td><div align="center"><img src="../images/Entrevista1.png" alt="Entrevista"></td>
-</tr>
-<tr>
-<td>Link</td>
-<td><p><a target="_blank"  href="https://shorturl.at/uoNBn" title="Title">https://shorturl.at/uoNBn</p></td>
+<td><img width="882" height="295" alt="Captura de pantalla 2026-04-22 171958" src="https://github.com/Grupo-Apps-Moviles/Report/blob/main/images/Entrevista3.png" /></td>
 </tr>
 <td>Timing donde inicia la entrevista<br></td>
-<td>00:00 min</td>
+<td>07:59 min</td>
 </tr>
 <tr>
 <td>Duración de la entrevista<br></td>
-<td>04:28 min</td>
+<td>03:08 min</td>
 <tr>
 <td>Resumen</td>
 <td>
-
+Mateo Rivas tiene 19 años y vive en Villa El Salvador. En su día a día, suele movilizarse en colectivo porque considera que es una opción más rápida y práctica para llegar a sus destinos habituales. Sin embargo, cuando necesita ir a un lugar nuevo, se enfrenta a dificultades como no saber qué ruta tomar o qué colectivo le conviene, lo que le hace perder tiempo y generar cierta frustración.
+Por ello, una aplicación que le brinde rutas claras, opciones de transporte y orientación en tiempo real sería de gran ayuda, ya que le permitiría optimizar sus desplazamientos, evitar confusiones y aprovechar mejor su tiempo.
 </td>
-  </tr>
+</tr>
 </tbody>
 </table>
 
