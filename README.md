@@ -361,11 +361,11 @@ Ser el ecosistema digital líder en la gestión del transporte interurbano y rur
             </td>
         </tr>
         <tr>
-            <td><img width="404" height="521" alt="foto" src="https://github.com/user-attachments/assets/fb7d3127-17d1-40f8-86bb-cfb703bfd728" /></td>
+            <td><img width="245" height="236" alt="foto" src="https://github.com/user-attachments/assets/fb7d3127-17d1-40f8-86bb-cfb703bfd728" /></td>
             <td>Soy Angelo Curi Marcelo, con conocimientos en lenguajes de programación como C++ y Python. Además, manejo herramientas que apoyan el desarrollo eficiente de proyectos de software. Siempre me esfuerzo por adquirir nuevas habilidades y mejorar mis competencias técnicas para afrontar los desafíos del desarrollo de software. Me considero una persona responsable, comprometida y enfocada en la calidad del trabajo. Tengo la capacidad de adaptarme rápidamente a nuevas tecnologías y entornos. Cumplo con los plazos establecidos y tengo una gran disposición para aprender y colaborar en equipo. </td>
         </tr>
         <tr>
-            <td><img width="404" height="521" alt="foto" src="https://github.com/user-attachments/assets/2dd80fc1-e903-4b8e-b550-505cd7712d19" />
+            <td><img width="245" height="236" alt="foto" src="https://github.com/user-attachments/assets/2dd80fc1-e903-4b8e-b550-505cd7712d19" />
 </td>
             <td>Hola, soy Joaquín Carranza. Tengo 25 años y actualmente curso el septimo ciclo de la carrera de Ingeniería de Software. Me gusta la tecnología y la forma en que ayuda a las personas a resolver problemas de manera más rápida y eficiente. Me interesa especialmente el manejo de datos y la ciberseguridad. Siento que puedo aportar a mi equipo ideas desde otra perspectiva, ya que siempre me cuestiono cómo se podría mejorar el producto o hacia qué objetivo estamos apuntando.</td>
         </tr>
@@ -381,7 +381,7 @@ Me considero autodidacta, analítico y comprometido con la calidad del trabajo
 en equipo.</td>
         </tr>
         <tr>
-            <td><img width="678" height="902" alt="Image" src="https://github.com/user-attachments/assets/a0fb7f84-81aa-452a-913c-4bd584faedaa" /></td>
+            <td><img width="245" height="236" alt="Image" src="https://github.com/user-attachments/assets/a0fb7f84-81aa-452a-913c-4bd584faedaa" /></td>
             <td>Soy Adrian Quiroz, tengo 21 años y actualmente curso el quinto ciclo de Ingeniería de Software. Poseo conocimientos en C++ y bases de datos, áreas que me permiten contribuir al desarrollo de soluciones digitales.</td>
         </tr>
     </tbody>
@@ -1393,19 +1393,19 @@ Existe una dependencia funcional crítica donde **Routes** consume la informaci�
 
 En este diagrama de contexto se aprecia cómo el sistema centraliza la comunicación entre sus actores principales y los servicios de apoyo. Mientras que los Pasajeros interactúan con la plataforma para gestionar sus viajes, los Gestores utilizan las herramientas administrativas para organizar la logística de transporte. Para complementar la experiencia, el sistema delega funciones específicas a servicios externos especializados en mapas, transacciones financieras y envíos de notificaciones.
 
-<img width="3400" height="2000" alt="Image" src="https://github.com/user-attachments/assets/e79cb8fe-220e-4982-9bb1-02b63dc2d0db" />
+<img  width="1022" height="902" alt="Image" src="https://github.com/user-attachments/assets/e79cb8fe-220e-4982-9bb1-02b63dc2d0db" />
 
 #### 2.5.3.2. Software Architecture Container Level Diagrams
 
 El siguiente diagrama de contenedores representa los principales componentes del sistema y cómo interactúan entre sí. Se muestra la aplicación móvil para pasajeros y conductores, el gestor de backend que centraliza la lógica de negocio, y los bounded contexts de IAM, Profile, Routes y Stops, así como la base de datos y la integración con los servicios externos.
 
-<img width="3804" height="3300" alt="Image" src="https://github.com/user-attachments/assets/57a95646-c383-4a43-ace9-26348d91bc7f" />
+<img  width="1022" height="902" alt="Image" src="https://github.com/user-attachments/assets/57a95646-c383-4a43-ace9-26348d91bc7f" />
 
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
 El siguiente diagrama de despliegue describe la infraestructura física y lógica en la que se ejecutan los principales componentes del sistema.
 
-<img width="6467" height="1100" alt="Image" src="https://github.com/user-attachments/assets/c05f6c09-1531-43dd-ba46-84ef52bc4585" />
+<img  width="1022" height="902" alt="Image" src="https://github.com/user-attachments/assets/c05f6c09-1531-43dd-ba46-84ef52bc4585" />
 
 ## 2.6. Tactical-Level Domain-Driven Design
 
