@@ -1164,9 +1164,17 @@ Los segmentos objetivo representados por los User Personas: Javier Ramirez (pasa
 
 ### 2.3.3. User Journey Mapping
 
+En esta sección se desarrolla el User Journey Mapping, el cual nos permite visualizar el proceso que sigue un usuario para alcanzar un objetivo específico con nuestra solución. Este mapa detalla las acciones, pensamientos y emociones del usuario a lo largo de diferentes etapas, ayudando al equipo de Viacore a identificar oportunidades de mejora y momentos críticos donde la aplicación puede aportar un valor diferencial en la experiencia de transporte.
+
+A continuación, se presenta el User Journey Map: 
+
 <img width="1277" height="782" alt="Image" src="https://github.com/user-attachments/assets/c51acc22-1fd4-4b0f-9591-ff79c360abe4" />
 
 ### 2.3.4. Empathy Mapping
+
+En esta sección se realiza el Empathy Mapping con el fin de profundizar en la comprensión intrínseca de nuestros usuarios. Esta herramienta nos ayuda a sintetizar lo que el usuario dice, hace, piensa y siente, permitiendo al equipo ir más allá de las características demográficas para enfocarse en sus necesidades emocionales y funcionales. De esta manera, el diseño de Viacore se orienta a resolver frustraciones reales y potenciar las ganancias esperadas por el público objetivo.
+
+A continuación, se detallan los mapas de empatía correspondientes:
 
 **Conductor:**
 
@@ -1245,7 +1253,13 @@ El lenguaje ubicuo es una parte fundamental de la estrategia de UX. Se refiere a
 
 ## 2.4. Requirements specification
 
+En esta sección se detallan los requisitos técnicos y funcionales que definen el comportamiento de la solución de software. Esta especificación sirve como puente entre las necesidades detectadas en el needfinding y el desarrollo técnico, asegurando que cada funcionalidad de Viacore esté debidamente documentada y alineada con los estándares de calidad esperados.
+
 ### 2.4.1. User Stories
+
+En esta sección se presentan las User Stories, las cuales describen las funcionalidades del sistema desde la perspectiva del usuario final (pasajeros y conductores). Cada historia sigue el formato de "Como [rol], quiero [acción] para [beneficio]", e incluye sus respectivos criterios de aceptación para garantizar que el equipo de desarrollo cumpla con las expectativas de valor en cada iteración del proyecto.
+
+A continuación, se detallan las historias de usuario organizadas por épicas:
 
 | User Story ID / Technical Story ID | Título | Descripción | Criterios de aceptación | Epic ID |
 |------------------------------------|--------|-------------|--------------------------|---------|
@@ -1321,6 +1335,10 @@ El Impact Mapping permite alinear los objetivos del proyecto con las necesidades
 
 ### 2.4.3. Product Backlog
 
+En esta sección se presenta el Product Backlog, el cual constituye el inventario priorizado de todas las funcionalidades, mejoras y correcciones que deben integrarse en la solución de software. Este actúa como la fuente única de requisitos para el equipo, permitiendo gestionar el alcance del proyecto Viacore de manera dinámica y asegurar que el desarrollo se enfoque en las capacidades que generan mayor valor para los pasajeros y conductores en cada ciclo de trabajo.
+
+A continuación, se detalla la lista priorizada de ítems del backlog:
+
 | Ord | User Story ID | Título | Descripción | Story Points |
 |-----|---------------|--------|-------------|--------------|
 | 1 | TS01 | Configuración de Fake API (JSON Server) | Como desarrollador, deseo configurar una Fake API usando JSON Server para simular datos y endpoints. | 3 |
@@ -1389,7 +1407,11 @@ El Impact Mapping permite alinear los objetivos del proyecto con las necesidades
 
 ## 2.5. Strategic-Level Domain-Driven Design
 
+En esta sección se aplica DDD a nivel estratégico para gestionar la complejidad del sistema Viacore. A través de estas técnicas, el equipo logra descomponer el problema en módulos manejables y definir claramente las responsabilidades y límites de cada componente, asegurando que el software esté estrechamente alineado con las reglas de negocio y las necesidades del transporte.
+
 ### 2.5.1. EventStorming
+
+En esta sección se desarrolla el EventStorming, una técnica de modelado colaborativo que permite identificar los eventos de dominio, procesos y comandos que ocurren dentro del ecosistema de la aplicación. Este análisis visual facilita la detección de puntos críticos en el flujo de interacción entre pasajeros y conductores, sirviendo como base para la identificación de los contextos delimitados del sistema.
 
 Con el objetivo de establecer los contextos delimitados, realizamos un ejercicio de EventStorming dividido en cuatro etapas. 
 
@@ -1487,6 +1509,8 @@ En esta sección se presentan los Bounded Context Canvases correspondientes a lo
 <img width="1025" height="903" alt="Image" src="https://github.com/user-attachments/assets/ed8216b9-4977-487d-9de1-18fba54f548b" />
 
 ### 2.5.2. Context Mapping
+
+En esta sección se desarrolla el Context Mapping, una herramienta estratégica que permite visualizar las relaciones y dependencias entre los distintos contextos delimitados identificados en el sistema. A través de este mapa, el equipo de Viacore puede definir claramente cómo fluye la información y como interactúan los módulos, asegurando la integridad del modelo de dominio y facilitando la colaboración entre las diferentes partes del software.
 
 <img width="962" height="584" alt="Image" src="https://github.com/user-attachments/assets/d703dddc-e8a8-463b-b038-45734b9617c1" />
 
