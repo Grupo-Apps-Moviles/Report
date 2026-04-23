@@ -497,7 +497,7 @@ Figura 1. Lean UX Canvas.
 
 <img width="1231" height="811" alt="Image" src="https://github.com/user-attachments/assets/d9a3bfa7-3b48-4cc4-af58-b6186c6a6069" />
 
-Fuente: Elaboracipon propia en la plataforma Miro. Disponible en: https://miro.com/app/board/uXjVHeXxRtw=/?share_link_id=413104933358
+Fuente: Elaboración propia en la plataforma Miro. Disponible en: https://miro.com/app/board/uXjVHeXxRtw=/?share_link_id=413104933358
 
 ## 1.3. Segmentos objetivo
 
@@ -1034,7 +1034,10 @@ El análisis de las entrevistas a Jhudith, Jean Pierre y Mateo revela tres punto
 
  - Optimización del Tiempo: El mayor desafío es el tiempo perdido en la espera. Los pasajeros ven en una aplicación la solución para obtener información concisa y orientación en tiempo real, lo que transformaría su experiencia de viaje de una "adivinanza" a un proceso planificado.
 
+Figura 2. Problemas Principales (Pasajeros)
+
 <img width="1653" height="993" alt="Image" src="https://github.com/user-attachments/assets/163c8f02-7114-4f30-afa3-c7fdec59dfc0" />
+
 
 #### Segmento Conductores: Eficiencia Operativa y Seguridad
 Las entrevistas a Angel, Fabian, Roberto y Emmanuel muestran una realidad dividida entre la necesidad de ingresos y el miedo a la fiscalización:
@@ -1045,12 +1048,16 @@ Las entrevistas a Angel, Fabian, Roberto y Emmanuel muestran una realidad dividi
 
  - Barreras Tecnológicas y Miedo: Existe una dualidad; por un lado, el deseo de captar más clientes y, por otro, el temor de que la geolocalización sea utilizada por inspectores de transporte para sanciones. Además, se identifica la necesidad de roles auxiliares (como el cobrador) para manejar la app mientras el conductor se enfoca en el volante.
 
+Figura 3. Percepción de la APP (Conductores)
+
 <img width="1653" height="993" alt="Image" src="https://github.com/user-attachments/assets/4e08e7b3-a62c-472e-938e-59a0f06f1150" />
 
 
 #### Conclusiones del Análisis 
 
 Como se observa en la distribución demográfica de nuestras entrevistas, existe una alta concentración de usuarios jóvenes dispuestos a adoptar tecnología:
+
+Figura 4. Demografía de Entrevistados
 
 <img width="1653" height="993" alt="Image" src="https://github.com/user-attachments/assets/5268f477-4f21-4666-aba2-fd4b18acf88a" />
 
@@ -1073,9 +1080,13 @@ A continuación, se detallan los perfiles de User Personas para cada segmento ob
 
 **User Persona - pasajeros**
 
+Figura 5. User persona "Javier Ramirez (Pasajero)"
+
 <img width="1050" height="1858" alt="Image" src="https://github.com/user-attachments/assets/dad2f416-e35b-484f-a3ce-be17c6d90a3c" />
 
 **User Persona - conductores**
+
+Figura 6. User persona "Jose Marcelo (Conductor)"
 
 <img width="1050" height="1798" alt="Image" src="https://github.com/user-attachments/assets/634a3ff9-1310-4672-915c-04d78eff25d1" />
 
@@ -1168,6 +1179,9 @@ En esta sección se desarrolla el User Journey Mapping, el cual nos permite visu
 
 A continuación, se presenta el User Journey Map: 
 
+
+Figura 7. User Journey Map - WayPass
+
 <img width="1277" height="782" alt="Image" src="https://github.com/user-attachments/assets/c51acc22-1fd4-4b0f-9591-ff79c360abe4" />
 
 ### 2.3.4. Empathy Mapping
@@ -1178,15 +1192,21 @@ A continuación, se detallan los mapas de empatía correspondientes:
 
 **Conductor:**
 
+Figura 8. Empathy Mapping Jose Marcelo (Conductor)
+
 <img width="1050" height="1408" alt="Image" src="https://github.com/user-attachments/assets/af1561c0-88cd-4e8a-ada0-b97ea67bfc88" />
 
 **Pasajero:**
+
+Figura 9. Empathy Mapping Javier Ramirez (Pasajero)
 
 <img width="1050" height="1468" alt="Image" src="https://github.com/user-attachments/assets/bffbde0f-ceed-4356-9631-88a3b92140a2" />
 
 ### 2.3.5. Big Picture EventStorming
 
 El siguiente Big Picture EventStorming representa el flujo end-to-end de nuestra plataforma de transporte. Este mapa visualiza la coreografía de eventos desde el registro de usuarios y conductores hasta la culminación del servicio, permitiendo identificar momentos críticos de valor y posibles fricciones operativas en el ecosistema
+
+Figura 10. Big Picture EventStorming
 
 <img width="794" height="1259" alt="Image" src="https://github.com/user-attachments/assets/57edff33-c74a-46f8-9591-861c4aabb174" />
 
@@ -1331,6 +1351,8 @@ A continuación, se detallan las historias de usuario organizadas por épicas:
 
 El Impact Mapping permite alinear los objetivos del proyecto con las necesidades de conductores de colectivos y pasajeros, mostrando cómo cada decisión impacta en la experiencia de ambos. Así, se convierte en una guía estratégica para diseñar soluciones que generen beneficios reales y respondan efectivamente a sus necesidades.
 
+Figura 11. Impact mapping de conductor y pasajero
+
 <img width="1121" height="944" alt="Image" src="https://github.com/user-attachments/assets/778a66ff-9186-4f75-90c5-bf7a1aef60b9" />
 
 ### 2.4.3. Product Backlog
@@ -1415,25 +1437,38 @@ En esta sección se desarrolla el EventStorming, una técnica de modelado colabo
 
 Con el objetivo de establecer los contextos delimitados, realizamos un ejercicio de EventStorming dividido en cuatro etapas. 
 
-Link: https://miro.com/app/board/uXjVHe62Coc=/?share_link_id=80941229308
-
 En primer lugar, debemos identificar los eventos y trazarlos mediante una linea de tiempo imaginaria que va de izquierda a derecha. Además, se usa post-it anaranjado para identificar a los eventos.
+
+Figura 12. Identificación de eventos de WayPass
 
 <img width="543" height="747" alt="Image" src="https://github.com/user-attachments/assets/310a9fa1-422a-4d54-982c-9eb148bf58b1" />
 
+Fuente: Elaboración propia en la plataforma Miro. Encontrado en: https://miro.com/app/board/uXjVHe62Coc=/?share_link_id=80941229308
+
 Como segundo paso, identificamos los comandos que disparan o llevan a acabo el evento. Identificamos a estos con un post-it de color azul.
+
+Figura 13. Identificación de comandos de WayPass
 
 <img width="852" height="785" alt="Image" src="https://github.com/user-attachments/assets/21b92dc6-c193-40c4-adf7-354608281189" />
 
+Fuente: Elaboración propia en la plataforma Miro. Encontrado en: https://miro.com/app/board/uXjVHe62Coc=/?share_link_id=80941229308
+
 Como tercer paso, identificamos los agentes que realizan o usan el comando. Estos se representan mediante un post-it de color amarillo.
 
+Figura 14. Identificación de agentes  de WayPass
+
 <img width="830" height="712" alt="Image" src="https://github.com/user-attachments/assets/0b4ac2ab-b40d-4a88-a073-2118ec6cb028" />
+
+Fuente: Elaboración propia en la plataforma Miro. Encontrado en: https://miro.com/app/board/uXjVHe62Coc=/?share_link_id=80941229308
 
 Como último paso, identificamos los eventos que se relacionen entre sí mediante los agregados y entidades que utilizan, agrupandolos por
 Bounded Context.
 
+Figura 15. Identificación de relación entre eventos y agentes de WayPass
+
 <img width="710" height="636" alt="Image" src="https://github.com/user-attachments/assets/9698eea9-c110-462c-ac4a-48adb8c62986" />
 
+Fuente: Elaboración propia en la plataforma Miro. Encontrado en: https://miro.com/app/board/uXjVHe62Coc=/?share_link_id=80941229308
 
 #### 2.5.1.1. Candidate Context Discovery
 
