@@ -100,7 +100,7 @@
 - [Student Outcome](#student-outcome)
   - [ABET - EAC - Student Outcome 7](#abet---eac---student-outcome-7)
 - [Objetivos SMART](#objetivos-smart)
-    - [Objetivo Principal](#objetivo-principal)
+  - [Objetivo General](#objetivo-general)
     - [Objetivos Específicos](#objetivos-específicos)
 - [Capítulo I: Presentación](#capítulo-i-presentación)
   - [1.1. Startup Profile](#11-startup-profile)
@@ -320,14 +320,18 @@ por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET
         <tr>
             <td>Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software</td>
             <td> <br>Joaquin Carranza:</br><br> Avance 1: Entendi que debo dominar las arquitecturas en tiempo real y el Geofencing, ya que las entrevistas me demostraron que la información es dinámica y los paraderos son informales. Necesito construir un software capaz de procesar eventos al instante para que el usuario reciba datos precisos sobre el llenado y la ubicación de las unidades, apoyado en una UX minimalista que permita reportes rápidos desde la calle.</br>
-     <br>Curi Marcelo, Angelo:</br><br> Avance 1: En este primer avance del proyecto se identifico la problemática abordado del tema, identificando las user persona, user stories y validando mediante las entrevistas.</br></td>
-            <td><br>Joaquin Carranza:</br><br> Avance 1: Las entrevistas confirman que el transporte local sufre una crisis de información que puedo resolver digitalizando la función del "datero". Mi proyecto debe actuar como el puente que elimine la incertidumbre del pasajero y optimice el llenado del transportista, transformando el caos de la informalidad en un sistema predecible y eficiente mediante una solución técnica adaptada a mi entorno.</br> </td>
+     <br>Curi Marcelo, Angelo:</br><br> Avance 1: En este primer avance del proyecto se identifico la problemática abordado del tema, identificando las user persona, user stories y validando mediante las entrevistas.</br>
+     <br>Velarde Gonzales, Néstor Hernán:</br><br> Avance 1: Participé activamente en las entrevistas con usuarios y transportistas, lo que me permitió validar requisitos técnicos clave. Apliqué mis conocimientos técnicos para proponer soluciones integras en la arquitectura del sistema, asegurando que los datos en tiempo real se integren eficientemente. Contribuí a la optimización del grupo mediante la documentación clara de requisitos técnicos y la validación de restricciones de infraestructura informal en el transporte local.</br></td>
+            <td><br>Joaquin Carranza:</br><br> Avance 1: Las entrevistas confirman que el transporte local sufre una crisis de información que puedo resolver digitalizando la función del "datero". Mi proyecto debe actuar como el puente que elimine la incertidumbre del pasajero y optimice el llenado del transportista, transformando el caos de la informalidad en un sistema predecible y eficiente mediante una solución técnica adaptada a mi entorno.</br>
+     <br>Velarde Gonzales, Néstor Hernán::</br><br> Avance 1: Reconozco que la integración técnica efectiva es fundamental para traducir necesidades reales en soluciones viables. Las perspectivas de usuarios y choferes en las entrevistas validaron que nuestras decisiones arquitectónicas son acertadas y que el enfoque integral del grupo genera propuestas técnicas sólidas y contextualizadas. Mi rol ha sido asegurar que cada componente técnico responda a un problema real identificado.</br> </td>
         </tr>
         <tr>
             <td>Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.</td>
             <td><br>Joaquin Carranza:</br><br> Avance 1: Comprendi que la tecnología en transporte avanza más rápido que la infraestructura física, lo que me obliga a aprender permanentemente sobre arquitecturas escalables y sincronización de datos en tiempo real. Entiendo que no basta con saber programar; necesito actualizarme constantemente en herramientas de Geofencing y UX móvil para que mi software no quede obsoleto ante los cambios constantes de paraderos y rutas que los mismos transportistas me reportaron.</br>
-            <br>Curi Marcelo, Angelo Marcio:</br><br> Avance 1: Para este primer avance se identificó los requerimientos para el desarrollo de la app, identificando los bounded contexts y servicios externos necesarios para el desarrollo del software</br> </td>
-            <td><br>Joaquin Carranza:</br><br> Avance 1: He reconocido que el desarrollo de software es un proceso vivo: las entrevistas me enseñaron que una solución estática fracasaría en el entorno dinámico. Por ello, concluyo que el aprendizaje permanente es mi mejor herramienta para adaptar mi proyecto a las nuevas necesidades de los usuarios y choferes, asegurando que mi rol como profesional sea el de un facilitador que sabe integrar las últimas innovaciones técnicas para resolver problemas sociales reales y cambiantes.</br> </td>
+            <br>Curi Marcelo, Angelo Marcio:</br><br> Avance 1: Para este primer avance se identificó los requerimientos para el desarrollo de la app, identificando los bounded contexts y servicios externos necesarios para el desarrollo del software</br>
+            <br>Velarde Gonzales, Néstor Hernán:</br><br> Avance 1: Durante la investigación inicial y desarrollo de los Capítulos 1 y 2, reconocí que mi aprendizaje técnico debe ir alineado con la realidad del contexto. Las entrevistas me enseñaron que no puedo imponer soluciones tecnológicas sin validarlas antes con usuarios reales. He fortalecido mi capacidad de vincular decisiones arquitectónicas con necesidades concretas, aprendiendo a cuestionarme constantemente sobre la relevancia técnica de cada componente del sistema.</br> </td>
+            <td><br>Joaquin Carranza:</br><br> Avance 1: He reconocido que el desarrollo de software es un proceso vivo: las entrevistas me enseñaron que una solución estática fracasaría en el entorno dinámico. Por ello, concluyo que el aprendizaje permanente es mi mejor herramienta para adaptar mi proyecto a las nuevas necesidades de los usuarios y choferes, asegurando que mi rol como profesional sea el de un facilitador que sabe integrar las últimas innovaciones técnicas para resolver problemas sociales reales y cambiantes.</br>
+            <br>Velarde Gonzales, Néstor Hernán:</br><br> Avance 1: Concluyo que el aprendizaje permanente en desarrollo de software requiere equilibrio entre dominio técnico y comprensión contextual. Mi participación en entrevistas y documentación de requisitos (Capítulos 1 y 2) me ha demostrado que ser un profesional competente implica cuestionar constantemente mis soluciones a la luz de evidencia real y estar dispuesto a evolucionar tanto en herramientas como en enfoques de resolución de problemas.</br> </td>
         </tr>
     </tbody>
 </table>
@@ -336,30 +340,26 @@ por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET
 
 # Objetivos SMART
 
-### Objetivo Principal
+## Objetivo General
 
-Desarrollar y lanzar la plataforma WayPass para dispositivos móviles, logrando registrar a 50 conductores de colectivos y alcanzar 1,000 consultas de rutas por parte de pasajeros en zonas interurbanas del Perú en un plazo de 6 meses tras su implementación inicial.
+Implementar la plataforma móvil WayPass para digitalizar el sistema de rutas y ocupación en el transporte interurbano en Perú.
 
 ### Objetivos Específicos
 
-- Visibilidad del Servicio: Digitalizar y publicar la información de al menos 15 rutas informales y sus respectivos paraderos en el mapa interactivo de la aplicación, proporcionando datos de tarifas y horarios estimados para reducir la dependencia de canales tradicionales de consulta.
-- Experiencia de Usuario (UX): Optimizar la interfaz para que el 70% de los pasajeros logren localizar un paradero cercano y ver la tarifa de referencia en menos de 30 segundos sin necesidad de crear una cuenta, garantizando una alta accesibilidad para personas con baja alfabetización digital.
-- Seguridad y Confianza: Implementar un sistema de verificación que permita completar los perfiles del 100% de los conductores registrados, incluyendo datos del vehículo, placa y calificaciones de los usuarios, con el fin de mejorar la percepción de seguridad en el servicio.
-- Eficiencia Operativa: Lograr que los conductores registrados en la app reduzcan sus tiempos de espera en paraderos en un 20% al utilizar las herramientas de notificación de disponibilidad y visualización de demanda en tiempo real dentro de la plataforma.
-- Escalabilidad Técnica: Asegurar que la infraestructura del software, basada en arquitectura de microservicios y Domain-Driven Design (DDD), soporte hasta 5,000 usuarios concurrentes sin degradación del servicio, permitiendo la futura expansión a nuevas regiones del país.
+* Analizar y diseñar los requisitos funcionales y no funcionales.
+  
+* Implementar una interfaz móvil minimalista aplicada con enfoque Domain Drive Design. 
+
+* Validar la plataforma mediante pruebas de campo.
 
 
 # Capítulo I: Presentación
 
-La introducción desempeña un papel fundamental en la estructuración y comprensión del proyecto, ya que establece el marco conceptual y contextual sobre el cual se desarrollará el trabajo. En esta sección inicial, se presenta una visión general que permite al lector comprender los objetivos principales que se desean alcanzar, así como los antecedentes que han llevado a la formulación del proyecto. También se delimita el alcance del mismo, es decir, hasta dónde se pretende llegar con el desarrollo de la propuesta. Asimismo, la introducción cumple la función de contextualizar la relevancia del proyecto en un entorno específico, destacando las razones que justifican su realización, los desafíos que se pretenden abordar y los beneficios esperados a partir de su implementación. En suma, esta parte inicial no solo informa, sino que también orienta y motiva al lector a profundizar en el contenido que se presentará a lo largo del documento.
+El transporte interurbano en Perú opera predominantemente en la informalidad, donde conductores de colectivos y pasajeros dependen de canales de comunicación tradicionales conversaciones en paraderos, recomendaciones de conocidos, y presencia física para coordinar viajes. Esta dinámica genera incertidumbre en el pasajero respecto a disponibilidad, tarifas y tiempo de llegada de unidades, mientras que los transportistas enfrentan tiempos de espera prolongados y ocupación variable que afecta su eficiencia operativa.
 
 ## 1.1. Startup Profile
 
-El perfil de la startup es un elemento fundamental para comprender la identidad y el rumbo estratégico de una empresa emergente. A través de este perfil, se revela su visión de futuro, sus valores esenciales y la propuesta de valor que la diferencia en el mercado competitivo.
-
-En esta sección se describen los aspectos clave que definen a la startup, incluyendo su origen, las motivaciones que impulsaron su creación, el problema específico que busca solucionar y el enfoque innovador que emplea para posicionarse frente a sus competidores.
-
-Asimismo, se analizan los objetivos a mediano y largo plazo, junto con las estrategias diseñadas para su crecimiento y consolidación dentro del sector. Entender estos elementos resulta vital para evaluar el potencial de la startup y el impacto que puede generar en su entorno.
+Es este punto de detallará nuestra Startup desarrollado por grupo de estudiantes de la Universidad peruana de Ciencias Aplicadas.
 
 ### 1.1.1. Descripción de la Startup
 
