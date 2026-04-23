@@ -3186,7 +3186,12 @@ Basado en el análisis del proyecto y los hallazgos durante el avance, se sugier
 
 # Bibliografía
 
-> *(Sección pendiente de desarrollo)*
+- Autoridad de Transporte Urbano para Lima y Callao. (2023, 19 de diciembre). ATU presentó avances del estudio de diagnóstico del Plan de Movilidad Urbana para Lima y Callao. Gob.pe. https://www.gob.pe/institucion/atu/noticias/884543-atu-presento-avances-del-estudio-de-diagnostico-del-plan-de-movilidad-urbana-para-lima-y-callao
+
+- Redacción RPP. (2024, 16 de enero). ¿Cómo se movilizan los habitantes de Lima y Callao? Esto dice el último estudio de Lima Cómo Vamos. RPP Noticias. https://rpp.pe/lima/actualidad/como-se-movilizan-los-habitantes-de-lima-y-callao-esto-dice-el-ultimo-estudio-de-lima-como-vamos-noticia-1527628
+
+- Municipalidad Provincial de Trujillo. (2026, 21 de mayo). Implementan aplicativos para ordenar el transporte y mejorar el servicio al ciudadano. Gob.pe. https://www.gob.pe/institucion/munitrujillo/noticias/1371063-implementan-aplicativos-para-ordenar-el-transporte-y-mejorar-el-servicio-al-ciudadano
+
 
 # Anexos
 
