@@ -315,6 +315,19 @@ por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET
 
 # Objetivos SMART
 
+### Objetivo Principal
+
+Desarrollar y lanzar la plataforma WayPass para dispositivos móviles, logrando registrar a 50 conductores de colectivos y alcanzar 1,000 consultas de rutas por parte de pasajeros en zonas interurbanas del Perú en un plazo de 6 meses tras su implementación inicial.
+
+### Objetivos Específicos
+
+- Visibilidad del Servicio: Digitalizar y publicar la información de al menos 15 rutas informales y sus respectivos paraderos en el mapa interactivo de la aplicación, proporcionando datos de tarifas y horarios estimados para reducir la dependencia de canales tradicionales de consulta.
+- Experiencia de Usuario (UX): Optimizar la interfaz para que el 70% de los pasajeros logren localizar un paradero cercano y ver la tarifa de referencia en menos de 30 segundos sin necesidad de crear una cuenta, garantizando una alta accesibilidad para personas con baja alfabetización digital.
+- Seguridad y Confianza: Implementar un sistema de verificación que permita completar los perfiles del 100% de los conductores registrados, incluyendo datos del vehículo, placa y calificaciones de los usuarios, con el fin de mejorar la percepción de seguridad en el servicio.
+- Eficiencia Operativa: Lograr que los conductores registrados en la app reduzcan sus tiempos de espera en paraderos en un 20% al utilizar las herramientas de notificación de disponibilidad y visualización de demanda en tiempo real dentro de la plataforma.
+- Escalabilidad Técnica: Asegurar que la infraestructura del software, basada en arquitectura de microservicios y Domain-Driven Design (DDD), soporte hasta 5,000 usuarios concurrentes sin degradación del servicio, permitiendo la futura expansión a nuevas regiones del país.
+
+
 # Capítulo I: Presentación
 
 La introducción desempeña un papel fundamental en la estructuración y comprensión del proyecto, ya que establece el marco conceptual y contextual sobre el cual se desarrollará el trabajo. En esta sección inicial, se presenta una visión general que permite al lector comprender los objetivos principales que se desean alcanzar, así como los antecedentes que han llevado a la formulación del proyecto. También se delimita el alcance del mismo, es decir, hasta dónde se pretende llegar con el desarrollo de la propuesta. Asimismo, la introducción cumple la función de contextualizar la relevancia del proyecto en un entorno específico, destacando las razones que justifican su realización, los desafíos que se pretenden abordar y los beneficios esperados a partir de su implementación. En suma, esta parte inicial no solo informa, sino que también orienta y motiva al lector a profundizar en el contenido que se presentará a lo largo del documento.
@@ -2943,8 +2956,23 @@ Basado en el análisis del proyecto y los hallazgos durante el avance, se sugier
 
 # Anexos
 
-### Entrevistas:
-
-Link: https://shorturl.at/dnh1n
+<table border="1">
+  <thead>
+    <tr>
+      <th>Recurso</th>
+      <th>Enlace</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Repositorio GitHub</strong></td>
+      <td><a href="https://github.com/Grupo-Apps-Moviles" target="_blank">https://github.com/Grupo-Apps-Moviles</a></td>
+    </tr>
+    <tr>
+      <td><strong>Entrevistas</strong></td>
+      <td><a href="https://shorturl.at/dnh1n" target="_blank">https://shorturl.at/dnh1n</a></td>
+    </tr>
+  </tbody>
+</table>
 
 
