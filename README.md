@@ -3182,6 +3182,8 @@ Basado en el análisis del proyecto y los hallazgos durante el avance, se sugier
 
 > *(Sección pendiente de desarrollo)*
 
+<div style="page-break-after: always;"></div>
+
 # Anexos
 
 <table border="1">
