@@ -2943,4 +2943,8 @@ Basado en el análisis del proyecto y los hallazgos durante el avance, se sugier
 
 # Anexos
 
-> *(Sección pendiente de desarrollo)*
+### Entrevistas:
+
+Link: https://shorturl.at/dnh1n
+
+
