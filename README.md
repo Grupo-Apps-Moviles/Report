@@ -607,7 +607,7 @@ A continuación, se demostrará las entrevistas realizadas a los usuarios (pasaj
     <td>Link</td>
     <td>
       <p>
-        <a target="_blank" href="https://shorturl.at/0SoRt" title="Title">https://shorturl.at/0SoRt</a>
+        <a target="_blank" href="https://shorturl.at/dnh1n" title="Title">https://shorturl.at/dnh1n</a>
       </p>
     </td>
   </tr>
