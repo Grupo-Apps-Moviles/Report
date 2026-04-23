@@ -440,12 +440,18 @@ La problemática se puede resumir en los siguientes puntos:
 
 ### 1.2.2. Lean UX Process
 
+El proceso de Lean UX se define como una mentalidad y un conjunto de prácticas que enfocan el diseño en la obtención de resultados y la validación de hipótesis, reduciendo el énfasis en la documentación tradicional. Esta metodología permite iterar rápidamente mediante el ciclo de "Crear-Medir-Aprender", asegurando que el desarrollo de la solución esté alineado con las necesidades reales del usuario final.
+
+A continuación, se detalla la aplicación de este proceso para el proyecto Viacore:
+
 #### 1.2.2.1. Lean UX Problem Statements
 Nuestra aplicación busca ayudar a personas que desean trasladarse de forma económica entre ciudades o pueblos cercanos, y que actualmente no cuentan con información clara ni accesible sobre dónde se ubican los paraderos de colectivos, sus rutas, horarios aproximados y tarifas.
 
 Este problema afecta especialmente a viajeros locales, personas con recursos limitados o visitantes no familiarizados con la zona, que dependen del transporte colectivo para moverse de forma rápida y asequible. Al resolver este problema, esperamos que los usuarios puedan localizar fácilmente los puntos de embarque, planificar sus viajes con mayor confianza y acceder a una red de rutas informales que, aunque eficientes, hoy son invisibles para la mayoría.
 
 #### 1.2.2.2. Lean UX Assumptions
+
+A continuación, se detallan los supuestos identificados:
 
 **a. Business Outcomes Assumptions**
 * Creemos que al organizar y hacer visible el servicio de colectivos informales, podemos capturar un mercado desatendido en regiones con transporte público limitado.
@@ -469,6 +475,8 @@ Este problema afecta especialmente a viajeros locales, personas con recursos lim
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
+A continuación, se presentan las hipótesis planteadas para el proyecto:
+
 * **Hipótesis 1: Mapa con rutas y paraderos**
 Creemos que el objetivo de que más personas usen la aplicación para organizar sus viajes se logrará si los pasajeros interurbanos obtienen confianza y claridad sobre cómo tomar un colectivo con un mapa interactivo que muestre rutas disponibles, paraderos, horarios estimados y tarifas de referencia.
 
@@ -483,9 +491,13 @@ Creemos que aumentar la accesibilidad de la app y alcanzar a más usuarios en zo
 
 #### 1.2.2.4. Lean UX Canvas
 
-Link: https://miro.com/app/board/uXjVHeXxRtw=/?share_link_id=413104933358
+A continuación, se realizará el Lean UX Canvas, el cual nos sirve para capturar y visualizar en un solo cuadro los problemas, soluciones, métricas y perfiles de usuario, facilitando la alineación estratégica del equipo y asegurando que el desarrollo de Viacore esté enfocado en entregar valor real.
+
+Figura 1. Lean UX Canvas.
 
 <img width="1231" height="811" alt="Image" src="https://github.com/user-attachments/assets/d9a3bfa7-3b48-4cc4-af58-b6186c6a6069" />
+
+Fuente: Elaboracipon propia en la plataforma Miro. Disponible en: https://miro.com/app/board/uXjVHeXxRtw=/?share_link_id=413104933358
 
 ## 1.3. Segmentos objetivo
 
