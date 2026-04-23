@@ -955,7 +955,26 @@ Emmanuel escribió una realidad mucho más tensa, donde decide su ruta y sus sal
 
 ### 2.2.3. Análisis de entrevistas
 
-> *(Sección pendiente de desarrollo)*
+Tras las entrevistas realizadas a pasajeros y conductores de diversos distritos de Lima (San Juan de Lurigancho, Lurín, Villa El Salvador, San Miguel y Chorrillos), se han identificado patrones críticos que validan la necesidad de la plataforma WayPass. El análisis se divide en los dos perfiles de usuario:
+
+- Segmento Pasajeros: Incertidumbre y Pérdida de Tiempo
+
+El análisis de las entrevistas a Jhudith, Jean Pierre y Mateo revela tres puntos de dolor principales:
+
+ - Falta de Información Confiable: Los usuarios (especialmente los más jóvenes como Jhudith y Mateo) experimentan frustración al no conocer con claridad qué rutas tomar para llegar a destinos nuevos. La falta de paraderos estables genera confusión y ansiedad.
+
+ - El Factor Velocidad vs. Costo: Existe una disposición a pagar más por el servicio de colectivo debido a la lentitud del transporte convencional, pero esta preferencia se ve opacada por la "adivinanza constante" de no saber dónde encontrar el vehículo o cuánto será la tarifa exacta (caso Jean Pierre).
+
+ - Optimización del Tiempo: El mayor desafío es el tiempo perdido en la espera. Los pasajeros ven en una aplicación la solución para obtener información concisa y orientación en tiempo real, lo que transformaría su experiencia de viaje de una "adivinanza" a un proceso planificado.
+
+- Segmento Conductores: Eficiencia Operativa y Seguridad
+Las entrevistas a Angel, Fabian, Roberto y Emmanuel muestran una realidad dividida entre la necesidad de ingresos y el miedo a la fiscalización:
+
+ - La "Llenada" del Vehículo: Para los conductores de colectivos (Fabian y Angel), el éxito del día depende de qué tan rápido completen sus asientos. Actualmente dependen de dateros o de la suerte de encontrar "bulto de gente", por lo que ven una ventaja competitiva en aparecer en una app que los conecte con pasajeros de forma remota.
+
+ - Estructura vs. Informalidad: Mientras algunos operan bajo horarios rígidos y multas de despachadores (Roberto), otros como Emmanuel operan en una incertidumbre total, cambiando de ruta según el tráfico o la presencia policial.
+
+ - Barreras Tecnológicas y Miedo: Existe una dualidad; por un lado, el deseo de captar más clientes y, por otro, el temor de que la geolocalización sea utilizada por inspectores de transporte para sanciones. Además, se identifica la necesidad de roles auxiliares (como el cobrador) para manejar la app mientras el conductor se enfoca en el volante.
 
 ## 2.3. Needfinding
 
