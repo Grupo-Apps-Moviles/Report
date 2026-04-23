@@ -300,8 +300,8 @@ por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET
         </tr>
         <tr>
             <td>Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software</td>
-            <td> <br>Joaquin Carranza:</br><br> Avance 1: Entendi que debo dominar las arquitecturas en tiempo real y el Geofencing, ya que las entrevistas me demostraron que la información es dinámica y los paraderos son informales. Necesito construir un software capaz de procesar eventos al instante para que el usuario reciba datos precisos sobre el llenado y la ubicación de las unidades, apoyado en una UX minimalista que permita reportes rápidos desde la calle.</br></td>
-    <td> <br>Curi Marcelo, Angelo:</br><br> Avance 1: En este primer avance del proyecto se identifico la problemática abordado del tema, identificando las user persona, user stories y validando mediante las entrevistas.</br></td>
+            <td> <br>Joaquin Carranza:</br><br> Avance 1: Entendi que debo dominar las arquitecturas en tiempo real y el Geofencing, ya que las entrevistas me demostraron que la información es dinámica y los paraderos son informales. Necesito construir un software capaz de procesar eventos al instante para que el usuario reciba datos precisos sobre el llenado y la ubicación de las unidades, apoyado en una UX minimalista que permita reportes rápidos desde la calle.</br>
+     <br>Curi Marcelo, Angelo:</br><br> Avance 1: En este primer avance del proyecto se identifico la problemática abordado del tema, identificando las user persona, user stories y validando mediante las entrevistas.</br></td>
             <td><br>Joaquin Carranza:</br><br> Avance 1: Las entrevistas confirman que el transporte local sufre una crisis de información que puedo resolver digitalizando la función del "datero". Mi proyecto debe actuar como el puente que elimine la incertidumbre del pasajero y optimice el llenado del transportista, transformando el caos de la informalidad en un sistema predecible y eficiente mediante una solución técnica adaptada a mi entorno.</br> </td>
         </tr>
         <tr>
