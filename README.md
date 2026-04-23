@@ -88,7 +88,7 @@
 
 # Project Report Collaboration Insights
 
-<img width="916" height="508" alt="Image" src="https://github.com/user-attachments/assets/989eb5e0-6ce0-4a0b-af24-c4f05d7e668a" />
+<img width="921" height="515" alt="Image" src="https://github.com/user-attachments/assets/53b13484-5d5b-4be6-af30-3367f9c31da7" />
 
 <div style="page-break-after: always;"></div>
 
