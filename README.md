@@ -573,7 +573,38 @@ Este grupo representa a los operadores informales que ofrecen servicios de trans
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
-> *(Sección pendiente de desarrollo)*
+Para posicionar a WayPass como la herramienta líder en el sector del transporte interurbano y periférico, se han definido las siguientes estrategias y tácticas basadas en el análisis comparativo previo:
+
+#### Estrategia de Nicho y Especialización
+
+A diferencia de Moovit o RedBus, que se enfocan en el transporte formal y urbano, WayPass atacará el "punto ciego" de la competencia: el transporte colectivo informal.
+
+- Táctica: Mapeo colaborativo de rutas que no figuran en Google Maps ni Moovit, trabajando directamente con los gremios de colectiveros de distritos como Villa El Salvador o Lurín.
+
+- Táctica: Inclusión de tarifas estimadas en tiempo real, una funcionalidad que los competidores globales no pueden ofrecer debido a la volatilidad de precios en el transporte informal peruano.
+
+#### Estrategia de Accesibilidad y Baja Fricción
+
+Identificamos que la competencia suele exigir registros complejos o conectividad constante de alta velocidad, lo cual es una debilidad en zonas periféricas.
+
+- Táctica: Permitir que el pasajero vea rutas y paraderos sin necesidad de crear una cuenta o iniciar sesión, reduciendo la barrera de entrada para usuarios con poca alfabetización digital.
+
+- Táctica: Optimizar el consumo de datos de la aplicación para que funcione eficientemente en dispositivos de gama baja y con señales de red inestables (3G/4G débil).
+
+#### Estrategia de Seguridad y Verificación
+Mientras que el carpooling (QuickRide) es entre particulares, WayPass profesionaliza al conductor informal.
+
+- Táctica: Confianza: Implementar una insignia de "Conductor Verificado" mediante el registro de placa y DNI, ofreciendo una capa de seguridad que hoy no existe en el paradero físico.
+
+- Táctica: Sistema de Calificación Bidireccional: Permitir que la comunidad califique la seguridad y el trato del conductor, emulando la confianza de apps como Uber pero aplicada al colectivo popular.
+
+#### Estrategia de Fidelización del Conductor
+El conductor es el motor de la plataforma. La competencia no les ofrece herramientas de gestión.
+
+- Táctica: Indicador de Demanda: Notificar a los conductores sobre paraderos con alta afluencia de pasajeros, ayudándoles a "llenar el auto" más rápido y reducir el tiempo de espera improductivo.
+
+- Táctica: Ofrecer una alternativa tecnológica a la información del datero tradicional, proporcionando datos sobre la fluidez de la ruta de manera digital.
+
 
 ## 2.2. Entrevistas
 
