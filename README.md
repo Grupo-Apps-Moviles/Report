@@ -272,6 +272,7 @@
       - [Sprint Backlog 1](#sprint-backlog-1)
       - [4.2.1.3. Development Evidence for Sprint Review](#4213-development-evidence-for-sprint-review)
       - [4.2.1.4. Testing Suite Evidence for Sprint Review](#4214-testing-suite-evidence-for-sprint-review)
+      - [Testing Suite Evidence for Sprint Review](#testing-suite-evidence-for-sprint-review)
       - [4.2.1.5. Execution Evidence for Sprint Review](#4215-execution-evidence-for-sprint-review)
       - [4.2.1.6. Services Documentation Evidence for Sprint Review](#4216-services-documentation-evidence-for-sprint-review)
       - [4.2.1.7. Software Deployment Evidence for Sprint Review](#4217-software-deployment-evidence-for-sprint-review)
@@ -3097,7 +3098,21 @@ El presente Sprint Backlog 1 detalla las historias de usuario priorizadas para e
 
 #### 4.2.1.4. Testing Suite Evidence for Sprint Review
 
-> *(Sección pendiente de desarrollo)*
+#### Testing Suite Evidence for Sprint Review
+
+Durante el Sprint 01 se realizaron pruebas manuales de navegación utilizando el emulador de Android Studio, con el objetivo de validar el correcto funcionamiento del flujo principal de la aplicación.
+
+Se verificó que:
+- Las rutas definidas en **NavHost** operen correctamente sin errores de navegación.
+- Los flujos:
+  - Login
+  - Register
+  - Profile
+  - Home
+  
+  dichos procesos se ejecute de manera continua y estable.
+
+Los resultados obtenidos confirman la estabilidad inicial de la navegación y la correcta gestión del estado en la aplicación móvil.
 
 #### 4.2.1.5. Execution Evidence for Sprint Review
 
