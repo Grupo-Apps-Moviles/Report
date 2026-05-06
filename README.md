@@ -46,7 +46,7 @@
   <br/><br/>
 
 <div align="center">
-  <strong>Lima, 22 de abril del 2026</strong><br/>
+  <strong>Lima, 10 de Mayo del 2026</strong><br/>
 </div>
 
 <div style="page-break-after: always;"></div>
@@ -3004,11 +3004,11 @@ Figura 41. Diagrama de base de datos del Bounded Context Routes - WayPass
 
 #### 3.1.3.1. Landing Page Wireframe
 
-> *(Sección pendiente de desarrollo)*
+<img width="470" height="1600" alt="Image" src="https://github.com/user-attachments/assets/f3b7afbb-7e5f-4ce8-b6d9-8370867ee822" />
 
 #### 3.1.3.2. Landing Page Mock-up
 
-> *(Sección pendiente de desarrollo)*
+<img width="384" height="1600" alt="Image" src="https://github.com/user-attachments/assets/14273de5-df9d-42b5-9ae1-c032c09403f5" />
 
 ### 3.1.4. Mobile Applications UX/UI Design
 
