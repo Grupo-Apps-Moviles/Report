@@ -46,7 +46,7 @@
   <br/><br/>
 
 <div align="center">
-  <strong>Lima, 22 de abril del 2026</strong><br/>
+  <strong>Lima, 10 de Mayo del 2026</strong><br/>
 </div>
 
 <div style="page-break-after: always;"></div>
@@ -269,8 +269,10 @@
     - [4.2.1. Sprint 1](#421-sprint-1)
       - [4.2.1.1. Sprint Planning 1](#4211-sprint-planning-1)
       - [4.2.1.2. Sprint Backlog 1](#4212-sprint-backlog-1)
+      - [Sprint Backlog 1](#sprint-backlog-1)
       - [4.2.1.3. Development Evidence for Sprint Review](#4213-development-evidence-for-sprint-review)
       - [4.2.1.4. Testing Suite Evidence for Sprint Review](#4214-testing-suite-evidence-for-sprint-review)
+      - [Testing Suite Evidence for Sprint Review](#testing-suite-evidence-for-sprint-review)
       - [4.2.1.5. Execution Evidence for Sprint Review](#4215-execution-evidence-for-sprint-review)
       - [4.2.1.6. Services Documentation Evidence for Sprint Review](#4216-services-documentation-evidence-for-sprint-review)
       - [4.2.1.7. Software Deployment Evidence for Sprint Review](#4217-software-deployment-evidence-for-sprint-review)
@@ -3004,11 +3006,11 @@ Figura 41. Diagrama de base de datos del Bounded Context Routes - WayPass
 
 #### 3.1.3.1. Landing Page Wireframe
 
-> *(Sección pendiente de desarrollo)*
+<img width="470" height="1600" alt="Image" src="https://github.com/user-attachments/assets/f3b7afbb-7e5f-4ce8-b6d9-8370867ee822" />
 
 #### 3.1.3.2. Landing Page Mock-up
 
-> *(Sección pendiente de desarrollo)*
+<img width="384" height="1600" alt="Image" src="https://github.com/user-attachments/assets/14273de5-df9d-42b5-9ae1-c032c09403f5" />
 
 ### 3.1.4. Mobile Applications UX/UI Design
 
@@ -3058,11 +3060,37 @@ Figura 41. Diagrama de base de datos del Bounded Context Routes - WayPass
 
 #### 4.2.1.1. Sprint Planning 1
 
-> *(Sección pendiente de desarrollo)*
+Establecer las bases del sistema WayPass mediante la definición de requisitos, diseño UX/UI y desarrollo inicial del backend y la app móvil.
+
+**Alcance del Sprint**
+- Levantamiento de requisitos  
+- Diseño de wireframes y mockups  
+- Implementación inicial del backend  
+- Desarrollo preliminar de la app móvil
+
+**Distribución de responsabilidades**
+
+| Área        | Responsable(s) | Actividades |
+|------------|---------------|------------|
+| Backend     | Velarde Gonzales, Néstor Hernán | - Arquitectura de la API <br> - Endpoints iniciales <br> - Configuración |
+| Requisitos  | Curi Marcelo, Angelo Marcio | - Requisitos e historias de usuario <br> - Análisis del problema |
+| UX/UI       | Guzmán Cabrejos, Yaku Mateo | - Wireframes <br> - Mockups <br> - Flujo y diseño |
+| App móvil   | Quiroz Cáceres, Adrian <br> Carranza Tesén, Joaquín Enrique | - Estructura base <br> - Pantallas iniciales <br> - Integración UI |
 
 #### 4.2.1.2. Sprint Backlog 1
 
-> *(Sección pendiente de desarrollo)*
+#### Sprint Backlog 1
+
+El presente Sprint Backlog 1 detalla las historias de usuario priorizadas para el desarrollo inicial del sistema WayPass. Se asignan responsabilidades al equipo y se establece el estado actual de cada tarea dentro del sprint 01
+
+| ID    | Historia de Usuario        | Descripción                                                                 | Prioridad | Responsable                               | Estado        |
+|-------|--------------------------|-----------------------------------------------------------------------------|-----------|-------------------------------------------|--------------|
+| HU-01 | Inicio de Sesión         | Como usuario, quiero iniciar sesión con mis credenciales para acceder a la app. | Alta      | Velarde Gonzales, Néstor Hernán           | En desarrollo   |
+| HU-02 | Registro de Usuario      | Como nuevo usuario, quiero registrarme ingresando mis datos personales y del vehículo. | Alta      | Quiroz Cáceres, Adrian                    | Completado   |
+| HU-03 | Crear Ruta              | Como conductor, quiero registrar rutas para ofrecer mis servicios.          | Media     | Guzmán Cabrejos, Yaku Mateo               | En desarrollo|
+| HU-04 | Editar Perfil           | Como usuario, quiero editar mi información personal para mantenerla actualizada. | Media     | Curi Marcelo, Angelo Marcio               | En desarrollo   |
+| HU-05 | Página Principal (Home) | Como usuario, quiero acceder a la pantalla principal después del login para ver y navegar entre secciones. | Alta      | Carranza Tesén, Joaquín Enrique           | En desarrollo   |
+| HU-06 | Navegación entre pantallas | Implementar navegación entre Login, Registro, Perfil, Home y Crear Ruta. | Alta      | Quiroz Cáceres, Adrian                    | En desarrollo   |
 
 #### 4.2.1.3. Development Evidence for Sprint Review
 
@@ -3070,11 +3098,25 @@ Figura 41. Diagrama de base de datos del Bounded Context Routes - WayPass
 
 #### 4.2.1.4. Testing Suite Evidence for Sprint Review
 
-> *(Sección pendiente de desarrollo)*
+#### Testing Suite Evidence for Sprint Review
+
+Durante el Sprint 01 se realizaron pruebas manuales de navegación utilizando el emulador de Android Studio, con el objetivo de validar el correcto funcionamiento del flujo principal de la aplicación.
+
+Se verificó que:
+- Las rutas definidas en **NavHost** operen correctamente sin errores de navegación.
+- Los flujos:
+  - Login
+  - Register
+  - Profile
+  - Home
+  
+  dichos procesos se ejecute de manera continua y estable.
+
+Los resultados obtenidos confirman la estabilidad inicial de la navegación y la correcta gestión del estado en la aplicación móvil.
 
 #### 4.2.1.5. Execution Evidence for Sprint Review
 
-> *(Sección pendiente de desarrollo)*
+<img width="1920" height="6563" alt="Image" src="https://github.com/user-attachments/assets/e9410d75-c45b-40d3-ad65-7c375d13de47" />
 
 #### 4.2.1.6. Services Documentation Evidence for Sprint Review
 
