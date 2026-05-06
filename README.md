@@ -269,6 +269,7 @@
     - [4.2.1. Sprint 1](#421-sprint-1)
       - [4.2.1.1. Sprint Planning 1](#4211-sprint-planning-1)
       - [4.2.1.2. Sprint Backlog 1](#4212-sprint-backlog-1)
+      - [Sprint Backlog 1](#sprint-backlog-1)
       - [4.2.1.3. Development Evidence for Sprint Review](#4213-development-evidence-for-sprint-review)
       - [4.2.1.4. Testing Suite Evidence for Sprint Review](#4214-testing-suite-evidence-for-sprint-review)
       - [4.2.1.5. Execution Evidence for Sprint Review](#4215-execution-evidence-for-sprint-review)
@@ -3077,7 +3078,18 @@ Establecer las bases del sistema WayPass mediante la definición de requisitos, 
 
 #### 4.2.1.2. Sprint Backlog 1
 
-> *(Sección pendiente de desarrollo)*
+#### Sprint Backlog 1
+
+El presente Sprint Backlog 1 detalla las historias de usuario priorizadas para el desarrollo inicial del sistema WayPass. Se asignan responsabilidades al equipo y se establece el estado actual de cada tarea dentro del sprint 01
+
+| ID    | Historia de Usuario        | Descripción                                                                 | Prioridad | Responsable                               | Estado        |
+|-------|--------------------------|-----------------------------------------------------------------------------|-----------|-------------------------------------------|--------------|
+| HU-01 | Inicio de Sesión         | Como usuario, quiero iniciar sesión con mis credenciales para acceder a la app. | Alta      | Velarde Gonzales, Néstor Hernán           | En desarrollo   |
+| HU-02 | Registro de Usuario      | Como nuevo usuario, quiero registrarme ingresando mis datos personales y del vehículo. | Alta      | Quiroz Cáceres, Adrian                    | Completado   |
+| HU-03 | Crear Ruta              | Como conductor, quiero registrar rutas para ofrecer mis servicios.          | Media     | Guzmán Cabrejos, Yaku Mateo               | En desarrollo|
+| HU-04 | Editar Perfil           | Como usuario, quiero editar mi información personal para mantenerla actualizada. | Media     | Curi Marcelo, Angelo Marcio               | En desarrollo   |
+| HU-05 | Página Principal (Home) | Como usuario, quiero acceder a la pantalla principal después del login para ver y navegar entre secciones. | Alta      | Carranza Tesén, Joaquín Enrique           | En desarrollo   |
+| HU-06 | Navegación entre pantallas | Implementar navegación entre Login, Registro, Perfil, Home y Crear Ruta. | Alta      | Quiroz Cáceres, Adrian                    | En desarrollo   |
 
 #### 4.2.1.3. Development Evidence for Sprint Review
 
