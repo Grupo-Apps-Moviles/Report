@@ -3058,7 +3058,22 @@ Figura 41. Diagrama de base de datos del Bounded Context Routes - WayPass
 
 #### 4.2.1.1. Sprint Planning 1
 
-> *(Sección pendiente de desarrollo)*
+Establecer las bases del sistema WayPass mediante la definición de requisitos, diseño UX/UI y desarrollo inicial del backend y la app móvil.
+
+**Alcance del Sprint**
+- Levantamiento de requisitos  
+- Diseño de wireframes y mockups  
+- Implementación inicial del backend  
+- Desarrollo preliminar de la app móvil
+
+**Distribución de responsabilidades**
+
+| Área        | Responsable(s) | Actividades |
+|------------|---------------|------------|
+| Backend     | Velarde Gonzales, Néstor Hernán | - Arquitectura de la API <br> - Endpoints iniciales <br> - Configuración |
+| Requisitos  | Curi Marcelo, Angelo Marcio | - Requisitos e historias de usuario <br> - Análisis del problema |
+| UX/UI       | Guzmán Cabrejos, Yaku Mateo | - Wireframes <br> - Mockups <br> - Flujo y diseño |
+| App móvil   | Quiroz Cáceres, Adrian <br> Carranza Tesén, Joaquín Enrique | - Estructura base <br> - Pantallas iniciales <br> - Integración UI |
 
 #### 4.2.1.2. Sprint Backlog 1
 
