@@ -92,10 +92,21 @@
 
 <div style="page-break-after: always;"></div>
 
+# Enlaces del Proyecto
+
+| Recurso                     | Enlace |
+|---------------------------|--------|
+| Landing Page              | [waypass.com](https://grupo-apps-moviles.github.io/landing-page/) |
+| Organización en GitHub    | [github.com/Grupo-Apps-Moviles](https://github.com/Grupo-Apps-Moviles/) |
+| Repositorio del Informe   | [github.com/Grupo-Apps-Moviles/Report](https://github.com/Grupo-Apps-Moviles/Report) |
+
+<div style="page-break-after: always;"></div>
+
 # Contenido
 
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
+- [Enlaces del Proyecto](#enlaces-del-proyecto)
 - [Contenido](#contenido)
 - [Student Outcome](#student-outcome)
   - [ABET - EAC - Student Outcome 7](#abet---eac---student-outcome-7)
