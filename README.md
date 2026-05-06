@@ -3116,7 +3116,7 @@ Los resultados obtenidos confirman la estabilidad inicial de la navegación y la
 
 #### 4.2.1.5. Execution Evidence for Sprint Review
 
-> *(Sección pendiente de desarrollo)*
+<img width="1920" height="6563" alt="Image" src="https://github.com/user-attachments/assets/e9410d75-c45b-40d3-ad65-7c375d13de47" />
 
 #### 4.2.1.6. Services Documentation Evidence for Sprint Review
 
