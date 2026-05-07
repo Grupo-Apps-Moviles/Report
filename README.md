@@ -3000,11 +3000,11 @@ Figura 41. Diagrama de base de datos del Bounded Context Routes - WayPass
 
 La identidad visual de WayPass busca transmitir modernidad, eficiencia y fluidez en el transporte. La marca utiliza una base de diseño limpia ("clean design") donde el protagonismo recae en un púrpura vibrante que denota tecnología y servicio premium, complementado con blancos y grises para mantener la sobriedad corporativa.
 
-Brand Name:
+**Brand Name:**
 
 WayPass
 
-Typography:
+**Typography:**
 
 Se utiliza la familia tipográfica Inter (o una Sans-Serif de corte moderno). Su diseño geométrico y alta legibilidad en pantallas móviles es fundamental para que los conductores y usuarios puedan leer rutas y horarios rápidamente.
 
@@ -3014,7 +3014,9 @@ Se utiliza la familia tipográfica Inter (o una Sans-Serif de corte moderno). Su
 
 - Inter Regular: Para textos de formularios y descripciones detalladas.
 
-Paleta de Colores (Extraída de las capturas):
+<img width="1408" height="768" alt="3 1 1 1 styles" src="https://github.com/user-attachments/assets/b806dc93-57cb-4fa3-88d8-601eac508618" />
+
+**Paleta de Colores (Extraída de las capturas):**
 
 - Púrpura Principal (#5145CD): Es el color de identidad. Se utiliza en botones de acción primaria (Ingresar, Registrarse, Nuevo Paradero), iconos de marca y estados activos.
 
@@ -3026,16 +3028,20 @@ Paleta de Colores (Extraída de las capturas):
 
 - Gris Suave / Bordes (#D1D5DB): Utilizado en los bordes de los campos de entrada (inputs) y líneas divisorias.
 
-<img width="1408" height="768" alt="3 1 1 1 styles" src="https://github.com/user-attachments/assets/b806dc93-57cb-4fa3-88d8-601eac508618" />
+<img width="2592" height="1662" alt="paleta de colores" src="https://github.com/user-attachments/assets/f83c5be5-9f0d-4d8d-9233-9b58c496a434" />
 
 
-Buttons:
+**Buttons:**
 
 - Estilo: Bordes redondeados (aprox. 8px) para un look moderno y amigable.
 
 - Primario: Fondo Púrpura (#5145CD) con texto en blanco. Incluye una flecha iconográfica en botones de ingreso para denotar movimiento.
 
 - Secundario / Outline: Fondo blanco con borde púrpura o gris, usado para acciones como "Cancelar" o "Integrar PayPal".
+
+
+<img width="412" height="916" alt="image" src="https://github.com/user-attachments/assets/22f930f3-7cc5-4bb4-9c8d-ff803ac9bd33" />
+
 
 <img width="1408" height="768" alt="3 1 1 1 buttons" src="https://github.com/user-attachments/assets/6ce05f64-a0c2-428f-b307-1415e359fe88" />
 
@@ -4166,6 +4172,10 @@ Basado en el análisis del proyecto y los hallazgos durante el avance, se sugier
     <tr>
       <td><strong>Entrevistas</strong></td>
       <td><a href="https://shorturl.at/dnh1n" target="_blank">https://shorturl.at/dnh1n</a></td>
+    </tr>
+      <tr>
+      <td><strong>Figma</strong></td>
+      <td><a href="https://www.figma.com/design/ky1OhSpiDR2fYguzC8Teo5/Untitled?node-id=2-5&t=CY5ZbtaxEkWrG0xC-0" target="_blank">https://www.figma.com/design/ky1OhSpiDR2fYguzC8Teo5/Untitled?node-id=2-5&t=CY5ZbtaxEkWrG0xC-0</a></td>
     </tr>
   </tbody>
 </table>
