@@ -2996,29 +2996,103 @@ Figura 41. Diagrama de base de datos del Bounded Context Routes - WayPass
 
 #### 3.1.1.1. General Style Guidelines
 
-> *(Sección pendiente de desarrollo)*
+**Overview:**
+
+La identidad visual de WayPass busca transmitir modernidad, eficiencia y fluidez en el transporte. La marca utiliza una base de diseño limpia ("clean design") donde el protagonismo recae en un púrpura vibrante que denota tecnología y servicio premium, complementado con blancos y grises para mantener la sobriedad corporativa.
+
+Brand Name:
+
+WayPass
+
+Typography:
+
+Se utiliza la familia tipográfica Inter (o una Sans-Serif de corte moderno). Su diseño geométrico y alta legibilidad en pantallas móviles es fundamental para que los conductores y usuarios puedan leer rutas y horarios rápidamente.
+
+- Inter Bold: Para títulos de secciones y bienvenida (Ej: "¡Usuario, te damos la bienvenida!").
+
+- Inter SemiBold: Para etiquetas de botones y títulos de tarjetas.
+
+- Inter Regular: Para textos de formularios y descripciones detalladas.
+
+Paleta de Colores (Extraída de las capturas):
+
+- Púrpura Principal (#5145CD): Es el color de identidad. Se utiliza en botones de acción primaria (Ingresar, Registrarse, Nuevo Paradero), iconos de marca y estados activos.
+
+- Blanco (#FFFFFF): Color de fondo principal y de las tarjetas de información para maximizar la limpieza visual.
+
+- Gris de Fondo (#F4F4F9): Un tono grisáceo muy suave utilizado para diferenciar el fondo de la aplicación de los contenedores blancos.
+
+- Gris de Texto (#333333): Para títulos y textos principales, asegurando un contraste legible.
+
+- Gris Suave / Bordes (#D1D5DB): Utilizado en los bordes de los campos de entrada (inputs) y líneas divisorias.
+
+<img width="1408" height="768" alt="3 1 1 1 styles" src="https://github.com/user-attachments/assets/b806dc93-57cb-4fa3-88d8-601eac508618" />
+
+
+Buttons:
+
+- Estilo: Bordes redondeados (aprox. 8px) para un look moderno y amigable.
+
+- Primario: Fondo Púrpura (#5145CD) con texto en blanco. Incluye una flecha iconográfica en botones de ingreso para denotar movimiento.
+
+- Secundario / Outline: Fondo blanco con borde púrpura o gris, usado para acciones como "Cancelar" o "Integrar PayPal".
+
+<img width="1408" height="768" alt="3 1 1 1 buttons" src="https://github.com/user-attachments/assets/6ce05f64-a0c2-428f-b307-1415e359fe88" />
+
 
 ### 3.1.2. Information Architecture
 
 #### 3.1.2.1. Organization Systems
 
-> *(Sección pendiente de desarrollo)*
+WayPass organiza la información de manera Jerárquica y por Tópicos:
+
+- Estructura por Roles: El sistema diferencia claramente entre el flujo de "Pasajero" y "Transportista" desde el registro.
+
+- Organización Modular: El contenido se divide en módulos operativos: Gestión de Paraderos, Gestión de Rutas e Información de la Empresa.
+
+- Esquema Secuencial: Para procesos complejos como la creación de rutas, se utiliza un sistema de pasos (Paso 1 de 3) para no abrumar al usuario.
 
 #### 3.1.2.2. Labelling Systems
 
-> *(Sección pendiente de desarrollo)*
+El etiquetado es directo y funcional:
+
+- "Gestión de Paraderos": Para la administración de puntos de control.
+
+- "Horario de atención": Para la configuración de disponibilidad de rutas.
+
+- "Intervalo prom.": Terminología técnica pero comprensible para la frecuencia de buses.
 
 #### 3.1.2.3. SEO Tags and Meta Tags
 
-> *(Sección pendiente de desarrollo)*
+Landing Page
+
+Title: Waypass | Gestión Inteligente de Accesos y Visitantes
+
+Meta Description: La plataforma más segura y fácil para el control de visitas en edificios y condominios. Moderniza tu recepción con Waypass.
 
 #### 3.1.2.4. Searching Systems
 
-> *(Sección pendiente de desarrollo)*
+- Búsqueda por Distrito: Selector desplegable para filtrar paraderos por zona geográfica.
+
+- Filtros de Estado: Etiquetas que indican "Rutas Activas" o "Paraderos Activos" para una auditoría visual rápida.
 
 #### 3.1.2.5. Navigation Systems
 
-> *(Sección pendiente de desarrollo)*
+El sistema de navegación de WayPass busca que tanto los pasajeros como los transportistas puedan moverse por la aplicación de forma simple e intuitiva, sin necesidad de pasos complicados. La estructura está pensada para que el usuario gestione sus servicios en pocos clics y pueda cumplir su objetivo operativo con rapidez.
+
+Principales elementos de navegación
+
+- Barra de navegación inferior (Tab Bar): Incluye accesos directos a las secciones críticas de la operación diaria: Inicio, Paraderos y Rutas. Permite una transición inmediata entre la visualización global y la gestión específica.
+
+- Acciones rápidas destacadas: Un botón flotante o central (ej. "+ Nueva ruta" o "Nuevo paradero") permite iniciar los flujos de creación más importantes desde cualquier punto de su respectiva sección.
+
+- Sistema de pestañas de rol: Durante el registro y configuración, el sistema utiliza selectores claros para diferenciar la navegación según el tipo de usuario (Pasajero o Transportista), personalizando la experiencia.
+
+-Flujos de configuración secuencial: Para procesos complejos, como la creación de paraderos o rutas, se utiliza una navegación por pasos con botones de "Continuar" y "Cancelar" para evitar la pérdida de datos.
+
+- Navegación responsive: Todo el sistema de menús, botones y tarjetas se adapta a diferentes resoluciones de dispositivos móviles, garantizando que el control de la flota sea funcional en cualquier terminal táctil.
+
+La idea central es que el recorrido dentro de la aplicación sea fluido: el usuario entra, gestiona su logística de transporte sin perder tiempo y puede interactuar con las funciones de monitoreo y registro de manera natural.
 
 ### 3.1.3. Landing Page UI Design
 
