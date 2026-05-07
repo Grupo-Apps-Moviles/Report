@@ -3019,6 +3019,9 @@ Paleta de Colores (Extraída de las capturas):
 
 - Gris Suave / Bordes (#D1D5DB): Utilizado en los bordes de los campos de entrada (inputs) y líneas divisorias.
 
+<img width="1408" height="768" alt="3 1 1 1 styles" src="https://github.com/user-attachments/assets/b806dc93-57cb-4fa3-88d8-601eac508618" />
+
+
 Buttons:
 
 - Estilo: Bordes redondeados (aprox. 8px) para un look moderno y amigable.
@@ -3026,6 +3029,8 @@ Buttons:
 - Primario: Fondo Púrpura (#5145CD) con texto en blanco. Incluye una flecha iconográfica en botones de ingreso para denotar movimiento.
 
 - Secundario / Outline: Fondo blanco con borde púrpura o gris, usado para acciones como "Cancelar" o "Integrar PayPal".
+
+<img width="1408" height="768" alt="3 1 1 1 buttons" src="https://github.com/user-attachments/assets/6ce05f64-a0c2-428f-b307-1415e359fe88" />
 
 
 ### 3.1.2. Information Architecture
