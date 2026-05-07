@@ -3064,14 +3064,6 @@ Figura 41. Diagrama de base de datos del Bounded Context Routes - WayPass
   </li>
 </ul>
 
-<h4>Requirements Management:</h4>
-<ul>
-  <li>
-    <strong>Trello:</strong> Plataforma de gestión visual basada en tableros, listas y tarjetas, utilizada para la organización del Sprint Backlog, gestión de User Stories por estado (To-Do, In-Progress, Done) y colaboración del equipo en la priorización de requisitos del proyecto Veyra. <br>
-    <strong>Ruta de referencia:</strong> <a href="https://trello.com">https://trello.com</a>
-  </li>
-</ul>
-
 <h4>Product UX/UI Design</h4>
 <ul>
   <li>
@@ -3118,15 +3110,6 @@ Figura 41. Diagrama de base de datos del Bounded Context Routes - WayPass
     <strong>GitHub:</strong> Plataforma de repositorios remotos utilizada para almacenar, compartir y gestionar el código fuente del proyecto, implementando el flujo de trabajo GitFlow para mantener un desarrollo organizado y colaborativo entre los integrantes del equipo. <br>
     <strong>Ruta de referencia:</strong> 
     <a href="https://github.com/">https://github.com/</a>
-  </li>
-</ul>
-
-
-<h4>Software Testing:</h4>
-<ul>
-  <li>
-    <strong>Lenguaje Gherkin:</strong> Lenguaje de dominio específico (DSL) para la redacción de Acceptance Criteria de User Stories en formato estructurado Given-When-Then. Permite definir escenarios de prueba legibles por stakeholders y ejecutables por herramientas de automatización. Los keywords principales son: Feature, Scenario, Given, When, Then, And, But. <br>
-    <strong>Ruta de referencia:</strong> <a href="https://cucumber.io/docs/gherkin/">https://cucumber.io/docs/gherkin/</a>
   </li>
 </ul>
 
@@ -3311,11 +3294,223 @@ docs(README): update index instructions.
 
 ### 4.1.3. Source Code Style Guide & Conventions
 
-> *(Sección pendiente de desarrollo)*
+<h4>Referencias de Guías de Estilo Adoptadas</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Lenguaje/Tecnología</th>
+      <th>Guía de Estilo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HTML/CSS</td>
+      <td><a href="https://google.github.io/styleguide/htmlcssguide.html">Google HTML/CSS Style Guide</a></td>
+    </tr>
+    <tr>
+      <td>JavaScript</td>
+      <td><a href="https://google.github.io/styleguide/jsguide.html">Google JavaScript Style Guide</a></td>
+    </tr>
+    <tr>
+      <td>Kotlin</td>
+      <td><a href="https://developer.android.com/kotlin/style-guide">Android Kotlin Style Guide</a></td>
+    </tr>
+    <tr>
+      <td>Jetpack Compose</td>
+      <td><a href="https://developer.android.com/jetpack/compose/documentation">Jetpack Compose Documentation</a></td>
+    </tr>
+    <tr>
+      <td>C#</td>
+      <td><a href="https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions">Microsoft C# Coding Conventions</a></td>
+    </tr>
+    <tr>
+      <td>ASP.NET Core</td>
+      <td><a href="https://learn.microsoft.com/en-us/aspnet/core/">ASP.NET Core Documentation</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>Nomenclatura General</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Elemento</th>
+      <th>Convención</th>
+      <th>Ejemplo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Clases (Kotlin/C#)</td>
+      <td>PascalCase</td>
+      <td><code>UserManager</code>, <code>ProductService</code></td>
+    </tr>
+    <tr>
+      <td>Interfaces</td>
+      <td>PascalCase con prefijo I</td>
+      <td><code>IUserRepository</code>, <code>IProductService</code></td>
+    </tr>
+    <tr>
+      <td>Métodos/Funciones</td>
+      <td>camelCase / PascalCase</td>
+      <td><code>getUserData()</code>, <code>CreateProduct()</code></td>
+    </tr>
+    <tr>
+      <td>Variables</td>
+      <td>camelCase</td>
+      <td><code>userName</code>, <code>productList</code></td>
+    </tr>
+    <tr>
+      <td>Constantes</td>
+      <td>SCREAMING_SNAKE_CASE</td>
+      <td><code>BASE_URL</code>, <code>MAX_USERS</code></td>
+    </tr>
+    <tr>
+      <td>Archivos Kotlin</td>
+      <td>PascalCase</td>
+      <td><code>MainScreen.kt</code></td>
+    </tr>
+    <tr>
+      <td>Archivos C#</td>
+      <td>PascalCase</td>
+      <td><code>UserController.cs</code></td>
+    </tr>
+    <tr>
+      <td>Clases CSS</td>
+      <td>kebab-case</td>
+      <td><code>.main-container</code>, <code>.login-form</code></td>
+    </tr>
+    <tr>
+      <td>Endpoints REST</td>
+      <td>kebab-case (plural)</td>
+      <td><code>/api/v1/users</code>, <code>/api/v1/products</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>Sangría</h4>
+
+<p>
+  Se utiliza una indentación de cuatro espacios en archivos Kotlin y C#, mientras que en HTML, CSS y JavaScript se aplica una indentación de dos espacios para mantener consistencia y legibilidad en el código fuente.
+</p>
+
+<p><strong>Ejemplo HTML:</strong></p>
+
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Mobile Application&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;header&gt;
+      &lt;h1&gt;Welcome&lt;/h1&gt;
+    &lt;/header&gt;
+    &lt;main&gt;
+      &lt;p&gt;Application landing page.&lt;/p&gt;
+    &lt;/main&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<h4>Convenciones por Lenguaje</h4>
+
+<h5>HTML</h5>
+
+<ul>
+  <li>Declarar <code>&lt;!DOCTYPE html&gt;</code> en la primera línea del documento.</li>
+  <li>Utilizar letras minúsculas en etiquetas y atributos.</li>
+  <li>Usar comillas dobles en atributos: <code>&lt;div class="container"&gt;</code></li>
+  <li>Agregar atributos <code>alt</code> en imágenes para mejorar accesibilidad.</li>
+  <li>Incluir etiquetas <code>&lt;title&gt;</code> y meta tags necesarias.</li>
+  <li>Separar bloques extensos de código con líneas en blanco.</li>
+</ul>
+
+<h5>CSS</h5>
+
+<ul>
+  <li>Utilizar shorthand properties cuando sea posible.</li>
+  <li>Finalizar cada declaración con punto y coma.</li>
+  <li>Dejar un espacio después de los dos puntos en propiedades CSS.</li>
+  <li>Usar comillas simples en <code>font-family</code>.</li>
+  <li>Ordenar propiedades de manera consistente dentro de cada selector.</li>
+</ul>
+
+<h5>JavaScript</h5>
+
+<ul>
+  <li>Utilizar <code>const</code> y <code>let</code> en lugar de <code>var</code>.</li>
+  <li>Agregar espacios alrededor de operadores.</li>
+  <li>Finalizar instrucciones con punto y coma.</li>
+  <li>Usar llaves de apertura en la misma línea.</li>
+  <li>Utilizar arrow functions en callbacks cuando sea apropiado.</li>
+</ul>
+
+<h5>Kotlin / Jetpack Compose</h5>
+
+<ul>
+  <li>Usar nombres descriptivos para funciones y variables.</li>
+  <li>Aplicar PascalCase en Composables: <code>LoginScreen()</code>.</li>
+  <li>Utilizar <code>val</code> para variables inmutables y <code>var</code> solo cuando sea necesario.</li>
+  <li>Mantener funciones pequeñas y reutilizables.</li>
+  <li>Separar lógica de interfaz y lógica de negocio en diferentes archivos.</li>
+</ul>
+
+<p><strong>Ejemplo Kotlin:</strong></p>
+
+<pre><code>class UserManager {
+
+    private val users = mutableListOf&lt;String&gt;()
+
+    fun addUser(userName: String) {
+        users.add(userName)
+    }
+
+    fun getUsers(): List&lt;String&gt; {
+        return users
+    }
+}
+</code></pre>
+
+<h5>C# / ASP.NET Core</h5>
+
+<ul>
+  <li>Utilizar PascalCase para clases, métodos y propiedades.</li>
+  <li>Usar interfaces con prefijo <code>I</code>.</li>
+  <li>Aplicar inyección de dependencias para servicios y repositorios.</li>
+  <li>Mantener una separación clara entre controladores, servicios y modelos.</li>
+  <li>Documentar métodos públicos cuando sea necesario.</li>
+</ul>
+
+<p><strong>Ejemplo C#:</strong></p>
+
+<pre><code>public class ProductService
+{
+    public string GetProductName()
+    {
+        return "Smartphone";
+    }
+}
+</code></pre>
 
 ### 4.1.4. Software Deployment Configuration
 
-> *(Sección pendiente de desarrollo)*
+<h4>Landing Page - GitHub Pages</h4>
+
+<p>El Landing Page se despliega mediante GitHub Pages directamente desde el repositorio, aprovechando el hosting gratuito para sitios estáticos.</p>
+
+<p><strong>Pasos de configuración:</strong></p>
+
+<ol>
+  <li>Acceder al repositorio <code>landing-page</code> en GitHub.</li>
+  <li>Navegar a <strong>Settings &gt; Pages</strong> en el menú lateral.</li>
+  <li>En la sección "Source", seleccionar la rama <code>main</code> y carpeta <code>/ (root)</code>.</li>
+  <li>Hacer clic en <strong>Save</strong> y esperar la generación del sitio (1-2 minutos).</li>
+  <li>Verificar el despliegue accediendo a la URL generada.</li>
+</ol>
+
+<p><strong>URL de despliegue:</strong> <a href=" "> </a></p>
 
 ## 4.2. Landing Page & Mobile Application Implementation
 
