@@ -3402,17 +3402,24 @@ frecuencia y tarifa. El estado vacío mantiene el encabezado con badge
   </table>
 </div>
 
-**Creación de ruta**
-Flujo en modal: dropdowns para origen y destino, e inputs
+**Creación de ruta - Paso 1 y Paso 2**
+Primera etapa del flujo en modal: dropdowns para origen y destino, e inputs
 numéricos para duración (min), frecuencia (min) y precio (S/). El botón
 "Continuar →" en verde se habilita solo al completar todos los campos.
+Segunda etapa: listado de los 7 días con toggle individual; al activar un día
+se despliegan selectores de hora de inicio y fin con validación en tiempo real.
+El día activo se resalta con fondo morado.
 
 <div align="center">
   <table>
     <tr>
       <td align="center">
-        <img width="200" alt="Nueva Ruta" src="https://github.com/user-attachments/assets/2dda6fe9-d93e-47a4-9dec-31a6a0acfa22" />
-        <br><em>Crear ruta</em>
+        <img width="200" alt="Nueva Ruta - Paso 1" src="https://github.com/user-attachments/assets/085c953d-8422-474a-8056-e2057199018a" />
+        <br><em>Crear ruta - Paso 1</em>
+      </td>
+      <td align="center">
+        <img width="200" alt="Nueva Ruta - Horarios" src="https://github.com/user-attachments/assets/cb700bc5-0a73-443c-992e-e78143fee704" />
+        <br><em>Crear ruta - Paso 2 Horarios</em>
       </td>
     </tr>
   </table>
