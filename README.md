@@ -3533,19 +3533,466 @@ RUC 20234567891). Botones "Cancelar" (outlined blanco) y "Guardar Información"
 
 ### 4.1.1. Software Development Environment Configuration
 
-> *(Sección pendiente de desarrollo)*
+<h4>Project Management</h4>
+<ul>
+  <li>
+    <strong>Jira:</strong> Plataforma de gestión de proyectos ágiles utilizada para la administración del Product Backlog, planificación de Sprints, asignación de User Stories y Tasks a los miembros del equipo, y seguimiento del progreso mediante tableros Scrum con estados To-Do, In-Process, To-Review y Done. <br>
+    <strong>Ruta de referencia:</strong> <a href="https://www.atlassian.com/software/jira">https://www.atlassian.com/software/jira</a>
+  </li>
+    <li>
+    <strong>WhatsApp:</strong> Herramienta de comunicación instantánea utilizada para coordinar actividades del equipo, resolver dudas rápidas, compartir avances y mantener una comunicación constante durante el desarrollo del proyecto. <br>
+    <strong>Ruta de referencia:</strong> 
+    <a href="https://web.whatsapp.com/">https://web.whatsapp.com/</a>
+  </li>
+</ul>
+
+<h4>Product UX/UI Design</h4>
+<ul>
+  <li>
+    <strong>UXPressia:</strong> Plataforma para la elaboración de User Personas, Empathy Maps, Customer Journey Maps e Impact Maps de los segmentos objetivo del proyecto Veyra (Administradores de casas de reposo y Familiares de adultos mayores). <br>
+    <strong>Ruta de referencia:</strong> <a href="https://uxpressia.com/">https://uxpressia.com/</a>
+  </li>
+  <li>
+    <strong>Miro:</strong> Pizarra digital colaborativa utilizada para sesiones de Big Picture EventStorming y Design-Level EventStorming, facilitando la identificación de Bounded Contexts, Events, Commands y Aggregates del dominio Veyra. <br>
+    <strong>Ruta de referencia:</strong> <a href="https://miro.com/es/">https://miro.com/es/</a>
+  </li>
+  <li>
+    <strong>Figma:</strong> Herramienta de diseño colaborativo para la creación de Wireframes, Mock-ups y Prototipos interactivos del Landing Page y Web Applications de Veyra, aplicando el Design System basado en Material Design. <br>
+    <strong>Ruta de referencia:</strong> <a href="https://www.figma.com/es-es/">https://www.figma.com/es-es/</a>
+  </li>
+</ul>
+
+<h4>Software Development:</h4>
+  <ul>
+  <li>
+    <strong>WebStorm (Instalación local):</strong> Entorno de desarrollo utilizado para implementar y editar la interfaz de usuario del proyecto mediante HTML, CSS y JavaScript, facilitando la organización del código y la integración con GitHub. <br>
+    <strong>Ruta de referencia:</strong> 
+    <a href="https://www.jetbrains.com/es-es/webstorm/">https://www.jetbrains.com/es-es/webstorm/</a>
+  </li>
+
+  <li>
+    <strong>Android Studio (Instalación local):</strong> IDE utilizado para el desarrollo de la aplicación móvil Android, empleando Kotlin y Jetpack Compose para la creación de interfaces modernas y funcionalidades nativas del dispositivo móvil. <br>
+    <strong>Ruta de referencia:</strong> 
+    <a href="https://developer.android.com/studio?hl=es-419">https://developer.android.com/studio?hl=es-419</a>
+  </li>
+
+  <li>
+    <strong>Rider (Instalación local):</strong> Entorno de desarrollo integrado utilizado para la implementación y mantenimiento del backend de la aplicación, permitiendo desarrollar y administrar la lógica del sistema de manera eficiente. <br>
+    <strong>Ruta de referencia:</strong> 
+    <a href="https://www.jetbrains.com/es-es/rider">https://www.jetbrains.com/es-es/rider</a>
+  </li>
+
+  <li>
+    <strong>Git (Instalación local):</strong> Sistema de control de versiones utilizado para gestionar cambios en el código fuente mediante commits y ramas, facilitando el trabajo colaborativo y el control de versiones durante el desarrollo del proyecto. <br>
+    <strong>Ruta de referencia:</strong> 
+    <a href="https://git-scm.com/">https://git-scm.com/</a>
+  </li>
+
+  <li>
+    <strong>GitHub:</strong> Plataforma de repositorios remotos utilizada para almacenar, compartir y gestionar el código fuente del proyecto, implementando el flujo de trabajo GitFlow para mantener un desarrollo organizado y colaborativo entre los integrantes del equipo. <br>
+    <strong>Ruta de referencia:</strong> 
+    <a href="https://github.com/">https://github.com/</a>
+  </li>
+</ul>
+
+<h4>Software Documentation</h4>
+<ul>
+  <li>
+    <strong>Markdown:</strong> Lenguaje de marcado ligero para la elaboración del Project Report en el repositorio GitHub. Permite estructurar documentación con formato consistente y compatible con control de versiones. <br>
+    <strong>Ruta de referencia:</strong> <a href="https://www.markdownguide.org/">https://www.markdownguide.org/</a>
+  </li>
+</ul>
 
 ### 4.1.2. Source Code Management
 
-> *(Sección pendiente de desarrollo)*
+<h4>Repositorios del Proyecto</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Producto</th>
+      <th>URL del Repositorio</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Organización</td>
+      <td><a href="https://github.com/Grupo-Apps-Moviles">https://github.com/Grupo-Apps-Moviles</a></td>
+    </tr>
+    <tr>
+      <td>Landing Page</td>
+      <td><a href="https://github.com/Grupo-Apps-Moviles/landing-page">https://github.com/Grupo-Apps-Moviles/landing-page</a></td>
+    </tr>
+    <tr>
+      <td>Android Mobile Application</td>
+      <td><a href="https://github.com/Grupo-Apps-Moviles/Android">https://github.com/Grupo-Apps-Moviles/Android</a></td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td><a href="https://github.com/Grupo-Apps-Moviles/Backend">https://github.com/Grupo-Apps-Moviles/Backend</a></td>
+    </tr>
+    <tr>
+      <td>Project Report</td>
+      <td><a href="https://github.com/Grupo-Apps-Moviles/Report">https://github.com/Grupo-Apps-Moviles/Report</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>GitFlow Workflow</h4>
+
+<p><strong>Estructura de Ramas:</strong></p>
+
+<ul>
+  <li>
+    <strong>main:</strong> Rama principal del repositorio que almacena las versiones finales y estables del proyecto listas para su despliegue.
+  </li>
+  <li>
+    <strong>develop:</strong> Rama destinada a la integración de funcionalidades desarrolladas y validadas por el equipo. Se utiliza como entorno base para preparar nuevas versiones antes de su publicación.
+  </li>
+    <li>
+    <strong>feature/&lt;feature-name&gt;:</strong> Ramas generadas desde develop para desarrollar nuevas funcionalidades o mejoras. Una vez finalizada y revisada la implementación, los cambios se integran nuevamente en la rama develop.
+  </li>
+</ul>
+
+<h4>Convenciones de Nomenclatura para Ramas</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tipo de Rama</th>
+      <th>Formato</th>
+      <th>Ejemplo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Feature</td>
+      <td><code>feature/&lt;bounded-context&gt;-&lt;feature-description&gt;</code></td>
+      <td><code>feature/login</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>Conventional Commits</h4>
+
+<pre><code>&lt;type&gt;[optional scope]: &lt;description&gt;
+
+[optional body]
+
+[optional footer(s)]
+</code></pre>
+
+<p><strong>Tipos de Commit:</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tipo</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>feat</code></td>
+      <td>Añadir una nueva característica.</td>
+    </tr>
+    <tr>
+      <td><code>fix</code></td>
+      <td>Correción de errores</td>
+    </tr>
+    <tr>
+      <td><code>docs</code></td>
+      <td>Modificaciones en la documentación.</td>
+    </tr>
+    <tr>
+      <td><code>style</code></td>
+      <td>Cambios de formato (espacios, comas, etc.) que no afectan la lógica del código.</td>
+    </tr>
+    <tr>
+      <td><code>refactor</code></td>
+      <td>Modificaciones que no añaden características y/o errores.</td>
+    </tr>
+    <tr>
+      <td><code>perf</code></td>
+      <td>Mejoras de rendimiento</td>
+    </tr>
+    <tr>
+      <td><code>test</code></td>
+      <td>Adición o corrección de pruebas</td>
+    </tr>
+    <tr>
+      <td><code>build</code></td>
+      <td>Cambios en sistema de build o dependencias externas</td>
+    </tr>
+    <tr>
+      <td><code>chore</code></td>
+      <td>Tareas de mantenimiento sin afectar código de producción</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Ejemplos de Commits:</strong></p>
+
+<pre><code>feat(auth): add register functionality.
+fix(payment): resolve payment security issue.
+docs(README): update index instructions.
+</code></pre>
+
+<h4>Semantic Versioning</h4>
+<p>
+  Para el control de versiones del proyecto se emplea Semantic Versioning 2.0.0, utilizando la estructura <code>MAJOR.MINOR.PATCH</code> para identificar los cambios realizados en cada release.
+</p>
+
+<ul>
+  <li><strong>MAJOR:</strong> Cambios importantes que generan incompatibilidad con versiones anteriores del sistema.</li>
+  <li><strong>MINOR:</strong> Incorporación de nuevas funcionalidades manteniendo compatibilidad con versiones previas.</li>
+  <li><strong>PATCH:</strong> Corrección de errores y mejoras menores sin afectar la compatibilidad existente.</li>
+</ul>
+
+<p><strong>Ejemplo de evolución de versiones:</strong></p>
+
+<ul>
+  <li><code>1.0.0</code> → Primera versión funcional y estable del proyecto.</li>
+  <li><code>1.1.0</code> → Integración de una nueva característica o módulo.</li>
+  <li><code>1.1.1</code> → Solución de errores detectados en la versión anterior.</li>
+  <li><code>2.0.0</code> → Actualización con cambios significativos e incompatibles.</li>
+</ul>
+
+<h4>Configuración de GitHub en Android Studio</h4>
+
+<p>Pasos para vincular Android Studio con GitHub:</p>
+
+<ol>
+  <li>Abrir Android Studio y seleccionar <strong>VCS &gt; Enable Version Control Integration</strong>, luego elegir Git.</li>
+
+  <li>Ingresar a <strong>File &gt; Settings &gt; Version Control &gt; GitHub</strong> y agregar la cuenta de GitHub para sincronizar el proyecto.</li>
+
+  <li>Verificar la configuración de Git desde <strong>File &gt; Settings &gt; Version Control &gt; Git</strong>, asegurando que la ruta de Git esté correctamente configurada.</li>
+
+  <li>Conectar el proyecto con el repositorio remoto mediante <strong>Git &gt; Manage Remotes</strong>, agregando la URL correspondiente del repositorio en GitHub.</li>
+
+  <li>Realizar commits utilizando <strong>Ctrl+K</strong> y enviar cambios al repositorio remoto con <strong>Ctrl+Shift+K</strong>.</li>
+</ol>
 
 ### 4.1.3. Source Code Style Guide & Conventions
 
-> *(Sección pendiente de desarrollo)*
+<h4>Referencias de Guías de Estilo Adoptadas</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Lenguaje/Tecnología</th>
+      <th>Guía de Estilo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HTML/CSS</td>
+      <td><a href="https://google.github.io/styleguide/htmlcssguide.html">Google HTML/CSS Style Guide</a></td>
+    </tr>
+    <tr>
+      <td>JavaScript</td>
+      <td><a href="https://google.github.io/styleguide/jsguide.html">Google JavaScript Style Guide</a></td>
+    </tr>
+    <tr>
+      <td>Kotlin</td>
+      <td><a href="https://developer.android.com/kotlin/style-guide">Android Kotlin Style Guide</a></td>
+    </tr>
+    <tr>
+      <td>Jetpack Compose</td>
+      <td><a href="https://developer.android.com/jetpack/compose/documentation">Jetpack Compose Documentation</a></td>
+    </tr>
+    <tr>
+      <td>C#</td>
+      <td><a href="https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions">Microsoft C# Coding Conventions</a></td>
+    </tr>
+    <tr>
+      <td>ASP.NET Core</td>
+      <td><a href="https://learn.microsoft.com/en-us/aspnet/core/">ASP.NET Core Documentation</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>Nomenclatura General</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Elemento</th>
+      <th>Convención</th>
+      <th>Ejemplo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Clases (Kotlin/C#)</td>
+      <td>PascalCase</td>
+      <td><code>UserManager</code>, <code>ProductService</code></td>
+    </tr>
+    <tr>
+      <td>Interfaces</td>
+      <td>PascalCase con prefijo I</td>
+      <td><code>IUserRepository</code>, <code>IProductService</code></td>
+    </tr>
+    <tr>
+      <td>Métodos/Funciones</td>
+      <td>camelCase / PascalCase</td>
+      <td><code>getUserData()</code>, <code>CreateProduct()</code></td>
+    </tr>
+    <tr>
+      <td>Variables</td>
+      <td>camelCase</td>
+      <td><code>userName</code>, <code>productList</code></td>
+    </tr>
+    <tr>
+      <td>Constantes</td>
+      <td>SCREAMING_SNAKE_CASE</td>
+      <td><code>BASE_URL</code>, <code>MAX_USERS</code></td>
+    </tr>
+    <tr>
+      <td>Archivos Kotlin</td>
+      <td>PascalCase</td>
+      <td><code>MainScreen.kt</code></td>
+    </tr>
+    <tr>
+      <td>Archivos C#</td>
+      <td>PascalCase</td>
+      <td><code>UserController.cs</code></td>
+    </tr>
+    <tr>
+      <td>Clases CSS</td>
+      <td>kebab-case</td>
+      <td><code>.main-container</code>, <code>.login-form</code></td>
+    </tr>
+    <tr>
+      <td>Endpoints REST</td>
+      <td>kebab-case (plural)</td>
+      <td><code>/api/v1/users</code>, <code>/api/v1/products</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>Sangría</h4>
+
+<p>
+  Se utiliza una indentación de cuatro espacios en archivos Kotlin y C#, mientras que en HTML, CSS y JavaScript se aplica una indentación de dos espacios para mantener consistencia y legibilidad en el código fuente.
+</p>
+
+<p><strong>Ejemplo HTML:</strong></p>
+
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Mobile Application&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;header&gt;
+      &lt;h1&gt;Welcome&lt;/h1&gt;
+    &lt;/header&gt;
+    &lt;main&gt;
+      &lt;p&gt;Application landing page.&lt;/p&gt;
+    &lt;/main&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<h4>Convenciones por Lenguaje</h4>
+
+<h5>HTML</h5>
+
+<ul>
+  <li>Declarar <code>&lt;!DOCTYPE html&gt;</code> en la primera línea del documento.</li>
+  <li>Utilizar letras minúsculas en etiquetas y atributos.</li>
+  <li>Usar comillas dobles en atributos: <code>&lt;div class="container"&gt;</code></li>
+  <li>Agregar atributos <code>alt</code> en imágenes para mejorar accesibilidad.</li>
+  <li>Incluir etiquetas <code>&lt;title&gt;</code> y meta tags necesarias.</li>
+  <li>Separar bloques extensos de código con líneas en blanco.</li>
+</ul>
+
+<h5>CSS</h5>
+
+<ul>
+  <li>Utilizar shorthand properties cuando sea posible.</li>
+  <li>Finalizar cada declaración con punto y coma.</li>
+  <li>Dejar un espacio después de los dos puntos en propiedades CSS.</li>
+  <li>Usar comillas simples en <code>font-family</code>.</li>
+  <li>Ordenar propiedades de manera consistente dentro de cada selector.</li>
+</ul>
+
+<h5>JavaScript</h5>
+
+<ul>
+  <li>Utilizar <code>const</code> y <code>let</code> en lugar de <code>var</code>.</li>
+  <li>Agregar espacios alrededor de operadores.</li>
+  <li>Finalizar instrucciones con punto y coma.</li>
+  <li>Usar llaves de apertura en la misma línea.</li>
+  <li>Utilizar arrow functions en callbacks cuando sea apropiado.</li>
+</ul>
+
+<h5>Kotlin / Jetpack Compose</h5>
+
+<ul>
+  <li>Usar nombres descriptivos para funciones y variables.</li>
+  <li>Aplicar PascalCase en Composables: <code>LoginScreen()</code>.</li>
+  <li>Utilizar <code>val</code> para variables inmutables y <code>var</code> solo cuando sea necesario.</li>
+  <li>Mantener funciones pequeñas y reutilizables.</li>
+  <li>Separar lógica de interfaz y lógica de negocio en diferentes archivos.</li>
+</ul>
+
+<p><strong>Ejemplo Kotlin:</strong></p>
+
+<pre><code>class UserManager {
+
+    private val users = mutableListOf&lt;String&gt;()
+
+    fun addUser(userName: String) {
+        users.add(userName)
+    }
+
+    fun getUsers(): List&lt;String&gt; {
+        return users
+    }
+}
+</code></pre>
+
+<h5>C# / ASP.NET Core</h5>
+
+<ul>
+  <li>Utilizar PascalCase para clases, métodos y propiedades.</li>
+  <li>Usar interfaces con prefijo <code>I</code>.</li>
+  <li>Aplicar inyección de dependencias para servicios y repositorios.</li>
+  <li>Mantener una separación clara entre controladores, servicios y modelos.</li>
+  <li>Documentar métodos públicos cuando sea necesario.</li>
+</ul>
+
+<p><strong>Ejemplo C#:</strong></p>
+
+<pre><code>public class ProductService
+{
+    public string GetProductName()
+    {
+        return "Smartphone";
+    }
+}
+</code></pre>
 
 ### 4.1.4. Software Deployment Configuration
 
-> *(Sección pendiente de desarrollo)*
+<h4>Landing Page - GitHub Pages</h4>
+
+<p>El Landing Page se despliega mediante GitHub Pages directamente desde el repositorio, aprovechando el hosting gratuito para sitios estáticos.</p>
+
+<p><strong>Pasos de configuración:</strong></p>
+
+<ol>
+  <li>Acceder al repositorio <code>landing-page</code> en GitHub.</li>
+  <li>Navegar a <strong>Settings &gt; Pages</strong> en el menú lateral.</li>
+  <li>En la sección "Source", seleccionar la rama <code>main</code> y carpeta <code>/ (root)</code>.</li>
+  <li>Hacer clic en <strong>Save</strong> y esperar la generación del sitio (1-2 minutos).</li>
+  <li>Verificar el despliegue accediendo a la URL generada.</li>
+</ol>
+
+<p><strong>URL de despliegue:</strong> <a href=" "> </a></p>
 
 ## 4.2. Landing Page & Mobile Application Implementation
 
