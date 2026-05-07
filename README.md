@@ -3198,8 +3198,12 @@ precio y frecuencia.
   <table>
     <tr>
       <td align="center">
-        <img width="200" alt="12rutasCrear" src="https://github.com/user-attachments/assets/c1041d73-4ee6-4740-a635-bb33a515f466" />
-        <br><em>Crear ruta</em>
+        <img width="200" alt="Create Route Step 1 (Wireframe)" src="https://github.com/user-attachments/assets/241b3fae-e3fc-46a9-95ac-72d80b6c9e6c" />
+        <br><em>Crear ruta - Paso 1</em>
+      </td>
+      <td align="center">
+        <img width="200" alt="Create Route Step 2 (Wireframe)" src="https://github.com/user-attachments/assets/26cc98da-fc8c-4041-b5d5-af5d11b5b93a" />
+        <br><em>Crear ruta - Paso 2 Horarios</em>
       </td>
     </tr>
   </table>
