@@ -3120,7 +3120,7 @@ disponibles y acceso directo a la información de la empresa.
       </td>
       <td align="center">
         <img width="200" alt="5dashboard" src="https://github.com/user-attachments/assets/7d17ead2-acb7-46a7-b80a-6a527cafe6cb" />
-        <br><em>Dashboard - Información empresa</em>
+        <br><em>Dashboard - Suscripción</em>
       </td>
     </tr>
   </table>
@@ -3190,10 +3190,9 @@ Incluye el estado vacío con llamada a la acción para crear la primera ruta.
   </table>
 </div>
 
-**Creación de ruta - Paso 1 y Paso 2**
+**Creación de ruta**
 Primera etapa: selección de paradero de origen y destino, ingreso de duración,
-precio y frecuencia. Segunda etapa: configuración de días y horarios de operación
-semanal con validaciones en tiempo real.
+precio y frecuencia.
 
 <div align="center">
   <table>
@@ -3234,7 +3233,210 @@ actualizada la información visible para los pasajeros en la plataforma.
 
 #### 3.1.4.3. Mobile Applications Mock-ups
 
-> *(Sección pendiente de desarrollo)*
+Los siguientes mock-ups corresponden a la aplicación móvil Android de WayPass,
+presentando el diseño visual de alta fidelidad para el segmento de gestores de
+empresas de transporte colectivo en Perú.
+
+##### Design System aplicado
+
+- **Paleta de color:**
+  Se establece el color primario #7A78FF (morado) para botones, encabezados e
+  iconos activos; #CCCCFF como secundario para bordes y estados deshabilitados;
+  #00A652 para acciones de éxito; #FF2C2C para alertas y eliminación; y #478BFF
+  para acciones informativas. El fondo general es #FFFFFF con superficies de
+  tarjeta en #F5F6FA.
+
+- **Tipografía:**
+  Se utiliza la fuente Poppins en peso Bold para títulos y encabezados, y Regular
+  para cuerpo de texto y etiquetas, garantizando jerarquía visual clara y alta
+  legibilidad en pantallas móviles.
+
+- **Componentes Material Design 3:**
+  Tarjetas con elevación de 2dp y bordes redondeados, bottom sheets modales con
+  esquinas superiores de 16dp, chips de selección de rol, toggles para estados
+  operativos y selectores de hora nativos de Android.
+
+- **Navegación persistente:**
+  Toolbar superior con logo WayPass a la izquierda e ícono de perfil a la derecha.
+  Barra de navegación inferior con tres destinos: Inicio (casa), Paraderos (pin)
+  y Rutas (ruta), visible en todas las pantallas principales.
+
+- **Diseño inclusivo:**
+  Contraste WCAG AA entre texto y fondo, tamaño mínimo de área táctil de 48dp,
+  mensajes de error específicos con color rojo y texto descriptivo, estados vacíos
+  con ilustración y llamada a la acción que guían al usuario sin experiencia previa.
+
+##### Segmento Objetivo de Transportistas
+
+###### Autenticación y Onboarding
+
+**Login y Registro**
+Pantallas de acceso a la plataforma: el login presenta campos de correo y
+contraseña con botón primario "Ingresar →" en morado sólido. El registro incluye
+selector de rol mediante chips ("Pasajero" / "Transportista"), definiendo el flujo
+de onboarding posterior según la elección del usuario.
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img width="200" alt="Login" src="https://github.com/user-attachments/assets/d1dac6c6-cb55-4451-939f-4e40a96827e5" />
+        <br><em>Login</em>
+      </td>
+      <td align="center">
+        <img width="200" alt="Registro" src="https://github.com/user-attachments/assets/af8945f1-a68b-4f49-8657-466d2fb43662" />
+        <br><em>Registro</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+**Configuración inicial de empresa**
+Pantalla de onboarding exclusiva del primer acceso para el rol Transportista:
+permite subir el logo empresarial mediante área de carga con ícono de cámara
+e ingresar el nombre de la empresa antes de acceder al dashboard.
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img width="200" alt="Onboarding de Empresa" src="https://github.com/user-attachments/assets/0b1018bc-e787-48ce-a930-5cf0ad75a0e8" />
+        <br><em>Onboarding de empresa</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+###### Dashboard
+
+**Panel principal con métricas clave**
+Pantalla de inicio del gestor: presenta 4 KPIs en grilla 2x2 (tarifa promedio,
+total de paraderos, total de rutas e intervalo promedio), cada uno con ícono de
+color semántico. Incluye 3 tarjetas de suscripción (Free, Standard y Premium)
+con el plan Standard destacado con borde morado, y acceso directo a la
+información de la empresa en la parte inferior.
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img width="200" alt="Dashboard1" src="https://github.com/user-attachments/assets/f3cb4a49-10f7-49f1-9b31-8cfce923dda0" />
+        <br><em>Dashboard - KPIs y planes</em>
+      </td>
+      <td align="center">
+        <img width="200" alt="Dashboard2" src="https://github.com/user-attachments/assets/82bc6a29-db95-4bf3-b01c-7ac568ab7ae0" />
+        <br><em>Dashboard - Suscripción</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+###### Paraderos
+
+**Lista de paraderos y estado vacío**
+Pantallas del módulo de Paraderos: el encabezado usa gradiente morado con título,
+subtítulo, badge de conteo activo y botón "+ Nuevo Paradero". Cada tarjeta muestra
+foto del paradero, nombre en morado bold, dirección con ícono de pin, referencia
+con ícono de info, y tres botones de acción (ver ubicación en morado outline,
+editar en azul, eliminar en rojo). El estado vacío presenta ilustración centrada
+con llamada a la acción.
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img width="200" alt="Gestión de Paraderos (Mejorado)" src="https://github.com/user-attachments/assets/785d7aff-dc77-4566-89be-d7040741664b" />
+        <br><em>Paraderos - Estado vacío</em>
+      </td>
+      <td align="center">
+        <img width="200" alt="Gestión de Paraderos (Con contenido)" src="https://github.com/user-attachments/assets/6815c55c-8b48-440d-a021-a2aa97635dbc" />
+        <br><em>Paraderos - Lista</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+**Formulario de creación y edición de paraderos**
+Bottom sheets modales con esquinas superiores redondeadas de 16dp: el formulario
+de creación incluye campos de nombre, teléfono, dirección, referencia, selector
+de distrito y área de carga de imagen con borde punteado. El botón "Crear" aparece
+en verde deshabilitado hasta completar los campos requeridos. La edición muestra
+los mismos campos pre-poblados con el botón "Guardar Cambios".
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img width="200" alt="Nuevo Paradero" src="https://github.com/user-attachments/assets/8f9a415b-b885-4b50-ba11-592464ed39b5" />
+        <br><em>Crear paradero</em>
+      </td>
+      <td align="center">
+        <img width="200" alt="Editar Paradero" src="https://github.com/user-attachments/assets/e1410042-d7e5-4958-9706-1a2cb1ddcbc0" />
+        <br><em>Editar paradero</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+###### Rutas
+
+**Lista de rutas y estado vacío**
+Pantallas del módulo de Rutas: tarjetas horizontales que muestran foto del
+paradero de origen (izquierda) y destino (derecha) con flechas de intercambio
+al centro, toggle de "Estado Operativo" y tres chips informativos de duración,
+frecuencia y tarifa. El estado vacío mantiene el encabezado con badge
+"0 Rutas Activas" y llamada a la acción central.
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img width="200" alt="Gestión de Rutas (Vacío)" src="https://github.com/user-attachments/assets/6a37d6a1-f698-4b76-bd87-d7fe9e18612a" />
+        <br><em>Rutas - Estado vacío</em>
+      </td>
+      <td align="center">
+        <img width="200" alt="Rutas" src="https://github.com/user-attachments/assets/093dfa15-821f-4f73-83c9-1d6f56ba29fe" />
+        <br><em>Rutas - Lista</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+**Creación de ruta**
+Flujo en modal: dropdowns para origen y destino, e inputs
+numéricos para duración (min), frecuencia (min) y precio (S/). El botón
+"Continuar →" en verde se habilita solo al completar todos los campos.
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img width="200" alt="Nueva Ruta" src="https://github.com/user-attachments/assets/2dda6fe9-d93e-47a4-9dec-31a6a0acfa22" />
+        <br><em>Crear ruta</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+###### Perfil de Empresa
+
+**Información y datos de la empresa**
+Pantalla de gestión del perfil empresarial: formulario con campos marcados como
+requeridos (*) para nombre, RUC, teléfono, correo, dirección principal y textarea
+de descripción, pre-poblados con datos de ejemplo ("Transportes Rápidos S.A.C.",
+RUC 20234567891). Botones "Cancelar" (outlined blanco) y "Guardar Información"
+(azul sólido #478BFF) en fila inferior.
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img width="200" alt="Información de la Empresa" src="https://github.com/user-attachments/assets/bc061d67-d55e-4e7b-890a-b200fde1732f" />
+        <br><em>Información de empresa</em>
+      </td>
+    </tr>
+  </table>
+</div>
 
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
 
