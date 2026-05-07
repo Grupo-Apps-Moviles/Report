@@ -266,6 +266,13 @@
       - [3.1.3.2. Landing Page Mock-up](#3132-landing-page-mock-up)
     - [3.1.4. Mobile Applications UX/UI Design](#314-mobile-applications-uxui-design)
       - [3.1.4.1. Mobile Applications Wireframes](#3141-mobile-applications-wireframes)
+        - [Principios aplicados](#principios-aplicados)
+        - [Segmento Objetivo de Transportistas](#segmento-objetivo-de-transportistas)
+          - [Autenticación y Onboarding](#autenticación-y-onboarding)
+          - [Dashboard](#dashboard)
+          - [Paraderos](#paraderos)
+          - [Rutas](#rutas)
+          - [Perfil de Empresa](#perfil-de-empresa)
       - [3.1.4.2. Mobile Applications Wireflow Diagrams](#3142-mobile-applications-wireflow-diagrams)
       - [3.1.4.3. Mobile Applications Mock-ups](#3143-mobile-applications-mock-ups)
       - [3.1.4.4. Mobile Applications User Flow Diagrams](#3144-mobile-applications-user-flow-diagrams)
@@ -3027,7 +3034,127 @@ Figura 41. Diagrama de base de datos del Bounded Context Routes - WayPass
 
 #### 3.1.4.1. Mobile Applications Wireframes
 
-> *(Sección pendiente de desarrollo)*
+Los siguientes wireframes corresponden a la aplicación móvil Android de WayPass, diseñada para el segmento de gestores de empresas de transporte colectivo en Perú.
+
+##### Principios aplicados
+
+- **Jerarquía funcional clara:**
+  El flujo de navegación prioriza las acciones más relevantes para el gestor de
+  transporte, como la creación y gestión de paraderos, configuración de rutas y
+  horarios, y el monitoreo de indicadores clave desde el dashboard principal.
+
+- **Consistencia y patrones de diseño:**
+  Todos los componentes mantienen uniformidad visual e interactiva. Se aplica una
+  paleta de color coherente basada en el color primario #7A78FF (morado), tipografía
+  Poppins y el sistema de tarjetas elevadas de Material Design 3, asegurando
+  coherencia entre pantallas y módulos.
+
+- **Diseño inclusivo y accesibilidad:**
+  Se aplicaron contrastes adecuados entre fondo y texto, botones de tamaño óptimo
+  para interacción táctil, etiquetas descriptivas en todos los campos de formulario,
+  y mensajes de error claros y específicos para guiar al usuario durante la validación
+  de datos.
+
+- **Arquitectura de información enfocada al flujo de tareas:**
+  La estructura prioriza la eficiencia operativa del gestor, permitiendo registrar
+  paraderos, crear rutas con horarios semanales y consultar métricas clave en el
+  menor número de pasos posible. La barra de navegación inferior mantiene acceso
+  permanente a las tres secciones principales: Inicio, Paraderos y Rutas.
+
+- **Flujo progresivo en formularios complejos:**
+  La creación de rutas se divide en dos pasos secuenciales (datos de la ruta y
+  configuración de horarios), reduciendo la carga cognitiva del usuario y permitiendo
+  validaciones intermedias antes de confirmar.
+
+##### Segmento Objetivo de Transportistas
+
+###### Autenticación y Onboarding
+
+**Login y Registro**
+Pantallas de acceso a la plataforma: permite al gestor iniciar sesión con correo
+y contraseña, o registrarse seleccionando el rol de Transportista.
+
+<div align="center">
+  <img src="../Report/images/wireframes/1login.png" width="200px"/>
+  <img src="../Report/images/wireframes/2register.png" width="200px"/>
+</div>
+
+**Configuración inicial de empresa**
+Pantalla de onboarding: se muestra únicamente en el primer inicio de sesión,
+solicitando el nombre y logo de la empresa de transporte.
+
+<div align="center">
+  <img src="../Report/images/wireframes/3setupCompany.png" width="200px"/>
+</div>
+
+###### Dashboard
+
+**Panel principal con métricas clave**
+Pantalla de inicio para el gestor: muestra 4 KPIs (tarifa promedio, total de
+paraderos, total de rutas e intervalo promedio), los planes de suscripción
+disponibles y acceso directo a la información de la empresa.
+
+<div align="center">
+  <img src="../Report/images/wireframes/4dashboard.png" width="200px"/>
+  <img src="../Report/images/wireframes/5dashboard.png" width="200px"/>
+</div>
+
+
+###### Paraderos
+
+**Lista de paraderos y estado vacío**
+Pantallas del módulo de Paraderos: muestra el listado de paraderos registrados
+con su dirección, referencia y acciones rápidas (ver ubicación, editar, eliminar).
+Incluye el estado vacío con llamada a la acción para crear el primer paradero.
+
+<div align="center">
+  <img src="../Report/images/wireframes/7paraderosVacio.png" width="200px"/>  
+  <img src="../Report/images/wireframes/9paraderosLista.png" width="200px"/>
+</div>
+
+
+**Formulario de creación y edición de paraderos**
+Pantallas del flujo de gestión de paraderos: formulario con campos de nombre,
+teléfono, dirección, referencia, distrito (selector en cascada región-provincia-distrito)
+y carga opcional de imagen. Se presenta como bottom sheet modal.
+
+<div align="center">
+  <img src="../Report/images/wireframes/8paraderosCrear.png" width="200px"/>
+  <img src="../Report/images/wireframes/10paraderosEditar.png" width="200px"/>
+</div>
+
+
+###### Rutas
+
+**Lista de rutas y estado vacío**
+Pantallas del módulo de Rutas: muestra las rutas registradas en tarjetas
+horizontales con paradero de origen y destino, duración, frecuencia y tarifa.
+Incluye el estado vacío con llamada a la acción para crear la primera ruta.
+
+<div align="center">
+  <img src="../Report/images/wireframes/11rutasVacio.png" width="200px"/>
+  <img src="../Report/images/wireframes/13rutasLista.png" width="200px"/>
+</div>
+
+**Creación de ruta - Paso 1: Datos generales**
+Primera etapa del flujo de creación de rutas: selección de paradero de origen
+y destino, ingreso de duración en minutos, precio en soles y frecuencia de salida.
+
+<div align="center">
+  <img src="../Report/images/wireframes/12rutasCrear.png" width="200px"/>
+</div>
+
+###### Perfil de Empresa
+
+**Información y datos de la empresa**
+Pantalla de gestión del perfil empresarial: formulario con nombre, RUC, teléfono,
+correo electrónico, dirección y descripción de la empresa. Permite mantener
+actualizada la información visible para los pasajeros en la plataforma.
+
+<div align="center">
+  <img src="../Report/images/wireframes/6datosGenerales.png" width="200px"/>
+</div>
+
 
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
 
