@@ -3075,8 +3075,8 @@ Pantallas de acceso a la plataforma: permite al gestor iniciar sesión con corre
 y contraseña, o registrarse seleccionando el rol de Transportista.
 
 <div align="center">
-  <img src="../Report/images/wireframes/1login.png" width="200px"/>
-  <img src="../Report/images/wireframes/2register.png" width="200px"/>
+  <img src="../images/wireframes/1login.png" width="200px"/>
+  <img src="../images/wireframes/2register.png" width="200px"/>
 </div>
 
 **Configuración inicial de empresa**
@@ -3084,7 +3084,7 @@ Pantalla de onboarding: se muestra únicamente en el primer inicio de sesión,
 solicitando el nombre y logo de la empresa de transporte.
 
 <div align="center">
-  <img src="../Report/images/wireframes/3setupCompany.png" width="200px"/>
+  <img src="../images/wireframes/3setupCompany.png" width="200px"/>
 </div>
 
 ###### Dashboard
@@ -3095,8 +3095,8 @@ paraderos, total de rutas e intervalo promedio), los planes de suscripción
 disponibles y acceso directo a la información de la empresa.
 
 <div align="center">
-  <img src="../Report/images/wireframes/4dashboard.png" width="200px"/>
-  <img src="../Report/images/wireframes/5dashboard.png" width="200px"/>
+  <img src="../images/wireframes/4dashboard.png" width="200px"/>
+  <img src="../images/wireframes/5dashboard.png" width="200px"/>
 </div>
 
 
@@ -3108,8 +3108,8 @@ con su dirección, referencia y acciones rápidas (ver ubicación, editar, elimi
 Incluye el estado vacío con llamada a la acción para crear el primer paradero.
 
 <div align="center">
-  <img src="../Report/images/wireframes/7paraderosVacio.png" width="200px"/>  
-  <img src="../Report/images/wireframes/9paraderosLista.png" width="200px"/>
+  <img src="../images/wireframes/7paraderosVacio.png" width="200px"/>  
+  <img src="../images/wireframes/9paraderosLista.png" width="200px"/>
 </div>
 
 
@@ -3119,8 +3119,8 @@ teléfono, dirección, referencia, distrito (selector en cascada región-provinc
 y carga opcional de imagen. Se presenta como bottom sheet modal.
 
 <div align="center">
-  <img src="../Report/images/wireframes/8paraderosCrear.png" width="200px"/>
-  <img src="../Report/images/wireframes/10paraderosEditar.png" width="200px"/>
+  <img src="../images/wireframes/8paraderosCrear.png" width="200px"/>
+  <img src="../images/wireframes/10paraderosEditar.png" width="200px"/>
 </div>
 
 
@@ -3132,8 +3132,8 @@ horizontales con paradero de origen y destino, duración, frecuencia y tarifa.
 Incluye el estado vacío con llamada a la acción para crear la primera ruta.
 
 <div align="center">
-  <img src="../Report/images/wireframes/11rutasVacio.png" width="200px"/>
-  <img src="../Report/images/wireframes/13rutasLista.png" width="200px"/>
+  <img src="../images/wireframes/11rutasVacio.png" width="200px"/>
+  <img src="../images/wireframes/13rutasLista.png" width="200px"/>
 </div>
 
 **Creación de ruta - Paso 1: Datos generales**
@@ -3141,7 +3141,7 @@ Primera etapa del flujo de creación de rutas: selección de paradero de origen
 y destino, ingreso de duración en minutos, precio en soles y frecuencia de salida.
 
 <div align="center">
-  <img src="../Report/images/wireframes/12rutasCrear.png" width="200px"/>
+  <img src="../images/wireframes/12rutasCrear.png" width="200px"/>
 </div>
 
 ###### Perfil de Empresa
@@ -3152,7 +3152,7 @@ correo electrónico, dirección y descripción de la empresa. Permite mantener
 actualizada la información visible para los pasajeros en la plataforma.
 
 <div align="center">
-  <img src="../Report/images/wireframes/6datosGenerales.png" width="200px"/>
+  <img src="../images/wireframes/6datosGenerales.png" width="200px"/>
 </div>
 
 
