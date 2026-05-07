@@ -274,7 +274,15 @@
           - [Rutas](#rutas)
           - [Perfil de Empresa](#perfil-de-empresa)
       - [3.1.4.2. Mobile Applications Wireflow Diagrams](#3142-mobile-applications-wireflow-diagrams)
+        - [Segmento Objetivo de Transportistas](#segmento-objetivo-de-transportistas-1)
       - [3.1.4.3. Mobile Applications Mock-ups](#3143-mobile-applications-mock-ups)
+        - [Design System aplicado](#design-system-aplicado)
+        - [Segmento Objetivo de Transportistas](#segmento-objetivo-de-transportistas-2)
+          - [Autenticación y Onboarding](#autenticación-y-onboarding-1)
+          - [Dashboard](#dashboard-1)
+          - [Paraderos](#paraderos-1)
+          - [Rutas](#rutas-1)
+          - [Perfil de Empresa](#perfil-de-empresa-1)
       - [3.1.4.4. Mobile Applications User Flow Diagrams](#3144-mobile-applications-user-flow-diagrams)
       - [3.1.4.5. Mobile Applications Prototyping](#3145-mobile-applications-prototyping)
 - [Capítulo IV: Product Implementation \& Validation](#capítulo-iv-product-implementation--validation)
@@ -3229,7 +3237,217 @@ actualizada la información visible para los pasajeros en la plataforma.
 
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
 
-> *(Sección pendiente de desarrollo)*
+Cada Wireflow Diagram representa el recorrido visual e interactivo que realiza
+el gestor de transporte dentro de WayPass para cumplir un objetivo específico
+(User Goal). En cada flujo se detalla la secuencia de pantallas y acciones que
+permiten alcanzar dicho propósito, desde la navegación inicial hasta la
+confirmación de la tarea completada.
+
+##### Segmento Objetivo de Transportistas
+
+---
+
+**UG-01 — Autenticación y registro en la plataforma**
+
+El flujo muestra cómo el gestor accede a la pantalla de login, ingresa sus
+credenciales y, si no tiene cuenta, navega al registro seleccionando el rol
+"Transportista". El proceso concluye al iniciar sesión correctamente y ser
+redirigido al dashboard principal.
+
+Pantallas involucradas: **Login → Registro → Onboarding de empresa → Dashboard**
+
+Acciones clave: *Ingresar credenciales → Pulsar "Ingresar →"* /
+*Pulsar "Crear Cuenta" → Seleccionar chip "Transportista" → Pulsar "Registrarse"*
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img width="700" alt="wf01" src="https://github.com/user-attachments/assets/REEMPLAZAR" />
+        <br><em>WF-01: Autenticación y registro</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+**UG-02 — Configuración inicial de la empresa**
+
+El diagrama evidencia el onboarding del transportista al ingresar por primera
+vez: carga el logo empresarial, registra el nombre de la empresa y confirma
+para acceder al panel principal. Este paso es obligatorio y no repetible en
+sesiones posteriores.
+
+Pantallas involucradas: **Onboarding → Dashboard**
+
+Acciones clave: *Subir logo → Ingresar nombre de empresa → Pulsar "Continuar →"*
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img width="700" alt="wf02" src="https://github.com/user-attachments/assets/REEMPLAZAR" />
+        <br><em>WF-02: Configuración inicial de empresa</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+**UG-03 — Consulta del panel de indicadores**
+
+El gestor accede al dashboard para revisar los 4 KPIs clave (tarifa promedio,
+total de paraderos, total de rutas e intervalo promedio), los planes de
+suscripción disponibles y el acceso directo a la información de su empresa.
+
+Pantallas involucradas: **Dashboard (scroll completo)**
+
+Acciones clave: *Iniciar sesión → Visualizar KPIs → Revisar planes →
+Pulsar "Editar información de Empresa"*
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img width="700" alt="wf03" src="https://github.com/user-attachments/assets/REEMPLAZAR" />
+        <br><em>WF-03: Consulta del panel de indicadores</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+**UG-04 — Registro de un nuevo paradero**
+
+El flujo detalla cómo el gestor navega al módulo de Paraderos, abre el
+formulario de creación mediante el botón "+ Nuevo Paradero", completa los
+campos requeridos (nombre, dirección, referencia, distrito e imagen) y confirma
+el registro. El nuevo paradero aparece en la lista y el badge de conteo
+se actualiza.
+
+Pantallas involucradas: **Paraderos (estado vacío o lista) → Formulario Crear
+Paradero → Paraderos (lista actualizada)**
+
+Acciones clave: *Pulsar "+ Nuevo Paradero" → Completar campos →
+Pulsar "Crear"*
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img width="700" alt="wf04" src="https://github.com/user-attachments/assets/REEMPLAZAR" />
+        <br><em>WF-04: Registro de nuevo paradero</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+**UG-05 — Edición de un paradero existente**
+
+El diagrama muestra cómo el gestor selecciona el ícono de edición en una
+tarjeta de paradero, modifica los datos en el bottom sheet pre-poblado y
+guarda los cambios. El sistema actualiza la tarjeta con la información nueva.
+
+Pantallas involucradas: **Paraderos (lista) → Formulario Editar Paradero →
+Paraderos (lista actualizada)**
+
+Acciones clave: *Pulsar ícono lápiz → Modificar campos pre-poblados →
+Pulsar "Guardar Cambios"*
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img width="700" alt="wf05" src="https://github.com/user-attachments/assets/REEMPLAZAR" />
+        <br><em>WF-05: Edición de paradero existente</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+**UG-06 — Eliminación de un paradero**
+
+El gestor pulsa el ícono de eliminar en una tarjeta de paradero, confirma la
+acción en el diálogo de advertencia y el paradero es removido de la lista.
+Si era el último paradero registrado, el sistema muestra el estado vacío con
+la llamada a la acción para crear uno nuevo.
+
+Pantallas involucradas: **Paraderos (lista) → Diálogo de confirmación →
+Paraderos (lista actualizada o estado vacío)**
+
+Acciones clave: *Pulsar ícono basura → Confirmar eliminación →
+Lista actualizada / Estado vacío*
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img width="700" alt="wf06" src="https://github.com/user-attachments/assets/REEMPLAZAR" />
+        <br><em>WF-06: Eliminación de paradero</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+**UG-07 — Creación de una nueva ruta**
+
+El flujo evidencia el proceso de dos pasos para crear una ruta: primero el
+gestor selecciona paradero de origen y destino e ingresa duración, frecuencia
+y precio; luego configura los días y horarios de operación semanal. El sistema
+valida que la hora de inicio sea menor que la de fin antes de permitir guardar.
+
+Pantallas involucradas: **Rutas (estado vacío o lista) → Crear Ruta Paso 1 →
+Crear Ruta Paso 2 (Horarios) → Rutas (lista actualizada)**
+
+Acciones clave: *Pulsar "+ Nueva ruta" → Seleccionar paraderos → Ingresar
+datos → Pulsar "Continuar →" → Activar días → Configurar horarios →
+Pulsar "Guardar y salir"*
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img width="700" alt="wf07" src="https://github.com/user-attachments/assets/REEMPLAZAR" />
+        <br><em>WF-07: Creación de nueva ruta</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+**UG-08 — Actualización de información de la empresa**
+
+El gestor accede a "Editar información de Empresa" desde el dashboard o
+desde el módulo correspondiente, modifica los campos necesarios (nombre,
+RUC, teléfono, correo, dirección, descripción) y guarda los cambios con
+el botón "Guardar Información".
+
+Pantallas involucradas: **Dashboard → Información de Empresa →
+Dashboard (con datos actualizados)**
+
+Acciones clave: *Pulsar "Editar información de Empresa" → Modificar campos →
+Pulsar "Guardar Información"* / *Pulsar "Cancelar" → Regresar sin cambios*
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img width="700" alt="wf09" src="https://github.com/user-attachments/assets/REEMPLAZAR" />
+        <br><em>WF-08: Actualización de información de empresa</em>
+      </td>
+    </tr>
+  </table>
+</div>
 
 #### 3.1.4.3. Mobile Applications Mock-ups
 
