@@ -3140,7 +3140,174 @@ Figura 41. Diagrama de base de datos del Bounded Context Routes - WayPass
 
 ### 4.1.2. Source Code Management
 
-> *(Sección pendiente de desarrollo)*
+<h4>Repositorios del Proyecto</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Producto</th>
+      <th>URL del Repositorio</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Organización</td>
+      <td><a href="https://github.com/Grupo-Apps-Moviles">https://github.com/Grupo-Apps-Moviles</a></td>
+    </tr>
+    <tr>
+      <td>Landing Page</td>
+      <td><a href="https://github.com/Grupo-Apps-Moviles/landing-page">https://github.com/Grupo-Apps-Moviles/landing-page</a></td>
+    </tr>
+    <tr>
+      <td>Android Mobile Application</td>
+      <td><a href="https://github.com/Grupo-Apps-Moviles/Android">https://github.com/Grupo-Apps-Moviles/Android</a></td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td><a href="https://github.com/Grupo-Apps-Moviles/Backend">https://github.com/Grupo-Apps-Moviles/Backend</a></td>
+    </tr>
+    <tr>
+      <td>Project Report</td>
+      <td><a href="https://github.com/Grupo-Apps-Moviles/Report">https://github.com/Grupo-Apps-Moviles/Report</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>GitFlow Workflow</h4>
+
+<p><strong>Estructura de Ramas:</strong></p>
+
+<ul>
+  <li>
+    <strong>main:</strong> Rama principal del repositorio que almacena las versiones finales y estables del proyecto listas para su despliegue.
+  </li>
+  <li>
+    <strong>develop:</strong> Rama destinada a la integración de funcionalidades desarrolladas y validadas por el equipo. Se utiliza como entorno base para preparar nuevas versiones antes de su publicación.
+  </li>
+    <li>
+    <strong>feature/&lt;feature-name&gt;:</strong> Ramas generadas desde develop para desarrollar nuevas funcionalidades o mejoras. Una vez finalizada y revisada la implementación, los cambios se integran nuevamente en la rama develop.
+  </li>
+</ul>
+
+<h4>Convenciones de Nomenclatura para Ramas</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tipo de Rama</th>
+      <th>Formato</th>
+      <th>Ejemplo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Feature</td>
+      <td><code>feature/&lt;bounded-context&gt;-&lt;feature-description&gt;</code></td>
+      <td><code>feature/login</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>Conventional Commits</h4>
+
+<pre><code>&lt;type&gt;[optional scope]: &lt;description&gt;
+
+[optional body]
+
+[optional footer(s)]
+</code></pre>
+
+<p><strong>Tipos de Commit:</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tipo</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>feat</code></td>
+      <td>Añadir una nueva característica.</td>
+    </tr>
+    <tr>
+      <td><code>fix</code></td>
+      <td>Correción de errores</td>
+    </tr>
+    <tr>
+      <td><code>docs</code></td>
+      <td>Modificaciones en la documentación.</td>
+    </tr>
+    <tr>
+      <td><code>style</code></td>
+      <td>Cambios de formato (espacios, comas, etc.) que no afectan la lógica del código.</td>
+    </tr>
+    <tr>
+      <td><code>refactor</code></td>
+      <td>Modificaciones que no añaden características y/o errores.</td>
+    </tr>
+    <tr>
+      <td><code>perf</code></td>
+      <td>Mejoras de rendimiento</td>
+    </tr>
+    <tr>
+      <td><code>test</code></td>
+      <td>Adición o corrección de pruebas</td>
+    </tr>
+    <tr>
+      <td><code>build</code></td>
+      <td>Cambios en sistema de build o dependencias externas</td>
+    </tr>
+    <tr>
+      <td><code>chore</code></td>
+      <td>Tareas de mantenimiento sin afectar código de producción</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Ejemplos de Commits:</strong></p>
+
+<pre><code>feat(auth): add register functionality.
+fix(payment): resolve payment security issue.
+docs(README): update index instructions.
+</code></pre>
+
+<h4>Semantic Versioning</h4>
+<p>
+  Para el control de versiones del proyecto se emplea Semantic Versioning 2.0.0, utilizando la estructura <code>MAJOR.MINOR.PATCH</code> para identificar los cambios realizados en cada release.
+</p>
+
+<ul>
+  <li><strong>MAJOR:</strong> Cambios importantes que generan incompatibilidad con versiones anteriores del sistema.</li>
+  <li><strong>MINOR:</strong> Incorporación de nuevas funcionalidades manteniendo compatibilidad con versiones previas.</li>
+  <li><strong>PATCH:</strong> Corrección de errores y mejoras menores sin afectar la compatibilidad existente.</li>
+</ul>
+
+<p><strong>Ejemplo de evolución de versiones:</strong></p>
+
+<ul>
+  <li><code>1.0.0</code> → Primera versión funcional y estable del proyecto.</li>
+  <li><code>1.1.0</code> → Integración de una nueva característica o módulo.</li>
+  <li><code>1.1.1</code> → Solución de errores detectados en la versión anterior.</li>
+  <li><code>2.0.0</code> → Actualización con cambios significativos e incompatibles.</li>
+</ul>
+
+<h4>Configuración de GitHub en Android Studio</h4>
+
+<p>Pasos para vincular Android Studio con GitHub:</p>
+
+<ol>
+  <li>Abrir Android Studio y seleccionar <strong>VCS &gt; Enable Version Control Integration</strong>, luego elegir Git.</li>
+
+  <li>Ingresar a <strong>File &gt; Settings &gt; Version Control &gt; GitHub</strong> y agregar la cuenta de GitHub para sincronizar el proyecto.</li>
+
+  <li>Verificar la configuración de Git desde <strong>File &gt; Settings &gt; Version Control &gt; Git</strong>, asegurando que la ruta de Git esté correctamente configurada.</li>
+
+  <li>Conectar el proyecto con el repositorio remoto mediante <strong>Git &gt; Manage Remotes</strong>, agregando la URL correspondiente del repositorio en GitHub.</li>
+
+  <li>Realizar commits utilizando <strong>Ctrl+K</strong> y enviar cambios al repositorio remoto con <strong>Ctrl+Shift+K</strong>.</li>
+</ol>
 
 ### 4.1.3. Source Code Style Guide & Conventions
 
