@@ -3051,7 +3051,92 @@ Figura 41. Diagrama de base de datos del Bounded Context Routes - WayPass
 
 ### 4.1.1. Software Development Environment Configuration
 
-> *(Sección pendiente de desarrollo)*
+<h4>Project Management</h4>
+<ul>
+  <li>
+    <strong>Jira:</strong> Plataforma de gestión de proyectos ágiles utilizada para la administración del Product Backlog, planificación de Sprints, asignación de User Stories y Tasks a los miembros del equipo, y seguimiento del progreso mediante tableros Scrum con estados To-Do, In-Process, To-Review y Done. <br>
+    <strong>Ruta de referencia:</strong> <a href="https://www.atlassian.com/software/jira">https://www.atlassian.com/software/jira</a>
+  </li>
+    <li>
+    <strong>WhatsApp:</strong> Herramienta de comunicación instantánea utilizada para coordinar actividades del equipo, resolver dudas rápidas, compartir avances y mantener una comunicación constante durante el desarrollo del proyecto. <br>
+    <strong>Ruta de referencia:</strong> 
+    <a href="https://web.whatsapp.com/">https://web.whatsapp.com/</a>
+  </li>
+</ul>
+
+<h4>Requirements Management:</h4>
+<ul>
+  <li>
+    <strong>Trello:</strong> Plataforma de gestión visual basada en tableros, listas y tarjetas, utilizada para la organización del Sprint Backlog, gestión de User Stories por estado (To-Do, In-Progress, Done) y colaboración del equipo en la priorización de requisitos del proyecto Veyra. <br>
+    <strong>Ruta de referencia:</strong> <a href="https://trello.com">https://trello.com</a>
+  </li>
+</ul>
+
+<h4>Product UX/UI Design</h4>
+<ul>
+  <li>
+    <strong>UXPressia:</strong> Plataforma para la elaboración de User Personas, Empathy Maps, Customer Journey Maps e Impact Maps de los segmentos objetivo del proyecto Veyra (Administradores de casas de reposo y Familiares de adultos mayores). <br>
+    <strong>Ruta de referencia:</strong> <a href="https://uxpressia.com/">https://uxpressia.com/</a>
+  </li>
+  <li>
+    <strong>Miro:</strong> Pizarra digital colaborativa utilizada para sesiones de Big Picture EventStorming y Design-Level EventStorming, facilitando la identificación de Bounded Contexts, Events, Commands y Aggregates del dominio Veyra. <br>
+    <strong>Ruta de referencia:</strong> <a href="https://miro.com/es/">https://miro.com/es/</a>
+  </li>
+  <li>
+    <strong>Figma:</strong> Herramienta de diseño colaborativo para la creación de Wireframes, Mock-ups y Prototipos interactivos del Landing Page y Web Applications de Veyra, aplicando el Design System basado en Material Design. <br>
+    <strong>Ruta de referencia:</strong> <a href="https://www.figma.com/es-es/">https://www.figma.com/es-es/</a>
+  </li>
+</ul>
+
+<h4>Software Development:</h4>
+  <ul>
+  <li>
+    <strong>WebStorm (Instalación local):</strong> Entorno de desarrollo utilizado para implementar y editar la interfaz de usuario del proyecto mediante HTML, CSS y JavaScript, facilitando la organización del código y la integración con GitHub. <br>
+    <strong>Ruta de referencia:</strong> 
+    <a href="https://www.jetbrains.com/es-es/webstorm/">https://www.jetbrains.com/es-es/webstorm/</a>
+  </li>
+
+  <li>
+    <strong>Android Studio (Instalación local):</strong> IDE utilizado para el desarrollo de la aplicación móvil Android, empleando Kotlin y Jetpack Compose para la creación de interfaces modernas y funcionalidades nativas del dispositivo móvil. <br>
+    <strong>Ruta de referencia:</strong> 
+    <a href="https://developer.android.com/studio?hl=es-419">https://developer.android.com/studio?hl=es-419</a>
+  </li>
+
+  <li>
+    <strong>Rider (Instalación local):</strong> Entorno de desarrollo integrado utilizado para la implementación y mantenimiento del backend de la aplicación, permitiendo desarrollar y administrar la lógica del sistema de manera eficiente. <br>
+    <strong>Ruta de referencia:</strong> 
+    <a href="https://www.jetbrains.com/es-es/rider">https://www.jetbrains.com/es-es/rider</a>
+  </li>
+
+  <li>
+    <strong>Git (Instalación local):</strong> Sistema de control de versiones utilizado para gestionar cambios en el código fuente mediante commits y ramas, facilitando el trabajo colaborativo y el control de versiones durante el desarrollo del proyecto. <br>
+    <strong>Ruta de referencia:</strong> 
+    <a href="https://git-scm.com/">https://git-scm.com/</a>
+  </li>
+
+  <li>
+    <strong>GitHub:</strong> Plataforma de repositorios remotos utilizada para almacenar, compartir y gestionar el código fuente del proyecto, implementando el flujo de trabajo GitFlow para mantener un desarrollo organizado y colaborativo entre los integrantes del equipo. <br>
+    <strong>Ruta de referencia:</strong> 
+    <a href="https://github.com/">https://github.com/</a>
+  </li>
+</ul>
+
+
+<h4>Software Testing:</h4>
+<ul>
+  <li>
+    <strong>Lenguaje Gherkin:</strong> Lenguaje de dominio específico (DSL) para la redacción de Acceptance Criteria de User Stories en formato estructurado Given-When-Then. Permite definir escenarios de prueba legibles por stakeholders y ejecutables por herramientas de automatización. Los keywords principales son: Feature, Scenario, Given, When, Then, And, But. <br>
+    <strong>Ruta de referencia:</strong> <a href="https://cucumber.io/docs/gherkin/">https://cucumber.io/docs/gherkin/</a>
+  </li>
+</ul>
+
+<h4>Software Documentation</h4>
+<ul>
+  <li>
+    <strong>Markdown:</strong> Lenguaje de marcado ligero para la elaboración del Project Report en el repositorio GitHub. Permite estructurar documentación con formato consistente y compatible con control de versiones. <br>
+    <strong>Ruta de referencia:</strong> <a href="https://www.markdownguide.org/">https://www.markdownguide.org/</a>
+  </li>
+</ul>
 
 ### 4.1.2. Source Code Management
 
