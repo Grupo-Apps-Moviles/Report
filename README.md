@@ -3075,8 +3075,18 @@ Pantallas de acceso a la plataforma: permite al gestor iniciar sesión con corre
 y contraseña, o registrarse seleccionando el rol de Transportista.
 
 <div align="center">
-  <img src="../images/wireframes/1login.png" width="200px"/>
-  <img src="../images/wireframes/2register.png" width="200px"/>
+  <table>
+    <tr>
+      <td align="center">
+        <img width="200" alt="1login" src="https://github.com/user-attachments/assets/c2cb9e92-3493-4a28-a8fb-5e66e9fd9291" />
+        <br><em>Login</em>
+      </td>
+      <td align="center">
+        <img width="200" alt="2register" src="https://github.com/user-attachments/assets/2c3ba587-c33d-41e2-acb3-37f2693e4a6c" />
+        <br><em>Registro</em>
+      </td>
+    </tr>
+  </table>
 </div>
 
 **Configuración inicial de empresa**
@@ -3084,7 +3094,14 @@ Pantalla de onboarding: se muestra únicamente en el primer inicio de sesión,
 solicitando el nombre y logo de la empresa de transporte.
 
 <div align="center">
-  <img src="../images/wireframes/3setupCompany.png" width="200px"/>
+  <table>
+    <tr>
+      <td align="center">
+        <img width="200" alt="3setupCompany" src="https://github.com/user-attachments/assets/5894910c-2926-4c3c-a482-22570d58d2c3" />
+        <br><em>Onboarding de empresa</em>
+      </td>
+    </tr>
+  </table>
 </div>
 
 ###### Dashboard
@@ -3095,10 +3112,19 @@ paraderos, total de rutas e intervalo promedio), los planes de suscripción
 disponibles y acceso directo a la información de la empresa.
 
 <div align="center">
-  <img src="../images/wireframes/4dashboard.png" width="200px"/>
-  <img src="../images/wireframes/5dashboard.png" width="200px"/>
+  <table>
+    <tr>
+      <td align="center">
+        <img width="200" alt="4dashboard" src="https://github.com/user-attachments/assets/1807df11-1f81-4d8c-b7f2-820241daf9b2" />
+        <br><em>Dashboard - KPIs y planes</em>
+      </td>
+      <td align="center">
+        <img width="200" alt="5dashboard" src="https://github.com/user-attachments/assets/7d17ead2-acb7-46a7-b80a-6a527cafe6cb" />
+        <br><em>Dashboard - Información empresa</em>
+      </td>
+    </tr>
+  </table>
 </div>
-
 
 ###### Paraderos
 
@@ -3108,10 +3134,19 @@ con su dirección, referencia y acciones rápidas (ver ubicación, editar, elimi
 Incluye el estado vacío con llamada a la acción para crear el primer paradero.
 
 <div align="center">
-  <img src="../images/wireframes/7paraderosVacio.png" width="200px"/>  
-  <img src="../images/wireframes/9paraderosLista.png" width="200px"/>
+  <table>
+    <tr>
+      <td align="center">
+        <img width="200" alt="7paraderosVacio" src="https://github.com/user-attachments/assets/1bcde8ca-c917-48c5-812c-c7823a8687e9" />
+        <br><em>Paraderos - Estado vacío</em>
+      </td>
+      <td align="center">
+        <img width="200" alt="9paraderosLista" src="https://github.com/user-attachments/assets/75b11e15-8a6b-49c7-99e4-7338a6e2079f" />
+        <br><em>Paraderos - Lista</em>
+      </td>
+    </tr>
+  </table>
 </div>
-
 
 **Formulario de creación y edición de paraderos**
 Pantallas del flujo de gestión de paraderos: formulario con campos de nombre,
@@ -3119,10 +3154,19 @@ teléfono, dirección, referencia, distrito (selector en cascada región-provinc
 y carga opcional de imagen. Se presenta como bottom sheet modal.
 
 <div align="center">
-  <img src="../images/wireframes/8paraderosCrear.png" width="200px"/>
-  <img src="../images/wireframes/10paraderosEditar.png" width="200px"/>
+  <table>
+    <tr>
+      <td align="center">
+        <img width="200" alt="8paraderosCrear" src="https://github.com/user-attachments/assets/65c8811b-a12f-4c47-8e84-6ac07395285f" />
+        <br><em>Crear paradero</em>
+      </td>
+      <td align="center">
+        <img width="200" alt="10paraderosEditar" src="https://github.com/user-attachments/assets/89aee1b6-3a8d-480b-9d82-96de5b378fd1" />
+        <br><em>Editar paradero</em>
+      </td>
+    </tr>
+  </table>
 </div>
-
 
 ###### Rutas
 
@@ -3132,16 +3176,34 @@ horizontales con paradero de origen y destino, duración, frecuencia y tarifa.
 Incluye el estado vacío con llamada a la acción para crear la primera ruta.
 
 <div align="center">
-  <img src="../images/wireframes/11rutasVacio.png" width="200px"/>
-  <img src="../images/wireframes/13rutasLista.png" width="200px"/>
+  <table>
+    <tr>
+      <td align="center">
+        <img width="200" alt="11rutasVacio" src="https://github.com/user-attachments/assets/b711cb42-f1b6-4354-bad9-f5d97813ae15" />
+        <br><em>Rutas - Estado vacío</em>
+      </td>
+      <td align="center">
+        <img width="200" alt="13rutasLista" src="https://github.com/user-attachments/assets/0ff1090c-f12f-41a3-9e7b-fdf2a148e26a" />
+        <br><em>Rutas - Lista</em>
+      </td>
+    </tr>
+  </table>
 </div>
 
-**Creación de ruta - Paso 1: Datos generales**
-Primera etapa del flujo de creación de rutas: selección de paradero de origen
-y destino, ingreso de duración en minutos, precio en soles y frecuencia de salida.
+**Creación de ruta - Paso 1 y Paso 2**
+Primera etapa: selección de paradero de origen y destino, ingreso de duración,
+precio y frecuencia. Segunda etapa: configuración de días y horarios de operación
+semanal con validaciones en tiempo real.
 
 <div align="center">
-  <img src="../images/wireframes/12rutasCrear.png" width="200px"/>
+  <table>
+    <tr>
+      <td align="center">
+        <img width="200" alt="12rutasCrear" src="https://github.com/user-attachments/assets/c1041d73-4ee6-4740-a635-bb33a515f466" />
+        <br><em>Crear ruta - Paso 1</em>
+      </td>
+    </tr>
+  </table>
 </div>
 
 ###### Perfil de Empresa
@@ -3152,9 +3214,15 @@ correo electrónico, dirección y descripción de la empresa. Permite mantener
 actualizada la información visible para los pasajeros en la plataforma.
 
 <div align="center">
-  <img src="../images/wireframes/6datosGenerales.png" width="200px"/>
+  <table>
+    <tr>
+      <td align="center">
+        <img width="200" alt="6datosGenerales" src="https://github.com/user-attachments/assets/bcefd1a3-bc1b-4605-8dc1-495e8553864f" />
+        <br><em>Información de empresa</em>
+      </td>
+    </tr>
+  </table>
 </div>
-
 
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
 
