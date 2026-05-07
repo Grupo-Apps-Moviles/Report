@@ -266,6 +266,13 @@
       - [3.1.3.2. Landing Page Mock-up](#3132-landing-page-mock-up)
     - [3.1.4. Mobile Applications UX/UI Design](#314-mobile-applications-uxui-design)
       - [3.1.4.1. Mobile Applications Wireframes](#3141-mobile-applications-wireframes)
+        - [Principios aplicados](#principios-aplicados)
+        - [Segmento Objetivo de Transportistas](#segmento-objetivo-de-transportistas)
+          - [Autenticación y Onboarding](#autenticación-y-onboarding)
+          - [Dashboard](#dashboard)
+          - [Paraderos](#paraderos)
+          - [Rutas](#rutas)
+          - [Perfil de Empresa](#perfil-de-empresa)
       - [3.1.4.2. Mobile Applications Wireflow Diagrams](#3142-mobile-applications-wireflow-diagrams)
       - [3.1.4.3. Mobile Applications Mock-ups](#3143-mobile-applications-mock-ups)
       - [3.1.4.4. Mobile Applications User Flow Diagrams](#3144-mobile-applications-user-flow-diagrams)
@@ -2989,29 +2996,109 @@ Figura 41. Diagrama de base de datos del Bounded Context Routes - WayPass
 
 #### 3.1.1.1. General Style Guidelines
 
-> *(Sección pendiente de desarrollo)*
+**Overview:**
+
+La identidad visual de WayPass busca transmitir modernidad, eficiencia y fluidez en el transporte. La marca utiliza una base de diseño limpia ("clean design") donde el protagonismo recae en un púrpura vibrante que denota tecnología y servicio premium, complementado con blancos y grises para mantener la sobriedad corporativa.
+
+**Brand Name:**
+
+WayPass
+
+**Typography:**
+
+Se utiliza la familia tipográfica Inter (o una Sans-Serif de corte moderno). Su diseño geométrico y alta legibilidad en pantallas móviles es fundamental para que los conductores y usuarios puedan leer rutas y horarios rápidamente.
+
+- Inter Bold: Para títulos de secciones y bienvenida (Ej: "¡Usuario, te damos la bienvenida!").
+
+- Inter SemiBold: Para etiquetas de botones y títulos de tarjetas.
+
+- Inter Regular: Para textos de formularios y descripciones detalladas.
+
+<img width="1408" height="768" alt="3 1 1 1 styles" src="https://github.com/user-attachments/assets/b806dc93-57cb-4fa3-88d8-601eac508618" />
+
+**Paleta de Colores (Extraída de las capturas):**
+
+- Púrpura Principal (#5145CD): Es el color de identidad. Se utiliza en botones de acción primaria (Ingresar, Registrarse, Nuevo Paradero), iconos de marca y estados activos.
+
+- Blanco (#FFFFFF): Color de fondo principal y de las tarjetas de información para maximizar la limpieza visual.
+
+- Gris de Fondo (#F4F4F9): Un tono grisáceo muy suave utilizado para diferenciar el fondo de la aplicación de los contenedores blancos.
+
+- Gris de Texto (#333333): Para títulos y textos principales, asegurando un contraste legible.
+
+- Gris Suave / Bordes (#D1D5DB): Utilizado en los bordes de los campos de entrada (inputs) y líneas divisorias.
+
+<img width="2592" height="1662" alt="paleta de colores" src="https://github.com/user-attachments/assets/f83c5be5-9f0d-4d8d-9233-9b58c496a434" />
+
+
+**Buttons:**
+
+- Estilo: Bordes redondeados (aprox. 8px) para un look moderno y amigable.
+
+- Primario: Fondo Púrpura (#5145CD) con texto en blanco. Incluye una flecha iconográfica en botones de ingreso para denotar movimiento.
+
+- Secundario / Outline: Fondo blanco con borde púrpura o gris, usado para acciones como "Cancelar" o "Integrar PayPal".
+
+
+<img width="412" height="916" alt="image" src="https://github.com/user-attachments/assets/22f930f3-7cc5-4bb4-9c8d-ff803ac9bd33" />
+
+
+<img width="1408" height="768" alt="3 1 1 1 buttons" src="https://github.com/user-attachments/assets/6ce05f64-a0c2-428f-b307-1415e359fe88" />
+
 
 ### 3.1.2. Information Architecture
 
 #### 3.1.2.1. Organization Systems
 
-> *(Sección pendiente de desarrollo)*
+WayPass organiza la información de manera Jerárquica y por Tópicos:
+
+- Estructura por Roles: El sistema diferencia claramente entre el flujo de "Pasajero" y "Transportista" desde el registro.
+
+- Organización Modular: El contenido se divide en módulos operativos: Gestión de Paraderos, Gestión de Rutas e Información de la Empresa.
+
+- Esquema Secuencial: Para procesos complejos como la creación de rutas, se utiliza un sistema de pasos (Paso 1 de 3) para no abrumar al usuario.
 
 #### 3.1.2.2. Labelling Systems
 
-> *(Sección pendiente de desarrollo)*
+El etiquetado es directo y funcional:
+
+- "Gestión de Paraderos": Para la administración de puntos de control.
+
+- "Horario de atención": Para la configuración de disponibilidad de rutas.
+
+- "Intervalo prom.": Terminología técnica pero comprensible para la frecuencia de buses.
 
 #### 3.1.2.3. SEO Tags and Meta Tags
 
-> *(Sección pendiente de desarrollo)*
+Landing Page
+
+Title: Waypass | Gestión Inteligente de Accesos y Visitantes
+
+Meta Description: La plataforma más segura y fácil para el control de visitas en edificios y condominios. Moderniza tu recepción con Waypass.
 
 #### 3.1.2.4. Searching Systems
 
-> *(Sección pendiente de desarrollo)*
+- Búsqueda por Distrito: Selector desplegable para filtrar paraderos por zona geográfica.
+
+- Filtros de Estado: Etiquetas que indican "Rutas Activas" o "Paraderos Activos" para una auditoría visual rápida.
 
 #### 3.1.2.5. Navigation Systems
 
-> *(Sección pendiente de desarrollo)*
+El sistema de navegación de WayPass busca que tanto los pasajeros como los transportistas puedan moverse por la aplicación de forma simple e intuitiva, sin necesidad de pasos complicados. La estructura está pensada para que el usuario gestione sus servicios en pocos clics y pueda cumplir su objetivo operativo con rapidez.
+
+Principales elementos de navegación
+
+- Barra de navegación inferior (Tab Bar): Incluye accesos directos a las secciones críticas de la operación diaria: Inicio, Paraderos y Rutas. Permite una transición inmediata entre la visualización global y la gestión específica.
+
+- Acciones rápidas destacadas: Un botón flotante o central (ej. "+ Nueva ruta" o "Nuevo paradero") permite iniciar los flujos de creación más importantes desde cualquier punto de su respectiva sección.
+
+- Sistema de pestañas de rol: Durante el registro y configuración, el sistema utiliza selectores claros para diferenciar la navegación según el tipo de usuario (Pasajero o Transportista), personalizando la experiencia.
+
+-Flujos de configuración secuencial: Para procesos complejos, como la creación de paraderos o rutas, se utiliza una navegación por pasos con botones de "Continuar" y "Cancelar" para evitar la pérdida de datos.
+
+- Navegación responsive: Todo el sistema de menús, botones y tarjetas se adapta a diferentes resoluciones de dispositivos móviles, garantizando que el control de la flota sea funcional en cualquier terminal táctil.
+
+La idea central es que el recorrido dentro de la aplicación sea fluido: el usuario entra, gestiona su logística de transporte sin perder tiempo y puede interactuar con las funciones de monitoreo y registro de manera natural.
 
 ### 3.1.3. Landing Page UI Design
 
@@ -3027,7 +3114,198 @@ Figura 41. Diagrama de base de datos del Bounded Context Routes - WayPass
 
 #### 3.1.4.1. Mobile Applications Wireframes
 
-> *(Sección pendiente de desarrollo)*
+Los siguientes wireframes corresponden a la aplicación móvil Android de WayPass, diseñada para el segmento de gestores de empresas de transporte colectivo en Perú.
+
+##### Principios aplicados
+
+- **Jerarquía funcional clara:**
+  El flujo de navegación prioriza las acciones más relevantes para el gestor de
+  transporte, como la creación y gestión de paraderos, configuración de rutas y
+  horarios, y el monitoreo de indicadores clave desde el dashboard principal.
+
+- **Consistencia y patrones de diseño:**
+  Todos los componentes mantienen uniformidad visual e interactiva. Se aplica una
+  paleta de color coherente basada en el color primario #7A78FF (morado), tipografía
+  Poppins y el sistema de tarjetas elevadas de Material Design 3, asegurando
+  coherencia entre pantallas y módulos.
+
+- **Diseño inclusivo y accesibilidad:**
+  Se aplicaron contrastes adecuados entre fondo y texto, botones de tamaño óptimo
+  para interacción táctil, etiquetas descriptivas en todos los campos de formulario,
+  y mensajes de error claros y específicos para guiar al usuario durante la validación
+  de datos.
+
+- **Arquitectura de información enfocada al flujo de tareas:**
+  La estructura prioriza la eficiencia operativa del gestor, permitiendo registrar
+  paraderos, crear rutas con horarios semanales y consultar métricas clave en el
+  menor número de pasos posible. La barra de navegación inferior mantiene acceso
+  permanente a las tres secciones principales: Inicio, Paraderos y Rutas.
+
+- **Flujo progresivo en formularios complejos:**
+  La creación de rutas se divide en dos pasos secuenciales (datos de la ruta y
+  configuración de horarios), reduciendo la carga cognitiva del usuario y permitiendo
+  validaciones intermedias antes de confirmar.
+
+##### Segmento Objetivo de Transportistas
+
+###### Autenticación y Onboarding
+
+**Login y Registro**
+Pantallas de acceso a la plataforma: permite al gestor iniciar sesión con correo
+y contraseña, o registrarse seleccionando el rol de Transportista.
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img width="200" alt="1login" src="https://github.com/user-attachments/assets/c2cb9e92-3493-4a28-a8fb-5e66e9fd9291" />
+        <br><em>Login</em>
+      </td>
+      <td align="center">
+        <img width="200" alt="2register" src="https://github.com/user-attachments/assets/2c3ba587-c33d-41e2-acb3-37f2693e4a6c" />
+        <br><em>Registro</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+**Configuración inicial de empresa**
+Pantalla de onboarding: se muestra únicamente en el primer inicio de sesión,
+solicitando el nombre y logo de la empresa de transporte.
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img width="200" alt="3setupCompany" src="https://github.com/user-attachments/assets/5894910c-2926-4c3c-a482-22570d58d2c3" />
+        <br><em>Onboarding de empresa</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+###### Dashboard
+
+**Panel principal con métricas clave**
+Pantalla de inicio para el gestor: muestra 4 KPIs (tarifa promedio, total de
+paraderos, total de rutas e intervalo promedio), los planes de suscripción
+disponibles y acceso directo a la información de la empresa.
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img width="200" alt="4dashboard" src="https://github.com/user-attachments/assets/1807df11-1f81-4d8c-b7f2-820241daf9b2" />
+        <br><em>Dashboard - KPIs y planes</em>
+      </td>
+      <td align="center">
+        <img width="200" alt="5dashboard" src="https://github.com/user-attachments/assets/7d17ead2-acb7-46a7-b80a-6a527cafe6cb" />
+        <br><em>Dashboard - Suscripción</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+###### Paraderos
+
+**Lista de paraderos y estado vacío**
+Pantallas del módulo de Paraderos: muestra el listado de paraderos registrados
+con su dirección, referencia y acciones rápidas (ver ubicación, editar, eliminar).
+Incluye el estado vacío con llamada a la acción para crear el primer paradero.
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img width="200" alt="7paraderosVacio" src="https://github.com/user-attachments/assets/1bcde8ca-c917-48c5-812c-c7823a8687e9" />
+        <br><em>Paraderos - Estado vacío</em>
+      </td>
+      <td align="center">
+        <img width="200" alt="9paraderosLista" src="https://github.com/user-attachments/assets/75b11e15-8a6b-49c7-99e4-7338a6e2079f" />
+        <br><em>Paraderos - Lista</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+**Formulario de creación y edición de paraderos**
+Pantallas del flujo de gestión de paraderos: formulario con campos de nombre,
+teléfono, dirección, referencia, distrito (selector en cascada región-provincia-distrito)
+y carga opcional de imagen. Se presenta como bottom sheet modal.
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img width="200" alt="8paraderosCrear" src="https://github.com/user-attachments/assets/65c8811b-a12f-4c47-8e84-6ac07395285f" />
+        <br><em>Crear paradero</em>
+      </td>
+      <td align="center">
+        <img width="200" alt="10paraderosEditar" src="https://github.com/user-attachments/assets/89aee1b6-3a8d-480b-9d82-96de5b378fd1" />
+        <br><em>Editar paradero</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+###### Rutas
+
+**Lista de rutas y estado vacío**
+Pantallas del módulo de Rutas: muestra las rutas registradas en tarjetas
+horizontales con paradero de origen y destino, duración, frecuencia y tarifa.
+Incluye el estado vacío con llamada a la acción para crear la primera ruta.
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img width="200" alt="11rutasVacio" src="https://github.com/user-attachments/assets/b711cb42-f1b6-4354-bad9-f5d97813ae15" />
+        <br><em>Rutas - Estado vacío</em>
+      </td>
+      <td align="center">
+        <img width="200" alt="13rutasLista" src="https://github.com/user-attachments/assets/0ff1090c-f12f-41a3-9e7b-fdf2a148e26a" />
+        <br><em>Rutas - Lista</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+**Creación de ruta**
+Primera etapa: selección de paradero de origen y destino, ingreso de duración,
+precio y frecuencia.
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img width="200" alt="Create Route Step 1 (Wireframe)" src="https://github.com/user-attachments/assets/241b3fae-e3fc-46a9-95ac-72d80b6c9e6c" />
+        <br><em>Crear ruta - Paso 1</em>
+      </td>
+      <td align="center">
+        <img width="200" alt="Create Route Step 2 (Wireframe)" src="https://github.com/user-attachments/assets/26cc98da-fc8c-4041-b5d5-af5d11b5b93a" />
+        <br><em>Crear ruta - Paso 2 Horarios</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+###### Perfil de Empresa
+
+**Información y datos de la empresa**
+Pantalla de gestión del perfil empresarial: formulario con nombre, RUC, teléfono,
+correo electrónico, dirección y descripción de la empresa. Permite mantener
+actualizada la información visible para los pasajeros en la plataforma.
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img width="200" alt="6datosGenerales" src="https://github.com/user-attachments/assets/bcefd1a3-bc1b-4605-8dc1-495e8553864f" />
+        <br><em>Información de empresa</em>
+      </td>
+    </tr>
+  </table>
+</div>
 
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
 
@@ -3035,7 +3313,217 @@ Figura 41. Diagrama de base de datos del Bounded Context Routes - WayPass
 
 #### 3.1.4.3. Mobile Applications Mock-ups
 
-> *(Sección pendiente de desarrollo)*
+Los siguientes mock-ups corresponden a la aplicación móvil Android de WayPass,
+presentando el diseño visual de alta fidelidad para el segmento de gestores de
+empresas de transporte colectivo en Perú.
+
+##### Design System aplicado
+
+- **Paleta de color:**
+  Se establece el color primario #7A78FF (morado) para botones, encabezados e
+  iconos activos; #CCCCFF como secundario para bordes y estados deshabilitados;
+  #00A652 para acciones de éxito; #FF2C2C para alertas y eliminación; y #478BFF
+  para acciones informativas. El fondo general es #FFFFFF con superficies de
+  tarjeta en #F5F6FA.
+
+- **Tipografía:**
+  Se utiliza la fuente Poppins en peso Bold para títulos y encabezados, y Regular
+  para cuerpo de texto y etiquetas, garantizando jerarquía visual clara y alta
+  legibilidad en pantallas móviles.
+
+- **Componentes Material Design 3:**
+  Tarjetas con elevación de 2dp y bordes redondeados, bottom sheets modales con
+  esquinas superiores de 16dp, chips de selección de rol, toggles para estados
+  operativos y selectores de hora nativos de Android.
+
+- **Navegación persistente:**
+  Toolbar superior con logo WayPass a la izquierda e ícono de perfil a la derecha.
+  Barra de navegación inferior con tres destinos: Inicio (casa), Paraderos (pin)
+  y Rutas (ruta), visible en todas las pantallas principales.
+
+- **Diseño inclusivo:**
+  Contraste WCAG AA entre texto y fondo, tamaño mínimo de área táctil de 48dp,
+  mensajes de error específicos con color rojo y texto descriptivo, estados vacíos
+  con ilustración y llamada a la acción que guían al usuario sin experiencia previa.
+
+##### Segmento Objetivo de Transportistas
+
+###### Autenticación y Onboarding
+
+**Login y Registro**
+Pantallas de acceso a la plataforma: el login presenta campos de correo y
+contraseña con botón primario "Ingresar →" en morado sólido. El registro incluye
+selector de rol mediante chips ("Pasajero" / "Transportista"), definiendo el flujo
+de onboarding posterior según la elección del usuario.
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img width="200" alt="Login" src="https://github.com/user-attachments/assets/d1dac6c6-cb55-4451-939f-4e40a96827e5" />
+        <br><em>Login</em>
+      </td>
+      <td align="center">
+        <img width="200" alt="Registro" src="https://github.com/user-attachments/assets/af8945f1-a68b-4f49-8657-466d2fb43662" />
+        <br><em>Registro</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+**Configuración inicial de empresa**
+Pantalla de onboarding exclusiva del primer acceso para el rol Transportista:
+permite subir el logo empresarial mediante área de carga con ícono de cámara
+e ingresar el nombre de la empresa antes de acceder al dashboard.
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img width="200" alt="Onboarding de Empresa" src="https://github.com/user-attachments/assets/0b1018bc-e787-48ce-a930-5cf0ad75a0e8" />
+        <br><em>Onboarding de empresa</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+###### Dashboard
+
+**Panel principal con métricas clave**
+Pantalla de inicio del gestor: presenta 4 KPIs en grilla 2x2 (tarifa promedio,
+total de paraderos, total de rutas e intervalo promedio), cada uno con ícono de
+color semántico. Incluye 3 tarjetas de suscripción (Free, Standard y Premium)
+con el plan Standard destacado con borde morado, y acceso directo a la
+información de la empresa en la parte inferior.
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img width="200" alt="Dashboard1" src="https://github.com/user-attachments/assets/f3cb4a49-10f7-49f1-9b31-8cfce923dda0" />
+        <br><em>Dashboard - KPIs y planes</em>
+      </td>
+      <td align="center">
+        <img width="200" alt="Dashboard2" src="https://github.com/user-attachments/assets/82bc6a29-db95-4bf3-b01c-7ac568ab7ae0" />
+        <br><em>Dashboard - Suscripción</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+###### Paraderos
+
+**Lista de paraderos y estado vacío**
+Pantallas del módulo de Paraderos: el encabezado usa gradiente morado con título,
+subtítulo, badge de conteo activo y botón "+ Nuevo Paradero". Cada tarjeta muestra
+foto del paradero, nombre en morado bold, dirección con ícono de pin, referencia
+con ícono de info, y tres botones de acción (ver ubicación en morado outline,
+editar en azul, eliminar en rojo). El estado vacío presenta ilustración centrada
+con llamada a la acción.
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img width="200" alt="Gestión de Paraderos (Mejorado)" src="https://github.com/user-attachments/assets/785d7aff-dc77-4566-89be-d7040741664b" />
+        <br><em>Paraderos - Estado vacío</em>
+      </td>
+      <td align="center">
+        <img width="200" alt="Gestión de Paraderos (Con contenido)" src="https://github.com/user-attachments/assets/6815c55c-8b48-440d-a021-a2aa97635dbc" />
+        <br><em>Paraderos - Lista</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+**Formulario de creación y edición de paraderos**
+Bottom sheets modales con esquinas superiores redondeadas de 16dp: el formulario
+de creación incluye campos de nombre, teléfono, dirección, referencia, selector
+de distrito y área de carga de imagen con borde punteado. El botón "Crear" aparece
+en verde deshabilitado hasta completar los campos requeridos. La edición muestra
+los mismos campos pre-poblados con el botón "Guardar Cambios".
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img width="200" alt="Nuevo Paradero" src="https://github.com/user-attachments/assets/8f9a415b-b885-4b50-ba11-592464ed39b5" />
+        <br><em>Crear paradero</em>
+      </td>
+      <td align="center">
+        <img width="200" alt="Editar Paradero" src="https://github.com/user-attachments/assets/e1410042-d7e5-4958-9706-1a2cb1ddcbc0" />
+        <br><em>Editar paradero</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+###### Rutas
+
+**Lista de rutas y estado vacío**
+Pantallas del módulo de Rutas: tarjetas horizontales que muestran foto del
+paradero de origen (izquierda) y destino (derecha) con flechas de intercambio
+al centro, toggle de "Estado Operativo" y tres chips informativos de duración,
+frecuencia y tarifa. El estado vacío mantiene el encabezado con badge
+"0 Rutas Activas" y llamada a la acción central.
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img width="200" alt="Gestión de Rutas (Vacío)" src="https://github.com/user-attachments/assets/6a37d6a1-f698-4b76-bd87-d7fe9e18612a" />
+        <br><em>Rutas - Estado vacío</em>
+      </td>
+      <td align="center">
+        <img width="200" alt="Rutas" src="https://github.com/user-attachments/assets/093dfa15-821f-4f73-83c9-1d6f56ba29fe" />
+        <br><em>Rutas - Lista</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+**Creación de ruta - Paso 1 y Paso 2**
+Primera etapa del flujo en modal: dropdowns para origen y destino, e inputs
+numéricos para duración (min), frecuencia (min) y precio (S/). El botón
+"Continuar →" en verde se habilita solo al completar todos los campos.
+Segunda etapa: listado de los 7 días con toggle individual; al activar un día
+se despliegan selectores de hora de inicio y fin con validación en tiempo real.
+El día activo se resalta con fondo morado.
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img width="200" alt="Nueva Ruta - Paso 1" src="https://github.com/user-attachments/assets/085c953d-8422-474a-8056-e2057199018a" />
+        <br><em>Crear ruta - Paso 1</em>
+      </td>
+      <td align="center">
+        <img width="200" alt="Nueva Ruta - Horarios" src="https://github.com/user-attachments/assets/cb700bc5-0a73-443c-992e-e78143fee704" />
+        <br><em>Crear ruta - Paso 2 Horarios</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+###### Perfil de Empresa
+
+**Información y datos de la empresa**
+Pantalla de gestión del perfil empresarial: formulario con campos marcados como
+requeridos (*) para nombre, RUC, teléfono, correo, dirección principal y textarea
+de descripción, pre-poblados con datos de ejemplo ("Transportes Rápidos S.A.C.",
+RUC 20234567891). Botones "Cancelar" (outlined blanco) y "Guardar Información"
+(azul sólido #478BFF) en fila inferior.
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img width="200" alt="Información de la Empresa" src="https://github.com/user-attachments/assets/bc061d67-d55e-4e7b-890a-b200fde1732f" />
+        <br><em>Información de empresa</em>
+      </td>
+    </tr>
+  </table>
+</div>
 
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
 
@@ -3051,19 +3539,466 @@ Figura 41. Diagrama de base de datos del Bounded Context Routes - WayPass
 
 ### 4.1.1. Software Development Environment Configuration
 
-> *(Sección pendiente de desarrollo)*
+<h4>Project Management</h4>
+<ul>
+  <li>
+    <strong>Jira:</strong> Plataforma de gestión de proyectos ágiles utilizada para la administración del Product Backlog, planificación de Sprints, asignación de User Stories y Tasks a los miembros del equipo, y seguimiento del progreso mediante tableros Scrum con estados To-Do, In-Process, To-Review y Done. <br>
+    <strong>Ruta de referencia:</strong> <a href="https://www.atlassian.com/software/jira">https://www.atlassian.com/software/jira</a>
+  </li>
+    <li>
+    <strong>WhatsApp:</strong> Herramienta de comunicación instantánea utilizada para coordinar actividades del equipo, resolver dudas rápidas, compartir avances y mantener una comunicación constante durante el desarrollo del proyecto. <br>
+    <strong>Ruta de referencia:</strong> 
+    <a href="https://web.whatsapp.com/">https://web.whatsapp.com/</a>
+  </li>
+</ul>
+
+<h4>Product UX/UI Design</h4>
+<ul>
+  <li>
+    <strong>UXPressia:</strong> Plataforma para la elaboración de User Personas, Empathy Maps, Customer Journey Maps e Impact Maps de los segmentos objetivo del proyecto Veyra (Administradores de casas de reposo y Familiares de adultos mayores). <br>
+    <strong>Ruta de referencia:</strong> <a href="https://uxpressia.com/">https://uxpressia.com/</a>
+  </li>
+  <li>
+    <strong>Miro:</strong> Pizarra digital colaborativa utilizada para sesiones de Big Picture EventStorming y Design-Level EventStorming, facilitando la identificación de Bounded Contexts, Events, Commands y Aggregates del dominio Veyra. <br>
+    <strong>Ruta de referencia:</strong> <a href="https://miro.com/es/">https://miro.com/es/</a>
+  </li>
+  <li>
+    <strong>Figma:</strong> Herramienta de diseño colaborativo para la creación de Wireframes, Mock-ups y Prototipos interactivos del Landing Page y Web Applications de Veyra, aplicando el Design System basado en Material Design. <br>
+    <strong>Ruta de referencia:</strong> <a href="https://www.figma.com/es-es/">https://www.figma.com/es-es/</a>
+  </li>
+</ul>
+
+<h4>Software Development:</h4>
+  <ul>
+  <li>
+    <strong>WebStorm (Instalación local):</strong> Entorno de desarrollo utilizado para implementar y editar la interfaz de usuario del proyecto mediante HTML, CSS y JavaScript, facilitando la organización del código y la integración con GitHub. <br>
+    <strong>Ruta de referencia:</strong> 
+    <a href="https://www.jetbrains.com/es-es/webstorm/">https://www.jetbrains.com/es-es/webstorm/</a>
+  </li>
+
+  <li>
+    <strong>Android Studio (Instalación local):</strong> IDE utilizado para el desarrollo de la aplicación móvil Android, empleando Kotlin y Jetpack Compose para la creación de interfaces modernas y funcionalidades nativas del dispositivo móvil. <br>
+    <strong>Ruta de referencia:</strong> 
+    <a href="https://developer.android.com/studio?hl=es-419">https://developer.android.com/studio?hl=es-419</a>
+  </li>
+
+  <li>
+    <strong>Rider (Instalación local):</strong> Entorno de desarrollo integrado utilizado para la implementación y mantenimiento del backend de la aplicación, permitiendo desarrollar y administrar la lógica del sistema de manera eficiente. <br>
+    <strong>Ruta de referencia:</strong> 
+    <a href="https://www.jetbrains.com/es-es/rider">https://www.jetbrains.com/es-es/rider</a>
+  </li>
+
+  <li>
+    <strong>Git (Instalación local):</strong> Sistema de control de versiones utilizado para gestionar cambios en el código fuente mediante commits y ramas, facilitando el trabajo colaborativo y el control de versiones durante el desarrollo del proyecto. <br>
+    <strong>Ruta de referencia:</strong> 
+    <a href="https://git-scm.com/">https://git-scm.com/</a>
+  </li>
+
+  <li>
+    <strong>GitHub:</strong> Plataforma de repositorios remotos utilizada para almacenar, compartir y gestionar el código fuente del proyecto, implementando el flujo de trabajo GitFlow para mantener un desarrollo organizado y colaborativo entre los integrantes del equipo. <br>
+    <strong>Ruta de referencia:</strong> 
+    <a href="https://github.com/">https://github.com/</a>
+  </li>
+</ul>
+
+<h4>Software Documentation</h4>
+<ul>
+  <li>
+    <strong>Markdown:</strong> Lenguaje de marcado ligero para la elaboración del Project Report en el repositorio GitHub. Permite estructurar documentación con formato consistente y compatible con control de versiones. <br>
+    <strong>Ruta de referencia:</strong> <a href="https://www.markdownguide.org/">https://www.markdownguide.org/</a>
+  </li>
+</ul>
 
 ### 4.1.2. Source Code Management
 
-> *(Sección pendiente de desarrollo)*
+<h4>Repositorios del Proyecto</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Producto</th>
+      <th>URL del Repositorio</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Organización</td>
+      <td><a href="https://github.com/Grupo-Apps-Moviles">https://github.com/Grupo-Apps-Moviles</a></td>
+    </tr>
+    <tr>
+      <td>Landing Page</td>
+      <td><a href="https://github.com/Grupo-Apps-Moviles/landing-page">https://github.com/Grupo-Apps-Moviles/landing-page</a></td>
+    </tr>
+    <tr>
+      <td>Android Mobile Application</td>
+      <td><a href="https://github.com/Grupo-Apps-Moviles/Android">https://github.com/Grupo-Apps-Moviles/Android</a></td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td><a href="https://github.com/Grupo-Apps-Moviles/Backend">https://github.com/Grupo-Apps-Moviles/Backend</a></td>
+    </tr>
+    <tr>
+      <td>Project Report</td>
+      <td><a href="https://github.com/Grupo-Apps-Moviles/Report">https://github.com/Grupo-Apps-Moviles/Report</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>GitFlow Workflow</h4>
+
+<p><strong>Estructura de Ramas:</strong></p>
+
+<ul>
+  <li>
+    <strong>main:</strong> Rama principal del repositorio que almacena las versiones finales y estables del proyecto listas para su despliegue.
+  </li>
+  <li>
+    <strong>develop:</strong> Rama destinada a la integración de funcionalidades desarrolladas y validadas por el equipo. Se utiliza como entorno base para preparar nuevas versiones antes de su publicación.
+  </li>
+    <li>
+    <strong>feature/&lt;feature-name&gt;:</strong> Ramas generadas desde develop para desarrollar nuevas funcionalidades o mejoras. Una vez finalizada y revisada la implementación, los cambios se integran nuevamente en la rama develop.
+  </li>
+</ul>
+
+<h4>Convenciones de Nomenclatura para Ramas</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tipo de Rama</th>
+      <th>Formato</th>
+      <th>Ejemplo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Feature</td>
+      <td><code>feature/&lt;bounded-context&gt;-&lt;feature-description&gt;</code></td>
+      <td><code>feature/login</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>Conventional Commits</h4>
+
+<pre><code>&lt;type&gt;[optional scope]: &lt;description&gt;
+
+[optional body]
+
+[optional footer(s)]
+</code></pre>
+
+<p><strong>Tipos de Commit:</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tipo</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>feat</code></td>
+      <td>Añadir una nueva característica.</td>
+    </tr>
+    <tr>
+      <td><code>fix</code></td>
+      <td>Correción de errores</td>
+    </tr>
+    <tr>
+      <td><code>docs</code></td>
+      <td>Modificaciones en la documentación.</td>
+    </tr>
+    <tr>
+      <td><code>style</code></td>
+      <td>Cambios de formato (espacios, comas, etc.) que no afectan la lógica del código.</td>
+    </tr>
+    <tr>
+      <td><code>refactor</code></td>
+      <td>Modificaciones que no añaden características y/o errores.</td>
+    </tr>
+    <tr>
+      <td><code>perf</code></td>
+      <td>Mejoras de rendimiento</td>
+    </tr>
+    <tr>
+      <td><code>test</code></td>
+      <td>Adición o corrección de pruebas</td>
+    </tr>
+    <tr>
+      <td><code>build</code></td>
+      <td>Cambios en sistema de build o dependencias externas</td>
+    </tr>
+    <tr>
+      <td><code>chore</code></td>
+      <td>Tareas de mantenimiento sin afectar código de producción</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Ejemplos de Commits:</strong></p>
+
+<pre><code>feat(auth): add register functionality.
+fix(payment): resolve payment security issue.
+docs(README): update index instructions.
+</code></pre>
+
+<h4>Semantic Versioning</h4>
+<p>
+  Para el control de versiones del proyecto se emplea Semantic Versioning 2.0.0, utilizando la estructura <code>MAJOR.MINOR.PATCH</code> para identificar los cambios realizados en cada release.
+</p>
+
+<ul>
+  <li><strong>MAJOR:</strong> Cambios importantes que generan incompatibilidad con versiones anteriores del sistema.</li>
+  <li><strong>MINOR:</strong> Incorporación de nuevas funcionalidades manteniendo compatibilidad con versiones previas.</li>
+  <li><strong>PATCH:</strong> Corrección de errores y mejoras menores sin afectar la compatibilidad existente.</li>
+</ul>
+
+<p><strong>Ejemplo de evolución de versiones:</strong></p>
+
+<ul>
+  <li><code>1.0.0</code> → Primera versión funcional y estable del proyecto.</li>
+  <li><code>1.1.0</code> → Integración de una nueva característica o módulo.</li>
+  <li><code>1.1.1</code> → Solución de errores detectados en la versión anterior.</li>
+  <li><code>2.0.0</code> → Actualización con cambios significativos e incompatibles.</li>
+</ul>
+
+<h4>Configuración de GitHub en Android Studio</h4>
+
+<p>Pasos para vincular Android Studio con GitHub:</p>
+
+<ol>
+  <li>Abrir Android Studio y seleccionar <strong>VCS &gt; Enable Version Control Integration</strong>, luego elegir Git.</li>
+
+  <li>Ingresar a <strong>File &gt; Settings &gt; Version Control &gt; GitHub</strong> y agregar la cuenta de GitHub para sincronizar el proyecto.</li>
+
+  <li>Verificar la configuración de Git desde <strong>File &gt; Settings &gt; Version Control &gt; Git</strong>, asegurando que la ruta de Git esté correctamente configurada.</li>
+
+  <li>Conectar el proyecto con el repositorio remoto mediante <strong>Git &gt; Manage Remotes</strong>, agregando la URL correspondiente del repositorio en GitHub.</li>
+
+  <li>Realizar commits utilizando <strong>Ctrl+K</strong> y enviar cambios al repositorio remoto con <strong>Ctrl+Shift+K</strong>.</li>
+</ol>
 
 ### 4.1.3. Source Code Style Guide & Conventions
 
-> *(Sección pendiente de desarrollo)*
+<h4>Referencias de Guías de Estilo Adoptadas</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Lenguaje/Tecnología</th>
+      <th>Guía de Estilo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HTML/CSS</td>
+      <td><a href="https://google.github.io/styleguide/htmlcssguide.html">Google HTML/CSS Style Guide</a></td>
+    </tr>
+    <tr>
+      <td>JavaScript</td>
+      <td><a href="https://google.github.io/styleguide/jsguide.html">Google JavaScript Style Guide</a></td>
+    </tr>
+    <tr>
+      <td>Kotlin</td>
+      <td><a href="https://developer.android.com/kotlin/style-guide">Android Kotlin Style Guide</a></td>
+    </tr>
+    <tr>
+      <td>Jetpack Compose</td>
+      <td><a href="https://developer.android.com/jetpack/compose/documentation">Jetpack Compose Documentation</a></td>
+    </tr>
+    <tr>
+      <td>C#</td>
+      <td><a href="https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions">Microsoft C# Coding Conventions</a></td>
+    </tr>
+    <tr>
+      <td>ASP.NET Core</td>
+      <td><a href="https://learn.microsoft.com/en-us/aspnet/core/">ASP.NET Core Documentation</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>Nomenclatura General</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Elemento</th>
+      <th>Convención</th>
+      <th>Ejemplo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Clases (Kotlin/C#)</td>
+      <td>PascalCase</td>
+      <td><code>UserManager</code>, <code>ProductService</code></td>
+    </tr>
+    <tr>
+      <td>Interfaces</td>
+      <td>PascalCase con prefijo I</td>
+      <td><code>IUserRepository</code>, <code>IProductService</code></td>
+    </tr>
+    <tr>
+      <td>Métodos/Funciones</td>
+      <td>camelCase / PascalCase</td>
+      <td><code>getUserData()</code>, <code>CreateProduct()</code></td>
+    </tr>
+    <tr>
+      <td>Variables</td>
+      <td>camelCase</td>
+      <td><code>userName</code>, <code>productList</code></td>
+    </tr>
+    <tr>
+      <td>Constantes</td>
+      <td>SCREAMING_SNAKE_CASE</td>
+      <td><code>BASE_URL</code>, <code>MAX_USERS</code></td>
+    </tr>
+    <tr>
+      <td>Archivos Kotlin</td>
+      <td>PascalCase</td>
+      <td><code>MainScreen.kt</code></td>
+    </tr>
+    <tr>
+      <td>Archivos C#</td>
+      <td>PascalCase</td>
+      <td><code>UserController.cs</code></td>
+    </tr>
+    <tr>
+      <td>Clases CSS</td>
+      <td>kebab-case</td>
+      <td><code>.main-container</code>, <code>.login-form</code></td>
+    </tr>
+    <tr>
+      <td>Endpoints REST</td>
+      <td>kebab-case (plural)</td>
+      <td><code>/api/v1/users</code>, <code>/api/v1/products</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>Sangría</h4>
+
+<p>
+  Se utiliza una indentación de cuatro espacios en archivos Kotlin y C#, mientras que en HTML, CSS y JavaScript se aplica una indentación de dos espacios para mantener consistencia y legibilidad en el código fuente.
+</p>
+
+<p><strong>Ejemplo HTML:</strong></p>
+
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Mobile Application&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;header&gt;
+      &lt;h1&gt;Welcome&lt;/h1&gt;
+    &lt;/header&gt;
+    &lt;main&gt;
+      &lt;p&gt;Application landing page.&lt;/p&gt;
+    &lt;/main&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<h4>Convenciones por Lenguaje</h4>
+
+<h5>HTML</h5>
+
+<ul>
+  <li>Declarar <code>&lt;!DOCTYPE html&gt;</code> en la primera línea del documento.</li>
+  <li>Utilizar letras minúsculas en etiquetas y atributos.</li>
+  <li>Usar comillas dobles en atributos: <code>&lt;div class="container"&gt;</code></li>
+  <li>Agregar atributos <code>alt</code> en imágenes para mejorar accesibilidad.</li>
+  <li>Incluir etiquetas <code>&lt;title&gt;</code> y meta tags necesarias.</li>
+  <li>Separar bloques extensos de código con líneas en blanco.</li>
+</ul>
+
+<h5>CSS</h5>
+
+<ul>
+  <li>Utilizar shorthand properties cuando sea posible.</li>
+  <li>Finalizar cada declaración con punto y coma.</li>
+  <li>Dejar un espacio después de los dos puntos en propiedades CSS.</li>
+  <li>Usar comillas simples en <code>font-family</code>.</li>
+  <li>Ordenar propiedades de manera consistente dentro de cada selector.</li>
+</ul>
+
+<h5>JavaScript</h5>
+
+<ul>
+  <li>Utilizar <code>const</code> y <code>let</code> en lugar de <code>var</code>.</li>
+  <li>Agregar espacios alrededor de operadores.</li>
+  <li>Finalizar instrucciones con punto y coma.</li>
+  <li>Usar llaves de apertura en la misma línea.</li>
+  <li>Utilizar arrow functions en callbacks cuando sea apropiado.</li>
+</ul>
+
+<h5>Kotlin / Jetpack Compose</h5>
+
+<ul>
+  <li>Usar nombres descriptivos para funciones y variables.</li>
+  <li>Aplicar PascalCase en Composables: <code>LoginScreen()</code>.</li>
+  <li>Utilizar <code>val</code> para variables inmutables y <code>var</code> solo cuando sea necesario.</li>
+  <li>Mantener funciones pequeñas y reutilizables.</li>
+  <li>Separar lógica de interfaz y lógica de negocio en diferentes archivos.</li>
+</ul>
+
+<p><strong>Ejemplo Kotlin:</strong></p>
+
+<pre><code>class UserManager {
+
+    private val users = mutableListOf&lt;String&gt;()
+
+    fun addUser(userName: String) {
+        users.add(userName)
+    }
+
+    fun getUsers(): List&lt;String&gt; {
+        return users
+    }
+}
+</code></pre>
+
+<h5>C# / ASP.NET Core</h5>
+
+<ul>
+  <li>Utilizar PascalCase para clases, métodos y propiedades.</li>
+  <li>Usar interfaces con prefijo <code>I</code>.</li>
+  <li>Aplicar inyección de dependencias para servicios y repositorios.</li>
+  <li>Mantener una separación clara entre controladores, servicios y modelos.</li>
+  <li>Documentar métodos públicos cuando sea necesario.</li>
+</ul>
+
+<p><strong>Ejemplo C#:</strong></p>
+
+<pre><code>public class ProductService
+{
+    public string GetProductName()
+    {
+        return "Smartphone";
+    }
+}
+</code></pre>
 
 ### 4.1.4. Software Deployment Configuration
 
-> *(Sección pendiente de desarrollo)*
+<h4>Landing Page - GitHub Pages</h4>
+
+<p>El Landing Page se despliega mediante GitHub Pages directamente desde el repositorio, aprovechando el hosting gratuito para sitios estáticos.</p>
+
+<p><strong>Pasos de configuración:</strong></p>
+
+<ol>
+  <li>Acceder al repositorio <code>landing-page</code> en GitHub.</li>
+  <li>Navegar a <strong>Settings &gt; Pages</strong> en el menú lateral.</li>
+  <li>En la sección "Source", seleccionar la rama <code>main</code> y carpeta <code>/ (root)</code>.</li>
+  <li>Hacer clic en <strong>Save</strong> y esperar la generación del sitio (1-2 minutos).</li>
+  <li>Verificar el despliegue accediendo a la URL generada.</li>
+</ol>
+
+<p><strong>URL de despliegue:</strong> <a href=" "> </a></p>
 
 ## 4.2. Landing Page & Mobile Application Implementation
 
@@ -3237,6 +4172,10 @@ Basado en el análisis del proyecto y los hallazgos durante el avance, se sugier
     <tr>
       <td><strong>Entrevistas</strong></td>
       <td><a href="https://shorturl.at/dnh1n" target="_blank">https://shorturl.at/dnh1n</a></td>
+    </tr>
+      <tr>
+      <td><strong>Figma</strong></td>
+      <td><a href="https://www.figma.com/design/ky1OhSpiDR2fYguzC8Teo5/Untitled?node-id=2-5&t=CY5ZbtaxEkWrG0xC-0" target="_blank">https://www.figma.com/design/ky1OhSpiDR2fYguzC8Teo5/Untitled?node-id=2-5&t=CY5ZbtaxEkWrG0xC-0</a></td>
     </tr>
   </tbody>
 </table>
