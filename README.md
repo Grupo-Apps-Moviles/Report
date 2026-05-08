@@ -4049,7 +4049,7 @@ en la experiencia del usuario gestor de transporte.
   <table>
     <tr>
       <td align="center">
-        <img width="700" alt="prototype_screenshot" src="https://github.com/user-attachments/assets/REEMPLAZAR" />
+        <img width="700" alt="PrototypeInforme" src="https://github.com/user-attachments/assets/763a1ef2-bd52-46b3-90b7-3b6d9b09c00d" />
         <br><em>Screenshot del prototipo móvil WayPass en Figma</em>
       </td>
     </tr>
