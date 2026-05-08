@@ -3802,7 +3802,7 @@ onboarding de empresa.
   <table>
     <tr>
       <td align="center">
-        <img width="700" alt="uf01" src="https://github.com/user-attachments/assets/REEMPLAZAR" />
+        <img width="800" alt="Mobile User Flow 1" src="https://github.com/user-attachments/assets/a2d84885-6e4d-498a-ac19-1a20f9e3c78c" />
         <br><em>UF-01: Autenticación y registro</em>
       </td>
     </tr>
@@ -3828,7 +3828,7 @@ Al confirmar, accede al dashboard con su empresa configurada.
   <table>
     <tr>
       <td align="center">
-        <img width="700" alt="uf02" src="https://github.com/user-attachments/assets/REEMPLAZAR" />
+        <img width="800" alt="Mobile User Flow 2" src="https://github.com/user-attachments/assets/a32b9e6e-bda9-4342-8165-9ee313913fba" />
         <br><em>UF-02: Configuración inicial de empresa</em>
       </td>
     </tr>
@@ -3853,7 +3853,7 @@ la barra inferior o el acceso rápido del dashboard.
   <table>
     <tr>
       <td align="center">
-        <img width="700" alt="uf03" src="https://github.com/user-attachments/assets/REEMPLAZAR" />
+        <img width="800" alt="Mobile User Flow 3" src="https://github.com/user-attachments/assets/1b0f54f8-7925-41d0-855e-7235a63b1a30" />
         <br><em>UF-03: Consulta del panel de indicadores</em>
       </td>
     </tr>
@@ -3880,7 +3880,7 @@ se actualiza.
   <table>
     <tr>
       <td align="center">
-        <img width="700" alt="uf04" src="https://github.com/user-attachments/assets/REEMPLAZAR" />
+        <img width="800" alt="Mobile User Flow 4" src="https://github.com/user-attachments/assets/1b103bef-dceb-4612-ab9f-2b2699553308" />
         <br><em>UF-04: Registro de nuevo paradero</em>
       </td>
     </tr>
@@ -3906,7 +3906,7 @@ el botón se deshabilita hasta corregirlo (**unhappy path**).
   <table>
     <tr>
       <td align="center">
-        <img width="700" alt="uf05" src="https://github.com/user-attachments/assets/REEMPLAZAR" />
+        <img width="800" alt="Mobile User Flow 5" src="https://github.com/user-attachments/assets/00c4dca3-f64e-4b7a-aedb-7537df2c5ce3" />
         <br><em>UF-05: Edición de paradero existente</em>
       </td>
     </tr>
@@ -3933,7 +3933,7 @@ vacío con la llamada a la acción.
   <table>
     <tr>
       <td align="center">
-        <img width="700" alt="uf06" src="https://github.com/user-attachments/assets/REEMPLAZAR" />
+        <img width="800" alt="Mobile User Flow 6" src="https://github.com/user-attachments/assets/e0fa4958-6640-4e6c-a0a8-1108fafd60d1" />
         <br><em>UF-06: Eliminación de paradero</em>
       </td>
     </tr>
@@ -3962,7 +3962,7 @@ la ruta aparece en la lista.
   <table>
     <tr>
       <td align="center">
-        <img width="700" alt="uf07" src="https://github.com/user-attachments/assets/REEMPLAZAR" />
+        <img width="800" alt="Mobile User Flow 7" src="https://github.com/user-attachments/assets/6a0437d4-57d3-417a-9c7e-bf4bc7de6b8f" />
         <br><em>UF-07: Creación de nueva ruta</em>
       </td>
     </tr>
@@ -3989,7 +3989,7 @@ vacío con la llamada a la acción.
   <table>
     <tr>
       <td align="center">
-        <img width="700" alt="uf06" src="https://github.com/user-attachments/assets/REEMPLAZAR" />
+        <img width="800" alt="Mobile User Flow 8" src="https://github.com/user-attachments/assets/0351b246-c51f-414b-ba1b-b54a2c6ef20c" />
         <br><em>UF-08: Eliminación de ruta</em>
       </td>
     </tr>
@@ -4013,7 +4013,7 @@ Si pulsa "Cancelar", regresa al dashboard sin cambios (**unhappy path**).
   <table>
     <tr>
       <td align="center">
-        <img width="700" alt="uf09" src="https://github.com/user-attachments/assets/REEMPLAZAR" />
+        <img width="800" alt="Mobile User Flow 9" src="https://github.com/user-attachments/assets/f3fb1ce1-f1b4-465f-be6b-386a87667a0d" />
         <br><em>UF-09: Actualización de información de empresa</em>
       </td>
     </tr>
