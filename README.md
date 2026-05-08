@@ -284,6 +284,7 @@
           - [Rutas](#rutas-1)
           - [Perfil de Empresa](#perfil-de-empresa-1)
       - [3.1.4.4. Mobile Applications User Flow Diagrams](#3144-mobile-applications-user-flow-diagrams)
+        - [Segmento Objetivo de Transportistas](#segmento-objetivo-de-transportistas-3)
       - [3.1.4.5. Mobile Applications Prototyping](#3145-mobile-applications-prototyping)
 - [Capítulo IV: Product Implementation \& Validation](#capítulo-iv-product-implementation--validation)
   - [4.1. Software Configuration Management](#41-software-configuration-management)
@@ -3771,7 +3772,253 @@ RUC 20234567891). Botones "Cancelar" (outlined blanco) y "Guardar Información"
 
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
 
-> *(Sección pendiente de desarrollo)*
+Los User Flow Diagrams presentan el recorrido completo del gestor de transporte
+dentro de WayPass, incorporando los mock-ups de alta fidelidad. Cada flujo
+distingue la ruta esperada (happy path) de las rutas alternativas (unhappy paths),
+mostrando los estados de error, validación y confirmación que el usuario puede
+encontrar al interactuar con la aplicación.
+
+##### Segmento Objetivo de Transportistas
+
+---
+
+**Mobile User Flow 1**
+
+Relacionado con User Goal 1: *Como gestor de transporte, quiero iniciar sesión
+o registrarme en WayPass para acceder a las funciones de gestión de mi empresa.*
+
+Este flujo se inicia en la pantalla de Login. Si el gestor ya tiene cuenta,
+ingresa correo y contraseña y accede al dashboard (**happy path**). Si las
+credenciales son incorrectas, el sistema muestra un mensaje de error y permite
+reintentar (**unhappy path**). Si no tiene cuenta, navega al registro,
+selecciona el rol "Transportista", completa los campos y es redirigido al
+onboarding de empresa.
+
+- **Happy path:** Login → credenciales correctas → Dashboard
+- **Unhappy path 1:** Login → credenciales incorrectas → mensaje de error → reintentar
+- **Unhappy path 2:** Login → "Crear Cuenta" → Registro → campos incompletos → botón deshabilitado
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img width="700" alt="uf01" src="https://github.com/user-attachments/assets/REEMPLAZAR" />
+        <br><em>UF-01: Autenticación y registro</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+**Mobile User Flow 2**
+
+Relacionado con User Goal 2: *Como gestor de transporte, quiero completar el
+onboarding de mi empresa para personalizar mi experiencia en la plataforma.*
+
+El flujo se activa únicamente en el primer inicio de sesión tras el registro.
+El gestor sube el logo y registra el nombre de la empresa (**happy path**).
+Si omite el nombre, el botón "Continuar" permanece deshabilitado (**unhappy path**).
+Al confirmar, accede al dashboard con su empresa configurada.
+
+- **Happy path:** Onboarding → subir logo → ingresar nombre → "Continuar →" → Dashboard
+- **Unhappy path:** Onboarding → omitir nombre → botón deshabilitado → no avanza
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img width="700" alt="uf02" src="https://github.com/user-attachments/assets/REEMPLAZAR" />
+        <br><em>UF-02: Configuración inicial de empresa</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+**Mobile User Flow 3**
+
+Relacionado con User Goal 3: *Como gestor de transporte, quiero consultar el
+panel principal para monitorear los indicadores clave de mi operación.*
+
+Tras iniciar sesión, el gestor llega al dashboard donde visualiza los 4 KPIs
+y los planes de suscripción (**happy path**). Desde aquí puede navegar
+directamente a Paraderos, Rutas o a la información de su empresa usando
+la barra inferior o el acceso rápido del dashboard.
+
+- **Happy path:** Login exitoso → Dashboard → visualizar KPIs y planes → navegar a módulos
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img width="700" alt="uf03" src="https://github.com/user-attachments/assets/REEMPLAZAR" />
+        <br><em>UF-03: Consulta del panel de indicadores</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+**Mobile User Flow 4**
+
+Relacionado con User Goal 4: *Como gestor de transporte, quiero registrar un
+nuevo paradero para ampliar los puntos de parada de mi empresa.*
+
+El gestor navega al módulo de Paraderos y pulsa "+ Nuevo Paradero". Completa
+todos los campos del formulario y pulsa "Crear" (**happy path**). Si campos
+requeridos están vacíos, el botón permanece deshabilitado (**unhappy path**).
+Al guardar correctamente, el paradero aparece en la lista y el badge de conteo
+se actualiza.
+
+- **Happy path:** Paraderos → "+ Nuevo Paradero" → completar campos → "Crear" → lista actualizada
+- **Unhappy path:** Campos requeridos vacíos → botón "Crear" deshabilitado → no avanza
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img width="700" alt="uf04" src="https://github.com/user-attachments/assets/REEMPLAZAR" />
+        <br><em>UF-04: Registro de nuevo paradero</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+**Mobile User Flow 5**
+
+Relacionado con User Goal 5: *Como gestor de transporte, quiero editar un
+paradero existente para mantener actualizada su información.*
+
+El gestor pulsa el ícono de editar en la tarjeta del paradero. Se abre el
+bottom sheet con los datos pre-poblados. Modifica los campos necesarios y
+pulsa "Guardar Cambios" (**happy path**). Si borra un campo requerido,
+el botón se deshabilita hasta corregirlo (**unhappy path**).
+
+- **Happy path:** Lista → ícono lápiz → modificar campos → "Guardar Cambios" → lista actualizada
+- **Unhappy path:** Borrar campo requerido → botón deshabilitado → completar para habilitar
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img width="700" alt="uf05" src="https://github.com/user-attachments/assets/REEMPLAZAR" />
+        <br><em>UF-05: Edición de paradero existente</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+**Mobile User Flow 6**
+
+Relacionado con User Goal 6: *Como gestor de transporte, quiero eliminar un
+paradero que ya no está en operación.*
+
+El gestor pulsa el ícono de eliminar en la tarjeta del paradero. El sistema
+muestra un diálogo de confirmación. Si confirma, el paradero es eliminado
+y la lista se actualiza (**happy path**). Si cancela, regresa a la lista sin
+cambios (**unhappy path**). Si era el último paradero, se muestra el estado
+vacío con la llamada a la acción.
+
+- **Happy path:** Lista → ícono basura → confirmar → lista actualizada / estado vacío
+- **Unhappy path:** Diálogo de confirmación → "Cancelar" → regresa sin cambios
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img width="700" alt="uf06" src="https://github.com/user-attachments/assets/REEMPLAZAR" />
+        <br><em>UF-06: Eliminación de paradero</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+**Mobile User Flow 7**
+
+Relacionado con User Goal 7: *Como gestor de transporte, quiero crear una
+nueva ruta definiendo origen, destino, frecuencia y horarios de operación.*
+
+El gestor pulsa "+ Nueva ruta". En el Paso 1 selecciona paraderos e ingresa
+datos numéricos; "Continuar →" se habilita solo al completar todos los campos
+(**happy path paso 1**; **unhappy path**: campos incompletos bloquean avance).
+En el Paso 2 activa días y configura horarios; si la hora de inicio supera
+a la de fin se muestra error en rojo (**unhappy path paso 2**). Al guardar,
+la ruta aparece en la lista.
+
+- **Happy path:** Rutas → "+ Nueva ruta" → Paso 1 completo → Paso 2 sin errores → "Guardar y salir" → lista
+- **Unhappy path 1:** Paso 1 incompleto → "Continuar →" deshabilitado
+- **Unhappy path 2:** Paso 2 hora inicio > hora fin → error en rojo → no permite guardar
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img width="700" alt="uf07" src="https://github.com/user-attachments/assets/REEMPLAZAR" />
+        <br><em>UF-07: Creación de nueva ruta</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+**Mobile User Flow 8**
+
+Relacionado con User Goal 8: *Como gestor de transporte, quiero eliminar una ruta 
+que ya no está en operación.
+
+El gestor pulsa el ícono de eliminar en la tarjeta de la ruta. El sistema
+muestra un diálogo de confirmación. Si confirma, la ruta es eliminada
+y la lista se actualiza (**happy path**). Si cancela, regresa a la lista sin
+cambios (**unhappy path**). Si era la última ruta, se muestra el estado
+vacío con la llamada a la acción.
+
+- **Happy path:** Lista → ícono basura → confirmar → lista actualizada / estado vacío
+- **Unhappy path:** Diálogo de confirmación → "Cancelar" → regresa sin cambios
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img width="700" alt="uf06" src="https://github.com/user-attachments/assets/REEMPLAZAR" />
+        <br><em>UF-08: Eliminación de ruta</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+**Mobile User Flow 9**
+
+Relacionado con User Goal 9: *Como gestor de transporte, quiero actualizar la
+información de mi empresa para que los pasajeros tengan datos correctos.*
+
+El gestor accede a "Editar información de Empresa" desde el dashboard.
+Modifica los campos necesarios y pulsa "Guardar Información" (**happy path**).
+Si campos obligatorios marcados con * están vacíos, el sistema indica el error.
+Si pulsa "Cancelar", regresa al dashboard sin cambios (**unhappy path**).
+
+- **Happy path:** Dashboard → "Editar Empresa" → modificar campos → "Guardar Información" → confirmación
+- **Unhappy path 1:** Campos obligatorios (*) vacíos → error de validación → no guarda
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img width="700" alt="uf09" src="https://github.com/user-attachments/assets/REEMPLAZAR" />
+        <br><em>UF-09: Actualización de información de empresa</em>
+      </td>
+    </tr>
+  </table>
+</div>
 
 #### 3.1.4.5. Mobile Applications Prototyping
 
