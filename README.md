@@ -4022,7 +4022,41 @@ Si pulsa "Cancelar", regresa al dashboard sin cambios (**unhappy path**).
 
 #### 3.1.4.5. Mobile Applications Prototyping
 
-> *(Sección pendiente de desarrollo)*
+El prototipo móvil de WayPass fue desarrollado en Figma, conectando los
+mock-ups de alta fidelidad mediante interacciones de navegación que simulan
+el comportamiento real de la aplicación Android.
+
+En cuanto a la arquitectura de información, el prototipo emplea una navegación
+jerárquica con barra inferior persistente que permite al gestor acceder en
+todo momento a los tres módulos principales: Inicio, Paraderos y Rutas.
+Los flujos secuenciales se aplicaron en procesos de múltiples pasos, como la
+creación de rutas (Paso 1 datos generales → Paso 2 configuración de horarios)
+y el onboarding de empresa (registro → configuración → dashboard), reduciendo
+la carga cognitiva del usuario al dividir tareas complejas en etapas claras.
+
+Se implementaron interacciones responsivas como estados de botón deshabilitado
+ante campos vacíos, validaciones visuales en formularios (errores en rojo para
+horarios inválidos), diálogos de confirmación antes de acciones destructivas
+(eliminar paradero o ruta) y retroalimentación inmediata al guardar cambios.
+Estas decisiones garantizan que el gestor pueda ejecutar sus tareas operativas
+de forma eficiente y con mínimo margen de error dentro del contexto móvil.
+
+Se grabó un video donde se explican los principales flujos de interacción del
+prototipo móvil de WayPass, mostrando cómo las decisiones de diseño se reflejan
+en la experiencia del usuario gestor de transporte.
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img width="700" alt="prototype_screenshot" src="https://github.com/user-attachments/assets/REEMPLAZAR" />
+        <br><em>Screenshot del prototipo móvil WayPass en Figma</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+**Mobile Applications Prototyping:** [Ver prototipo en Microsoft Stream](https://REEMPLAZAR)
 
 # Capítulo IV: Product Implementation & Validation
 
