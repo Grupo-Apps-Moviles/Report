@@ -3263,7 +3263,7 @@ Acciones clave: *Ingresar credenciales → Pulsar "Ingresar →"* /
   <table>
     <tr>
       <td align="center">
-        <img width="700" alt="wf01" src="https://github.com/user-attachments/assets/REEMPLAZAR" />
+        <img width="700" alt="UG-01 — Autenticación y registro en la plataforma" src="https://github.com/user-attachments/assets/f29f3eab-237c-47b2-a4df-223c7f18d877" />
         <br><em>WF-01: Autenticación y registro</em>
       </td>
     </tr>
@@ -3287,7 +3287,7 @@ Acciones clave: *Subir logo → Ingresar nombre de empresa → Pulsar "Continuar
   <table>
     <tr>
       <td align="center">
-        <img width="700" alt="wf02" src="https://github.com/user-attachments/assets/REEMPLAZAR" />
+        <img width="700" alt="UG-02 — Configuración inicial de la empresa" src="https://github.com/user-attachments/assets/624103c8-5ef8-485f-9dbc-7e0a3fa61e05" />
         <br><em>WF-02: Configuración inicial de empresa</em>
       </td>
     </tr>
@@ -3311,7 +3311,7 @@ Pulsar "Editar información de Empresa"*
   <table>
     <tr>
       <td align="center">
-        <img width="700" alt="wf03" src="https://github.com/user-attachments/assets/REEMPLAZAR" />
+        <img width="700" alt="UG-03 — Consulta del panel de indicadores" src="https://github.com/user-attachments/assets/0e6b1911-b90c-464e-90ea-a6f826040992" />
         <br><em>WF-03: Consulta del panel de indicadores</em>
       </td>
     </tr>
@@ -3338,7 +3338,7 @@ Pulsar "Crear"*
   <table>
     <tr>
       <td align="center">
-        <img width="700" alt="wf04" src="https://github.com/user-attachments/assets/REEMPLAZAR" />
+        <img width="700" alt="UG-04 — Registro de un nuevo paradero" src="https://github.com/user-attachments/assets/91af4140-96ee-441b-afb1-c4cde6eb319a" />
         <br><em>WF-04: Registro de nuevo paradero</em>
       </td>
     </tr>
@@ -3363,7 +3363,7 @@ Pulsar "Guardar Cambios"*
   <table>
     <tr>
       <td align="center">
-        <img width="700" alt="wf05" src="https://github.com/user-attachments/assets/REEMPLAZAR" />
+        <img width="700" alt="UG-05 — Edición de un paradero existente" src="https://github.com/user-attachments/assets/e38776d8-7090-4e39-b72d-23b54f0d1a42" />
         <br><em>WF-05: Edición de paradero existente</em>
       </td>
     </tr>
@@ -3389,7 +3389,7 @@ Lista actualizada / Estado vacío*
   <table>
     <tr>
       <td align="center">
-        <img width="700" alt="wf06" src="https://github.com/user-attachments/assets/REEMPLAZAR" />
+        <img width="700" alt="UG-06 — Eliminación de un paradero" src="https://github.com/user-attachments/assets/adaa6206-af04-4823-8713-e09eaf86aa6f" />
         <br><em>WF-06: Eliminación de paradero</em>
       </td>
     </tr>
@@ -3416,7 +3416,7 @@ Pulsar "Guardar y salir"*
   <table>
     <tr>
       <td align="center">
-        <img width="700" alt="wf07" src="https://github.com/user-attachments/assets/REEMPLAZAR" />
+        <img width="700" alt="UG-07 — Creación de una nueva ruta" src="https://github.com/user-attachments/assets/c7a3b2b8-77c2-4663-9985-009a85422b78" />
         <br><em>WF-07: Creación de nueva ruta</em>
       </td>
     </tr>
@@ -3425,7 +3425,33 @@ Pulsar "Guardar y salir"*
 
 ---
 
-**UG-08 — Actualización de información de la empresa**
+**UG-08 — Eliminación de una ruta**
+
+El gestor pulsa el ícono de eliminar en una tarjeta de ruta, confirma la
+acción en el diálogo de advertencia y la ruta es removido de la lista.
+Si era la última ruta registrada, el sistema muestra el estado vacío con
+la llamada a la acción para crear una nuevo.
+
+Pantallas involucradas: **Rutas (lista) → Diálogo de confirmación →
+Rutas (lista actualizada o estado vacío)**
+
+Acciones clave: *Pulsar ícono basura → Confirmar eliminación →
+Lista actualizada / Estado vacío*
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img width="700" alt="UG-08 — Eliminación de una ruta" src="https://github.com/user-attachments/assets/c47f1f42-4f51-4a51-b8a0-fe5be3c918a3" />
+        <br><em>WF-08: Eliminación de ruta</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+**UG-09 — Actualización de información de la empresa**
 
 El gestor accede a "Editar información de Empresa" desde el dashboard o
 desde el módulo correspondiente, modifica los campos necesarios (nombre,
@@ -3442,8 +3468,8 @@ Pulsar "Guardar Información"* / *Pulsar "Cancelar" → Regresar sin cambios*
   <table>
     <tr>
       <td align="center">
-        <img width="700" alt="wf09" src="https://github.com/user-attachments/assets/REEMPLAZAR" />
-        <br><em>WF-08: Actualización de información de empresa</em>
+        <img width="700" alt="UG-09 — Actualización de información de la empresa" src="https://github.com/user-attachments/assets/499b4606-8cd5-41c6-9471-2619c3ed8b12" />
+        <br><em>WF-09: Actualización de información de empresa</em>
       </td>
     </tr>
   </table>
