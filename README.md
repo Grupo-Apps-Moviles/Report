@@ -412,6 +412,7 @@ Implementar la plataforma móvil WayPass para digitalizar el sistema de rutas y 
 
 * Validar la plataforma mediante pruebas de campo.
 
+<div style="page-break-after: always;"></div>
 
 # Capítulo I: Presentación
 
@@ -598,6 +599,8 @@ Este grupo representa a los operadores informales que ofrecen servicios de trans
 * Generar ingresos diarios de forma flexible.
 * Maximizar recorridos eficientes con más pasajeros en menor tiempo.
 * Contar con herramientas que les permitan ser más visibles y captar pasajeros fácilmente.
+
+<div style="page-break-after: always;"></div>
 
 # Capítulo II: Requirements Development and Software Solution Design
 
@@ -3049,6 +3052,8 @@ Figura 41. Diagrama de base de datos del Bounded Context Routes - WayPass
 
 <img width="585" height="451" alt="Image" src="https://github.com/user-attachments/assets/d6cc472b-6bb6-435d-a59e-60810793e778" />
 
+<div style="page-break-after: always;"></div>
+
 # Capítulo III: Solution UI/UX Design
 
 ## 3.1. Product design
@@ -4110,6 +4115,8 @@ en la experiencia del usuario gestor de transporte.
 
 **Mobile Applications Prototyping:** [Ver prototipo en Microsoft Stream](https://REEMPLAZAR)
 
+<div style="page-break-after: always;"></div>
+
 # Capítulo IV: Product Implementation & Validation
 
 ## 4.1. Software Configuration Management
@@ -4876,6 +4883,8 @@ Los resultados obtenidos permitieron identificar fortalezas relacionadas con nav
 
 En general, la evaluación concluye que la plataforma ofrece una experiencia clara y funcional para los usuarios, aunque se recomienda implementar mejoras de accesibilidad, ayuda visual y comunicación de información para futuras versiones del sistema.
 
+<div style="page-break-after: always;"></div>
+
 # Conclusiones y recomendaciones
 
 ## Conclusiones
@@ -4897,6 +4906,8 @@ Tras el desarrollo del presente informe y la ejecución del primer avance del pr
 ### 4. Sobre el Impacto del Modelo de Negocio
 * **Sostenibilidad mediante B2B:** El modelo de suscripción para conductores independientes se perfila como una solución viable, ya que les ofrece una herramienta de gestión profesional a cambio de una inversión mínima, permitiéndoles competir en un mercado cada vez más tecnológico.
 
+<div style="page-break-after: always;"></div>
+
 ## Recomendaciones
 
 Basado en el análisis del proyecto y los hallazgos durante el avance, se sugieren las siguientes acciones para asegurar el éxito y la sostenibilidad de **WayPass**:
@@ -4916,6 +4927,8 @@ Basado en el análisis del proyecto y los hallazgos durante el avance, se sugier
 * **Monitoreo de Veracidad:** Desarrollar un algoritmo de validación o un sistema de reportes por parte de los usuarios para identificar y sancionar perfiles de conductores que brinden información falsa sobre precios o rutas, manteniendo así la integridad de la plataforma.
 * **Protección de Datos:** Asegurar que el contexto de IAM (Identity and Access Management) cumpla estrictamente con la Ley de Protección de Datos Personales, especialmente al manejar información sensible de los conductores suscritos.
 
+<div style="page-break-after: always;"></div>
+
 # Video App Validation
 
 > *(Sección pendiente de desarrollo)*
@@ -4927,6 +4940,8 @@ Basado en el análisis del proyecto y los hallazgos durante el avance, se sugier
 # Video About the team
 
 > *(Sección pendiente de desarrollo)*
+
+<div style="page-break-after: always;"></div>
 
 # Glosario
 
@@ -4956,7 +4971,7 @@ Basado en el análisis del proyecto y los hallazgos durante el avance, se sugier
 | UX (User Experience) | Experiencia general del usuario al utilizar el sistema. |
 | Wireframe | Boceto inicial de la estructura visual de una interfaz. |
 
-> *(Sección pendiente de desarrollo)*
+<div style="page-break-after: always;"></div>
 
 # Bibliografía
 
@@ -4966,6 +4981,7 @@ Basado en el análisis del proyecto y los hallazgos durante el avance, se sugier
 
 - Municipalidad Provincial de Trujillo. (2026, 21 de mayo). Implementan aplicativos para ordenar el transporte y mejorar el servicio al ciudadano. Gob.pe. https://www.gob.pe/institucion/munitrujillo/noticias/1371063-implementan-aplicativos-para-ordenar-el-transporte-y-mejorar-el-servicio-al-ciudadano
 
+<div style="page-break-after: always;"></div>
 
 # Anexos
 
@@ -4997,8 +5013,6 @@ Basado en el análisis del proyecto y los hallazgos durante el avance, se sugier
     </tr>
   </tbody>
 </table>
-
----
 
 ## Sistemas y Plataformas Externas
 
@@ -5036,8 +5050,6 @@ Basado en el análisis del proyecto y los hallazgos durante el avance, se sugier
     </tr>
   </tbody>
 </table>
-
----
 
 ## Herramientas de Desarrollo de Software
 
