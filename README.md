@@ -301,6 +301,9 @@
       - [4.2.1.4. Testing Suite Evidence for Sprint Review](#4214-testing-suite-evidence-for-sprint-review)
       - [Testing Suite Evidence for Sprint Review](#testing-suite-evidence-for-sprint-review)
       - [4.2.1.5. Execution Evidence for Sprint Review](#4215-execution-evidence-for-sprint-review)
+  - [Landing Page](#landing-page)
+  - [Backend (.net C#)](#backend-net-c)
+  - [Android Movil](#android-movil)
       - [4.2.1.6. Services Documentation Evidence for Sprint Review](#4216-services-documentation-evidence-for-sprint-review)
       - [4.2.1.7. Software Deployment Evidence for Sprint Review](#4217-software-deployment-evidence-for-sprint-review)
       - [4.2.1.8. Team Collaboration Insights during Sprint](#4218-team-collaboration-insights-during-sprint)
@@ -4582,7 +4585,23 @@ Los resultados obtenidos confirman la estabilidad inicial de la navegación y la
 
 #### 4.2.1.5. Execution Evidence for Sprint Review
 
+Durante este primer Sprint se logró implementar los principales componentes del ecosistema de la solución Viacore, incluyendo el desarrollo:
+
+- Landing Page: [https://grupo-apps-moviles.github.io/landing-page/](https://grupo-apps-moviles.github.io/landing-page/)
+- Backend API (C#, .NET)
+- Aplicación móvil. 
+
+Cada componente fue desarrollado y probado de manera funcional para validar la arquitectura inicial del sistema.
+
+A continuación, se presentan las evidencias de ejecución de los productos desarrollados:
+
+## Landing Page
+
 <img width="1920" height="6563" alt="Image" src="https://github.com/user-attachments/assets/e9410d75-c45b-40d3-ad65-7c375d13de47" />
+
+## Backend (.net C#)
+
+## Android Movil
 
 #### 4.2.1.6. Services Documentation Evidence for Sprint Review
 
