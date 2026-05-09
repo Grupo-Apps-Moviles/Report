@@ -4602,14 +4602,81 @@ Los resultados obtenidos confirman la estabilidad inicial de la navegación y la
 > *(Sección pendiente de desarrollo)*
 
 ## 4.3. Validation Interviews
+Landing Page:
 
 ### 4.3.1. Diseño de Entrevistas
 
-> *(Sección pendiente de desarrollo)*
+**Landing Page:** 
+- ¿Entiendes qué hace la aplicación?
+- ¿Te interesa probarla?
+- ¿Los colores te gustan?
+- ¿La propuesta de valor (ahorro de tiempo/seguridad) es lo primero que notas al entrar?
+- ¿Las capturas de pantalla de la aplicación te ayudan a confiar en el servicio?
+- ¿Encuentras fácilmente el botón para descargar o registrarte?
+- Califica la app del 1 al 10:
+- ¿Qué mejorarías?
+- ¿La recomendarías?
+
+--
+
+**App Web:**
+- ¿Es fácil navegar?
+- ¿Entiendes cómo crear rutas?
+- ¿Entiendes cómo crear paraderos?
+- ¿El diseño se ve limpio?
+- ¿Fue fácil crear la cuenta?
+- ¿Fue fácil registrar tu empresa?
+- Califica la app del 1 al 10:
+- ¿Qué mejorarías?
+- ¿La recomendarías?
 
 ### 4.3.2. Registro de Entrevistas
 
-> *(Sección pendiente de desarrollo)*
+**Pasajeros:**
+
+<table>
+<colgroup>
+</colgroup>
+<thead>
+<tr>
+<th colspan="2">Entrevista #1<br></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nombre</td>
+<td>Adriana</td>
+</tr>
+<tr>
+<td>Apellidos</td>
+<td>Diestra</td>
+</tr>
+<tr>
+<td>Edad</td>
+<td>20 años</td>
+</tr>
+<tr>
+<td>Ocupación</td>
+<td>Estudiante</td>
+</tr>
+<td>Distrito</td>
+<td>San Juan de Lurigancho, Lima, Lima</td>
+</tr>
+<tr>
+<td>Evidencia</td>
+<td><img width="1047" height="569" alt="image" src="https://github.com/user-attachments/assets/dc2ec478-c88c-4157-aef5-ceded0d7238f" />
+</td>
+</tr>
+<td>Resumen</td>
+<td>
+Durante la evaluación de la landing page de WayPass, Adriana manifestó una recepción muy positiva, otorgando a la propuesta una calificación de 9/10. La entrevistada comprendió de inmediato que la aplicación busca digitalizar pagos y gestionar rutas, una solución que considera de gran interés para optimizar sus traslados diarios y actividades personales. Destacó que el diseño visual es moderno y profesional, y que tanto las capturas de pantalla como la ubicación clara de los botones de registro facilitan la navegación y generan confianza para descargar la herramienta. Finalmente, recomendó el servicio por su potencial para modernizar el transporte público, sugiriendo únicamente añadir un mapa interactivo en tiempo real y una sección de preguntas frecuentes para mejorar la experiencia previa al registro.</td>
+  </tr>
+</tbody>
+</table>
+
+--
+
+**Conductores:**
 
 ### 4.3.3. Evaluaciones según heurísticas
 
