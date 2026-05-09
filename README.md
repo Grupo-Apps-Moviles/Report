@@ -4612,7 +4612,15 @@ El presente Sprint Backlog 1 detalla las historias de usuario priorizadas para e
 
 #### 4.2.1.3. Development Evidence for Sprint Review
 
-> *(Sección pendiente de desarrollo)*
+Durante el Sprint se definieron las herramientas de despliegue e infraestructura tecnológica que serán utilizadas en el proyecto Viacore para futuras etapas de implementación y producción.
+
+| Componente | Herramienta | Estado |
+|---|---|---|
+| Landing Page | GitHub Pages | Implementado |
+| Backend API (.NET) | Microsoft Azure | En planificación |
+| Mobile App | Firebase | En planificación |
+| Base de Datos | MySQL - Railway | En planificación |
+| Control de Versiones | GitHub | Implementado |
 
 #### 4.2.1.4. Testing Suite Evidence for Sprint Review
 
