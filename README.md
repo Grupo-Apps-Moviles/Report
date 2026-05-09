@@ -322,6 +322,13 @@ El equipo utilizó GitHub como plataforma de colaboración para el control de ve
 - [Tablas Principales](#tablas-principales)
   - [Android Movil](#android-movil)
       - [4.2.1.6. Services Documentation Evidence for Sprint Review](#4216-services-documentation-evidence-for-sprint-review)
+  - [Authentication Services](#authentication-services)
+  - [Users \& Profiles Services](#users--profiles-services)
+  - [Drivers Services](#drivers-services)
+  - [Vehicle Services](#vehicle-services)
+  - [Routes Services](#routes-services)
+  - [Route Stops Services](#route-stops-services)
+  - [Stops Services](#stops-services)
       - [4.2.1.7. Software Deployment Evidence for Sprint Review](#4217-software-deployment-evidence-for-sprint-review)
       - [4.2.1.8. Team Collaboration Insights during Sprint](#4218-team-collaboration-insights-during-sprint)
   - [4.3. Validation Interviews](#43-validation-interviews)
@@ -4654,7 +4661,87 @@ La base de datos del proyecto Viacore fue diseñada utilizando MySQL como sistem
 
 #### 4.2.1.6. Services Documentation Evidence for Sprint Review
 
-> *(Sección pendiente de desarrollo)*
+En esta sección del informe se presentan los principales endpoints desarrollados en el backend del proyecto, detallando las funcionalidades implementadas durante el Sprint.
+
+**Backend Desplegado**
+
+[Ver Swagger API Documentation](#)
+
+---
+
+## Authentication Services
+
+| Método | Endpoint | Función |
+|---|---|---|
+| POST | `/api/v1/auth/sign-in` | Permite iniciar sesión y generar el token de autenticación. |
+| POST | `/api/v1/auth/sign-up` | Permite registrar nuevos usuarios en la plataforma. |
+
+---
+
+## Users & Profiles Services
+
+| Método | Endpoint | Función |
+|---|---|---|
+| GET | `/api/v1/users/{userId}/profile` | Obtiene el perfil asociado a un usuario. |
+| GET | `/api/v1/users/{id}` | Obtiene un usuario mediante su Id. |
+| GET | `/api/v1/profiles/{id}` | Obtiene un perfil mediante su Id. |
+| PUT | `/api/v1/profiles/{id}` | Actualiza un perfil mediante su Id. |
+| POST | `/api/v1/profiles` | Crea un nuevo perfil. |
+
+---
+
+## Drivers Services
+
+| Método | Endpoint | Función |
+|---|---|---|
+| GET | `/drivers` | Obtiene todos los perfiles de conductores registrados. |
+| GET | `/api/v1/drivers/{driverId}/routes` | Obtiene las rutas asociadas a un conductor. |
+
+---
+
+## Vehicle Services
+
+| Método | Endpoint | Función |
+|---|---|---|
+| GET | `/api/v1/drivers/{profileId}/vehicle/{id}` | Obtiene un vehículo mediante su Id. |
+| PUT | `/api/v1/drivers/{profileId}/vehicle/{id}` | Actualiza la información de un vehículo. |
+| GET | `/api/v1/drivers/{profileId}/vehicle` | Obtiene el vehículo asociado al conductor. |
+| POST | `/api/v1/drivers/{profileId}/vehicle` | Registra un nuevo vehículo para el conductor. |
+
+---
+
+## Routes Services
+
+| Método | Endpoint | Función |
+|---|---|---|
+| GET | `/api/v1/routes/{id}` | Obtiene una ruta por su Id. |
+| DELETE | `/api/v1/routes/{id}` | Elimina una ruta mediante su Id. |
+| POST | `/api/v1/routes` | Crea una nueva ruta. |
+| POST | `/api/v1/routes/{routeId}/active` | Cambia el estado de la ruta a activo. |
+| POST | `/api/v1/routes/{routeId}/inactive` | Cambia el estado de la ruta a inactivo. |
+
+---
+
+## Route Stops Services
+
+| Método | Endpoint | Función |
+|---|---|---|
+| GET | `/api/v1/routes/{routeId}/stops/{id}` | Obtiene un paradero asociado a una ruta. |
+| DELETE | `/api/v1/routes/{routeId}/stops/{id}` | Elimina un paradero de una ruta. |
+| GET | `/api/v1/routes/{routeId}/stops` | Obtiene todos los paraderos de una ruta. |
+| POST | `/api/v1/routes/{routeId}/stops` | Crea un nuevo paradero asociado a una ruta. |
+
+---
+
+## Stops Services
+
+| Método | Endpoint | Función |
+|---|---|---|
+| GET | `/api/v1/stops/{id}` | Obtiene un paradero mediante su Id. |
+| PUT | `/api/v1/stops/{id}` | Actualiza un paradero mediante su Id. |
+| DELETE | `/api/v1/stops/{id}` | Elimina un paradero mediante su Id. |
+| GET | `/api/v1/stops?driverId` | Obtiene los paraderos asociados a un conductor. |
+| POST | `/api/v1/stops` | Registra un nuevo paradero. |
 
 #### 4.2.1.7. Software Deployment Evidence for Sprint Review
 
@@ -4666,7 +4753,20 @@ La Landing Page del proyecto Viacore fue desplegada utilizando GitHub Pages, per
 
 #### 4.2.1.8. Team Collaboration Insights during Sprint
 
-> *(Sección pendiente de desarrollo)*
+A continuación, se presentan los principales colaboradores del proyecto:
+
+| Integrante | Código Universitario | GitHub |
+|---|---|---|
+| Velarde Gonzales, Néstor Hernán | U20211C221 | @velardesoft |
+| Curi Marcelo, Angelo Marcio | U202022387 | @AngelC999 |
+| Guzmán Cabrejos, Yaku Mateo | U20231B173 | @yakumateo |
+| Quiroz Cáceres, Adrian | U202214864 | @Aqc1019 |
+| Carranza Tesén, Joaquín Enrique | U20191B935 | @thepima |
+
+El equipo utilizó GitHub como plataforma de colaboración para el control de versiones, integración de cambios, seguimiento de avances y trabajo colaborativo durante el Sprint.
+
+
+<img width="1020" height="778" alt="Image" src="https://github.com/user-attachments/assets/0985b48a-b0ce-4c3e-ade3-ea80cebc58de" />
 
 ## 4.3. Validation Interviews
 En este punto se hiso una validación con los segmentos objetivos sobre nuestro producto de primera fase. 
