@@ -4819,16 +4819,211 @@ En este punto se hiso una validación con los segmentos objetivos sobre nuestro 
 
 ### 4.3.3. Evaluaciones según heurísticas
 
-Para el proyecto Viacore se utilizaron las heurísticas de Nielsen con el objetivo de validar la claridad, consistencia y facilidad de uso de la Landing Page y aplicación móvil.
+<div align='center'>
+    <h2>UX Heuristics & Principles Evaluation</h2>
+    <h3>Usability – Inclusive Design – Information Architecture</h3>
+</div>
+
+<p><strong>CARRERA:</strong> Ingeniería de Software</p>
+<p><strong>CURSO:</strong> Aplicaciones para dispositivos Móviles</p>
+<p><strong>NRC:</strong> 3821</p>
+<p><strong>PROFESOR:</strong> Mayta Guillermo, Jorge Luis</p>
+<p><strong>AUDITOR:</strong> Equipo de Viacore</p>
+<p><strong>CLIENTE(S):</strong> Pasajeros y conductores de transporte informal</p>
+
+<br>
+
+<strong>TAREAS A EVALUAR:</strong>
+<p>El alcance de esta evaluación incluye la revisión de las siguientes tareas:</p>
+<strong>Landing Page:</strong>
+<ul>
+  <li>Comprender rápidamente el propósito de la aplicación.</li>
+  <li>Identificar la propuesta de valor principal.</li>
+  <li>Encontrar el botón de descarga o registro.</li>
+  <li>Revisar información sobre beneficios y funcionamiento del servicio.</li>
+  <li>Explorar la sección de rutas y paraderos.</li>
+  <li>Validar si las capturas generan confianza en el servicio.</li>
+</ul>
+<strong>Aplicación para Pasajeros:</strong>
+<ul>
+  <li>Buscar rutas disponibles.</li>
+  <li>Visualizar paraderos cercanos.</li>
+  <li>Consultar información del conductor.</li>
+  <li>Revisar tarifas y horarios aproximados.</li>
+  <li>Explorar colectivos disponibles sin registrarse.</li>
+  <li>Ver detalles completos de una ruta.</li>
+  <li>Filtrar paraderos según ubicación.</li>
+</ul>
+<strong>Aplicación para Conductores / Empresas:</strong>
+<ul>
+  <li>Registrarse como conductor o empresa.</li>
+  <li>Iniciar sesión en la plataforma.</li>
+  <li>Registrar datos de empresa.</li>
+  <li>Crear, editar y eliminar rutas.</li>
+  <li>Gestionar paraderos.</li>
+  <li>Activar disponibilidad de rutas.</li>
+  <li>Visualizar demanda de pasajeros.</li>
+  <li>Revisar métricas generales del servicio.</li>
+</ul>
+<strong>Evaluación General UX/UI:</strong>
+<ul>
+  <li>Claridad de navegación.</li>
+  <li>Consistencia visual entre pantallas.</li>
+  <li>Facilidad de aprendizaje para nuevos usuarios.</li>
+  <li>Comprensión de etiquetas y términos usados.</li>
+</ul>
+
+<br>
+
+<strong>ESCALA DE SEVERIDAD:</strong>
+<p>Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:</p>
+
+<table>
+    <tr>
+        <th style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Nivel</th>
+        <th style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Descripción</th>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">1</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Problema superficial: puede ser fácilmente superado por el usuario ó ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">2</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja para resolverlo de cara al siguiente release.</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">3</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">4</td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: justify;">Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.</td>
+    </tr>
+</table>
+
+<strong>Tabla Heurística General:</strong>
 
 | Heurística | Evaluación | Resultado |
 |---|---|---|
-| Visibilidad del estado del sistema | La aplicación muestra correctamente mensajes y navegación visible. | Cumple |
-| Consistencia y estándares | Los botones y colores mantienen un diseño uniforme. | Cumple |
-| Prevención de errores | Se validan campos vacíos en formularios. | Cumple |
-| Reconocimiento antes que memoria | La navegación es intuitiva y simple. | Cumple |
-| Diseño estético y minimalista | La interfaz mantiene un diseño limpio y moderno. | Cumple |
-| Ayuda y documentación | Se recomienda implementar una sección FAQ más completa. | Parcial |
+| Visibilidad del estado del sistema | La aplicación muestra mensajes claros durante navegación y formularios, aunque faltan mejores indicadores de carga y búsqueda en tiempo real. | Parcial |
+| Consistencia y estándares | Los botones, colores y estructura visual mantienen uniformidad entre pantallas. | Cumple |
+| Prevención de errores | Los formularios validan campos vacíos y datos inválidos antes de enviar información. | Cumple |
+| Reconocimiento antes que memoria | La navegación es intuitiva y las opciones principales son visibles fácilmente. | Cumple |
+| Flexibilidad y eficiencia de uso | Los usuarios pueden explorar rutas y paraderos sin necesidad de registro obligatorio. | Cumple |
+| Diseño estético y minimalista | La interfaz mantiene un diseño limpio, moderno y organizado. | Cumple |
+| Ayuda y documentación | Falta una sección FAQ más completa y ayuda contextual para nuevos usuarios. | Parcial |
+| Correspondencia entre el sistema y el mundo real | El sistema utiliza términos familiares como “colectivo”, “ruta” y “paradero”. | Cumple |
+| Control y libertad del usuario | El usuario puede volver atrás y navegar libremente entre secciones. | Cumple |
+| Accesibilidad e inclusión | La plataforma todavía depende bastante de GPS y conectividad constante. | Parcial |
+
+<strong>Tabla de Problemas Heurísticos:</strong>
+
+| # | Problema | Escala de severidad | Heurística/Principio violado |
+|---|---|---|---|
+| 1 | La propuesta de valor de la landing page no comunica claramente el enfoque en colectivos y rutas informales. | 2 | Match between system and real world |
+| 2 | Falta ayuda contextual y soporte para usuarios nuevos dentro de la aplicación. | 2 | Help and documentation |
+| 3 | Dependencia alta de mapas y geolocalización para utilizar funciones principales. | 3 | Accessibility and flexibility |
+| 4 | No existen suficientes indicadores visuales durante búsquedas y carga de rutas. | 3 | Visibility of system status |
+| 5 | La interfaz no diferencia claramente funcionalidades entre pasajeros y conductores. | 2 | Consistency and hierarchy |
+| 6 | Algunos términos utilizados pueden resultar ambiguos para usuarios con poca experiencia digital. | 2 | Clear labeling |
+
+<h4>Descripción Detallada de Problemas Críticos</h4>
+
+<p><strong>Problema 1: Propuesta de valor poco específica en la Landing Page.</strong></p>
+<p>
+<p><strong>Severidad: 2</strong></p>
+<p>
+  <strong>Heurística/Principio violada(o):</strong> Usability – Match between system and real world.
+</p>
+<p>
+  <strong>Problema:</strong> La landing page presenta información general sobre transporte y movilidad, pero no comunica inmediatamente que la aplicación está enfocada en colectivos informales, rutas interurbanas y ubicación de paraderos en tiempo real.
+</p>
+<p>
+  <strong>Evidencia:</strong> Durante las entrevistas, varios usuarios mencionaron problemas relacionados con no saber qué colectivo tomar, dónde encontrar paraderos o cuánto tiempo esperar. Sin embargo, esta problemática no se refleja claramente desde el primer vistazo de la página principal.
+</p>
+<p>
+  <strong>Recomendación:</strong> Agregar mensajes más directos como: “Encuentra colectivos y paraderos en tiempo real”, “Reduce tiempos de espera y evita perderte”, “Consulta rutas seguras cerca de ti”. También se recomienda mostrar capturas reales de rutas, tiempos estimados y disponibilidad de vehículos.
+</p>
+
+<p><strong>Problema 2: Falta de ayuda contextual para nuevos usuarios.</strong></p>
+<p>
+<p><strong>Severidad: 2</strong></p>
+<p>
+  <strong>Heurística/Principio violada(o):</strong> Usability – Help and documentation.
+</p>
+<p>
+  <strong>Problema:</strong> La aplicación no incluye suficientes ayudas visuales o explicaciones rápidas para usuarios que utilizan la plataforma por primera vez..
+</p>
+<p>
+  <strong>Evidencia:</strong> Las User Stories incluyen funcionalidades como búsqueda de rutas, exploración de paraderos y activación de disponibilidad, pero no se describen tutoriales, tooltips ni guías iniciales para facilitar el aprendizaje.
+</p>
+<p>
+  <strong>Recomendación:</strong> Agregar tutorial inicial interactivo, tooltips explicativos, sección FAQ más visible, mensajes de ayuda en formularios y mapas.
+</p>
+
+<p><strong>Problema 3: Dependencia alta de mapas y geolocalización.</strong></p>
+<p>
+<p><strong>Severidad: 3</strong></p>
+<p>
+  <strong>Heurística/Principio violada(o):</strong> Inclusive Design – Accessibility and flexibility.
+</p>
+<p>
+  <strong>Problema:</strong> La plataforma depende considerablemente de mapas y GPS para encontrar rutas y paraderos, lo que puede afectar a usuarios con mala conexión o dispositivos de gama baja.
+</p>
+<p>
+  <strong>Evidencia:</strong> El análisis de entrevistas identifica que muchos usuarios provienen de zonas periféricas donde existen problemas de conectividad y poca estabilidad en los paraderos.
+</p>
+<p>
+  <strong>Recomendación:</strong> Agregar modo de bajo consumo de datos, opciones de listado textual de rutas, caché offline parcial e información básica sin necesidad de GPS activo.
+</p>
+
+<p><strong>Problema 4: Ausencia de feedback claro en búsquedas y disponibilidad.</strong></p>
+<p>
+<p><strong>Severidad: 3</strong></p>
+<p>
+  <strong>Heurística/Principio violada(o):</strong> Usability – Visibility of system status.
+</p>
+<p>
+  <strong>Problema:</strong> Cuando el usuario busca rutas o espera disponibilidad de colectivos, no se especifica claramente si el sistema está cargando información, buscando datos o si no existen resultados disponibles.
+</p>
+<p>
+  <strong>Evidencia:</strong> Las User Stories indican escenarios “sin resultados” o “sin datos”, pero no describen indicadores visuales de carga o estados intermedios del sistema.
+</p>
+<p>
+  <strong>Recomendación:</strong> Agregar skeleton loaders, indicadores como “Buscando rutas cercanas…” y mensajes amigables como “No encontramos colectivos disponibles por ahora”.
+</p>
+
+<p><strong>Problema 5: Diferenciación insuficiente entre roles de usuario.</strong></p>
+<p>
+<p><strong>Severidad: 2</strong></p>
+<p>
+  <strong>Heurística/Principio violada(o):</strong> Information Architecture – Consistency and hierarchy.
+</p>
+<p>
+  <strong>Problema:</strong> La interfaz no diferencia claramente las funcionalidades correspondientes a pasajeros y conductores, lo que podría generar confusión durante la navegación.
+</p>
+<p>
+  <strong>Evidencia:</strong> El sistema maneja múltiples tipos de usuario (pasajeros, conductores y empresas), pero algunas funcionalidades comparten estructuras similares sin jerarquías visuales suficientemente marcadas.
+</p>
+<p>
+  <strong>Recomendación:</strong> Implementar colores o iconografía diferenciada por rol, dashboards específicos, etiquetas visuales claras y separación más visible entre módulos de pasajero y conductor.
+</p>
+
+<p><strong>Problema 6: Uso de términos técnicos o ambiguos.</strong></p>
+<p>
+<p><strong>Severidad: 2</strong></p>
+<p>
+  <strong>Heurística/Principio violada(o):</strong> Information Architecture – Clear labeling.
+</p>
+<p>
+  <strong>Problema:</strong> Algunos términos usados dentro del sistema podrían resultar ambiguos o poco intuitivos para usuarios con baja experiencia digital.
+</p>
+<p>
+  <strong>Evidencia:</strong> El lenguaje ubicuo del proyecto utiliza términos como “Disponibilidad”, “Ruta activa” y “Conductor verificado”, los cuales podrían requerir contexto adicional para ciertos usuarios.
+</p>
+<p>
+  <strong>Recomendación:</strong> Reemplazar o complementar términos con expresiones más claras como: “Ruta activa” → “Colectivo disponible ahora”, “Disponibilidad” → “Asientos disponibles” y “Conductor verificado” → “Chofer identificado y validado”.
+</p>
 
 # Conclusiones y recomendaciones
 
