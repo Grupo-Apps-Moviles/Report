@@ -343,6 +343,9 @@ El equipo utilizó GitHub como plataforma de colaboración para el control de ve
 - [Glosario](#glosario-1)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
+  - [Recursos del Proyecto](#recursos-del-proyecto)
+  - [Anexos – Sistemas y Plataformas Externas](#anexos--sistemas-y-plataformas-externas)
+  - [Herramientas de Desarrollo de Software](#herramientas-de-desarrollo-de-software)
 
 <div style="page-break-after: always;"></div>
 
@@ -4786,6 +4789,8 @@ Basado en el análisis del proyecto y los hallazgos durante el avance, se sugier
 
 # Anexos
 
+## Recursos del Proyecto
+
 <table border="1">
   <thead>
     <tr>
@@ -4802,11 +4807,87 @@ Basado en el análisis del proyecto y los hallazgos durante el avance, se sugier
       <td><strong>Entrevistas</strong></td>
       <td><a href="https://shorturl.at/dnh1n" target="_blank">https://shorturl.at/dnh1n</a></td>
     </tr>
-      <tr>
+    <tr>
       <td><strong>Figma</strong></td>
-      <td><a href="https://www.figma.com/design/ky1OhSpiDR2fYguzC8Teo5/Untitled?node-id=2-5&t=CY5ZbtaxEkWrG0xC-0" target="_blank">https://www.figma.com/design/ky1OhSpiDR2fYguzC8Teo5/Untitled?node-id=2-5&t=CY5ZbtaxEkWrG0xC-0</a></td>
+      <td><a href="https://www.figma.com/design/ky1OhSpiDR2fYguzC8Teo5/Untitled?node-id=2-5&t=CY5ZbtaxEkWrG0xC-0" target="_blank">Ver Diseño UI/UX</a></td>
+    </tr>
+    <tr>
+      <td><strong>Trello</strong></td>
+      <td><a href="https://trello.com/invite/b/69ff3d5f6e22ba5114de07be/ATTIe3bce47f3f25411bc433b9188fad27e7C2103B04/movil" target="_blank">Ver Sprint Backlog</a></td>
     </tr>
   </tbody>
 </table>
 
-[Link del tablero Trello](https://trello.com/invite/b/69ff3d5f6e22ba5114de07be/ATTIe3bce47f3f25411bc433b9188fad27e7C2103B04/movil)
+---
+
+## Anexos – Sistemas y Plataformas Externas
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Herramienta</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Figma</strong></td>
+      <td>Diseño UI/UX, wireframes y prototipos del sistema.</td>
+    </tr>
+    <tr>
+      <td><strong>Trello</strong></td>
+      <td>Gestión ágil de tareas y Sprint Backlog.</td>
+    </tr>
+    <tr>
+      <td><strong>Jira</strong></td>
+      <td>Referencia para gestión profesional de proyectos ágiles.</td>
+    </tr>
+    <tr>
+      <td><strong>Structurizr</strong></td>
+      <td>Modelado de arquitectura de software y diagramas C4.</td>
+    </tr>
+    <tr>
+      <td><strong>Visual Paradigm Online</strong></td>
+      <td>Diseño de diagramas UML y modelado del sistema.</td>
+    </tr>
+    <tr>
+      <td><strong>GitHub</strong></td>
+      <td>Control de versiones y trabajo colaborativo.</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+## Herramientas de Desarrollo de Software
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Herramienta</th>
+      <th>Uso Principal</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Visual Studio Code</strong></td>
+      <td>Desarrollo Frontend y edición general del proyecto.</td>
+    </tr>
+    <tr>
+      <td><strong>JetBrains Rider</strong></td>
+      <td>Desarrollo Backend con ASP.NET Core y C#.</td>
+    </tr>
+    <tr>
+      <td><strong>Android Studio</strong></td>
+      <td>Desarrollo de la aplicación móvil Android.</td>
+    </tr>
+    <tr>
+      <td><strong>IntelliJ IDEA</strong></td>
+      <td>Soporte para proyectos y pruebas adicionales.</td>
+    </tr>
+    <tr>
+      <td><strong>MySQL Workbench</strong></td>
+      <td>Administración y visualización de la base de datos MySQL.</td>
+    </tr>
+  </tbody>
+</table>
