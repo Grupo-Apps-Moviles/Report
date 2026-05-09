@@ -4597,9 +4597,17 @@ A continuación, se presentan las evidencias de ejecución de los productos desa
 
 ## Landing Page
 
+La Landing Page de Viacore fue desarrollada como la interfaz principal de presentación de la plataforma, mostrando información relevante sobre el servicio de transporte colectivo. Se implementó un diseño responsive y moderno con secciones informativas y botones para dirigir a los usuarios hacia la aplicación móvil.
+
 <img width="1920" height="6563" alt="Image" src="https://github.com/user-attachments/assets/e9410d75-c45b-40d3-ad65-7c375d13de47" />
 
 ## Backend (.net C#)
+
+El backend del proyecto Viacore fue desarrollado utilizando ASP.NET Core Web API con C# y una arquitectura orientada a servicios RESTful. El objetivo principal de esta capa es centralizar la lógica de negocio, la gestión de datos y la comunicación entre la aplicación móvil y la base de datos MySQL.
+
+La arquitectura DDD permitió organizar las entidades, agregados, servicios y repositorios del sistema de manera modular, facilitando el mantenimiento del código y la evolución progresiva de la plataforma Viacore.
+
+<img width="1920" height="3585" alt="Image" src="https://github.com/user-attachments/assets/a40a99a7-4a02-42a4-a503-a8a26695fccb" />
 
 ## Android Movil
 
