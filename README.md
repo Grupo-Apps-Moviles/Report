@@ -318,6 +318,8 @@ El equipo utilizó GitHub como plataforma de colaboración para el control de ve
       - [4.2.1.5. Execution Evidence for Sprint Review](#4215-execution-evidence-for-sprint-review)
   - [Landing Page](#landing-page)
   - [Backend (.net C#)](#backend-net-c)
+  - [Base de datos (MySql)](#base-de-datos-mysql)
+- [Tablas Principales](#tablas-principales)
   - [Android Movil](#android-movil)
       - [4.2.1.6. Services Documentation Evidence for Sprint Review](#4216-services-documentation-evidence-for-sprint-review)
       - [4.2.1.7. Software Deployment Evidence for Sprint Review](#4217-software-deployment-evidence-for-sprint-review)
@@ -4626,6 +4628,26 @@ El backend del proyecto Viacore fue desarrollado utilizando ASP.NET Core Web API
 La arquitectura DDD permitió organizar las entidades, agregados, servicios y repositorios del sistema de manera modular, facilitando el mantenimiento del código y la evolución progresiva de la plataforma Viacore.
 
 <img width="1920" height="3585" alt="Image" src="https://github.com/user-attachments/assets/a40a99a7-4a02-42a4-a503-a8a26695fccb" />
+
+## Base de datos (MySql)
+
+La base de datos del proyecto Viacore fue diseñada utilizando MySQL como sistema de gestión de bases de datos relacional, permitiendo almacenar y administrar la información principal de la plataforma de transporte colectivo.
+
+# Tablas Principales
+
+| Tabla | Descripción | Relaciones Principales |
+|---|---|---|
+| **users** | Almacena la información de los usuarios registrados en la plataforma. | Se relaciona con `companies`. |
+| **companies** | Contiene las empresas de transporte registradas en el sistema. | Pertenece a un `user` y se relaciona con `stops`. |
+| **routes** | Guarda las rutas de transporte disponibles, incluyendo precio y duración. | Se relaciona con `schedules` y `route_stops`. |
+| **stops** | Registra los paraderos utilizados por las rutas de transporte. | Pertenece a `companies` y `districts`. |
+| **schedules** | Administra los horarios de salida y disponibilidad de rutas. | Pertenece a `routes`. |
+| **route_stops** | Tabla intermedia que conecta rutas y paraderos. | Relación entre `routes` y `stops`. |
+| **regions** | Almacena las regiones geográficas del sistema. | Se relaciona con `provinces`. |
+| **provinces** | Contiene las provincias asociadas a cada región. | Pertenece a `regions` y se relaciona con `districts`. |
+| **districts** | Guarda los distritos registrados en el sistema. | Pertenece a `provinces` y se relaciona con `stops`. |
+
+<img width="1163" height="771" alt="Image" src="https://github.com/user-attachments/assets/cc468e8c-0741-44c7-9b3e-fad2f2b3f93a" />
 
 ## Android Movil
 
