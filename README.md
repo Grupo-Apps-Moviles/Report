@@ -46,7 +46,7 @@
   <br/><br/>
 
 <div align="center">
-  <strong>Lima, 10 de Mayo del 2026</strong><br/>
+  <strong>Lima, 12 de Mayo del 2026</strong><br/>
 </div>
 
 <div style="page-break-after: always;"></div>
@@ -88,7 +88,22 @@
 
 # Project Report Collaboration Insights
 
-<img width="921" height="515" alt="Image" src="https://github.com/user-attachments/assets/53b13484-5d5b-4be6-af30-3367f9c31da7" />
+Durante el desarrollo del proyecto Viacore, los integrantes del equipo participaron activamente en la elaboración de documentación, desarrollo de software, gestión del repositorio y coordinación de tareas mediante GitHub y metodologías ágiles.
+
+A continuación, se presentan los principales colaboradores del proyecto:
+
+| Integrante | Código Universitario | GitHub |
+|---|---|---|
+| Velarde Gonzales, Néstor Hernán | U20211C221 | @velardesoft |
+| Curi Marcelo, Angelo Marcio | U202022387 | @AngelC999 |
+| Guzmán Cabrejos, Yaku Mateo | U20231B173 | @yakumateo |
+| Quiroz Cáceres, Adrian | U202214864 | @Aqc1019 |
+| Carranza Tesén, Joaquín Enrique | U20191B935 | @thepima |
+
+El equipo utilizó GitHub como plataforma de colaboración para el control de versiones, integración de cambios, seguimiento de avances y trabajo colaborativo durante el Sprint.
+
+
+<img width="1020" height="778" alt="Image" src="https://github.com/user-attachments/assets/0985b48a-b0ce-4c3e-ade3-ea80cebc58de" />
 
 <div style="page-break-after: always;"></div>
 
