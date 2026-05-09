@@ -4015,16 +4015,9 @@ la ruta aparece en la lista.
 - **Unhappy path 1:** Paso 1 incompleto → "Continuar →" deshabilitado
 - **Unhappy path 2:** Paso 2 hora inicio > hora fin → error en rojo → no permite guardar
 
-<div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <img width="800" alt="Mobile User Flow 7" src="https://github.com/user-attachments/assets/6a0437d4-57d3-417a-9c7e-bf4bc7de6b8f" />
-        <br><em>UF-07: Creación de nueva ruta</em>
-      </td>
-    </tr>
-  </table>
-</div>
+| Evidencia |
+|---|
+| <div align="center"><img width="800" alt="Mobile User Flow 7" src="https://github.com/user-attachments/assets/6a0437d4-57d3-417a-9c7e-bf4bc7de6b8f" /><br><em>UF-07: Creación de nueva ruta</em></div> |
 
 ---
 
@@ -4042,16 +4035,9 @@ vacío con la llamada a la acción.
 - **Happy path:** Lista → ícono basura → confirmar → lista actualizada / estado vacío
 - **Unhappy path:** Diálogo de confirmación → "Cancelar" → regresa sin cambios
 
-<div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <img width="800" alt="Mobile User Flow 8" src="https://github.com/user-attachments/assets/0351b246-c51f-414b-ba1b-b54a2c6ef20c" />
-        <br><em>UF-08: Eliminación de ruta</em>
-      </td>
-    </tr>
-  </table>
-</div>
+| Diseño |
+|---|
+| <div align="center"><img width="800" alt="Mobile User Flow 8" src="https://github.com/user-attachments/assets/0351b246-c51f-414b-ba1b-b54a2c6ef20c" /><br><em>UF-08: Eliminación de ruta</em></div> |
 
 **Mobile User Flow 9**
 
@@ -4119,79 +4105,56 @@ en la experiencia del usuario gestor de transporte.
 
 # Capítulo IV: Product Implementation & Validation
 
+En este capítulo se presentan las evidencias relacionadas con la implementación, configuración y validación del proyecto Viacore. Se describen las herramientas utilizadas durante el desarrollo, la gestión de configuración del software, el control de versiones, despliegues realizados y los resultados obtenidos durante las pruebas y validaciones funcionales del sistema.
+
+
 ## 4.1. Software Configuration Management
 
 ### 4.1.1. Software Development Environment Configuration
 
-<h4>Project Management</h4>
-<ul>
-  <li>
-    <strong>Jira:</strong> Plataforma de gestión de proyectos ágiles utilizada para la administración del Product Backlog, planificación de Sprints, asignación de User Stories y Tasks a los miembros del equipo, y seguimiento del progreso mediante tableros Scrum con estados To-Do, In-Process, To-Review y Done. <br>
-    <strong>Ruta de referencia:</strong> <a href="https://www.atlassian.com/software/jira">https://www.atlassian.com/software/jira</a>
-  </li>
-    <li>
-    <strong>WhatsApp:</strong> Herramienta de comunicación instantánea utilizada para coordinar actividades del equipo, resolver dudas rápidas, compartir avances y mantener una comunicación constante durante el desarrollo del proyecto. <br>
-    <strong>Ruta de referencia:</strong> 
-    <a href="https://web.whatsapp.com/">https://web.whatsapp.com/</a>
-  </li>
-</ul>
+En esta sección se describen las principales herramientas utilizadas durante el desarrollo del proyecto Viacore. Estas plataformas permitieron gestionar el proyecto, diseñar interfaces, desarrollar software, documentar avances y mantener una correcta colaboración entre los integrantes del equipo.
 
-<h4>Product UX/UI Design</h4>
-<ul>
-  <li>
-    <strong>UXPressia:</strong> Plataforma para la elaboración de User Personas, Empathy Maps, Customer Journey Maps e Impact Maps de los segmentos objetivo del proyecto Veyra (Administradores de casas de reposo y Familiares de adultos mayores). <br>
-    <strong>Ruta de referencia:</strong> <a href="https://uxpressia.com/">https://uxpressia.com/</a>
-  </li>
-  <li>
-    <strong>Miro:</strong> Pizarra digital colaborativa utilizada para sesiones de Big Picture EventStorming y Design-Level EventStorming, facilitando la identificación de Bounded Contexts, Events, Commands y Aggregates del dominio Veyra. <br>
-    <strong>Ruta de referencia:</strong> <a href="https://miro.com/es/">https://miro.com/es/</a>
-  </li>
-  <li>
-    <strong>Figma:</strong> Herramienta de diseño colaborativo para la creación de Wireframes, Mock-ups y Prototipos interactivos del Landing Page y Web Applications de Veyra, aplicando el Design System basado en Material Design. <br>
-    <strong>Ruta de referencia:</strong> <a href="https://www.figma.com/es-es/">https://www.figma.com/es-es/</a>
-  </li>
-</ul>
+- ## **Project Management**
 
-<h4>Software Development:</h4>
-  <ul>
-  <li>
-    <strong>WebStorm (Instalación local):</strong> Entorno de desarrollo utilizado para implementar y editar la interfaz de usuario del proyecto mediante HTML, CSS y JavaScript, facilitando la organización del código y la integración con GitHub. <br>
-    <strong>Ruta de referencia:</strong> 
-    <a href="https://www.jetbrains.com/es-es/webstorm/">https://www.jetbrains.com/es-es/webstorm/</a>
-  </li>
+| Herramienta | Descripción | Enlace |
+|---|---|---|
+| **Jira** | Plataforma utilizada para la gestión ágil del proyecto, organización del Product Backlog, planificación de Sprints y seguimiento de tareas mediante tableros Scrum. | https://www.atlassian.com/software/jira |
+| **WhatsApp** | Herramienta de comunicación utilizada para coordinación rápida, seguimiento de avances y trabajo colaborativo entre los integrantes del equipo. | https://web.whatsapp.com/ |
 
-  <li>
-    <strong>Android Studio (Instalación local):</strong> IDE utilizado para el desarrollo de la aplicación móvil Android, empleando Kotlin y Jetpack Compose para la creación de interfaces modernas y funcionalidades nativas del dispositivo móvil. <br>
-    <strong>Ruta de referencia:</strong> 
-    <a href="https://developer.android.com/studio?hl=es-419">https://developer.android.com/studio?hl=es-419</a>
-  </li>
+- ## **Product UX/UI Design**
 
-  <li>
-    <strong>Rider (Instalación local):</strong> Entorno de desarrollo integrado utilizado para la implementación y mantenimiento del backend de la aplicación, permitiendo desarrollar y administrar la lógica del sistema de manera eficiente. <br>
-    <strong>Ruta de referencia:</strong> 
-    <a href="https://www.jetbrains.com/es-es/rider">https://www.jetbrains.com/es-es/rider</a>
-  </li>
+| Herramienta | Descripción | Enlace |
+|---|---|---|
+| **Figma** | Herramienta colaborativa utilizada para la creación de wireframes, mockups y prototipos interactivos de la Landing Page y aplicación móvil. | https://www.figma.com/ |
+| **Miro** | Plataforma colaborativa utilizada para diagramas, flujos de usuario y organización visual de ideas del proyecto. | https://miro.com/ |
+| **UXPressia** | Herramienta utilizada para desarrollar User Personas, Empathy Maps y Customer Journey Maps. | https://uxpressia.com/ |
 
-  <li>
-    <strong>Git (Instalación local):</strong> Sistema de control de versiones utilizado para gestionar cambios en el código fuente mediante commits y ramas, facilitando el trabajo colaborativo y el control de versiones durante el desarrollo del proyecto. <br>
-    <strong>Ruta de referencia:</strong> 
-    <a href="https://git-scm.com/">https://git-scm.com/</a>
-  </li>
+- ## **Software Development**
 
-  <li>
-    <strong>GitHub:</strong> Plataforma de repositorios remotos utilizada para almacenar, compartir y gestionar el código fuente del proyecto, implementando el flujo de trabajo GitFlow para mantener un desarrollo organizado y colaborativo entre los integrantes del equipo. <br>
-    <strong>Ruta de referencia:</strong> 
-    <a href="https://github.com/">https://github.com/</a>
-  </li>
-</ul>
+| Herramienta | Descripción | Enlace |
+|---|---|---|
+| **Visual Studio Code** | Editor utilizado para el desarrollo frontend, Landing Page y configuración general del proyecto. | https://code.visualstudio.com/ |
+| **Android Studio** | IDE utilizado para el desarrollo de la aplicación móvil Android utilizando Kotlin y Jetpack Compose. | https://developer.android.com/studio |
+| **Rider** | Entorno de desarrollo utilizado para implementar el backend con ASP.NET Core y C#. | https://www.jetbrains.com/rider/ |
+| **MySQL Workbench** | Herramienta visual utilizada para administrar y modelar la base de datos MySQL. | https://www.mysql.com/products/workbench/ |
+| **Git** | Sistema de control de versiones utilizado para gestionar cambios en el código fuente. | https://git-scm.com/ |
+| **GitHub** | Plataforma utilizada para alojar repositorios, colaboración y gestión del proyecto mediante GitFlow. | https://github.com/ |
 
-<h4>Software Documentation</h4>
-<ul>
-  <li>
-    <strong>Markdown:</strong> Lenguaje de marcado ligero para la elaboración del Project Report en el repositorio GitHub. Permite estructurar documentación con formato consistente y compatible con control de versiones. <br>
-    <strong>Ruta de referencia:</strong> <a href="https://www.markdownguide.org/">https://www.markdownguide.org/</a>
-  </li>
-</ul>
+- ## **Deployment & Cloud Services**
+
+| Herramienta | Descripción | Enlace |
+|---|---|---|
+| **Microsoft Azure** | Plataforma cloud considerada para el despliegue futuro del backend ASP.NET Core. | https://azure.microsoft.com/ |
+| **Firebase** | Plataforma considerada para servicios móviles y futuras integraciones de la aplicación Android. | https://firebase.google.com/ |
+| **GitHub Pages** | Servicio utilizado para desplegar la Landing Page del proyecto. | https://pages.github.com/ |
+
+- ## **Software Documentation**
+
+| Herramienta | Descripción | Enlace |
+|---|---|---|
+| **Markdown** | Lenguaje de marcado utilizado para documentar el Project Report y evidencias del proyecto en GitHub. | https://www.markdownguide.org/ |
+| **Structurizr** | Herramienta utilizada para modelar diagramas de arquitectura de software basados en C4 Model. | https://structurizr.com/ |
+| **Visual Paradigm Online** | Plataforma utilizada para diagramas UML, arquitectura y modelado de sistemas. | https://online.visual-paradigm.com/ |
 
 ### 4.1.2. Source Code Management
 
@@ -4673,15 +4636,15 @@ La base de datos del proyecto Viacore fue diseñada utilizando MySQL como sistem
 
 | Tabla | Descripción | Relaciones Principales |
 |---|---|---|
-| **users** | Almacena la información de los usuarios registrados en la plataforma. | Se relaciona con `companies`. |
-| **companies** | Contiene las empresas de transporte registradas en el sistema. | Pertenece a un `user` y se relaciona con `stops`. |
-| **routes** | Guarda las rutas de transporte disponibles, incluyendo precio y duración. | Se relaciona con `schedules` y `route_stops`. |
-| **stops** | Registra los paraderos utilizados por las rutas de transporte. | Pertenece a `companies` y `districts`. |
-| **schedules** | Administra los horarios de salida y disponibilidad de rutas. | Pertenece a `routes`. |
-| **route_stops** | Tabla intermedia que conecta rutas y paraderos. | Relación entre `routes` y `stops`. |
-| **regions** | Almacena las regiones geográficas del sistema. | Se relaciona con `provinces`. |
-| **provinces** | Contiene las provincias asociadas a cada región. | Pertenece a `regions` y se relaciona con `districts`. |
-| **districts** | Guarda los distritos registrados en el sistema. | Pertenece a `provinces` y se relaciona con `stops`. |
+| **users** | Almacena la información de los usuarios registrados en la plataforma. | Se relaciona con **companies**. |
+| **companies** | Contiene las empresas de transporte registradas en el sistema. | Pertenece a un **user** y se relaciona con **stops**. |
+| **routes** | Guarda las rutas de transporte disponibles, incluyendo precio y duración. | Se relaciona con **schedules** y **route_stops**. |
+| **stops** | Registra los paraderos utilizados por las rutas de transporte. | Pertenece a **companies** y **districts**. |
+| **schedules** | Administra los horarios de salida y disponibilidad de rutas. | Pertenece a **routes**. |
+| **route_stops** | Tabla intermedia que conecta rutas y paraderos. | Relación entre **routes** y **stops**. |
+| **regions** | Almacena las regiones geográficas del sistema. | Se relaciona con **provinces**. |
+| **provinces** | Contiene las provincias asociadas a cada región. | Pertenece a **regions** y se relaciona con **districts**. |
+| **districts** | Guarda los distritos registrados en el sistema. | Pertenece a **provinces** y se relaciona con **stops**. |
 
 <img width="1163" height="771" alt="Image" src="https://github.com/user-attachments/assets/cc468e8c-0741-44c7-9b3e-fad2f2b3f93a" />
 
@@ -4701,8 +4664,8 @@ En esta sección del informe se presentan los principales endpoints desarrollado
 
 | Método | Endpoint | Función |
 |---|---|---|
-| POST | `/api/v1/auth/sign-in` | Permite iniciar sesión y generar el token de autenticación. |
-| POST | `/api/v1/auth/sign-up` | Permite registrar nuevos usuarios en la plataforma. |
+| POST | **/api/v1/auth/sign-in** | Permite iniciar sesión y generar el token de autenticación. |
+| POST | **/api/v1/auth/sign-up** | Permite registrar nuevos usuarios en la plataforma. |
 
 ---
 
@@ -4710,11 +4673,11 @@ En esta sección del informe se presentan los principales endpoints desarrollado
 
 | Método | Endpoint | Función |
 |---|---|---|
-| GET | `/api/v1/users/{userId}/profile` | Obtiene el perfil asociado a un usuario. |
-| GET | `/api/v1/users/{id}` | Obtiene un usuario mediante su Id. |
-| GET | `/api/v1/profiles/{id}` | Obtiene un perfil mediante su Id. |
-| PUT | `/api/v1/profiles/{id}` | Actualiza un perfil mediante su Id. |
-| POST | `/api/v1/profiles` | Crea un nuevo perfil. |
+| GET | **/api/v1/users/{userId}/profile** | Obtiene el perfil asociado a un usuario. |
+| GET | **/api/v1/users/{id}** | Obtiene un usuario mediante su Id. |
+| GET | **/api/v1/profiles/{id}** | Obtiene un perfil mediante su Id. |
+| PUT | **/api/v1/profiles/{id}** | Actualiza un perfil mediante su Id. |
+| POST | **/api/v1/profiles** | Crea un nuevo perfil. |
 
 ---
 
@@ -4722,8 +4685,8 @@ En esta sección del informe se presentan los principales endpoints desarrollado
 
 | Método | Endpoint | Función |
 |---|---|---|
-| GET | `/drivers` | Obtiene todos los perfiles de conductores registrados. |
-| GET | `/api/v1/drivers/{driverId}/routes` | Obtiene las rutas asociadas a un conductor. |
+| GET | **/drivers** | Obtiene todos los perfiles de conductores registrados. |
+| GET | **/api/v1/drivers/{driverId}/routes** | Obtiene las rutas asociadas a un conductor. |
 
 ---
 
@@ -4731,10 +4694,10 @@ En esta sección del informe se presentan los principales endpoints desarrollado
 
 | Método | Endpoint | Función |
 |---|---|---|
-| GET | `/api/v1/drivers/{profileId}/vehicle/{id}` | Obtiene un vehículo mediante su Id. |
-| PUT | `/api/v1/drivers/{profileId}/vehicle/{id}` | Actualiza la información de un vehículo. |
-| GET | `/api/v1/drivers/{profileId}/vehicle` | Obtiene el vehículo asociado al conductor. |
-| POST | `/api/v1/drivers/{profileId}/vehicle` | Registra un nuevo vehículo para el conductor. |
+| GET | **/api/v1/drivers/{profileId}/vehicle/{id}** | Obtiene un vehículo mediante su Id. |
+| PUT | **/api/v1/drivers/{profileId}/vehicle/{id}** | Actualiza la información de un vehículo. |
+| GET | **/api/v1/drivers/{profileId}/vehicle** | Obtiene el vehículo asociado al conductor. |
+| POST | **/api/v1/drivers/{profileId}/vehicle** | Registra un nuevo vehículo para el conductor. |
 
 ---
 
@@ -4742,11 +4705,11 @@ En esta sección del informe se presentan los principales endpoints desarrollado
 
 | Método | Endpoint | Función |
 |---|---|---|
-| GET | `/api/v1/routes/{id}` | Obtiene una ruta por su Id. |
-| DELETE | `/api/v1/routes/{id}` | Elimina una ruta mediante su Id. |
-| POST | `/api/v1/routes` | Crea una nueva ruta. |
-| POST | `/api/v1/routes/{routeId}/active` | Cambia el estado de la ruta a activo. |
-| POST | `/api/v1/routes/{routeId}/inactive` | Cambia el estado de la ruta a inactivo. |
+| GET | **/api/v1/routes/{id}** | Obtiene una ruta por su Id. |
+| DELETE | **/api/v1/routes/{id}** | Elimina una ruta mediante su Id. |
+| POST | **/api/v1/routes** | Crea una nueva ruta. |
+| POST | **/api/v1/routes/{routeId}/active** | Cambia el estado de la ruta a activo. |
+| POST | **/api/v1/routes/{routeId}/inactive** | Cambia el estado de la ruta a inactivo. |
 
 ---
 
@@ -4754,10 +4717,10 @@ En esta sección del informe se presentan los principales endpoints desarrollado
 
 | Método | Endpoint | Función |
 |---|---|---|
-| GET | `/api/v1/routes/{routeId}/stops/{id}` | Obtiene un paradero asociado a una ruta. |
-| DELETE | `/api/v1/routes/{routeId}/stops/{id}` | Elimina un paradero de una ruta. |
-| GET | `/api/v1/routes/{routeId}/stops` | Obtiene todos los paraderos de una ruta. |
-| POST | `/api/v1/routes/{routeId}/stops` | Crea un nuevo paradero asociado a una ruta. |
+| GET | **/api/v1/routes/{routeId}/stops/{id}** | Obtiene un paradero asociado a una ruta. |
+| DELETE | **/api/v1/routes/{routeId}/stops/{id}** | Elimina un paradero de una ruta. |
+| GET | **/api/v1/routes/{routeId}/stops** | Obtiene todos los paraderos de una ruta. |
+| POST | **/api/v1/routes/{routeId}/stops** | Crea un nuevo paradero asociado a una ruta. |
 
 ---
 
@@ -4765,11 +4728,11 @@ En esta sección del informe se presentan los principales endpoints desarrollado
 
 | Método | Endpoint | Función |
 |---|---|---|
-| GET | `/api/v1/stops/{id}` | Obtiene un paradero mediante su Id. |
-| PUT | `/api/v1/stops/{id}` | Actualiza un paradero mediante su Id. |
-| DELETE | `/api/v1/stops/{id}` | Elimina un paradero mediante su Id. |
-| GET | `/api/v1/stops?driverId` | Obtiene los paraderos asociados a un conductor. |
-| POST | `/api/v1/stops` | Registra un nuevo paradero. |
+| GET | **/api/v1/stops/{id}** | Obtiene un paradero mediante su Id. |
+| PUT | **/api/v1/stops/{id}** | Actualiza un paradero mediante su Id. |
+| DELETE | **/api/v1/stops/{id}** | Elimina un paradero mediante su Id. |
+| GET | **/api/v1/stops?driverId** | Obtiene los paraderos asociados a un conductor. |
+| POST | **/api/v1/stops** | Registra un nuevo paradero. |
 
 #### 4.2.1.7. Software Deployment Evidence for Sprint Review
 
