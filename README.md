@@ -1,6 +1,7 @@
 
 <div align="center">
-    <img src="https://www.upc.edu.pe/static/img/logo_upc_red.png" width="120px" alt="Logo UPC"><br><br>
+    <br><br><br>
+    <img src="https://www.upc.edu.pe/static/img/logo_upc_red.png" width="180px" alt="Logo UPC"><br><br>
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
     <strong>Ingeniería de Software / Séptimo Ciclo</strong><br><br>
     <strong> Aplicaciones para dispositivos Móviles </strong> <br>
@@ -53,6 +54,8 @@
 
 # Registro de Versiones del Informe
 
+En esta sección se presenta el historial de versiones del informe del proyecto Viacore, detallando las principales modificaciones realizadas durante el desarrollo y documentación del sistema. Asimismo, se evidencia la participación de los integrantes del equipo en distintas actividades relacionadas con análisis, diseño, implementación y documentación del proyecto.
+
 <table border="1px" align="center">
     <thead>
         <tr>
@@ -67,19 +70,37 @@
             <td>1.0</td>
             <td>05/04/2026</td>
             <td>Velarde Gonzales, Néstor Hernán</td>
-            <td>Creación inicial del documento</td>
+            <td>Creación inicial del documento.</td>
         </tr>
         <tr>
             <td>2.0</td>
             <td>15/04/2026</td>
             <td>Todos</td>
-            <td>Completar capitulo I</td>
+            <td>Desarrollo y finalización del Capítulo I.</td>
         </tr>
         <tr>
             <td>3.0</td>
             <td>22/04/2026</td>
             <td>Todos</td>
-            <td>Completar capitulo II</td>
+            <td>Desarrollo y finalización del Capítulo II.</td>
+        </tr>
+        <tr>
+            <td>4.0</td>
+            <td>30/04/2026</td>
+            <td>Guzmán Cabrejos, Yaku Mateo</td>
+            <td>Diseño de wireframes, mockups y flujos de navegación de la aplicación móvil.</td>
+        </tr>
+        <tr>
+            <td>5.0</td>
+            <td>05/05/2026</td>
+            <td>Curi Marcelo, Angelo Marcio</td>
+            <td>Definición y documentación de requisitos funcionales y no funcionales del sistema.</td>
+        </tr>
+        <tr>
+            <td>6.0</td>
+            <td>10/05/2026</td>
+            <td>Velarde Gonzales, Néstor Hernán</td>
+            <td>Desarrollo de Landing Page, modelado de base de datos y documentación de los capítulos IV y V.</td>
         </tr>
     </tbody>
 </table>
@@ -353,8 +374,8 @@ El equipo utilizó GitHub como plataforma de colaboración para el control de ve
 - [Glosario](#glosario-1)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
-  - [Recursos del Proyecto](#recursos-del-proyecto)
-  - [Anexos – Sistemas y Plataformas Externas](#anexos--sistemas-y-plataformas-externas)
+  - [Recursos del Proyecto - Viacore](#recursos-del-proyecto---viacore)
+  - [Sistemas y Plataformas Externas](#sistemas-y-plataformas-externas)
   - [Herramientas de Desarrollo de Software](#herramientas-de-desarrollo-de-software)
 
 <div style="page-break-after: always;"></div>
@@ -5079,6 +5100,32 @@ Basado en el análisis del proyecto y los hallazgos durante el avance, se sugier
 
 # Glosario
 
+| Término | Definición |
+|---|---|
+| API REST | Arquitectura de servicios web que permite la comunicación entre sistemas mediante peticiones HTTP. |
+| ASP.NET Core | Framework de desarrollo utilizado para construir el backend del proyecto en C#. |
+| Backend | Parte del sistema encargada de la lógica de negocio, procesamiento de datos y conexión con la base de datos. |
+| Bounded Context | Concepto de Domain-Driven Design (DDD) que divide el sistema en módulos independientes según el dominio de negocio. |
+| CRUD | Operaciones básicas sobre datos: Crear, Leer, Actualizar y Eliminar. |
+| DDD (Domain-Driven Design) | Enfoque de arquitectura de software basado en modelar el dominio del negocio. |
+| Entity Framework Core | ORM utilizado para conectar el backend ASP.NET Core con MySQL. |
+| Frontend | Parte visual e interactiva del sistema utilizada por los usuarios. |
+| GitHub | Plataforma utilizada para control de versiones y colaboración del proyecto. |
+| GitHub Pages | Servicio utilizado para desplegar la Landing Page del proyecto. |
+| JSON | Formato ligero de intercambio de datos utilizado en APIs REST. |
+| JWT Token | Token de autenticación utilizado para validar sesiones de usuario. |
+| Landing Page | Página web principal utilizada para presentar la plataforma Viacore. |
+| Mockup | Diseño visual detallado de una interfaz antes de su implementación. |
+| MySQL | Sistema gestor de base de datos relacional utilizado en el proyecto. |
+| RESTful API | API basada en principios REST para comunicación entre cliente y servidor. |
+| Responsive Design | Diseño adaptable a dispositivos móviles, tablets y escritorio. |
+| Sprint | Período corto de desarrollo dentro de metodologías ágiles Scrum. |
+| Story Points | Unidad utilizada para estimar esfuerzo de desarrollo en Scrum. |
+| Swagger | Herramienta para documentar y probar endpoints de APIs REST. |
+| UI (User Interface) | Interfaz visual con la que interactúa el usuario. |
+| UX (User Experience) | Experiencia general del usuario al utilizar el sistema. |
+| Wireframe | Boceto inicial de la estructura visual de una interfaz. |
+
 > *(Sección pendiente de desarrollo)*
 
 # Bibliografía
@@ -5092,7 +5139,7 @@ Basado en el análisis del proyecto y los hallazgos durante el avance, se sugier
 
 # Anexos
 
-## Recursos del Proyecto
+## Recursos del Proyecto - Viacore
 
 <table border="1">
   <thead>
@@ -5123,7 +5170,7 @@ Basado en el análisis del proyecto y los hallazgos durante el avance, se sugier
 
 ---
 
-## Anexos – Sistemas y Plataformas Externas
+## Sistemas y Plataformas Externas
 
 <table border="1">
   <thead>
