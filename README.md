@@ -327,6 +327,7 @@ El equipo utilizó GitHub como plataforma de colaboración para el control de ve
   - [4.3. Validation Interviews](#43-validation-interviews)
     - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
     - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
+  - [Entrevista #1](#entrevista-1)
     - [4.3.3. Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas)
 - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
   - [Conclusiones](#conclusiones)
@@ -4657,14 +4658,18 @@ La base de datos del proyecto Viacore fue diseñada utilizando MySQL como sistem
 
 #### 4.2.1.7. Software Deployment Evidence for Sprint Review
 
-> *(Sección pendiente de desarrollo)*
+La Landing Page del proyecto Viacore fue desplegada utilizando GitHub Pages, permitiendo publicar la aplicación web de manera gratuita y accesible desde internet.
+
+[Ver Landing Page](https://grupo-apps-moviles.github.io/landing-page/)
+
+<img width="1248" height="778" alt="Image" src="https://github.com/user-attachments/assets/96f2908a-bb0e-4d82-9942-1371cf535e9e" />
 
 #### 4.2.1.8. Team Collaboration Insights during Sprint
 
 > *(Sección pendiente de desarrollo)*
 
 ## 4.3. Validation Interviews
-Landing Page:
+En este punto se hiso una validación con los segmentos objetivos sobre nuestro producto de primera fase. 
 
 ### 4.3.1. Diseño de Entrevistas
 
@@ -4696,45 +4701,17 @@ Landing Page:
 
 **Pasajeros:**
 
-<table>
-<colgroup>
-</colgroup>
-<thead>
-<tr>
-<th colspan="2">Entrevista #1<br></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Nombre</td>
-<td>Adriana</td>
-</tr>
-<tr>
-<td>Apellidos</td>
-<td>Diestra</td>
-</tr>
-<tr>
-<td>Edad</td>
-<td>20 años</td>
-</tr>
-<tr>
-<td>Ocupación</td>
-<td>Estudiante</td>
-</tr>
-<td>Distrito</td>
-<td>San Juan de Lurigancho, Lima, Lima</td>
-</tr>
-<tr>
-<td>Evidencia</td>
-<td><img width="1047" height="569" alt="image" src="https://github.com/user-attachments/assets/dc2ec478-c88c-4157-aef5-ceded0d7238f" />
-</td>
-</tr>
-<td>Resumen</td>
-<td>
-Durante la evaluación de la landing page de WayPass, Adriana manifestó una recepción muy positiva, otorgando a la propuesta una calificación de 9/10. La entrevistada comprendió de inmediato que la aplicación busca digitalizar pagos y gestionar rutas, una solución que considera de gran interés para optimizar sus traslados diarios y actividades personales. Destacó que el diseño visual es moderno y profesional, y que tanto las capturas de pantalla como la ubicación clara de los botones de registro facilitan la navegación y generan confianza para descargar la herramienta. Finalmente, recomendó el servicio por su potencial para modernizar el transporte público, sugiriendo únicamente añadir un mapa interactivo en tiempo real y una sección de preguntas frecuentes para mejorar la experiencia previa al registro.</td>
-  </tr>
-</tbody>
-</table>
+## Entrevista #1
+
+| Campo | Información |
+|---|---|
+| **Nombre** | Adriana |
+| **Apellidos** | Diestra |
+| **Edad** | 20 años |
+| **Ocupación** | Estudiante |
+| **Distrito** | San Juan de Lurigancho, Lima, Lima |
+| **Evidencia** | <img width="1047" height="569" alt="image" src="https://github.com/user-attachments/assets/dc2ec478-c88c-4157-aef5-ceded0d7238f" /> |
+| **Resumen** | Durante la evaluación de la landing page de WayPass, Adriana manifestó una recepción muy positiva, otorgando a la propuesta una calificación de 9/10. La entrevistada comprendió de inmediato que la aplicación busca digitalizar pagos y gestionar rutas, una solución que considera de gran interés para optimizar sus traslados diarios y actividades personales. Destacó que el diseño visual es moderno y profesional, y que tanto las capturas de pantalla como la ubicación clara de los botones de registro facilitan la navegación y generan confianza para descargar la herramienta. Finalmente, recomendó el servicio por su potencial para modernizar el transporte público, sugiriendo únicamente añadir un mapa interactivo en tiempo real y una sección de preguntas frecuentes para mejorar la experiencia previa al registro. |
 
 --
 
@@ -4742,7 +4719,16 @@ Durante la evaluación de la landing page de WayPass, Adriana manifestó una rec
 
 ### 4.3.3. Evaluaciones según heurísticas
 
-> *(Sección pendiente de desarrollo)*
+Para el proyecto Viacore se utilizaron las heurísticas de Nielsen con el objetivo de validar la claridad, consistencia y facilidad de uso de la Landing Page y aplicación móvil.
+
+| Heurística | Evaluación | Resultado |
+|---|---|---|
+| Visibilidad del estado del sistema | La aplicación muestra correctamente mensajes y navegación visible. | Cumple |
+| Consistencia y estándares | Los botones y colores mantienen un diseño uniforme. | Cumple |
+| Prevención de errores | Se validan campos vacíos en formularios. | Cumple |
+| Reconocimiento antes que memoria | La navegación es intuitiva y simple. | Cumple |
+| Diseño estético y minimalista | La interfaz mantiene un diseño limpio y moderno. | Cumple |
+| Ayuda y documentación | Se recomienda implementar una sección FAQ más completa. | Parcial |
 
 # Conclusiones y recomendaciones
 
