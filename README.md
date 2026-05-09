@@ -4554,14 +4554,9 @@ Establecer las bases del sistema WayPass mediante la definición de requisitos, 
 
 El presente Sprint Backlog 1 detalla las historias de usuario priorizadas para el desarrollo inicial del sistema WayPass. Se asignan responsabilidades al equipo y se establece el estado actual de cada tarea dentro del sprint 01
 
-| ID    | Historia de Usuario        | Descripción                                                                 | Prioridad | Responsable                               | Estado        |
-|-------|--------------------------|-----------------------------------------------------------------------------|-----------|-------------------------------------------|--------------|
-| HU-01 | Inicio de Sesión         | Como usuario, quiero iniciar sesión con mis credenciales para acceder a la app. | Alta      | Velarde Gonzales, Néstor Hernán           | En desarrollo   |
-| HU-02 | Registro de Usuario      | Como nuevo usuario, quiero registrarme ingresando mis datos personales y del vehículo. | Alta      | Quiroz Cáceres, Adrian                    | Completado   |
-| HU-03 | Crear Ruta              | Como conductor, quiero registrar rutas para ofrecer mis servicios.          | Media     | Guzmán Cabrejos, Yaku Mateo               | En desarrollo|
-| HU-04 | Editar Perfil           | Como usuario, quiero editar mi información personal para mantenerla actualizada. | Media     | Curi Marcelo, Angelo Marcio               | En desarrollo   |
-| HU-05 | Página Principal (Home) | Como usuario, quiero acceder a la pantalla principal después del login para ver y navegar entre secciones. | Alta      | Carranza Tesén, Joaquín Enrique           | En desarrollo   |
-| HU-06 | Navegación entre pantallas | Implementar navegación entre Login, Registro, Perfil, Home y Crear Ruta. | Alta      | Quiroz Cáceres, Adrian                    | En desarrollo   |
+[Link del tablero Trello](https://trello.com/invite/b/69ff3d5f6e22ba5114de07be/ATTIe3bce47f3f25411bc433b9188fad27e7C2103B04/movil)
+
+<img width="1137" height="741" alt="Image" src="https://github.com/user-attachments/assets/e2778ef7-e1c4-4fc0-9eaf-aafd239c7c13" />
 
 #### 4.2.1.3. Development Evidence for Sprint Review
 
@@ -4772,4 +4767,4 @@ Basado en el análisis del proyecto y los hallazgos durante el avance, se sugier
   </tbody>
 </table>
 
-
+[Link del tablero Trello](https://trello.com/invite/b/69ff3d5f6e22ba5114de07be/ATTIe3bce47f3f25411bc433b9188fad27e7C2103B04/movil)
