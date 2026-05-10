@@ -4831,9 +4831,7 @@ En este punto se hiso una validación con los segmentos objetivos sobre nuestro 
 | **Distrito** | Lurín, Lima, Lima |
 | **Enlace** | [https://goo.su/AIEuGP2](https://goo.su/AIEuGP2) |
 | **Evidencia** | <img width="869" height="515" alt="image" src="https://github.com/user-attachments/assets/df37c569-f5e9-46d1-8632-5d3b701931eb" /> |
-| **Resumen** | Jean Pierre revisó la landing page de WayPass y le dio una calificación de 8/10, destacando que la propuesta es muy clara para un conductor. Lo que más le interesó fue la parte de la seguridad, ya que considera que dejar de manejar efectivo y agilizar los cobros le facilitaría mucho el trabajo diario al volante.
-
-Mencionó que el diseño y los colores son adecuados porque permiten una lectura rápida, y que al ver las capturas de la aplicación sintió confianza porque la interfaz se ve sencilla de usar. Jean Pierre afirmó que sí recomendaría la plataforma a otros colegas del gremio, aunque sugirió que la página debería explicar con más detalle cómo se realizan los depósitos de las ganancias y mostrar un poco más sobre cómo se visualizan las paradas de los pasajeros para que el conductor se anime a registrarse de una vez. |
+| **Resumen** | Jean Pierre revisó la landing page de WayPass y le dio una calificación de 8/10, destacando que la propuesta es muy clara para un conductor. Lo que más le interesó fue la parte de la seguridad, ya que considera que dejar de manejar efectivo y agilizar los cobros le facilitaría mucho el trabajo diario al volante. Mencionó que el diseño y los colores son adecuados porque permiten una lectura rápida, y que al ver las capturas de la aplicación sintió confianza porque la interfaz se ve sencilla de usar. Jean Pierre afirmó que sí recomendaría la plataforma a otros colegas del gremio, aunque sugirió que la página debería explicar con más detalle cómo se realizan los depósitos de las ganancias y mostrar un poco más sobre cómo se visualizan las paradas de los pasajeros para que el conductor se anime a registrarse de una vez. |
 
 **Entrevista #2**
 
