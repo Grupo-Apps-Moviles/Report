@@ -4817,7 +4817,6 @@ En este punto se hiso una validación con los segmentos objetivos sobre nuestro 
 | **Resumen** | Durante la prueba de la aplicación, Oscar calificó la experiencia con un 9/10, destacando que WayPass es sumamente intuitiva y presenta un diseño limpio que facilita la navegación sin distracciones. Resaltó que el proceso de creación de cuenta fue rápido y sencillo, y que las funciones para visualizar rutas y ubicar paraderos son fáciles de entender, lo que aporta mucho orden a sus traslados diarios. Aunque no utilizó la opción de registro de empresas por su perfil de pasajero, Oscar recomendó totalmente la herramienta por la seguridad de no cargar efectivo, sugiriendo únicamente la implementación de un modo oscuro y mayor precisión en las alertas de llegada para optimizar el uso nocturno y en zonas de alto tráfico. |
 
 
-
 **Conductores:**
 
 ## Entrevista #1
@@ -4834,6 +4833,19 @@ En este punto se hiso una validación con los segmentos objetivos sobre nuestro 
 | **Resumen** | Jean Pierre revisó la landing page de WayPass y le dio una calificación de 8/10, destacando que la propuesta es muy clara para un conductor. Lo que más le interesó fue la parte de la seguridad, ya que considera que dejar de manejar efectivo y agilizar los cobros le facilitaría mucho el trabajo diario al volante.
 
 Mencionó que el diseño y los colores son adecuados porque permiten una lectura rápida, y que al ver las capturas de la aplicación sintió confianza porque la interfaz se ve sencilla de usar. Jean Pierre afirmó que sí recomendaría la plataforma a otros colegas del gremio, aunque sugirió que la página debería explicar con más detalle cómo se realizan los depósitos de las ganancias y mostrar un poco más sobre cómo se visualizan las paradas de los pasajeros para que el conductor se anime a registrarse de una vez. |
+
+## Entrevista #2
+
+| Campo | Información |
+|---|---|
+| **Nombre** | Emmanuel |
+| **Apellidos** | Ñahuiña |
+| **Edad** | 25 años |
+| **Ocupación** | Estudiante |
+| **Distrito** | Villa el Salvador, Lima, Lima |
+| **Evidencia** | <img width="869" height="526" alt="image" src="https://github.com/user-attachments/assets/8d508f8b-3f7d-4653-995a-095778d4886f" />
+ |
+| **Resumen** | Emmanuel calificó su experiencia con la aplicación con un 8/10, destacando que WayPass es una herramienta muy práctica que le permite gestionar sus rutas y el registro de la empresa de transporte de manera rápida y organizada. Resaltó que el diseño es limpio y funcional, con botones grandes que facilitan la navegación mientras está al volante, y valoró positivamente la sencillez del proceso de creación de cuenta y validación de documentos. Aunque recomienda totalmente la plataforma por la seguridad que brinda al reducir el uso de efectivo, Emmanuel sugirió mejorar los reportes de ingresos diarios e implementar alertas sonoras más fuertes para confirmar los pagos de los pasajeros sin necesidad de desviar la vista del camino. |
 
 ### 4.3.3. Evaluaciones según heurísticas
 
