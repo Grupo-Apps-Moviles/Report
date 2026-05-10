@@ -4791,7 +4791,7 @@ En este punto se hiso una validación con los segmentos objetivos sobre nuestro 
 
 **Pasajeros:**
 
-## Entrevista #1
+**Entrevista #1**
 
 | Campo | Información |
 |---|---|
@@ -4800,10 +4800,11 @@ En este punto se hiso una validación con los segmentos objetivos sobre nuestro 
 | **Edad** | 20 años |
 | **Ocupación** | Estudiante |
 | **Distrito** | San Juan de Lurigancho, Lima, Lima |
+| **Enlace** | [https://goo.su/B9x7ZY](https://goo.su/B9x7ZY) |
 | **Evidencia** | <img width="1047" height="569" alt="image" src="https://github.com/user-attachments/assets/dc2ec478-c88c-4157-aef5-ceded0d7238f" /> |
 | **Resumen** | Durante la evaluación de la landing page de WayPass, Adriana manifestó una recepción muy positiva, otorgando a la propuesta una calificación de 9/10. La entrevistada comprendió de inmediato que la aplicación busca digitalizar pagos y gestionar rutas, una solución que considera de gran interés para optimizar sus traslados diarios y actividades personales. Destacó que el diseño visual es moderno y profesional, y que tanto las capturas de pantalla como la ubicación clara de los botones de registro facilitan la navegación y generan confianza para descargar la herramienta. Finalmente, recomendó el servicio por su potencial para modernizar el transporte público, sugiriendo únicamente añadir un mapa interactivo en tiempo real y una sección de preguntas frecuentes para mejorar la experiencia previa al registro. |
 
-## Entrevista #2
+**Entrevista #2**
 
 | Campo | Información |
 |---|---|
@@ -4812,25 +4813,14 @@ En este punto se hiso una validación con los segmentos objetivos sobre nuestro 
 | **Edad** | 25 años |
 | **Ocupación** | Estudiante |
 | **Distrito** | Chorrillos, Lima, Lima |
-| **Evidencia** | <img width="868" height="522" alt="image" src="https://github.com/user-attachments/assets/5f38939a-9b78-4a78-a8a2-f65a2326ab1f" />
+| **Enlace** | [https://goo.su/tR8ov](https://goo.su/tR8ov) |
+| **Evidencia** | <img width="868" height="522" alt="image" src="https://github.com/user-attachments/assets/5f38939a-9b78-4a78-a8a2-f65a2326ab1f" /> |
 | **Resumen** | Durante la prueba de la aplicación, Oscar calificó la experiencia con un 9/10, destacando que WayPass es sumamente intuitiva y presenta un diseño limpio que facilita la navegación sin distracciones. Resaltó que el proceso de creación de cuenta fue rápido y sencillo, y que las funciones para visualizar rutas y ubicar paraderos son fáciles de entender, lo que aporta mucho orden a sus traslados diarios. Aunque no utilizó la opción de registro de empresas por su perfil de pasajero, Oscar recomendó totalmente la herramienta por la seguridad de no cargar efectivo, sugiriendo únicamente la implementación de un modo oscuro y mayor precisión en las alertas de llegada para optimizar el uso nocturno y en zonas de alto tráfico. |
 
-## Entrevista #3
-
-| Campo | Información |
-|---|---|
-| **Nombre** | Mateo |
-| **Apellidos** | Rivas |
-| **Edad** | 19 años |
-| **Ocupación** | Estudiante |
-| **Distrito** | Villa el Salvador, Lima, Lima |
-| **Enlace** | <a href="https://shorturl.at/ZW5Yd" target="_blank">https://shorturl.at/ZW5Yd</a> |
-| **Evidencia** | <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/835d52bc-9ddf-4e60-9e10-12c024e2d189" />
-| **Resumen** | Durante la prueba de la aplicación, Mateo calificó la experiencia con un 10/10, destacando que WayPass le ayuda a encontrar rutas de transporte, horarios y tarifas de manera mucho más fácil y rápida. Comentó que la aplicación le resulta útil en su día a día, especialmente para trasladarse a lugares que no conocía anteriormente. En el aspecto visual, resaltó que el diseño minimalista le agrada porque hace que la aplicación sea más sencilla de entender y utilizar. Además, mencionó que las visuales y la organización de la información facilitan la comprensión de las funciones de la plataforma. Finalmente, afirmó que sí recomendaría WayPass por la utilidad y facilidad que brinda a los pasajeros. |
 
 **Conductores:**
 
-## Entrevista #1
+**Entrevista #1**
 
 | Campo | Información |
 |---|---|
@@ -4839,12 +4829,13 @@ En este punto se hiso una validación con los segmentos objetivos sobre nuestro 
 | **Edad** | 25 años |
 | **Ocupación** | Estudiante |
 | **Distrito** | Lurín, Lima, Lima |
-| **Evidencia** | <img width="869" height="515" alt="image" src="https://github.com/user-attachments/assets/df37c569-f5e9-46d1-8632-5d3b701931eb" />
+| **Enlace** | [https://goo.su/AIEuGP2](https://goo.su/AIEuGP2) |
+| **Evidencia** | <img width="869" height="515" alt="image" src="https://github.com/user-attachments/assets/df37c569-f5e9-46d1-8632-5d3b701931eb" /> |
 | **Resumen** | Jean Pierre revisó la landing page de WayPass y le dio una calificación de 8/10, destacando que la propuesta es muy clara para un conductor. Lo que más le interesó fue la parte de la seguridad, ya que considera que dejar de manejar efectivo y agilizar los cobros le facilitaría mucho el trabajo diario al volante.
 
 Mencionó que el diseño y los colores son adecuados porque permiten una lectura rápida, y que al ver las capturas de la aplicación sintió confianza porque la interfaz se ve sencilla de usar. Jean Pierre afirmó que sí recomendaría la plataforma a otros colegas del gremio, aunque sugirió que la página debería explicar con más detalle cómo se realizan los depósitos de las ganancias y mostrar un poco más sobre cómo se visualizan las paradas de los pasajeros para que el conductor se anime a registrarse de una vez. |
 
-## Entrevista #2
+**Entrevista #2**
 
 | Campo | Información |
 |---|---|
@@ -4853,8 +4844,10 @@ Mencionó que el diseño y los colores son adecuados porque permiten una lectura
 | **Edad** | 25 años |
 | **Ocupación** | Estudiante |
 | **Distrito** | Villa el Salvador, Lima, Lima |
-| **Evidencia** | <img width="869" height="526" alt="image" src="https://github.com/user-attachments/assets/8d508f8b-3f7d-4653-995a-095778d4886f" />
+| **Enlace** | [https://goo.su/foUGt0e](https://goo.su/foUGt0e) |
+| **Evidencia** | <img width="869" height="526" alt="image" src="https://github.com/user-attachments/assets/8d508f8b-3f7d-4653-995a-095778d4886f" /> |
 | **Resumen** | Emmanuel calificó su experiencia con la aplicación con un 8/10, destacando que WayPass es una herramienta muy práctica que le permite gestionar sus rutas y el registro de la empresa de transporte de manera rápida y organizada. Resaltó que el diseño es limpio y funcional, con botones grandes que facilitan la navegación mientras está al volante, y valoró positivamente la sencillez del proceso de creación de cuenta y validación de documentos. Aunque recomienda totalmente la plataforma por la seguridad que brinda al reducir el uso de efectivo, Emmanuel sugirió mejorar los reportes de ingresos diarios e implementar alertas sonoras más fuertes para confirmar los pagos de los pasajeros sin necesidad de desviar la vista del camino. |
+
 
 ### 4.3.3. Evaluaciones según heurísticas
 
