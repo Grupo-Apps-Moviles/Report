@@ -4775,7 +4775,6 @@ En este punto se hiso una validación con los segmentos objetivos sobre nuestro 
 - ¿Qué mejorarías?
 - ¿La recomendarías?
 
---
 
 **App Web:**
 - ¿Es fácil navegar?
@@ -4804,9 +4803,37 @@ En este punto se hiso una validación con los segmentos objetivos sobre nuestro 
 | **Evidencia** | <img width="1047" height="569" alt="image" src="https://github.com/user-attachments/assets/dc2ec478-c88c-4157-aef5-ceded0d7238f" /> |
 | **Resumen** | Durante la evaluación de la landing page de WayPass, Adriana manifestó una recepción muy positiva, otorgando a la propuesta una calificación de 9/10. La entrevistada comprendió de inmediato que la aplicación busca digitalizar pagos y gestionar rutas, una solución que considera de gran interés para optimizar sus traslados diarios y actividades personales. Destacó que el diseño visual es moderno y profesional, y que tanto las capturas de pantalla como la ubicación clara de los botones de registro facilitan la navegación y generan confianza para descargar la herramienta. Finalmente, recomendó el servicio por su potencial para modernizar el transporte público, sugiriendo únicamente añadir un mapa interactivo en tiempo real y una sección de preguntas frecuentes para mejorar la experiencia previa al registro. |
 
---
+## Entrevista #2
+
+| Campo | Información |
+|---|---|
+| **Nombre** | Oscar |
+| **Apellidos** | Roman |
+| **Edad** | 25 años |
+| **Ocupación** | Estudiante |
+| **Distrito** | Chorrillos, Lima, Lima |
+| **Evidencia** | <img width="868" height="522" alt="image" src="https://github.com/user-attachments/assets/5f38939a-9b78-4a78-a8a2-f65a2326ab1f" />
+ |
+| **Resumen** | Durante la prueba de la aplicación, Oscar calificó la experiencia con un 9/10, destacando que WayPass es sumamente intuitiva y presenta un diseño limpio que facilita la navegación sin distracciones. Resaltó que el proceso de creación de cuenta fue rápido y sencillo, y que las funciones para visualizar rutas y ubicar paraderos son fáciles de entender, lo que aporta mucho orden a sus traslados diarios. Aunque no utilizó la opción de registro de empresas por su perfil de pasajero, Oscar recomendó totalmente la herramienta por la seguridad de no cargar efectivo, sugiriendo únicamente la implementación de un modo oscuro y mayor precisión en las alertas de llegada para optimizar el uso nocturno y en zonas de alto tráfico. |
+
+
 
 **Conductores:**
+
+## Entrevista #1
+
+| Campo | Información |
+|---|---|
+| **Nombre** | Jean Pierre |
+| **Apellidos** | Medina |
+| **Edad** | 25 años |
+| **Ocupación** | Estudiante |
+| **Distrito** | Lurín, Lima, Lima |
+| **Evidencia** | <img width="869" height="515" alt="image" src="https://github.com/user-attachments/assets/df37c569-f5e9-46d1-8632-5d3b701931eb" />
+ |
+| **Resumen** | Jean Pierre revisó la landing page de WayPass y le dio una calificación de 8/10, destacando que la propuesta es muy clara para un conductor. Lo que más le interesó fue la parte de la seguridad, ya que considera que dejar de manejar efectivo y agilizar los cobros le facilitaría mucho el trabajo diario al volante.
+
+Mencionó que el diseño y los colores son adecuados porque permiten una lectura rápida, y que al ver las capturas de la aplicación sintió confianza porque la interfaz se ve sencilla de usar. Jean Pierre afirmó que sí recomendaría la plataforma a otros colegas del gremio, aunque sugirió que la página debería explicar con más detalle cómo se realizan los depósitos de las ganancias y mostrar un poco más sobre cómo se visualizan las paradas de los pasajeros para que el conductor se anime a registrarse de una vez. |
 
 ### 4.3.3. Evaluaciones según heurísticas
 
