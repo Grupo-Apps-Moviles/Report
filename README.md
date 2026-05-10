@@ -4817,6 +4817,18 @@ En este punto se hiso una validación con los segmentos objetivos sobre nuestro 
 | **Evidencia** | <img width="868" height="522" alt="image" src="https://github.com/user-attachments/assets/5f38939a-9b78-4a78-a8a2-f65a2326ab1f" /> |
 | **Resumen** | Durante la prueba de la aplicación, Oscar calificó la experiencia con un 9/10, destacando que WayPass es sumamente intuitiva y presenta un diseño limpio que facilita la navegación sin distracciones. Resaltó que el proceso de creación de cuenta fue rápido y sencillo, y que las funciones para visualizar rutas y ubicar paraderos son fáciles de entender, lo que aporta mucho orden a sus traslados diarios. Aunque no utilizó la opción de registro de empresas por su perfil de pasajero, Oscar recomendó totalmente la herramienta por la seguridad de no cargar efectivo, sugiriendo únicamente la implementación de un modo oscuro y mayor precisión en las alertas de llegada para optimizar el uso nocturno y en zonas de alto tráfico. |
 
+**Entrevista #3**
+
+| Campo | Información |
+|---|---|
+| **Nombre** | Mateo |
+| **Apellidos** | Rivas |
+| **Edad** | 19 años |
+| **Ocupación** | Estudiante |
+| **Distrito** | Villa el Salvador, Lima, Lima |
+| **Enlace** | <a href="https://shorturl.at/ZW5Yd" target="_blank">https://shorturl.at/ZW5Yd</a> |
+| **Evidencia** | <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/835d52bc-9ddf-4e60-9e10-12c024e2d189" />
+| **Resumen** | Durante la prueba de la aplicación, Mateo calificó la experiencia con un 10/10, destacando que WayPass le ayuda a encontrar rutas de transporte, horarios y tarifas de manera mucho más fácil y rápida. Comentó que la aplicación le resulta útil en su día a día, especialmente para trasladarse a lugares que no conocía anteriormente. En el aspecto visual, resaltó que el diseño minimalista le agrada porque hace que la aplicación sea más sencilla de entender y utilizar. Además, mencionó que las visuales y la organización de la información facilitan la comprensión de las funciones de la plataforma. Finalmente, afirmó que sí recomendaría WayPass por la utilidad y facilidad que brinda a los pasajeros. |
 
 **Conductores:**
 
