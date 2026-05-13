@@ -4791,11 +4791,43 @@ En esta sección del informe se presentan los principales endpoints desarrollado
 
 #### 4.2.1.7. Software Deployment Evidence for Sprint Review
 
+**Landing Page:**
+
 La Landing Page del proyecto Viacore fue desplegada utilizando GitHub Pages, permitiendo publicar la aplicación web de manera gratuita y accesible desde internet.
 
 [Ver Landing Page](https://grupo-apps-moviles.github.io/landing-page/)
 
 <img width="1248" height="778" alt="Image" src="https://github.com/user-attachments/assets/96f2908a-bb0e-4d82-9942-1371cf535e9e" />
+
+---
+
+**Aplicación Móvil Android**
+
+Para el despliegue e integración de servicios en la aplicación móvil Android, se utilizó **Firebase** como plataforma cloud. A continuación se describen los pasos realizados durante la configuración:
+
+**Paso 1 — Creación del proyecto en Firebase**
+Se accedió a la consola de Firebase y se creó un nuevo proyecto denominado "ViacoreApp", el cual servirá como contenedor de todos los servicios cloud que utilizará la aplicación.
+<img width="720" alt="crearProyectoFirebase" src="https://github.com/user-attachments/assets/0f9dc6ac-153a-41be-8045-c9e272271ffb" />
+
+**Paso 2 — Confirmación del proyecto creado**
+Una vez completado el proceso de creación, Firebase mostró la pantalla de confirmación indicando que el proyecto "ViacoreApp" fue creado exitosamente.
+<img width="720" alt="proyectoCreadoFireBase" src="https://github.com/user-attachments/assets/3e80c811-712a-4df9-ac67-82d31f639142" />
+
+**Paso 3 — Registro de la aplicación Android**
+Se registró la aplicación Android en el proyecto Firebase usando el paquete es.upc.waypass. Como parte de este paso, se descargó el archivo de configuración google-services.json y se ubicó dentro del directorio raíz del módulo de la app
+<img width="720" alt="agregarFirebaseParaAppAndroid" src="https://github.com/user-attachments/assets/52e2000f-d3f5-4bc0-86df-821d74fb34b5" />
+
+**Paso 4 — Configuración del SDK de Firebase**
+Se revisó e implementó la guía de configuración del SDK de Firebase, añadiendo el complemento Gradle de los servicios de Google (com.google.gms.google-services) mediante el DSL de Kotlin en los archivos build.gradle.kts tanto a nivel de proyecto como a nivel de aplicación.
+<img width="720" alt="agregarElSDK" src="https://github.com/user-attachments/assets/745f42ee-6432-487c-bed2-84c2ac45fdd2" />
+
+**Paso 5 — Finalización de la integración**
+Se completó el proceso de configuración de Firebase en la app Android, confirmando la integración exitosa mediante la pantalla de "Próximos pasos" de la consola, que indica que Firebase ha sido añadido correctamente al proyecto.
+<img width="720" alt="firebaseAgregadoAppAndroid" src="https://github.com/user-attachments/assets/3b026667-ce4d-41d2-9412-04add0d3e136" />
+
+**Paso 6 — Implementación de dependencias en el proyecto**
+Finalmente, se añadieron las dependencias necesarias en el archivo de configuración del proyecto bajo la sección de despliegue Firebase, incluyendo el Firebase BoM en su versión 34.13.0 y la librería de Firebase Analytics (com.google.firebase:firebase-analytics).
+<img width="720" alt="agregarImplementationDeployAlCodigoProyecto" src="https://github.com/user-attachments/assets/7cdf41a9-03ad-4592-851b-b292f7c37698" />
 
 #### 4.2.1.8. Team Collaboration Insights during Sprint
 
