@@ -5004,7 +5004,12 @@ Basado en el análisis del proyecto y los hallazgos durante el avance, se sugier
 
 # Video About the product
 
-> *(Sección pendiente de desarrollo)*
+El presente video presenta de forma promocional la propuesta de valor de nuestro producto WayPass, una plataforma móvil diseñada para digitalizar y visibilizar el servicio de transporte colectivo interurbano informal en el Perú. El video resume el modelo de negocio y las características principales de la aplicación para conductores, mostrando escenas reales de interacción con el producto.
+
+**Video About the Product:** 
+- https://shorturl.at/Wj2JC
+- https://youtu.be/QvCi0Bi8GNM
+<img width="720" alt="image" src="https://github.com/user-attachments/assets/d6e3d1bc-5e30-4eb3-b94c-65707e57da4a" />
 
 # Video About the team
 
