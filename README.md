@@ -4648,7 +4648,62 @@ La base de datos del proyecto Viacore fue diseñada utilizando MySQL como sistem
 
 <img width="1163" height="771" alt="Image" src="https://github.com/user-attachments/assets/cc468e8c-0741-44c7-9b3e-fad2f2b3f93a" />
 
-## Android Movil
+## Android Móvil
+
+La aplicación móvil de Viacore fue desarrollada en Android y representa el componente principal de interacción del sistema, orientada tanto a conductores como a pasajeros del servicio de transporte colectivo. Durante este Sprint se implementaron y refinaron todas las pantallas core de la aplicación, logrando una interfaz moderna que aplica patrones de diseño móvil actuales.
+
+**Alcance entregado (Sprint 1)**
+
+- Implementación completa de los flujos de autenticación (login y registro con selección de tipo de usuario).
+- Dashboard personalizado con resumen general de rutas y paraderos.
+- Gestión completa de Rutas: listado, creación, edición y eliminación.
+- Gestión completa de Paraderos: listado, creación con subida de foto, edición y eliminación.
+- Visualización de rutas en mapa interactivo con panel de información inferior.
+- Pantalla de perfil de usuario.
+- Programación de horarios por ruta.
+
+**Pantallas implementadas**
+
+| Pantalla | Descripción |
+|---|---|
+| **Login** | Autenticación con degradado de fondo, campo de contraseña con ícono de visibilidad. |
+| **Register** | Registro con tarjetas seleccionables para tipo de usuario (Pasajero / Conductor). |
+| **Dashboard** | Panel principal con avatar de usuario y tarjetas de resumen con borde acentuado. |
+| **Stops** | Lista de paraderos con Floating Action Button para creación. |
+| **Create / Edit Stop** | Formulario en Bottom Sheet con secciones "Información Básica" y "Ubicación", incluyendo área para foto. |
+| **Delete Stop** | Modal de confirmación con botones apilados verticalmente para reducir errores. |
+| **Routes** | Lista de rutas con información organizada en tres columnas (Duración, Frecuencia, Tarifa) y horarios colapsables. |
+| **Create / Edit Route** | Formulario con diseño de línea de tiempo para origen/destino y campos numéricos agrupados. |
+| **Delete Route** | Modal de confirmación con mismo patrón de botones apilados. |
+| **Schedule Routes** | Gestión de horarios semanales por ruta. |
+| **Map Route** | Mapa interactivo con Bottom Sheet inferior para detalles de paraderos, duración y distancia. |
+| **Profile** | Pantalla de perfil del usuario autenticado. |
+
+**Video de Aplicación Móvil:** https://shorturl.at/6yGvj
+<img width="720" alt="executionevidenceappmobilesprint1" src="https://github.com/user-attachments/assets/6c4783e7-2675-486f-91c3-aee990296b90" />
+
+---
+
+A continuación, las capturas de las pantallas principales de la versión entregada:
+
+<img width="180" alt="login" src="https://github.com/user-attachments/assets/f18f6029-260a-4b2f-b526-1c03321cc155" />
+<img width="180" alt="register" src="https://github.com/user-attachments/assets/4ef470d6-14c1-458f-b640-f4229517a29f" />
+<img width="180" alt="dashboard" src="https://github.com/user-attachments/assets/175c0f27-7791-4494-97c2-f6bb8103de2d" />
+<img width="180" alt="stops" src="https://github.com/user-attachments/assets/1aa35704-62ef-4066-9c56-965d4a4d0d3e" />
+<img width="180" alt="createStop1" src="https://github.com/user-attachments/assets/eb90309e-52f5-4584-b3cc-cf71ea1dec8d" />
+<img width="180" alt="crateStop2" src="https://github.com/user-attachments/assets/f5232f9d-a8b5-4664-8a0e-b330d970cb2e" />
+<img width="180" alt="editStop1" src="https://github.com/user-attachments/assets/4d60353c-563e-4d71-a17c-6c18c477242f" />
+<img width="180" alt="editStop2" src="https://github.com/user-attachments/assets/a146e9ea-7c05-4b67-8a60-0f3e14008ceb" />
+<img width="180" alt="deleteStop" src="https://github.com/user-attachments/assets/3e235072-abd3-4325-8a08-1158f4f99d0c" />
+<img width="180" alt="routes" src="https://github.com/user-attachments/assets/76141d77-d414-47a0-9090-5ec1f7e6366e" />
+<img width="180" alt="createRoute1" src="https://github.com/user-attachments/assets/b57387f0-d06d-4a5d-9d1b-4d1ba85bc85b" />
+<img width="180" alt="createRoute2" src="https://github.com/user-attachments/assets/d755ad85-1654-4052-a24f-50d99c5d7562" />
+<img width="180" alt="deleteRoute" src="https://github.com/user-attachments/assets/b83217c2-ad87-4cd0-8f9f-59aefcd24cdb" />
+<img width="180" alt="scheduleRoutes" src="https://github.com/user-attachments/assets/4d15b6dc-5825-45c4-b9cf-f1d688d61738" />
+<img width="180" alt="mapRoute" src="https://github.com/user-attachments/assets/a986961e-122f-4bcf-b721-f4d2043182b8" />
+<img width="180" alt="editRoute1" src="https://github.com/user-attachments/assets/21f6ffba-916b-4523-9e3e-806dc8c38bce" />
+<img width="180" alt="editRoute2" src="https://github.com/user-attachments/assets/661e4532-b1d9-424a-ad62-075f089da523" />
+<img width="180" alt="profile" src="https://github.com/user-attachments/assets/8002c17c-e82b-48b2-89a6-fe6e23e56948" />
 
 #### 4.2.1.6. Services Documentation Evidence for Sprint Review
 
