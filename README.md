@@ -4604,7 +4604,97 @@ El presente Sprint Backlog 1 detalla las historias de usuario priorizadas para e
 
 #### 4.2.1.3. Development Evidence for Sprint Review
 
-> *(Sección pendiente de desarrollo)*
+Aquí tienes las intros y tablas limpias por artefacto:
+
+---
+
+## Development Evidence for Sprint Review
+
+Durante este sprint se avanzó en la implementación de los tres productos principales de la solución WayPass: el backend (Web Services), la aplicación móvil Android y la Landing Page. Los esfuerzos se concentraron en la integración de pagos con PayPal, la mejora del sistema IAM, la actualización de rutas y paradas para conductores, y el refinamiento visual de la interfaz móvil mediante el diseño system WayPassTheme.
+
+---
+
+### Web Services — Backend
+
+En este sprint se implementaron los bounded contexts de suscripción y pagos, se integró PayPal, se configuró el despliegue en Railway mediante Docker, y se consolidó la capa de persistencia con EF Core, repositorios base y autenticación IAM con hashing.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| Grupo-Apps-Moviles/Backend | feature/subscription | 2cebab5 | feat(subscription): implement subscription bounded context integration | | 13/05/2026 |
+| Grupo-Apps-Moviles/Backend | feature/payment | 735d263 | Update appsettings.json | | 13/05/2026 |
+| Grupo-Apps-Moviles/Backend | feature/payment | 0a43705 | feat(payment): add PayPal subscription integration | | 12/05/2026 |
+| Grupo-Apps-Moviles/Backend | main | 6570510 | feat: Configurations | | 12/05/2026 |
+| Grupo-Apps-Moviles/Backend | main | 5b03fe8 | Agregado Dockerfile y config de Railway | | 12/05/2026 |
+| Grupo-Apps-Moviles/Backend | main | bf4a744 | feat: deploy and update database | | 12/05/2026 |
+| Grupo-Apps-Moviles/Backend | main | 538f1fa | feat: Update database | | 12/05/2026 |
+| Grupo-Apps-Moviles/Backend | main | 65b2278 | feat: Update description | | 12/05/2026 |
+| Grupo-Apps-Moviles/Backend | develop | 7552429 | feat: Update Bound context Routes | | 10/05/2026 |
+| Grupo-Apps-Moviles/Backend | develop | fd1f990 | Add GoogleMapsUrl property to StopInRoutesResource | | 08/05/2026 |
+| Grupo-Apps-Moviles/Backend | develop | 1293d41 | Update StopInRoutesResource to use GoogleMapsUrl | | 08/05/2026 |
+| Grupo-Apps-Moviles/Backend | develop | 309c258 | feat: dev VS | | 05/05/2026 |
+| Grupo-Apps-Moviles/Backend | develop | bf5d706 | feat: Document | | 15/04/2026 |
+| Grupo-Apps-Moviles/Backend | develop | 5f4cbc6 | feat(database): add DbSet properties to AppDbContext for all entities | | 14/04/2026 |
+| Grupo-Apps-Moviles/Backend | develop | b396d4a | feat(iam): IAM, ACLs, and hash authentication were implemented | | 09/04/2026 |
+| Grupo-Apps-Moviles/Backend | develop | d15ffdd | feat(iam): implement infrastructure layer and persistence | | 09/04/2026 |
+| Grupo-Apps-Moviles/Backend | develop | 2e29152 | feat(iam): implement application layer and use cases | | 09/04/2026 |
+| Grupo-Apps-Moviles/Backend | develop | bd67ddf | feat(iam): implement core domain model for IAM bounded context | | 09/04/2026 |
+| Grupo-Apps-Moviles/Backend | develop | a518387 | feat(iam): implement User aggregate and primary constructor | | 09/04/2026 |
+| Grupo-Apps-Moviles/Backend | develop | d00df9d | feat(shared): finalize core infrastructure and persistence layer | | 09/04/2026 |
+| Grupo-Apps-Moviles/Backend | develop | 2818439 | feat(persistence): implement base repository and unit of work | | 09/04/2026 |
+| Grupo-Apps-Moviles/Backend | develop | 7c2f9f3 | feat(persistence): implement AppDbContext and EF Core configuration | | 09/04/2026 |
+| Grupo-Apps-Moviles/Backend | develop | c00542d | feat(shared): implement base repository and unit of work patterns | | 09/04/2026 |
+| Grupo-Apps-Moviles/Backend | develop | 2d54cb2 | chore: install backend dependencies and configure Swagger | | 09/04/2026 |
+
+---
+
+### Mobile Application — Android
+
+En este sprint se desarrollaron las funcionalidades del conductor (rutas, paradas, mapa con coordenadas de Google Maps), el flujo de pago con PayPal, la gestión de perfil, y se aplicó el rediseño visual completo de la app mediante el sistema de diseño WayPassTheme con tipografía Poppins y paleta Material 3.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| Grupo-Apps-Moviles/Android | main | 68a38a8 | feat: added image logo | | 13/05/2026 |
+| Grupo-Apps-Moviles/Android | main | 9069fda | refactor: clean and organize code | | 13/05/2026 |
+| Grupo-Apps-Moviles/Android | main | a0226ba | update profile driver | | 13/05/2026 |
+| Grupo-Apps-Moviles/Android | main | 080b0b7 | feat: update home driver | | 13/05/2026 |
+| Grupo-Apps-Moviles/Android | main | f9d0d58 | update | | 13/05/2026 |
+| Grupo-Apps-Moviles/Android | main | b00a770 | Merge branch 'feature/payment' | | 13/05/2026 |
+| Grupo-Apps-Moviles/Android | feature/payment | ae7e0b1 | feat(payment): add PayPal subscription flow | | 12/05/2026 |
+| Grupo-Apps-Moviles/Android | ux-ui | ed2d9e0 | feat(driver-routes): update DriverRouteMapScreen and DriverDashboardScreen | Refactored DriverRouteMapScreen con nuevo layout, floating back button, status badges y bottom info card. | 12/05/2026 |
+| Grupo-Apps-Moviles/Android | ux-ui | e709024 | feat(ux-ui): update theme to WayPassTheme and add compose text dependency | | 12/05/2026 |
+| Grupo-Apps-Moviles/Android | ux-ui | 2f56997 | feat(ux-ui): update passenger home screen colors to use MaterialTheme | | 12/05/2026 |
+| Grupo-Apps-Moviles/Android | ux-ui | cc61526 | refactor(ux-ui): register screen with enhanced UI and Material 3 components | Rediseño del layout de registro con fondo degradado y contenedor scrollable. | 12/05/2026 |
+| Grupo-Apps-Moviles/Android | ux-ui | 3574570 | refactor(ux-ui): redesigned and enhanced login UI in HomeScreen.kt | | 12/05/2026 |
+| Grupo-Apps-Moviles/Android | ux-ui | 8e9fa32 | feat(ux-ui): update driver screens to use MaterialTheme and improve dashboard UI | | 12/05/2026 |
+| Grupo-Apps-Moviles/Android | ux-ui | c825129 | feat(ux-ui): update stops screen layout and form with bottom sheet and new styling | | 12/05/2026 |
+| Grupo-Apps-Moviles/Android | ux-ui | b3e793c | feat(ux-ui): updated driver route management with bottom sheet and improved UI | | 12/05/2026 |
+| Grupo-Apps-Moviles/Android | ux-ui | 5bc6db5 | feat(ux-ui): added Poppins fonts and compose ui-text dependency | | 12/05/2026 |
+| Grupo-Apps-Moviles/Android | ux-ui | e441fe1 | feat(ux-ui): add WayPass design system theme with Poppins typography and color palette | | 12/05/2026 |
+| Grupo-Apps-Moviles/Android | angelo | 5a53f0c | added coords with Google Maps and update driver stops | | 10/05/2026 |
+| Grupo-Apps-Moviles/Android | angelo | 0b5404e | update stops | | 10/05/2026 |
+| Grupo-Apps-Moviles/Android | angelo | d195ae2 | update routes, stops, services | | 10/05/2026 |
+| Grupo-Apps-Moviles/Android | angelo | 401728c | Update DriverRouteMapScreen.kt | | 09/05/2026 |
+| Grupo-Apps-Moviles/Android | angelo | edcc699 | update maps, stops screen | | 08/05/2026 |
+| Grupo-Apps-Moviles/Android | angelo | e11fbf5 | feat: added card of confirmation deleted | | 08/05/2026 |
+| Grupo-Apps-Moviles/Android | angelo | a4c332e | feat: update profile | | 08/05/2026 |
+| Grupo-Apps-Moviles/Android | angelo | 3a42203 | feat: update route screen | | 08/05/2026 |
+| Grupo-Apps-Moviles/Android | angelo | 2bdaf4b | feat: update driver dashboard, stops navigation | | 08/05/2026 |
+| Grupo-Apps-Moviles/Android | angelo | e612aa5 | feat: update driver navigation (routes and stops) | | 08/05/2026 |
+| Grupo-Apps-Moviles/Android | angelo | 5c23751 | conductor features | | 06/05/2026 |
+| Grupo-Apps-Moviles/Android | angelo | 938c2b8 | Initial commit | | 30/03/2026 |
+
+---
+
+### Landing Page
+
+En este sprint se desarrolló e implementó la landing page oficial del producto, incluyendo la descripción del proyecto, las tecnologías empleadas y los segmentos objetivo. Adicionalmente se actualizó el README con el enlace y formato correctos.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| Grupo-Apps-Moviles/landing-page | main | c3ee3f9 | Update landing page link in README | | 06/05/2026 |
+| Grupo-Apps-Moviles/landing-page | main | 07da427 | Improve landing page link formatting in README | Updated the link to the official landing page with improved formatting. | 06/05/2026 |
+| Grupo-Apps-Moviles/landing-page | main | 5a62530 | Initialize README with project details | Added project overview, technologies used, and target segments. | 06/05/2026 |
+| Grupo-Apps-Moviles/landing-page | main | 079192e | feat: Develop landing page | | 06/05/2026 |
 
 #### 4.2.1.4. Testing Suite Evidence for Sprint Review
 
