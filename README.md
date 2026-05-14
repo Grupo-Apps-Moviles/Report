@@ -400,17 +400,27 @@ por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET
 
 # Objetivos SMART
 
-## Objetivo General
+A continuación se presentan los objetivos SMART, relacionados con el desarrollo profesional de forma individual de cada integrante del equipo cuando acaben su carrera.
 
-Implementar la plataforma móvil WayPass para digitalizar el sistema de rutas y ocupación en el transporte interurbano en Perú.
+**Velarde Gonzales, Néstor Hernán**
+- Objetivo 1: 
+- Objetivo 2:
 
-### Objetivos Específicos
-
-* Analizar y diseñar los requisitos funcionales y no funcionales.
+**Curi Marcelo, Angelo Marcio**
+- Objetivo 1: 
+- Objetivo 2:
   
-* Implementar una interfaz móvil minimalista aplicada con enfoque Domain Drive Design. 
+**Yaku Mateo Guzmán Cabrejos**
+- Objetivo 1: En los 12 meses posteriores a mi graduación, obtendré mi primera posición profesional como desarrollador de software o especialista en ciberseguridad en una empresa del sector financiero, energético o tecnológico en Lima, habiendo completado al menos dos certificaciones internacionales reconocidas (Google IT Support Professional Certificate y una certificación en seguridad como CompTIA Security+ o equivalente), y publicado en LinkedIn un mínimo de 3 proyectos técnicos documentados en GitHub que demuestren mi experiencia con arquitecturas DDD, REST APIs y herramientas de seguridad aplicada.
+- Objetivo 2: En los 24 meses posteriores a mi graduación, consolidaré un perfil profesional híbrido entre desarrollo de software e inteligencia artificial aplicada, liderando o contribuyendo en al menos 2 productos digitales desplegados en producción que integren modelos de lenguaje (como Claude API o Gemini) con automatización de procesos mediante agentes MCP o n8n, alcanzando un rol de nivel semi-senior con responsabilidades técnicas en arquitectura de sistemas, y con evidencia pública de impacto a través de al menos 5 publicaciones técnicas en LinkedIn con un alcance mínimo de 500 impresiones cada una.
 
-* Validar la plataforma mediante pruebas de campo.
+**Quiroz Cáceres, Adrian**
+- Objetivo 1: 
+- Objetivo 2:
+
+**Carranza Tesén, Joaquín Enrique**
+- Objetivo 1: 
+- Objetivo 2:
 
 <div style="page-break-after: always;"></div>
 
