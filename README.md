@@ -5236,6 +5236,10 @@ El presente video presenta de forma promocional la propuesta de valor de nuestro
       <td><strong>Trello</strong></td>
       <td><a href="https://trello.com/invite/b/69ff3d5f6e22ba5114de07be/ATTIe3bce47f3f25411bc433b9188fad27e7C2103B04/movil" target="_blank">Ver Sprint Backlog</a></td>
     </tr>
+    <tr>
+        <td><strong>About the product<strong></td>
+        <td><a href="https://shorturl.at/Wj2JC" target="_blank">Ver Video About the Product</td>
+    </tr>
   </tbody>
 </table>
 
