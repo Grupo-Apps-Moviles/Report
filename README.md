@@ -453,7 +453,7 @@ Ser el ecosistema digital líder en la gestión del transporte interurbano y rur
     </thead>
     <tbody>
         <tr>
-            <td><img width="800" height="236" alt="Image" src="https://github.com/user-attachments/assets/ff035024-f015-4b7b-9b2b-0abdb15bda50" /></td>
+            <td><img width="140" alt="Image" src="https://github.com/user-attachments/assets/ff035024-f015-4b7b-9b2b-0abdb15bda50" /></td>
             <td>
                 Cuento con conocimientos y experiencia en diversos lenguajes de 
                 programación como Python, C#, Java, C++ y JavaScript, lo que me 
@@ -464,16 +464,16 @@ Ser el ecosistema digital líder en la gestión del transporte interurbano y rur
             </td>
         </tr>
         <tr>
-            <td><img width="800" height="236" alt="foto" src="https://github.com/user-attachments/assets/fb7d3127-17d1-40f8-86bb-cfb703bfd728" /></td>
+            <td><img width="140" alt="foto" src="https://github.com/user-attachments/assets/fb7d3127-17d1-40f8-86bb-cfb703bfd728" /></td>
             <td>Soy Angelo Curi Marcelo, con conocimientos en lenguajes de programación como C++ y Python. Además, manejo herramientas que apoyan el desarrollo eficiente de proyectos de software. Siempre me esfuerzo por adquirir nuevas habilidades y mejorar mis competencias técnicas para afrontar los desafíos del desarrollo de software. Me considero una persona responsable, comprometida y enfocada en la calidad del trabajo. Tengo la capacidad de adaptarme rápidamente a nuevas tecnologías y entornos. Cumplo con los plazos establecidos y tengo una gran disposición para aprender y colaborar en equipo. </td>
         </tr>
         <tr>
-            <td><img width="800" height="236" alt="foto" src="https://github.com/user-attachments/assets/2dd80fc1-e903-4b8e-b550-505cd7712d19" />
+            <td><img width="140" alt="foto" src="https://github.com/user-attachments/assets/2dd80fc1-e903-4b8e-b550-505cd7712d19" />
 </td>
             <td>Hola, soy Joaquín Carranza. Tengo 25 años y actualmente curso el septimo ciclo de la carrera de Ingeniería de Software. Me gusta la tecnología y la forma en que ayuda a las personas a resolver problemas de manera más rápida y eficiente. Me interesa especialmente el manejo de datos y la ciberseguridad. Siento que puedo aportar a mi equipo ideas desde otra perspectiva, ya que siempre me cuestiono cómo se podría mejorar el producto o hacia qué objetivo estamos apuntando.</td>
         </tr>
         <tr>
-            <td><img width="800" height="323" alt="yaku" src="https://github.com/user-attachments/assets/833d2d67-a1be-4101-a601-6b674dfe2408" />
+            <td><img width="140" alt="yaku" src="https://github.com/user-attachments/assets/833d2d67-a1be-4101-a601-6b674dfe2408" />
 </td>
             <td>Soy Yaku Guzmán, estudiante de Ingeniería de Software en el séptimo ciclo. 
 Cuento con conocimientos en lenguajes de programación como Python, C#, Java, 
@@ -485,7 +485,7 @@ Me considero autodidacta, analítico y comprometido con la calidad del trabajo
 en equipo.</td>
         </tr>
         <tr>
-            <td><img width="245" height="236" alt="Image" src="https://github.com/user-attachments/assets/a0fb7f84-81aa-452a-913c-4bd584faedaa" /></td>
+            <td><img width="140" alt="Image" src="https://github.com/user-attachments/assets/a0fb7f84-81aa-452a-913c-4bd584faedaa" /></td>
             <td>Soy Adrian Quiroz, tengo 21 años y actualmente curso el quinto ciclo de Ingeniería de Software. Poseo conocimientos en C++ y bases de datos, áreas que me permiten contribuir al desarrollo de soluciones digitales.</td>
         </tr>
     </tbody>
