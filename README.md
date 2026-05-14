@@ -147,8 +147,6 @@ El equipo utilizó GitHub como plataforma de colaboración para el control de ve
 - [Student Outcome](#student-outcome)
   - [ABET - EAC - Student Outcome 7](#abet---eac---student-outcome-7)
 - [Objetivos SMART](#objetivos-smart)
-  - [Objetivo General](#objetivo-general)
-    - [Objetivos Específicos](#objetivos-específicos)
 - [Capítulo I: Presentación](#capítulo-i-presentación)
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
@@ -186,8 +184,14 @@ El equipo utilizó GitHub como plataforma de colaboración para el control de ve
     - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
     - [2.3.5. Big Picture EventStorming](#235-big-picture-eventstorming)
-    - [2.3.6. Ubiquitous Language](#236-ubiquitous-language)
-      - [GLOSARIO](#glosario)
+  - [2.3.6. Ubiquitous Language](#236-ubiquitous-language)
+    - [Actores del dominio](#actores-del-dominio)
+    - [Glosario por Bounded Context](#glosario-por-bounded-context)
+      - [IAM — Identidad y Acceso](#iam--identidad-y-acceso)
+      - [Stops — Paraderos](#stops--paraderos)
+      - [Routes — Rutas](#routes--rutas)
+      - [Profile — Perfil de usuario](#profile--perfil-de-usuario)
+    - [Términos prohibidos y equivalencias](#términos-prohibidos-y-equivalencias)
   - [2.4. Requirements specification](#24-requirements-specification)
     - [2.4.1. User Stories](#241-user-stories)
     - [2.4.2. Impact Mapping](#242-impact-mapping)
@@ -334,14 +338,18 @@ El equipo utilizó GitHub como plataforma de colaboración para el control de ve
       - [4.2.1.2. Sprint Backlog 1](#4212-sprint-backlog-1)
       - [Sprint Backlog 1](#sprint-backlog-1)
       - [4.2.1.3. Development Evidence for Sprint Review](#4213-development-evidence-for-sprint-review)
+  - [Development Evidence for Sprint Review](#development-evidence-for-sprint-review)
+    - [Web Services — Backend](#web-services--backend)
+    - [Mobile Application — Android](#mobile-application--android)
+    - [Landing Page](#landing-page)
       - [4.2.1.4. Testing Suite Evidence for Sprint Review](#4214-testing-suite-evidence-for-sprint-review)
       - [Testing Suite Evidence for Sprint Review](#testing-suite-evidence-for-sprint-review)
       - [4.2.1.5. Execution Evidence for Sprint Review](#4215-execution-evidence-for-sprint-review)
-  - [Landing Page](#landing-page)
+  - [Landing Page](#landing-page-1)
   - [Backend (.net C#)](#backend-net-c)
   - [Base de datos (MySql)](#base-de-datos-mysql)
 - [Tablas Principales](#tablas-principales)
-  - [Android Movil](#android-movil)
+  - [Android Móvil](#android-móvil)
       - [4.2.1.6. Services Documentation Evidence for Sprint Review](#4216-services-documentation-evidence-for-sprint-review)
   - [Authentication Services](#authentication-services)
   - [Users \& Profiles Services](#users--profiles-services)
@@ -355,7 +363,6 @@ El equipo utilizó GitHub como plataforma de colaboración para el control de ve
   - [4.3. Validation Interviews](#43-validation-interviews)
     - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
     - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
-  - [Entrevista #1](#entrevista-1)
     - [4.3.3. Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas)
 - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
   - [Conclusiones](#conclusiones)
@@ -371,7 +378,7 @@ El equipo utilizó GitHub como plataforma de colaboración para el control de ve
 - [Video App Validation](#video-app-validation)
 - [Video About the product](#video-about-the-product)
 - [Video About the team](#video-about-the-team)
-- [Glosario](#glosario-1)
+- [Glosario](#glosario)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
   - [Recursos del Proyecto - Viacore](#recursos-del-proyecto---viacore)
@@ -393,24 +400,35 @@ por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |---|---|---|
-| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software** | **Joaquin Carranza:** Comprendí que debo dominar arquitecturas en tiempo real y Geofencing. Las entrevistas me demostraron que la información es dinámica y los paraderos son informales. Necesito construir un software capaz de procesar eventos al instante para precisión en llenado y ubicación, apoyado en UX minimalista. <br><br>**Curi Marcelo, Angelo Marcio:** Identificamos la problemática del proyecto, user personas, user stories y validamos mediante entrevistas. <br><br>**Yaku Guzmán:** Actualicé mis conocimientos sobre documentación de arquitectura usando C4 Model y convenciones para proyectos móviles con backend en ASP.NET Core. Comprendí que adaptar microservicios a una arquitectura monolítica requiere delimitar responsabilidades en cada bounded context aplicando DDD. <br><br>**Quiroz Cáceres, Adrian:** Definí la problemática, identifiqué user personas y formulé user stories validadas mediante entrevistas. <br><br>**Velarde Gonzales, Néstor Hernán:** Participé activamente en entrevistas con usuarios y transportistas, validé requisitos técnicos clave y propuse soluciones integrales en la arquitectura. Contribuí a optimizar el grupo mediante documentación clara de requisitos y validación de restricciones de infraestructura informal. | AV1: Las entrevistas confirmaron que el transporte local sufre una crisis de información que resuelvo digitalizando la función del "datero". WayPass actúa como puente que elimina incertidumbre del pasajero y optimiza llenado del transportista, transformando la informalidad en un sistema predecible y eficiente mediante soluciones técnicas contextualizadas donde cada componente responde a un problema real identificado.|
-| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software** | **Joaquin Carranza:** Comprendí que la tecnología en transporte avanza más rápido que la infraestructura física, obligándome a aprender permanentemente sobre arquitecturas escalables y sincronización en tiempo real. Necesito actualizarme constantemente en Geofencing y UX móvil. <br><br>**Curi Marcelo, Angelo Marcio:** Identificamos requerimientos para el desarrollo de la app, bounded contexts y servicios externos necesarios. <br><br> **Yaku Guzmán:** Reconocí que adaptar microservicios a monolito es una decisión técnica y de comunicación. Aprender PlantUML y C4 Model me mostró que esta competencia debe evolucionar con cada proyecto. <br><br>**Quiroz Cáceres, Adrian:** Establecí los requerimientos principales, identifiqué bounded contexts y servicios externos necesarios. <br><br>**Velarde Gonzales, Néstor Hernán:** Reconocí que mi aprendizaje técnico debe alinearse con la realidad del contexto. Las entrevistas me enseñaron que no puedo imponer soluciones sin validarlas con usuarios reales. Fortalecí mi capacidad de vincular decisiones arquitectónicas con necesidades concretas. | AV1: El desarrollo de software es un proceso vivo donde el aprendizaje permanente es la mejor herramienta para adaptar soluciones a nuevas necesidades de usuarios y choferes. Un profesional competente debe cuestionar constantemente sus soluciones a la luz de evidencia real, mantener equilibrio entre dominio técnico y comprensión contextual, y estar dispuesto a evolucionar tanto en herramientas como en enfoques de resolución de problemas.|
+
+| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software** | **Joaquin Carranza:** <br> **AV1:** <br> Comprendí que debo dominar arquitecturas en tiempo real y Geofencing. Las entrevistas me demostraron que la información es dinámica y los paraderos son informales. Necesito construir un software capaz de procesar eventos al instante para precisión en llenado y ubicación, apoyado en UX minimalista.  <br><br> **TB1:** <br>  <br><br>**Curi Marcelo, Angelo Marcio:**  <br> **AV1:** <br>  Identificamos la problemática del proyecto, user personas, user stories y validamos mediante entrevistas.  <br><br> **TB1:**  <br> Implementé funcionalidades del módulo conductor en Android, desarrollando la gestión de rutas y paraderos mediante integración con Google Maps y servicios de geolocalización. <br><br>**Yaku Guzmán:**  <br> **AV1:** <br> Actualicé mis conocimientos sobre documentación de arquitectura usando C4 Model y convenciones para proyectos móviles con backend en ASP.NET Core. Comprendí que adaptar microservicios a una arquitectura monolítica requiere delimitar responsabilidades en cada bounded context aplicando DDD.  <br><br> **TB1:** <br> Actualicé mis conocimientos en diseño de sistemas UI/UX para Android con Jetpack Compose, implementando un design system completo (WayPassTheme) con tipografía Poppins y esquema de colores basado en Material 3. Aprendí a aplicar componentes avanzados como bottom sheets y esquemas dinámicos con MaterialTheme, y profundicé en la refactorización de pantallas clave (login, registro, dashboard del conductor, gestión de rutas y paradas) separando correctamente la lógica de presentación de la navegación. <br><br>**Quiroz Cáceres, Adrian:** <br> **AV1:** <br>  Definí la problemática, identifiqué user personas y formulé user stories validadas mediante entrevistas. <br><br> **TB1:** <br>  <br><br>**Velarde Gonzales, Néstor Hernán:**  <br> **AV1:** <br> Participé activamente en entrevistas con usuarios y transportistas, validé requisitos técnicos clave y propuse soluciones integrales en la arquitectura. Contribuí a optimizar el grupo mediante documentación clara de requisitos y validación de restricciones de infraestructura informal.  <br><br> **TB1:** <br> Durante el desarrollo del trabajo parcial, comunique activamente mis ideas basado en el proyecto, parcipe como rol developer a cargo de desarrollo de Backend con un enfoque de diseño aplicando Domain Drive Design DDD y usando buenas practicas de desarrollo de software como el patron CQRS y los principios SOLID | Las entrevistas confirmaron que el transporte local sufre una crisis de información que resuelvo digitalizando la función del "datero". WayPass actúa como puente que elimina incertidumbre del pasajero y optimiza llenado del transportista, transformando la informalidad en un sistema predecible y eficiente mediante soluciones técnicas contextualizadas donde cada componente responde a un problema real identificado. |
+| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software** | **Joaquin Carranza:**  <br> **AV1:** <br> Comprendí que la tecnología en transporte avanza más rápido que la infraestructura física, obligándome a aprender permanentemente sobre arquitecturas escalables y sincronización en tiempo real. Necesito actualizarme constantemente en Geofencing y UX móvil.<br><br> **TB1:** <br> <br><br>**Curi Marcelo, Angelo Marcio:**  <br> **AV1:** <br> Identificamos requerimientos para el desarrollo de la app, bounded contexts y servicios externos necesarios. <br><br> **TB1:** <br> Fortalecí mis conocimientos en desarrollo móvil y aprendizaje continuo mediante la implementación de funcionalidades en Android, integración de APIs y uso de herramientas de geolocalización y servicios externos <br><br>**Yaku Guzmán:**  <br> **AV1:** <br> Reconocí que adaptar microservicios a monolito es una decisión técnica y de comunicación. Aprender PlantUML y C4 Model me mostró que esta competencia debe evolucionar con cada proyecto. <br><br> **TB1:** <br>Reconocí que implementar un design system desde cero en Jetpack Compose requiere mantenerse actualizado sobre las convenciones de Material 3 y las buenas prácticas del ecosistema Android, las cuales evolucionan continuamente. Cada refactorización realizada me confirmó que la consistencia visual y el código limpio son competencias técnicas que debo seguir desarrollando en cada proyecto. <br><br>**Quiroz Cáceres, Adrian:**  <br> **AV1:** <br> Establecí los requerimientos principales, identifiqué bounded contexts y servicios externos necesarios. <br><br> **TB1:** <br> <br><br>**Velarde Gonzales, Néstor Hernán:**  <br> **AV1:** <br> Reconocí que mi aprendizaje técnico debe alinearse con la realidad del contexto. Las entrevistas me enseñaron que no puedo imponer soluciones sin validarlas con usuarios reales. Fortalecí mi capacidad de vincular decisiones arquitectónicas con necesidades concretas. <br><br> **TB1:** <br> Las mejoras continuas y los recomendaciones positivas fue la motivación de implementar un los requisitos funcionales y no funcionales, a nivel de desarrollo de código consideramos los user histories planteadas y poner acuerdo con nuestro stakeholders al finalizar cada Sprint. | El desarrollo de software es un proceso vivo donde el aprendizaje permanente es la mejor herramienta para adaptar soluciones a nuevas necesidades de usuarios y choferes. Un profesional competente debe cuestionar constantemente sus soluciones a la luz de evidencia real, mantener equilibrio entre dominio técnico y comprensión contextual, y estar dispuesto a evolucionar tanto en herramientas como en enfoques de resolución de problemas. |
 
 <div style="page-break-after: always;"></div>
 
 # Objetivos SMART
 
-## Objetivo General
+A continuación se presentan los objetivos SMART, relacionados con el desarrollo profesional de forma individual de cada integrante del equipo cuando acaben su carrera.
 
-Implementar la plataforma móvil WayPass para digitalizar el sistema de rutas y ocupación en el transporte interurbano en Perú.
+**Velarde Gonzales, Néstor Hernán**
+- Objetivo 1: En posteriores a mi graduación, consolidaré mi perfil profesional como arquitecto de software, participando en el desarrollo de Backend y Frontend. Además me insertaré en tecnologías emergentes como la blockchain y inteligencia artificial, obteniendo al menos una participación en startup reconocidos del Perú.
+- Objetivo 2: En los primeros 12 meses posteriores de ser egresado, obtendré una posición profesional como desarrollador backend, fortaleciendo mis conocimientos en arquitecturas RESTful, .NET y bases de datos en la nube, además de desplegar al menos 3 proyectos funcionales en producción relacionados aplicaciones web o movil.
 
-### Objetivos Específicos
-
-* Analizar y diseñar los requisitos funcionales y no funcionales.
+**Curi Marcelo, Angelo Marcio**
+- Objetivo 1:  En los primeros 18 meses posteriores a mi graduación, obtendré una posición profesional como desarrollador frontend o analista junior de ciberseguridad, fortaleciendo mis conocimientos en desarrollo web, seguridad informática y gestión de vulnerabilidades, además de desarrollar y publicar proyectos técnicos en GitHub que evidencien mis habilidades prácticas.
+- Objetivo 2: En un plazo máximo de 3 años posteriores a mi graduación, consolidaré mi perfil profesional en el área de desarrollo de software o ciberseguridad, participando en proyectos tecnológicos reales, obteniendo certificaciones relacionadas con seguridad o tecnologías web modernas, y asumiendo mayores responsabilidades técnicas dentro de un equipo de trabajo.
   
-* Implementar una interfaz móvil minimalista aplicada con enfoque Domain Drive Design. 
+**Yaku Mateo Guzmán Cabrejos**
+- Objetivo 1: En los 12 meses posteriores a mi graduación, obtendré mi primera posición profesional como desarrollador de software o especialista en ciberseguridad en una empresa del sector financiero, energético o tecnológico en Lima, habiendo completado al menos dos certificaciones internacionales reconocidas (Google IT Support Professional Certificate y una certificación en seguridad como CompTIA Security+ o equivalente), y publicado en LinkedIn un mínimo de 3 proyectos técnicos documentados en GitHub que demuestren mi experiencia con arquitecturas DDD, REST APIs y herramientas de seguridad aplicada.
+- Objetivo 2: En los 24 meses posteriores a mi graduación, consolidaré un perfil profesional híbrido entre desarrollo de software e inteligencia artificial aplicada, liderando o contribuyendo en al menos 2 productos digitales desplegados en producción que integren modelos de lenguaje (como Claude API o Gemini) con automatización de procesos mediante agentes MCP o n8n, alcanzando un rol de nivel semi-senior con responsabilidades técnicas en arquitectura de sistemas, y con evidencia pública de impacto a través de al menos 5 publicaciones técnicas en LinkedIn con un alcance mínimo de 500 impresiones cada una.
 
-* Validar la plataforma mediante pruebas de campo.
+**Quiroz Cáceres, Adrian**
+- Objetivo 1: 
+- Objetivo 2:
+
+**Carranza Tesén, Joaquín Enrique**
+- Objetivo 1: 
+- Objetivo 2:
 
 <div style="page-break-after: always;"></div>
 
@@ -443,7 +461,7 @@ Ser el ecosistema digital líder en la gestión del transporte interurbano y rur
     </thead>
     <tbody>
         <tr>
-            <td><img width="800" height="236" alt="Image" src="https://github.com/user-attachments/assets/ff035024-f015-4b7b-9b2b-0abdb15bda50" /></td>
+            <td><img width="140" alt="Image" src="https://github.com/user-attachments/assets/ff035024-f015-4b7b-9b2b-0abdb15bda50" /></td>
             <td>
                 Cuento con conocimientos y experiencia en diversos lenguajes de 
                 programación como Python, C#, Java, C++ y JavaScript, lo que me 
@@ -454,16 +472,16 @@ Ser el ecosistema digital líder en la gestión del transporte interurbano y rur
             </td>
         </tr>
         <tr>
-            <td><img width="800" height="236" alt="foto" src="https://github.com/user-attachments/assets/fb7d3127-17d1-40f8-86bb-cfb703bfd728" /></td>
+            <td><img width="140" alt="foto" src="https://github.com/user-attachments/assets/fb7d3127-17d1-40f8-86bb-cfb703bfd728" /></td>
             <td>Soy Angelo Curi Marcelo, con conocimientos en lenguajes de programación como C++ y Python. Además, manejo herramientas que apoyan el desarrollo eficiente de proyectos de software. Siempre me esfuerzo por adquirir nuevas habilidades y mejorar mis competencias técnicas para afrontar los desafíos del desarrollo de software. Me considero una persona responsable, comprometida y enfocada en la calidad del trabajo. Tengo la capacidad de adaptarme rápidamente a nuevas tecnologías y entornos. Cumplo con los plazos establecidos y tengo una gran disposición para aprender y colaborar en equipo. </td>
         </tr>
         <tr>
-            <td><img width="800" height="236" alt="foto" src="https://github.com/user-attachments/assets/2dd80fc1-e903-4b8e-b550-505cd7712d19" />
+            <td><img width="140" alt="foto" src="https://github.com/user-attachments/assets/2dd80fc1-e903-4b8e-b550-505cd7712d19" />
 </td>
             <td>Hola, soy Joaquín Carranza. Tengo 25 años y actualmente curso el septimo ciclo de la carrera de Ingeniería de Software. Me gusta la tecnología y la forma en que ayuda a las personas a resolver problemas de manera más rápida y eficiente. Me interesa especialmente el manejo de datos y la ciberseguridad. Siento que puedo aportar a mi equipo ideas desde otra perspectiva, ya que siempre me cuestiono cómo se podría mejorar el producto o hacia qué objetivo estamos apuntando.</td>
         </tr>
         <tr>
-            <td><img width="800" height="323" alt="yaku" src="https://github.com/user-attachments/assets/833d2d67-a1be-4101-a601-6b674dfe2408" />
+            <td><img width="140" alt="yaku" src="https://github.com/user-attachments/assets/833d2d67-a1be-4101-a601-6b674dfe2408" />
 </td>
             <td>Soy Yaku Guzmán, estudiante de Ingeniería de Software en el séptimo ciclo. 
 Cuento con conocimientos en lenguajes de programación como Python, C#, Java, 
@@ -475,7 +493,7 @@ Me considero autodidacta, analítico y comprometido con la calidad del trabajo
 en equipo.</td>
         </tr>
         <tr>
-            <td><img width="245" height="236" alt="Image" src="https://github.com/user-attachments/assets/a0fb7f84-81aa-452a-913c-4bd584faedaa" /></td>
+            <td><img width="140" alt="Image" src="https://github.com/user-attachments/assets/a0fb7f84-81aa-452a-913c-4bd584faedaa" /></td>
             <td>Soy Adrian Quiroz, tengo 21 años y actualmente curso el quinto ciclo de Ingeniería de Software. Poseo conocimientos en C++ y bases de datos, áreas que me permiten contribuir al desarrollo de soluciones digitales.</td>
         </tr>
     </tbody>
@@ -1279,66 +1297,73 @@ Figura 10. Big Picture EventStorming
 
 <img width="794" height="1259" alt="Image" src="https://github.com/user-attachments/assets/57edff33-c74a-46f8-9591-861c4aabb174" />
 
-### 2.3.6. Ubiquitous Language
-
-El lenguaje ubicuo es una parte fundamental de la estrategia de UX. Se refiere al conjunto de términos y frases que, aunque no pertenecen al contexto técnico del desarrollo, se utilizan para expresar la lógica del negocio. Esto permite que todos los involucrados en el proyecto, incluidos los usuarios finales, puedan entender y participar mejor en el desarrollo del producto.
-
-#### GLOSARIO
-
-<table>
-  <thead>
-    <tr style="background-color: #2c3e50; color: white;">
-      <th style="padding: 10px; border: 1px solid #ddd;">Término</th>
-      <th style="padding: 10px; border: 1px solid #ddd;">Definición</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Colectivo</strong></td>
-      <td style="padding: 10px; border: 1px solid #ddd;">Automóvil que opera en rutas fijas entre pueblos o distritos, transportando varios pasajeros a la vez.</td>
-    </tr>
-    <tr style="background-color: #f9f9f9;">
-      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Whereabouts (Paradero)</strong></td>
-      <td style="padding: 10px; border: 1px solid #ddd;">Punto habitual donde los colectivos recogen o dejan pasajeros. Geolocalizado en la plataforma.</td>
-    </tr>
-    <tr>
-      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Route (Ruta)</strong></td>
-      <td style="padding: 10px; border: 1px solid #ddd;">Trayecto fijo que sigue un colectivo, desde un punto de partida hasta un destino.</td>
-    </tr>
-    <tr style="background-color: #f9f9f9;">
-      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Route request</strong></td>
-      <td style="padding: 10px; border: 1px solid #ddd;">Acción del usuario para solicitar información sobre una ruta específica.</td>
-    </tr>
-    <tr>
-      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Verified driver</strong></td>
-      <td style="padding: 10px; border: 1px solid #ddd;">Conductor registrado con identidad y datos del vehículo verificados.</td>
-    </tr>
-    <tr style="background-color: #f9f9f9;">
-      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Driver´s profile</strong></td>
-      <td style="padding: 10px; border: 1px solid #ddd;">Información pública (foto, calificación, comentarios) para generar confianza.</td>
-    </tr>
-    <tr>
-      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Availability</strong></td>
-      <td style="padding: 10px; border: 1px solid #ddd;">Estado activo del conductor indicando cupos disponibles en ruta.</td>
-    </tr>
-    <tr style="background-color: #f9f9f9;">
-      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Viaje (Ride)</strong></td>
-      <td style="padding: 10px; border: 1px solid #ddd;">Servicio individual de abordaje que puede monitorearse en tiempo real.</td>
-    </tr>
-    <tr>
-      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Fare (Tarifa)</strong></td>
-      <td style="padding: 10px; border: 1px solid #ddd;">Costo estimado basado en distancia y ruta; sirve como referencia.</td>
-    </tr>
-    <tr style="background-color: #f9f9f9;">
-      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Monitoring</strong></td>
-      <td style="padding: 10px; border: 1px solid #ddd;">Supervisión de rutas y tiempos estimados de llegada.</td>
-    </tr>
-    <tr>
-      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Coverage areas</strong></td>
-      <td style="padding: 10px; border: 1px solid #ddd;">Zonas geográficas donde opera el servicio y se planean expansiones.</td>
-    </tr>
-  </tbody>
-</table>
+## 2.3.6. Ubiquitous Language
+ 
+El Lenguaje Ubicuo es uno de los pilares del Domain-Driven Design (DDD). Su propósito es establecer un vocabulario compartido, preciso y no ambiguo entre los desarrolladores, diseñadores y expertos del negocio, de modo que todos los involucrados en el proyecto —técnicos y no técnicos— utilicen exactamente los mismos términos al referirse a los conceptos del dominio.
+ 
+En **WayPass**, el dominio principal es el transporte colectivo informal interurbano en el Perú. Los términos definidos a continuación deben reflejarse de forma consistente en el código fuente, los modelos de datos, las User Stories, las pruebas y las conversaciones del equipo. Cualquier discrepancia entre el lenguaje del negocio y el lenguaje del código es una señal de deuda técnica.
+ 
+### Actores del dominio
+ 
+| Actor | Descripción |
+|---|---|
+| **Pasajero** | Usuario registrado que busca colectivos, consulta rutas y paraderos para planificar su desplazamiento. |
+| **Conductor** | Operador informal registrado en la plataforma que publica su ruta, disponibilidad y datos de vehículo para captar pasajeros. |
+ 
+### Glosario por Bounded Context
+ 
+#### IAM — Identidad y Acceso
+ 
+| Término | Definición en el dominio |
+|---|---|
+| **Usuario** | Entidad registrada en el sistema con credenciales únicas (correo + contraseña). Puede tener el rol de Pasajero o Conductor. |
+| **Credencial** | Par de correo electrónico y contraseña protegida con hash (BCrypt) que autentica al Usuario. |
+| **Token de sesión (JWT)** | Token firmado emitido tras una autenticación exitosa. Valida la identidad del Usuario en cada solicitud a la API. |
+| **Registro** | Proceso de creación de una nueva cuenta de Usuario en la plataforma. |
+| **Autenticación** | Proceso mediante el cual el Usuario provee sus credenciales y el sistema verifica su identidad. |
+| **Perfil del conductor** | Información pública asociada al Conductor: foto, calificación promedio, comentarios de pasajeros y datos del vehículo. Sirve para generar confianza. |
+ 
+#### Stops — Paraderos
+ 
+| Término | Definición en el dominio |
+|---|---|
+| **Paradero** | Punto geográfico físico donde los colectivos recogen o dejan pasajeros. Cada paradero tiene un nombre reconocible y coordenadas GPS. |
+| **Coordenadas** | Par de valores (latitud, longitud) que ubican con precisión un paradero en el mapa. |
+| **Paradero de origen** | Primer paradero de una ruta; punto de partida del trayecto. |
+| **Paradero de destino** | Último paradero de una ruta; punto final del trayecto. |
+| **Geolocalización** | Capacidad del sistema para calcular y mostrar los paraderos más cercanos a la posición actual del Pasajero. |
+| **Área de cobertura** | Zona geográfica dentro de la cual opera el servicio de WayPass. |
+ 
+#### Routes — Rutas
+ 
+| Término | Definición en el dominio |
+|---|---|
+| **Colectivo** | Automóvil (sedán, minivan, station wagon) que opera en rutas fijas entre pueblos o distritos, transportando varios pasajeros a la vez. |
+| **Ruta** | Trayecto fijo que sigue un colectivo desde un paradero de origen hasta uno de destino, pasando por una secuencia de paraderos intermedios. |
+| **Secuencia de paraderos** | Orden definido de paraderos que conforman una ruta. El orden es significativo y no puede alterarse sin modificar la ruta. |
+| **Disponibilidad** | Estado activo publicado por el Conductor que indica cupos libres en su colectivo para una ruta en curso. |
+| **Tarifa** | Costo estimado del trayecto basado en la distancia y la ruta. Sirve como referencia para el pasajero. |
+| **Solicitud de ruta** | Acción del Pasajero para consultar las rutas disponibles entre dos puntos o paraderos. |
+| **Monitoreo** | Supervisión en tiempo real de la posición del colectivo y el tiempo estimado de llegada a un paradero. |
+ 
+#### Profile — Perfil de usuario
+ 
+| Término | Definición en el dominio |
+|---|---|
+| **Viaje** | Registro de un servicio individual de transporte realizado entre un pasajero y un conductor en una ruta determinada. |
+| **Calificación** | Puntuación que el Pasajero asigna al Conductor tras completar un viaje. Contribuye al perfil público del Conductor. |
+| **Comentario** | Reseña textual dejada por el Pasajero sobre su experiencia con el Conductor. |
+ 
+### Términos prohibidos y equivalencias
+ 
+Para evitar ambigüedades, el equipo acuerda no usar los siguientes alias en el código, la documentación ni las conversaciones:
+ 
+| Término prohibido | Término correcto | Razón |
+|---|---|---|
+| Cliente | Pasajero | "Cliente" es ambiguo con cliente HTTP o cliente de negocio. |
+| Chofer | Conductor | "Chofer" es coloquial; el dominio usa "Conductor". |
+| Parada / Paradero de bus | Paradero | El sistema es agnóstico al tipo de vehículo. |
+| Recorrido / Itinerario | Ruta | Usar siempre "Ruta" para mantener trazabilidad en el código. |
 
 ## 2.4. Requirements specification
 
@@ -1352,6 +1377,11 @@ A continuación, se detallan las historias de usuario organizadas por épicas:
 
 | User Story ID / Technical Story ID | Título | Descripción | Criterios de aceptación | Epic ID |
 |------------------------------------|--------|-------------|--------------------------|---------|
+| **EP01** | Experiencia del pasajero | Como pasajero, quiero buscar rutas y paraderos disponibles, ver información del conductor y calificar mi experiencia, para movilizarme de forma informada y segura. | — | — |
+| **EP02** | Gestión del conductor | Como conductor, quiero registrarme, activar mis rutas, recibir notificaciones de pasajeros y consultar mi reputación, para ofrecer un servicio eficiente y mejorar mi desempeño. | — | — |
+| **EP03** | Panel de empresa de transporte | Como empresa de transporte, quiero gestionar mi perfil, rutas y paraderos desde un panel centralizado, para mantener la información de mi servicio siempre actualizada y visible para los viajeros. | — | — |
+| **EP04** | Exploración y búsqueda para viajeros | Como viajero, quiero explorar paraderos y rutas, filtrar por ubicación y guardar rutas en colecciones, para planificar mis viajes de forma rápida y personalizada. | — | — |
+| **EP05** | Gestión de cuentas y datos de la plataforma | Como usuario de la plataforma, quiero registrarme, iniciar sesión, editar mi perfil y administrar los recursos del sistema, para acceder a todas las funcionalidades de forma segura y organizada. | — | — |
 | **US01** | Buscar rutas disponibles | Como pasajero, quiero buscar rutas de colectivos cercanas para saber qué opciones tengo para movilizarme. | **Escenario 1:** Búsqueda exitosa<br>Dado que soy un pasajero con acceso a la app, Cuando ingreso una ubicación de origen y destino, Entonces el sistema debe mostrarme las rutas de colectivos disponibles.<br>**Escenario 2:** Sin resultados<br>Dado que no hay rutas activas entre los puntos seleccionados, Cuando realizo la búsqueda, Entonces el sistema debe indicarme que no hay resultados disponibles. | EP01 |
 | **US02** | Ver paraderos en el mapa | Como pasajero, quiero ver en un mapa los paraderos cercanos para saber dónde tomar el colectivo. | **Escenario 1:** Visualización de paraderos<br>Dado que ingreso a la sección de mapa, Cuando permito el acceso a mi ubicación, Entonces el sistema debe mostrar los paraderos cercanos en el mapa.<br>**Escenario 2:** Error de ubicación<br>Dado que no doy acceso a mi ubicación, Cuando intento ver el mapa, Entonces el sistema debe mostrar un mensaje indicando que no puede mostrar los paraderos. | EP01 |
 | **US03** | Ver información del conductor | Como pasajero, quiero ver información del conductor antes de abordar para mayor confianza. | **Escenario 1:** Información visible<br>Dado que selecciono una ruta activa, Cuando visualizo los detalles del colectivo, Entonces debo poder ver el nombre, tipo de vehículo y calificaciones del conductor.<br>**Escenario 2:** Información incompleta<br>Dado que el conductor no ha completado su perfil, Cuando visualizo su información, Entonces el sistema debe mostrar solo los datos disponibles y un aviso indicando que el perfil no está completo. | EP01 |
@@ -1415,6 +1445,9 @@ A continuación, se detallan las historias de usuario organizadas por épicas:
 | **TS09** | Simulación de precios y tarifas | Como desarrollador, quiero definir precios variables para las rutas para probar diferentes escenarios de cobro. | **Escenario 1:** Precios definidos correctamente<br>Dado que accedo a la Fake API, Cuando consulto las rutas, Entonces deben aparecer los precios y tarifas correctamente configurados. | EP05 |
 | **TS10** | Simulación de regiones, provincias y distritos | Como desarrollador, quiero simular regiones, provincias y distritos para organizar las zonas de operación de los colectivos | **Escenario 1:** Visualización correcta<br>Dado que accedo a la Fake API, Cuando consulto los endpoints de regiones, provincias y distritos, Entonces deben listarse correctamente según la relación establecida. | EP05 |
 | **TS11** | Simulación de paraderos y localidades | Como desarrollador, quiero definir paraderos y localidades para representar puntos de embarque y desembarque | **Escenario 1:** Paraderos visibles<br>Dado que accedo a la Fake API, Cuando consulto el endpoint de paraderos, Entonces deben mostrarse correctamente con su localidad correspondiente. | EP05 |
+| **SPK01** | Investigación de API de Mapas y Geolocalización | Como desarrollador, necesito investigar la viabilidad de integrar Google Maps o Mapbox para la visualización de paraderos y seguimiento en tiempo real. | **Escenario 1:** Selección de API<br>Dado que se compararon costos y funciones de Google Maps y Mapbox, Cuando se elija la más eficiente, Entonces se debe documentar la decisión técnica.<br>**Escenario 2:** Prototipo de Marcadores<br>Dado que se tiene la API configurada, Cuando se carguen más de 20 paraderos simulados, Entonces el mapa debe renderizarlos sin pérdida de rendimiento. | EP01 |
+| **SPK02** | Diseño de arquitectura de datos geográfica | Como desarrollador, necesito investigar cómo estructurar las relaciones de Región, Provincia y Distrito en la Fake API para permitir filtros rápidos. | **Escenario 1:** Validación de Filtros Anidados<br>Dado que se usa JSON Server, Cuando se realice una consulta filtrando por tres niveles (Región > Provincia > Distrito), Entonces el sistema debe retornar los resultados exactos en menos de 200ms.<br>**Escenario 2:** Definición de Esquema<br>Dado que se compararon estructuras planas vs anidadas, Cuando se elija una, Entonces debe quedar documentado el modelo de datos en el db.json. | EP05 |
+| **SPK03** | Investigación de Persistencia y Seguridad de Sesión | Como desarrollador, necesito validar cómo manejar la persistencia de las colecciones de rutas vinculadas a un usuario específico en un entorno simulado. | **Escenario 1:** Simulación de Auth<br>Dado que el usuario inicia sesión, Cuando guarde una ruta en su colección, Entonces el sistema debe asegurar que esa ruta solo sea visible para su ID de usuario.<br>**Escenario 2:** Persistencia tras Logout<br>Dado que se cierra la sesión, Cuando se vuelve a ingresar, Entonces las colecciones creadas previamente deben seguir disponibles y vinculadas al perfil. | EP04 |
 
 ### 2.4.2. Impact Mapping
 
@@ -4582,7 +4615,100 @@ El presente Sprint Backlog 1 detalla las historias de usuario priorizadas para e
 
 #### 4.2.1.3. Development Evidence for Sprint Review
 
-> *(Sección pendiente de desarrollo)*
+## Development Evidence for Sprint Review
+
+Durante este sprint se avanzó en la implementación de los tres productos principales de la solución WayPass: el backend (Web Services), la aplicación móvil Android y la Landing Page. Los esfuerzos se concentraron en la integración de pagos con PayPal, la mejora del sistema IAM, la actualización de rutas y paradas para conductores, y el refinamiento visual de la interfaz móvil mediante el diseño system WayPassTheme.
+
+---
+
+### Web Services — Backend
+
+En este sprint se implementaron los bounded contexts de suscripción y pagos, se integró PayPal, se configuró el despliegue en Railway mediante Docker, y se consolidó la capa de persistencia con EF Core, repositorios base y autenticación IAM con hashing.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| thepima/Backend | feature/subscription | 2cebab5 | feat(subscription): implement subscription bounded context integration |  | 13/05/2026 |
+| AngeloC12/Backend | feature/payment | 735d263 | Update appsettings.json |  | 13/05/2026 |
+| Adrian-QC/Backend | feature/payment | 0a43705 | feat(payment): add PayPal subscription integration |  | 12/05/2026 |
+| Néstor-Velarde-Gonzales/Backend | main | 6570510 | feat: Configurations |  | 12/05/2026 |
+| Néstor-Velarde-Gonzales/Backend | main | 5b03fe8 | Agregado Dockerfile y config de Railway |  | 12/05/2026 |
+| Néstor-Velarde-Gonzales/Backend | main | bf4a744 | feat: deploy and update database |  | 12/05/2026 |
+| Néstor-Velarde-Gonzales/Backend | main | 538f1fa | feat: Update database |  | 12/05/2026 |
+| Néstor-Velarde-Gonzales/Backend | main | 65b2278 | feat: Update description |  | 12/05/2026 |
+| Néstor-Velarde-Gonzales/Backend | develop | 7552429 | feat: Update Bound context Routes |  | 10/05/2026 |
+| AngeloC12/Backend | develop | fd1f990 | Add GoogleMapsUrl property to StopInRoutesResource |  | 08/05/2026 |
+| AngeloC12/Backend | develop | 1293d41 | Update StopInRoutesResource to use GoogleMapsUrl |  | 08/05/2026 |
+| Néstor-Velarde-Gonzales/Backend | develop | 309c258 | feat: dev VS |  | 05/05/2026 |
+| Néstor-Velarde-Gonzales/Backend | develop | bf5d706 | feat: Document |  | 15/04/2026 |
+| Néstor-Velarde-Gonzales/Backend | develop | 5f4cbc6 | feat(database): add DbSet properties to AppDbContext for all entities |  | 14/04/2026 |
+| Néstor-Velarde-Gonzales/Backend | develop | b396d4a | feat(iam): IAM, ACLs, and hash authentication were implemented for user security. |  | 09/04/2026 |
+| Néstor-Velarde-Gonzales/Backend | develop | d15ffdd | feat(iam): implement infrastructure layer and persistence |  | 09/04/2026 |
+| Néstor-Velarde-Gonzales/Backend | develop | 2e29152 | feat(iam): implement application layer and use cases |  | 09/04/2026 |
+| Néstor-Velarde-Gonzales/Backend | develop | bd67ddf | feat(iam): implement core domain model for IAM bounded context |  | 09/04/2026 |
+| Néstor-Velarde-Gonzales/Backend | develop | a518387 | feat(iam): implement User aggregate and primary constructor |  | 09/04/2026 |
+| Néstor-Velarde-Gonzales/Backend | develop | d00df9d | feat(shared): finalize core infrastructure and persistence layer |  | 09/04/2026 |
+| Néstor-Velarde-Gonzales/Backend | develop | 2818439 | feat(persistence): implement base repository and unit of work |  | 09/04/2026 |
+| Néstor-Velarde-Gonzales/Backend | develop | 7c2f9f3 | feat(persistence): implement AppDbContext and EF Core configuration |  | 09/04/2026 |
+| Néstor-Velarde-Gonzales/Backend | develop | c00542d | feat(shared): implement base repository and unit of work patterns |  | 09/04/2026 |
+| Néstor-Velarde-Gonzales/Backend | develop | 2d54cb2 | chore: install backend dependencies and configure Swagger |  | 09/04/2026 |
+
+---
+
+### Mobile Application — Android
+
+En este sprint se desarrollaron las funcionalidades del conductor (rutas, paradas, mapa con coordenadas de Google Maps), el flujo de pago con PayPal, la gestión de perfil, y se aplicó el rediseño visual completo de la app mediante el sistema de diseño WayPassTheme con tipografía Poppins y paleta Material 3.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| AngeloC12/Android | main | 68a38a8 | feat: added image logo |  | 13/05/2026 |
+| AngeloC12/Android | main | 9069fda | refactor: clean and organize code |  | 13/05/2026 |
+| AngeloC12/Android | main | a0226ba | update profile driver |  | 13/05/2026 |
+| AngeloC12/Android | main | 080b0b7 | feat: update home driver |  | 13/05/2026 |
+| AngeloC12/Android | main | f9d0d58 | update |  | 13/05/2026 |
+| AngeloC12/Android | main | b00a770 | Merge branch 'feature/payment' |  | 13/05/2026 |
+| Adrian-QC/Android | feature/payment | ae7e0b1 | feat(payment): add PayPal subscription flow |  | 12/05/2026 |
+| Yaku-Guzman/Android | ux-ui | ed2d9e0 | feat(driver-routes): update DriverRouteMapScreen.kt and DriverDashboardScreen.kt | - Refactored `DriverRouteMapScreen.kt` with a new UI layout, including a floating back button, status badges for route calculation, and a bottom information card. |  |
+| /Android |  |  |  |  |  |
+| Yaku-Guzman/Android | ux-ui | e709024 | feat(ux-ui): update theme to WayPassTheme and add compose text dependency |  | 12/05/2026 |
+| Yaku-Guzman/Android | ux-ui | 2f56997 | feat(ux-ui): update passenger home screen colors to use MaterialTheme color scheme |  | 12/05/2026 |
+| Yaku-Guzman/Android | ux-ui | cc61526 | refactor(ux-ui): register screen with enhanced UI and Material 3 components. | - Redesigned the registration layout with a gradient background and a scrollable card container. |  |
+| /Android |  | - Updat |  |  |  |
+| /Android |  | - Added |  |  |  |
+| /Android |  | - Repla |  |  |  |
+| /Android |  | - Impro |  |  |  |
+| /Android |  | - Refin |  |  |  |
+| /Android |  |  |  |  |  |
+| Yaku-Guzman/Android | ux-ui | 3574570 | refactor(ux-ui): redesigned and enhanced login UI in HomeScreen.kt |  | 12/05/2026 |
+| Yaku-Guzman/Android | ux-ui | 8e9fa32 | feat(ux-ui): update driver screens to use MaterialTheme colors and improve dashboard UI |  | 12/05/2026 |
+| Yaku-Guzman/Android | ux-ui | c825129 | feat(ux-ui): update stops screen layout and form with bottom sheet and new styling |  | 12/05/2026 |
+| Yaku-Guzman/Android | ux-ui | b3e793c | feat(ux-ui): updated driver route management with bottom sheet and improved UI components |  | 12/05/2026 |
+| Yaku-Guzman/Android | ux-ui | 5bc6db5 | feat(ux-ui): added poppins fonts and compose ui-text dependency |  | 12/05/2026 |
+| Yaku-Guzman/Android | ux-ui | e441fe1 | feat(ux-ui): add WayPass design system theme with Poppins typography and color palette |  | 12/05/2026 |
+| AngeloC12/Android | angelo | 5a53f0c | added coords with google maps and update driver stops |  | 10/05/2026 |
+| AngeloC12/Android | angelo | 0b5404e | update stops |  | 10/05/2026 |
+| AngeloC12/Android | angelo | d195ae2 | update routes, stops, services |  | 10/05/2026 |
+| AngeloC12/Android | angelo | 401728c | Update DriverRouteMapScreen.kt |  | 09/05/2026 |
+| AngeloC12/Android | angelo | edcc699 | update maps, stops screen |  | 08/05/2026 |
+| AngeloC12/Android | angelo | e11fbf5 | feat: added card of confirmation deleted |  | 08/05/2026 |
+| AngeloC12/Android | angelo | a4c332e | feat: update profile |  | 08/05/2026 |
+| AngeloC12/Android | angelo | 3a42203 | featr: update route screen |  | 08/05/2026 |
+| AngeloC12/Android | angelo | 2bdaf4b | feat: update driver dashboard, stops navigation |  | 08/05/2026 |
+| AngeloC12/Android | angelo | e612aa5 | feat: update driver navigation (routes and stops) |  | 08/05/2026 |
+| AngeloC12/Android | angelo | 5c23751 | conductor features |  | 06/05/2026 |
+| AngeloC12/Android | angelo | 938c2b8 | Initial commit |  | 30/03/2026 |
+
+---
+
+### Landing Page
+
+En este sprint se desarrolló e implementó la landing page oficial del producto, incluyendo la descripción del proyecto, las tecnologías empleadas y los segmentos objetivo. Adicionalmente se actualizó el README con el enlace y formato correctos.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| Néstor-Velarde-Gonzales/landing-page | main | c3ee3f9 | Update landing page link in README |  | 06/05/2026 |
+| Néstor-Velarde-Gonzales/landing-page | main | 07da427 | Improve landing page link formatting in README | Updated the link to the official landing page with improved formatting. | 06/05/2026 |
+| Néstor-Velarde-Gonzales/landing-page | main | 5a62530 | Initialize README with project details | Added project overview, technologies used, and target segments. | 06/05/2026 |
+| Néstor-Velarde-Gonzales/landing-page | main | 079192e | feat: Develop landing page |  | 06/05/2026 |
 
 #### 4.2.1.4. Testing Suite Evidence for Sprint Review
 
@@ -4648,7 +4774,62 @@ La base de datos del proyecto Viacore fue diseñada utilizando MySQL como sistem
 
 <img width="1163" height="771" alt="Image" src="https://github.com/user-attachments/assets/cc468e8c-0741-44c7-9b3e-fad2f2b3f93a" />
 
-## Android Movil
+## Android Móvil
+
+La aplicación móvil de Viacore fue desarrollada en Android y representa el componente principal de interacción del sistema, orientada tanto a conductores como a pasajeros del servicio de transporte colectivo. Durante este Sprint se implementaron y refinaron todas las pantallas core de la aplicación, logrando una interfaz moderna que aplica patrones de diseño móvil actuales.
+
+**Alcance entregado (Sprint 1)**
+
+- Implementación completa de los flujos de autenticación (login y registro con selección de tipo de usuario).
+- Dashboard personalizado con resumen general de rutas y paraderos.
+- Gestión completa de Rutas: listado, creación, edición y eliminación.
+- Gestión completa de Paraderos: listado, creación con subida de foto, edición y eliminación.
+- Visualización de rutas en mapa interactivo con panel de información inferior.
+- Pantalla de perfil de usuario.
+- Programación de horarios por ruta.
+
+**Pantallas implementadas**
+
+| Pantalla | Descripción |
+|---|---|
+| **Login** | Autenticación con degradado de fondo, campo de contraseña con ícono de visibilidad. |
+| **Register** | Registro con tarjetas seleccionables para tipo de usuario (Pasajero / Conductor). |
+| **Dashboard** | Panel principal con avatar de usuario y tarjetas de resumen con borde acentuado. |
+| **Stops** | Lista de paraderos con Floating Action Button para creación. |
+| **Create / Edit Stop** | Formulario en Bottom Sheet con secciones "Información Básica" y "Ubicación", incluyendo área para foto. |
+| **Delete Stop** | Modal de confirmación con botones apilados verticalmente para reducir errores. |
+| **Routes** | Lista de rutas con información organizada en tres columnas (Duración, Frecuencia, Tarifa) y horarios colapsables. |
+| **Create / Edit Route** | Formulario con diseño de línea de tiempo para origen/destino y campos numéricos agrupados. |
+| **Delete Route** | Modal de confirmación con mismo patrón de botones apilados. |
+| **Schedule Routes** | Gestión de horarios semanales por ruta. |
+| **Map Route** | Mapa interactivo con Bottom Sheet inferior para detalles de paraderos, duración y distancia. |
+| **Profile** | Pantalla de perfil del usuario autenticado. |
+
+**Video de Aplicación Móvil:** https://shorturl.at/6yGvj
+<img width="720" alt="executionevidenceappmobilesprint1" src="https://github.com/user-attachments/assets/6c4783e7-2675-486f-91c3-aee990296b90" />
+
+---
+
+A continuación, las capturas de las pantallas principales de la versión entregada:
+
+<img width="180" alt="login" src="https://github.com/user-attachments/assets/f18f6029-260a-4b2f-b526-1c03321cc155" />
+<img width="180" alt="register" src="https://github.com/user-attachments/assets/4ef470d6-14c1-458f-b640-f4229517a29f" />
+<img width="180" alt="dashboard" src="https://github.com/user-attachments/assets/175c0f27-7791-4494-97c2-f6bb8103de2d" />
+<img width="180" alt="stops" src="https://github.com/user-attachments/assets/1aa35704-62ef-4066-9c56-965d4a4d0d3e" />
+<img width="180" alt="createStop1" src="https://github.com/user-attachments/assets/eb90309e-52f5-4584-b3cc-cf71ea1dec8d" />
+<img width="180" alt="crateStop2" src="https://github.com/user-attachments/assets/f5232f9d-a8b5-4664-8a0e-b330d970cb2e" />
+<img width="180" alt="editStop1" src="https://github.com/user-attachments/assets/4d60353c-563e-4d71-a17c-6c18c477242f" />
+<img width="180" alt="editStop2" src="https://github.com/user-attachments/assets/a146e9ea-7c05-4b67-8a60-0f3e14008ceb" />
+<img width="180" alt="deleteStop" src="https://github.com/user-attachments/assets/3e235072-abd3-4325-8a08-1158f4f99d0c" />
+<img width="180" alt="routes" src="https://github.com/user-attachments/assets/76141d77-d414-47a0-9090-5ec1f7e6366e" />
+<img width="180" alt="createRoute1" src="https://github.com/user-attachments/assets/b57387f0-d06d-4a5d-9d1b-4d1ba85bc85b" />
+<img width="180" alt="createRoute2" src="https://github.com/user-attachments/assets/d755ad85-1654-4052-a24f-50d99c5d7562" />
+<img width="180" alt="deleteRoute" src="https://github.com/user-attachments/assets/b83217c2-ad87-4cd0-8f9f-59aefcd24cdb" />
+<img width="180" alt="scheduleRoutes" src="https://github.com/user-attachments/assets/4d15b6dc-5825-45c4-b9cf-f1d688d61738" />
+<img width="180" alt="mapRoute" src="https://github.com/user-attachments/assets/a986961e-122f-4bcf-b721-f4d2043182b8" />
+<img width="180" alt="editRoute1" src="https://github.com/user-attachments/assets/21f6ffba-916b-4523-9e3e-806dc8c38bce" />
+<img width="180" alt="editRoute2" src="https://github.com/user-attachments/assets/661e4532-b1d9-424a-ad62-075f089da523" />
+<img width="180" alt="profile" src="https://github.com/user-attachments/assets/8002c17c-e82b-48b2-89a6-fe6e23e56948" />
 
 #### 4.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -4736,11 +4917,43 @@ En esta sección del informe se presentan los principales endpoints desarrollado
 
 #### 4.2.1.7. Software Deployment Evidence for Sprint Review
 
+**Landing Page:**
+
 La Landing Page del proyecto Viacore fue desplegada utilizando GitHub Pages, permitiendo publicar la aplicación web de manera gratuita y accesible desde internet.
 
 [Ver Landing Page](https://grupo-apps-moviles.github.io/landing-page/)
 
 <img width="1248" height="778" alt="Image" src="https://github.com/user-attachments/assets/96f2908a-bb0e-4d82-9942-1371cf535e9e" />
+
+---
+
+**Aplicación Móvil Android**
+
+Para el despliegue e integración de servicios en la aplicación móvil Android, se utilizó **Firebase** como plataforma cloud. A continuación se describen los pasos realizados durante la configuración:
+
+**Paso 1 — Creación del proyecto en Firebase**
+Se accedió a la consola de Firebase y se creó un nuevo proyecto denominado "ViacoreApp", el cual servirá como contenedor de todos los servicios cloud que utilizará la aplicación.
+<img width="720" alt="crearProyectoFirebase" src="https://github.com/user-attachments/assets/0f9dc6ac-153a-41be-8045-c9e272271ffb" />
+
+**Paso 2 — Confirmación del proyecto creado**
+Una vez completado el proceso de creación, Firebase mostró la pantalla de confirmación indicando que el proyecto "ViacoreApp" fue creado exitosamente.
+<img width="720" alt="proyectoCreadoFireBase" src="https://github.com/user-attachments/assets/3e80c811-712a-4df9-ac67-82d31f639142" />
+
+**Paso 3 — Registro de la aplicación Android**
+Se registró la aplicación Android en el proyecto Firebase usando el paquete es.upc.waypass. Como parte de este paso, se descargó el archivo de configuración google-services.json y se ubicó dentro del directorio raíz del módulo de la app
+<img width="720" alt="agregarFirebaseParaAppAndroid" src="https://github.com/user-attachments/assets/52e2000f-d3f5-4bc0-86df-821d74fb34b5" />
+
+**Paso 4 — Configuración del SDK de Firebase**
+Se revisó e implementó la guía de configuración del SDK de Firebase, añadiendo el complemento Gradle de los servicios de Google (com.google.gms.google-services) mediante el DSL de Kotlin en los archivos build.gradle.kts tanto a nivel de proyecto como a nivel de aplicación.
+<img width="720" alt="agregarElSDK" src="https://github.com/user-attachments/assets/745f42ee-6432-487c-bed2-84c2ac45fdd2" />
+
+**Paso 5 — Finalización de la integración**
+Se completó el proceso de configuración de Firebase en la app Android, confirmando la integración exitosa mediante la pantalla de "Próximos pasos" de la consola, que indica que Firebase ha sido añadido correctamente al proyecto.
+<img width="720" alt="firebaseAgregadoAppAndroid" src="https://github.com/user-attachments/assets/3b026667-ce4d-41d2-9412-04add0d3e136" />
+
+**Paso 6 — Implementación de dependencias en el proyecto**
+Finalmente, se añadieron las dependencias necesarias en el archivo de configuración del proyecto bajo la sección de despliegue Firebase, incluyendo el Firebase BoM en su versión 34.13.0 y la librería de Firebase Analytics (com.google.firebase:firebase-analytics).
+<img width="720" alt="agregarImplementationDeployAlCodigoProyecto" src="https://github.com/user-attachments/assets/7cdf41a9-03ad-4592-851b-b292f7c37698" />
 
 #### 4.2.1.8. Team Collaboration Insights during Sprint
 
@@ -4945,11 +5158,17 @@ Basado en el análisis del proyecto y los hallazgos durante el avance, se sugier
 
 # Video App Validation
 
-> *(Sección pendiente de desarrollo)*
+|  Entrevistas | [https://goo.su/T9xml](https://goo.su/T9xml) |
+|-----------|-----------|
 
 # Video About the product
 
-> *(Sección pendiente de desarrollo)*
+El presente video presenta de forma promocional la propuesta de valor de nuestro producto WayPass, una plataforma móvil diseñada para digitalizar y visibilizar el servicio de transporte colectivo interurbano informal en el Perú. El video resume el modelo de negocio y las características principales de la aplicación para conductores, mostrando escenas reales de interacción con el producto.
+
+**Video About the Product:** 
+- https://shorturl.at/Wj2JC
+- https://youtu.be/QvCi0Bi8GNM
+<img width="720" alt="image" src="https://github.com/user-attachments/assets/d6e3d1bc-5e30-4eb3-b94c-65707e57da4a" />
 
 # Video About the team
 
@@ -5024,6 +5243,10 @@ Basado en el análisis del proyecto y los hallazgos durante el avance, se sugier
     <tr>
       <td><strong>Trello</strong></td>
       <td><a href="https://trello.com/invite/b/69ff3d5f6e22ba5114de07be/ATTIe3bce47f3f25411bc433b9188fad27e7C2103B04/movil" target="_blank">Ver Sprint Backlog</a></td>
+    </tr>
+    <tr>
+        <td><strong>About the product<strong></td>
+        <td><a href="https://shorturl.at/Wj2JC" target="_blank">Ver Video About the Product</td>
     </tr>
   </tbody>
 </table>
