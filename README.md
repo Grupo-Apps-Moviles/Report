@@ -1437,6 +1437,9 @@ A continuación, se detallan las historias de usuario organizadas por épicas:
 | **TS09** | Simulación de precios y tarifas | Como desarrollador, quiero definir precios variables para las rutas para probar diferentes escenarios de cobro. | **Escenario 1:** Precios definidos correctamente<br>Dado que accedo a la Fake API, Cuando consulto las rutas, Entonces deben aparecer los precios y tarifas correctamente configurados. | EP05 |
 | **TS10** | Simulación de regiones, provincias y distritos | Como desarrollador, quiero simular regiones, provincias y distritos para organizar las zonas de operación de los colectivos | **Escenario 1:** Visualización correcta<br>Dado que accedo a la Fake API, Cuando consulto los endpoints de regiones, provincias y distritos, Entonces deben listarse correctamente según la relación establecida. | EP05 |
 | **TS11** | Simulación de paraderos y localidades | Como desarrollador, quiero definir paraderos y localidades para representar puntos de embarque y desembarque | **Escenario 1:** Paraderos visibles<br>Dado que accedo a la Fake API, Cuando consulto el endpoint de paraderos, Entonces deben mostrarse correctamente con su localidad correspondiente. | EP05 |
+| **SPK01** | Investigación de API de Mapas y Geolocalización | Como desarrollador, necesito investigar la viabilidad de integrar Google Maps o Mapbox para la visualización de paraderos y seguimiento en tiempo real. | **Escenario 1:** Selección de API<br>Dado que se compararon costos y funciones de Google Maps y Mapbox, Cuando se elija la más eficiente, Entonces se debe documentar la decisión técnica.<br>**Escenario 2:** Prototipo de Marcadores<br>Dado que se tiene la API configurada, Cuando se carguen más de 20 paraderos simulados, Entonces el mapa debe renderizarlos sin pérdida de rendimiento. | EP01 |
+| **SPK02** | Diseño de arquitectura de datos geográfica | Como desarrollador, necesito investigar cómo estructurar las relaciones de Región, Provincia y Distrito en la Fake API para permitir filtros rápidos. | **Escenario 1:** Validación de Filtros Anidados<br>Dado que se usa JSON Server, Cuando se realice una consulta filtrando por tres niveles (Región > Provincia > Distrito), Entonces el sistema debe retornar los resultados exactos en menos de 200ms.<br>**Escenario 2:** Definición de Esquema<br>Dado que se compararon estructuras planas vs anidadas, Cuando se elija una, Entonces debe quedar documentado el modelo de datos en el db.json. | EP05 |
+| **SPK03** | Investigación de Persistencia y Seguridad de Sesión | Como desarrollador, necesito validar cómo manejar la persistencia de las colecciones de rutas vinculadas a un usuario específico en un entorno simulado. | **Escenario 1:** Simulación de Auth<br>Dado que el usuario inicia sesión, Cuando guarde una ruta en su colección, Entonces el sistema debe asegurar que esa ruta solo sea visible para su ID de usuario.<br>**Escenario 2:** Persistencia tras Logout<br>Dado que se cierra la sesión, Cuando se vuelve a ingresar, Entonces las colecciones creadas previamente deben seguir disponibles y vinculadas al perfil. | EP04 |
 
 ### 2.4.2. Impact Mapping
 
@@ -5144,7 +5147,8 @@ Basado en el análisis del proyecto y los hallazgos durante el avance, se sugier
 
 # Video App Validation
 
-> *(Sección pendiente de desarrollo)*
+|  Entrevistas | [https://goo.su/T9xml](https://goo.su/T9xml) |
+|-----------|-----------|
 
 # Video About the product
 
