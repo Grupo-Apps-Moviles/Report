@@ -47,7 +47,7 @@
   <br/><br/>
 
 <div align="center">
-  <strong>Lima, 12 de Mayo del 2026</strong><br/>
+  <strong>Lima, 14 de Mayo del 2026</strong><br/>
 </div>
 
 <div style="page-break-after: always;"></div>
@@ -498,6 +498,8 @@ en equipo.</td>
     </tbody>
 </table>
 
+<div style="page-break-after: always;"></div>
+
 ## 1.2. Solution Profile
 
 Nuestro producto **WayPass** es una aplicación móvil desarrollada por el equipo de **Viacore** que organiza y moderniza el transporte colectivo informal a través de información clara sobre rutas, paraderos y horarios que conecta ciudades y distritos brindando mayor accesibilidad y eficiencia para usuarios y conductores.
@@ -582,6 +584,8 @@ Figura 1. Lean UX Canvas.
 <img width="1231" height="811" alt="Image" src="https://github.com/user-attachments/assets/d9a3bfa7-3b48-4cc4-af58-b6186c6a6069" />
 
 Fuente: Elaboración propia en la plataforma Miro. Disponible en: https://miro.com/app/board/uXjVHeXxRtw=/?share_link_id=413104933358
+
+<div style="page-break-after: always;"></div>
 
 ## 1.3. Segmentos objetivo
 
@@ -1295,6 +1299,8 @@ El siguiente Big Picture EventStorming representa el flujo end-to-end de nuestra
 Figura 10. Big Picture EventStorming
 
 <img width="794" height="1259" alt="Image" src="https://github.com/user-attachments/assets/57edff33-c74a-46f8-9591-861c4aabb174" />
+
+<div style="page-break-after: always;"></div>
 
 ## 2.3.6. Ubiquitous Language
  
