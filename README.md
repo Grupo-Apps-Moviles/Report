@@ -147,8 +147,6 @@ El equipo utilizó GitHub como plataforma de colaboración para el control de ve
 - [Student Outcome](#student-outcome)
   - [ABET - EAC - Student Outcome 7](#abet---eac---student-outcome-7)
 - [Objetivos SMART](#objetivos-smart)
-  - [Objetivo General](#objetivo-general)
-    - [Objetivos Específicos](#objetivos-específicos)
 - [Capítulo I: Presentación](#capítulo-i-presentación)
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
@@ -186,8 +184,14 @@ El equipo utilizó GitHub como plataforma de colaboración para el control de ve
     - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
     - [2.3.5. Big Picture EventStorming](#235-big-picture-eventstorming)
-    - [2.3.6. Ubiquitous Language](#236-ubiquitous-language)
-      - [GLOSARIO](#glosario)
+  - [2.3.6. Ubiquitous Language](#236-ubiquitous-language)
+    - [Actores del dominio](#actores-del-dominio)
+    - [Glosario por Bounded Context](#glosario-por-bounded-context)
+      - [IAM — Identidad y Acceso](#iam--identidad-y-acceso)
+      - [Stops — Paraderos](#stops--paraderos)
+      - [Routes — Rutas](#routes--rutas)
+      - [Profile — Perfil de usuario](#profile--perfil-de-usuario)
+    - [Términos prohibidos y equivalencias](#términos-prohibidos-y-equivalencias)
   - [2.4. Requirements specification](#24-requirements-specification)
     - [2.4.1. User Stories](#241-user-stories)
     - [2.4.2. Impact Mapping](#242-impact-mapping)
@@ -334,14 +338,18 @@ El equipo utilizó GitHub como plataforma de colaboración para el control de ve
       - [4.2.1.2. Sprint Backlog 1](#4212-sprint-backlog-1)
       - [Sprint Backlog 1](#sprint-backlog-1)
       - [4.2.1.3. Development Evidence for Sprint Review](#4213-development-evidence-for-sprint-review)
+  - [Development Evidence for Sprint Review](#development-evidence-for-sprint-review)
+    - [Web Services — Backend](#web-services--backend)
+    - [Mobile Application — Android](#mobile-application--android)
+    - [Landing Page](#landing-page)
       - [4.2.1.4. Testing Suite Evidence for Sprint Review](#4214-testing-suite-evidence-for-sprint-review)
       - [Testing Suite Evidence for Sprint Review](#testing-suite-evidence-for-sprint-review)
       - [4.2.1.5. Execution Evidence for Sprint Review](#4215-execution-evidence-for-sprint-review)
-  - [Landing Page](#landing-page)
+  - [Landing Page](#landing-page-1)
   - [Backend (.net C#)](#backend-net-c)
   - [Base de datos (MySql)](#base-de-datos-mysql)
 - [Tablas Principales](#tablas-principales)
-  - [Android Movil](#android-movil)
+  - [Android Móvil](#android-móvil)
       - [4.2.1.6. Services Documentation Evidence for Sprint Review](#4216-services-documentation-evidence-for-sprint-review)
   - [Authentication Services](#authentication-services)
   - [Users \& Profiles Services](#users--profiles-services)
@@ -355,7 +363,6 @@ El equipo utilizó GitHub como plataforma de colaboración para el control de ve
   - [4.3. Validation Interviews](#43-validation-interviews)
     - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
     - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
-  - [Entrevista #1](#entrevista-1)
     - [4.3.3. Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas)
 - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
   - [Conclusiones](#conclusiones)
@@ -371,7 +378,7 @@ El equipo utilizó GitHub como plataforma de colaboración para el control de ve
 - [Video App Validation](#video-app-validation)
 - [Video About the product](#video-about-the-product)
 - [Video About the team](#video-about-the-team)
-- [Glosario](#glosario-1)
+- [Glosario](#glosario)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
   - [Recursos del Proyecto - Viacore](#recursos-del-proyecto---viacore)
@@ -403,8 +410,8 @@ por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET
 A continuación se presentan los objetivos SMART, relacionados con el desarrollo profesional de forma individual de cada integrante del equipo cuando acaben su carrera.
 
 **Velarde Gonzales, Néstor Hernán**
-- Objetivo 1: 
-- Objetivo 2:
+- Objetivo 1: En posteriores a mi graduación, consolidaré mi perfil profesional como arquitecto de software, participando en el desarrollo de Backend y Frontend. Además me insertaré en tecnologías emergentes como la blockchain y inteligencia artificial, obteniendo al menos una participación en startup reconocidos del Perú.
+- Objetivo 2: En los primeros 12 meses posteriores de ser egresado, obtendré una posición profesional como desarrollador backend, fortaleciendo mis conocimientos en arquitecturas RESTful, .NET y bases de datos en la nube, además de desplegar al menos 3 proyectos funcionales en producción relacionados aplicaciones web o movil.
 
 **Curi Marcelo, Angelo Marcio**
 - Objetivo 1:  En los primeros 18 meses posteriores a mi graduación, obtendré una posición profesional como desarrollador frontend o analista junior de ciberseguridad, fortaleciendo mis conocimientos en desarrollo web, seguridad informática y gestión de vulnerabilidades, además de desarrollar y publicar proyectos técnicos en GitHub que evidencien mis habilidades prácticas.
