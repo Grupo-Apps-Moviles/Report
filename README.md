@@ -1289,66 +1289,73 @@ Figura 10. Big Picture EventStorming
 
 <img width="794" height="1259" alt="Image" src="https://github.com/user-attachments/assets/57edff33-c74a-46f8-9591-861c4aabb174" />
 
-### 2.3.6. Ubiquitous Language
-
-El lenguaje ubicuo es una parte fundamental de la estrategia de UX. Se refiere al conjunto de términos y frases que, aunque no pertenecen al contexto técnico del desarrollo, se utilizan para expresar la lógica del negocio. Esto permite que todos los involucrados en el proyecto, incluidos los usuarios finales, puedan entender y participar mejor en el desarrollo del producto.
-
-#### GLOSARIO
-
-<table>
-  <thead>
-    <tr style="background-color: #2c3e50; color: white;">
-      <th style="padding: 10px; border: 1px solid #ddd;">Término</th>
-      <th style="padding: 10px; border: 1px solid #ddd;">Definición</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Colectivo</strong></td>
-      <td style="padding: 10px; border: 1px solid #ddd;">Automóvil que opera en rutas fijas entre pueblos o distritos, transportando varios pasajeros a la vez.</td>
-    </tr>
-    <tr style="background-color: #f9f9f9;">
-      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Whereabouts (Paradero)</strong></td>
-      <td style="padding: 10px; border: 1px solid #ddd;">Punto habitual donde los colectivos recogen o dejan pasajeros. Geolocalizado en la plataforma.</td>
-    </tr>
-    <tr>
-      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Route (Ruta)</strong></td>
-      <td style="padding: 10px; border: 1px solid #ddd;">Trayecto fijo que sigue un colectivo, desde un punto de partida hasta un destino.</td>
-    </tr>
-    <tr style="background-color: #f9f9f9;">
-      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Route request</strong></td>
-      <td style="padding: 10px; border: 1px solid #ddd;">Acción del usuario para solicitar información sobre una ruta específica.</td>
-    </tr>
-    <tr>
-      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Verified driver</strong></td>
-      <td style="padding: 10px; border: 1px solid #ddd;">Conductor registrado con identidad y datos del vehículo verificados.</td>
-    </tr>
-    <tr style="background-color: #f9f9f9;">
-      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Driver´s profile</strong></td>
-      <td style="padding: 10px; border: 1px solid #ddd;">Información pública (foto, calificación, comentarios) para generar confianza.</td>
-    </tr>
-    <tr>
-      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Availability</strong></td>
-      <td style="padding: 10px; border: 1px solid #ddd;">Estado activo del conductor indicando cupos disponibles en ruta.</td>
-    </tr>
-    <tr style="background-color: #f9f9f9;">
-      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Viaje (Ride)</strong></td>
-      <td style="padding: 10px; border: 1px solid #ddd;">Servicio individual de abordaje que puede monitorearse en tiempo real.</td>
-    </tr>
-    <tr>
-      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Fare (Tarifa)</strong></td>
-      <td style="padding: 10px; border: 1px solid #ddd;">Costo estimado basado en distancia y ruta; sirve como referencia.</td>
-    </tr>
-    <tr style="background-color: #f9f9f9;">
-      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Monitoring</strong></td>
-      <td style="padding: 10px; border: 1px solid #ddd;">Supervisión de rutas y tiempos estimados de llegada.</td>
-    </tr>
-    <tr>
-      <td style="padding: 10px; border: 1px solid #ddd;"><strong>Coverage areas</strong></td>
-      <td style="padding: 10px; border: 1px solid #ddd;">Zonas geográficas donde opera el servicio y se planean expansiones.</td>
-    </tr>
-  </tbody>
-</table>
+## 2.3.6. Ubiquitous Language
+ 
+El Lenguaje Ubicuo es uno de los pilares del Domain-Driven Design (DDD). Su propósito es establecer un vocabulario compartido, preciso y no ambiguo entre los desarrolladores, diseñadores y expertos del negocio, de modo que todos los involucrados en el proyecto —técnicos y no técnicos— utilicen exactamente los mismos términos al referirse a los conceptos del dominio.
+ 
+En **WayPass**, el dominio principal es el transporte colectivo informal interurbano en el Perú. Los términos definidos a continuación deben reflejarse de forma consistente en el código fuente, los modelos de datos, las User Stories, las pruebas y las conversaciones del equipo. Cualquier discrepancia entre el lenguaje del negocio y el lenguaje del código es una señal de deuda técnica.
+ 
+### Actores del dominio
+ 
+| Actor | Descripción |
+|---|---|
+| **Pasajero** | Usuario registrado que busca colectivos, consulta rutas y paraderos para planificar su desplazamiento. |
+| **Conductor** | Operador informal registrado en la plataforma que publica su ruta, disponibilidad y datos de vehículo para captar pasajeros. |
+ 
+### Glosario por Bounded Context
+ 
+#### IAM — Identidad y Acceso
+ 
+| Término | Definición en el dominio |
+|---|---|
+| **Usuario** | Entidad registrada en el sistema con credenciales únicas (correo + contraseña). Puede tener el rol de Pasajero o Conductor. |
+| **Credencial** | Par de correo electrónico y contraseña protegida con hash (BCrypt) que autentica al Usuario. |
+| **Token de sesión (JWT)** | Token firmado emitido tras una autenticación exitosa. Valida la identidad del Usuario en cada solicitud a la API. |
+| **Registro** | Proceso de creación de una nueva cuenta de Usuario en la plataforma. |
+| **Autenticación** | Proceso mediante el cual el Usuario provee sus credenciales y el sistema verifica su identidad. |
+| **Perfil del conductor** | Información pública asociada al Conductor: foto, calificación promedio, comentarios de pasajeros y datos del vehículo. Sirve para generar confianza. |
+ 
+#### Stops — Paraderos
+ 
+| Término | Definición en el dominio |
+|---|---|
+| **Paradero** | Punto geográfico físico donde los colectivos recogen o dejan pasajeros. Cada paradero tiene un nombre reconocible y coordenadas GPS. |
+| **Coordenadas** | Par de valores (latitud, longitud) que ubican con precisión un paradero en el mapa. |
+| **Paradero de origen** | Primer paradero de una ruta; punto de partida del trayecto. |
+| **Paradero de destino** | Último paradero de una ruta; punto final del trayecto. |
+| **Geolocalización** | Capacidad del sistema para calcular y mostrar los paraderos más cercanos a la posición actual del Pasajero. |
+| **Área de cobertura** | Zona geográfica dentro de la cual opera el servicio de WayPass. |
+ 
+#### Routes — Rutas
+ 
+| Término | Definición en el dominio |
+|---|---|
+| **Colectivo** | Automóvil (sedán, minivan, station wagon) que opera en rutas fijas entre pueblos o distritos, transportando varios pasajeros a la vez. |
+| **Ruta** | Trayecto fijo que sigue un colectivo desde un paradero de origen hasta uno de destino, pasando por una secuencia de paraderos intermedios. |
+| **Secuencia de paraderos** | Orden definido de paraderos que conforman una ruta. El orden es significativo y no puede alterarse sin modificar la ruta. |
+| **Disponibilidad** | Estado activo publicado por el Conductor que indica cupos libres en su colectivo para una ruta en curso. |
+| **Tarifa** | Costo estimado del trayecto basado en la distancia y la ruta. Sirve como referencia para el pasajero. |
+| **Solicitud de ruta** | Acción del Pasajero para consultar las rutas disponibles entre dos puntos o paraderos. |
+| **Monitoreo** | Supervisión en tiempo real de la posición del colectivo y el tiempo estimado de llegada a un paradero. |
+ 
+#### Profile — Perfil de usuario
+ 
+| Término | Definición en el dominio |
+|---|---|
+| **Viaje** | Registro de un servicio individual de transporte realizado entre un pasajero y un conductor en una ruta determinada. |
+| **Calificación** | Puntuación que el Pasajero asigna al Conductor tras completar un viaje. Contribuye al perfil público del Conductor. |
+| **Comentario** | Reseña textual dejada por el Pasajero sobre su experiencia con el Conductor. |
+ 
+### Términos prohibidos y equivalencias
+ 
+Para evitar ambigüedades, el equipo acuerda no usar los siguientes alias en el código, la documentación ni las conversaciones:
+ 
+| Término prohibido | Término correcto | Razón |
+|---|---|---|
+| Cliente | Pasajero | "Cliente" es ambiguo con cliente HTTP o cliente de negocio. |
+| Chofer | Conductor | "Chofer" es coloquial; el dominio usa "Conductor". |
+| Parada / Paradero de bus | Paradero | El sistema es agnóstico al tipo de vehículo. |
+| Recorrido / Itinerario | Ruta | Usar siempre "Ruta" para mantener trazabilidad en el código. |
 
 ## 2.4. Requirements specification
 
