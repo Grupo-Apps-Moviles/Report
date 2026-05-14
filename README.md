@@ -426,8 +426,8 @@ A continuación se presentan los objetivos SMART, relacionados con el desarrollo
 - Objetivo 2:
 
 **Carranza Tesén, Joaquín Enrique**
-- Objetivo 1: 
-- Objetivo 2:
+- Objetivo 1: En los años posteriores a mi graduación, consolidaré mi perfil profesional como arquitecto de soluciones con enfoque en ciberseguridad, liderando el diseño de sistemas robustos que prioricen la integridad y privacidad de los datos. Además, me especializaré en el análisis avanzado de datos para la toma de decisiones estratégicas, logrando implementar arquitecturas escalables en proyectos de alto impacto que mejoren la eficiencia operativa en empresas del sector tecnológico.
+- Objetivo 2: En los primeros 12 meses posteriores a mi egreso, obtendré una posición profesional como analista o desarrollador de software, fortaleciendo mis conocimientos en gestión de bases de datos y protocolos de seguridad informática. Durante este periodo, aplicaré mi capacidad de pensamiento crítico para optimizar procesos existentes, logrando desplegar al menos 3 soluciones funcionales que demuestren una mejora medible en la velocidad y seguridad del manejo de información.
 
 <div style="page-break-after: always;"></div>
 
