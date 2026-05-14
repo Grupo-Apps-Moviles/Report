@@ -407,8 +407,8 @@ A continuación se presentan los objetivos SMART, relacionados con el desarrollo
 - Objetivo 2:
 
 **Curi Marcelo, Angelo Marcio**
-- Objetivo 1: 
-- Objetivo 2:
+- Objetivo 1:  En los primeros 18 meses posteriores a mi graduación, obtendré una posición profesional como desarrollador frontend o analista junior de ciberseguridad, fortaleciendo mis conocimientos en desarrollo web, seguridad informática y gestión de vulnerabilidades, además de desarrollar y publicar proyectos técnicos en GitHub que evidencien mis habilidades prácticas.
+- Objetivo 2: En un plazo máximo de 3 años posteriores a mi graduación, consolidaré mi perfil profesional en el área de desarrollo de software o ciberseguridad, participando en proyectos tecnológicos reales, obteniendo certificaciones relacionadas con seguridad o tecnologías web modernas, y asumiendo mayores responsabilidades técnicas dentro de un equipo de trabajo.
   
 **Yaku Mateo Guzmán Cabrejos**
 - Objetivo 1: En los 12 meses posteriores a mi graduación, obtendré mi primera posición profesional como desarrollador de software o especialista en ciberseguridad en una empresa del sector financiero, energético o tecnológico en Lima, habiendo completado al menos dos certificaciones internacionales reconocidas (Google IT Support Professional Certificate y una certificación en seguridad como CompTIA Security+ o equivalente), y publicado en LinkedIn un mínimo de 3 proyectos técnicos documentados en GitHub que demuestren mi experiencia con arquitecturas DDD, REST APIs y herramientas de seguridad aplicada.
