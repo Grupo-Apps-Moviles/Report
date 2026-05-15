@@ -1554,7 +1554,7 @@ Como segundo paso, identificamos los comandos que disparan o llevan a acabo el e
 
 Figura 13. Identificación de comandos de WayPass
 
-<img width="852" height="785" alt="Image" src="https://github.com/user-attachments/assets/21b92dc6-c193-40c4-adf7-354608281189" />
+<img width="1411" height="1106" alt="Image" src="https://github.com/user-attachments/assets/58c63398-ab6c-48b6-9ca0-8bec5cc63e7b" />
 
 Como tercer paso, identificamos los agentes que realizan o usan el comando. Estos se representan mediante un post-it de color amarillo.
 
