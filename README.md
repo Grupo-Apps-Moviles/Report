@@ -1125,7 +1125,7 @@ El análisis de las entrevistas a Jhudith, Jean Pierre y Mateo revela tres punto
 
 Figura 2. Problemas Principales (Pasajeros)
 
-<img width="1653" height="993" alt="Image" src="https://github.com/user-attachments/assets/163c8f02-7114-4f30-afa3-c7fdec59dfc0" />
+<img width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/163c8f02-7114-4f30-afa3-c7fdec59dfc0" />
 
 
 #### Segmento Conductores: Eficiencia Operativa y Seguridad
@@ -1139,7 +1139,7 @@ Las entrevistas a Angel, Fabian, Roberto y Emmanuel muestran una realidad dividi
 
 Figura 3. Percepción de la APP (Conductores)
 
-<img width="1653" height="993" alt="Image" src="https://github.com/user-attachments/assets/4e08e7b3-a62c-472e-938e-59a0f06f1150" />
+<img width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/4e08e7b3-a62c-472e-938e-59a0f06f1150" />
 
 
 #### Conclusiones del Análisis 
@@ -1148,7 +1148,7 @@ Como se observa en la distribución demográfica de nuestras entrevistas, existe
 
 Figura 4. Demografía de Entrevistados
 
-<img width="1653" height="993" alt="Image" src="https://github.com/user-attachments/assets/5268f477-4f21-4666-aba2-fd4b18acf88a" />
+<img width="850" height="500" alt="Image" alt="Image" src="https://github.com/user-attachments/assets/5268f477-4f21-4666-aba2-fd4b18acf88a" />
 
 - Validación de la Solución: Ambos segmentos coinciden en que la digitalización de los paraderos y rutas informales reduciría el estrés y mejoraría la eficiencia económica (conductores llenan más rápido, pasajeros esperan menos).
 
@@ -3127,7 +3127,7 @@ Se utiliza la familia tipográfica Inter (o una Sans-Serif de corte moderno). Su
 
 - Gris Suave / Bordes (#D1D5DB): Utilizado en los bordes de los campos de entrada (inputs) y líneas divisorias.
 
-<img width="2592" height="1662" alt="paleta de colores" src="https://github.com/user-attachments/assets/f83c5be5-9f0d-4d8d-9233-9b58c496a434" />
+<img width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/f83c5be5-9f0d-4d8d-9233-9b58c496a434" />
 
 
 **Buttons:**
@@ -3142,7 +3142,7 @@ Se utiliza la familia tipográfica Inter (o una Sans-Serif de corte moderno). Su
 <img width="412" height="916" alt="image" src="https://github.com/user-attachments/assets/22f930f3-7cc5-4bb4-9c8d-ff803ac9bd33" />
 
 
-<img width="1408" height="768" alt="3 1 1 1 buttons" src="https://github.com/user-attachments/assets/6ce05f64-a0c2-428f-b307-1415e359fe88" />
+<img width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/6ce05f64-a0c2-428f-b307-1415e359fe88" />
 
 
 ### 3.1.2. Information Architecture
