@@ -4777,7 +4777,7 @@ La base de datos del proyecto Viacore fue diseñada utilizando MySQL como sistem
 | **provinces** | Contiene las provincias asociadas a cada región. | Pertenece a **regions** y se relaciona con **districts**. |
 | **districts** | Guarda los distritos registrados en el sistema. | Pertenece a **provinces** y se relaciona con **stops**. |
 
-<img width="1163" height="771" alt="Image" src="https://github.com/user-attachments/assets/cc468e8c-0741-44c7-9b3e-fad2f2b3f93a" />
+<img width="1163" height="771" alt="Image" src="https://github.com/user-attachments/assets/7d3e33d7-5f31-4e81-9fa3-b3ea906d60a1" />
 
 ## Android Móvil
 
