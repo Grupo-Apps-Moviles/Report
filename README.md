@@ -1720,7 +1720,7 @@ El siguiente diagrama de contenedores representa los principales componentes del
 
 Figura 28. Diagrama de Contenedores - WayPass
 
-<img  width="1022" height="902" alt="Image" src="https://github.com/user-attachments/assets/57a95646-c383-4a43-ace9-26348d91bc7f" />
+<img width="6152" height="3299" alt="Image" src="https://github.com/user-attachments/assets/2202a09d-068a-460c-9cd1-ba06a44b7045" />
 
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
