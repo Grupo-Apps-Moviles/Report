@@ -1728,11 +1728,7 @@ El siguiente diagrama de despliegue describe la infraestructura física y lógic
 
 Figura 29. Diagrama de despliegue - WayPass
 
-<img 
-  src="https://github.com/user-attachments/assets/c05f6c09-1531-43dd-ba46-84ef52bc4585" 
-  alt="Image"
-  style="max-width: 100%; height: auto; display: block;" 
-/>
+<img width="3480" height="2738" alt="Image" src="https://github.com/user-attachments/assets/e52bfe34-45f9-47b2-94fb-eabaab317815" />
 
 ## 2.6. Tactical-Level Domain-Driven Design
 
