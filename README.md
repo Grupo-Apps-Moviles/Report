@@ -121,9 +121,9 @@ A continuación, se presentan los principales colaboradores del proyecto:
 | Quiroz Cáceres, Adrian | U202214864 | @Aqc1019 |
 | Carranza Tesén, Joaquín Enrique | U20191B935 | @thepima |
 
-El equipo utilizó GitHub como plataforma de colaboración para el control de versiones, integración de cambios, seguimiento de avances y trabajo colaborativo durante el Sprint.
+El equipo utilizó GitHub como plataforma de colaboración para el control de versiones, integración de cambios, seguimiento de avances y trabajo colaborativo durante el Sprint 01 - Trabajo Parcial.
 
-<img width="853" height="913" alt="image" src="https://github.com/user-attachments/assets/7476d21a-85fe-48f8-a91c-14927d75ed9b" />
+<img width="906" height="695" alt="Image" src="https://github.com/user-attachments/assets/553f2a55-d450-416e-8d4e-e482bd93ea84" />
 
 <div style="page-break-after: always;"></div>
 
@@ -1711,7 +1711,7 @@ En este diagrama de contexto se aprecia cómo el sistema centraliza la comunicac
 
 Figura 27. Diagrama de Contexto de WayPass
 
-<img width="3400" height="2000" alt="Image" src="https://github.com/user-attachments/assets/dbf510e0-f463-4190-8c9a-61b61b617483" />
+<img width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/dbf510e0-f463-4190-8c9a-61b61b617483" />
 
 #### 2.5.3.2. Software Architecture Container Level Diagrams
 
@@ -1719,7 +1719,7 @@ El siguiente diagrama de contenedores representa los principales componentes del
 
 Figura 28. Diagrama de Contenedores - WayPass
 
-<img width="6152" height="3299" alt="Image" src="https://github.com/user-attachments/assets/2202a09d-068a-460c-9cd1-ba06a44b7045" />
+<img width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/2202a09d-068a-460c-9cd1-ba06a44b7045" />
 
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
@@ -1727,7 +1727,7 @@ El siguiente diagrama de despliegue describe la infraestructura física y lógic
 
 Figura 29. Diagrama de despliegue - WayPass
 
-<img width="3480" height="2738" alt="Image" src="https://github.com/user-attachments/assets/e52bfe34-45f9-47b2-94fb-eabaab317815" />
+<img width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/e52bfe34-45f9-47b2-94fb-eabaab317815" />
 
 ## 2.6. Tactical-Level Domain-Driven Design
 
@@ -3113,7 +3113,7 @@ Se utiliza la familia tipográfica Inter (o una Sans-Serif de corte moderno). Su
 
 - Inter Regular: Para textos de formularios y descripciones detalladas.
 
-<img width="1408" height="768" alt="3 1 1 1 styles" src="https://github.com/user-attachments/assets/b806dc93-57cb-4fa3-88d8-601eac508618" />
+<img width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/b806dc93-57cb-4fa3-88d8-601eac508618" />
 
 **Paleta de Colores (Extraída de las capturas):**
 
