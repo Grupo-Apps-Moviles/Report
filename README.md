@@ -1548,7 +1548,7 @@ En primer lugar, debemos identificar los eventos y trazarlos mediante una linea 
 
 Figura 12. Identificación de eventos de WayPass
 
-<img width="543" height="747" alt="Image" src="https://github.com/user-attachments/assets/310a9fa1-422a-4d54-982c-9eb148bf58b1" />
+<img width="1220" height="1280" alt="Image" src="https://github.com/user-attachments/assets/22ddf260-a354-438e-b437-ab4705eda54d" />
 
 Como segundo paso, identificamos los comandos que disparan o llevan a acabo el evento. Identificamos a estos con un post-it de color azul.
 
