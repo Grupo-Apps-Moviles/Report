@@ -1568,7 +1568,7 @@ Bounded Context.
 
 Figura 15. Identificación de relación entre eventos y agentes de WayPass
 
-<img width="710" height="636" alt="Image" src="https://github.com/user-attachments/assets/9698eea9-c110-462c-ac4a-48adb8c62986" />
+<img width="1150" height="1357" alt="Image" src="https://github.com/user-attachments/assets/2cecb2a3-f33d-4ed7-80ce-8de2cce29c78" />
 
 Fuente: Elaboración propia en la plataforma Miro. Encontrado en: https://miro.com/app/board/uXjVHe62Coc=/?share_link_id=80941229308
 
@@ -1712,7 +1712,7 @@ En este diagrama de contexto se aprecia cómo el sistema centraliza la comunicac
 
 Figura 27. Diagrama de Contexto de WayPass
 
-<img  width="1022" height="902" alt="Image" src="https://github.com/user-attachments/assets/e79cb8fe-220e-4982-9bb1-02b63dc2d0db" />
+<img width="3400" height="2000" alt="Image" src="https://github.com/user-attachments/assets/dbf510e0-f463-4190-8c9a-61b61b617483" />
 
 #### 2.5.3.2. Software Architecture Container Level Diagrams
 
