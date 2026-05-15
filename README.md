@@ -4591,22 +4591,23 @@ docs(README): update index instructions.
 
 #### 4.2.1.1. Sprint Planning 1
 
-Establecer las bases del sistema WayPass mediante la definición de requisitos, diseño UX/UI y desarrollo inicial del backend y la app móvil.
+En esta sección se presenta el Sprint Planning Meeting correspondiente al primer sprint del proyecto WayPass, en el cual el equipo definió el objetivo, las historias de usuario a abordar y la velocidad acordada para esta iteración.
 
-**Alcance del Sprint**
-- Levantamiento de requisitos  
-- Diseño de wireframes y mockups  
-- Implementación inicial del backend  
-- Desarrollo preliminar de la app móvil
-
-**Distribución de responsabilidades**
-
-| Área        | Responsable(s) | Actividades |
-|------------|---------------|------------|
-| Backend     | Velarde Gonzales, Néstor Hernán | - Arquitectura de la API <br> - Endpoints iniciales <br> - Configuración |
-| Requisitos  | Curi Marcelo, Angelo Marcio | - Requisitos e historias de usuario <br> - Análisis del problema |
-| UX/UI       | Guzmán Cabrejos, Yaku Mateo | - Wireframes <br> - Mockups <br> - Flujo y diseño |
-| App móvil   | Quiroz Cáceres, Adrian <br> Carranza Tesén, Joaquín Enrique | - Estructura base <br> - Pantallas iniciales <br> - Integración UI |
+| | |
+|---|---|
+| **Sprint #** | Sprint 1 |
+| **Sprint Planning Background** | |
+| Date | 2026-05-04 |
+| Time | 07:00 PM |
+| Location | Reunión virtual mediante Discord |
+| Prepared By | Guzmán Cabrejos, Yaku Mateo |
+| Attendees (to planning meeting) | Velarde Gonzales, Néstor Hernán / Curi Marcelo, Angelo Marcio / Guzmán Cabrejos, Yaku Mateo / Quiroz Cáceres, Adrian / Carranza Tesén, Joaquín Enrique |
+| **Sprint 0 Review Summary** | Al ser el primer sprint, no existe un sprint anterior. Durante la etapa preparatoria se completaron el análisis de requisitos, el diseño de User Personas, las entrevistas con usuarios y el modelado de la arquitectura del sistema bajo enfoque DDD. |
+| **Sprint 0 Retrospective Summary** | El equipo identificó como acierto la distribución clara de responsabilidades desde la fase de diseño. Como oportunidad de mejora se señaló la necesidad de establecer convenciones de código compartidas antes de iniciar el desarrollo. |
+| **Sprint Goal & User Stories** | |
+| Sprint 1 Goal | Our focus is on establishing the foundational backend architecture and initial UI navigation for WayPass. We believe it delivers a stable development environment and clear visual structure to the development team and early testers. This will be confirmed when the initial REST endpoints are active and the base mobile app screens are integrated and successfully navigated. |
+| Sprint 1 Velocity | 90 |
+| Sum of Story Points | 80 |
 
 #### 4.2.1.2. Sprint Backlog 1
 
