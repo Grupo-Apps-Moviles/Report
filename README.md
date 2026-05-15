@@ -123,8 +123,7 @@ A continuación, se presentan los principales colaboradores del proyecto:
 
 El equipo utilizó GitHub como plataforma de colaboración para el control de versiones, integración de cambios, seguimiento de avances y trabajo colaborativo durante el Sprint.
 
-
-<img width="1020" height="778" alt="Image" src="https://github.com/user-attachments/assets/0985b48a-b0ce-4c3e-ade3-ea80cebc58de" />
+<img width="853" height="913" alt="image" src="https://github.com/user-attachments/assets/7476d21a-85fe-48f8-a91c-14927d75ed9b" />
 
 <div style="page-break-after: always;"></div>
 
@@ -4975,8 +4974,18 @@ A continuación, se presentan los principales colaboradores del proyecto:
 
 El equipo utilizó GitHub como plataforma de colaboración para el control de versiones, integración de cambios, seguimiento de avances y trabajo colaborativo durante el Sprint.
 
+**Landing page:**
 
-<img width="1020" height="778" alt="Image" src="https://github.com/user-attachments/assets/0985b48a-b0ce-4c3e-ade3-ea80cebc58de" />
+<img width="910" height="598" alt="image" src="https://github.com/user-attachments/assets/293c678d-a4f3-483d-b471-3650bb5a1b2a" />
+
+**Web Service:**
+
+<img width="908" height="601" alt="image" src="https://github.com/user-attachments/assets/4bf58cfb-94b5-48ae-9eed-bd42cae354b5" />
+
+
+**App Mobile:**
+
+<img width="918" height="833" alt="image" src="https://github.com/user-attachments/assets/829e995e-7cb9-4646-835b-d81d083e40fc" />
 
 ## 4.3. Validation Interviews
 En este punto se hiso una validación con los segmentos objetivos sobre nuestro producto de primera fase. 
