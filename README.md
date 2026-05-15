@@ -1711,7 +1711,8 @@ En este diagrama de contexto se aprecia cómo el sistema centraliza la comunicac
 
 Figura 27. Diagrama de Contexto de WayPass
 
-<img  width="1022" height="902" alt="Image" src="https://github.com/user-attachments/assets/e79cb8fe-220e-4982-9bb1-02b63dc2d0db" />
+<img width="1920" height="997" alt="image" src="https://github.com/user-attachments/assets/e81ea583-792c-4494-a874-f3c61c926540" />
+
 
 #### 2.5.3.2. Software Architecture Container Level Diagrams
 
@@ -1719,7 +1720,8 @@ El siguiente diagrama de contenedores representa los principales componentes del
 
 Figura 28. Diagrama de Contenedores - WayPass
 
-<img  width="1022" height="902" alt="Image" src="https://github.com/user-attachments/assets/57a95646-c383-4a43-ace9-26348d91bc7f" />
+<img width="1709" height="1078" alt="image" src="https://github.com/user-attachments/assets/94dbb885-bc9d-41bb-adbc-ee251d92274a" />
+
 
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
