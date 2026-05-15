@@ -1548,19 +1548,19 @@ En primer lugar, debemos identificar los eventos y trazarlos mediante una linea 
 
 Figura 12. Identificación de eventos de WayPass
 
-<img width="543" height="747" alt="Image" src="https://github.com/user-attachments/assets/310a9fa1-422a-4d54-982c-9eb148bf58b1" />
+<img width="1220" height="1280" alt="Image" src="https://github.com/user-attachments/assets/22ddf260-a354-438e-b437-ab4705eda54d" />
 
 Como segundo paso, identificamos los comandos que disparan o llevan a acabo el evento. Identificamos a estos con un post-it de color azul.
 
 Figura 13. Identificación de comandos de WayPass
 
-<img width="852" height="785" alt="Image" src="https://github.com/user-attachments/assets/21b92dc6-c193-40c4-adf7-354608281189" />
+<img width="1411" height="1106" alt="Image" src="https://github.com/user-attachments/assets/58c63398-ab6c-48b6-9ca0-8bec5cc63e7b" />
 
 Como tercer paso, identificamos los agentes que realizan o usan el comando. Estos se representan mediante un post-it de color amarillo.
 
 Figura 14. Identificación de agentes  de WayPass
 
-<img width="830" height="712" alt="Image" src="https://github.com/user-attachments/assets/0b4ac2ab-b40d-4a88-a073-2118ec6cb028" />
+<img width="1244" height="1255" alt="Image" src="https://github.com/user-attachments/assets/613e0cf6-1921-4068-a97f-751177e442b3" />
 
 
 Como último paso, identificamos los eventos que se relacionen entre sí mediante los agregados y entidades que utilizan, agrupandolos por
@@ -1568,7 +1568,7 @@ Bounded Context.
 
 Figura 15. Identificación de relación entre eventos y agentes de WayPass
 
-<img width="710" height="636" alt="Image" src="https://github.com/user-attachments/assets/9698eea9-c110-462c-ac4a-48adb8c62986" />
+<img width="1150" height="1357" alt="Image" src="https://github.com/user-attachments/assets/2cecb2a3-f33d-4ed7-80ce-8de2cce29c78" />
 
 Fuente: Elaboración propia en la plataforma Miro. Encontrado en: https://miro.com/app/board/uXjVHe62Coc=/?share_link_id=80941229308
 
@@ -1712,7 +1712,7 @@ En este diagrama de contexto se aprecia cómo el sistema centraliza la comunicac
 
 Figura 27. Diagrama de Contexto de WayPass
 
-<img  width="1022" height="902" alt="Image" src="https://github.com/user-attachments/assets/e79cb8fe-220e-4982-9bb1-02b63dc2d0db" />
+<img width="3400" height="2000" alt="Image" src="https://github.com/user-attachments/assets/dbf510e0-f463-4190-8c9a-61b61b617483" />
 
 #### 2.5.3.2. Software Architecture Container Level Diagrams
 
@@ -1720,7 +1720,7 @@ El siguiente diagrama de contenedores representa los principales componentes del
 
 Figura 28. Diagrama de Contenedores - WayPass
 
-<img  width="1022" height="902" alt="Image" src="https://github.com/user-attachments/assets/57a95646-c383-4a43-ace9-26348d91bc7f" />
+<img width="6152" height="3299" alt="Image" src="https://github.com/user-attachments/assets/2202a09d-068a-460c-9cd1-ba06a44b7045" />
 
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
@@ -1728,11 +1728,7 @@ El siguiente diagrama de despliegue describe la infraestructura física y lógic
 
 Figura 29. Diagrama de despliegue - WayPass
 
-<img 
-  src="https://github.com/user-attachments/assets/c05f6c09-1531-43dd-ba46-84ef52bc4585" 
-  alt="Image"
-  style="max-width: 100%; height: auto; display: block;" 
-/>
+<img width="3480" height="2738" alt="Image" src="https://github.com/user-attachments/assets/e52bfe34-45f9-47b2-94fb-eabaab317815" />
 
 ## 2.6. Tactical-Level Domain-Driven Design
 
