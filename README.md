@@ -1560,7 +1560,7 @@ Como tercer paso, identificamos los agentes que realizan o usan el comando. Esto
 
 Figura 14. Identificación de agentes  de WayPass
 
-<img width="830" height="712" alt="Image" src="https://github.com/user-attachments/assets/0b4ac2ab-b40d-4a88-a073-2118ec6cb028" />
+<img width="1244" height="1255" alt="Image" src="https://github.com/user-attachments/assets/613e0cf6-1921-4068-a97f-751177e442b3" />
 
 
 Como último paso, identificamos los eventos que se relacionen entre sí mediante los agregados y entidades que utilizan, agrupandolos por
