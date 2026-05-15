@@ -4569,11 +4569,8 @@ docs(README): update index instructions.
 ### 4.1.4. Software Deployment Configuration
 
 <h4>Landing Page - GitHub Pages</h4>
-
 <p>El Landing Page se despliega mediante GitHub Pages directamente desde el repositorio, aprovechando el hosting gratuito para sitios estáticos.</p>
-
 <p><strong>Pasos de configuración:</strong></p>
-
 <ol>
   <li>Acceder al repositorio <code>landing-page</code> en GitHub.</li>
   <li>Navegar a <strong>Settings &gt; Pages</strong> en el menú lateral.</li>
@@ -4581,8 +4578,66 @@ docs(README): update index instructions.
   <li>Hacer clic en <strong>Save</strong> y esperar la generación del sitio (1-2 minutos).</li>
   <li>Verificar el despliegue accediendo a la URL generada.</li>
 </ol>
+<p><strong>URL de despliegue: </strong> <a href="https://grupo-apps-moviles.github.io/landing-page/">https://grupo-apps-moviles.github.io/landing-page/</a></p>
 
-<p><strong>URL de despliegue:</strong> <a href=" "> </a></p>
+<h4>Backend - Render (ASP.NET Core / C#)</h4>
+<p>El Backend desarrollado en ASP.NET Core se despliega mediante <strong>Render</strong>, una plataforma cloud que soporta aplicaciones .NET a través de contenedores Docker.</p>
+<p><strong>Pasos de configuración:</strong></p>
+<ol>
+  <li>Asegurarse de que el repositorio <code>Backend</code> en GitHub contenga un archivo <code>Dockerfile</code> en la raíz del proyecto. Ejemplo mínimo:
+    <pre><code>FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
+WORKDIR /app
+EXPOSE 8080
+
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+WORKDIR /src
+COPY . .
+RUN dotnet publish -c Release -o /app/publish
+
+FROM base AS final
+WORKDIR /app
+COPY --from=build /app/publish .
+ENTRYPOINT ["dotnet", "WayPass.dll"]</code></pre>
+  </li>
+  <li>Ingresar a <a href="https://render.com">render.com</a> e iniciar sesión con la cuenta del equipo.</li>
+  <li>Hacer clic en <strong>New &gt; Web Service</strong>.</li>
+  <li>Conectar la cuenta de GitHub y seleccionar el repositorio <code>Grupo-Apps-Moviles/Backend</code>.</li>
+  <li>Configurar el servicio:
+    <ul>
+      <li><strong>Name:</strong> <code>WayPass</code></li>
+      <li><strong>Environment:</strong> <code>Docker</code></li>
+      <li><strong>Branch:</strong> <code>main</code></li>
+      <li><strong>Instance Type:</strong> Free </li>
+    </ul>
+  </li>
+  <li>En la sección <strong>Environment Variables</strong>, agregar las variables necesarias (cadena de conexión a BD, JWT secret, etc.).</li>
+  <li>Hacer clic en <strong>Create Web Service</strong> y esperar el build inicial (3-5 minutos).</li>
+  <li>Verificar el despliegue accediendo a la URL generada por Render.</li>
+</ol>
+<p><strong>URL de despliegue: </strong> <a href="https://backendmoviles-hqu5.onrender.com/index.html">https://backendmoviles-hqu5.onrender.com/index.html</a></p>
+
+<h4>Mobile Application - Android (APK Release)</h4>
+<p>La aplicación Android se distribuye mediante la generación del APK firmado desde Android Studio, con el código fuente alojado en el repositorio <code>Android</code>.</p>
+<p><strong>Pasos de configuración:</strong></p>
+<ol>
+  <li>Acceder al repositorio <code>Grupo-Apps-Moviles/Android</code> en GitHub.</li>
+  <li>Abrir el proyecto en <strong>Android Studio</strong>.</li>
+  <li>Actualizar la URL base del backend en el archivo de configuración (p. ej. <code>Constants.kt</code> o <code>local.properties</code>):
+    <pre><code>BASE_URL=https://backendmoviles-hqu5.onrender.com/index.html/api/</code></pre>
+  </li>
+  <li>En Android Studio, ir a <strong>Build &gt; Generate Signed Bundle / APK</strong>.</li>
+  <li>Seleccionar <strong>APK</strong>, configurar el keystore del equipo y elegir el build variant <code>release</code>.</li>
+  <li>El APK generado se ubica en <code>app/release/app-release.apk</code>.</li>
+  <li>Subir el APK como <strong>Release Asset</strong> en GitHub:
+    <ul>
+      <li>Ir a <strong>Releases &gt; Draft a new release</strong> en el repositorio.</li>
+      <li>Adjuntar el archivo <code>app-release.apk</code>.</li>
+      <li>Publicar el release con el tag de versión correspondiente (p. ej. <code>v1.0.0</code>).</li>
+    </ul>
+  </li>
+  <li>Verificar la instalación descargando el APK desde la sección Releases del repositorio.</li>
+</ol>
+<p><strong>URL del repositorio Android: </strong> <a href="https://github.com/Grupo-Apps-Moviles/Android">https://github.com/Grupo-Apps-Moviles/Android</a></p>
 
 ## 4.2. Landing Page & Mobile Application Implementation
 
