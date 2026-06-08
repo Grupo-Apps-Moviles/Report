@@ -4656,7 +4656,7 @@ ENTRYPOINT ["dotnet", "WayPass.dll"]</code></pre>
 <p>Las aplicaciones móviles (tanto la versión nativa en Android Studio como la multiplataforma compilada en Flutter) se distribuyen mediante la generación de archivos binarios APK firmados.</p>
 <p><strong>Pasos de configuración para la versión Flutter:</strong></p>
 <ol>
-  <li>Acceder al repositorio <code>Grupo-Apps-Moviles/Flutter-Mobile</code>.</li>
+  <li>Acceder al repositorio <code>Grupo-Apps-Moviles/Flutter</code>.</li>
   <li>Configurar las variables de entorno o la URL base del backend en el archivo Dart correspondiente (p. ej., <code>lib/core/constants.dart</code>):
     <pre><code>const String baseUrl = 'https://backendmoviles-hqu5.onrender.com/api/';</code></pre>
   </li>
