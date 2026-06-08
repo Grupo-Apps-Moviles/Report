@@ -4667,7 +4667,7 @@ ENTRYPOINT ["dotnet", "WayPass.dll"]</code></pre>
   <li>El archivo ejecutable resultante se ubicará en la ruta: <code>build/app/outputs/flutter-apk/app-release.apk</code>.</li>
   <li>Subir el archivo APK como un <strong>Release Asset</strong> dentro de la sección correspondiente en su respectivo repositorio de GitHub asignándole la etiqueta de versión estructurada (p. ej., <code>v1.0.0</code>).</li>
 </ol>
-<p><strong>URL del repositorio Flutter: </strong> <a href="https://github.com/Grupo-Apps-Moviles/Flutter-Mobile">https://github.com/Grupo-Apps-Moviles/Flutter-Mobile</a></p>
+<p><strong>URL del repositorio Flutter: </strong> <a href="https://github.com/Grupo-Apps-Moviles/Flutter">https://github.com/Grupo-Apps-Moviles/Flutter</a></p>
 
 ## 4.2. Landing Page & Mobile Application Implementation
 
