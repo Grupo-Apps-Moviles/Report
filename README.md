@@ -362,6 +362,10 @@ El equipo utilizó GitHub como plataforma de colaboración para el control de ve
     - [4.2.2. Sprint 2](#422-sprint-2)
       - [4.2.2.1. Sprint Planning 2](#4221-sprint-planning-2)
       - [4.2.2.2. Sprint Backlog 2](#4222-sprint-backlog-2)
+      - [4.2.2.3. Development Evidence for Sprint Review](#4223-development-evidence-for-sprint-review)
+        - [Web Services — Backend](#web-services--backend-1)
+        - [Mobile Application — Flutter (Pasajero)](#mobile-application--flutter-pasajero)
+        - [Landing Page](#landing-page-2)
   - [4.3. Validation Interviews](#43-validation-interviews)
     - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
     - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
@@ -5121,6 +5125,42 @@ El presente Sprint Backlog 2 detalla las historias de usuario priorizadas para e
 |  |  | TS13.2 | Verificar Swagger desplegado y conectividad | Validar que `/swagger` responda y los endpoints sean accesibles públicamente | 4 | Curi Marcelo, Angelo Marcio | Done |
 | TS-14 | Pruebas manuales de navegación Flutter | TS14.1 | Validar flujo de auth, perfil y reservas | Recorrer happy path en emulador y dispositivo físico | 5 | Guzmán Cabrejos, Yaku Mateo | Done |
 |  |  | TS14.2 | Validar flujos de filtros y colecciones | Recorrer happy y unhappy paths en emulador | 4 | Carranza Tesén, Joaquín Enrique | Done |
+
+#### 4.2.2.3. Development Evidence for Sprint Review
+
+En esta sección se explica y presenta los avances en implementación con relación a los productos de la solución según el alcance del Sprint 2: la aplicación móvil del segmento Pasajero (Flutter), los Web Services (Backend ASP.NET Core con la incorporación del bounded context de Reservations) y la Landing Page. Durante este Sprint se construyó desde cero la base de la aplicación Flutter aplicando Clean Architecture y separación por features (auth, profile, home, favorite, reservation), se incorporó la inyección de dependencias y el manejo de tokens JWT, se incluyó el flujo completo de registro e inicio de sesión contra el backend y se preparó la navegación principal con bottom navigation enlazada a las páginas core del pasajero. Paralelamente, en el backend se incorporó el nuevo bounded context de Reservations (agregado, controlador REST, mapeo EFC y configuración en `AppDbContext`) y se consolidó la documentación del repositorio. En la Landing Page se incorporó el enlace al video oficial del producto y un ajuste integral de formato.
+
+A continuación se presenta, para cada repositorio que forma parte del alcance del Sprint 2, la tabla de commits asociados a la implementación.
+
+##### Web Services — Backend
+
+En este sprint el backend se enfocó en la habilitación de la funcionalidad de reservas, que conecta a los pasajeros con las rutas operadas por las empresas de transporte. Se implementó el bounded context de Reservations siguiendo DDD: agregado `Reservation`, commands y queries, repositorio, controlador REST y configuración en `AppDbContext`. Se actualizó la documentación del repositorio (README) y se consolidó el despliegue en la plataforma cloud.
+
+<!-- TODO: Reemplazar por la tabla generada con el script `generate_sprint2_commits.sh` (sección Backend). -->
+
+| Repository | Branch | Commit Id | Commit Message | Commit Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| PLACEHOLDER_BACKEND_COMMITS_TABLE | | | | | |
+
+##### Mobile Application — Flutter (Pasajero)
+
+En este sprint se construyó desde cero la aplicación móvil del segmento Pasajero en Flutter, aplicando Clean Architecture con separación por features (`auth`, `profile`, `home`, `favorite`, `reservation`) y subcapas `data`, `domain` y `presentation`. Se implementó el sistema de inyección de dependencias (`injection_container`), el manejo seguro de sesiones con `TokenManager`, los DTOs y el `AuthRepository` para los flujos de registro e inicio de sesión contra el backend, y la `MainPage` con bottom navigation enlazada a las páginas principales. Se incorporó además la pantalla de `Profile` con visualización del usuario autenticado y cierre de sesión.
+
+<!-- TODO: Reemplazar por la tabla generada con el script `generate_sprint2_commits.sh` (sección Flutter). -->
+
+| Repository | Branch | Commit Id | Commit Message | Commit Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| PLACEHOLDER_FLUTTER_COMMITS_TABLE | | | | | |
+
+##### Landing Page
+
+En este sprint se realizaron mejoras incrementales sobre la Landing Page del proyecto, incorporando el enlace al video oficial del producto en la navegación principal y aplicando un ajuste integral de formato al `index.html` para mantener la consistencia visual y la legibilidad del código.
+
+<!-- TODO: Reemplazar por la tabla generada con el script `generate_sprint2_commits.sh` (sección Landing Page). -->
+
+| Repository | Branch | Commit Id | Commit Message | Commit Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| PLACEHOLDER_LANDING_COMMITS_TABLE | | | | | |
 
 ## 4.3. Validation Interviews
 En este punto se hiso una validación con los segmentos objetivos sobre nuestro producto de primera fase. 
