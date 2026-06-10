@@ -366,6 +366,10 @@ El equipo utilizó GitHub como plataforma de colaboración para el control de ve
         - [Web Services — Backend](#web-services--backend-1)
         - [Mobile Application — Flutter (Pasajero)](#mobile-application--flutter-pasajero)
         - [Landing Page](#landing-page-2)
+      - [4.2.2.4. Testing Suite Evidence for Sprint Review](#4224-testing-suite-evidence-for-sprint-review)
+        - [Cobertura de pruebas por User Story](#cobertura-de-pruebas-por-user-story)
+        - [Evidencia de archivos `.feature`](#evidencia-de-archivos-feature)
+        - [Commits del repositorio de pruebas](#commits-del-repositorio-de-pruebas)
   - [4.3. Validation Interviews](#43-validation-interviews)
     - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
     - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
@@ -5161,6 +5165,85 @@ En este sprint se realizaron mejoras incrementales sobre la Landing Page del pro
 | Repository | Branch | Commit Id | Commit Message | Commit Body | Committed on (Date) |
 |---|---|---|---|---|---|
 | PLACEHOLDER_LANDING_COMMITS_TABLE | | | | | |
+
+#### 4.2.2.4. Testing Suite Evidence for Sprint Review
+
+Durante el Sprint 2 se construyó la suite de **pruebas de aceptación automatizadas** del backend de WayPass siguiendo el enfoque **BDD (Behavior-Driven Development)** con **Reqnroll** (sucesor de SpecFlow) sobre **xUnit** y **RestSharp**. La suite vive en un repositorio independiente alineado al proyecto, lo que facilita su mantenimiento sin acoplarla al ciclo de despliegue del API.
+
+Los archivos `.feature` están escritos en **Gherkin** (Given/When/Then) y los Step Definitions implementados en **C#** ejercitan los endpoints REST publicados por el backend. Cada archivo `.feature` está asociado a una o más User Stories del Sprint 2.
+
+**Repositorio:** [https://github.com/Grupo-Apps-Moviles/Backend-AcceptanceTests](https://github.com/Grupo-Apps-Moviles/Backend-AcceptanceTests)
+
+##### Cobertura de pruebas por User Story
+
+| Archivo `.feature` | User Stories cubiertas | Bounded Context backend |
+|---|---|---|
+| `PassengerAuthentication.feature` | US26, US27, US28 | IAM |
+| `PassengerProfile.feature` | US29 | Profile |
+| `RouteSearch.feature` | US41, US42, US43, US44 | Routes |
+| `StopFiltering.feature` | US24 | Stops |
+| `FavoriteCollections.feature` | US45, US46, US47, US48 | Collections |
+| `CollectionRouteManagement.feature` | US49, US50, US51, US52 | Collections |
+| `TripReservation.feature` | US53 | Reservations |
+
+##### Evidencia de archivos `.feature`
+
+**`PassengerAuthentication.feature` — US26 / US27 / US28**
+
+Cubre los flujos de registro de pasajero (sign-up con datos válidos e inválidos), inicio de sesión (credenciales válidas e inválidas) y cierre de sesión, ejercitando los endpoints `POST /api/v1/auth/sign-up` y `POST /api/v1/auth/sign-in` del bounded context IAM.
+
+<!-- TODO: Reemplazar por captura del archivo PassengerAuthentication.feature abierto en Rider -->
+<img width="900" alt="PassengerAuthentication.feature" src="PLACEHOLDER_FEATURE_AUTH" />
+
+**`PassengerProfile.feature` — US29**
+
+Cubre la visualización del perfil del pasajero autenticado y la actualización de sus datos (válidos e inválidos), ejercitando los endpoints `GET /api/v1/users/{userId}/profile` y `PUT /api/v1/profiles/{id}`.
+
+<!-- TODO: Reemplazar por captura del archivo PassengerProfile.feature -->
+<img width="900" alt="PassengerProfile.feature" src="PLACEHOLDER_FEATURE_PROFILE" />
+
+**`RouteSearch.feature` — US41 / US42 / US43 / US44**
+
+Cubre el filtrado de rutas por región, provincia, distrito y ciudad, la estructura de los resultados (origen, destino, tarifa, duración), el detalle completo de una ruta y la consistencia al re-aplicar filtros previos, ejercitando los endpoints `GET /api/v1/routes` y `GET /api/v1/routes/{id}`.
+
+<!-- TODO: Reemplazar por captura del archivo RouteSearch.feature -->
+<img width="900" alt="RouteSearch.feature" src="PLACEHOLDER_FEATURE_ROUTESEARCH" />
+
+**`StopFiltering.feature` — US24**
+
+Cubre el filtrado de paraderos por la jerarquía geográfica completa (región → provincia → distrito → localidad), ejercitando el endpoint `GET /api/v1/stops`.
+
+<!-- TODO: Reemplazar por captura del archivo StopFiltering.feature -->
+<img width="900" alt="StopFiltering.feature" src="PLACEHOLDER_FEATURE_STOPS" />
+
+**`FavoriteCollections.feature` — US45 / US46 / US47 / US48**
+
+Cubre la creación, listado, renombrado y eliminación de colecciones de favoritos del pasajero, ejercitando los endpoints CRUD del bounded context Collections.
+
+<!-- TODO: Reemplazar por captura del archivo FavoriteCollections.feature -->
+<img width="900" alt="FavoriteCollections.feature" src="PLACEHOLDER_FEATURE_COLLECTIONS" />
+
+**`CollectionRouteManagement.feature` — US49 / US50 / US51 / US52**
+
+Cubre la asociación de rutas a colecciones específicas, la selección entre múltiples colecciones, la remoción de rutas y el listado de rutas guardadas dentro de una colección.
+
+<!-- TODO: Reemplazar por captura del archivo CollectionRouteManagement.feature -->
+<img width="900" alt="CollectionRouteManagement.feature" src="PLACEHOLDER_FEATURE_COLLECTION_ROUTES" />
+
+**`TripReservation.feature` — US53**
+
+Cubre la reserva exitosa de un viaje sobre una ruta activa, los flujos de error (ruta inactiva, pasajero no autenticado) y la consulta de reservas del pasajero, ejercitando los endpoints del nuevo bounded context Reservations.
+
+<!-- TODO: Reemplazar por captura del archivo TripReservation.feature -->
+<img width="900" alt="TripReservation.feature" src="PLACEHOLDER_FEATURE_RESERVATION" />
+
+##### Commits del repositorio de pruebas
+
+<!-- TODO: Reemplazar por la tabla generada con el script `generate_sprint2_commits.sh` apuntando al repo Backend-AcceptanceTests. -->
+
+| Repository | Branch | Commit Id | Commit Message | Commit Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| PLACEHOLDER_ACCEPTANCETESTS_COMMITS_TABLE | | | | | |
 
 ## 4.3. Validation Interviews
 En este punto se hiso una validación con los segmentos objetivos sobre nuestro producto de primera fase. 
