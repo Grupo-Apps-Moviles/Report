@@ -360,6 +360,8 @@ El equipo utilizó GitHub como plataforma de colaboración para el control de ve
   - [Stops Services](#stops-services)
       - [4.2.1.7. Software Deployment Evidence for Sprint Review](#4217-software-deployment-evidence-for-sprint-review)
       - [4.2.1.8. Team Collaboration Insights during Sprint](#4218-team-collaboration-insights-during-sprint)
+    - [4.2.2. Sprint 2](#422-sprint-2)
+      - [4.2.2.1. Sprint Planning 2](#4221-sprint-planning-2)
   - [4.3. Validation Interviews](#43-validation-interviews)
     - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
     - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
@@ -4972,6 +4974,30 @@ El equipo utilizó GitHub como plataforma de colaboración para el control de ve
 
 
 <img width="1020" height="778" alt="Image" src="https://github.com/user-attachments/assets/0985b48a-b0ce-4c3e-ade3-ea80cebc58de" />
+
+### 4.2.2. Sprint 2
+
+En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo para el Sprint 2. Incluye como secciones internas: Sprint Planning 2, Sprint Backlog 2, Development Evidence for Sprint Review, Testing Suite Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review y Team Collaboration Insights during Sprint. El alcance de este Sprint se centra en el desarrollo de la aplicación móvil del segmento Pasajero en Flutter y en la incorporación de la capacidad de reservas en la plataforma.
+
+#### 4.2.2.1. Sprint Planning 2
+
+En esta sección se presenta el Sprint Planning Meeting correspondiente al segundo sprint del proyecto WayPass, en el cual el equipo definió el objetivo, las historias de usuario a abordar y la velocidad acordada para esta iteración, enfocada en la aplicación móvil del segmento Pasajero (Flutter) y la habilitación de reservas de viajes.
+
+| | |
+|---|---|
+| **Sprint #** | Sprint 2 |
+| **Sprint Planning Background** | |
+| Date | 2026-05-28 |
+| Time | 09:00 PM |
+| Location | Reunión virtual mediante Discord |
+| Prepared By | Guzmán Cabrejos, Yaku Mateo |
+| Attendees (to planning meeting) | Velarde Gonzales, Néstor Hernán / Curi Marcelo, Angelo Marcio / Guzmán Cabrejos, Yaku Mateo / Quiroz Cáceres, Adrian / Carranza Tesén, Joaquín Enrique |
+| **Sprint 1 Review Summary** | Durante el Sprint 1 se entregó la aplicación móvil del segmento Conductor en Android (Kotlin/Jetpack Compose), con autenticación, dashboard, gestión completa (CRUD) de rutas y paraderos, programación de horarios, visualización en mapa y perfil. En el backend se implementaron los bounded contexts de IAM, Routes, Stops y Subscriptions, junto con la integración de pagos con PayPal, y se desplegó la Landing Page en GitHub Pages. El Product Owner valoró positivamente el avance y la entrega obtuvo una calificación de 19/20 en la AV1. |
+| **Sprint 1 Retrospective Summary** | El equipo identificó como principales aciertos la consolidación de la arquitectura DDD en el backend y la aplicación de un design system unificado (WayPassTheme). Como oportunidades de mejora se señalaron: distribuir de forma más equitativa los commits entre todos los integrantes y mantener una disciplina estricta de GitFlow (creación de ramas `main` y `develop`) en el nuevo repositorio de la aplicación Flutter. |
+| **Sprint Goal & User Stories** | |
+| Sprint 2 Goal | Our focus is on launching the WayPass passenger experience on Flutter and enabling trip reservations across the platform. We believe it delivers self-service onboarding, route discovery, favorite collections and trip reservations to passengers, and reservation-management groundwork to the business. This will be confirmed when passengers can register, log in and manage their profile, filter and explore routes and stops by location, organize routes into favorite collections, and reserve a trip through the reservation endpoints exposed by the backend. |
+| Sprint 2 Velocity | 70 |
+| Sum of Story Points | 64 |
 
 ## 4.3. Validation Interviews
 En este punto se hiso una validación con los segmentos objetivos sobre nuestro producto de primera fase. 
