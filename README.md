@@ -121,10 +121,9 @@ A continuación, se presentan los principales colaboradores del proyecto:
 | Quiroz Cáceres, Adrian | U202214864 | @Aqc1019 |
 | Carranza Tesén, Joaquín Enrique | U20191B935 | @thepima |
 
-El equipo utilizó GitHub como plataforma de colaboración para el control de versiones, integración de cambios, seguimiento de avances y trabajo colaborativo durante el Sprint.
+El equipo utilizó GitHub como plataforma de colaboración para el control de versiones, integración de cambios, seguimiento de avances y trabajo colaborativo durante el Sprint 01 - Trabajo Parcial.
 
-
-<img width="1020" height="778" alt="Image" src="https://github.com/user-attachments/assets/0985b48a-b0ce-4c3e-ade3-ea80cebc58de" />
+<img width="906" height="695" alt="Image" src="https://github.com/user-attachments/assets/553f2a55-d450-416e-8d4e-e482bd93ea84" />
 
 <div style="page-break-after: always;"></div>
 
@@ -400,8 +399,8 @@ por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |---|---|---|
-| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software** | **Joaquín Carranza**  <br><br> **AV1:** Comprendí la importancia de dominar arquitecturas en tiempo real y Geofencing para resolver problemas de informalidad y precisión en el transporte.  <br><br> **TB1:** He actualizado mis conocimientos y competencias profesionales mediante la implementación de un enfoque de ingeniería estratégica en el proyecto: utilicé Spike Stories para investigar incertidumbres y reducir riesgos técnicos de forma anticipada, definí un Bounded Context para el módulo de suscripciones aplicando principios de Domain-Driven Design (DDD) para asegurar una arquitectura limpia, y realicé entrevistas de validación para garantizar que la solución de software responda a necesidades reales del mercado. Esta integración me ha permitido pasar de la simple codificación a la creación de soluciones de software robustas, escalables y alineadas con los objetivos del negocio.  <br><br> **Curi Marcelo, Angelo Marcio**  <br><br> **AV1:** Identificamos la problemática, user personas y user stories mediante entrevistas.  <br><br> **TB1:** Implementé funcionalidades del módulo conductor en Android usando Google Maps y servicios de geolocalización.  <br><br> **Yaku Guzmán**  <br><br> **AV1:** Actualicé conocimientos sobre arquitectura C4 Model, DDD y bounded contexts en ASP.NET Core.  <br><br> **TB1:** Implementé un design system completo con Jetpack Compose y Material 3, aplicando buenas prácticas de UI/UX y refactorización de pantallas.  <br><br> **Quiroz Cáceres, Adrian**  <br><br> **AV1:** Definí problemática, user personas y user stories validadas mediante entrevistas.  <br><br> **TB1:** —  <br><br> **Velarde Gonzales, Néstor Hernán**  <br><br> **AV1:** Participé en entrevistas y validación de requisitos técnicos para soluciones contextualizadas.  <br><br> **TB1:** Desarrollé el backend aplicando DDD, CQRS, SOLID y buenas prácticas de arquitectura de software. | Las entrevistas confirmaron que el transporte local presenta una crisis de información. WayPass busca resolverla digitalizando la función del “datero”, mejorando la experiencia del pasajero y optimizando el llenado de unidades mediante soluciones tecnológicas contextualizadas. |
-| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software** | **Joaquín Carranza**  <br><br> **AV1:** Comprendí la necesidad de aprender continuamente sobre arquitecturas escalables, sincronización en tiempo real y UX móvil.  <br><br> **TB1:** He cumplido con este objetivo al validar que la ingeniería de software es un campo en constante evolución donde la curiosidad técnica y la investigación son fundamentales; por ello, implementé Spike Stories para profundizar en tecnologías desconocidas y mitigar riesgos, apliqué conceptos avanzados de Bounded Contexts para dominar nuevas formas de estructurar el negocio, y realicé entrevistas de validación para entender que el aprendizaje no es solo técnico, sino también entender el entorno del usuario. Este proceso me ha permitido reconocer que mantener mis conocimientos actualizados es la única vía para construir soluciones de software que sean verdaderamente eficientes, modernas y capaces de adaptarse a los cambios reales del mercado.  <br><br> **Curi Marcelo, Angelo Marcio**  <br><br> **AV1:** Identificamos requerimientos técnicos y servicios externos para el desarrollo de la aplicación.  <br><br> **TB1:** Fortalecí conocimientos en desarrollo móvil, APIs y geolocalización mediante la implementación de funcionalidades Android.  <br><br> **Yaku Guzmán**  <br><br> **AV1:** Reconocí la importancia de evolucionar constantemente en herramientas de documentación y arquitectura.  <br><br> **TB1:** Comprendí que Material 3 y Jetpack Compose requieren actualización continua y aplicación constante de buenas prácticas.  <br><br> **Quiroz Cáceres, Adrian**  <br><br> **AV1:** Establecí requerimientos principales y bounded contexts necesarios para el sistema.  <br><br> **TB1:** —  <br><br> **Velarde Gonzales, Néstor Hernán**  <br><br> **AV1:** Comprendí que las decisiones técnicas deben alinearse con las necesidades reales de los usuarios.  <br><br> **TB1:** Participé activamente en mejoras continuas considerando user stories, requisitos funcionales y retroalimentación de stakeholders en cada Sprint. | El desarrollo de software exige aprendizaje permanente para adaptar soluciones tecnológicas a necesidades cambiantes. La evolución profesional requiere equilibrio entre conocimiento técnico, validación con usuarios reales y mejora continua de procesos y herramientas. |
+| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software** | **Joaquín Carranza**  <br><br> **AV1:** Comprendí la importancia de dominar arquitecturas en tiempo real y Geofencing para resolver problemas de informalidad y precisión en el transporte.  <br><br> **TB1:** He actualizado mis conocimientos y competencias profesionales mediante la implementación de un enfoque de ingeniería estratégica en el proyecto: utilicé Spike Stories para investigar incertidumbres y reducir riesgos técnicos de forma anticipada, definí un Bounded Context para el módulo de suscripciones aplicando principios de Domain-Driven Design (DDD) para asegurar una arquitectura limpia, y realicé entrevistas de validación para garantizar que la solución de software responda a necesidades reales del mercado. Esta integración me ha permitido pasar de la simple codificación a la creación de soluciones de software robustas, escalables y alineadas con los objetivos del negocio.  <br><br> **Curi Marcelo, Angelo Marcio**  <br><br> **AV1:** Identificamos la problemática, user personas y user stories mediante entrevistas.  <br><br> **TB1:** Implementé funcionalidades del módulo conductor en Android usando Google Maps y servicios de geolocalización.  <br><br> **Yaku Guzmán**  <br><br> **AV1:** Actualicé conocimientos sobre arquitectura C4 Model, DDD y bounded contexts en ASP.NET Core.  <br><br> **TB1:** Implementé un design system completo con Jetpack Compose y Material 3, aplicando buenas prácticas de UI/UX y refactorización de pantallas.  <br><br> **Quiroz Cáceres, Adrian**  <br><br> **AV1:** Definí la problemática, user personas y user stories validadas mediante entrevistas, además de establecer los requerimientos principales y los bounded contexts aplicando principios de Domain-Driven Design (DDD), permitiendo estructurar una solución alineada con las necesidades reales de los usuarios.  <br><br> **TB1:** Implementé la integración de PayPal en el sistema, fortaleciendo conocimientos en pasarelas de pago, consumo de APIs externas y manejo de flujos de suscripción, contribuyendo a una solución más segura, escalable y orientada a la experiencia del usuario.  <br><br> **Velarde Gonzales, Néstor Hernán**  <br><br> **AV1:** Participé en entrevistas y validación de requisitos técnicos para soluciones contextualizadas.  <br><br> **TB1:** Desarrollé el backend aplicando DDD, CQRS, SOLID y buenas prácticas de arquitectura de software. | Las entrevistas confirmaron que el transporte local presenta una crisis de información. WayPass busca resolverla digitalizando la función del “datero”, mejorando la experiencia del pasajero y optimizando el llenado de unidades mediante soluciones tecnológicas contextualizadas. |
+| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software** | **Joaquín Carranza**  <br><br> **AV1:** Comprendí la necesidad de aprender continuamente sobre arquitecturas escalables, sincronización en tiempo real y UX móvil.  <br><br> **TB1:** He cumplido con este objetivo al validar que la ingeniería de software es un campo en constante evolución donde la curiosidad técnica y la investigación son fundamentales; por ello, implementé Spike Stories para profundizar en tecnologías desconocidas y mitigar riesgos, apliqué conceptos avanzados de Bounded Contexts para dominar nuevas formas de estructurar el negocio, y realicé entrevistas de validación para entender que el aprendizaje no es solo técnico, sino también entender el entorno del usuario. Este proceso me ha permitido reconocer que mantener mis conocimientos actualizados es la única vía para construir soluciones de software que sean verdaderamente eficientes, modernas y capaces de adaptarse a los cambios reales del mercado.  <br><br> **Curi Marcelo, Angelo Marcio**  <br><br> **AV1:** Identificamos requerimientos técnicos y servicios externos para el desarrollo de la aplicación.  <br><br> **TB1:** Fortalecí conocimientos en desarrollo móvil, APIs y geolocalización mediante la implementación de funcionalidades Android.  <br><br> **Yaku Guzmán**  <br><br> **AV1:** Reconocí la importancia de evolucionar constantemente en herramientas de documentación y arquitectura.  <br><br> **TB1:** Comprendí que Material 3 y Jetpack Compose requieren actualización continua y aplicación constante de buenas prácticas.  <br><br> **Quiroz Cáceres, Adrian**  <br><br> **AV1:** Comprendí la importancia de actualizar constantemente conocimientos en análisis de requerimientos, arquitectura de software y modelado de dominios para desarrollar soluciones tecnológicas más eficientes y adaptadas al contexto del usuario.  <br><br> **TB1:** Fortalecí mis competencias en integración de servicios externos y sistemas de pago digitales mediante la implementación de PayPal, reconociendo la necesidad de mantenerme en constante aprendizaje sobre seguridad, APIs y buenas prácticas de desarrollo para adaptarme a las demandas actuales del mercado tecnológico.  <br><br> **Velarde Gonzales, Néstor Hernán**  <br><br> **AV1:** Comprendí que las decisiones técnicas deben alinearse con las necesidades reales de los usuarios.  <br><br> **TB1:** Participé activamente en mejoras continuas considerando user stories, requisitos funcionales y retroalimentación de stakeholders en cada Sprint. | El desarrollo de software exige aprendizaje permanente para adaptar soluciones tecnológicas a necesidades cambiantes. La evolución profesional requiere equilibrio entre conocimiento técnico, validación con usuarios reales y mejora continua de procesos y herramientas. |
 
 <div style="page-break-after: always;"></div>
 
@@ -422,8 +421,8 @@ A continuación se presentan los objetivos SMART, relacionados con el desarrollo
 - Objetivo 2: En los 24 meses posteriores a mi graduación, consolidaré un perfil profesional híbrido entre desarrollo de software e inteligencia artificial aplicada, liderando o contribuyendo en al menos 2 productos digitales desplegados en producción que integren modelos de lenguaje (como Claude API o Gemini) con automatización de procesos mediante agentes MCP o n8n, alcanzando un rol de nivel semi-senior con responsabilidades técnicas en arquitectura de sistemas, y con evidencia pública de impacto a través de al menos 5 publicaciones técnicas en LinkedIn con un alcance mínimo de 500 impresiones cada una.
 
 **Quiroz Cáceres, Adrian**
-- Objetivo 1: 
-- Objetivo 2:
+- Objetivo 1: En los primeros 12 meses posteriores a mi graduación, obtendré una posición profesional como desarrollador backend o full stack, fortaleciendo mis conocimientos en arquitecturas RESTful, integración de APIs y pasarelas de pago digitales como PayPal, además de participar en el desarrollo y despliegue de al menos 3 proyectos funcionales orientados a soluciones web o móviles. 
+- Objetivo 2: En un plazo máximo de 3 años posteriores a mi graduación, consolidaré mi perfil profesional en el área de desarrollo de software, especializándome en arquitectura de sistemas, Domain-Driven Design (DDD) y soluciones escalables en la nube, participando en proyectos tecnológicos reales y obteniendo experiencia en integración de servicios externos y metodologías ágiles de desarrollo.
 
 **Carranza Tesén, Joaquín Enrique**
 - Objetivo 1: En los años posteriores a mi graduación, consolidaré mi perfil profesional como arquitecto de soluciones con enfoque en ciberseguridad, liderando el diseño de sistemas robustos que prioricen la integridad y privacidad de los datos. Además, me especializaré en el análisis avanzado de datos para la toma de decisiones estratégicas, logrando implementar arquitecturas escalables en proyectos de alto impacto que mejoren la eficiencia operativa en empresas del sector tecnológico.
@@ -1126,7 +1125,7 @@ El análisis de las entrevistas a Jhudith, Jean Pierre y Mateo revela tres punto
 
 Figura 2. Problemas Principales (Pasajeros)
 
-<img width="1653" height="993" alt="Image" src="https://github.com/user-attachments/assets/163c8f02-7114-4f30-afa3-c7fdec59dfc0" />
+<img width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/163c8f02-7114-4f30-afa3-c7fdec59dfc0" />
 
 
 #### Segmento Conductores: Eficiencia Operativa y Seguridad
@@ -1140,7 +1139,7 @@ Las entrevistas a Angel, Fabian, Roberto y Emmanuel muestran una realidad dividi
 
 Figura 3. Percepción de la APP (Conductores)
 
-<img width="1653" height="993" alt="Image" src="https://github.com/user-attachments/assets/4e08e7b3-a62c-472e-938e-59a0f06f1150" />
+<img width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/4e08e7b3-a62c-472e-938e-59a0f06f1150" />
 
 
 #### Conclusiones del Análisis 
@@ -1149,7 +1148,7 @@ Como se observa en la distribución demográfica de nuestras entrevistas, existe
 
 Figura 4. Demografía de Entrevistados
 
-<img width="1653" height="993" alt="Image" src="https://github.com/user-attachments/assets/5268f477-4f21-4666-aba2-fd4b18acf88a" />
+<img width="850" height="500" alt="Image" alt="Image" src="https://github.com/user-attachments/assets/5268f477-4f21-4666-aba2-fd4b18acf88a" />
 
 - Validación de la Solución: Ambos segmentos coinciden en que la digitalización de los paraderos y rutas informales reduciría el estrés y mejoraría la eficiencia económica (conductores llenan más rápido, pasajeros esperan menos).
 
@@ -1712,7 +1711,7 @@ En este diagrama de contexto se aprecia cómo el sistema centraliza la comunicac
 
 Figura 27. Diagrama de Contexto de WayPass
 
-<img width="3400" height="2000" alt="Image" src="https://github.com/user-attachments/assets/dbf510e0-f463-4190-8c9a-61b61b617483" />
+<img width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/dbf510e0-f463-4190-8c9a-61b61b617483" />
 
 #### 2.5.3.2. Software Architecture Container Level Diagrams
 
@@ -1720,7 +1719,7 @@ El siguiente diagrama de contenedores representa los principales componentes del
 
 Figura 28. Diagrama de Contenedores - WayPass
 
-<img width="6152" height="3299" alt="Image" src="https://github.com/user-attachments/assets/2202a09d-068a-460c-9cd1-ba06a44b7045" />
+<img width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/2202a09d-068a-460c-9cd1-ba06a44b7045" />
 
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
@@ -1728,7 +1727,7 @@ El siguiente diagrama de despliegue describe la infraestructura física y lógic
 
 Figura 29. Diagrama de despliegue - WayPass
 
-<img width="3480" height="2738" alt="Image" src="https://github.com/user-attachments/assets/e52bfe34-45f9-47b2-94fb-eabaab317815" />
+<img width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/e52bfe34-45f9-47b2-94fb-eabaab317815" />
 
 ## 2.6. Tactical-Level Domain-Driven Design
 
@@ -3114,7 +3113,7 @@ Se utiliza la familia tipográfica Inter (o una Sans-Serif de corte moderno). Su
 
 - Inter Regular: Para textos de formularios y descripciones detalladas.
 
-<img width="1408" height="768" alt="3 1 1 1 styles" src="https://github.com/user-attachments/assets/b806dc93-57cb-4fa3-88d8-601eac508618" />
+<img width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/b806dc93-57cb-4fa3-88d8-601eac508618" />
 
 **Paleta de Colores (Extraída de las capturas):**
 
@@ -3128,7 +3127,7 @@ Se utiliza la familia tipográfica Inter (o una Sans-Serif de corte moderno). Su
 
 - Gris Suave / Bordes (#D1D5DB): Utilizado en los bordes de los campos de entrada (inputs) y líneas divisorias.
 
-<img width="2592" height="1662" alt="paleta de colores" src="https://github.com/user-attachments/assets/f83c5be5-9f0d-4d8d-9233-9b58c496a434" />
+<img width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/f83c5be5-9f0d-4d8d-9233-9b58c496a434" />
 
 
 **Buttons:**
@@ -3143,7 +3142,7 @@ Se utiliza la familia tipográfica Inter (o una Sans-Serif de corte moderno). Su
 <img width="412" height="916" alt="image" src="https://github.com/user-attachments/assets/22f930f3-7cc5-4bb4-9c8d-ff803ac9bd33" />
 
 
-<img width="1408" height="768" alt="3 1 1 1 buttons" src="https://github.com/user-attachments/assets/6ce05f64-a0c2-428f-b307-1415e359fe88" />
+<img width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/6ce05f64-a0c2-428f-b307-1415e359fe88" />
 
 
 ### 3.1.2. Information Architecture
@@ -4566,11 +4565,8 @@ docs(README): update index instructions.
 ### 4.1.4. Software Deployment Configuration
 
 <h4>Landing Page - GitHub Pages</h4>
-
 <p>El Landing Page se despliega mediante GitHub Pages directamente desde el repositorio, aprovechando el hosting gratuito para sitios estáticos.</p>
-
 <p><strong>Pasos de configuración:</strong></p>
-
 <ol>
   <li>Acceder al repositorio <code>landing-page</code> en GitHub.</li>
   <li>Navegar a <strong>Settings &gt; Pages</strong> en el menú lateral.</li>
@@ -4578,8 +4574,66 @@ docs(README): update index instructions.
   <li>Hacer clic en <strong>Save</strong> y esperar la generación del sitio (1-2 minutos).</li>
   <li>Verificar el despliegue accediendo a la URL generada.</li>
 </ol>
+<p><strong>URL de despliegue: </strong> <a href="https://grupo-apps-moviles.github.io/landing-page/">https://grupo-apps-moviles.github.io/landing-page/</a></p>
 
-<p><strong>URL de despliegue:</strong> <a href=" "> </a></p>
+<h4>Backend - Render (ASP.NET Core / C#)</h4>
+<p>El Backend desarrollado en ASP.NET Core se despliega mediante <strong>Render</strong>, una plataforma cloud que soporta aplicaciones .NET a través de contenedores Docker.</p>
+<p><strong>Pasos de configuración:</strong></p>
+<ol>
+  <li>Asegurarse de que el repositorio <code>Backend</code> en GitHub contenga un archivo <code>Dockerfile</code> en la raíz del proyecto. Ejemplo mínimo:
+    <pre><code>FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
+WORKDIR /app
+EXPOSE 8080
+
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+WORKDIR /src
+COPY . .
+RUN dotnet publish -c Release -o /app/publish
+
+FROM base AS final
+WORKDIR /app
+COPY --from=build /app/publish .
+ENTRYPOINT ["dotnet", "WayPass.dll"]</code></pre>
+  </li>
+  <li>Ingresar a <a href="https://render.com">render.com</a> e iniciar sesión con la cuenta del equipo.</li>
+  <li>Hacer clic en <strong>New &gt; Web Service</strong>.</li>
+  <li>Conectar la cuenta de GitHub y seleccionar el repositorio <code>Grupo-Apps-Moviles/Backend</code>.</li>
+  <li>Configurar el servicio:
+    <ul>
+      <li><strong>Name:</strong> <code>WayPass</code></li>
+      <li><strong>Environment:</strong> <code>Docker</code></li>
+      <li><strong>Branch:</strong> <code>main</code></li>
+      <li><strong>Instance Type:</strong> Free </li>
+    </ul>
+  </li>
+  <li>En la sección <strong>Environment Variables</strong>, agregar las variables necesarias (cadena de conexión a BD, JWT secret, etc.).</li>
+  <li>Hacer clic en <strong>Create Web Service</strong> y esperar el build inicial (3-5 minutos).</li>
+  <li>Verificar el despliegue accediendo a la URL generada por Render.</li>
+</ol>
+<p><strong>URL de despliegue: </strong> <a href="https://backendmoviles-hqu5.onrender.com/index.html">https://backendmoviles-hqu5.onrender.com/index.html</a></p>
+
+<h4>Mobile Application - Android (APK Release)</h4>
+<p>La aplicación Android se distribuye mediante la generación del APK firmado desde Android Studio, con el código fuente alojado en el repositorio <code>Android</code>.</p>
+<p><strong>Pasos de configuración:</strong></p>
+<ol>
+  <li>Acceder al repositorio <code>Grupo-Apps-Moviles/Android</code> en GitHub.</li>
+  <li>Abrir el proyecto en <strong>Android Studio</strong>.</li>
+  <li>Actualizar la URL base del backend en el archivo de configuración (p. ej. <code>Constants.kt</code> o <code>local.properties</code>):
+    <pre><code>BASE_URL=https://backendmoviles-hqu5.onrender.com/index.html/api/</code></pre>
+  </li>
+  <li>En Android Studio, ir a <strong>Build &gt; Generate Signed Bundle / APK</strong>.</li>
+  <li>Seleccionar <strong>APK</strong>, configurar el keystore del equipo y elegir el build variant <code>release</code>.</li>
+  <li>El APK generado se ubica en <code>app/release/app-release.apk</code>.</li>
+  <li>Subir el APK como <strong>Release Asset</strong> en GitHub:
+    <ul>
+      <li>Ir a <strong>Releases &gt; Draft a new release</strong> en el repositorio.</li>
+      <li>Adjuntar el archivo <code>app-release.apk</code>.</li>
+      <li>Publicar el release con el tag de versión correspondiente (p. ej. <code>v1.0.0</code>).</li>
+    </ul>
+  </li>
+  <li>Verificar la instalación descargando el APK desde la sección Releases del repositorio.</li>
+</ol>
+<p><strong>URL del repositorio Android: </strong> <a href="https://github.com/Grupo-Apps-Moviles/Android">https://github.com/Grupo-Apps-Moviles/Android</a></p>
 
 ## 4.2. Landing Page & Mobile Application Implementation
 
@@ -4587,22 +4641,23 @@ docs(README): update index instructions.
 
 #### 4.2.1.1. Sprint Planning 1
 
-Establecer las bases del sistema WayPass mediante la definición de requisitos, diseño UX/UI y desarrollo inicial del backend y la app móvil.
+En esta sección se presenta el Sprint Planning Meeting correspondiente al primer sprint del proyecto WayPass, en el cual el equipo definió el objetivo, las historias de usuario a abordar y la velocidad acordada para esta iteración.
 
-**Alcance del Sprint**
-- Levantamiento de requisitos  
-- Diseño de wireframes y mockups  
-- Implementación inicial del backend  
-- Desarrollo preliminar de la app móvil
-
-**Distribución de responsabilidades**
-
-| Área        | Responsable(s) | Actividades |
-|------------|---------------|------------|
-| Backend     | Velarde Gonzales, Néstor Hernán | - Arquitectura de la API <br> - Endpoints iniciales <br> - Configuración |
-| Requisitos  | Curi Marcelo, Angelo Marcio | - Requisitos e historias de usuario <br> - Análisis del problema |
-| UX/UI       | Guzmán Cabrejos, Yaku Mateo | - Wireframes <br> - Mockups <br> - Flujo y diseño |
-| App móvil   | Quiroz Cáceres, Adrian <br> Carranza Tesén, Joaquín Enrique | - Estructura base <br> - Pantallas iniciales <br> - Integración UI |
+| | |
+|---|---|
+| **Sprint #** | Sprint 1 |
+| **Sprint Planning Background** | |
+| Date | 2026-05-04 |
+| Time | 07:00 PM |
+| Location | Reunión virtual mediante Discord |
+| Prepared By | Guzmán Cabrejos, Yaku Mateo |
+| Attendees (to planning meeting) | Velarde Gonzales, Néstor Hernán / Curi Marcelo, Angelo Marcio / Guzmán Cabrejos, Yaku Mateo / Quiroz Cáceres, Adrian / Carranza Tesén, Joaquín Enrique |
+| **Sprint 0 Review Summary** | Al ser el primer sprint, no existe un sprint anterior. Durante la etapa preparatoria se completaron el análisis de requisitos, el diseño de User Personas, las entrevistas con usuarios y el modelado de la arquitectura del sistema bajo enfoque DDD. |
+| **Sprint 0 Retrospective Summary** | El equipo identificó como acierto la distribución clara de responsabilidades desde la fase de diseño. Como oportunidad de mejora se señaló la necesidad de establecer convenciones de código compartidas antes de iniciar el desarrollo. |
+| **Sprint Goal & User Stories** | |
+| Sprint 1 Goal | Our focus is on establishing the foundational backend architecture and initial UI navigation for WayPass. We believe it delivers a stable development environment and clear visual structure to the development team and early testers. This will be confirmed when the initial REST endpoints are active and the base mobile app screens are integrated and successfully navigated. |
+| Sprint 1 Velocity | 90 |
+| Sum of Story Points | 80 |
 
 #### 4.2.1.2. Sprint Backlog 1
 
@@ -4773,7 +4828,7 @@ La base de datos del proyecto Viacore fue diseñada utilizando MySQL como sistem
 | **provinces** | Contiene las provincias asociadas a cada región. | Pertenece a **regions** y se relaciona con **districts**. |
 | **districts** | Guarda los distritos registrados en el sistema. | Pertenece a **provinces** y se relaciona con **stops**. |
 
-<img width="1163" height="771" alt="Image" src="https://github.com/user-attachments/assets/cc468e8c-0741-44c7-9b3e-fad2f2b3f93a" />
+<img width="1163" height="771" alt="Image" src="https://github.com/user-attachments/assets/7d3e33d7-5f31-4e81-9fa3-b3ea906d60a1" />
 
 ## Android Móvil
 
@@ -4838,7 +4893,7 @@ En esta sección del informe se presentan los principales endpoints desarrollado
 
 **Backend Desplegado**
 
-[Ver Swagger API Documentation](#)
+[Ver Swagger API Documentation](https://backendmoviles-hqu5.onrender.com/index.html)
 
 ---
 
@@ -4970,8 +5025,18 @@ A continuación, se presentan los principales colaboradores del proyecto:
 
 El equipo utilizó GitHub como plataforma de colaboración para el control de versiones, integración de cambios, seguimiento de avances y trabajo colaborativo durante el Sprint.
 
+**Landing page:**
 
-<img width="1020" height="778" alt="Image" src="https://github.com/user-attachments/assets/0985b48a-b0ce-4c3e-ade3-ea80cebc58de" />
+<img width="910" height="598" alt="image" src="https://github.com/user-attachments/assets/293c678d-a4f3-483d-b471-3650bb5a1b2a" />
+
+**Web Service:**
+
+<img width="908" height="601" alt="image" src="https://github.com/user-attachments/assets/4bf58cfb-94b5-48ae-9eed-bd42cae354b5" />
+
+
+**App Mobile:**
+
+<img width="918" height="833" alt="image" src="https://github.com/user-attachments/assets/829e995e-7cb9-4646-835b-d81d083e40fc" />
 
 ## 4.3. Validation Interviews
 En este punto se hiso una validación con los segmentos objetivos sobre nuestro producto de primera fase. 
@@ -5015,7 +5080,7 @@ En este punto se hiso una validación con los segmentos objetivos sobre nuestro 
 | **Ocupación** | Estudiante |
 | **Distrito** | San Juan de Lurigancho, Lima, Lima |
 | **Enlace** | [https://goo.su/B9x7ZY](https://goo.su/B9x7ZY) |
-| **Evidencia** | <img width="1047" height="569" alt="image" src="https://github.com/user-attachments/assets/dc2ec478-c88c-4157-aef5-ceded0d7238f" /> |
+| **Evidencia** | <img width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/dc2ec478-c88c-4157-aef5-ceded0d7238f" /> |
 | **Resumen** | Durante la evaluación de la landing page de WayPass, Adriana manifestó una recepción muy positiva, otorgando a la propuesta una calificación de 9/10. La entrevistada comprendió de inmediato que la aplicación busca digitalizar pagos y gestionar rutas, una solución que considera de gran interés para optimizar sus traslados diarios y actividades personales. Destacó que el diseño visual es moderno y profesional, y que tanto las capturas de pantalla como la ubicación clara de los botones de registro facilitan la navegación y generan confianza para descargar la herramienta. Finalmente, recomendó el servicio por su potencial para modernizar el transporte público, sugiriendo únicamente añadir un mapa interactivo en tiempo real y una sección de preguntas frecuentes para mejorar la experiencia previa al registro. |
 
 **Entrevista #2**
@@ -5028,7 +5093,7 @@ En este punto se hiso una validación con los segmentos objetivos sobre nuestro 
 | **Ocupación** | Estudiante |
 | **Distrito** | Chorrillos, Lima, Lima |
 | **Enlace** | [https://goo.su/tR8ov](https://goo.su/tR8ov) |
-| **Evidencia** | <img width="868" height="522" alt="image" src="https://github.com/user-attachments/assets/5f38939a-9b78-4a78-a8a2-f65a2326ab1f" /> |
+| **Evidencia** | <img width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/5f38939a-9b78-4a78-a8a2-f65a2326ab1f" /> |
 | **Resumen** | Durante la prueba de la aplicación, Oscar calificó la experiencia con un 9/10, destacando que WayPass es sumamente intuitiva y presenta un diseño limpio que facilita la navegación sin distracciones. Resaltó que el proceso de creación de cuenta fue rápido y sencillo, y que las funciones para visualizar rutas y ubicar paraderos son fáciles de entender, lo que aporta mucho orden a sus traslados diarios. Aunque no utilizó la opción de registro de empresas por su perfil de pasajero, Oscar recomendó totalmente la herramienta por la seguridad de no cargar efectivo, sugiriendo únicamente la implementación de un modo oscuro y mayor precisión en las alertas de llegada para optimizar el uso nocturno y en zonas de alto tráfico. |
 
 **Entrevista #3**
@@ -5041,7 +5106,7 @@ En este punto se hiso una validación con los segmentos objetivos sobre nuestro 
 | **Ocupación** | Estudiante |
 | **Distrito** | Villa el Salvador, Lima, Lima |
 | **Enlace** | <a href="https://shorturl.at/ZW5Yd" target="_blank">https://shorturl.at/ZW5Yd</a> |
-| **Evidencia** | <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/835d52bc-9ddf-4e60-9e10-12c024e2d189" />
+| **Evidencia** | <img width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/835d52bc-9ddf-4e60-9e10-12c024e2d189" />
 | **Resumen** | Durante la prueba de la aplicación, Mateo calificó la experiencia con un 10/10, destacando que WayPass le ayuda a encontrar rutas de transporte, horarios y tarifas de manera mucho más fácil y rápida. Comentó que la aplicación le resulta útil en su día a día, especialmente para trasladarse a lugares que no conocía anteriormente. En el aspecto visual, resaltó que el diseño minimalista le agrada porque hace que la aplicación sea más sencilla de entender y utilizar. Además, mencionó que las visuales y la organización de la información facilitan la comprensión de las funciones de la plataforma. Finalmente, afirmó que sí recomendaría WayPass por la utilidad y facilidad que brinda a los pasajeros. |
 
 **Conductores:**
@@ -5056,7 +5121,7 @@ En este punto se hiso una validación con los segmentos objetivos sobre nuestro 
 | **Ocupación** | Estudiante |
 | **Distrito** | Lurín, Lima, Lima |
 | **Enlace** | [https://goo.su/AIEuGP2](https://goo.su/AIEuGP2) |
-| **Evidencia** | <img width="869" height="515" alt="image" src="https://github.com/user-attachments/assets/df37c569-f5e9-46d1-8632-5d3b701931eb" /> |
+| **Evidencia** | <img width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/df37c569-f5e9-46d1-8632-5d3b701931eb" /> |
 | **Resumen** | Jean Pierre revisó la landing page de WayPass y le dio una calificación de 8/10, destacando que la propuesta es muy clara para un conductor. Lo que más le interesó fue la parte de la seguridad, ya que considera que dejar de manejar efectivo y agilizar los cobros le facilitaría mucho el trabajo diario al volante. Mencionó que el diseño y los colores son adecuados porque permiten una lectura rápida, y que al ver las capturas de la aplicación sintió confianza porque la interfaz se ve sencilla de usar. Jean Pierre afirmó que sí recomendaría la plataforma a otros colegas del gremio, aunque sugirió que la página debería explicar con más detalle cómo se realizan los depósitos de las ganancias y mostrar un poco más sobre cómo se visualizan las paradas de los pasajeros para que el conductor se anime a registrarse de una vez. |
 
 **Entrevista #2**
@@ -5069,7 +5134,7 @@ En este punto se hiso una validación con los segmentos objetivos sobre nuestro 
 | **Ocupación** | Estudiante |
 | **Distrito** | Villa el Salvador, Lima, Lima |
 | **Enlace** | [https://goo.su/foUGt0e](https://goo.su/foUGt0e) |
-| **Evidencia** | <img width="869" height="526" alt="image" src="https://github.com/user-attachments/assets/8d508f8b-3f7d-4653-995a-095778d4886f" /> |
+| **Evidencia** | <img width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/8d508f8b-3f7d-4653-995a-095778d4886f" /> |
 | **Resumen** | Emmanuel calificó su experiencia con la aplicación con un 8/10, destacando que WayPass es una herramienta muy práctica que le permite gestionar sus rutas y el registro de la empresa de transporte de manera rápida y organizada. Resaltó que el diseño es limpio y funcional, con botones grandes que facilitan la navegación mientras está al volante, y valoró positivamente la sencillez del proceso de creación de cuenta y validación de documentos. Aunque recomienda totalmente la plataforma por la seguridad que brinda al reducir el uso de efectivo, Emmanuel sugirió mejorar los reportes de ingresos diarios e implementar alertas sonoras más fuertes para confirmar los pagos de los pasajeros sin necesidad de desviar la vista del camino. |
 
 
@@ -5167,9 +5232,12 @@ Basado en el análisis del proyecto y los hallazgos durante el avance, se sugier
 El presente video presenta de forma promocional la propuesta de valor de nuestro producto WayPass, una plataforma móvil diseñada para digitalizar y visibilizar el servicio de transporte colectivo interurbano informal en el Perú. El video resume el modelo de negocio y las características principales de la aplicación para conductores, mostrando escenas reales de interacción con el producto.
 
 **Video About the Product:** 
-- https://shorturl.at/Wj2JC
-- https://youtu.be/QvCi0Bi8GNM
-<img width="720" alt="image" src="https://github.com/user-attachments/assets/d6e3d1bc-5e30-4eb3-b94c-65707e57da4a" />
+
+[Ver Video en Microsoft Stream](https://shorturl.at/Wj2JC)
+
+[Ver video en YouTube](https://youtu.be/QvCi0Bi8GNM)
+  
+<img width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/d6e3d1bc-5e30-4eb3-b94c-65707e57da4a" />
 
 # Video About the team
 
