@@ -5115,6 +5115,35 @@ Durante este sprint se avanzó en la implementación de los productos principale
 | Flutter | main | 41c12fd | feat: Add initial authentication feature files including repository, DTOs, and presentation components | velardesoft | Jun 6, 2026 |
 | Flutter | main | 7c40d80 | feat: Add initial web files for Flutter project including index.html and manifest.json | velardesoft | Jun 6, 2026 |
 
+#### 4.2.2.4. Testing Suite Evidence for Sprint Review
+
+Durante el Sprint 02 se realizaron pruebas manuales de navegación utilizando el emulador de Android Studio
+y el simulador de iOS, con el objetivo de validar el correcto funcionamiento de la nueva aplicación móvil
+desarrollada en Flutter, la cual permite la compatibilidad con iOS y Android desde una única base de código.
+
+Se verificó que:
+
+- El sistema de rutas implementado en Flutter opere correctamente en ambas plataformas sin errores
+  de navegación.
+- Los flujos:
+  - Login
+  - Register
+  - Profile
+  - Home
+  - Navegación principal (Bottom Navigation Bar)
+
+dichos procesos se ejecuten de manera continua y estable tanto en Android como en iOS.
+
+Adicionalmente, se validó que:
+
+- El `TokenManager` gestione correctamente el almacenamiento y recuperación del token de autenticación
+  en ambas plataformas.
+- El sistema de inyección de dependencias inicialice correctamente los servicios de autenticación y perfil.
+- La navegación post-login impida el retorno a pantallas de autenticación en ambos sistemas operativos.
+
+Los resultados obtenidos confirman que el desarrollo en Flutter permite extender el alcance de WayPass
+a usuarios iOS, garantizando una experiencia consistente entre plataformas desde una sola base de código.
+
 ## 4.3. Validation Interviews
 En este punto se hiso una validación con los segmentos objetivos sobre nuestro producto de primera fase. 
 
