@@ -5066,6 +5066,55 @@ En esta sección se presenta el Sprint Planning Meeting correspondiente al segun
 | Sprint 2 Velocity | 70 |
 | Sum of Story Points | 64 |
 
+#### 4.2.2.3. Development Evidence for Sprint Review
+
+## Development Evidence for Sprint Review
+
+Durante este sprint se avanzó en la implementación de los productos principales de la solución WayPass: el backend (Web Services) y la nueva aplicación móvil desarrollada en Flutter.
+
+------
+
+### Web Services — Backend
+
+| Repository | Branch | Commit ID | Commit Message | Committed by | Date |
+|---|---|---|---|---|---|
+| Backend | main | 9680e5f | solutions | velardesoft | Jun 9, 2026 |
+| Backend | main | 4ecf87e | Add README documentation for backend project | velardesoft | May 28, 2026 |
+| Backend | main | 24f8d7d | feat: Agregate new Bound de context | velardesoft | May 28, 2026 |
+| Backend | main | a2ea0330 | feat: Initial Commit | velardesoft | May 28, 2026 |
+
+### Mobile Application — Flutter
+
+| Repository | Branch | Commit ID | Commit Message | Committed by | Date |
+|---|---|---|---|---|---|
+| Flutter | main | a947d7e | feat: Finaly Profile | velardesoft | Jun 6, 2026 |
+| Flutter | main | 3309a37 | feat: Register ProfileRepository and ProfileViewModel in dependency injection setup | velardesoft | Jun 6, 2026 |
+| Flutter | main | 4d55f52 | feat: Enhance profile management by adding username and email handling, and implement ProfileRepository and ProfileViewModel for user profile loading and logout functionality | velardesoft | Jun 6, 2026 |
+| Flutter | main | 19d9c19 | feat: Add ProfileRepository and UserProfile classes for user profile management | velardesoft | Jun 6, 2026 |
+| Flutter | main | d7f6258 | feat: finaly auth | velardesoft | Jun 6, 2026 |
+| Flutter | main | d64c778 | feat: Enhance LoginPage with welcome message and improve navigation to RegisterPage | velardesoft | Jun 6, 2026 |
+| Flutter | main | e9c6091 | feat: Add RegisterPage for user registration with role selection and error handling | velardesoft | Jun 6, 2026 |
+| Flutter | main | b53491e | feat: Improve navigation handling in LoginPage to prevent back navigation after login | velardesoft | Jun 6, 2026 |
+| Flutter | main | 021dc24 | fix: Update base URL in AuthService for correct API endpoint in Android emulator | velardesoft | Jun 6, 2026 |
+| Flutter | main | 603c13c | feat: Refactor main function and application routing for improved initialization and structure | velardesoft | Jun 6, 2026 |
+| Flutter | main | 33c11ff | feat: Refactor LoginPage and LoginViewModel for improved user experience and error handling | velardesoft | Jun 6, 2026 |
+| Flutter | main | 10aeee7 | feat: Enhance dependency injection setup to include TokenManager for improved authentication handling | velardesoft | Jun 6, 2026 |
+| Flutter | main | e1f09e6 | feat: Implement TokenManager for handling user authentication tokens and session management | velardesoft | Jun 6, 2026 |
+| Flutter | main | 5191571 | refactor: Update signIn and signUp methods for improved return types and error handling | velardesoft | Jun 6, 2026 |
+| Flutter | main | f694d7e | refactor: Update AuthService and SignUpRequestDto for improved error handling and required fields | velardesoft | Jun 6, 2026 |
+| Flutter | main | 25f582a | refactor: Update AuthRepository and User model to improve type safety and structure | velardesoft | Jun 6, 2026 |
+| Flutter | main | 0499ea6 | feat: Add MainPage with bottom navigation and linked feature pages | velardesoft | Jun 6, 2026 |
+| Flutter | main | ac050c0 | feat: Add ProfilePage and ReservationPage as StatelessWidgets with placeholder content | velardesoft | Jun 6, 2026 |
+| Flutter | main | 1a700b8 | feat: Add FavoritePage and HomePage as StatelessWidgets with placeholder content | velardesoft | Jun 6, 2026 |
+| Flutter | main | cbcf145 | fix: Update base URL in AuthService to point to the local backend | velardesoft | Jun 6, 2026 |
+| Flutter | main | a394cad | feat: Implement dependency injection for authentication services and view model | velardesoft | Jun 6, 2026 |
+| Flutter | main | c6f67c7 | feat: Implement LoginViewModel with signIn and signUp methods handling login states | velardesoft | Jun 6, 2026 |
+| Flutter | main | f2b1f38 | feat: Implement AuthRepositoryImpl with signIn and signUp methods | velardesoft | Jun 6, 2026 |
+| Flutter | main | aa76b80 | chore: Update pubspec.yaml and pubspec.lock with new package versions and dependencies | velardesoft | Jun 6, 2026 |
+| Flutter | main | 91cb0ba | feat: Implement data transfer objects for authentication including AuthResponseDto, SignInRequestDto, and SignUpRequestDto | velardesoft | Jun 6, 2026 |
+| Flutter | main | 41c12fd | feat: Add initial authentication feature files including repository, DTOs, and presentation components | velardesoft | Jun 6, 2026 |
+| Flutter | main | 7c40d80 | feat: Add initial web files for Flutter project including index.html and manifest.json | velardesoft | Jun 6, 2026 |
+
 ## 4.3. Validation Interviews
 En este punto se hiso una validación con los segmentos objetivos sobre nuestro producto de primera fase. 
 
