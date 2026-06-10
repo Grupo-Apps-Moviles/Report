@@ -361,6 +361,7 @@ El equipo utilizó GitHub como plataforma de colaboración para el control de ve
       - [4.2.1.8. Team Collaboration Insights during Sprint](#4218-team-collaboration-insights-during-sprint)
     - [4.2.2. Sprint 2](#422-sprint-2)
       - [4.2.2.1. Sprint Planning 2](#4221-sprint-planning-2)
+      - [4.2.2.2. Sprint Backlog 2](#4222-sprint-backlog-2)
   - [4.3. Validation Interviews](#43-validation-interviews)
     - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
     - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
@@ -5065,6 +5066,61 @@ En esta sección se presenta el Sprint Planning Meeting correspondiente al segun
 | Sprint 2 Goal | Our focus is on launching the WayPass passenger experience on Flutter and enabling trip reservations across the platform. We believe it delivers self-service onboarding, route discovery, favorite collections and trip reservations to passengers, and reservation-management groundwork to the business. This will be confirmed when passengers can register, log in and manage their profile, filter and explore routes and stops by location, organize routes into favorite collections, and reserve a trip through the reservation endpoints exposed by the backend. |
 | Sprint 2 Velocity | 70 |
 | Sum of Story Points | 64 |
+
+#### 4.2.2.2. Sprint Backlog 2
+
+El presente Sprint Backlog 2 detalla las historias de usuario priorizadas para el Sprint 2 del proyecto WayPass, centrado en la implementación de la aplicación móvil del segmento Pasajero en Flutter y la habilitación del flujo de reservas a nivel de plataforma. Cada User Story fue descompuesta en Engineering Tasks estimados entre 4 y 8 horas, asignados a los miembros del equipo y con seguimiento de estado (To Do / In Process / To Review / Done) en el tablero Jira del proyecto.
+
+**Tablero del Sprint 2 (Jira):** [https://yakumgc12.atlassian.net/jira/software/projects/SB2/boards/67](https://yakumgc12.atlassian.net/jira/software/projects/SB2/boards/67)
+
+<!-- TODO: Reemplazar por captura del tablero Jira del Sprint 2 -->
+<img width="1137" height="741" alt="Sprint 2 Board - Jira" src="PLACEHOLDER_SPRINT2_BOARD" />
+
+| Sprint # | Sprint 2 | | | | | | |
+|---|---|---|---|---|---|---|---|
+| **User Story** | | | **Work-Item / Task** | | | | |
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| US26 | Registro de usuario | T26.1 | Pantalla de registro en Flutter | Implementar `RegisterScreen` con formulario (nombre, email, password, rol) y validaciones en cliente | 6 | Velarde Gonzales, Néstor Hernán | Done |
+| US26 |  | T26.2 | Repositorio y caso de uso de registro | Implementar `AuthRepository` con `register()` consumiendo `/api/v1/auth/sign-up` | 5 | Velarde Gonzales, Néstor Hernán | Done |
+| US26 |  | T26.3 | Selector de rol (Pasajero/Conductor) | Componente de selección de tipo de usuario con tarjetas seleccionables | 4 | Quiroz Cáceres, Adrian | Done |
+| US27 | Iniciar sesión | T27.1 | Pantalla de login en Flutter | Implementar `LoginScreen` con validación de credenciales y feedback visual | 5 | Velarde Gonzales, Néstor Hernán | Done |
+| US27 |  | T27.2 | Persistencia de token con TokenManager | Almacenamiento seguro del JWT usando `flutter_secure_storage` | 4 | Curi Marcelo, Angelo Marcio | Done |
+| US27 |  | T27.3 | Interceptor HTTP con token | Agregar header `Authorization: Bearer` a las peticiones autenticadas | 4 | Curi Marcelo, Angelo Marcio | Done |
+| US28 | Cerrar sesión | T28.1 | Botón y flujo de logout en perfil | Limpieza de token y redirección a `LoginScreen` | 4 | Velarde Gonzales, Néstor Hernán | Done |
+| US28 |  | T28.2 | Confirmación de cierre de sesión | Modal de confirmación antes de cerrar sesión | 4 | Guzmán Cabrejos, Yaku Mateo | Done |
+| US29 | Editar perfil de usuario | T29.1 | Pantalla de visualización de perfil | `ProfileScreen` con avatar, nombre y email del usuario autenticado | 5 | Velarde Gonzales, Néstor Hernán | Done |
+| US29 |  | T29.2 | Formulario de edición de perfil | Pantalla de edición con campos de nombre y email + validaciones | 6 | Guzmán Cabrejos, Yaku Mateo | Done |
+| US29 |  | T29.3 | Endpoint y servicio de actualización | Conexión con `PUT /api/v1/profiles/{id}` desde el repositorio | 4 | Carranza Tesén, Joaquín Enrique | Done |
+| US41 | Filtrar rutas por ubicación | T41.1 | Dropdowns en cascada en Flutter | Implementar selectores región → provincia → distrito → ciudad con dependencia entre ellos | 6 | Guzmán Cabrejos, Yaku Mateo | Done |
+| US41 |  | T41.2 | Servicio de consulta de rutas filtradas | `RoutesService` que consume `/api/v1/routes` aplicando filtros geográficos | 5 | Curi Marcelo, Angelo Marcio | Done |
+| US41 |  | T41.3 | Estados de carga, vacío y error | Manejo de loading, empty state y error state en el ViewModel de rutas | 4 | Guzmán Cabrejos, Yaku Mateo | Done |
+| US42 | Ver resultados de búsqueda | T42.1 | Tarjetas resumidas de ruta | Componente `RouteCard` con origen, destino, tarifa y duración | 5 | Guzmán Cabrejos, Yaku Mateo | Done |
+| US42 |  | T42.2 | Listado scrollable de resultados | `ListView.builder` con resultados del filtro y paginación básica | 4 | Carranza Tesén, Joaquín Enrique | Done |
+| US43 |  | T43.1 | Pantalla de detalle de ruta | `RouteDetailScreen` con info completa (empresa, paraderos, horarios, tarifa) | 6 | Quiroz Cáceres, Adrian | Done |
+| US43 |  | T43.2 | Carga de paraderos de la ruta | Consumo de `/api/v1/routes/{routeId}/stops` y render en pantalla de detalle | 5 | Quiroz Cáceres, Adrian | Done |
+| US44 | Volver al listado | T44.1 | Navegación de regreso preservando filtros | Botón "Volver" en `RouteDetailScreen` que mantiene filtros aplicados en el listado | 4 | Carranza Tesén, Joaquín Enrique | Done |
+| US24 | Filtrar paraderos por ubicación | T24.1 | Dropdowns en cascada para paraderos | Selectores región → provincia → distrito → localidad en pantalla de paraderos | 6 | Carranza Tesén, Joaquín Enrique | Done |
+| US24 |  | T24.2 | Servicio de paraderos filtrados | Consumo de `/api/v1/stops` con parámetros geográficos | 4 | Carranza Tesén, Joaquín Enrique | Done |
+| US45 | Crear colección | T45.1 | Pantalla y bottom sheet de creación | UI para crear colección con nombre descriptivo y validación | 5 | Guzmán Cabrejos, Yaku Mateo | Done |
+| US45 |  | T45.2 | Servicio y persistencia de colecciones | `CollectionsRepository` con creación contra backend | 4 | Guzmán Cabrejos, Yaku Mateo | Done |
+| US46 | Ver mis colecciones | T46.1 | Pantalla de listado de colecciones | `CollectionsScreen` con tarjetas y contador de rutas por colección | 5 | Quiroz Cáceres, Adrian | Done |
+| US47 | Editar nombre de colección | T47.1 | Edición inline del nombre | Diálogo de edición con validación y persistencia | 4 | Quiroz Cáceres, Adrian | Done |
+| US48 | Eliminar colección | T48.1 | Modal de confirmación y eliminación | Diálogo de confirmación + DELETE al backend | 4 | Guzmán Cabrejos, Yaku Mateo | Done |
+| US49 | Agregar ruta a colección | T49.1 | Botón "Agregar a colección" en detalle | Botón en `RouteDetailScreen` que abre selector de colección | 4 | Curi Marcelo, Angelo Marcio | Done |
+| US49 |  | T49.2 | Endpoint y servicio de asociación | Llamada para vincular ruta con colección + feedback visual | 4 | Curi Marcelo, Angelo Marcio | Done |
+| US50 | Seleccionar colección para ruta | T50.1 | Modal de selección de colección | Bottom sheet con listado de colecciones del usuario | 5 | Carranza Tesén, Joaquín Enrique | Done |
+| US51 | Quitar ruta de colección | T51.1 | Acción de remover ruta dentro de colección | Swipe-to-delete o botón en ítem de ruta dentro de colección | 4 | Quiroz Cáceres, Adrian | Done |
+| US52 | Ver rutas de colección | T52.1 | Pantalla de detalle de colección | Listado de rutas guardadas dentro de una colección específica | 5 | Quiroz Cáceres, Adrian | Done |
+| US53 | Reservar un viaje | T53.1 | Bounded Context Reservations (Backend) | Implementar agregado `Reservation` con DDD (commands, queries, repositorio) | 8 | Velarde Gonzales, Néstor Hernán | Done |
+| US53 |  | T53.2 | Controlador REST de Reservations | `ReservationsController` con endpoints POST/GET de reservas | 6 | Velarde Gonzales, Néstor Hernán | Done |
+| US53 |  | T53.3 | Configuración en AppDbContext + migración | Mapeo EFC del agregado y migración de BD | 4 | Velarde Gonzales, Néstor Hernán | Done |
+| US53 |  | T53.4 | UI de reserva en Flutter | Botón "Reservar" en detalle de ruta + pantalla de confirmación | 6 | Quiroz Cáceres, Adrian | Done |
+| US53 |  | T53.5 | Servicio de reservas en Flutter | Repositorio que consume endpoints de Reservations + manejo de estados | 5 | Curi Marcelo, Angelo Marcio | Done |
+| TS-12 | Configuración GitFlow en repo Flutter | TS12.1 | Crear ramas `main` y `develop` en repo Flutter | Establecer estructura de GitFlow en el nuevo repositorio | 4 | Guzmán Cabrejos, Yaku Mateo | Done |
+| TS-13 | Despliegue del backend en Railway | TS13.1 | Configurar servicio Web en Railway | Conectar repositorio Backend y configurar variables de entorno | 5 | Curi Marcelo, Angelo Marcio | Done |
+| TS-13 |  | TS13.2 | Verificar Swagger desplegado y conectividad | Validar que `/swagger` responda y los endpoints sean accesibles públicamente | 4 | Curi Marcelo, Angelo Marcio | Done |
+| TS-14 | Pruebas manuales de navegación Flutter | TS14.1 | Validar flujo de auth, perfil y reservas | Recorrer happy path en emulador y dispositivo físico | 5 | Guzmán Cabrejos, Yaku Mateo | Done |
+| TS-14 |  | TS14.2 | Validar flujos de filtros y colecciones | Recorrer happy y unhappy paths en emulador | 4 | Carranza Tesén, Joaquín Enrique | Done |
 
 ## 4.3. Validation Interviews
 En este punto se hiso una validación con los segmentos objetivos sobre nuestro producto de primera fase. 
