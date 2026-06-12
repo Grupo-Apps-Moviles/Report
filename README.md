@@ -4170,8 +4170,9 @@ En esta sección se describen las principales herramientas utilizadas durante el
 
 | Herramienta | Descripción | Enlace |
 |---|---|---|
-| **Visual Studio Code** | Editor utilizado para el desarrollo frontend, Landing Page y configuración general del proyecto. | https://code.visualstudio.com/ |
-| **Android Studio** | IDE utilizado para el desarrollo de la aplicación móvil Android utilizando Kotlin y Jetpack Compose. | https://developer.android.com/studio |
+| **Visual Studio Code** | Editor utilizado para el desarrollo frontend, Landing Page, configuración general del proyecto y desarrollo de la aplicación móvil multiplataforma con Flutter. | https://code.visualstudio.com/ |
+| **Android Studio** | IDE utilizado como entorno principal para el desarrollo de la aplicación móvil nativa Android (Kotlin y Jetpack Compose) y para la emulación/depuración de la aplicación en Flutter. | https://developer.android.com/studio |
+| **Flutter SDK** | Framework de código abierto de Google utilizado para el desarrollo de la aplicación móvil multiplataforma utilizando el lenguaje Dart. | https://flutter.dev/ |
 | **Rider** | Entorno de desarrollo utilizado para implementar el backend con ASP.NET Core y C#. | https://www.jetbrains.com/rider/ |
 | **MySQL Workbench** | Herramienta visual utilizada para administrar y modelar la base de datos MySQL. | https://www.mysql.com/products/workbench/ |
 | **Git** | Sistema de control de versiones utilizado para gestionar cambios en el código fuente. | https://git-scm.com/ |
@@ -4182,7 +4183,7 @@ En esta sección se describen las principales herramientas utilizadas durante el
 | Herramienta | Descripción | Enlace |
 |---|---|---|
 | **Microsoft Azure** | Plataforma cloud considerada para el despliegue futuro del backend ASP.NET Core. | https://azure.microsoft.com/ |
-| **Firebase** | Plataforma considerada para servicios móviles y futuras integraciones de la aplicación Android. | https://firebase.google.com/ |
+| **Firebase** | Plataforma considerada para servicios móviles (Authentication, Cloud Messaging, Firestore) y futuras integraciones tanto de la aplicación Android nativa como de Flutter. | https://firebase.google.com/ |
 | **GitHub Pages** | Servicio utilizado para desplegar la Landing Page del proyecto. | https://pages.github.com/ |
 
 - ## **Software Documentation**
@@ -4216,6 +4217,10 @@ En esta sección se describen las principales herramientas utilizadas durante el
     <tr>
       <td>Android Mobile Application</td>
       <td><a href="https://github.com/Grupo-Apps-Moviles/Android">https://github.com/Grupo-Apps-Moviles/Android</a></td>
+    </tr>
+    <tr>
+      <td>Flutter Mobile Application</td>
+      <td><a href="https://github.com/Grupo-Apps-Moviles/Flutter-Mobile">https://github.com/Grupo-Apps-Moviles/Flutter-Mobile</a></td>
     </tr>
     <tr>
       <td>Backend</td>
@@ -4348,20 +4353,20 @@ docs(README): update index instructions.
   <li><code>2.0.0</code> → Actualización con cambios significativos e incompatibles.</li>
 </ul>
 
-<h4>Configuración de GitHub en Android Studio</h4>
+<h4>Configuración de GitHub en Android Studio y VS Code</h4>
 
-<p>Pasos para vincular Android Studio con GitHub:</p>
+<p>Pasos para vincular Android Studio / VS Code con GitHub:</p>
 
 <ol>
-  <li>Abrir Android Studio y seleccionar <strong>VCS &gt; Enable Version Control Integration</strong>, luego elegir Git.</li>
+  <li>En Android Studio, seleccionar <strong>VCS &gt; Enable Version Control Integration</strong>, luego elegir Git. En VS Code, inicializar el repositorio desde la pestaña de <strong>Source Control</strong>.</li>
 
-  <li>Ingresar a <strong>File &gt; Settings &gt; Version Control &gt; GitHub</strong> y agregar la cuenta de GitHub para sincronizar el proyecto.</li>
+  <li>Vincular la cuenta de GitHub desde los ajustes del entorno (<strong>File &gt; Settings &gt; Version Control &gt; GitHub</strong> en Android Studio o a través de la extensión nativa de GitHub en VS Code).</li>
 
-  <li>Verificar la configuración de Git desde <strong>File &gt; Settings &gt; Version Control &gt; Git</strong>, asegurando que la ruta de Git esté correctamente configurada.</li>
+  <li>Asegurar que la ruta del ejecutable de Git esté correctamente configurada en el sistema.</li>
 
-  <li>Conectar el proyecto con el repositorio remoto mediante <strong>Git &gt; Manage Remotes</strong>, agregando la URL correspondiente del repositorio en GitHub.</li>
+  <li>Conectar el proyecto con el repositorio remoto añadiendo la URL correspondiente de GitHub mediante la terminal (<code>git remote add origin &lt;URL&gt;</code>) o la interfaz gráfica.</li>
 
-  <li>Realizar commits utilizando <strong>Ctrl+K</strong> y enviar cambios al repositorio remoto con <strong>Ctrl+Shift+K</strong>.</li>
+  <li>Realizar commits y pushes periódicos para mantener sincronizado el avance de los módulos de la aplicación (tanto nativa como en Flutter).</li>
 </ol>
 
 ### 4.1.3. Source Code Style Guide & Conventions
@@ -4393,6 +4398,10 @@ docs(README): update index instructions.
       <td><a href="https://developer.android.com/jetpack/compose/documentation">Jetpack Compose Documentation</a></td>
     </tr>
     <tr>
+      <td>Dart / Flutter</td>
+      <td><a href="https://dart.dev/guides/language/effective-dart">Effective Dart Style Guide & Guidelines</a></td>
+    </tr>
+    <tr>
       <td>C#</td>
       <td><a href="https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions">Microsoft C# Coding Conventions</a></td>
     </tr>
@@ -4415,9 +4424,9 @@ docs(README): update index instructions.
   </thead>
   <tbody>
     <tr>
-      <td>Clases (Kotlin/C#)</td>
+      <td>Clases y Mixins (Kotlin/C#/Dart)</td>
       <td>PascalCase</td>
-      <td><code>UserManager</code>, <code>ProductService</code></td>
+      <td><code>UserManager</code>, <code>ProductService</code>, <code>HomeScreen</code></td>
     </tr>
     <tr>
       <td>Interfaces</td>
@@ -4425,29 +4434,29 @@ docs(README): update index instructions.
       <td><code>IUserRepository</code>, <code>IProductService</code></td>
     </tr>
     <tr>
-      <td>Métodos/Funciones</td>
+      <td>Métodos / Funciones</td>
       <td>camelCase / PascalCase</td>
       <td><code>getUserData()</code>, <code>CreateProduct()</code></td>
     </tr>
     <tr>
-      <td>Variables</td>
+      <td>Variables y Parámetros</td>
       <td>camelCase</td>
       <td><code>userName</code>, <code>productList</code></td>
     </tr>
     <tr>
       <td>Constantes</td>
-      <td>SCREAMING_SNAKE_CASE</td>
-      <td><code>BASE_URL</code>, <code>MAX_USERS</code></td>
+      <td>SCREAMING_SNAKE_CASE / camelCase (Dart)</td>
+      <td><code>BASE_URL</code>, <code>apiToken</code></td>
     </tr>
     <tr>
-      <td>Archivos Kotlin</td>
+      <td>Archivos Kotlin y C#</td>
       <td>PascalCase</td>
-      <td><code>MainScreen.kt</code></td>
+      <td><code>MainScreen.kt</code>, <code>UserController.cs</code></td>
     </tr>
     <tr>
-      <td>Archivos C#</td>
-      <td>PascalCase</td>
-      <td><code>UserController.cs</code></td>
+      <td>Archivos y Directorios Dart</td>
+      <td>snake_case</td>
+      <td><code>main_screen.dart</code>, <code>home_page.dart</code></td>
     </tr>
     <tr>
       <td>Clases CSS</td>
@@ -4465,7 +4474,7 @@ docs(README): update index instructions.
 <h4>Sangría</h4>
 
 <p>
-  Se utiliza una indentación de cuatro espacios en archivos Kotlin y C#, mientras que en HTML, CSS y JavaScript se aplica una indentación de dos espacios para mantener consistencia y legibilidad en el código fuente.
+  Se utiliza una indentación de cuatro espacios en archivos Kotlin y C#, mientras que en HTML, CSS, JavaScript y Dart (Flutter) se aplica una indentación de dos espacios para mantener consistencia, legibilidad y cumplir con los formateadores automáticos de la comunidad.
 </p>
 
 <p><strong>Ejemplo HTML:</strong></p>
@@ -4545,6 +4554,37 @@ docs(README): update index instructions.
 }
 </code></pre>
 
+<h5>Dart / Flutter</h5>
+
+<ul>
+  <li>Utilizar <code>lowerCamelCase</code> para nombres de variables, parámetros y métodos.</li>
+  <li>Utilizar <code>UpperCamelCase</code> (PascalCase) para nombres de clases, widgets, enums y tipos de extensiones.</li>
+  <li>Utilizar <code>snake_case</code> para nombres de archivos y carpetas del proyecto.</li>
+  <li>Colocar comas finales (trailing commas) en los argumentos de los widgets estructurados para facilitar el autoformateado.</li>
+  <li>Preferir el uso de constructores <code>const</code> en widgets invariables para optimizar el rendimiento del renderizado.</li>
+</ul>
+
+<p><strong>Ejemplo Dart (Flutter):</strong></p>
+
+<pre><code>import 'package:flutter/material.dart';
+
+class WelcomeScreen extends StatelessWidget {
+  const WelcomeScreen({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Viacore App'),
+      ),
+      body: const Center(
+        child: Text('Welcome to Flutter Application'),
+      ),
+    );
+  }
+}
+</code></pre>
+
 <h5>C# / ASP.NET Core</h5>
 
 <ul>
@@ -4616,28 +4656,22 @@ ENTRYPOINT ["dotnet", "WayPass.dll"]</code></pre>
 </ol>
 <p><strong>URL de despliegue: </strong> <a href="https://backendmoviles-hqu5.onrender.com/index.html">https://backendmoviles-hqu5.onrender.com/index.html</a></p>
 
-<h4>Mobile Application - Android (APK Release)</h4>
-<p>La aplicación Android se distribuye mediante la generación del APK firmado desde Android Studio, con el código fuente alojado en el repositorio <code>Android</code>.</p>
-<p><strong>Pasos de configuración:</strong></p>
+<h4>Mobile Application - Android Nativo e Híbrido Flutter (APK Release)</h4>
+<p>Las aplicaciones móviles (tanto la versión nativa en Android Studio como la multiplataforma compilada en Flutter) se distribuyen mediante la generación de archivos binarios APK firmados.</p>
+<p><strong>Pasos de configuración para la versión Flutter:</strong></p>
 <ol>
-  <li>Acceder al repositorio <code>Grupo-Apps-Moviles/Android</code> en GitHub.</li>
-  <li>Abrir el proyecto en <strong>Android Studio</strong>.</li>
-  <li>Actualizar la URL base del backend en el archivo de configuración (p. ej. <code>Constants.kt</code> o <code>local.properties</code>):
-    <pre><code>BASE_URL=https://backendmoviles-hqu5.onrender.com/index.html/api/</code></pre>
+  <li>Acceder al repositorio <code>Grupo-Apps-Moviles/Flutter</code>.</li>
+  <li>Configurar las variables de entorno o la URL base del backend en el archivo Dart correspondiente (p. ej., <code>lib/core/constants.dart</code>):
+    <pre><code>const String baseUrl = 'https://backendmoviles-hqu5.onrender.com/api/';</code></pre>
   </li>
-  <li>En Android Studio, ir a <strong>Build &gt; Generate Signed Bundle / APK</strong>.</li>
-  <li>Seleccionar <strong>APK</strong>, configurar el keystore del equipo y elegir el build variant <code>release</code>.</li>
-  <li>El APK generado se ubica en <code>app/release/app-release.apk</code>.</li>
-  <li>Subir el APK como <strong>Release Asset</strong> en GitHub:
-    <ul>
-      <li>Ir a <strong>Releases &gt; Draft a new release</strong> en el repositorio.</li>
-      <li>Adjuntar el archivo <code>app-release.apk</code>.</li>
-      <li>Publicar el release con el tag de versión correspondiente (p. ej. <code>v1.0.0</code>).</li>
-    </ul>
+  <li>Configurar las llaves criptográficas de firma en el archivo <code>android/key.properties</code> del proyecto Flutter.</li>
+  <li>Ejecutar el comando de compilación productiva desde la terminal del editor de código:
+    <pre><code>flutter build apk --release</code></pre>
   </li>
-  <li>Verificar la instalación descargando el APK desde la sección Releases del repositorio.</li>
+  <li>El archivo ejecutable resultante se ubicará en la ruta: <code>build/app/outputs/flutter-apk/app-release.apk</code>.</li>
+  <li>Subir el archivo APK como un <strong>Release Asset</strong> dentro de la sección correspondiente en su respectivo repositorio de GitHub asignándole la etiqueta de versión estructurada (p. ej., <code>v1.0.0</code>).</li>
 </ol>
-<p><strong>URL del repositorio Android: </strong> <a href="https://github.com/Grupo-Apps-Moviles/Android">https://github.com/Grupo-Apps-Moviles/Android</a></p>
+<p><strong>URL del repositorio Flutter: </strong> <a href="https://github.com/Grupo-Apps-Moviles/Flutter">https://github.com/Grupo-Apps-Moviles/Flutter</a></p>
 
 ## 4.2. Landing Page & Mobile Application Implementation
 
