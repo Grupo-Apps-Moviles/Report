@@ -359,6 +359,8 @@ El equipo utilizó GitHub como plataforma de colaboración para el control de ve
   - [Stops Services](#stops-services)
       - [4.2.1.7. Software Deployment Evidence for Sprint Review](#4217-software-deployment-evidence-for-sprint-review)
       - [4.2.1.8. Team Collaboration Insights during Sprint](#4218-team-collaboration-insights-during-sprint)
+    - [4.2.2. Sprint 2](#422-sprint-2)
+      - [4.2.2.1. Sprint Planning 2](#4221-sprint-planning-2)
   - [4.3. Validation Interviews](#43-validation-interviews)
     - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
     - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
@@ -1438,6 +1440,7 @@ A continuación, se detallan las historias de usuario organizadas por épicas:
 | **US50** | Seleccionar colección para ruta | Como viajero autenticado, quiero seleccionar la colección a la cual agregar la ruta, para clasificar cada ruta según el contexto | **Escenario 1:** Selección exitosa<br>Dado que quiero agregar una ruta a colección, Cuando selecciono una colección específica, Entonces la ruta debe agregarse a esa colección. | EP04 |
 | **US51** | Quitar ruta de colección | Como viajero autenticado, quiero quitar una ruta de una colección, para eliminar rutas que ya no me interesan o cambiaron de planes | **Escenario 1:** Eliminación exitosa<br>Dado que tengo rutas en una colección, Cuando selecciono quitar una ruta, Entonces debe desaparecer de esa colección específica. | EP04 |
 | **US52** | Ver rutas de colección | Como viajero autenticado, quiero entrar a una colección específica y ver la lista de rutas guardadas | **Escenario 1:** Visualización correcta<br>Dado que tengo rutas guardadas en una colección, Cuando accedo a esa colección, Entonces debo ver todas las rutas que he guardado en ella. | EP05 |
+| **US53** | Reservar un viaje | Como pasajero autenticado, quiero reservar un viaje en una ruta disponible para asegurar mi cupo antes de abordar el colectivo. | **Escenario 1:** Reserva exitosa<br>Dado que he iniciado sesión y visualizo el detalle de una ruta disponible, Cuando selecciono "Reservar" y confirmo la operación, Entonces el sistema registra la reserva y muestra su estado como confirmada.<br>**Escenario 2:** Ruta no disponible<br>Dado que intento reservar una ruta inactiva o sin cupos, Cuando confirmo la reserva, Entonces el sistema muestra un mensaje indicando que la reserva no pudo completarse. | EP01 |
 | **TS01** | Configuración de Fake API (JSON Server) | Como desarrollador, quiero configurar una Fake API usando JSON Server para simular datos y endpoints. | **Escenario 1:** Configuración inicial<br>Dado que tengo JSON Server instalado, Cuando configuro el archivo db.json, Entonces debe iniciarse correctamente con los endpoints configurados. | EP05 |
 | **TS02** | Simulación de regiones, provincias y distritos | Como desarrollador, quiero simular regiones, provincias y distritos para organizar las zonas de operación de los colectivos. | **Escenario 1:** Visualización correcta<br>Dado que accedo a la Fake API, Cuando consulto los endpoints de regiones, provincias y distritos, Entonces deben listarse correctamente según la relación establecida. | EP05 |
 | **TS03** | Simulación de paraderos y localidades | Como desarrollador, quiero definir paraderos y localidades para representar puntos de embarque y desembarque. | **Escenario 1:** Paraderos visibles<br>Dado que accedo a la Fake API, Cuando consulto el endpoint de paraderos, Entonces deben mostrarse correctamente con su localidad correspondiente. | EP05 |
@@ -1532,6 +1535,7 @@ A continuación, se detalla la lista priorizada de ítems del backlog:
 | 61 | US13 | Conocer las ventajas del servicio | Como visitante, deseo conocer las ventajas de usar la plataforma para decidirme a utilizarla. | 2 |
 | 62 | US14 | Acceder a preguntas frecuentes (FAQ) | Como visitante, deseo resolver mis dudas rápidamente leyendo preguntas frecuentes. | 2 |
 | 63 | US15 | Postular como colaborador | Como visitante, deseo tener una opción para colaborar con la plataforma para aportar al crecimiento del servicio. | 3 |
+| 64 | US53 | Reservar un viaje | Como pasajero autenticado, deseo reservar un viaje en una ruta disponible para asegurar mi cupo antes de abordar. | 6 |
 
 ## 2.5. Strategic-Level Domain-Driven Design
 
@@ -4166,8 +4170,9 @@ En esta sección se describen las principales herramientas utilizadas durante el
 
 | Herramienta | Descripción | Enlace |
 |---|---|---|
-| **Visual Studio Code** | Editor utilizado para el desarrollo frontend, Landing Page y configuración general del proyecto. | https://code.visualstudio.com/ |
-| **Android Studio** | IDE utilizado para el desarrollo de la aplicación móvil Android utilizando Kotlin y Jetpack Compose. | https://developer.android.com/studio |
+| **Visual Studio Code** | Editor utilizado para el desarrollo frontend, Landing Page, configuración general del proyecto y desarrollo de la aplicación móvil multiplataforma con Flutter. | https://code.visualstudio.com/ |
+| **Android Studio** | IDE utilizado como entorno principal para el desarrollo de la aplicación móvil nativa Android (Kotlin y Jetpack Compose) y para la emulación/depuración de la aplicación en Flutter. | https://developer.android.com/studio |
+| **Flutter SDK** | Framework de código abierto de Google utilizado para el desarrollo de la aplicación móvil multiplataforma utilizando el lenguaje Dart. | https://flutter.dev/ |
 | **Rider** | Entorno de desarrollo utilizado para implementar el backend con ASP.NET Core y C#. | https://www.jetbrains.com/rider/ |
 | **MySQL Workbench** | Herramienta visual utilizada para administrar y modelar la base de datos MySQL. | https://www.mysql.com/products/workbench/ |
 | **Git** | Sistema de control de versiones utilizado para gestionar cambios en el código fuente. | https://git-scm.com/ |
@@ -4178,7 +4183,7 @@ En esta sección se describen las principales herramientas utilizadas durante el
 | Herramienta | Descripción | Enlace |
 |---|---|---|
 | **Microsoft Azure** | Plataforma cloud considerada para el despliegue futuro del backend ASP.NET Core. | https://azure.microsoft.com/ |
-| **Firebase** | Plataforma considerada para servicios móviles y futuras integraciones de la aplicación Android. | https://firebase.google.com/ |
+| **Firebase** | Plataforma considerada para servicios móviles (Authentication, Cloud Messaging, Firestore) y futuras integraciones tanto de la aplicación Android nativa como de Flutter. | https://firebase.google.com/ |
 | **GitHub Pages** | Servicio utilizado para desplegar la Landing Page del proyecto. | https://pages.github.com/ |
 
 - ## **Software Documentation**
@@ -4212,6 +4217,10 @@ En esta sección se describen las principales herramientas utilizadas durante el
     <tr>
       <td>Android Mobile Application</td>
       <td><a href="https://github.com/Grupo-Apps-Moviles/Android">https://github.com/Grupo-Apps-Moviles/Android</a></td>
+    </tr>
+    <tr>
+      <td>Flutter Mobile Application</td>
+      <td><a href="https://github.com/Grupo-Apps-Moviles/Flutter-Mobile">https://github.com/Grupo-Apps-Moviles/Flutter-Mobile</a></td>
     </tr>
     <tr>
       <td>Backend</td>
@@ -4344,20 +4353,20 @@ docs(README): update index instructions.
   <li><code>2.0.0</code> → Actualización con cambios significativos e incompatibles.</li>
 </ul>
 
-<h4>Configuración de GitHub en Android Studio</h4>
+<h4>Configuración de GitHub en Android Studio y VS Code</h4>
 
-<p>Pasos para vincular Android Studio con GitHub:</p>
+<p>Pasos para vincular Android Studio / VS Code con GitHub:</p>
 
 <ol>
-  <li>Abrir Android Studio y seleccionar <strong>VCS &gt; Enable Version Control Integration</strong>, luego elegir Git.</li>
+  <li>En Android Studio, seleccionar <strong>VCS &gt; Enable Version Control Integration</strong>, luego elegir Git. En VS Code, inicializar el repositorio desde la pestaña de <strong>Source Control</strong>.</li>
 
-  <li>Ingresar a <strong>File &gt; Settings &gt; Version Control &gt; GitHub</strong> y agregar la cuenta de GitHub para sincronizar el proyecto.</li>
+  <li>Vincular la cuenta de GitHub desde los ajustes del entorno (<strong>File &gt; Settings &gt; Version Control &gt; GitHub</strong> en Android Studio o a través de la extensión nativa de GitHub en VS Code).</li>
 
-  <li>Verificar la configuración de Git desde <strong>File &gt; Settings &gt; Version Control &gt; Git</strong>, asegurando que la ruta de Git esté correctamente configurada.</li>
+  <li>Asegurar que la ruta del ejecutable de Git esté correctamente configurada en el sistema.</li>
 
-  <li>Conectar el proyecto con el repositorio remoto mediante <strong>Git &gt; Manage Remotes</strong>, agregando la URL correspondiente del repositorio en GitHub.</li>
+  <li>Conectar el proyecto con el repositorio remoto añadiendo la URL correspondiente de GitHub mediante la terminal (<code>git remote add origin &lt;URL&gt;</code>) o la interfaz gráfica.</li>
 
-  <li>Realizar commits utilizando <strong>Ctrl+K</strong> y enviar cambios al repositorio remoto con <strong>Ctrl+Shift+K</strong>.</li>
+  <li>Realizar commits y pushes periódicos para mantener sincronizado el avance de los módulos de la aplicación (tanto nativa como en Flutter).</li>
 </ol>
 
 ### 4.1.3. Source Code Style Guide & Conventions
@@ -4389,6 +4398,10 @@ docs(README): update index instructions.
       <td><a href="https://developer.android.com/jetpack/compose/documentation">Jetpack Compose Documentation</a></td>
     </tr>
     <tr>
+      <td>Dart / Flutter</td>
+      <td><a href="https://dart.dev/guides/language/effective-dart">Effective Dart Style Guide & Guidelines</a></td>
+    </tr>
+    <tr>
       <td>C#</td>
       <td><a href="https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions">Microsoft C# Coding Conventions</a></td>
     </tr>
@@ -4411,9 +4424,9 @@ docs(README): update index instructions.
   </thead>
   <tbody>
     <tr>
-      <td>Clases (Kotlin/C#)</td>
+      <td>Clases y Mixins (Kotlin/C#/Dart)</td>
       <td>PascalCase</td>
-      <td><code>UserManager</code>, <code>ProductService</code></td>
+      <td><code>UserManager</code>, <code>ProductService</code>, <code>HomeScreen</code></td>
     </tr>
     <tr>
       <td>Interfaces</td>
@@ -4421,29 +4434,29 @@ docs(README): update index instructions.
       <td><code>IUserRepository</code>, <code>IProductService</code></td>
     </tr>
     <tr>
-      <td>Métodos/Funciones</td>
+      <td>Métodos / Funciones</td>
       <td>camelCase / PascalCase</td>
       <td><code>getUserData()</code>, <code>CreateProduct()</code></td>
     </tr>
     <tr>
-      <td>Variables</td>
+      <td>Variables y Parámetros</td>
       <td>camelCase</td>
       <td><code>userName</code>, <code>productList</code></td>
     </tr>
     <tr>
       <td>Constantes</td>
-      <td>SCREAMING_SNAKE_CASE</td>
-      <td><code>BASE_URL</code>, <code>MAX_USERS</code></td>
+      <td>SCREAMING_SNAKE_CASE / camelCase (Dart)</td>
+      <td><code>BASE_URL</code>, <code>apiToken</code></td>
     </tr>
     <tr>
-      <td>Archivos Kotlin</td>
+      <td>Archivos Kotlin y C#</td>
       <td>PascalCase</td>
-      <td><code>MainScreen.kt</code></td>
+      <td><code>MainScreen.kt</code>, <code>UserController.cs</code></td>
     </tr>
     <tr>
-      <td>Archivos C#</td>
-      <td>PascalCase</td>
-      <td><code>UserController.cs</code></td>
+      <td>Archivos y Directorios Dart</td>
+      <td>snake_case</td>
+      <td><code>main_screen.dart</code>, <code>home_page.dart</code></td>
     </tr>
     <tr>
       <td>Clases CSS</td>
@@ -4461,7 +4474,7 @@ docs(README): update index instructions.
 <h4>Sangría</h4>
 
 <p>
-  Se utiliza una indentación de cuatro espacios en archivos Kotlin y C#, mientras que en HTML, CSS y JavaScript se aplica una indentación de dos espacios para mantener consistencia y legibilidad en el código fuente.
+  Se utiliza una indentación de cuatro espacios en archivos Kotlin y C#, mientras que en HTML, CSS, JavaScript y Dart (Flutter) se aplica una indentación de dos espacios para mantener consistencia, legibilidad y cumplir con los formateadores automáticos de la comunidad.
 </p>
 
 <p><strong>Ejemplo HTML:</strong></p>
@@ -4541,6 +4554,37 @@ docs(README): update index instructions.
 }
 </code></pre>
 
+<h5>Dart / Flutter</h5>
+
+<ul>
+  <li>Utilizar <code>lowerCamelCase</code> para nombres de variables, parámetros y métodos.</li>
+  <li>Utilizar <code>UpperCamelCase</code> (PascalCase) para nombres de clases, widgets, enums y tipos de extensiones.</li>
+  <li>Utilizar <code>snake_case</code> para nombres de archivos y carpetas del proyecto.</li>
+  <li>Colocar comas finales (trailing commas) en los argumentos de los widgets estructurados para facilitar el autoformateado.</li>
+  <li>Preferir el uso de constructores <code>const</code> en widgets invariables para optimizar el rendimiento del renderizado.</li>
+</ul>
+
+<p><strong>Ejemplo Dart (Flutter):</strong></p>
+
+<pre><code>import 'package:flutter/material.dart';
+
+class WelcomeScreen extends StatelessWidget {
+  const WelcomeScreen({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Viacore App'),
+      ),
+      body: const Center(
+        child: Text('Welcome to Flutter Application'),
+      ),
+    );
+  }
+}
+</code></pre>
+
 <h5>C# / ASP.NET Core</h5>
 
 <ul>
@@ -4612,28 +4656,22 @@ ENTRYPOINT ["dotnet", "WayPass.dll"]</code></pre>
 </ol>
 <p><strong>URL de despliegue: </strong> <a href="https://backendmoviles-hqu5.onrender.com/index.html">https://backendmoviles-hqu5.onrender.com/index.html</a></p>
 
-<h4>Mobile Application - Android (APK Release)</h4>
-<p>La aplicación Android se distribuye mediante la generación del APK firmado desde Android Studio, con el código fuente alojado en el repositorio <code>Android</code>.</p>
-<p><strong>Pasos de configuración:</strong></p>
+<h4>Mobile Application - Android Nativo e Híbrido Flutter (APK Release)</h4>
+<p>Las aplicaciones móviles (tanto la versión nativa en Android Studio como la multiplataforma compilada en Flutter) se distribuyen mediante la generación de archivos binarios APK firmados.</p>
+<p><strong>Pasos de configuración para la versión Flutter:</strong></p>
 <ol>
-  <li>Acceder al repositorio <code>Grupo-Apps-Moviles/Android</code> en GitHub.</li>
-  <li>Abrir el proyecto en <strong>Android Studio</strong>.</li>
-  <li>Actualizar la URL base del backend en el archivo de configuración (p. ej. <code>Constants.kt</code> o <code>local.properties</code>):
-    <pre><code>BASE_URL=https://backendmoviles-hqu5.onrender.com/index.html/api/</code></pre>
+  <li>Acceder al repositorio <code>Grupo-Apps-Moviles/Flutter</code>.</li>
+  <li>Configurar las variables de entorno o la URL base del backend en el archivo Dart correspondiente (p. ej., <code>lib/core/constants.dart</code>):
+    <pre><code>const String baseUrl = 'https://backendmoviles-hqu5.onrender.com/api/';</code></pre>
   </li>
-  <li>En Android Studio, ir a <strong>Build &gt; Generate Signed Bundle / APK</strong>.</li>
-  <li>Seleccionar <strong>APK</strong>, configurar el keystore del equipo y elegir el build variant <code>release</code>.</li>
-  <li>El APK generado se ubica en <code>app/release/app-release.apk</code>.</li>
-  <li>Subir el APK como <strong>Release Asset</strong> en GitHub:
-    <ul>
-      <li>Ir a <strong>Releases &gt; Draft a new release</strong> en el repositorio.</li>
-      <li>Adjuntar el archivo <code>app-release.apk</code>.</li>
-      <li>Publicar el release con el tag de versión correspondiente (p. ej. <code>v1.0.0</code>).</li>
-    </ul>
+  <li>Configurar las llaves criptográficas de firma en el archivo <code>android/key.properties</code> del proyecto Flutter.</li>
+  <li>Ejecutar el comando de compilación productiva desde la terminal del editor de código:
+    <pre><code>flutter build apk --release</code></pre>
   </li>
-  <li>Verificar la instalación descargando el APK desde la sección Releases del repositorio.</li>
+  <li>El archivo ejecutable resultante se ubicará en la ruta: <code>build/app/outputs/flutter-apk/app-release.apk</code>.</li>
+  <li>Subir el archivo APK como un <strong>Release Asset</strong> dentro de la sección correspondiente en su respectivo repositorio de GitHub asignándole la etiqueta de versión estructurada (p. ej., <code>v1.0.0</code>).</li>
 </ol>
-<p><strong>URL del repositorio Android: </strong> <a href="https://github.com/Grupo-Apps-Moviles/Android">https://github.com/Grupo-Apps-Moviles/Android</a></p>
+<p><strong>URL del repositorio Flutter: </strong> <a href="https://github.com/Grupo-Apps-Moviles/Flutter">https://github.com/Grupo-Apps-Moviles/Flutter</a></p>
 
 ## 4.2. Landing Page & Mobile Application Implementation
 
@@ -5037,6 +5075,108 @@ El equipo utilizó GitHub como plataforma de colaboración para el control de ve
 **App Mobile:**
 
 <img width="918" height="833" alt="image" src="https://github.com/user-attachments/assets/829e995e-7cb9-4646-835b-d81d083e40fc" />
+
+### 4.2.2. Sprint 2
+
+En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo para el Sprint 2. Incluye como secciones internas: Sprint Planning 2, Sprint Backlog 2, Development Evidence for Sprint Review, Testing Suite Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review y Team Collaboration Insights during Sprint. El alcance de este Sprint se centra en el desarrollo de la aplicación móvil del segmento Pasajero en Flutter y en la incorporación de la capacidad de reservas en la plataforma.
+
+#### 4.2.2.1. Sprint Planning 2
+
+En esta sección se presenta el Sprint Planning Meeting correspondiente al segundo sprint del proyecto WayPass, en el cual el equipo definió el objetivo, las historias de usuario a abordar y la velocidad acordada para esta iteración, enfocada en la aplicación móvil del segmento Pasajero (Flutter) y la habilitación de reservas de viajes.
+
+| | |
+|---|---|
+| **Sprint #** | Sprint 2 |
+| **Sprint Planning Background** | |
+| Date | 2026-05-28 |
+| Time | 09:00 PM |
+| Location | Reunión virtual mediante Discord |
+| Prepared By | Guzmán Cabrejos, Yaku Mateo |
+| Attendees (to planning meeting) | Velarde Gonzales, Néstor Hernán / Curi Marcelo, Angelo Marcio / Guzmán Cabrejos, Yaku Mateo / Quiroz Cáceres, Adrian / Carranza Tesén, Joaquín Enrique |
+| **Sprint 1 Review Summary** | Durante el Sprint 1 se entregó la aplicación móvil del segmento Conductor en Android (Kotlin/Jetpack Compose), con autenticación, dashboard, gestión completa (CRUD) de rutas y paraderos, programación de horarios, visualización en mapa y perfil. En el backend se implementaron los bounded contexts de IAM, Routes, Stops y Subscriptions, junto con la integración de pagos con PayPal, y se desplegó la Landing Page en GitHub Pages. El Product Owner valoró positivamente el avance y la entrega obtuvo una calificación de 19/20 en la AV1. |
+| **Sprint 1 Retrospective Summary** | El equipo identificó como principales aciertos la consolidación de la arquitectura DDD en el backend y la aplicación de un design system unificado (WayPassTheme). Como oportunidades de mejora se señalaron: distribuir de forma más equitativa los commits entre todos los integrantes y mantener una disciplina estricta de GitFlow (creación de ramas `main` y `develop`) en el nuevo repositorio de la aplicación Flutter. |
+| **Sprint Goal & User Stories** | |
+| Sprint 2 Goal | Our focus is on launching the WayPass passenger experience on Flutter and enabling trip reservations across the platform. We believe it delivers self-service onboarding, route discovery, favorite collections and trip reservations to passengers, and reservation-management groundwork to the business. This will be confirmed when passengers can register, log in and manage their profile, filter and explore routes and stops by location, organize routes into favorite collections, and reserve a trip through the reservation endpoints exposed by the backend. |
+| Sprint 2 Velocity | 70 |
+| Sum of Story Points | 64 |
+
+#### 4.2.2.3. Development Evidence for Sprint Review
+
+## Development Evidence for Sprint Review
+
+Durante este sprint se avanzó en la implementación de los productos principales de la solución WayPass: el backend (Web Services) y la nueva aplicación móvil desarrollada en Flutter.
+
+------
+
+### Web Services — Backend
+
+| Repository | Branch | Commit ID | Commit Message | Committed by | Date |
+|---|---|---|---|---|---|
+| Backend | main | 9680e5f | solutions | velardesoft | Jun 9, 2026 |
+| Backend | main | 4ecf87e | Add README documentation for backend project | velardesoft | May 28, 2026 |
+| Backend | main | 24f8d7d | feat: Agregate new Bound de context | velardesoft | May 28, 2026 |
+| Backend | main | a2ea0330 | feat: Initial Commit | velardesoft | May 28, 2026 |
+
+### Mobile Application — Flutter
+
+| Repository | Branch | Commit ID | Commit Message | Committed by | Date |
+|---|---|---|---|---|---|
+| Flutter | main | a947d7e | feat: Finaly Profile | velardesoft | Jun 6, 2026 |
+| Flutter | main | 3309a37 | feat: Register ProfileRepository and ProfileViewModel in dependency injection setup | velardesoft | Jun 6, 2026 |
+| Flutter | main | 4d55f52 | feat: Enhance profile management by adding username and email handling, and implement ProfileRepository and ProfileViewModel for user profile loading and logout functionality | velardesoft | Jun 6, 2026 |
+| Flutter | main | 19d9c19 | feat: Add ProfileRepository and UserProfile classes for user profile management | velardesoft | Jun 6, 2026 |
+| Flutter | main | d7f6258 | feat: finaly auth | velardesoft | Jun 6, 2026 |
+| Flutter | main | d64c778 | feat: Enhance LoginPage with welcome message and improve navigation to RegisterPage | velardesoft | Jun 6, 2026 |
+| Flutter | main | e9c6091 | feat: Add RegisterPage for user registration with role selection and error handling | velardesoft | Jun 6, 2026 |
+| Flutter | main | b53491e | feat: Improve navigation handling in LoginPage to prevent back navigation after login | velardesoft | Jun 6, 2026 |
+| Flutter | main | 021dc24 | fix: Update base URL in AuthService for correct API endpoint in Android emulator | velardesoft | Jun 6, 2026 |
+| Flutter | main | 603c13c | feat: Refactor main function and application routing for improved initialization and structure | velardesoft | Jun 6, 2026 |
+| Flutter | main | 33c11ff | feat: Refactor LoginPage and LoginViewModel for improved user experience and error handling | velardesoft | Jun 6, 2026 |
+| Flutter | main | 10aeee7 | feat: Enhance dependency injection setup to include TokenManager for improved authentication handling | velardesoft | Jun 6, 2026 |
+| Flutter | main | e1f09e6 | feat: Implement TokenManager for handling user authentication tokens and session management | velardesoft | Jun 6, 2026 |
+| Flutter | main | 5191571 | refactor: Update signIn and signUp methods for improved return types and error handling | velardesoft | Jun 6, 2026 |
+| Flutter | main | f694d7e | refactor: Update AuthService and SignUpRequestDto for improved error handling and required fields | velardesoft | Jun 6, 2026 |
+| Flutter | main | 25f582a | refactor: Update AuthRepository and User model to improve type safety and structure | velardesoft | Jun 6, 2026 |
+| Flutter | main | 0499ea6 | feat: Add MainPage with bottom navigation and linked feature pages | velardesoft | Jun 6, 2026 |
+| Flutter | main | ac050c0 | feat: Add ProfilePage and ReservationPage as StatelessWidgets with placeholder content | velardesoft | Jun 6, 2026 |
+| Flutter | main | 1a700b8 | feat: Add FavoritePage and HomePage as StatelessWidgets with placeholder content | velardesoft | Jun 6, 2026 |
+| Flutter | main | cbcf145 | fix: Update base URL in AuthService to point to the local backend | velardesoft | Jun 6, 2026 |
+| Flutter | main | a394cad | feat: Implement dependency injection for authentication services and view model | velardesoft | Jun 6, 2026 |
+| Flutter | main | c6f67c7 | feat: Implement LoginViewModel with signIn and signUp methods handling login states | velardesoft | Jun 6, 2026 |
+| Flutter | main | f2b1f38 | feat: Implement AuthRepositoryImpl with signIn and signUp methods | velardesoft | Jun 6, 2026 |
+| Flutter | main | aa76b80 | chore: Update pubspec.yaml and pubspec.lock with new package versions and dependencies | velardesoft | Jun 6, 2026 |
+| Flutter | main | 91cb0ba | feat: Implement data transfer objects for authentication including AuthResponseDto, SignInRequestDto, and SignUpRequestDto | velardesoft | Jun 6, 2026 |
+| Flutter | main | 41c12fd | feat: Add initial authentication feature files including repository, DTOs, and presentation components | velardesoft | Jun 6, 2026 |
+| Flutter | main | 7c40d80 | feat: Add initial web files for Flutter project including index.html and manifest.json | velardesoft | Jun 6, 2026 |
+
+#### 4.2.2.4. Testing Suite Evidence for Sprint Review
+
+Durante el Sprint 02 se realizaron pruebas manuales de navegación utilizando el emulador de Android Studio
+y el simulador de iOS, con el objetivo de validar el correcto funcionamiento de la nueva aplicación móvil
+desarrollada en Flutter, la cual permite la compatibilidad con iOS y Android desde una única base de código.
+
+Se verificó que:
+
+- El sistema de rutas implementado en Flutter opere correctamente en ambas plataformas sin errores
+  de navegación.
+- Los flujos:
+  - Login
+  - Register
+  - Profile
+  - Home
+  - Navegación principal (Bottom Navigation Bar)
+
+dichos procesos se ejecuten de manera continua y estable tanto en Android como en iOS.
+
+Adicionalmente, se validó que:
+
+- El `TokenManager` gestione correctamente el almacenamiento y recuperación del token de autenticación
+  en ambas plataformas.
+- El sistema de inyección de dependencias inicialice correctamente los servicios de autenticación y perfil.
+- La navegación post-login impida el retorno a pantallas de autenticación en ambos sistemas operativos.
+
+Los resultados obtenidos confirman que el desarrollo en Flutter permite extender el alcance de WayPass
+a usuarios iOS, garantizando una experiencia consistente entre plataformas desde una sola base de código.
 
 ## 4.3. Validation Interviews
 En este punto se hiso una validación con los segmentos objetivos sobre nuestro producto de primera fase. 
