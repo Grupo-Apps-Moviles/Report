@@ -5178,6 +5178,24 @@ Adicionalmente, se validó que:
 Los resultados obtenidos confirman que el desarrollo en Flutter permite extender el alcance de WayPass
 a usuarios iOS, garantizando una experiencia consistente entre plataformas desde una sola base de código.
 
+### 4.2.3. Sprint 3
+
+#### 4.2.3.1. Sprint Planning 2
+
+#### 4.2.3.2. Sprint Backlog 3
+
+#### 4.2.3.3. Development Evidence for Sprint Review
+
+#### 4.2.3.4. Testing Suite Evidence for Sprint Review
+
+#### 4.2.3.5. Execution Evidence for Sprint Review
+
+#### 4.2.3.6. Services Documentation Evidence for Sprint Review
+
+#### 4.2.3.7. Software Deployment Evidence for Sprint Review
+
+#### 4.2.3.8. Team Collaboration Insights during Sprin
+
 ## 4.3. Validation Interviews
 En este punto se hiso una validación con los segmentos objetivos sobre nuestro producto de primera fase. 
 
