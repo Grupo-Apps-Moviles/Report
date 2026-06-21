@@ -133,9 +133,9 @@ A continuación, se presentan los principales colaboradores del proyecto:
 | Quiroz Cáceres, Adrian | U202214864 | @Aqc1019 |
 | Carranza Tesén, Joaquín Enrique | U20191B935 | @thepima |
 
-El equipo utilizó GitHub como plataforma de colaboración para el control de versiones, integración de cambios, seguimiento de avances y trabajo colaborativo durante el Sprint 01 - Trabajo Parcial.
+El equipo utilizó GitHub como plataforma de colaboración para el control de versiones, integración de cambios, seguimiento de avances y trabajo colaborativo durante el Sprint 02 - Avance02.
 
-<img width="906" height="695" alt="Image" src="https://github.com/user-attachments/assets/553f2a55-d450-416e-8d4e-e482bd93ea84" />
+<img width="916" height="703" alt="Image" src="https://github.com/user-attachments/assets/72da4b66-8c45-41c7-a02c-a8258b5f2874" />
 
 <div style="page-break-after: always;"></div>
 
