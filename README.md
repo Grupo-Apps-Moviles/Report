@@ -5465,6 +5465,10 @@ El presente video presenta de forma promocional la propuesta de valor de nuestro
         <td><strong>About the product<strong></td>
         <td><a href="https://shorturl.at/Wj2JC" target="_blank">Ver Video About the Product</td>
     </tr>
+    <tr>
+        <td><strong>Descargar APK (Kotlin y Flutter)<strong></td>
+        <td><a href="https://upcedupe-my.sharepoint.com/:f:/g/personal/u202022387_upc_edu_pe/IgCxI9c4eQngTrVgDjx7YlZdAY8dLHSk1FGMaDwICrtlEAM?e=fkK8Xo" target="_blank">Ver Video About the Product</td>
+    </tr>
   </tbody>
 </table>
 
