@@ -5180,9 +5180,204 @@ a usuarios iOS, garantizando una experiencia consistente entre plataformas desde
 
 #### 4.2.2.5. Execution Evidence for Sprint Review
 
+Durante este primer Sprint se logró implementar componentes del ecosistema del segmento objetivo Pasajeros de la solución Viacore, incluyendo el desarrollo:
+
+- Backend API (C#, .NET)
+- Aplicación móvil. 
+
+Cada componente fue desarrollado y probado de manera funcional para validar la arquitectura inicial del sistema.
+
+A continuación, se presentan las evidencias de ejecución de los productos desarrollados:
+
+## Backend (.net C#)
+
+El backend del proyecto Viacore fue desarrollado utilizando ASP.NET Core Web API con C# y una arquitectura orientada a servicios RESTful. El objetivo principal de esta capa es centralizar la lógica de negocio, la gestión de datos y la comunicación entre la aplicación móvil y la base de datos MySQL.
+
+La arquitectura DDD permitió organizar las entidades, agregados, servicios y repositorios del sistema de manera modular, facilitando el mantenimiento del código y la evolución progresiva de la plataforma Viacore.
+
+<img width="1842" height="4131" alt="Image" src="https://github.com/user-attachments/assets/ffb6896a-cd86-4723-9859-fb894c4efd74" />
+
+## Base de datos (MySql)
+
+La base de datos del proyecto Viacore fue diseñada utilizando MySQL como sistema de gestión de bases de datos relacional, permitiendo almacenar y administrar la información principal de la plataforma de transporte colectivo.
+
+<img width="986" height="1276" alt="Image" src="https://github.com/user-attachments/assets/e4f7a581-5a70-412d-8a12-6dd731c07376" />
+
+# Tablas Principales
+
+| Tabla | Descripción | Relaciones Principales |
+| :--- | :--- | :--- |
+| **users** | Almacena los datos de los usuarios de la plataforma (pasajeros, administradores, etc.), incluyendo credenciales y roles. | Se relaciona con **companies** (creador), **company_memberships**, **favorite_routes** (como pasajero) y **reservations**. |
+| **companies** | Representa a las empresas integradas en el sistema que gestionan personal o servicios. | Pertenece a un creador en **users** (`fk_id_user`) y se relaciona con **subscriptions**, **company_memberships** y **stops**. |
+| **subscriptions** | Registra el estado de los pagos, planes y vigencia de las suscripciones de Paypal de cada empresa. | Pertenece a una empresa en **companies** (`companies_id`). |
+| **company_memberships** | Modera los miembros o empleados que pertenecen a una empresa específica y sus respectivos roles dentro de ella. | Conecta **companies** con **users**. |
+| **stops** | Almacena los paraderos o puntos de parada físicos con su respectiva información de contacto y ubicación. | Pertenece a una empresa en **companies** (`fk_id_company`) y a un distrito en **districts** (`fk_id_district`). Conecta con **route_stops**. |
+| **routes** | Guarda las rutas maestras disponibles en el sistema, definiendo su precio, duración estimada y frecuencia. | Se relaciona con **route_stops**, **favorite_routes**, **reservation_routes** y **schedules**. |
+| **route_stops** | Tabla intermedia que mapea los paraderos específicos que componen el trayecto de cada ruta. | Conecta **routes** con **stops**. |
+| **favorite_routes** | Permite a los pasajeros guardar y acceder rápidamente a sus rutas preferidas en la aplicación. | Conecta **users** (`passenger_id`) con **routes** (`route_id`). |
+| **schedules** | Administra las horas de salida, días de la semana operativos y el chofer asignado para realizar una ruta. | Pertenece a una ruta en **routes** (`route_id`). |
+| **reservations** | Controla las reservas de viajes hechas por los usuarios, las tarifas aplicadas, comisiones y el estado del pago. | Registra al usuario que reserva en **users** (`user_id`) y se conecta con **reservation_routes**. |
+| **reservation_routes** | Tabla intermedia que asocia las reservas con las rutas específicas que el cliente solicitó viajar. | Conecta **reservations** con **routes**. |
+| **regions** | Define el nivel macro de la división geopolítica (Regiones) registradas en la plataforma. | Se relaciona con **provinces**. |
+| **provinces** | Contiene las provincias del sistema, sirviendo como escalón intermedio geográfico. | Pertenece a **regions** (`fk_id_region`) y se relaciona con **districts**. |
+| **districts** | Guarda los distritos específicos, completando la jerarquía de ubicación necesaria para situar los paraderos. | Pertenece a **provinces** (`fk_id_province`) y se relaciona directamente con **stops**. |
+
+## Android Móvil (Flutter)
+
+La aplicación móvil de Viacore fue desarrollada en Android y representa el componente principal de interacción del sistema, orientada a pasajeros del servicio de transporte colectivo. Durante este Sprint se implementaron y refinaron todas las pantallas core de la aplicación, logrando una interfaz moderna que aplica patrones de diseño móvil actuales.
+
+**Alcance entregado (Sprint 2)**
+
+* **Implementación completa del flujo de autenticación (Login):** Interfaz personalizada basada en degradados, controles de acceso y validación de campos.
+* **Módulo de exploración de viajes (Travel):** Listado de rutas disponibles con visualización de tarifas, tiempos estimados y opción de reserva directa.
+* **Sistema de reservas (Reservation):** Visualización del historial de viajes con estado de pago, detalles del trayecto e identificador de transacción (PayPal).
+* **Gestión de rutas preferidas (Favorites):** Acceso rápido y opción de eliminación de trayectos guardados previamente por el usuario.
+* **Pantalla de perfil de usuario (Profile):** Despliegue estructurado de datos de la cuenta (nombre, correo, rol de pasajero) y botón de cierre de sesión seguro.
+* **Barra de navegación inferior:** Menú persistente unificado para una transición fluida entre las cuatro secciones principales de la aplicación.
+
+**Pantallas implementadas**
+
+| Pantalla | Descripción |
+|---|---|
+| **Login** | Autenticación con degradado de fondo en tonos morados, formulario centralizado en tarjeta blanca con campos de entrada con íconos descriptivos y botón principal "Ingresar" redondeado. |
+| **Profile** | Pantalla "Mi Perfil" con avatar circular, listado estructurado de datos (Nombre de usuario, Correo electrónico, Tipo de Cuenta) en una tarjeta de bordes redondeados con íconos, y botón inferior destacado para "Cerrar sesión". |
+| **Travel (Rutas Disponibles)** | Listado de viajes disponibles en formato de tarjetas con imagen de marcador de posición de autobús, botón con ícono de corazón para favoritos, detalles de ubicación, tiempo estimado, precio destacado y botón de acción directa "Reservar". |
+| **Reservation (Mis Reservas)** | Historial de reservas que presenta tarjetas individuales con etiqueta de estado "Pagado" en verde, detallando de forma limpia el ID de la ruta, ID del conductor, monto de la transacción y código de confirmación de PayPal. |
+| **Favorites (Mis Favoritos)** | Listado de rutas preferidas guardadas por el usuario, organizadas en tarjetas visuales idénticas a las de búsqueda pero con un ícono de papelera (eliminar) de acceso rápido. |
+
+A continuación, las capturas de las pantallas principales de la versión entregada:
+
+<img width="180" alt="Image" src="https://github.com/user-attachments/assets/d370aa15-711e-4fb1-ac29-2be1264145d9" />
+<img width="180" alt="Image" src="https://github.com/user-attachments/assets/abc62f4a-58ed-4707-b14e-5cf3fc61c881" />
+<img width="180" alt="Image" src="https://github.com/user-attachments/assets/f714faab-2f77-4756-8079-86376e14d254" />
+<img width="180" alt="Image" src="https://github.com/user-attachments/assets/50b523f7-5faa-4203-af3a-b6c9c8856657" />
+<img width="180" alt="Image" src="https://github.com/user-attachments/assets/8cd68604-28c1-4c77-8340-ada8db998ab0" />
+
+
 #### 4.2.2.6. Services Documentation Evidence for Sprint Review
 
+En esta sección del informe se presentan los principales endpoints desarrollados en el backend del proyecto, detallando las funcionalidades implementadas durante el Sprint.
+
+**Backend Desplegado**
+
+[Ver Swagger API Documentation](https://waypass-1egd.onrender.com/index.html)
+
+## Authentication Services
+
+| Método | Endpoint | Función |
+|---|---|---|
+| POST | **/api/v1/auth/sign-in** | Permite iniciar sesión y generar el token de autenticación para el pasajero. |
+| POST | **/api/v1/auth/sign-up** | Permite registrar nuevos usuarios en la plataforma (Pasajero / Conductor). |
+
+---
+
+## Users & Profiles Services
+
+| Método | Endpoint | Función |
+|---|---|---|
+| GET | **/api/v1/users/{userId}/profile** | Obtiene el perfil asociado al pasajero actual. |
+| GET | **/api/v1/profiles/{id}** | Obtiene la información detallada del perfil (Nombre, Correo, Tipo de Cuenta) mediante su Id. |
+| PUT | **/api/v1/profiles/{id}** | Permite al pasajero actualizar los datos de su perfil. |
+
+---
+
+## Travel & Routes Services
+
+| Método | Endpoint | Función |
+|---|---|---|
+| GET | **/api/v1/routes** | Obtiene el listado completo de rutas disponibles para que el pasajero pueda explorar. |
+| GET | **/api/v1/routes/{id}** | Obtiene la información específica de una ruta (Origen, Destino, Duración, Tarifa) mediante su Id. |
+
+---
+
+## Reservation Services
+
+| Método | Endpoint | Función |
+|---|---|---|
+| GET | **/api/v1/reservations** | Obtiene el historial de reservas asociadas al pasajero autenticado. |
+| GET | **/api/v1/reservations/{id}** | Obtiene los detalles de una reserva específica (Ruta ID, Conductor ID, Monto y PayPal TX). |
+| POST | **/api/v1/reservations** | Permite al pasajero crear una nueva reserva de viaje tras procesar el pago. |
+
+---
+
+## Favorites Services
+
+| Método | Endpoint | Función |
+|---|---|---|
+| GET | **/api/v1/favorites** | Obtiene la lista de rutas guardadas como preferidas por el pasajero. |
+| POST | **/api/v1/favorites** | Agrega una ruta a la sección de favoritos del pasajero. |
+| DELETE | **/api/v1/favorites/{id}** | Elimina una ruta de la lista de favoritos mediante su Id. |
+
+
 #### 4.2.2.7. Software Deployment Evidence for Sprint Review
+
+**Aplicación Móvil Android**
+
+**Paso 1 :**
+
+- Ejecutamos: flutter build apk
+
+<img width="1573" height="972" alt="Image" src="https://github.com/user-attachments/assets/dee8c3af-26de-42b2-813f-28a9638e9d5f" />
+
+**Paso 2:**
+
+- Generamos la carpeta: build/app/outputs/flutter-apk/
+
+<img width="1600" height="964" alt="Image" src="https://github.com/user-attachments/assets/99a1f096-4be7-4761-a6d0-986e99feca56" />
+
+**Paso 3:**
+
+- Apk generada satisfactoriamente
+
+<img width="1600" height="918" alt="Image" src="https://github.com/user-attachments/assets/2d438618-0737-4558-aa20-33c4550937cf" />
+
+**Backend**
+
+Para el despliegue del Backend se utilizó Render
+
+[Render](https://render.com/)
+
+**Paso 1:**
+
+- Creamos un nuevo proyecto
+
+<img width="1824" height="987" alt="Image" src="https://github.com/user-attachments/assets/09ceba4f-75a8-4d0a-a04e-80b6f0fcceae" />
+
+**Paso 2:**
+
+- Creamos un nuevo servicio
+
+<img width="1824" height="990" alt="Image" src="https://github.com/user-attachments/assets/768dc3dd-0455-4703-9628-143dfc51bd72" />
+
+**Paso 3:**
+
+- Seleccionamos nuestro repositorio
+
+<img width="863" height="917" alt="Image" src="https://github.com/user-attachments/assets/be378217-586e-4329-9d89-259593578764" />
+
+**Paso 4:**
+
+- Instalamos Render en el repositorio
+
+<img width="855" height="900" alt="Image" src="https://github.com/user-attachments/assets/5dd246bb-72aa-49b6-b26a-7dab08e09251" />
+
+**Paso 5:**
+
+- Completamos los datos de la configuración
+
+<img width="1818" height="991" alt="Image" src="https://github.com/user-attachments/assets/16febab6-78ac-4bf9-9811-678bd11cf975" />
+
+**Paso 6:**
+
+- Comienza el deploy y corregimos si sale errores
+
+<img width="1822" height="979" alt="Image" src="https://github.com/user-attachments/assets/df586bbd-7192-4721-9b7f-a3e89b391848" />
+
+**Paso 7:**
+
+- Se realizó el deploy exitosamente
+
+<img width="1820" height="991" alt="Image" src="https://github.com/user-attachments/assets/09039e72-0a6b-492d-b8df-5d4815739ecc" />
 
 #### 4.2.2.8. Team Collaboration Insights during Sprint
 
