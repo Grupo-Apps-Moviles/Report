@@ -373,6 +373,25 @@ El equipo utilizó GitHub como plataforma de colaboración para el control de ve
       - [4.2.1.8. Team Collaboration Insights during Sprint](#4218-team-collaboration-insights-during-sprint)
     - [4.2.2. Sprint 2](#422-sprint-2)
       - [4.2.2.1. Sprint Planning 2](#4221-sprint-planning-2)
+      - [4.2.2.2. Sprint Backlog 2](#4222-sprint-backlog-2)
+      - [4.2.2.3. Development Evidence for Sprint Review](#4223-development-evidence-for-sprint-review)
+  - [Development Evidence for Sprint Review](#development-evidence-for-sprint-review-1)
+    - [Web Services — Backend](#web-services--backend-1)
+    - [Mobile Application — Flutter](#mobile-application--flutter)
+      - [4.2.2.4. Testing Suite Evidence for Sprint Review](#4224-testing-suite-evidence-for-sprint-review)
+      - [4.2.2.5. Execution Evidence for Sprint Review](#4225-execution-evidence-for-sprint-review)
+  - [Backend (.net C#)](#backend-net-c-1)
+  - [Base de datos (MySql)](#base-de-datos-mysql-1)
+- [Tablas Principales](#tablas-principales-1)
+  - [Android Móvil (Flutter)](#android-móvil-flutter)
+      - [4.2.2.6. Services Documentation Evidence for Sprint Review](#4226-services-documentation-evidence-for-sprint-review)
+  - [Authentication Services](#authentication-services-1)
+  - [Users \& Profiles Services](#users--profiles-services-1)
+  - [Travel \& Routes Services](#travel--routes-services)
+  - [Reservation Services](#reservation-services)
+  - [Favorites Services](#favorites-services)
+      - [4.2.2.7. Software Deployment Evidence for Sprint Review](#4227-software-deployment-evidence-for-sprint-review)
+      - [4.2.2.8. Team Collaboration Insights during Sprint](#4228-team-collaboration-insights-during-sprint)
   - [4.3. Validation Interviews](#43-validation-interviews)
     - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
     - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
@@ -382,7 +401,8 @@ El equipo utilizó GitHub como plataforma de colaboración para el control de ve
     - [1. Sobre la Problemática y la Propuesta de Valor](#1-sobre-la-problemática-y-la-propuesta-de-valor)
     - [2. Sobre el Diseño Centrado en el Usuario (UX)](#2-sobre-el-diseño-centrado-en-el-usuario-ux)
     - [3. Sobre la Arquitectura y el Desarrollo Técnico](#3-sobre-la-arquitectura-y-el-desarrollo-técnico)
-    - [4. Sobre el Impacto del Modelo de Negocio](#4-sobre-el-impacto-del-modelo-de-negocio)
+    - [4. Sobre la Gestión del Alcance y del Proyecto (Métricas Ágiles)](#4-sobre-la-gestión-del-alcance-y-del-proyecto-métricas-ágiles)
+    - [5. Sobre el Impacto del Modelo de Negocio](#5-sobre-el-impacto-del-modelo-de-negocio)
   - [Recomendaciones](#recomendaciones)
     - [1. Sobre el Producto y la Experiencia de Usuario (UX)](#1-sobre-el-producto-y-la-experiencia-de-usuario-ux)
     - [2. Sobre la Estrategia de Mercado y Validación](#2-sobre-la-estrategia-de-mercado-y-validación)
@@ -5114,26 +5134,48 @@ En esta sección se presenta el Sprint Planning Meeting correspondiente al segun
 
 #### 4.2.2.2. Sprint Backlog 2
 
-#### Sprint Backlog 2
+**Tablero del Sprint 2 (Jira):** [https://yakumgc12.atlassian.net/jira/software/projects/SB2/boards/67](https://yakumgc12.atlassian.net/jira/software/projects/SB2/boards/67)
 
-El presente Sprint Backlog 2 detalla las historias de usuario priorizadas para el desarrollo de las funcionalidades para el usuario pasajero del sistema WayPass. Se asignan responsabilidades al equipo y se establece el estado actual de cada tarea dentro del sprint 02
+<!-- TODO: Reemplazar por captura del tablero Jira del Sprint 2 -->
+<img width="1137" height="741" alt="Sprint 2 Board - Jira" src="PLACEHOLDER_SPRINT2_BOARD" />
 
-| ID   | Título                         | Descripción                                                                                                                | Story Points |
-|------|--------------------------------|----------------------------------------------------------------------------------------------------------------------------|--------------|
-| US53 | Reservar un viaje             | Como pasajero autenticado, deseo reservar un viaje en una ruta disponible para asegurar mi cupo antes de abordar.         | 6 |
-| US41 | Filtrar rutas por ubicación   | Como viajero, deseo filtrar rutas por región, provincia, distrito y ciudad para ubicar las que se encuentran en esa locación. | 6 |
-| US26 | Registro de usuario           | Como usuario, deseo registrarme en la plataforma de transporte para poder iniciar sesión.                                  | 5 |
-| US01 | Buscar rutas disponibles      | Como pasajero, deseo buscar rutas de colectivos cercanas para saber qué opciones tengo para movilizarme.                  | 5 |
-| US02 | Ver paraderos en el mapa      | Como pasajero, deseo ver en un mapa los paraderos cercanos para saber dónde tomar el colectivo.                           | 5 |
-| US29 | Editar perfil de usuario      | Como usuario, deseo poder editar mi perfil para mantener actualizados mis datos o corregir algún error.                  | 4 |
-| US42 | Ver resultados de búsqueda    | Como viajero, deseo ver el resultado del filtro en forma de tarjetas resumidas para comparar rápidamente las opciones disponibles. | 4 |
-| US27 | Iniciar sesión                | Como usuario, deseo poder iniciar sesión para tener acceso a la plataforma.                                                | 3 |
-| US24 | Filtrar paraderos por ubicación | Como viajero, deseo filtrar los paraderos por región, provincia, distrito y localidad para encontrar las opciones más cercanas a mí. | 3 |
-| US25 | Ver detalles completos de una ruta | Como viajero, deseo ver detalles completos de una ruta seleccionada para conocer la empresa, duración, tarifas y horarios. | 3 |
-| US43 | Ver detalles de ruta          | Como viajero, deseo navegar a la pantalla de detalle de la ruta para ver información completa.                           | 3 |
-| US28 | Cerrar sesión                 | Como usuario, deseo poder salir de la sesión iniciada para ya no estar más en ella.                                       | 2 |
-| US44 | Volver al listado             | Como viajero, deseo ver un botón “Volver al listado” para regresar fácilmente sin perder los filtros aplicados.          | 2 |
+A continuación se presenta la descomposición de cada User Story en Engineering Tasks, estimados entre 4 y 8 horas, con su responsable y estado de seguimiento.
 
+| User Story | Task Id | Task | Descripción | Est. (h) | Assigned To | Status |
+|---|---|---|---|---|---|---|
+| US26 | T26.1 | RegisterPage en Flutter | Formulario de registro con selección de rol y validaciones | 6 | Velarde Gonzales, Néstor Hernán | Done |
+|  | T26.2 | AuthRepository + DTOs | `signUp()` con SignUpRequestDto/AuthResponseDto contra `/api/v1/auth/sign-up` | 5 | Velarde Gonzales, Néstor Hernán | Done |
+|  | T26.3 | Validación de formulario de registro | Reglas de campos requeridos y formato de email/password | 4 | Quiroz Cáceres, Adrian | Done |
+| US27 | T27.1 | LoginPage + LoginViewModel | Pantalla de login con estados y manejo de errores | 5 | Velarde Gonzales, Néstor Hernán | Done |
+|  | T27.2 | TokenManager (JWT) | Persistencia y recuperación segura del token de sesión | 4 | Curi Marcelo, Angelo Marcio | Done |
+| US28 | T28.1 | Flujo de logout | Limpieza de token y redirección a Login sin retorno | 4 | Velarde Gonzales, Néstor Hernán | Done |
+| US29 | T29.1 | ProfilePage (visualización) | Pantalla "Mi Perfil" con nombre, correo y tipo de cuenta | 5 | Velarde Gonzales, Néstor Hernán | Done |
+|  | T29.2 | Edición de perfil | Formulario de edición + `PUT /api/v1/profiles/{id}` | 4 | Guzmán Cabrejos, Yaku Mateo | Done |
+| US01 | T01.1 | TravelPage (listado de rutas) | Pantalla de exploración de rutas disponibles | 6 | Velarde Gonzales, Néstor Hernán | Done |
+|  | T01.2 | RouteRepositoryImpl + RouteService | Consumo de rutas desde el backend | 5 | Velarde Gonzales, Néstor Hernán | Done |
+|  | T01.3 | Empty state en TravelView | Validación y UI de estado vacío | 4 | Carranza Tesén, Joaquín Enrique | Done |
+| US41 | T41.1 | Dropdowns en cascada (geografía) | Selectores región → provincia → distrito → ciudad | 6 | Guzmán Cabrejos, Yaku Mateo | Done |
+|  | T41.2 | Servicio de rutas filtradas | `RouteService` consume `/api/v1/routes` con filtros | 5 | Curi Marcelo, Angelo Marcio | Done |
+|  | T41.3 | Estados carga/vacío/error | Manejo de loading/empty/error en RouteViewModel | 4 | Guzmán Cabrejos, Yaku Mateo | Done |
+| US42 | T42.1 | RouteCard (tarjeta resumen) | Componente con origen, destino, tarifa y duración | 4 | Carranza Tesén, Joaquín Enrique | Done |
+|  | T42.2 | Listado scrollable de resultados | `ListView.builder` con resultados del filtro | 4 | Carranza Tesén, Joaquín Enrique | Done |
+| US43 | T43.1 | Navegación a detalle de ruta | Pantalla de detalle + carga de paraderos de la ruta | 5 | Quiroz Cáceres, Adrian | Done |
+| US25 | T25.1 | Detalle completo de ruta | Empresa, duración, tarifas y horarios en la vista de detalle | 5 | Quiroz Cáceres, Adrian | Done |
+| US44 | T44.1 | Botón "Volver al listado" | Regreso preservando los filtros aplicados | 4 | Carranza Tesén, Joaquín Enrique | Done |
+| US02 | T02.1 | Visualización de paraderos de ruta | Integración de paraderos asociados en la vista de ruta | 5 | Velarde Gonzales, Néstor Hernán | Done |
+|  | T02.2 | StopDto + servicio de paraderos | DTO y consumo de paraderos desde el backend | 5 | Carranza Tesén, Joaquín Enrique | Done |
+| US24 | T24.1 | Dropdowns en cascada para paraderos | Selectores geográficos para filtrar paraderos | 5 | Carranza Tesén, Joaquín Enrique | Done |
+|  | T24.2 | Servicio de paraderos filtrados | Consumo de `/api/v1/stops` con parámetros geográficos | 4 | Carranza Tesén, Joaquín Enrique | Done |
+| US53 | T53.1 | Bounded Context Reservations (Backend) | Agregado `Reservation` con DDD (commands, queries, repo) | 8 | Velarde Gonzales, Néstor Hernán | Done |
+|  | T53.2 | ReservationsController REST | Endpoints POST/GET de reservas + assembler + DTO | 6 | Quiroz Cáceres, Adrian | Done |
+|  | T53.3 | ReservationPage + CreateReservationPage | Listado de reservas y creación con flujo de pago | 6 | Quiroz Cáceres, Adrian | Done |
+|  | T53.4 | PaypalService (sandbox) | Orden y captura de pago PayPal vía WebView | 5 | Quiroz Cáceres, Adrian | Done |
+|  | T53.5 | Reservation DI + ViewModel/State | Inyección de dependencias y manejo de estados de reserva | 5 | Curi Marcelo, Angelo Marcio | Done |
+| TS-12 | T12.1 | Suite BDD de aceptación (Reqnroll) | Scaffolding del repo `Backend-AcceptanceTests` y 7 features Gherkin | 6 | Guzmán Cabrejos, Yaku Mateo | Done |
+| TS-13 | T13.1 | Despliegue del backend (Render) | Configuración del Web Service y variables de entorno | 5 | Curi Marcelo, Angelo Marcio | Done |
+|  | T13.2 | Verificación de Swagger público | Validar documentación y conectividad de endpoints | 4 | Curi Marcelo, Angelo Marcio | Done |
+| TS-14 | T14.1 | Build y exportación de APK (Flutter) | Generación del APK release multiplataforma | 4 | Curi Marcelo, Angelo Marcio | Done |
+| TS-15 | T15.1 | Pruebas manuales de navegación | Validación de happy/unhappy paths en Android e iOS | 5 | Carranza Tesén, Joaquín Enrique | Done |
 
 #### 4.2.2.3. Development Evidence for Sprint Review
 
