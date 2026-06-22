@@ -54,7 +54,7 @@
 
 # Registro de Versiones del Informe
 
-En esta sección se presenta el historial de versiones del informe del proyecto Viacore, detallando las principales modificaciones realizadas durante el desarrollo y documentación del sistema. Asimismo, se evidencia la participación de los integrantes del equipo en distintas actividades relacionadas con análisis, diseño, implementación y documentación del proyecto.
+En esta sección se presenta el historial de versiones del informe del proyecto WayPass, detallando las principales modificaciones realizadas durante el desarrollo y documentación del sistema. Asimismo, se evidencia la participación de los integrantes del equipo en distintas actividades relacionadas con análisis, diseño, implementación y documentación del proyecto.
 
 <table border="1px" align="center">
     <thead>
@@ -121,7 +121,7 @@ En esta sección se presenta el historial de versiones del informe del proyecto 
 
 # Project Report Collaboration Insights
 
-Durante el desarrollo del proyecto Viacore, los integrantes del equipo participaron activamente en la elaboración de documentación, desarrollo de software, gestión del repositorio y coordinación de tareas mediante GitHub y metodologías ágiles.
+Durante el desarrollo del proyecto WayPass, los integrantes del equipo participaron activamente en la elaboración de documentación, desarrollo de software, gestión del repositorio y coordinación de tareas mediante GitHub y metodologías ágiles.
 
 A continuación, se presentan los principales colaboradores del proyecto:
 
@@ -384,7 +384,7 @@ El equipo utilizó GitHub como plataforma de colaboración para el control de ve
   - [Backend (.net C#)](#backend-net-c-1)
   - [Base de datos (MySql)](#base-de-datos-mysql-1)
 - [Tablas Principales](#tablas-principales-1)
-  - [Android Móvil (Flutter)](#android-móvil-flutter)
+  - [Aplicación Móvil — Flutter (Pasajero)](#aplicación-móvil--flutter-pasajero)
       - [4.2.2.6. Services Documentation Evidence for Sprint Review](#4226-services-documentation-evidence-for-sprint-review)
   - [Authentication Services](#authentication-services-1)
   - [Users \& Profiles Services](#users--profiles-services-1)
@@ -415,7 +415,7 @@ El equipo utilizó GitHub como plataforma de colaboración para el control de ve
 - [Glosario](#glosario)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
-  - [Recursos del Proyecto - Viacore](#recursos-del-proyecto---viacore)
+  - [Recursos del Proyecto - WayPass](#recursos-del-proyecto---waypass)
   - [Sistemas y Plataformas Externas](#sistemas-y-plataformas-externas)
   - [Herramientas de Desarrollo de Software](#herramientas-de-desarrollo-de-software)
 
@@ -475,7 +475,7 @@ Es este punto de detallará nuestra Startup desarrollado por grupo de estudiante
 
 ### 1.1.1. Descripción de la Startup
 
-Viacore es una startup dedicada a la modernización del transporte colectivo informal mediante innovación tecnológica. A través de nuestra plataforma WayPass, buscamos estructurar la conectividad entre ciudades y distritos, centralizando información crítica como rutas, paraderos y horarios en una interfaz digital accesible. Reconocemos la importancia del sistema de colectivos y, con WayPass, aportamos la visibilidad y el orden necesarios para profesionalizar el servicio sin sacrificar su flexibilidad. Nuestro compromiso es transformar la movilidad cotidiana en una experiencia más eficiente, cómoda y centrada en el usuario.
+WayPass es una startup dedicada a la modernización del transporte colectivo informal mediante innovación tecnológica. A través de nuestra plataforma WayPass, buscamos estructurar la conectividad entre ciudades y distritos, centralizando información crítica como rutas, paraderos y horarios en una interfaz digital accesible. Reconocemos la importancia del sistema de colectivos y, con WayPass, aportamos la visibilidad y el orden necesarios para profesionalizar el servicio sin sacrificar su flexibilidad. Nuestro compromiso es transformar la movilidad cotidiana en una experiencia más eficiente, cómoda y centrada en el usuario.
 
 **Misión**
 Transformar y organizar el transporte colectivo informal mediante soluciones tecnológicas accesibles, brindando estructura, visibilidad y eficiencia a un sistema vital de movilidad. Buscamos mejorar la calidad de vida de usuarios y conductores, facilitando la conexión entre comunidades sin perder la flexibilidad que caracteriza al servicio.
@@ -536,7 +536,7 @@ en equipo.</td>
 
 ## 1.2. Solution Profile
 
-Nuestro producto **WayPass** es una aplicación móvil desarrollada por el equipo de **Viacore** que organiza y moderniza el transporte colectivo informal a través de información clara sobre rutas, paraderos y horarios que conecta ciudades y distritos brindando mayor accesibilidad y eficiencia para usuarios y conductores.
+Nuestro producto **WayPass** es una aplicación móvil desarrollada por el equipo de **WayPass** que organiza y moderniza el transporte colectivo informal a través de información clara sobre rutas, paraderos y horarios que conecta ciudades y distritos brindando mayor accesibilidad y eficiencia para usuarios y conductores.
 
 ### 1.2.1. Antecedentes y problemática
 
@@ -562,7 +562,7 @@ La problemática se puede resumir en los siguientes puntos:
 
 El proceso de Lean UX se define como una mentalidad y un conjunto de prácticas que enfocan el diseño en la obtención de resultados y la validación de hipótesis, reduciendo el énfasis en la documentación tradicional. Esta metodología permite iterar rápidamente mediante el ciclo de "Crear-Medir-Aprender", asegurando que el desarrollo de la solución esté alineado con las necesidades reales del usuario final.
 
-A continuación, se detalla la aplicación de este proceso para el proyecto Viacore:
+A continuación, se detalla la aplicación de este proceso para el proyecto WayPass:
 
 #### 1.2.2.1. Lean UX Problem Statements
 Nuestra aplicación busca ayudar a personas que desean trasladarse de forma económica entre ciudades o pueblos cercanos, y que actualmente no cuentan con información clara ni accesible sobre dónde se ubican los paraderos de colectivos, sus rutas, horarios aproximados y tarifas.
@@ -611,7 +611,7 @@ Creemos que aumentar la accesibilidad de la app y alcanzar a más usuarios en zo
 
 #### 1.2.2.4. Lean UX Canvas
 
-A continuación, se realizará el Lean UX Canvas, el cual nos sirve para capturar y visualizar en un solo cuadro los problemas, soluciones, métricas y perfiles de usuario, facilitando la alineación estratégica del equipo y asegurando que el desarrollo de Viacore esté enfocado en entregar valor real.
+A continuación, se realizará el Lean UX Canvas, el cual nos sirve para capturar y visualizar en un solo cuadro los problemas, soluciones, métricas y perfiles de usuario, facilitando la alineación estratégica del equipo y asegurando que el desarrollo de WayPass esté enfocado en entregar valor real.
 
 Figura 1. Lean UX Canvas.
 
@@ -623,7 +623,7 @@ Fuente: Elaboración propia en la plataforma Miro. Disponible en: https://miro.c
 
 ## 1.3. Segmentos objetivo
 
-En esta sección se identifican los segmentos objetivos del proyecto, los cuales permiten personalizar la propuesta de valor y las estrategias de comunicación. El análisis de estos perfiles asegura que la solución responda directamente a las problemáticas reales de movilidad y gestión de rutas, integrando las necesidades tanto de los pasajeros como de los conductores de Viacore.
+En esta sección se identifican los segmentos objetivos del proyecto, los cuales permiten personalizar la propuesta de valor y las estrategias de comunicación. El análisis de estos perfiles asegura que la solución responda directamente a las problemáticas reales de movilidad y gestión de rutas, integrando las necesidades tanto de los pasajeros como de los conductores de WayPass.
 
 ### 1. Pasajeros
 Este segmento está compuesto principalmente por personas que necesitan movilizarse entre zonas periféricas, pueblos cercanos o distritos colindantes donde el transporte público tradicional es limitado, ineficiente o inexistente.
@@ -659,7 +659,7 @@ Este grupo representa a los operadores informales que ofrecen servicios de trans
 
 # Capítulo II: Requirements Development and Software Solution Design
 
-En este capítulo se detalla el proceso de ingeniería de requisitos y el diseño de la solución de software para Viacore. Se abarca desde el análisis comparativo con soluciones existentes en el mercado hasta la definición técnica de los requerimientos funcionales y no funcionales, permitiendo establecer una base sólida para la arquitectura y el desarrollo posterior de la plataforma.
+En este capítulo se detalla el proceso de ingeniería de requisitos y el diseño de la solución de software para WayPass. Se abarca desde el análisis comparativo con soluciones existentes en el mercado hasta la definición técnica de los requerimientos funcionales y no funcionales, permitiendo establecer una base sólida para la arquitectura y el desarrollo posterior de la plataforma.
 
 ## 2.1. Competidores
 
@@ -1194,7 +1194,7 @@ Figura 4. Demografía de Entrevistados
 
 ## 2.3. Needfinding
 
-En esta sección se profundiza en el proceso de Needfinding, el cual tiene como objetivo descubrir y comprender las necesidades latentes, los comportamientos y los puntos de dolor de los usuarios. A través de este análisis, el equipo de Viacore puede identificar oportunidades clave para diseñar una solución que no solo sea funcional, sino que también genere una conexión real con las experiencias cotidianas de los pasajeros y conductores.
+En esta sección se profundiza en el proceso de Needfinding, el cual tiene como objetivo descubrir y comprender las necesidades latentes, los comportamientos y los puntos de dolor de los usuarios. A través de este análisis, el equipo de WayPass puede identificar oportunidades clave para diseñar una solución que no solo sea funcional, sino que también genere una conexión real con las experiencias cotidianas de los pasajeros y conductores.
 
 ### 2.3.1. User Personas
 
@@ -1299,7 +1299,7 @@ Los segmentos objetivo representados por los User Personas: Javier Ramirez (pasa
 
 ### 2.3.3. User Journey Mapping
 
-En esta sección se desarrolla el User Journey Mapping, el cual nos permite visualizar el proceso que sigue un usuario para alcanzar un objetivo específico con nuestra solución. Este mapa detalla las acciones, pensamientos y emociones del usuario a lo largo de diferentes etapas, ayudando al equipo de Viacore a identificar oportunidades de mejora y momentos críticos donde la aplicación puede aportar un valor diferencial en la experiencia de transporte.
+En esta sección se desarrolla el User Journey Mapping, el cual nos permite visualizar el proceso que sigue un usuario para alcanzar un objetivo específico con nuestra solución. Este mapa detalla las acciones, pensamientos y emociones del usuario a lo largo de diferentes etapas, ayudando al equipo de WayPass a identificar oportunidades de mejora y momentos críticos donde la aplicación puede aportar un valor diferencial en la experiencia de transporte.
 
 A continuación, se presenta el User Journey Map: 
 
@@ -1310,7 +1310,7 @@ Figura 7. User Journey Map - WayPass
 
 ### 2.3.4. Empathy Mapping
 
-En esta sección se realiza el Empathy Mapping con el fin de profundizar en la comprensión intrínseca de nuestros usuarios. Esta herramienta nos ayuda a sintetizar lo que el usuario dice, hace, piensa y siente, permitiendo al equipo ir más allá de las características demográficas para enfocarse en sus necesidades emocionales y funcionales. De esta manera, el diseño de Viacore se orienta a resolver frustraciones reales y potenciar las ganancias esperadas por el público objetivo.
+En esta sección se realiza el Empathy Mapping con el fin de profundizar en la comprensión intrínseca de nuestros usuarios. Esta herramienta nos ayuda a sintetizar lo que el usuario dice, hace, piensa y siente, permitiendo al equipo ir más allá de las características demográficas para enfocarse en sus necesidades emocionales y funcionales. De esta manera, el diseño de WayPass se orienta a resolver frustraciones reales y potenciar las ganancias esperadas por el público objetivo.
 
 A continuación, se detallan los mapas de empatía correspondientes:
 
@@ -1406,7 +1406,7 @@ Para evitar ambigüedades, el equipo acuerda no usar los siguientes alias en el 
 
 ## 2.4. Requirements specification
 
-En esta sección se detallan los requisitos técnicos y funcionales que definen el comportamiento de la solución de software. Esta especificación sirve como puente entre las necesidades detectadas en el needfinding y el desarrollo técnico, asegurando que cada funcionalidad de Viacore esté debidamente documentada y alineada con los estándares de calidad esperados.
+En esta sección se detallan los requisitos técnicos y funcionales que definen el comportamiento de la solución de software. Esta especificación sirve como puente entre las necesidades detectadas en el needfinding y el desarrollo técnico, asegurando que cada funcionalidad de WayPass esté debidamente documentada y alineada con los estándares de calidad esperados.
 
 ### 2.4.1. User Stories
 
@@ -1499,7 +1499,7 @@ Figura 11. Impact mapping de conductor y pasajero
 
 ### 2.4.3. Product Backlog
 
-En esta sección se presenta el Product Backlog, el cual constituye el inventario priorizado de todas las funcionalidades, mejoras y correcciones que deben integrarse en la solución de software. Este actúa como la fuente única de requisitos para el equipo, permitiendo gestionar el alcance del proyecto Viacore de manera dinámica y asegurar que el desarrollo se enfoque en las capacidades que generan mayor valor para los pasajeros y conductores en cada ciclo de trabajo.
+En esta sección se presenta el Product Backlog, el cual constituye el inventario priorizado de todas las funcionalidades, mejoras y correcciones que deben integrarse en la solución de software. Este actúa como la fuente única de requisitos para el equipo, permitiendo gestionar el alcance del proyecto WayPass de manera dinámica y asegurar que el desarrollo se enfoque en las capacidades que generan mayor valor para los pasajeros y conductores en cada ciclo de trabajo.
 
 A continuación, se detalla la lista priorizada de ítems del backlog:
 
@@ -1572,7 +1572,7 @@ A continuación, se detalla la lista priorizada de ítems del backlog:
 
 ## 2.5. Strategic-Level Domain-Driven Design
 
-En esta sección se aplica DDD a nivel estratégico para gestionar la complejidad del sistema Viacore. A través de estas técnicas, el equipo logra descomponer el problema en módulos manejables y definir claramente las responsabilidades y límites de cada componente, asegurando que el software esté estrechamente alineado con las reglas de negocio y las necesidades del transporte.
+En esta sección se aplica DDD a nivel estratégico para gestionar la complejidad del sistema WayPass. A través de estas técnicas, el equipo logra descomponer el problema en módulos manejables y definir claramente las responsabilidades y límites de cada componente, asegurando que el software esté estrechamente alineado con las reglas de negocio y las necesidades del transporte.
 
 ### 2.5.1. EventStorming
 
@@ -1704,7 +1704,7 @@ Fuente: Elaboración propia en la plataforma de Miro. Revisar en: https://miro.c
 
 ### 2.5.2. Context Mapping
 
-En esta sección se desarrolla el Context Mapping, una herramienta estratégica que permite visualizar las relaciones y dependencias entre los distintos contextos delimitados identificados en el sistema. A través de este mapa, el equipo de Viacore puede definir claramente cómo fluye la información y como interactúan los módulos, asegurando la integridad del modelo de dominio y facilitando la colaboración entre las diferentes partes del software.
+En esta sección se desarrolla el Context Mapping, una herramienta estratégica que permite visualizar las relaciones y dependencias entre los distintos contextos delimitados identificados en el sistema. A través de este mapa, el equipo de WayPass puede definir claramente cómo fluye la información y como interactúan los módulos, asegurando la integridad del modelo de dominio y facilitando la colaboración entre las diferentes partes del software.
 
 Figura 26. Context Mapping
 
@@ -4175,14 +4175,14 @@ en la experiencia del usuario gestor de transporte.
 
 # Capítulo IV: Product Implementation & Validation
 
-En este capítulo se presentan las evidencias relacionadas con la implementación, configuración y validación del proyecto Viacore. Se describen las herramientas utilizadas durante el desarrollo, la gestión de configuración del software, el control de versiones, despliegues realizados y los resultados obtenidos durante las pruebas y validaciones funcionales del sistema.
+En este capítulo se presentan las evidencias relacionadas con la implementación, configuración y validación del proyecto WayPass. Se describen las herramientas utilizadas durante el desarrollo, la gestión de configuración del software, el control de versiones, despliegues realizados y los resultados obtenidos durante las pruebas y validaciones funcionales del sistema.
 
 
 ## 4.1. Software Configuration Management
 
 ### 4.1.1. Software Development Environment Configuration
 
-En esta sección se describen las principales herramientas utilizadas durante el desarrollo del proyecto Viacore. Estas plataformas permitieron gestionar el proyecto, diseñar interfaces, desarrollar software, documentar avances y mantener una correcta colaboración entre los integrantes del equipo.
+En esta sección se describen las principales herramientas utilizadas durante el desarrollo del proyecto WayPass. Estas plataformas permitieron gestionar el proyecto, diseñar interfaces, desarrollar software, documentar avances y mantener una correcta colaboración entre los integrantes del equipo.
 
 - ## **Project Management**
 
@@ -4608,7 +4608,7 @@ class WelcomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Viacore App'),
+        title: const Text('WayPass App'),
       ),
       body: const Center(
         child: Text('Welcome to Flutter Application'),
@@ -4857,7 +4857,7 @@ Los resultados obtenidos confirman la estabilidad inicial de la navegación y la
 
 #### 4.2.1.5. Execution Evidence for Sprint Review
 
-Durante este primer Sprint se logró implementar los principales componentes del ecosistema de la solución Viacore, incluyendo el desarrollo:
+Durante este primer Sprint se logró implementar los principales componentes del ecosistema de la solución WayPass, incluyendo el desarrollo:
 
 - Landing Page: [https://grupo-apps-moviles.github.io/landing-page/](https://grupo-apps-moviles.github.io/landing-page/)
 - Backend API (C#, .NET)
@@ -4869,21 +4869,21 @@ A continuación, se presentan las evidencias de ejecución de los productos desa
 
 ## Landing Page
 
-La Landing Page de Viacore fue desarrollada como la interfaz principal de presentación de la plataforma, mostrando información relevante sobre el servicio de transporte colectivo. Se implementó un diseño responsive y moderno con secciones informativas y botones para dirigir a los usuarios hacia la aplicación móvil.
+La Landing Page de WayPass fue desarrollada como la interfaz principal de presentación de la plataforma, mostrando información relevante sobre el servicio de transporte colectivo. Se implementó un diseño responsive y moderno con secciones informativas y botones para dirigir a los usuarios hacia la aplicación móvil.
 
 <img width="1920" height="6563" alt="Image" src="https://github.com/user-attachments/assets/e9410d75-c45b-40d3-ad65-7c375d13de47" />
 
 ## Backend (.net C#)
 
-El backend del proyecto Viacore fue desarrollado utilizando ASP.NET Core Web API con C# y una arquitectura orientada a servicios RESTful. El objetivo principal de esta capa es centralizar la lógica de negocio, la gestión de datos y la comunicación entre la aplicación móvil y la base de datos MySQL.
+El backend del proyecto WayPass fue desarrollado utilizando ASP.NET Core Web API con C# y una arquitectura orientada a servicios RESTful. El objetivo principal de esta capa es centralizar la lógica de negocio, la gestión de datos y la comunicación entre la aplicación móvil y la base de datos MySQL.
 
-La arquitectura DDD permitió organizar las entidades, agregados, servicios y repositorios del sistema de manera modular, facilitando el mantenimiento del código y la evolución progresiva de la plataforma Viacore.
+La arquitectura DDD permitió organizar las entidades, agregados, servicios y repositorios del sistema de manera modular, facilitando el mantenimiento del código y la evolución progresiva de la plataforma WayPass.
 
 <img width="1920" height="3585" alt="Image" src="https://github.com/user-attachments/assets/a40a99a7-4a02-42a4-a503-a8a26695fccb" />
 
 ## Base de datos (MySql)
 
-La base de datos del proyecto Viacore fue diseñada utilizando MySQL como sistema de gestión de bases de datos relacional, permitiendo almacenar y administrar la información principal de la plataforma de transporte colectivo.
+La base de datos del proyecto WayPass fue diseñada utilizando MySQL como sistema de gestión de bases de datos relacional, permitiendo almacenar y administrar la información principal de la plataforma de transporte colectivo.
 
 # Tablas Principales
 
@@ -4903,7 +4903,7 @@ La base de datos del proyecto Viacore fue diseñada utilizando MySQL como sistem
 
 ## Android Móvil
 
-La aplicación móvil de Viacore fue desarrollada en Android y representa el componente principal de interacción del sistema, orientada tanto a conductores como a pasajeros del servicio de transporte colectivo. Durante este Sprint se implementaron y refinaron todas las pantallas core de la aplicación, logrando una interfaz moderna que aplica patrones de diseño móvil actuales.
+La aplicación móvil de WayPass fue desarrollada en Android y representa el componente principal de interacción del sistema, orientada tanto a conductores como a pasajeros del servicio de transporte colectivo. Durante este Sprint se implementaron y refinaron todas las pantallas core de la aplicación, logrando una interfaz moderna que aplica patrones de diseño móvil actuales.
 
 **Alcance entregado (Sprint 1)**
 
@@ -5046,7 +5046,7 @@ En esta sección del informe se presentan los principales endpoints desarrollado
 
 **Landing Page:**
 
-La Landing Page del proyecto Viacore fue desplegada utilizando GitHub Pages, permitiendo publicar la aplicación web de manera gratuita y accesible desde internet.
+La Landing Page del proyecto WayPass fue desplegada utilizando GitHub Pages, permitiendo publicar la aplicación web de manera gratuita y accesible desde internet.
 
 [Ver Landing Page](https://grupo-apps-moviles.github.io/landing-page/)
 
@@ -5341,7 +5341,7 @@ a usuarios iOS, garantizando una experiencia consistente entre plataformas desde
 
 #### 4.2.2.5. Execution Evidence for Sprint Review
 
-Durante este primer Sprint se logró implementar componentes del ecosistema del segmento objetivo Pasajeros de la solución Viacore, incluyendo el desarrollo:
+Durante el Sprint 2 se implementaron los componentes del ecosistema del segmento objetivo Pasajeros de la solución WayPass, incluyendo el desarrollo:
 
 - Backend API (C#, .NET)
 - Aplicación móvil. 
@@ -5352,15 +5352,15 @@ A continuación, se presentan las evidencias de ejecución de los productos desa
 
 ## Backend (.net C#)
 
-El backend del proyecto Viacore fue desarrollado utilizando ASP.NET Core Web API con C# y una arquitectura orientada a servicios RESTful. El objetivo principal de esta capa es centralizar la lógica de negocio, la gestión de datos y la comunicación entre la aplicación móvil y la base de datos MySQL.
+El backend del proyecto WayPass fue desarrollado utilizando ASP.NET Core Web API con C# y una arquitectura orientada a servicios RESTful. El objetivo principal de esta capa es centralizar la lógica de negocio, la gestión de datos y la comunicación entre la aplicación móvil y la base de datos MySQL.
 
-La arquitectura DDD permitió organizar las entidades, agregados, servicios y repositorios del sistema de manera modular, facilitando el mantenimiento del código y la evolución progresiva de la plataforma Viacore.
+La arquitectura DDD permitió organizar las entidades, agregados, servicios y repositorios del sistema de manera modular, facilitando el mantenimiento del código y la evolución progresiva de la plataforma WayPass.
 
 <img width="1842" height="4131" alt="Image" src="https://github.com/user-attachments/assets/ffb6896a-cd86-4723-9859-fb894c4efd74" />
 
 ## Base de datos (MySql)
 
-La base de datos del proyecto Viacore fue diseñada utilizando MySQL como sistema de gestión de bases de datos relacional, permitiendo almacenar y administrar la información principal de la plataforma de transporte colectivo.
+La base de datos del proyecto WayPass fue diseñada utilizando MySQL como sistema de gestión de bases de datos relacional, permitiendo almacenar y administrar la información principal de la plataforma de transporte colectivo.
 
 <img width="986" height="1276" alt="Image" src="https://github.com/user-attachments/assets/e4f7a581-5a70-412d-8a12-6dd731c07376" />
 
@@ -5383,9 +5383,9 @@ La base de datos del proyecto Viacore fue diseñada utilizando MySQL como sistem
 | **provinces** | Contiene las provincias del sistema, sirviendo como escalón intermedio geográfico. | Pertenece a **regions** (`fk_id_region`) y se relaciona con **districts**. |
 | **districts** | Guarda los distritos específicos, completando la jerarquía de ubicación necesaria para situar los paraderos. | Pertenece a **provinces** (`fk_id_province`) y se relaciona directamente con **stops**. |
 
-## Android Móvil (Flutter)
+## Aplicación Móvil — Flutter (Pasajero)
 
-La aplicación móvil de Viacore fue desarrollada en Android y representa el componente principal de interacción del sistema, orientada a pasajeros del servicio de transporte colectivo. Durante este Sprint se implementaron y refinaron todas las pantallas core de la aplicación, logrando una interfaz moderna que aplica patrones de diseño móvil actuales.
+La aplicación móvil de pasajeros de WayPass fue desarrollada en Flutter, multiplataforma (Android/iOS) desde una única base de código, y representa el componente principal de interacción del segmento pasajero del servicio de transporte colectivo. Durante este Sprint se implementaron y refinaron todas las pantallas core de la aplicación, logrando una interfaz moderna que aplica patrones de diseño móvil actuales.
 
 **Alcance entregado (Sprint 2)**
 
@@ -5673,7 +5673,7 @@ En este punto se hiso una validación con los segmentos objetivos sobre nuestro 
 
 ### 4.3.3. Evaluaciones según heurísticas
 
-Se realizó una evaluación heurística basada en principios de usabilidad, diseño inclusivo y arquitectura de información para validar la experiencia de usuario de la Landing Page y aplicación móvil de Viacore.
+Se realizó una evaluación heurística basada en principios de usabilidad, diseño inclusivo y arquitectura de información para validar la experiencia de usuario de la Landing Page y aplicación móvil de WayPass.
 
 Los resultados obtenidos permitieron identificar fortalezas relacionadas con navegación intuitiva, consistencia visual y facilidad de uso, así como oportunidades de mejora vinculadas con accesibilidad, ayuda contextual y feedback visual.
 
@@ -5805,7 +5805,7 @@ El presente video presenta de forma promocional la propuesta de valor de nuestro
 | GitHub Pages | Servicio utilizado para desplegar la Landing Page del proyecto. |
 | JSON | Formato ligero de intercambio de datos utilizado en APIs REST. |
 | JWT Token | Token de autenticación utilizado para validar sesiones de usuario. |
-| Landing Page | Página web principal utilizada para presentar la plataforma Viacore. |
+| Landing Page | Página web principal utilizada para presentar la plataforma WayPass. |
 | Mockup | Diseño visual detallado de una interfaz antes de su implementación. |
 | MySQL | Sistema gestor de base de datos relacional utilizado en el proyecto. |
 | RESTful API | API basada en principios REST para comunicación entre cliente y servidor. |
@@ -5831,7 +5831,7 @@ El presente video presenta de forma promocional la propuesta de valor de nuestro
 
 # Anexos
 
-## Recursos del Proyecto - Viacore
+## Recursos del Proyecto - WayPass
 
 <table border="1">
   <thead>
