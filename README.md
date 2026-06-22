@@ -5135,10 +5135,9 @@ En esta sección se presenta el Sprint Planning Meeting correspondiente al segun
 
 #### 4.2.2.2. Sprint Backlog 2
 
-**Tablero del Sprint 2 (Jira):** [https://yakumgc12.atlassian.net/jira/software/projects/SB2/boards/67](https://yakumgc12.atlassian.net/jira/software/projects/SB2/boards/67)
+**Tablero del Sprint 2:** [Link del tablero Trello](https://trello.com/invite/b/69ff3d5f6e22ba5114de07be/ATTIe3bce47f3f25411bc433b9188fad27e7C2103B04/movil)
 
-<!-- TODO: Reemplazar por captura del tablero Jira del Sprint 2 -->
-<img width="1137" height="741" alt="Sprint 2 Board - Jira" src="PLACEHOLDER_SPRINT2_BOARD" />
+<img width="1137" height="741" alt="Sprint 2 Board" src="PLACEHOLDER_SPRINT2_BOARD" />
 
 A continuación se presenta la descomposición de cada User Story en Engineering Tasks, estimados entre 4 y 8 horas, con su responsable y estado de seguimiento.
 
