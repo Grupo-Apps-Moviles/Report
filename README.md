@@ -47,7 +47,7 @@
   <br/><br/>
 
 <div align="center">
-  <strong>Lima, 14 de Mayo del 2026</strong><br/>
+  <strong>Lima, 21 de Junio del 2026</strong><br/>
 </div>
 
 <div style="page-break-after: always;"></div>
@@ -5594,17 +5594,24 @@ Tras el desarrollo del presente informe y la ejecución del primer avance del pr
 ### 1. Sobre la Problemática y la Propuesta de Valor
 * **Modernización del Sector Informal:** Se concluye que existe una oportunidad crítica para digitalizar el sistema de colectivos interurbanos en Perú. WayPass logra transformar un sistema basado en la desinformación en una red organizada, permitiendo que el transporte informal adquiera niveles de visibilidad y confianza propios de sistemas formales.
 * **Reducción de la Brecha de Información:** La centralización de rutas, paraderos y tarifas en una plataforma única resuelve el problema de la dependencia de canales tradicionales (boca a boca), beneficiando directamente la planificación de viajes de los usuarios.
+* **Habilitación del Flujo de Reserva Autónomo:** La implementación de reservas directas transforma la propuesta de valor de informativa a transaccional, garantizando previsibilidad y asegurando cupos antes del viaje.
 
 ### 2. Sobre el Diseño Centrado en el Usuario (UX)
-* **Accesibilidad e Inclusión Digital:** La decisión de permitir el acceso a la información de rutas sin registro obligatorio para los pasajeros es un factor de éxito clave. Esto asegura que la aplicación sea inclusiva para usuarios con baja alfabetización digital o aquellos que requieren rapidez en situaciones de movilidad.
-* **Seguridad y Confianza:** La implementación de perfiles de conductores verificados y la transparencia en los costos del servicio actúan como mitigadores de la desconfianza, un problema recurrente identificado en el análisis de *Needfinding*.
+* **Accesibilidad e Inclusión Digital:** Permitir el acceso a la información sin registro obligatorio hace la plataforma más inclusiva para usuarios con baja alfabetización digital o que requieren rapidez en movilidad.
+* **Seguridad y Confianza:** Los perfiles verificados de conductores y la transparencia en costos reducen la desconfianza del usuario, un problema identificado en el proceso de *Needfinding*.
+* **Optimización del Descubrimiento de Rutas:** La interfaz en Flutter, basada en tarjetas informativas y filtros rápidos, reduce la carga cognitiva y facilita la comparación de rutas.
 
 ### 3. Sobre la Arquitectura y el Desarrollo Técnico
-* **Robustez mediante DDD:** La adopción del enfoque *Domain-Driven Design* (DDD) permite que el sistema sea escalable y mantenible. La separación clara de contextos (IAM, Profiles, Routes, Stops) asegura que la lógica de negocio esté protegida contra cambios externos.
-* **Eficiencia en la Integración:** El uso de una Capa Anticorrupción (ACL) garantiza una comunicación fluida y segura entre los microservicios de identidad y los perfiles de usuario, evitando la propagación de modelos de datos inconsistentes.
+* **Robustez mediante DDD:** El uso de *Domain-Driven Design* permite una arquitectura escalable y mantenible, con separación clara de contextos como IAM, Routes, Stops y Company.
+* **Eficiencia en la Integración:** La implementación de una Capa Anticorrupción (ACL) asegura comunicación consistente entre microservicios, evitando la propagación de modelos de datos inconsistentes.
+* **Persistencia y Control de Sesión:** El manejo de tokens en el cliente móvil permite una autenticación fluida y segura en todo el ciclo de vida del usuario.
 
-### 4. Sobre el Impacto del Modelo de Negocio
-* **Sostenibilidad mediante B2B:** El modelo de suscripción para conductores independientes se perfila como una solución viable, ya que les ofrece una herramienta de gestión profesional a cambio de una inversión mínima, permitiéndoles competir en un mercado cada vez más tecnológico.
+### 4. Sobre la Gestión del Alcance y del Proyecto (Métricas Ágiles)
+* **Previsibilidad y Ritmo de Desarrollo:** Se completaron 51 Story Points dentro de una capacidad planificada de 60 SP, lo que evidencia una adecuada estimación y control del avance del equipo.
+* **Priorización del MVP:** La postergación de funcionalidades secundarias permitió enfocar esfuerzos en estabilizar el núcleo transaccional del sistema, reduciendo riesgos técnicos y de usabilidad.
+
+### 5. Sobre el Impacto del Modelo de Negocio
+* **Sostenibilidad mediante B2B:** El modelo de suscripción para conductores independientes es viable, ya que les proporciona una herramienta de gestión profesional a bajo costo, mejorando su competitividad en un mercado cada vez más digitalizado.
 
 <div style="page-break-after: always;"></div>
 
@@ -5614,19 +5621,23 @@ Basado en el análisis del proyecto y los hallazgos durante el avance, se sugier
 
 ### 1. Sobre el Producto y la Experiencia de Usuario (UX)
 * **Gamificación para Conductores:** Se recomienda implementar un sistema de medallas o puntos para los conductores que mantengan sus horarios y rutas actualizados en tiempo real. Esto incentivará la precisión de los datos, que es el núcleo del valor de la aplicación.
-* **Modo Offline:** Dada la variabilidad de la cobertura de red en rutas interurbanas y rurales, es fundamental desarrollar una funcionalidad de caché que permita a los pasajeros consultar las rutas y paraderos descargados previamente sin necesidad de conexión activa a internet.
+* **Modo Offline:** Dada la variabilidad de la cobertura de red en rutas interurbanas y rurales, es fundamental desarrollar una funcionalidad de caché que permita a los pasajeros consultar la información previamente descargada sin necesidad de conexión activa a internet.
+* **Transición Fluida de Estados de Reserva:** Diseñar microanimaciones y alertas visuales claras en Flutter para el flujo de confirmación de reservas, asegurando que el usuario tenga retroalimentación inmediata del estado de su cupo tras interactuar con el backend.
 
 ### 2. Sobre la Estrategia de Mercado y Validación
-* **Alianzas Estratégicas:** Se sugiere establecer contactos con asociaciones de transportistas locales para realizar planes piloto. Esto facilitará la adopción masiva y permitirá obtener feedback directo de los usuarios reales en un entorno controlado.
-* **Campañas de Alfabetización Digital:** Realizar material educativo simplificado (videos cortos o infografías físicas en los paraderos) que explique el uso de la aplicación, enfocándose en los beneficios de seguridad y ahorro de tiempo para el pasajero.
+* **Alianzas Estratégicas:** Se sugiere establecer contactos con asociaciones de transportistas locales para realizar planes piloto. Esto facilitará la adopción masiva y permitirá obtener feedback directo de usuarios reales en un entorno controlado.
+* **Campañas de Alfabetización Digital:** Desarrollar material educativo simplificado (videos cortos o infografías en paraderos) que explique el uso de la aplicación, enfocándose en los beneficios de seguridad y ahorro de tiempo para el pasajero.
+* **Validación del MVP Móvil:** Ejecutar una fase de pruebas beta cerradas con un grupo reducido de usuarios en dispositivos Android e iOS para evaluar la usabilidad real de los filtros geográficos en zonas periféricas.
 
 ### 3. Sobre el Desarrollo Técnico y Escalabilidad
-* **Implementación de Notificaciones Push:** Integrar un sistema de alertas en tiempo real que notifique a los pasajeros sobre cambios de último minuto en las tarifas o retrasos en las rutas debido a factores externos (clima, tráfico o mantenimiento vial).
+* **Implementación de Notificaciones Push:** Integrar un sistema de alertas en tiempo real que notifique a los pasajeros sobre cambios de último minuto en tarifas, retrasos o incidencias en las rutas debido a factores externos como clima o tráfico.
+* **Estrategia de Caching y Optimización de Consultas:** Implementar almacenamiento local en Flutter para indexar datos del módulo Geográfico, reduciendo la carga de peticiones a los endpoints del backend y optimizando el consumo de datos móviles.
+* **Planificación del Siguiente Incremento (Módulo de Favoritos):** Reincorporar progresivamente las historias de usuario del módulo *FavoriteRoutes*, utilizando la velocidad remanente del equipo para diseñar una sincronización asíncrona entre almacenamiento local y backend.
 
 ### 4. Sobre la Seguridad y el Cumplimiento
-* **Monitoreo de Veracidad:** Desarrollar un algoritmo de validación o un sistema de reportes por parte de los usuarios para identificar y sancionar perfiles de conductores que brinden información falsa sobre precios o rutas, manteniendo así la integridad de la plataforma.
-* **Protección de Datos:** Asegurar que el contexto de IAM (Identity and Access Management) cumpla estrictamente con la Ley de Protección de Datos Personales, especialmente al manejar información sensible de los conductores suscritos.
-
+* **Monitoreo de Veracidad:** Desarrollar un sistema de reportes y validación comunitaria para identificar y sancionar conductores que proporcionen información incorrecta sobre precios o rutas, asegurando la integridad de la plataforma.
+* **Protección de Datos y Cifrado en el Cliente:** Garantizar el cumplimiento de la Ley de Protección de Datos Personales mediante el fortalecimiento del módulo IAM (Identity and Access Management), y asegurar el almacenamiento cifrado de tokens de autenticación en la aplicación móvil utilizando mecanismos como *Secure Storage*.
+* 
 <div style="page-break-after: always;"></div>
 
 # Video App Validation
