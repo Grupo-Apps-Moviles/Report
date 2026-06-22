@@ -5108,9 +5108,32 @@ En esta sección se presenta el Sprint Planning Meeting correspondiente al segun
 | **Sprint 1 Review Summary** | Durante el Sprint 1 se entregó la aplicación móvil del segmento Conductor en Android (Kotlin/Jetpack Compose), con autenticación, dashboard, gestión completa (CRUD) de rutas y paraderos, programación de horarios, visualización en mapa y perfil. En el backend se implementaron los bounded contexts de IAM, Routes, Stops y Subscriptions, junto con la integración de pagos con PayPal, y se desplegó la Landing Page en GitHub Pages. El Product Owner valoró positivamente el avance y la entrega obtuvo una calificación de 19/20 en la AV1. |
 | **Sprint 1 Retrospective Summary** | El equipo identificó como principales aciertos la consolidación de la arquitectura DDD en el backend y la aplicación de un design system unificado (WayPassTheme). Como oportunidades de mejora se señalaron: distribuir de forma más equitativa los commits entre todos los integrantes y mantener una disciplina estricta de GitFlow (creación de ramas `main` y `develop`) en el nuevo repositorio de la aplicación Flutter. |
 | **Sprint Goal & User Stories** | |
-| Sprint 2 Goal | Our focus is on launching the WayPass passenger experience on Flutter and enabling trip reservations across the platform. We believe it delivers self-service onboarding, route discovery, favorite collections and trip reservations to passengers, and reservation-management groundwork to the business. This will be confirmed when passengers can register, log in and manage their profile, filter and explore routes and stops by location, organize routes into favorite collections, and reserve a trip through the reservation endpoints exposed by the backend. |
-| Sprint 2 Velocity | 70 |
-| Sum of Story Points | 64 |
+| Sprint 2 Goal | Nuestro objetivo es lanzar la experiencia de usuario de WayPass en Flutter y habilitar las reservas de viaje en toda la plataforma. Creemos que ofrece a los pasajeros la posibilidad de registrarse de forma autónoma, descubrir rutas, crear colecciones de favoritos y reservar viajes, además de sentar las bases para la gestión de reservas. Esto se confirmará cuando los pasajeros puedan registrarse, iniciar sesión y gestionar su perfil, filtrar y explorar rutas y paradas por ubicación, organizar rutas en colecciones de favoritos y reservar un viaje a través de los puntos de reserva disponibles en el backend. |
+| Sprint 2 Velocity | 60 |
+| Sum of Story Points | 51 |
+
+#### 4.2.2.2. Sprint Backlog 2
+
+#### Sprint Backlog 2
+
+El presente Sprint Backlog 2 detalla las historias de usuario priorizadas para el desarrollo de las funcionalidades para el usuario pasajero del sistema WayPass. Se asignan responsabilidades al equipo y se establece el estado actual de cada tarea dentro del sprint 02
+
+| ID   | Título                         | Descripción                                                                                                                | Story Points |
+|------|--------------------------------|----------------------------------------------------------------------------------------------------------------------------|--------------|
+| US53 | Reservar un viaje             | Como pasajero autenticado, deseo reservar un viaje en una ruta disponible para asegurar mi cupo antes de abordar.         | 6 |
+| US41 | Filtrar rutas por ubicación   | Como viajero, deseo filtrar rutas por región, provincia, distrito y ciudad para ubicar las que se encuentran en esa locación. | 6 |
+| US26 | Registro de usuario           | Como usuario, deseo registrarme en la plataforma de transporte para poder iniciar sesión.                                  | 5 |
+| US01 | Buscar rutas disponibles      | Como pasajero, deseo buscar rutas de colectivos cercanas para saber qué opciones tengo para movilizarme.                  | 5 |
+| US02 | Ver paraderos en el mapa      | Como pasajero, deseo ver en un mapa los paraderos cercanos para saber dónde tomar el colectivo.                           | 5 |
+| US29 | Editar perfil de usuario      | Como usuario, deseo poder editar mi perfil para mantener actualizados mis datos o corregir algún error.                  | 4 |
+| US42 | Ver resultados de búsqueda    | Como viajero, deseo ver el resultado del filtro en forma de tarjetas resumidas para comparar rápidamente las opciones disponibles. | 4 |
+| US27 | Iniciar sesión                | Como usuario, deseo poder iniciar sesión para tener acceso a la plataforma.                                                | 3 |
+| US24 | Filtrar paraderos por ubicación | Como viajero, deseo filtrar los paraderos por región, provincia, distrito y localidad para encontrar las opciones más cercanas a mí. | 3 |
+| US25 | Ver detalles completos de una ruta | Como viajero, deseo ver detalles completos de una ruta seleccionada para conocer la empresa, duración, tarifas y horarios. | 3 |
+| US43 | Ver detalles de ruta          | Como viajero, deseo navegar a la pantalla de detalle de la ruta para ver información completa.                           | 3 |
+| US28 | Cerrar sesión                 | Como usuario, deseo poder salir de la sesión iniciada para ya no estar más en ella.                                       | 2 |
+| US44 | Volver al listado             | Como viajero, deseo ver un botón “Volver al listado” para regresar fácilmente sin perder los filtros aplicados.          | 2 |
+
 
 #### 4.2.2.3. Development Evidence for Sprint Review
 
