@@ -377,7 +377,8 @@ El equipo utilizó GitHub como plataforma de colaboración para el control de ve
       - [4.2.2.3. Development Evidence for Sprint Review](#4223-development-evidence-for-sprint-review)
   - [Development Evidence for Sprint Review](#development-evidence-for-sprint-review-1)
     - [Web Services — Backend](#web-services--backend-1)
-    - [Mobile Application — Flutter](#mobile-application--flutter)
+    - [Mobile Application — Flutter (Pasajero)](#mobile-application--flutter-pasajero)
+    - [Mobile Application — Android (Conductor)](#mobile-application--android-conductor)
       - [4.2.2.4. Testing Suite Evidence for Sprint Review](#4224-testing-suite-evidence-for-sprint-review)
       - [4.2.2.5. Execution Evidence for Sprint Review](#4225-execution-evidence-for-sprint-review)
   - [Backend (.net C#)](#backend-net-c-1)
@@ -5183,48 +5184,131 @@ A continuación se presenta la descomposición de cada User Story en Engineering
 
 Durante este sprint se avanzó en la implementación de los productos principales de la solución WayPass: el backend (Web Services) y la nueva aplicación móvil desarrollada en Flutter.
 
-------
-
 ### Web Services — Backend
 
-| Repository | Branch | Commit ID | Commit Message | Committed by | Date |
-|---|---|---|---|---|---|
-| Backend | main | 9680e5f | solutions | velardesoft | Jun 9, 2026 |
-| Backend | main | 4ecf87e | Add README documentation for backend project | velardesoft | May 28, 2026 |
-| Backend | main | 24f8d7d | feat: Agregate new Bound de context | velardesoft | May 28, 2026 |
-| Backend | main | a2ea0330 | feat: Initial Commit | velardesoft | May 28, 2026 |
+Durante el Sprint 2 el backend incorporó el bounded context de **Reservations** (agregado, commands, queries, controlador REST y configuración EFC), el bounded context de **Favorite**, y un refactor mayor del modelo **Company–Membership** (membresía 1:N como agregado independiente, onboarding por código de invitación y control de capacidad basado en la suscripción a nivel de empresa). Adicionalmente se resolvieron incidencias de despliegue (cold-start) y de seeding de datos geográficos.
 
-### Mobile Application — Flutter
-
-| Repository | Branch | Commit ID | Commit Message | Committed by | Date |
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
 |---|---|---|---|---|---|
-| Flutter | main | a947d7e | feat: Finaly Profile | velardesoft | Jun 6, 2026 |
-| Flutter | main | 3309a37 | feat: Register ProfileRepository and ProfileViewModel in dependency injection setup | velardesoft | Jun 6, 2026 |
-| Flutter | main | 4d55f52 | feat: Enhance profile management by adding username and email handling, and implement ProfileRepository and ProfileViewModel for user profile loading and logout functionality | velardesoft | Jun 6, 2026 |
-| Flutter | main | 19d9c19 | feat: Add ProfileRepository and UserProfile classes for user profile management | velardesoft | Jun 6, 2026 |
-| Flutter | main | d7f6258 | feat: finaly auth | velardesoft | Jun 6, 2026 |
-| Flutter | main | d64c778 | feat: Enhance LoginPage with welcome message and improve navigation to RegisterPage | velardesoft | Jun 6, 2026 |
-| Flutter | main | e9c6091 | feat: Add RegisterPage for user registration with role selection and error handling | velardesoft | Jun 6, 2026 |
-| Flutter | main | b53491e | feat: Improve navigation handling in LoginPage to prevent back navigation after login | velardesoft | Jun 6, 2026 |
-| Flutter | main | 021dc24 | fix: Update base URL in AuthService for correct API endpoint in Android emulator | velardesoft | Jun 6, 2026 |
-| Flutter | main | 603c13c | feat: Refactor main function and application routing for improved initialization and structure | velardesoft | Jun 6, 2026 |
-| Flutter | main | 33c11ff | feat: Refactor LoginPage and LoginViewModel for improved user experience and error handling | velardesoft | Jun 6, 2026 |
-| Flutter | main | 10aeee7 | feat: Enhance dependency injection setup to include TokenManager for improved authentication handling | velardesoft | Jun 6, 2026 |
-| Flutter | main | e1f09e6 | feat: Implement TokenManager for handling user authentication tokens and session management | velardesoft | Jun 6, 2026 |
-| Flutter | main | 5191571 | refactor: Update signIn and signUp methods for improved return types and error handling | velardesoft | Jun 6, 2026 |
-| Flutter | main | f694d7e | refactor: Update AuthService and SignUpRequestDto for improved error handling and required fields | velardesoft | Jun 6, 2026 |
-| Flutter | main | 25f582a | refactor: Update AuthRepository and User model to improve type safety and structure | velardesoft | Jun 6, 2026 |
-| Flutter | main | 0499ea6 | feat: Add MainPage with bottom navigation and linked feature pages | velardesoft | Jun 6, 2026 |
-| Flutter | main | ac050c0 | feat: Add ProfilePage and ReservationPage as StatelessWidgets with placeholder content | velardesoft | Jun 6, 2026 |
-| Flutter | main | 1a700b8 | feat: Add FavoritePage and HomePage as StatelessWidgets with placeholder content | velardesoft | Jun 6, 2026 |
-| Flutter | main | cbcf145 | fix: Update base URL in AuthService to point to the local backend | velardesoft | Jun 6, 2026 |
-| Flutter | main | a394cad | feat: Implement dependency injection for authentication services and view model | velardesoft | Jun 6, 2026 |
-| Flutter | main | c6f67c7 | feat: Implement LoginViewModel with signIn and signUp methods handling login states | velardesoft | Jun 6, 2026 |
-| Flutter | main | f2b1f38 | feat: Implement AuthRepositoryImpl with signIn and signUp methods | velardesoft | Jun 6, 2026 |
-| Flutter | main | aa76b80 | chore: Update pubspec.yaml and pubspec.lock with new package versions and dependencies | velardesoft | Jun 6, 2026 |
-| Flutter | main | 91cb0ba | feat: Implement data transfer objects for authentication including AuthResponseDto, SignInRequestDto, and SignUpRequestDto | velardesoft | Jun 6, 2026 |
-| Flutter | main | 41c12fd | feat: Add initial authentication feature files including repository, DTOs, and presentation components | velardesoft | Jun 6, 2026 |
-| Flutter | main | 7c40d80 | feat: Add initial web files for Flutter project including index.html and manifest.json | velardesoft | Jun 6, 2026 |
+| Backend | develop | a13e759 | fix program |  | 20/06/2026 |
+| Backend | master | d11b81b | fix districts api |  | 20/06/2026 |
+| Backend | master | 5b71cb2 | feat: Add new bound context Favorite |  | 20/06/2026 |
+| Backend | fix/geographic-data-seeding | 28452cf | fix(geo): add retry backoff for cold-start and reliable geographic data seeding |  | 19/06/2026 |
+| Backend | feature/company-subscription | 48f451c | chore(persistence): update EFC mapping and migration for company subscription |  | 19/06/2026 |
+| Backend | master | c447f50 | feat(companies): enforce member capacity based on company subscription |  | 19/06/2026 |
+| Backend | master | 82559ed | refactor(subscriptions): create paypal subscription with company custom_id |  | 19/06/2026 |
+| Backend | master | fd4127c | feat(subscriptions): resolve company and require admin in subscription controller |  | 19/06/2026 |
+| Backend | master | 83f1ff6 | feat(subscriptions): add max members to subscription aggregate |  | 19/06/2026 |
+| Backend | master | 7ded57b | refactor(subscriptions): move subscription ownership from driver to company |  | 19/06/2026 |
+| Backend | feature/company-membership | 4e58146 | feat(companies): include user identity in membership list resource |  | 18/06/2026 |
+| Backend | master | c694a22 | chore(db): add migration for company_memberships and invitation_code |  | 18/06/2026 |
+| Backend | master | 9e05591 | chore(persistence): add EFC mapping and DI registration for memberships |  | 18/06/2026 |
+| Backend | master | 59c6d1d | feat(companies): add MembershipsController endpoints |  | 18/06/2026 |
+| Backend | master | 3936501 | feat(companies): expose invitation code in CompanyResource |  | 18/06/2026 |
+| Backend | master | 74c1d4a | feat(companies): create admin membership on company creation |  | 18/06/2026 |
+| Backend | master | 3511e28 | feat(companies): implement membership command and query services |  | 18/06/2026 |
+| Backend | master | 5ea0c2e | feat(companies): add membership commands, queries and domain services |  | 18/06/2026 |
+| Backend | master | 4498f52 | feat(companies): extend ICompanyRepository with FindByInvitationCode |  | 18/06/2026 |
+| Backend | master | c6a9514 | feat(companies): add ICompanyMembershipRepository and EFC implementation |  | 18/06/2026 |
+| Backend | master | 0d5e331 | feat(companies): add invitation code generation to Company aggregate |  | 18/06/2026 |
+| Backend | master | 4b70cc0 | feat(companies): add MemberRole value object and CompanyMembership aggregate |  | 18/06/2026 |
+| Backend | master | fea20f5 | chore(db): add Reservation entity configuration to AppDbContext |  | 16/06/2026 |
+| Backend | master | 6c6674b | feat(reservation): add ReservationsController REST endpoints |  | 16/06/2026 |
+| Backend | master | 83c2788 | feat(reservation): add ReservationResourceFromEntityAssembler |  | 16/06/2026 |
+| Backend | master | dbf0fbb | feat(reservation): add ReservationResource DTO |  | 16/06/2026 |
+| Backend | master | f40b263 | feat(reservation): add ReservationRepository implementation |  | 16/06/2026 |
+| Backend | master | df62d64 | feat(reservation): add ReservationQueryService |  | 16/06/2026 |
+| Backend | master | ab8b8c8 | feat(reservation): add ReservationCommandService |  | 16/06/2026 |
+| Backend | master | 5edfaba | feat(reservation): add IReservationRepository interface |  | 16/06/2026 |
+| Backend | master | f00c57c | feat(reservation): add IReservationQueryService interface |  | 16/06/2026 |
+| Backend | master | 060d464 | feat(reservation): add GetReservationsByDriverIdQuery |  | 16/06/2026 |
+| Backend | master | 49839e2 | feat(reservation): add CreateReservationResource |  | 16/06/2026 |
+| Backend | master | 52a9520 | feat(reservation): add CreateReservationCommandFromResourceAssembler |  | 16/06/2026 |
+| Backend | master | 4c327c1 | feat(reservation): add CreateReservationCommand |  | 16/06/2026 |
+| Backend | master | 59dbeff | feat(reservation): add ReservationStatus value object |  | 16/06/2026 |
+| Backend | master | 839bea4 | feat(reservation): add Reservation aggregate |  | 16/06/2026 |
+| Backend | master | 4ecf87e | Add README documentation for backend project |  | 28/05/2026 |
+| Backend | master | 24f8d7d | feat: Agregate new Bound de context |  | 28/05/2026 |
+| Backend | master | a2ea033 | feat: Initial Commit |  | 28/05/2026 |
+
+### Mobile Application — Flutter (Pasajero)
+
+Durante el Sprint 2 se construyó la aplicación móvil del segmento Pasajero en Flutter con Clean Architecture, cubriendo autenticación, perfil, exploración de rutas (Travel), favoritos con CRUD y reservas con integración de PayPal (WebView sandbox), junto con la centralización de la configuración de URLs hacia el servidor de producción.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| Flutter | feature/auth | f57738a | Add build command for Flutter APK |  | 20/06/2026 |
+| Flutter | feature/auth | d5b86ad | feat(api): update base URL to production server |  | 20/06/2026 |
+| Flutter | feature/auth | ede7799 | feat(route): handle not found response by returning an empty list |  | 20/06/2026 |
+| Flutter | feature/auth | f329e0e | feat(reservation): simplify reservation card layout by removing favorite feature |  | 20/06/2026 |
+| Flutter | feature/auth | c8e87c1 | feat: refactor API base URLs to use centralized configuration |  | 20/06/2026 |
+| Flutter | feature/auth | 73b834f | feat(auth): enhance validation for sign-in and sign-up forms |  | 20/06/2026 |
+| Flutter | feature/auth | 4d5110b | feat: Add favorite routes feature with CRUD operations |  | 20/06/2026 |
+| Flutter | feature/auth | f5168d6 | feat: add dependencies |  | 16/06/2026 |
+| Flutter | feature/auth | 10cc957 | feat(travel): update TravelPage 'Reservar' button to open payment page |  | 16/06/2026 |
+| Flutter | feature/auth | a1a55b5 | feat(core): register reservation dependencies in DependencyInjection |  | 16/06/2026 |
+| Flutter | feature/auth | b2ac036 | feat(reservation): add ReservationDto with null-safe fromJson |  | 16/06/2026 |
+| Flutter | feature/auth | a57ce54 | feat(reservation): add CreateReservationRequest with routeIds list |  | 16/06/2026 |
+| Flutter | feature/auth | 2f6b242 | feat(reservation): add ReservationRepositoryImpl |  | 16/06/2026 |
+| Flutter | feature/auth | a5a18c6 | feat(reservation): add ReservationRepository interface |  | 16/06/2026 |
+| Flutter | feature/auth | 3a4ef16 | feat(reservation): add ReservationService with getUserReservations |  | 16/06/2026 |
+| Flutter | feature/auth | 0c28150 | feat(reservation): add ReservationViewModel with loadUserReservations |  | 16/06/2026 |
+| Flutter | feature/auth | 8be9bef | feat(reservation): add reservation_state with ReservationListLoaded |  | 16/06/2026 |
+| Flutter | feature/auth | 0d4eed8 | feat(reservation): add ReservationPage with user reservations list |  | 16/06/2026 |
+| Flutter | feature/auth | a462743 | feat(reservation): add CreateReservationPage with PayPal WebView flow |  | 16/06/2026 |
+| Flutter | feature/auth | b6db3d5 | feat(reservation): add PaypalService for sandbox order and capture |  | 16/06/2026 |
+| Flutter | feature/auth | e5cca74 | feat: Finaly Route List |  | 11/06/2026 |
+| Flutter | feature/auth | 2eeaddb | feat: Remove travel-related data and presentation layers for refactoring |  | 11/06/2026 |
+| Flutter | feature/auth | d43f632 | feat: Add empty state validation and UI for travel routes in TravelView |  | 10/06/2026 |
+| Flutter | feature/auth | f9f6d2f | feat: Enhance dependency injection setup for authentication, profile, and travel features |  | 10/06/2026 |
+| Flutter | feature/auth | fa3e0ba | feat: Replace HomePage with TravelPage in MainPage navigation |  | 10/06/2026 |
+| Flutter | feature/auth | 7a42bf1 | feat: Implement TravelPage and TravelView for route management |  | 10/06/2026 |
+| Flutter | feature/auth | e6cf20b | feat: Add RouteViewModel and RouteState for travel route management |  | 10/06/2026 |
+| Flutter | feature/auth | 562714a | feat: Implement RouteService and RouteRepositoryImpl for travel route management |  | 10/06/2026 |
+| Flutter | feature/auth | ed42eed | feat: Add StopDto and TravelRouteDto classes for travel data management |  | 10/06/2026 |
+| Flutter | feature/auth | 4bfa338 | feat: Add RouteRepository, TravelRoute, and Stop classes for travel domain management |  | 10/06/2026 |
+| Flutter | feature/auth | a947d7e | feat: Finaly Profile |  | 06/06/2026 |
+| Flutter | feature/auth | 4d55f52 | feat: Enhance profile management adding username/email and ProfileRepository/ViewModel |  | 06/06/2026 |
+| Flutter | feature/auth | d7f6258 | feat: finaly auth |  | 06/06/2026 |
+| Flutter | feature/auth | e9c6091 | feat: Add RegisterPage for user registration with role selection and error handling |  | 06/06/2026 |
+| Flutter | feature/auth | e1f09e6 | feat: Implement TokenManager for handling user authentication tokens and session management |  | 06/06/2026 |
+| Flutter | feature/auth | 0499ea6 | feat: Add MainPage with bottom navigation and linked feature pages |  | 06/06/2026 |
+| Flutter | feature/auth | f2b1f38 | feat: Implement AuthRepositoryImpl with signIn and signUp methods |  | 06/06/2026 |
+| Flutter | feature/auth | 91cb0ba | feat: Implement DTOs for authentication (AuthResponse, SignIn, SignUp) |  | 06/06/2026 |
+| Flutter | feature/auth | 41c12fd | feat: Add initial authentication feature files including repository, DTOs, and presentation |  | 06/06/2026 |
+| Flutter | feature/auth | 7c40d80 | feat: Add initial web files for Flutter project including index.html and manifest.json |  | 06/06/2026 |
+
+### Mobile Application — Android (Conductor)
+
+Durante el Sprint 2, la aplicación del segmento Conductor (Kotlin/Jetpack Compose) recibió dos cuerpos de trabajo. Por un lado, la visualización de reservas y pagos del lado del conductor (DriverDashboard con tarjetas de reserva y adaptador de pagos). Por otro lado —y como respuesta directa a la retroalimentación del profesor de que **un conductor no debe ser la empresa, sino pertenecer a una empresa que puede tener varios conductores**— se realizó un refactor del modelo de dominio: se rompió la relación 1 Usuario = 1 Empresa y se introdujo el modelo de **membresía de compañía (1 empresa → N conductores)**. Esto incorporó el onboarding por **código de invitación**, una pantalla de **gestión de miembros** para el administrador, un **gate post-login** que enruta según la membresía del conductor, y el **gating de la suscripción a nivel de empresa** (solo el administrador paga; los conductores de una empresa con suscripción activa heredan el acceso). El segmento Pasajero (Flutter) no se vio afectado por estos cambios.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| Android | main | 3d79a75 | update db link |  | 20/06/2026 |
+| Android | feature/android-company-subscription | 5926049 | refactor(data): refine join error mapping for capacity vs duplicate membership |  | 19/06/2026 |
+| Android | main | b5e046d | feat(presentation): show company subscription status for non-admin drivers |  | 19/06/2026 |
+| Android | main | 9344637 | feat(presentation): gate premium subscription button to company admin |  | 19/06/2026 |
+| Android | main | 49aa6d6 | refactor(driver): resolve companyId from membership instead of getCompanyByUserId |  | 19/06/2026 |
+| Android | main | 2cc4d99 | feat(navigation): add driver gate and onboarding routing |  | 19/06/2026 |
+| Android | main | d98b15a | feat(presentation): show role, invitation code and leave/manage in driver profile |  | 19/06/2026 |
+| Android | main | 8f6c171 | feat(presentation): add admin company members screen |  | 19/06/2026 |
+| Android | main | 9bfa128 | feat(presentation): add company onboarding and join-by-code screens |  | 19/06/2026 |
+| Android | main | 9e542f8 | feat(presentation): add MembershipViewModel |  | 18/06/2026 |
+| Android | main | 89c52c0 | chore(di): bind MembershipRepository in Hilt module |  | 18/06/2026 |
+| Android | main | 4faef79 | feat(data): implement MembershipRepositoryImpl with error mapping |  | 18/06/2026 |
+| Android | main | 1de7a3d | feat(domain): add Membership models, repository and use cases |  | 18/06/2026 |
+| Android | main | 250d6f8 | feat(data): add membership endpoints to WayPassApiService |  | 18/06/2026 |
+| Android | main | 59c4f3c | feat(data): add membership DTOs and invitation code in CompanyDto |  | 18/06/2026 |
+| Android | main | e61b15e | feat(api): add getDriverReservations endpoint to WayPassApiService |  | 16/06/2026 |
+| Android | main | 22a3626 | feat(adapter): add PaymentAdapter |  | 16/06/2026 |
+| Android | main | d62e074 | feat(driver): pass userId as driverId in DriverNavigationScreen |  | 16/06/2026 |
+| Android | main | e952aaa | feat(driver): rewrite DriverDashboardScreen with ReservationCard UI |  | 16/06/2026 |
+| Android | main | d9a9ab7 | fix(driver): DriverDashboardViewModel use driverId not companyId |  | 16/06/2026 |
+| Android | main | 1da0bd4 | feat(reservation): add ReservationRepository with getDriverReservations |  | 16/06/2026 |
+| Android | main | 3691981 | feat(reservation): add ReservationViewModelFactory |  | 16/06/2026 |
+| Android | main | 8858259 | feat(reservation): add ReservationResponse data model |  | 16/06/2026 |
+| Android | main | 1f66fa2 | feat(reservation): add ReservationUiState for driver payments screen |  | 16/06/2026 |
+| Android | main | f1b8e04 | feat: add dependencies |  | 16/06/2026 |
 
 #### 4.2.2.4. Testing Suite Evidence for Sprint Review
 
