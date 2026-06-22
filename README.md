@@ -47,14 +47,14 @@
   <br/><br/>
 
 <div align="center">
-  <strong>Lima, 14 de Mayo del 2026</strong><br/>
+  <strong>Lima, 21 de Junio del 2026</strong><br/>
 </div>
 
 <div style="page-break-after: always;"></div>
 
 # Registro de Versiones del Informe
 
-En esta sección se presenta el historial de versiones del informe del proyecto Viacore, detallando las principales modificaciones realizadas durante el desarrollo y documentación del sistema. Asimismo, se evidencia la participación de los integrantes del equipo en distintas actividades relacionadas con análisis, diseño, implementación y documentación del proyecto.
+En esta sección se presenta el historial de versiones del informe del proyecto WayPass, detallando las principales modificaciones realizadas durante el desarrollo y documentación del sistema. Asimismo, se evidencia la participación de los integrantes del equipo en distintas actividades relacionadas con análisis, diseño, implementación y documentación del proyecto.
 
 <table border="1px" align="center">
     <thead>
@@ -102,6 +102,18 @@ En esta sección se presenta el historial de versiones del informe del proyecto 
             <td>Velarde Gonzales, Néstor Hernán</td>
             <td>Desarrollo de Landing Page, modelado de base de datos y documentación de los capítulos IV y V.</td>
         </tr>
+        <tr>
+            <td>7.0</td>
+            <td>15/06/2026</td>
+            <td>Todos</td>
+            <td>Desarrollo de las caracteristicas del segmento pasajero en Flutter.</td>
+        </tr>
+         <tr>
+            <td>8.0</td>
+            <td>21/06/2026</td>
+            <td>Todos</td>
+            <td>Completar el informe detallando lo realizado en el Sprint 2.</td>
+        </tr>
     </tbody>
 </table>
 
@@ -109,7 +121,7 @@ En esta sección se presenta el historial de versiones del informe del proyecto 
 
 # Project Report Collaboration Insights
 
-Durante el desarrollo del proyecto Viacore, los integrantes del equipo participaron activamente en la elaboración de documentación, desarrollo de software, gestión del repositorio y coordinación de tareas mediante GitHub y metodologías ágiles.
+Durante el desarrollo del proyecto WayPass, los integrantes del equipo participaron activamente en la elaboración de documentación, desarrollo de software, gestión del repositorio y coordinación de tareas mediante GitHub y metodologías ágiles.
 
 A continuación, se presentan los principales colaboradores del proyecto:
 
@@ -121,9 +133,9 @@ A continuación, se presentan los principales colaboradores del proyecto:
 | Quiroz Cáceres, Adrian | U202214864 | @Aqc1019 |
 | Carranza Tesén, Joaquín Enrique | U20191B935 | @thepima |
 
-El equipo utilizó GitHub como plataforma de colaboración para el control de versiones, integración de cambios, seguimiento de avances y trabajo colaborativo durante el Sprint 01 - Trabajo Parcial.
+El equipo utilizó GitHub como plataforma de colaboración para el control de versiones, integración de cambios, seguimiento de avances y trabajo colaborativo durante el Sprint2 - Avance2.
 
-<img width="906" height="695" alt="Image" src="https://github.com/user-attachments/assets/553f2a55-d450-416e-8d4e-e482bd93ea84" />
+<img width="916" height="703" alt="Image" src="https://github.com/user-attachments/assets/72da4b66-8c45-41c7-a02c-a8258b5f2874" />
 
 <div style="page-break-after: always;"></div>
 
@@ -361,6 +373,26 @@ El equipo utilizó GitHub como plataforma de colaboración para el control de ve
       - [4.2.1.8. Team Collaboration Insights during Sprint](#4218-team-collaboration-insights-during-sprint)
     - [4.2.2. Sprint 2](#422-sprint-2)
       - [4.2.2.1. Sprint Planning 2](#4221-sprint-planning-2)
+      - [4.2.2.2. Sprint Backlog 2](#4222-sprint-backlog-2)
+      - [4.2.2.3. Development Evidence for Sprint Review](#4223-development-evidence-for-sprint-review)
+  - [Development Evidence for Sprint Review](#development-evidence-for-sprint-review-1)
+    - [Web Services — Backend](#web-services--backend-1)
+    - [Mobile Application — Flutter (Pasajero)](#mobile-application--flutter-pasajero)
+    - [Mobile Application — Android (Conductor)](#mobile-application--android-conductor)
+      - [4.2.2.4. Testing Suite Evidence for Sprint Review](#4224-testing-suite-evidence-for-sprint-review)
+      - [4.2.2.5. Execution Evidence for Sprint Review](#4225-execution-evidence-for-sprint-review)
+  - [Backend (.net C#)](#backend-net-c-1)
+  - [Base de datos (MySql)](#base-de-datos-mysql-1)
+- [Tablas Principales](#tablas-principales-1)
+  - [Aplicación Móvil — Flutter (Pasajero)](#aplicación-móvil--flutter-pasajero)
+      - [4.2.2.6. Services Documentation Evidence for Sprint Review](#4226-services-documentation-evidence-for-sprint-review)
+  - [Authentication Services](#authentication-services-1)
+  - [Users \& Profiles Services](#users--profiles-services-1)
+  - [Travel \& Routes Services](#travel--routes-services)
+  - [Reservation Services](#reservation-services)
+  - [Favorites Services](#favorites-services)
+      - [4.2.2.7. Software Deployment Evidence for Sprint Review](#4227-software-deployment-evidence-for-sprint-review)
+      - [4.2.2.8. Team Collaboration Insights during Sprint](#4228-team-collaboration-insights-during-sprint)
   - [4.3. Validation Interviews](#43-validation-interviews)
     - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
     - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
@@ -370,7 +402,8 @@ El equipo utilizó GitHub como plataforma de colaboración para el control de ve
     - [1. Sobre la Problemática y la Propuesta de Valor](#1-sobre-la-problemática-y-la-propuesta-de-valor)
     - [2. Sobre el Diseño Centrado en el Usuario (UX)](#2-sobre-el-diseño-centrado-en-el-usuario-ux)
     - [3. Sobre la Arquitectura y el Desarrollo Técnico](#3-sobre-la-arquitectura-y-el-desarrollo-técnico)
-    - [4. Sobre el Impacto del Modelo de Negocio](#4-sobre-el-impacto-del-modelo-de-negocio)
+    - [4. Sobre la Gestión del Alcance y del Proyecto (Métricas Ágiles)](#4-sobre-la-gestión-del-alcance-y-del-proyecto-métricas-ágiles)
+    - [5. Sobre el Impacto del Modelo de Negocio](#5-sobre-el-impacto-del-modelo-de-negocio)
   - [Recomendaciones](#recomendaciones)
     - [1. Sobre el Producto y la Experiencia de Usuario (UX)](#1-sobre-el-producto-y-la-experiencia-de-usuario-ux)
     - [2. Sobre la Estrategia de Mercado y Validación](#2-sobre-la-estrategia-de-mercado-y-validación)
@@ -382,7 +415,7 @@ El equipo utilizó GitHub como plataforma de colaboración para el control de ve
 - [Glosario](#glosario)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
-  - [Recursos del Proyecto - Viacore](#recursos-del-proyecto---viacore)
+  - [Recursos del Proyecto - WayPass](#recursos-del-proyecto---waypass)
   - [Sistemas y Plataformas Externas](#sistemas-y-plataformas-externas)
   - [Herramientas de Desarrollo de Software](#herramientas-de-desarrollo-de-software)
 
@@ -401,8 +434,8 @@ por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |---|---|---|
-| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software** | **Joaquín Carranza**  <br><br> **AV1:** Comprendí la importancia de dominar arquitecturas en tiempo real y Geofencing para resolver problemas de informalidad y precisión en el transporte.  <br><br> **TB1:** He actualizado mis conocimientos y competencias profesionales mediante la implementación de un enfoque de ingeniería estratégica en el proyecto: utilicé Spike Stories para investigar incertidumbres y reducir riesgos técnicos de forma anticipada, definí un Bounded Context para el módulo de suscripciones aplicando principios de Domain-Driven Design (DDD) para asegurar una arquitectura limpia, y realicé entrevistas de validación para garantizar que la solución de software responda a necesidades reales del mercado. Esta integración me ha permitido pasar de la simple codificación a la creación de soluciones de software robustas, escalables y alineadas con los objetivos del negocio.  <br><br> **Curi Marcelo, Angelo Marcio**  <br><br> **AV1:** Identificamos la problemática, user personas y user stories mediante entrevistas.  <br><br> **TB1:** Implementé funcionalidades del módulo conductor en Android usando Google Maps y servicios de geolocalización.  <br><br> **Yaku Guzmán**  <br><br> **AV1:** Actualicé conocimientos sobre arquitectura C4 Model, DDD y bounded contexts en ASP.NET Core.  <br><br> **TB1:** Implementé un design system completo con Jetpack Compose y Material 3, aplicando buenas prácticas de UI/UX y refactorización de pantallas.  <br><br> **Quiroz Cáceres, Adrian**  <br><br> **AV1:** Definí la problemática, user personas y user stories validadas mediante entrevistas, además de establecer los requerimientos principales y los bounded contexts aplicando principios de Domain-Driven Design (DDD), permitiendo estructurar una solución alineada con las necesidades reales de los usuarios.  <br><br> **TB1:** Implementé la integración de PayPal en el sistema, fortaleciendo conocimientos en pasarelas de pago, consumo de APIs externas y manejo de flujos de suscripción, contribuyendo a una solución más segura, escalable y orientada a la experiencia del usuario.  <br><br> **Velarde Gonzales, Néstor Hernán**  <br><br> **AV1:** Participé en entrevistas y validación de requisitos técnicos para soluciones contextualizadas.  <br><br> **TB1:** Desarrollé el backend aplicando DDD, CQRS, SOLID y buenas prácticas de arquitectura de software. | Las entrevistas confirmaron que el transporte local presenta una crisis de información. WayPass busca resolverla digitalizando la función del “datero”, mejorando la experiencia del pasajero y optimizando el llenado de unidades mediante soluciones tecnológicas contextualizadas. |
-| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software** | **Joaquín Carranza**  <br><br> **AV1:** Comprendí la necesidad de aprender continuamente sobre arquitecturas escalables, sincronización en tiempo real y UX móvil.  <br><br> **TB1:** He cumplido con este objetivo al validar que la ingeniería de software es un campo en constante evolución donde la curiosidad técnica y la investigación son fundamentales; por ello, implementé Spike Stories para profundizar en tecnologías desconocidas y mitigar riesgos, apliqué conceptos avanzados de Bounded Contexts para dominar nuevas formas de estructurar el negocio, y realicé entrevistas de validación para entender que el aprendizaje no es solo técnico, sino también entender el entorno del usuario. Este proceso me ha permitido reconocer que mantener mis conocimientos actualizados es la única vía para construir soluciones de software que sean verdaderamente eficientes, modernas y capaces de adaptarse a los cambios reales del mercado.  <br><br> **Curi Marcelo, Angelo Marcio**  <br><br> **AV1:** Identificamos requerimientos técnicos y servicios externos para el desarrollo de la aplicación.  <br><br> **TB1:** Fortalecí conocimientos en desarrollo móvil, APIs y geolocalización mediante la implementación de funcionalidades Android.  <br><br> **Yaku Guzmán**  <br><br> **AV1:** Reconocí la importancia de evolucionar constantemente en herramientas de documentación y arquitectura.  <br><br> **TB1:** Comprendí que Material 3 y Jetpack Compose requieren actualización continua y aplicación constante de buenas prácticas.  <br><br> **Quiroz Cáceres, Adrian**  <br><br> **AV1:** Comprendí la importancia de actualizar constantemente conocimientos en análisis de requerimientos, arquitectura de software y modelado de dominios para desarrollar soluciones tecnológicas más eficientes y adaptadas al contexto del usuario.  <br><br> **TB1:** Fortalecí mis competencias en integración de servicios externos y sistemas de pago digitales mediante la implementación de PayPal, reconociendo la necesidad de mantenerme en constante aprendizaje sobre seguridad, APIs y buenas prácticas de desarrollo para adaptarme a las demandas actuales del mercado tecnológico.  <br><br> **Velarde Gonzales, Néstor Hernán**  <br><br> **AV1:** Comprendí que las decisiones técnicas deben alinearse con las necesidades reales de los usuarios.  <br><br> **TB1:** Participé activamente en mejoras continuas considerando user stories, requisitos funcionales y retroalimentación de stakeholders en cada Sprint. | El desarrollo de software exige aprendizaje permanente para adaptar soluciones tecnológicas a necesidades cambiantes. La evolución profesional requiere equilibrio entre conocimiento técnico, validación con usuarios reales y mejora continua de procesos y herramientas. |
+| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software** | **Joaquín Carranza**  <br><br> **AV1:** Comprendí la importancia de dominar arquitecturas en tiempo real y Geofencing para resolver problemas de informalidad y precisión en el transporte.  <br><br> **TB1:** He actualizado mis conocimientos y competencias profesionales mediante la implementación de un enfoque de ingeniería estratégica en el proyecto: utilicé Spike Stories para investigar incertidumbres y reducir riesgos técnicos de forma anticipada, definí un Bounded Context para el módulo de suscripciones aplicando principios de Domain-Driven Design (DDD) para asegurar una arquitectura limpia, y realicé entrevistas de validación para garantizar que la solución de software responda a necesidades reales del mercado. Esta integración me ha permitido pasar de la simple codificación a la creación de soluciones de software robustas, escalables y alineadas con los objetivos del negocio.  <br><br> **AV2:** Actualicé los conceptos y conocimientos de mi proyecto mediante la integración de Flutter y Dart en la documentación técnica. Para ello, incorporé esta tecnología en el entorno de desarrollo, añadí su repositorio, estructuré sus guías de estilo oficiales (Effective Dart) con sus convenciones de nomenclatura y definí el proceso para compilar el APK en producción.  <br><br> **Curi Marcelo, Angelo Marcio**  <br><br> **AV1:** Identificamos la problemática, user personas y user stories mediante entrevistas.  <br><br> **TB1:** Implementé funcionalidades del módulo conductor en Android usando Google Maps y servicios de geolocalización.  <br><br> **AV2:** Complete la documentación acerca de la evidencia de ejecución, deploy de los servicios y la exportación de los APK.  <br><br> **Yaku Guzmán**  <br><br> **AV1:** Actualicé conocimientos sobre arquitectura C4 Model, DDD y bounded contexts en ASP.NET Core.  <br><br> **TB1:** Implementé un design system completo con Jetpack Compose y Material 3, aplicando buenas prácticas de UI/UX y refactorización de pantallas.  <br><br> **AV2:** Profundicé en Domain-Driven Design al refactorizar el modelo Company–Driver hacia una membresía 1:N como agregado independiente (CompanyMembership), incorporando onboarding por código de invitación y suscripción a nivel de empresa con control de capacidad.  <br><br> **Quiroz Cáceres, Adrian**  <br><br> **AV1:** Definí la problemática, user personas y user stories validadas mediante entrevistas, además de establecer los requerimientos principales y los bounded contexts aplicando principios de Domain-Driven Design (DDD), permitiendo estructurar una solución alineada con las necesidades reales de los usuarios.  <br><br> **TB1:** Implementé la integración de PayPal en el sistema, fortaleciendo conocimientos en pasarelas de pago, consumo de APIs externas y manejo de flujos de suscripción, contribuyendo a una solución más segura, escalable y orientada a la experiencia del usuario.  <br><br> **AV2:** Desarrollé la funcionalidad de reserva de rutas para pasajeros utilizando Flutter, permitiendo registrar y gestionar solicitudes de viaje desde la aplicación móvil. Asimismo, implementé en Kotlin la visualización de dichas reservas para los conductores, fortaleciendo conocimientos en desarrollo móvil multiplataforma, consumo de APIs, sincronización de datos y comunicación entre módulos del sistema, contribuyendo a una solución integrada y orientada a las necesidades de los usuarios.  <br><br> **Velarde Gonzales, Néstor Hernán**  <br><br> **AV1:** Participé en entrevistas y validación de requisitos técnicos para soluciones contextualizadas.  <br><br> **TB1:** Desarrollé el backend aplicando DDD, CQRS, SOLID y buenas prácticas de arquitectura de software.  <br><br> **AV2:** Facilité la comunicación de los objetivos y requerimientos técnicos durante el Sprint 2, estableciendo una base sólida para el avance del equipo WayPass. A nivel técnico, desarrollé el software de la aplicación móvil del módulo del pasajero aplicando buenas prácticas con herramientas de alcance. | Las entrevistas confirmaron que el transporte local presenta una crisis de información. WayPass busca resolverla digitalizando la función del "datero", mejorando la experiencia del pasajero y optimizando el llenado de unidades mediante soluciones tecnológicas contextualizadas. Durante el AV2, el equipo consolidó este aprendizaje al incorporar nuevas tecnologías y enfoques —Flutter/Dart para la aplicación multiplataforma del pasajero, el refactor del modelo de dominio Company–Membership en el backend y pruebas de aceptación BDD—, evidenciando la capacidad de adquirir y aplicar conocimientos nuevos para hacer evolucionar el producto. |
+| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software** | **Joaquín Carranza**  <br><br> **AV1:** Comprendí la necesidad de aprender continuamente sobre arquitecturas escalables, sincronización en tiempo real y UX móvil.  <br><br> **TB1:** He cumplido con este objetivo al validar que la ingeniería de software es un campo en constante evolución donde la curiosidad técnica y la investigación son fundamentales; por ello, implementé Spike Stories para profundizar en tecnologías desconocidas y mitigar riesgos, apliqué conceptos avanzados de Bounded Contexts para dominar nuevas formas de estructurar el negocio, y realicé entrevistas de validación para entender que el aprendizaje no es solo técnico, sino también entender el entorno del usuario. Este proceso me ha permitido reconocer que mantener mis conocimientos actualizados es la única vía para construir soluciones de software que sean verdaderamente eficientes, modernas y capaces de adaptarse a los cambios reales del mercado.  <br><br> **AV2:** Reconocí la necesidad del aprendizaje permanente al adoptar de forma autónoma Flutter y Dart como una nueva competencia para el proyecto. Esto me permitió asimilar rápidamente sus herramientas, alinear el código a sus estándares oficiales y dominar su flujo de despliegue, demostrando capacidad de adaptación ante las necesidades tecnológicas del software.  <br><br> **Curi Marcelo, Angelo Marcio**  <br><br> **AV1:** Identificamos requerimientos técnicos y servicios externos para el desarrollo de la aplicación.  <br><br> **TB1:** Fortalecí conocimientos en desarrollo móvil, APIs y geolocalización mediante la implementación de funcionalidades Android.  <br><br> **AV2:** Fortalecí mis competencias en configuración de servicios externos, despliegue y exportación exitosa de los servicios.  <br><br> **Yaku Guzmán**  <br><br> **AV1:** Reconocí la importancia de evolucionar constantemente en herramientas de documentación y arquitectura.  <br><br> **TB1:** Comprendí que Material 3 y Jetpack Compose requieren actualización continua y aplicación constante de buenas prácticas.  <br><br> **AV2:** Reconocí la necesidad del aprendizaje permanente al adoptar Reqnroll (sucesor de SpecFlow) para pruebas BDD en .NET, profundizar en patrones de membresía y suscripción a nivel de compañía, y resolver problemas de despliegue mediante reintentos con backoff. Esto reforzó la importancia de mantenerme actualizado en arquitectura, testing y prácticas de DevOps para entregar software confiable.  <br><br> **Quiroz Cáceres, Adrian**  <br><br> **AV1:** Comprendí la importancia de actualizar constantemente conocimientos en análisis de requerimientos, arquitectura de software y modelado de dominios para desarrollar soluciones tecnológicas más eficientes y adaptadas al contexto del usuario.  <br><br> **TB1:** Fortalecí mis competencias en integración de servicios externos y sistemas de pago digitales mediante la implementación de PayPal, reconociendo la necesidad de mantenerme en constante aprendizaje sobre seguridad, APIs y buenas prácticas de desarrollo para adaptarme a las demandas actuales del mercado tecnológico.  <br><br> **AV2:** Fortalecí mis competencias en el desarrollo de aplicaciones móviles mediante la implementación de reservas de rutas en Flutter y su visualización para conductores en Kotlin, reconociendo la importancia de actualizar constantemente conocimientos sobre frameworks móviles, integración de servicios y buenas prácticas de desarrollo para crear soluciones tecnológicas eficientes y adaptadas a las demandas actuales del mercado.  <br><br> **Velarde Gonzales, Néstor Hernán**  <br><br> **AV1:** Comprendí que las decisiones técnicas deben alinearse con las necesidades reales de los usuarios.  <br><br> **TB1:** Participé activamente en mejoras continuas considerando user stories, requisitos funcionales y retroalimentación de stakeholders en cada Sprint.  <br><br> **AV2:** Apliqué metodologías ágiles y buenas prácticas de ingeniería de software para gestionar el desarrollo del proyecto, lo que me permitió iterar eficientemente, resolver observaciones técnicas e implementar los avances requeridos en el proyecto WayPass. | El desarrollo de software exige aprendizaje permanente para adaptar soluciones tecnológicas a necesidades cambiantes. La evolución profesional requiere equilibrio entre conocimiento técnico, validación con usuarios reales y mejora continua de procesos y herramientas. En el AV2, el equipo reforzó esta necesidad al adoptar de forma autónoma frameworks y herramientas no dominadas previamente (Flutter/Dart, Reqnroll para BDD) y al resolver observaciones técnicas del docente y problemas de despliegue, demostrando adaptación continua ante los retos del proyecto. |
 
 <div style="page-break-after: always;"></div>
 
@@ -442,7 +475,7 @@ Es este punto de detallará nuestra Startup desarrollado por grupo de estudiante
 
 ### 1.1.1. Descripción de la Startup
 
-Viacore es una startup dedicada a la modernización del transporte colectivo informal mediante innovación tecnológica. A través de nuestra plataforma WayPass, buscamos estructurar la conectividad entre ciudades y distritos, centralizando información crítica como rutas, paraderos y horarios en una interfaz digital accesible. Reconocemos la importancia del sistema de colectivos y, con WayPass, aportamos la visibilidad y el orden necesarios para profesionalizar el servicio sin sacrificar su flexibilidad. Nuestro compromiso es transformar la movilidad cotidiana en una experiencia más eficiente, cómoda y centrada en el usuario.
+WayPass es una startup dedicada a la modernización del transporte colectivo informal mediante innovación tecnológica. A través de nuestra plataforma WayPass, buscamos estructurar la conectividad entre ciudades y distritos, centralizando información crítica como rutas, paraderos y horarios en una interfaz digital accesible. Reconocemos la importancia del sistema de colectivos y, con WayPass, aportamos la visibilidad y el orden necesarios para profesionalizar el servicio sin sacrificar su flexibilidad. Nuestro compromiso es transformar la movilidad cotidiana en una experiencia más eficiente, cómoda y centrada en el usuario.
 
 **Misión**
 Transformar y organizar el transporte colectivo informal mediante soluciones tecnológicas accesibles, brindando estructura, visibilidad y eficiencia a un sistema vital de movilidad. Buscamos mejorar la calidad de vida de usuarios y conductores, facilitando la conexión entre comunidades sin perder la flexibilidad que caracteriza al servicio.
@@ -503,7 +536,7 @@ en equipo.</td>
 
 ## 1.2. Solution Profile
 
-Nuestro producto **WayPass** es una aplicación móvil desarrollada por el equipo de **Viacore** que organiza y moderniza el transporte colectivo informal a través de información clara sobre rutas, paraderos y horarios que conecta ciudades y distritos brindando mayor accesibilidad y eficiencia para usuarios y conductores.
+Nuestro producto **WayPass** es una aplicación móvil desarrollada por el equipo de **WayPass** que organiza y moderniza el transporte colectivo informal a través de información clara sobre rutas, paraderos y horarios que conecta ciudades y distritos brindando mayor accesibilidad y eficiencia para usuarios y conductores.
 
 ### 1.2.1. Antecedentes y problemática
 
@@ -529,7 +562,7 @@ La problemática se puede resumir en los siguientes puntos:
 
 El proceso de Lean UX se define como una mentalidad y un conjunto de prácticas que enfocan el diseño en la obtención de resultados y la validación de hipótesis, reduciendo el énfasis en la documentación tradicional. Esta metodología permite iterar rápidamente mediante el ciclo de "Crear-Medir-Aprender", asegurando que el desarrollo de la solución esté alineado con las necesidades reales del usuario final.
 
-A continuación, se detalla la aplicación de este proceso para el proyecto Viacore:
+A continuación, se detalla la aplicación de este proceso para el proyecto WayPass:
 
 #### 1.2.2.1. Lean UX Problem Statements
 Nuestra aplicación busca ayudar a personas que desean trasladarse de forma económica entre ciudades o pueblos cercanos, y que actualmente no cuentan con información clara ni accesible sobre dónde se ubican los paraderos de colectivos, sus rutas, horarios aproximados y tarifas.
@@ -578,7 +611,7 @@ Creemos que aumentar la accesibilidad de la app y alcanzar a más usuarios en zo
 
 #### 1.2.2.4. Lean UX Canvas
 
-A continuación, se realizará el Lean UX Canvas, el cual nos sirve para capturar y visualizar en un solo cuadro los problemas, soluciones, métricas y perfiles de usuario, facilitando la alineación estratégica del equipo y asegurando que el desarrollo de Viacore esté enfocado en entregar valor real.
+A continuación, se realizará el Lean UX Canvas, el cual nos sirve para capturar y visualizar en un solo cuadro los problemas, soluciones, métricas y perfiles de usuario, facilitando la alineación estratégica del equipo y asegurando que el desarrollo de WayPass esté enfocado en entregar valor real.
 
 Figura 1. Lean UX Canvas.
 
@@ -590,7 +623,7 @@ Fuente: Elaboración propia en la plataforma Miro. Disponible en: https://miro.c
 
 ## 1.3. Segmentos objetivo
 
-En esta sección se identifican los segmentos objetivos del proyecto, los cuales permiten personalizar la propuesta de valor y las estrategias de comunicación. El análisis de estos perfiles asegura que la solución responda directamente a las problemáticas reales de movilidad y gestión de rutas, integrando las necesidades tanto de los pasajeros como de los conductores de Viacore.
+En esta sección se identifican los segmentos objetivos del proyecto, los cuales permiten personalizar la propuesta de valor y las estrategias de comunicación. El análisis de estos perfiles asegura que la solución responda directamente a las problemáticas reales de movilidad y gestión de rutas, integrando las necesidades tanto de los pasajeros como de los conductores de WayPass.
 
 ### 1. Pasajeros
 Este segmento está compuesto principalmente por personas que necesitan movilizarse entre zonas periféricas, pueblos cercanos o distritos colindantes donde el transporte público tradicional es limitado, ineficiente o inexistente.
@@ -626,7 +659,7 @@ Este grupo representa a los operadores informales que ofrecen servicios de trans
 
 # Capítulo II: Requirements Development and Software Solution Design
 
-En este capítulo se detalla el proceso de ingeniería de requisitos y el diseño de la solución de software para Viacore. Se abarca desde el análisis comparativo con soluciones existentes en el mercado hasta la definición técnica de los requerimientos funcionales y no funcionales, permitiendo establecer una base sólida para la arquitectura y el desarrollo posterior de la plataforma.
+En este capítulo se detalla el proceso de ingeniería de requisitos y el diseño de la solución de software para WayPass. Se abarca desde el análisis comparativo con soluciones existentes en el mercado hasta la definición técnica de los requerimientos funcionales y no funcionales, permitiendo establecer una base sólida para la arquitectura y el desarrollo posterior de la plataforma.
 
 ## 2.1. Competidores
 
@@ -1161,7 +1194,7 @@ Figura 4. Demografía de Entrevistados
 
 ## 2.3. Needfinding
 
-En esta sección se profundiza en el proceso de Needfinding, el cual tiene como objetivo descubrir y comprender las necesidades latentes, los comportamientos y los puntos de dolor de los usuarios. A través de este análisis, el equipo de Viacore puede identificar oportunidades clave para diseñar una solución que no solo sea funcional, sino que también genere una conexión real con las experiencias cotidianas de los pasajeros y conductores.
+En esta sección se profundiza en el proceso de Needfinding, el cual tiene como objetivo descubrir y comprender las necesidades latentes, los comportamientos y los puntos de dolor de los usuarios. A través de este análisis, el equipo de WayPass puede identificar oportunidades clave para diseñar una solución que no solo sea funcional, sino que también genere una conexión real con las experiencias cotidianas de los pasajeros y conductores.
 
 ### 2.3.1. User Personas
 
@@ -1266,7 +1299,7 @@ Los segmentos objetivo representados por los User Personas: Javier Ramirez (pasa
 
 ### 2.3.3. User Journey Mapping
 
-En esta sección se desarrolla el User Journey Mapping, el cual nos permite visualizar el proceso que sigue un usuario para alcanzar un objetivo específico con nuestra solución. Este mapa detalla las acciones, pensamientos y emociones del usuario a lo largo de diferentes etapas, ayudando al equipo de Viacore a identificar oportunidades de mejora y momentos críticos donde la aplicación puede aportar un valor diferencial en la experiencia de transporte.
+En esta sección se desarrolla el User Journey Mapping, el cual nos permite visualizar el proceso que sigue un usuario para alcanzar un objetivo específico con nuestra solución. Este mapa detalla las acciones, pensamientos y emociones del usuario a lo largo de diferentes etapas, ayudando al equipo de WayPass a identificar oportunidades de mejora y momentos críticos donde la aplicación puede aportar un valor diferencial en la experiencia de transporte.
 
 A continuación, se presenta el User Journey Map: 
 
@@ -1277,7 +1310,7 @@ Figura 7. User Journey Map - WayPass
 
 ### 2.3.4. Empathy Mapping
 
-En esta sección se realiza el Empathy Mapping con el fin de profundizar en la comprensión intrínseca de nuestros usuarios. Esta herramienta nos ayuda a sintetizar lo que el usuario dice, hace, piensa y siente, permitiendo al equipo ir más allá de las características demográficas para enfocarse en sus necesidades emocionales y funcionales. De esta manera, el diseño de Viacore se orienta a resolver frustraciones reales y potenciar las ganancias esperadas por el público objetivo.
+En esta sección se realiza el Empathy Mapping con el fin de profundizar en la comprensión intrínseca de nuestros usuarios. Esta herramienta nos ayuda a sintetizar lo que el usuario dice, hace, piensa y siente, permitiendo al equipo ir más allá de las características demográficas para enfocarse en sus necesidades emocionales y funcionales. De esta manera, el diseño de WayPass se orienta a resolver frustraciones reales y potenciar las ganancias esperadas por el público objetivo.
 
 A continuación, se detallan los mapas de empatía correspondientes:
 
@@ -1373,7 +1406,7 @@ Para evitar ambigüedades, el equipo acuerda no usar los siguientes alias en el 
 
 ## 2.4. Requirements specification
 
-En esta sección se detallan los requisitos técnicos y funcionales que definen el comportamiento de la solución de software. Esta especificación sirve como puente entre las necesidades detectadas en el needfinding y el desarrollo técnico, asegurando que cada funcionalidad de Viacore esté debidamente documentada y alineada con los estándares de calidad esperados.
+En esta sección se detallan los requisitos técnicos y funcionales que definen el comportamiento de la solución de software. Esta especificación sirve como puente entre las necesidades detectadas en el needfinding y el desarrollo técnico, asegurando que cada funcionalidad de WayPass esté debidamente documentada y alineada con los estándares de calidad esperados.
 
 ### 2.4.1. User Stories
 
@@ -1466,7 +1499,7 @@ Figura 11. Impact mapping de conductor y pasajero
 
 ### 2.4.3. Product Backlog
 
-En esta sección se presenta el Product Backlog, el cual constituye el inventario priorizado de todas las funcionalidades, mejoras y correcciones que deben integrarse en la solución de software. Este actúa como la fuente única de requisitos para el equipo, permitiendo gestionar el alcance del proyecto Viacore de manera dinámica y asegurar que el desarrollo se enfoque en las capacidades que generan mayor valor para los pasajeros y conductores en cada ciclo de trabajo.
+En esta sección se presenta el Product Backlog, el cual constituye el inventario priorizado de todas las funcionalidades, mejoras y correcciones que deben integrarse en la solución de software. Este actúa como la fuente única de requisitos para el equipo, permitiendo gestionar el alcance del proyecto WayPass de manera dinámica y asegurar que el desarrollo se enfoque en las capacidades que generan mayor valor para los pasajeros y conductores en cada ciclo de trabajo.
 
 A continuación, se detalla la lista priorizada de ítems del backlog:
 
@@ -1539,7 +1572,7 @@ A continuación, se detalla la lista priorizada de ítems del backlog:
 
 ## 2.5. Strategic-Level Domain-Driven Design
 
-En esta sección se aplica DDD a nivel estratégico para gestionar la complejidad del sistema Viacore. A través de estas técnicas, el equipo logra descomponer el problema en módulos manejables y definir claramente las responsabilidades y límites de cada componente, asegurando que el software esté estrechamente alineado con las reglas de negocio y las necesidades del transporte.
+En esta sección se aplica DDD a nivel estratégico para gestionar la complejidad del sistema WayPass. A través de estas técnicas, el equipo logra descomponer el problema en módulos manejables y definir claramente las responsabilidades y límites de cada componente, asegurando que el software esté estrechamente alineado con las reglas de negocio y las necesidades del transporte.
 
 ### 2.5.1. EventStorming
 
@@ -1671,7 +1704,7 @@ Fuente: Elaboración propia en la plataforma de Miro. Revisar en: https://miro.c
 
 ### 2.5.2. Context Mapping
 
-En esta sección se desarrolla el Context Mapping, una herramienta estratégica que permite visualizar las relaciones y dependencias entre los distintos contextos delimitados identificados en el sistema. A través de este mapa, el equipo de Viacore puede definir claramente cómo fluye la información y como interactúan los módulos, asegurando la integridad del modelo de dominio y facilitando la colaboración entre las diferentes partes del software.
+En esta sección se desarrolla el Context Mapping, una herramienta estratégica que permite visualizar las relaciones y dependencias entre los distintos contextos delimitados identificados en el sistema. A través de este mapa, el equipo de WayPass puede definir claramente cómo fluye la información y como interactúan los módulos, asegurando la integridad del modelo de dominio y facilitando la colaboración entre las diferentes partes del software.
 
 Figura 26. Context Mapping
 
@@ -4142,14 +4175,14 @@ en la experiencia del usuario gestor de transporte.
 
 # Capítulo IV: Product Implementation & Validation
 
-En este capítulo se presentan las evidencias relacionadas con la implementación, configuración y validación del proyecto Viacore. Se describen las herramientas utilizadas durante el desarrollo, la gestión de configuración del software, el control de versiones, despliegues realizados y los resultados obtenidos durante las pruebas y validaciones funcionales del sistema.
+En este capítulo se presentan las evidencias relacionadas con la implementación, configuración y validación del proyecto WayPass. Se describen las herramientas utilizadas durante el desarrollo, la gestión de configuración del software, el control de versiones, despliegues realizados y los resultados obtenidos durante las pruebas y validaciones funcionales del sistema.
 
 
 ## 4.1. Software Configuration Management
 
 ### 4.1.1. Software Development Environment Configuration
 
-En esta sección se describen las principales herramientas utilizadas durante el desarrollo del proyecto Viacore. Estas plataformas permitieron gestionar el proyecto, diseñar interfaces, desarrollar software, documentar avances y mantener una correcta colaboración entre los integrantes del equipo.
+En esta sección se describen las principales herramientas utilizadas durante el desarrollo del proyecto WayPass. Estas plataformas permitieron gestionar el proyecto, diseñar interfaces, desarrollar software, documentar avances y mantener una correcta colaboración entre los integrantes del equipo.
 
 - ## **Project Management**
 
@@ -4824,7 +4857,7 @@ Los resultados obtenidos confirman la estabilidad inicial de la navegación y la
 
 #### 4.2.1.5. Execution Evidence for Sprint Review
 
-Durante este primer Sprint se logró implementar los principales componentes del ecosistema de la solución Viacore, incluyendo el desarrollo:
+Durante este primer Sprint se logró implementar los principales componentes del ecosistema de la solución WayPass, incluyendo el desarrollo:
 
 - Landing Page: [https://grupo-apps-moviles.github.io/landing-page/](https://grupo-apps-moviles.github.io/landing-page/)
 - Backend API (C#, .NET)
@@ -4836,21 +4869,21 @@ A continuación, se presentan las evidencias de ejecución de los productos desa
 
 ## Landing Page
 
-La Landing Page de Viacore fue desarrollada como la interfaz principal de presentación de la plataforma, mostrando información relevante sobre el servicio de transporte colectivo. Se implementó un diseño responsive y moderno con secciones informativas y botones para dirigir a los usuarios hacia la aplicación móvil.
+La Landing Page de WayPass fue desarrollada como la interfaz principal de presentación de la plataforma, mostrando información relevante sobre el servicio de transporte colectivo. Se implementó un diseño responsive y moderno con secciones informativas y botones para dirigir a los usuarios hacia la aplicación móvil.
 
 <img width="1920" height="6563" alt="Image" src="https://github.com/user-attachments/assets/e9410d75-c45b-40d3-ad65-7c375d13de47" />
 
 ## Backend (.net C#)
 
-El backend del proyecto Viacore fue desarrollado utilizando ASP.NET Core Web API con C# y una arquitectura orientada a servicios RESTful. El objetivo principal de esta capa es centralizar la lógica de negocio, la gestión de datos y la comunicación entre la aplicación móvil y la base de datos MySQL.
+El backend del proyecto WayPass fue desarrollado utilizando ASP.NET Core Web API con C# y una arquitectura orientada a servicios RESTful. El objetivo principal de esta capa es centralizar la lógica de negocio, la gestión de datos y la comunicación entre la aplicación móvil y la base de datos MySQL.
 
-La arquitectura DDD permitió organizar las entidades, agregados, servicios y repositorios del sistema de manera modular, facilitando el mantenimiento del código y la evolución progresiva de la plataforma Viacore.
+La arquitectura DDD permitió organizar las entidades, agregados, servicios y repositorios del sistema de manera modular, facilitando el mantenimiento del código y la evolución progresiva de la plataforma WayPass.
 
 <img width="1920" height="3585" alt="Image" src="https://github.com/user-attachments/assets/a40a99a7-4a02-42a4-a503-a8a26695fccb" />
 
 ## Base de datos (MySql)
 
-La base de datos del proyecto Viacore fue diseñada utilizando MySQL como sistema de gestión de bases de datos relacional, permitiendo almacenar y administrar la información principal de la plataforma de transporte colectivo.
+La base de datos del proyecto WayPass fue diseñada utilizando MySQL como sistema de gestión de bases de datos relacional, permitiendo almacenar y administrar la información principal de la plataforma de transporte colectivo.
 
 # Tablas Principales
 
@@ -4870,7 +4903,7 @@ La base de datos del proyecto Viacore fue diseñada utilizando MySQL como sistem
 
 ## Android Móvil
 
-La aplicación móvil de Viacore fue desarrollada en Android y representa el componente principal de interacción del sistema, orientada tanto a conductores como a pasajeros del servicio de transporte colectivo. Durante este Sprint se implementaron y refinaron todas las pantallas core de la aplicación, logrando una interfaz moderna que aplica patrones de diseño móvil actuales.
+La aplicación móvil de WayPass fue desarrollada en Android y representa el componente principal de interacción del sistema, orientada tanto a conductores como a pasajeros del servicio de transporte colectivo. Durante este Sprint se implementaron y refinaron todas las pantallas core de la aplicación, logrando una interfaz moderna que aplica patrones de diseño móvil actuales.
 
 **Alcance entregado (Sprint 1)**
 
@@ -5013,7 +5046,7 @@ En esta sección del informe se presentan los principales endpoints desarrollado
 
 **Landing Page:**
 
-La Landing Page del proyecto Viacore fue desplegada utilizando GitHub Pages, permitiendo publicar la aplicación web de manera gratuita y accesible desde internet.
+La Landing Page del proyecto WayPass fue desplegada utilizando GitHub Pages, permitiendo publicar la aplicación web de manera gratuita y accesible desde internet.
 
 [Ver Landing Page](https://grupo-apps-moviles.github.io/landing-page/)
 
@@ -5096,58 +5129,183 @@ En esta sección se presenta el Sprint Planning Meeting correspondiente al segun
 | **Sprint 1 Review Summary** | Durante el Sprint 1 se entregó la aplicación móvil del segmento Conductor en Android (Kotlin/Jetpack Compose), con autenticación, dashboard, gestión completa (CRUD) de rutas y paraderos, programación de horarios, visualización en mapa y perfil. En el backend se implementaron los bounded contexts de IAM, Routes, Stops y Subscriptions, junto con la integración de pagos con PayPal, y se desplegó la Landing Page en GitHub Pages. El Product Owner valoró positivamente el avance y la entrega obtuvo una calificación de 19/20 en la AV1. |
 | **Sprint 1 Retrospective Summary** | El equipo identificó como principales aciertos la consolidación de la arquitectura DDD en el backend y la aplicación de un design system unificado (WayPassTheme). Como oportunidades de mejora se señalaron: distribuir de forma más equitativa los commits entre todos los integrantes y mantener una disciplina estricta de GitFlow (creación de ramas `main` y `develop`) en el nuevo repositorio de la aplicación Flutter. |
 | **Sprint Goal & User Stories** | |
-| Sprint 2 Goal | Our focus is on launching the WayPass passenger experience on Flutter and enabling trip reservations across the platform. We believe it delivers self-service onboarding, route discovery, favorite collections and trip reservations to passengers, and reservation-management groundwork to the business. This will be confirmed when passengers can register, log in and manage their profile, filter and explore routes and stops by location, organize routes into favorite collections, and reserve a trip through the reservation endpoints exposed by the backend. |
-| Sprint 2 Velocity | 70 |
-| Sum of Story Points | 64 |
+| Sprint 2 Goal | Nuestro objetivo es lanzar la experiencia de usuario de WayPass en Flutter y habilitar las reservas de viaje en toda la plataforma. Creemos que ofrece a los pasajeros la posibilidad de registrarse de forma autónoma, descubrir rutas, crear colecciones de favoritos y reservar viajes, además de sentar las bases para la gestión de reservas. Esto se confirmará cuando los pasajeros puedan registrarse, iniciar sesión y gestionar su perfil, filtrar y explorar rutas y paradas por ubicación, organizar rutas en colecciones de favoritos y reservar un viaje a través de los puntos de reserva disponibles en el backend. |
+| Sprint 2 Velocity | 60 |
+| Sum of Story Points | 51 |
+
+#### 4.2.2.2. Sprint Backlog 2
+
+**Tablero del Sprint 2:** [Link del tablero Trello](https://trello.com/invite/b/69ff3d5f6e22ba5114de07be/ATTIe3bce47f3f25411bc433b9188fad27e7C2103B04/movil)
+
+<img width="1137" alt="sprint backlog 2 foto" src="https://github.com/user-attachments/assets/8c44588f-39d1-4c9e-b552-7401e418cf7c" />
+
+A continuación se presenta la descomposición de cada User Story en Engineering Tasks, estimados entre 4 y 8 horas, con su responsable y estado de seguimiento.
+
+| User Story | Task Id | Task | Descripción | Est. (h) | Assigned To | Status |
+|---|---|---|---|---|---|---|
+| US26 | T26.1 | RegisterPage en Flutter | Formulario de registro con selección de rol y validaciones | 6 | Velarde Gonzales, Néstor Hernán | Done |
+|  | T26.2 | AuthRepository + DTOs | `signUp()` con SignUpRequestDto/AuthResponseDto contra `/api/v1/auth/sign-up` | 5 | Velarde Gonzales, Néstor Hernán | Done |
+|  | T26.3 | Validación de formulario de registro | Reglas de campos requeridos y formato de email/password | 4 | Quiroz Cáceres, Adrian | Done |
+| US27 | T27.1 | LoginPage + LoginViewModel | Pantalla de login con estados y manejo de errores | 5 | Velarde Gonzales, Néstor Hernán | Done |
+|  | T27.2 | TokenManager (JWT) | Persistencia y recuperación segura del token de sesión | 4 | Curi Marcelo, Angelo Marcio | Done |
+| US28 | T28.1 | Flujo de logout | Limpieza de token y redirección a Login sin retorno | 4 | Velarde Gonzales, Néstor Hernán | Done |
+| US29 | T29.1 | ProfilePage (visualización) | Pantalla "Mi Perfil" con nombre, correo y tipo de cuenta | 5 | Velarde Gonzales, Néstor Hernán | Done |
+|  | T29.2 | Edición de perfil | Formulario de edición + `PUT /api/v1/profiles/{id}` | 4 | Guzmán Cabrejos, Yaku Mateo | Done |
+| US01 | T01.1 | TravelPage (listado de rutas) | Pantalla de exploración de rutas disponibles | 6 | Velarde Gonzales, Néstor Hernán | Done |
+|  | T01.2 | RouteRepositoryImpl + RouteService | Consumo de rutas desde el backend | 5 | Velarde Gonzales, Néstor Hernán | Done |
+|  | T01.3 | Empty state en TravelView | Validación y UI de estado vacío | 4 | Carranza Tesén, Joaquín Enrique | Done |
+| US41 | T41.1 | Dropdowns en cascada (geografía) | Selectores región → provincia → distrito → ciudad | 6 | Guzmán Cabrejos, Yaku Mateo | Done |
+|  | T41.2 | Servicio de rutas filtradas | `RouteService` consume `/api/v1/routes` con filtros | 5 | Curi Marcelo, Angelo Marcio | Done |
+|  | T41.3 | Estados carga/vacío/error | Manejo de loading/empty/error en RouteViewModel | 4 | Guzmán Cabrejos, Yaku Mateo | Done |
+| US42 | T42.1 | RouteCard (tarjeta resumen) | Componente con origen, destino, tarifa y duración | 4 | Carranza Tesén, Joaquín Enrique | Done |
+|  | T42.2 | Listado scrollable de resultados | `ListView.builder` con resultados del filtro | 4 | Carranza Tesén, Joaquín Enrique | Done |
+| US43 | T43.1 | Navegación a detalle de ruta | Pantalla de detalle + carga de paraderos de la ruta | 5 | Quiroz Cáceres, Adrian | Done |
+| US25 | T25.1 | Detalle completo de ruta | Empresa, duración, tarifas y horarios en la vista de detalle | 5 | Quiroz Cáceres, Adrian | Done |
+| US44 | T44.1 | Botón "Volver al listado" | Regreso preservando los filtros aplicados | 4 | Carranza Tesén, Joaquín Enrique | Done |
+| US02 | T02.1 | Visualización de paraderos de ruta | Integración de paraderos asociados en la vista de ruta | 5 | Velarde Gonzales, Néstor Hernán | Done |
+|  | T02.2 | StopDto + servicio de paraderos | DTO y consumo de paraderos desde el backend | 5 | Carranza Tesén, Joaquín Enrique | Done |
+| US24 | T24.1 | Dropdowns en cascada para paraderos | Selectores geográficos para filtrar paraderos | 5 | Carranza Tesén, Joaquín Enrique | Done |
+|  | T24.2 | Servicio de paraderos filtrados | Consumo de `/api/v1/stops` con parámetros geográficos | 4 | Carranza Tesén, Joaquín Enrique | Done |
+| US53 | T53.1 | Bounded Context Reservations (Backend) | Agregado `Reservation` con DDD (commands, queries, repo) | 8 | Velarde Gonzales, Néstor Hernán | Done |
+|  | T53.2 | ReservationsController REST | Endpoints POST/GET de reservas + assembler + DTO | 6 | Quiroz Cáceres, Adrian | Done |
+|  | T53.3 | ReservationPage + CreateReservationPage | Listado de reservas y creación con flujo de pago | 6 | Quiroz Cáceres, Adrian | Done |
+|  | T53.4 | PaypalService (sandbox) | Orden y captura de pago PayPal vía WebView | 5 | Quiroz Cáceres, Adrian | Done |
+|  | T53.5 | Reservation DI + ViewModel/State | Inyección de dependencias y manejo de estados de reserva | 5 | Curi Marcelo, Angelo Marcio | Done |
+| TS-12 | T12.1 | Suite BDD de aceptación (Reqnroll) | Scaffolding del repo `Backend-AcceptanceTests` y 7 features Gherkin | 6 | Guzmán Cabrejos, Yaku Mateo | Done |
+| TS-13 | T13.1 | Despliegue del backend (Render) | Configuración del Web Service y variables de entorno | 5 | Curi Marcelo, Angelo Marcio | Done |
+|  | T13.2 | Verificación de Swagger público | Validar documentación y conectividad de endpoints | 4 | Curi Marcelo, Angelo Marcio | Done |
+| TS-14 | T14.1 | Build y exportación de APK (Flutter) | Generación del APK release multiplataforma | 4 | Curi Marcelo, Angelo Marcio | Done |
+| TS-15 | T15.1 | Pruebas manuales de navegación | Validación de happy/unhappy paths en Android e iOS | 5 | Carranza Tesén, Joaquín Enrique | Done |
 
 #### 4.2.2.3. Development Evidence for Sprint Review
 
-## Development Evidence for Sprint Review
-
 Durante este sprint se avanzó en la implementación de los productos principales de la solución WayPass: el backend (Web Services) y la nueva aplicación móvil desarrollada en Flutter.
-
-------
 
 ### Web Services — Backend
 
-| Repository | Branch | Commit ID | Commit Message | Committed by | Date |
-|---|---|---|---|---|---|
-| Backend | main | 9680e5f | solutions | velardesoft | Jun 9, 2026 |
-| Backend | main | 4ecf87e | Add README documentation for backend project | velardesoft | May 28, 2026 |
-| Backend | main | 24f8d7d | feat: Agregate new Bound de context | velardesoft | May 28, 2026 |
-| Backend | main | a2ea0330 | feat: Initial Commit | velardesoft | May 28, 2026 |
+Durante el Sprint 2 el backend incorporó el bounded context de **Reservations** (agregado, commands, queries, controlador REST y configuración EFC), el bounded context de **Favorite**, y un refactor mayor del modelo **Company–Membership** (membresía 1:N como agregado independiente, onboarding por código de invitación y control de capacidad basado en la suscripción a nivel de empresa). Adicionalmente se resolvieron incidencias de despliegue (cold-start) y de seeding de datos geográficos.
 
-### Mobile Application — Flutter
-
-| Repository | Branch | Commit ID | Commit Message | Committed by | Date |
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
 |---|---|---|---|---|---|
-| Flutter | main | a947d7e | feat: Finaly Profile | velardesoft | Jun 6, 2026 |
-| Flutter | main | 3309a37 | feat: Register ProfileRepository and ProfileViewModel in dependency injection setup | velardesoft | Jun 6, 2026 |
-| Flutter | main | 4d55f52 | feat: Enhance profile management by adding username and email handling, and implement ProfileRepository and ProfileViewModel for user profile loading and logout functionality | velardesoft | Jun 6, 2026 |
-| Flutter | main | 19d9c19 | feat: Add ProfileRepository and UserProfile classes for user profile management | velardesoft | Jun 6, 2026 |
-| Flutter | main | d7f6258 | feat: finaly auth | velardesoft | Jun 6, 2026 |
-| Flutter | main | d64c778 | feat: Enhance LoginPage with welcome message and improve navigation to RegisterPage | velardesoft | Jun 6, 2026 |
-| Flutter | main | e9c6091 | feat: Add RegisterPage for user registration with role selection and error handling | velardesoft | Jun 6, 2026 |
-| Flutter | main | b53491e | feat: Improve navigation handling in LoginPage to prevent back navigation after login | velardesoft | Jun 6, 2026 |
-| Flutter | main | 021dc24 | fix: Update base URL in AuthService for correct API endpoint in Android emulator | velardesoft | Jun 6, 2026 |
-| Flutter | main | 603c13c | feat: Refactor main function and application routing for improved initialization and structure | velardesoft | Jun 6, 2026 |
-| Flutter | main | 33c11ff | feat: Refactor LoginPage and LoginViewModel for improved user experience and error handling | velardesoft | Jun 6, 2026 |
-| Flutter | main | 10aeee7 | feat: Enhance dependency injection setup to include TokenManager for improved authentication handling | velardesoft | Jun 6, 2026 |
-| Flutter | main | e1f09e6 | feat: Implement TokenManager for handling user authentication tokens and session management | velardesoft | Jun 6, 2026 |
-| Flutter | main | 5191571 | refactor: Update signIn and signUp methods for improved return types and error handling | velardesoft | Jun 6, 2026 |
-| Flutter | main | f694d7e | refactor: Update AuthService and SignUpRequestDto for improved error handling and required fields | velardesoft | Jun 6, 2026 |
-| Flutter | main | 25f582a | refactor: Update AuthRepository and User model to improve type safety and structure | velardesoft | Jun 6, 2026 |
-| Flutter | main | 0499ea6 | feat: Add MainPage with bottom navigation and linked feature pages | velardesoft | Jun 6, 2026 |
-| Flutter | main | ac050c0 | feat: Add ProfilePage and ReservationPage as StatelessWidgets with placeholder content | velardesoft | Jun 6, 2026 |
-| Flutter | main | 1a700b8 | feat: Add FavoritePage and HomePage as StatelessWidgets with placeholder content | velardesoft | Jun 6, 2026 |
-| Flutter | main | cbcf145 | fix: Update base URL in AuthService to point to the local backend | velardesoft | Jun 6, 2026 |
-| Flutter | main | a394cad | feat: Implement dependency injection for authentication services and view model | velardesoft | Jun 6, 2026 |
-| Flutter | main | c6f67c7 | feat: Implement LoginViewModel with signIn and signUp methods handling login states | velardesoft | Jun 6, 2026 |
-| Flutter | main | f2b1f38 | feat: Implement AuthRepositoryImpl with signIn and signUp methods | velardesoft | Jun 6, 2026 |
-| Flutter | main | aa76b80 | chore: Update pubspec.yaml and pubspec.lock with new package versions and dependencies | velardesoft | Jun 6, 2026 |
-| Flutter | main | 91cb0ba | feat: Implement data transfer objects for authentication including AuthResponseDto, SignInRequestDto, and SignUpRequestDto | velardesoft | Jun 6, 2026 |
-| Flutter | main | 41c12fd | feat: Add initial authentication feature files including repository, DTOs, and presentation components | velardesoft | Jun 6, 2026 |
-| Flutter | main | 7c40d80 | feat: Add initial web files for Flutter project including index.html and manifest.json | velardesoft | Jun 6, 2026 |
+| Backend | develop | a13e759 | fix program |  | 20/06/2026 |
+| Backend | master | d11b81b | fix districts api |  | 20/06/2026 |
+| Backend | master | 5b71cb2 | feat: Add new bound context Favorite |  | 20/06/2026 |
+| Backend | fix/geographic-data-seeding | 28452cf | fix(geo): add retry backoff for cold-start and reliable geographic data seeding |  | 19/06/2026 |
+| Backend | feature/company-subscription | 48f451c | chore(persistence): update EFC mapping and migration for company subscription |  | 19/06/2026 |
+| Backend | master | c447f50 | feat(companies): enforce member capacity based on company subscription |  | 19/06/2026 |
+| Backend | master | 82559ed | refactor(subscriptions): create paypal subscription with company custom_id |  | 19/06/2026 |
+| Backend | master | fd4127c | feat(subscriptions): resolve company and require admin in subscription controller |  | 19/06/2026 |
+| Backend | master | 83f1ff6 | feat(subscriptions): add max members to subscription aggregate |  | 19/06/2026 |
+| Backend | master | 7ded57b | refactor(subscriptions): move subscription ownership from driver to company |  | 19/06/2026 |
+| Backend | feature/company-membership | 4e58146 | feat(companies): include user identity in membership list resource |  | 18/06/2026 |
+| Backend | master | c694a22 | chore(db): add migration for company_memberships and invitation_code |  | 18/06/2026 |
+| Backend | master | 9e05591 | chore(persistence): add EFC mapping and DI registration for memberships |  | 18/06/2026 |
+| Backend | master | 59c6d1d | feat(companies): add MembershipsController endpoints |  | 18/06/2026 |
+| Backend | master | 3936501 | feat(companies): expose invitation code in CompanyResource |  | 18/06/2026 |
+| Backend | master | 74c1d4a | feat(companies): create admin membership on company creation |  | 18/06/2026 |
+| Backend | master | 3511e28 | feat(companies): implement membership command and query services |  | 18/06/2026 |
+| Backend | master | 5ea0c2e | feat(companies): add membership commands, queries and domain services |  | 18/06/2026 |
+| Backend | master | 4498f52 | feat(companies): extend ICompanyRepository with FindByInvitationCode |  | 18/06/2026 |
+| Backend | master | c6a9514 | feat(companies): add ICompanyMembershipRepository and EFC implementation |  | 18/06/2026 |
+| Backend | master | 0d5e331 | feat(companies): add invitation code generation to Company aggregate |  | 18/06/2026 |
+| Backend | master | 4b70cc0 | feat(companies): add MemberRole value object and CompanyMembership aggregate |  | 18/06/2026 |
+| Backend | master | fea20f5 | chore(db): add Reservation entity configuration to AppDbContext |  | 16/06/2026 |
+| Backend | master | 6c6674b | feat(reservation): add ReservationsController REST endpoints |  | 16/06/2026 |
+| Backend | master | 83c2788 | feat(reservation): add ReservationResourceFromEntityAssembler |  | 16/06/2026 |
+| Backend | master | dbf0fbb | feat(reservation): add ReservationResource DTO |  | 16/06/2026 |
+| Backend | master | f40b263 | feat(reservation): add ReservationRepository implementation |  | 16/06/2026 |
+| Backend | master | df62d64 | feat(reservation): add ReservationQueryService |  | 16/06/2026 |
+| Backend | master | ab8b8c8 | feat(reservation): add ReservationCommandService |  | 16/06/2026 |
+| Backend | master | 5edfaba | feat(reservation): add IReservationRepository interface |  | 16/06/2026 |
+| Backend | master | f00c57c | feat(reservation): add IReservationQueryService interface |  | 16/06/2026 |
+| Backend | master | 060d464 | feat(reservation): add GetReservationsByDriverIdQuery |  | 16/06/2026 |
+| Backend | master | 49839e2 | feat(reservation): add CreateReservationResource |  | 16/06/2026 |
+| Backend | master | 52a9520 | feat(reservation): add CreateReservationCommandFromResourceAssembler |  | 16/06/2026 |
+| Backend | master | 4c327c1 | feat(reservation): add CreateReservationCommand |  | 16/06/2026 |
+| Backend | master | 59dbeff | feat(reservation): add ReservationStatus value object |  | 16/06/2026 |
+| Backend | master | 839bea4 | feat(reservation): add Reservation aggregate |  | 16/06/2026 |
+| Backend | master | 4ecf87e | Add README documentation for backend project |  | 28/05/2026 |
+| Backend | master | 24f8d7d | feat: Agregate new Bound de context |  | 28/05/2026 |
+| Backend | master | a2ea033 | feat: Initial Commit |  | 28/05/2026 |
+
+### Mobile Application — Flutter (Pasajero)
+
+Durante el Sprint 2 se construyó la aplicación móvil del segmento Pasajero en Flutter con Clean Architecture, cubriendo autenticación, perfil, exploración de rutas (Travel), favoritos con CRUD y reservas con integración de PayPal (WebView sandbox), junto con la centralización de la configuración de URLs hacia el servidor de producción.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| Flutter | feature/auth | f57738a | Add build command for Flutter APK |  | 20/06/2026 |
+| Flutter | feature/auth | d5b86ad | feat(api): update base URL to production server |  | 20/06/2026 |
+| Flutter | feature/auth | ede7799 | feat(route): handle not found response by returning an empty list |  | 20/06/2026 |
+| Flutter | feature/auth | f329e0e | feat(reservation): simplify reservation card layout by removing favorite feature |  | 20/06/2026 |
+| Flutter | feature/auth | c8e87c1 | feat: refactor API base URLs to use centralized configuration |  | 20/06/2026 |
+| Flutter | feature/auth | 73b834f | feat(auth): enhance validation for sign-in and sign-up forms |  | 20/06/2026 |
+| Flutter | feature/auth | 4d5110b | feat: Add favorite routes feature with CRUD operations |  | 20/06/2026 |
+| Flutter | feature/auth | f5168d6 | feat: add dependencies |  | 16/06/2026 |
+| Flutter | feature/auth | 10cc957 | feat(travel): update TravelPage 'Reservar' button to open payment page |  | 16/06/2026 |
+| Flutter | feature/auth | a1a55b5 | feat(core): register reservation dependencies in DependencyInjection |  | 16/06/2026 |
+| Flutter | feature/auth | b2ac036 | feat(reservation): add ReservationDto with null-safe fromJson |  | 16/06/2026 |
+| Flutter | feature/auth | a57ce54 | feat(reservation): add CreateReservationRequest with routeIds list |  | 16/06/2026 |
+| Flutter | feature/auth | 2f6b242 | feat(reservation): add ReservationRepositoryImpl |  | 16/06/2026 |
+| Flutter | feature/auth | a5a18c6 | feat(reservation): add ReservationRepository interface |  | 16/06/2026 |
+| Flutter | feature/auth | 3a4ef16 | feat(reservation): add ReservationService with getUserReservations |  | 16/06/2026 |
+| Flutter | feature/auth | 0c28150 | feat(reservation): add ReservationViewModel with loadUserReservations |  | 16/06/2026 |
+| Flutter | feature/auth | 8be9bef | feat(reservation): add reservation_state with ReservationListLoaded |  | 16/06/2026 |
+| Flutter | feature/auth | 0d4eed8 | feat(reservation): add ReservationPage with user reservations list |  | 16/06/2026 |
+| Flutter | feature/auth | a462743 | feat(reservation): add CreateReservationPage with PayPal WebView flow |  | 16/06/2026 |
+| Flutter | feature/auth | b6db3d5 | feat(reservation): add PaypalService for sandbox order and capture |  | 16/06/2026 |
+| Flutter | feature/auth | e5cca74 | feat: Finaly Route List |  | 11/06/2026 |
+| Flutter | feature/auth | 2eeaddb | feat: Remove travel-related data and presentation layers for refactoring |  | 11/06/2026 |
+| Flutter | feature/auth | d43f632 | feat: Add empty state validation and UI for travel routes in TravelView |  | 10/06/2026 |
+| Flutter | feature/auth | f9f6d2f | feat: Enhance dependency injection setup for authentication, profile, and travel features |  | 10/06/2026 |
+| Flutter | feature/auth | fa3e0ba | feat: Replace HomePage with TravelPage in MainPage navigation |  | 10/06/2026 |
+| Flutter | feature/auth | 7a42bf1 | feat: Implement TravelPage and TravelView for route management |  | 10/06/2026 |
+| Flutter | feature/auth | e6cf20b | feat: Add RouteViewModel and RouteState for travel route management |  | 10/06/2026 |
+| Flutter | feature/auth | 562714a | feat: Implement RouteService and RouteRepositoryImpl for travel route management |  | 10/06/2026 |
+| Flutter | feature/auth | ed42eed | feat: Add StopDto and TravelRouteDto classes for travel data management |  | 10/06/2026 |
+| Flutter | feature/auth | 4bfa338 | feat: Add RouteRepository, TravelRoute, and Stop classes for travel domain management |  | 10/06/2026 |
+| Flutter | feature/auth | a947d7e | feat: Finaly Profile |  | 06/06/2026 |
+| Flutter | feature/auth | 4d55f52 | feat: Enhance profile management adding username/email and ProfileRepository/ViewModel |  | 06/06/2026 |
+| Flutter | feature/auth | d7f6258 | feat: finaly auth |  | 06/06/2026 |
+| Flutter | feature/auth | e9c6091 | feat: Add RegisterPage for user registration with role selection and error handling |  | 06/06/2026 |
+| Flutter | feature/auth | e1f09e6 | feat: Implement TokenManager for handling user authentication tokens and session management |  | 06/06/2026 |
+| Flutter | feature/auth | 0499ea6 | feat: Add MainPage with bottom navigation and linked feature pages |  | 06/06/2026 |
+| Flutter | feature/auth | f2b1f38 | feat: Implement AuthRepositoryImpl with signIn and signUp methods |  | 06/06/2026 |
+| Flutter | feature/auth | 91cb0ba | feat: Implement DTOs for authentication (AuthResponse, SignIn, SignUp) |  | 06/06/2026 |
+| Flutter | feature/auth | 41c12fd | feat: Add initial authentication feature files including repository, DTOs, and presentation |  | 06/06/2026 |
+| Flutter | feature/auth | 7c40d80 | feat: Add initial web files for Flutter project including index.html and manifest.json |  | 06/06/2026 |
+
+### Mobile Application — Android (Conductor)
+
+Durante el Sprint 2, la aplicación del segmento Conductor (Kotlin/Jetpack Compose) recibió dos cuerpos de trabajo. Por un lado, la visualización de reservas y pagos del lado del conductor (DriverDashboard con tarjetas de reserva y adaptador de pagos). Por otro lado —y como respuesta directa a la retroalimentación del profesor de que **un conductor no debe ser la empresa, sino pertenecer a una empresa que puede tener varios conductores**— se realizó un refactor del modelo de dominio: se rompió la relación 1 Usuario = 1 Empresa y se introdujo el modelo de **membresía de compañía (1 empresa → N conductores)**. Esto incorporó el onboarding por **código de invitación**, una pantalla de **gestión de miembros** para el administrador, un **gate post-login** que enruta según la membresía del conductor, y el **gating de la suscripción a nivel de empresa** (solo el administrador paga; los conductores de una empresa con suscripción activa heredan el acceso). El segmento Pasajero (Flutter) no se vio afectado por estos cambios.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| Android | main | 3d79a75 | update db link |  | 20/06/2026 |
+| Android | feature/android-company-subscription | 5926049 | refactor(data): refine join error mapping for capacity vs duplicate membership |  | 19/06/2026 |
+| Android | main | b5e046d | feat(presentation): show company subscription status for non-admin drivers |  | 19/06/2026 |
+| Android | main | 9344637 | feat(presentation): gate premium subscription button to company admin |  | 19/06/2026 |
+| Android | main | 49aa6d6 | refactor(driver): resolve companyId from membership instead of getCompanyByUserId |  | 19/06/2026 |
+| Android | main | 2cc4d99 | feat(navigation): add driver gate and onboarding routing |  | 19/06/2026 |
+| Android | main | d98b15a | feat(presentation): show role, invitation code and leave/manage in driver profile |  | 19/06/2026 |
+| Android | main | 8f6c171 | feat(presentation): add admin company members screen |  | 19/06/2026 |
+| Android | main | 9bfa128 | feat(presentation): add company onboarding and join-by-code screens |  | 19/06/2026 |
+| Android | main | 9e542f8 | feat(presentation): add MembershipViewModel |  | 18/06/2026 |
+| Android | main | 89c52c0 | chore(di): bind MembershipRepository in Hilt module |  | 18/06/2026 |
+| Android | main | 4faef79 | feat(data): implement MembershipRepositoryImpl with error mapping |  | 18/06/2026 |
+| Android | main | 1de7a3d | feat(domain): add Membership models, repository and use cases |  | 18/06/2026 |
+| Android | main | 250d6f8 | feat(data): add membership endpoints to WayPassApiService |  | 18/06/2026 |
+| Android | main | 59c4f3c | feat(data): add membership DTOs and invitation code in CompanyDto |  | 18/06/2026 |
+| Android | main | e61b15e | feat(api): add getDriverReservations endpoint to WayPassApiService |  | 16/06/2026 |
+| Android | main | 22a3626 | feat(adapter): add PaymentAdapter |  | 16/06/2026 |
+| Android | main | d62e074 | feat(driver): pass userId as driverId in DriverNavigationScreen |  | 16/06/2026 |
+| Android | main | e952aaa | feat(driver): rewrite DriverDashboardScreen with ReservationCard UI |  | 16/06/2026 |
+| Android | main | d9a9ab7 | fix(driver): DriverDashboardViewModel use driverId not companyId |  | 16/06/2026 |
+| Android | main | 1da0bd4 | feat(reservation): add ReservationRepository with getDriverReservations |  | 16/06/2026 |
+| Android | main | 3691981 | feat(reservation): add ReservationViewModelFactory |  | 16/06/2026 |
+| Android | main | 8858259 | feat(reservation): add ReservationResponse data model |  | 16/06/2026 |
+| Android | main | 1f66fa2 | feat(reservation): add ReservationUiState for driver payments screen |  | 16/06/2026 |
+| Android | main | f1b8e04 | feat: add dependencies |  | 16/06/2026 |
 
 #### 4.2.2.4. Testing Suite Evidence for Sprint Review
 
@@ -5177,6 +5335,238 @@ Adicionalmente, se validó que:
 
 Los resultados obtenidos confirman que el desarrollo en Flutter permite extender el alcance de WayPass
 a usuarios iOS, garantizando una experiencia consistente entre plataformas desde una sola base de código.
+
+#### 4.2.2.5. Execution Evidence for Sprint Review
+
+Durante el Sprint 2 se implementaron los componentes del ecosistema del segmento objetivo Pasajeros de la solución WayPass, incluyendo el desarrollo:
+
+- Backend API (C#, .NET)
+- Aplicación móvil. 
+
+Cada componente fue desarrollado y probado de manera funcional para validar la arquitectura inicial del sistema.
+
+A continuación, se presentan las evidencias de ejecución de los productos desarrollados:
+
+## Backend (.net C#)
+
+El backend del proyecto WayPass fue desarrollado utilizando ASP.NET Core Web API con C# y una arquitectura orientada a servicios RESTful. El objetivo principal de esta capa es centralizar la lógica de negocio, la gestión de datos y la comunicación entre la aplicación móvil y la base de datos MySQL.
+
+La arquitectura DDD permitió organizar las entidades, agregados, servicios y repositorios del sistema de manera modular, facilitando el mantenimiento del código y la evolución progresiva de la plataforma WayPass.
+
+<img width="1842" height="4131" alt="Image" src="https://github.com/user-attachments/assets/ffb6896a-cd86-4723-9859-fb894c4efd74" />
+
+## Base de datos (MySql)
+
+La base de datos del proyecto WayPass fue diseñada utilizando MySQL como sistema de gestión de bases de datos relacional, permitiendo almacenar y administrar la información principal de la plataforma de transporte colectivo.
+
+<img width="986" height="1276" alt="Image" src="https://github.com/user-attachments/assets/e4f7a581-5a70-412d-8a12-6dd731c07376" />
+
+# Tablas Principales
+
+| Tabla | Descripción | Relaciones Principales |
+| :--- | :--- | :--- |
+| **users** | Almacena los datos de los usuarios de la plataforma (pasajeros, administradores, etc.), incluyendo credenciales y roles. | Se relaciona con **companies** (creador), **company_memberships**, **favorite_routes** (como pasajero) y **reservations**. |
+| **companies** | Representa a las empresas integradas en el sistema que gestionan personal o servicios. | Pertenece a un creador en **users** (`fk_id_user`) y se relaciona con **subscriptions**, **company_memberships** y **stops**. |
+| **subscriptions** | Registra el estado de los pagos, planes y vigencia de las suscripciones de Paypal de cada empresa. | Pertenece a una empresa en **companies** (`companies_id`). |
+| **company_memberships** | Modera los miembros o empleados que pertenecen a una empresa específica y sus respectivos roles dentro de ella. | Conecta **companies** con **users**. |
+| **stops** | Almacena los paraderos o puntos de parada físicos con su respectiva información de contacto y ubicación. | Pertenece a una empresa en **companies** (`fk_id_company`) y a un distrito en **districts** (`fk_id_district`). Conecta con **route_stops**. |
+| **routes** | Guarda las rutas maestras disponibles en el sistema, definiendo su precio, duración estimada y frecuencia. | Se relaciona con **route_stops**, **favorite_routes**, **reservation_routes** y **schedules**. |
+| **route_stops** | Tabla intermedia que mapea los paraderos específicos que componen el trayecto de cada ruta. | Conecta **routes** con **stops**. |
+| **favorite_routes** | Permite a los pasajeros guardar y acceder rápidamente a sus rutas preferidas en la aplicación. | Conecta **users** (`passenger_id`) con **routes** (`route_id`). |
+| **schedules** | Administra las horas de salida, días de la semana operativos y el chofer asignado para realizar una ruta. | Pertenece a una ruta en **routes** (`route_id`). |
+| **reservations** | Controla las reservas de viajes hechas por los usuarios, las tarifas aplicadas, comisiones y el estado del pago. | Registra al usuario que reserva en **users** (`user_id`) y se conecta con **reservation_routes**. |
+| **reservation_routes** | Tabla intermedia que asocia las reservas con las rutas específicas que el cliente solicitó viajar. | Conecta **reservations** con **routes**. |
+| **regions** | Define el nivel macro de la división geopolítica (Regiones) registradas en la plataforma. | Se relaciona con **provinces**. |
+| **provinces** | Contiene las provincias del sistema, sirviendo como escalón intermedio geográfico. | Pertenece a **regions** (`fk_id_region`) y se relaciona con **districts**. |
+| **districts** | Guarda los distritos específicos, completando la jerarquía de ubicación necesaria para situar los paraderos. | Pertenece a **provinces** (`fk_id_province`) y se relaciona directamente con **stops**. |
+
+## Aplicación Móvil — Flutter (Pasajero)
+
+La aplicación móvil de pasajeros de WayPass fue desarrollada en Flutter, multiplataforma (Android/iOS) desde una única base de código, y representa el componente principal de interacción del segmento pasajero del servicio de transporte colectivo. Durante este Sprint se implementaron y refinaron todas las pantallas core de la aplicación, logrando una interfaz moderna que aplica patrones de diseño móvil actuales.
+
+**Alcance entregado (Sprint 2)**
+
+* **Implementación completa del flujo de autenticación (Login):** Interfaz personalizada basada en degradados, controles de acceso y validación de campos.
+* **Módulo de exploración de viajes (Travel):** Listado de rutas disponibles con visualización de tarifas, tiempos estimados y opción de reserva directa.
+* **Sistema de reservas (Reservation):** Visualización del historial de viajes con estado de pago, detalles del trayecto e identificador de transacción (PayPal).
+* **Gestión de rutas preferidas (Favorites):** Acceso rápido y opción de eliminación de trayectos guardados previamente por el usuario.
+* **Pantalla de perfil de usuario (Profile):** Despliegue estructurado de datos de la cuenta (nombre, correo, rol de pasajero) y botón de cierre de sesión seguro.
+* **Barra de navegación inferior:** Menú persistente unificado para una transición fluida entre las cuatro secciones principales de la aplicación.
+
+**Pantallas implementadas**
+
+| Pantalla | Descripción |
+|---|---|
+| **Login** | Autenticación con degradado de fondo en tonos morados, formulario centralizado en tarjeta blanca con campos de entrada con íconos descriptivos y botón principal "Ingresar" redondeado. |
+| **Profile** | Pantalla "Mi Perfil" con avatar circular, listado estructurado de datos (Nombre de usuario, Correo electrónico, Tipo de Cuenta) en una tarjeta de bordes redondeados con íconos, y botón inferior destacado para "Cerrar sesión". |
+| **Travel (Rutas Disponibles)** | Listado de viajes disponibles en formato de tarjetas con imagen de marcador de posición de autobús, botón con ícono de corazón para favoritos, detalles de ubicación, tiempo estimado, precio destacado y botón de acción directa "Reservar". |
+| **Reservation (Mis Reservas)** | Historial de reservas que presenta tarjetas individuales con etiqueta de estado "Pagado" en verde, detallando de forma limpia el ID de la ruta, ID del conductor, monto de la transacción y código de confirmación de PayPal. |
+| **Favorites (Mis Favoritos)** | Listado de rutas preferidas guardadas por el usuario, organizadas en tarjetas visuales idénticas a las de búsqueda pero con un ícono de papelera (eliminar) de acceso rápido. |
+
+A continuación, las capturas de las pantallas principales de la versión entregada:
+
+<img width="180" alt="Image" src="https://github.com/user-attachments/assets/d370aa15-711e-4fb1-ac29-2be1264145d9" />
+<img width="180" alt="Image" src="https://github.com/user-attachments/assets/abc62f4a-58ed-4707-b14e-5cf3fc61c881" />
+<img width="180" alt="Image" src="https://github.com/user-attachments/assets/f714faab-2f77-4756-8079-86376e14d254" />
+<img width="180" alt="Image" src="https://github.com/user-attachments/assets/50b523f7-5faa-4203-af3a-b6c9c8856657" />
+<img width="180" alt="Image" src="https://github.com/user-attachments/assets/8cd68604-28c1-4c77-8340-ada8db998ab0" />
+
+
+#### 4.2.2.6. Services Documentation Evidence for Sprint Review
+
+En esta sección del informe se presentan los principales endpoints desarrollados en el backend del proyecto, detallando las funcionalidades implementadas durante el Sprint.
+
+**Backend Desplegado**
+
+[Ver Swagger API Documentation](https://waypass-1egd.onrender.com/index.html)
+
+## Authentication Services
+
+| Método | Endpoint | Función |
+|---|---|---|
+| POST | **/api/v1/auth/sign-in** | Permite iniciar sesión y generar el token de autenticación para el pasajero. |
+| POST | **/api/v1/auth/sign-up** | Permite registrar nuevos usuarios en la plataforma (Pasajero / Conductor). |
+
+---
+
+## Users & Profiles Services
+
+| Método | Endpoint | Función |
+|---|---|---|
+| GET | **/api/v1/users/{userId}/profile** | Obtiene el perfil asociado al pasajero actual. |
+| GET | **/api/v1/profiles/{id}** | Obtiene la información detallada del perfil (Nombre, Correo, Tipo de Cuenta) mediante su Id. |
+| PUT | **/api/v1/profiles/{id}** | Permite al pasajero actualizar los datos de su perfil. |
+
+---
+
+## Travel & Routes Services
+
+| Método | Endpoint | Función |
+|---|---|---|
+| GET | **/api/v1/routes** | Obtiene el listado completo de rutas disponibles para que el pasajero pueda explorar. |
+| GET | **/api/v1/routes/{id}** | Obtiene la información específica de una ruta (Origen, Destino, Duración, Tarifa) mediante su Id. |
+
+---
+
+## Reservation Services
+
+| Método | Endpoint | Función |
+|---|---|---|
+| GET | **/api/v1/reservations** | Obtiene el historial de reservas asociadas al pasajero autenticado. |
+| GET | **/api/v1/reservations/{id}** | Obtiene los detalles de una reserva específica (Ruta ID, Conductor ID, Monto y PayPal TX). |
+| POST | **/api/v1/reservations** | Permite al pasajero crear una nueva reserva de viaje tras procesar el pago. |
+
+---
+
+## Favorites Services
+
+| Método | Endpoint | Función |
+|---|---|---|
+| GET | **/api/v1/favorites** | Obtiene la lista de rutas guardadas como preferidas por el pasajero. |
+| POST | **/api/v1/favorites** | Agrega una ruta a la sección de favoritos del pasajero. |
+| DELETE | **/api/v1/favorites/{id}** | Elimina una ruta de la lista de favoritos mediante su Id. |
+
+
+#### 4.2.2.7. Software Deployment Evidence for Sprint Review
+
+**Aplicación Móvil Android**
+
+**Paso 1 :**
+
+- Ejecutamos: flutter build apk
+
+<img width="1573" height="972" alt="Image" src="https://github.com/user-attachments/assets/dee8c3af-26de-42b2-813f-28a9638e9d5f" />
+
+**Paso 2:**
+
+- Generamos la carpeta: build/app/outputs/flutter-apk/
+
+<img width="1600" height="964" alt="Image" src="https://github.com/user-attachments/assets/99a1f096-4be7-4761-a6d0-986e99feca56" />
+
+**Paso 3:**
+
+- Apk generada satisfactoriamente
+
+<img width="1600" height="918" alt="Image" src="https://github.com/user-attachments/assets/2d438618-0737-4558-aa20-33c4550937cf" />
+
+**Backend**
+
+Para el despliegue del Backend se utilizó Render
+
+[Render](https://render.com/)
+
+**Paso 1:**
+
+- Creamos un nuevo proyecto
+
+<img width="1824" height="987" alt="Image" src="https://github.com/user-attachments/assets/09ceba4f-75a8-4d0a-a04e-80b6f0fcceae" />
+
+**Paso 2:**
+
+- Creamos un nuevo servicio
+
+<img width="1824" height="990" alt="Image" src="https://github.com/user-attachments/assets/768dc3dd-0455-4703-9628-143dfc51bd72" />
+
+**Paso 3:**
+
+- Seleccionamos nuestro repositorio
+
+<img width="863" height="917" alt="Image" src="https://github.com/user-attachments/assets/be378217-586e-4329-9d89-259593578764" />
+
+**Paso 4:**
+
+- Instalamos Render en el repositorio
+
+<img width="855" height="900" alt="Image" src="https://github.com/user-attachments/assets/5dd246bb-72aa-49b6-b26a-7dab08e09251" />
+
+**Paso 5:**
+
+- Completamos los datos de la configuración
+
+<img width="1818" height="991" alt="Image" src="https://github.com/user-attachments/assets/16febab6-78ac-4bf9-9811-678bd11cf975" />
+
+**Paso 6:**
+
+- Comienza el deploy y corregimos si sale errores
+
+<img width="1822" height="979" alt="Image" src="https://github.com/user-attachments/assets/df586bbd-7192-4721-9b7f-a3e89b391848" />
+
+**Paso 7:**
+
+- Se realizó el deploy exitosamente
+
+<img width="1820" height="991" alt="Image" src="https://github.com/user-attachments/assets/09039e72-0a6b-492d-b8df-5d4815739ecc" />
+
+#### 4.2.2.8. Team Collaboration Insights during Sprint
+
+A continuación, se presentan los principales colaboradores del proyecto:
+
+| Integrante | Código Universitario | GitHub |
+|---|---|---|
+| Velarde Gonzales, Néstor Hernán | U20211C221 | @velardesoft |
+| Curi Marcelo, Angelo Marcio | U202022387 | @AngelC999 |
+| Guzmán Cabrejos, Yaku Mateo | U20231B173 | @yakumateo |
+| Quiroz Cáceres, Adrian | U202214864 | @Aqc1019 |
+| Carranza Tesén, Joaquín Enrique | U20191B935 | @thepima |
+
+El equipo utilizó GitHub como plataforma de colaboración para el control de versiones, integración de cambios, seguimiento de avances y trabajo colaborativo durante el Sprint.
+
+**Informe**
+
+<img width="935" height="559" alt="Image" src="https://github.com/user-attachments/assets/277b10e9-0c5e-4765-976e-300ec1e6aa42" />
+
+**Flutter:** 
+
+<img width="920" height="516" alt="Image" src="https://github.com/user-attachments/assets/5c082454-a0d8-496f-ae1a-c9bb4d518bb5" />
+
+**Android** 
+
+<img width="936" height="529" alt="Image" src="https://github.com/user-attachments/assets/6ecb9797-3c9b-4b88-b74c-544f5deca0b7" />
+
+**Backend**
+
+<img width="939" height="533" alt="Image" src="https://github.com/user-attachments/assets/8e97c689-f86b-41f5-87bb-43bab5172596" />
+
 
 ## 4.3. Validation Interviews
 En este punto se hiso una validación con los segmentos objetivos sobre nuestro producto de primera fase. 
@@ -5280,7 +5670,7 @@ En este punto se hiso una validación con los segmentos objetivos sobre nuestro 
 
 ### 4.3.3. Evaluaciones según heurísticas
 
-Se realizó una evaluación heurística basada en principios de usabilidad, diseño inclusivo y arquitectura de información para validar la experiencia de usuario de la Landing Page y aplicación móvil de Viacore.
+Se realizó una evaluación heurística basada en principios de usabilidad, diseño inclusivo y arquitectura de información para validar la experiencia de usuario de la Landing Page y aplicación móvil de WayPass.
 
 Los resultados obtenidos permitieron identificar fortalezas relacionadas con navegación intuitiva, consistencia visual y facilidad de uso, así como oportunidades de mejora vinculadas con accesibilidad, ayuda contextual y feedback visual.
 
@@ -5327,17 +5717,24 @@ Tras el desarrollo del presente informe y la ejecución del primer avance del pr
 ### 1. Sobre la Problemática y la Propuesta de Valor
 * **Modernización del Sector Informal:** Se concluye que existe una oportunidad crítica para digitalizar el sistema de colectivos interurbanos en Perú. WayPass logra transformar un sistema basado en la desinformación en una red organizada, permitiendo que el transporte informal adquiera niveles de visibilidad y confianza propios de sistemas formales.
 * **Reducción de la Brecha de Información:** La centralización de rutas, paraderos y tarifas en una plataforma única resuelve el problema de la dependencia de canales tradicionales (boca a boca), beneficiando directamente la planificación de viajes de los usuarios.
+* **Habilitación del Flujo de Reserva Autónomo:** La implementación de reservas directas transforma la propuesta de valor de informativa a transaccional, garantizando previsibilidad y asegurando cupos antes del viaje.
 
 ### 2. Sobre el Diseño Centrado en el Usuario (UX)
-* **Accesibilidad e Inclusión Digital:** La decisión de permitir el acceso a la información de rutas sin registro obligatorio para los pasajeros es un factor de éxito clave. Esto asegura que la aplicación sea inclusiva para usuarios con baja alfabetización digital o aquellos que requieren rapidez en situaciones de movilidad.
-* **Seguridad y Confianza:** La implementación de perfiles de conductores verificados y la transparencia en los costos del servicio actúan como mitigadores de la desconfianza, un problema recurrente identificado en el análisis de *Needfinding*.
+* **Accesibilidad e Inclusión Digital:** Permitir el acceso a la información sin registro obligatorio hace la plataforma más inclusiva para usuarios con baja alfabetización digital o que requieren rapidez en movilidad.
+* **Seguridad y Confianza:** Los perfiles verificados de conductores y la transparencia en costos reducen la desconfianza del usuario, un problema identificado en el proceso de *Needfinding*.
+* **Optimización del Descubrimiento de Rutas:** La interfaz en Flutter, basada en tarjetas informativas y filtros rápidos, reduce la carga cognitiva y facilita la comparación de rutas.
 
 ### 3. Sobre la Arquitectura y el Desarrollo Técnico
-* **Robustez mediante DDD:** La adopción del enfoque *Domain-Driven Design* (DDD) permite que el sistema sea escalable y mantenible. La separación clara de contextos (IAM, Profiles, Routes, Stops) asegura que la lógica de negocio esté protegida contra cambios externos.
-* **Eficiencia en la Integración:** El uso de una Capa Anticorrupción (ACL) garantiza una comunicación fluida y segura entre los microservicios de identidad y los perfiles de usuario, evitando la propagación de modelos de datos inconsistentes.
+* **Robustez mediante DDD:** El uso de *Domain-Driven Design* permite una arquitectura escalable y mantenible, con separación clara de contextos como IAM, Routes, Stops y Company.
+* **Eficiencia en la Integración:** La implementación de una Capa Anticorrupción (ACL) asegura comunicación consistente entre microservicios, evitando la propagación de modelos de datos inconsistentes.
+* **Persistencia y Control de Sesión:** El manejo de tokens en el cliente móvil permite una autenticación fluida y segura en todo el ciclo de vida del usuario.
 
-### 4. Sobre el Impacto del Modelo de Negocio
-* **Sostenibilidad mediante B2B:** El modelo de suscripción para conductores independientes se perfila como una solución viable, ya que les ofrece una herramienta de gestión profesional a cambio de una inversión mínima, permitiéndoles competir en un mercado cada vez más tecnológico.
+### 4. Sobre la Gestión del Alcance y del Proyecto (Métricas Ágiles)
+* **Previsibilidad y Ritmo de Desarrollo:** Se completaron 51 Story Points dentro de una capacidad planificada de 60 SP, lo que evidencia una adecuada estimación y control del avance del equipo.
+* **Priorización del MVP:** La postergación de funcionalidades secundarias permitió enfocar esfuerzos en estabilizar el núcleo transaccional del sistema, reduciendo riesgos técnicos y de usabilidad.
+
+### 5. Sobre el Impacto del Modelo de Negocio
+* **Sostenibilidad mediante B2B:** El modelo de suscripción para conductores independientes es viable, ya que les proporciona una herramienta de gestión profesional a bajo costo, mejorando su competitividad en un mercado cada vez más digitalizado.
 
 <div style="page-break-after: always;"></div>
 
@@ -5347,19 +5744,23 @@ Basado en el análisis del proyecto y los hallazgos durante el avance, se sugier
 
 ### 1. Sobre el Producto y la Experiencia de Usuario (UX)
 * **Gamificación para Conductores:** Se recomienda implementar un sistema de medallas o puntos para los conductores que mantengan sus horarios y rutas actualizados en tiempo real. Esto incentivará la precisión de los datos, que es el núcleo del valor de la aplicación.
-* **Modo Offline:** Dada la variabilidad de la cobertura de red en rutas interurbanas y rurales, es fundamental desarrollar una funcionalidad de caché que permita a los pasajeros consultar las rutas y paraderos descargados previamente sin necesidad de conexión activa a internet.
+* **Modo Offline:** Dada la variabilidad de la cobertura de red en rutas interurbanas y rurales, es fundamental desarrollar una funcionalidad de caché que permita a los pasajeros consultar la información previamente descargada sin necesidad de conexión activa a internet.
+* **Transición Fluida de Estados de Reserva:** Diseñar microanimaciones y alertas visuales claras en Flutter para el flujo de confirmación de reservas, asegurando que el usuario tenga retroalimentación inmediata del estado de su cupo tras interactuar con el backend.
 
 ### 2. Sobre la Estrategia de Mercado y Validación
-* **Alianzas Estratégicas:** Se sugiere establecer contactos con asociaciones de transportistas locales para realizar planes piloto. Esto facilitará la adopción masiva y permitirá obtener feedback directo de los usuarios reales en un entorno controlado.
-* **Campañas de Alfabetización Digital:** Realizar material educativo simplificado (videos cortos o infografías físicas en los paraderos) que explique el uso de la aplicación, enfocándose en los beneficios de seguridad y ahorro de tiempo para el pasajero.
+* **Alianzas Estratégicas:** Se sugiere establecer contactos con asociaciones de transportistas locales para realizar planes piloto. Esto facilitará la adopción masiva y permitirá obtener feedback directo de usuarios reales en un entorno controlado.
+* **Campañas de Alfabetización Digital:** Desarrollar material educativo simplificado (videos cortos o infografías en paraderos) que explique el uso de la aplicación, enfocándose en los beneficios de seguridad y ahorro de tiempo para el pasajero.
+* **Validación del MVP Móvil:** Ejecutar una fase de pruebas beta cerradas con un grupo reducido de usuarios en dispositivos Android e iOS para evaluar la usabilidad real de los filtros geográficos en zonas periféricas.
 
 ### 3. Sobre el Desarrollo Técnico y Escalabilidad
-* **Implementación de Notificaciones Push:** Integrar un sistema de alertas en tiempo real que notifique a los pasajeros sobre cambios de último minuto en las tarifas o retrasos en las rutas debido a factores externos (clima, tráfico o mantenimiento vial).
+* **Implementación de Notificaciones Push:** Integrar un sistema de alertas en tiempo real que notifique a los pasajeros sobre cambios de último minuto en tarifas, retrasos o incidencias en las rutas debido a factores externos como clima o tráfico.
+* **Estrategia de Caching y Optimización de Consultas:** Implementar almacenamiento local en Flutter para indexar datos del módulo Geográfico, reduciendo la carga de peticiones a los endpoints del backend y optimizando el consumo de datos móviles.
+* **Planificación del Siguiente Incremento (Módulo de Favoritos):** Reincorporar progresivamente las historias de usuario del módulo *FavoriteRoutes*, utilizando la velocidad remanente del equipo para diseñar una sincronización asíncrona entre almacenamiento local y backend.
 
 ### 4. Sobre la Seguridad y el Cumplimiento
-* **Monitoreo de Veracidad:** Desarrollar un algoritmo de validación o un sistema de reportes por parte de los usuarios para identificar y sancionar perfiles de conductores que brinden información falsa sobre precios o rutas, manteniendo así la integridad de la plataforma.
-* **Protección de Datos:** Asegurar que el contexto de IAM (Identity and Access Management) cumpla estrictamente con la Ley de Protección de Datos Personales, especialmente al manejar información sensible de los conductores suscritos.
-
+* **Monitoreo de Veracidad:** Desarrollar un sistema de reportes y validación comunitaria para identificar y sancionar conductores que proporcionen información incorrecta sobre precios o rutas, asegurando la integridad de la plataforma.
+* **Protección de Datos y Cifrado en el Cliente:** Garantizar el cumplimiento de la Ley de Protección de Datos Personales mediante el fortalecimiento del módulo IAM (Identity and Access Management), y asegurar el almacenamiento cifrado de tokens de autenticación en la aplicación móvil utilizando mecanismos como *Secure Storage*.
+* 
 <div style="page-break-after: always;"></div>
 
 # Video App Validation
@@ -5401,7 +5802,7 @@ El presente video presenta de forma promocional la propuesta de valor de nuestro
 | GitHub Pages | Servicio utilizado para desplegar la Landing Page del proyecto. |
 | JSON | Formato ligero de intercambio de datos utilizado en APIs REST. |
 | JWT Token | Token de autenticación utilizado para validar sesiones de usuario. |
-| Landing Page | Página web principal utilizada para presentar la plataforma Viacore. |
+| Landing Page | Página web principal utilizada para presentar la plataforma WayPass. |
 | Mockup | Diseño visual detallado de una interfaz antes de su implementación. |
 | MySQL | Sistema gestor de base de datos relacional utilizado en el proyecto. |
 | RESTful API | API basada en principios REST para comunicación entre cliente y servidor. |
@@ -5427,7 +5828,7 @@ El presente video presenta de forma promocional la propuesta de valor de nuestro
 
 # Anexos
 
-## Recursos del Proyecto - Viacore
+## Recursos del Proyecto - WayPass
 
 <table border="1">
   <thead>
@@ -5456,6 +5857,10 @@ El presente video presenta de forma promocional la propuesta de valor de nuestro
     <tr>
         <td><strong>About the product<strong></td>
         <td><a href="https://shorturl.at/Wj2JC" target="_blank">Ver Video About the Product</td>
+    </tr>
+    <tr>
+        <td><strong>APK (Kotlin y Flutter)<strong></td>
+        <td><a href="https://upcedupe-my.sharepoint.com/:f:/g/personal/u202022387_upc_edu_pe/IgCxI9c4eQngTrVgDjx7YlZdAY8dLHSk1FGMaDwICrtlEAM?e=fkK8Xo" target="_blank">Descargar APK</td>
     </tr>
   </tbody>
 </table>
