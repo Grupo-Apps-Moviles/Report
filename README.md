@@ -5137,7 +5137,7 @@ En esta sección se presenta el Sprint Planning Meeting correspondiente al segun
 
 **Tablero del Sprint 2:** [Link del tablero Trello](https://trello.com/invite/b/69ff3d5f6e22ba5114de07be/ATTIe3bce47f3f25411bc433b9188fad27e7C2103B04/movil)
 
-<img width="1137" height="741" alt="Sprint 2 Board" src="PLACEHOLDER_SPRINT2_BOARD" />
+<img width="1137" alt="sprint backlog 2 foto" src="https://github.com/user-attachments/assets/8c44588f-39d1-4c9e-b552-7401e418cf7c" />
 
 A continuación se presenta la descomposición de cada User Story en Engineering Tasks, estimados entre 4 y 8 horas, con su responsable y estado de seguimiento.
 
@@ -5178,8 +5178,6 @@ A continuación se presenta la descomposición de cada User Story en Engineering
 | TS-15 | T15.1 | Pruebas manuales de navegación | Validación de happy/unhappy paths en Android e iOS | 5 | Carranza Tesén, Joaquín Enrique | Done |
 
 #### 4.2.2.3. Development Evidence for Sprint Review
-
-## Development Evidence for Sprint Review
 
 Durante este sprint se avanzó en la implementación de los productos principales de la solución WayPass: el backend (Web Services) y la nueva aplicación móvil desarrollada en Flutter.
 
