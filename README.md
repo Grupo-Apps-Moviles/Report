@@ -1,7 +1,9 @@
 
-<div align="center">
+<div align="center" style="page-break-inside: avoid;">
     <br><br><br>
-    <img src="https://www.upc.edu.pe/static/img/logo_upc_red.png" width="180px" alt="Logo UPC"><br><br>
+    <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " src="https://www.upc.edu.pe/static/img/logo_upc_red.png" width="180px" alt="Logo UPC">
+</div><br><br>
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
     <strong>Ingeniería de Software / Séptimo Ciclo</strong><br><br>
     <strong> Aplicaciones para dispositivos Móviles </strong> <br>
@@ -46,7 +48,7 @@
 
   <br/><br/>
 
-<div align="center">
+<div align="center" style="page-break-inside: avoid;">
   <strong>Lima, 21 de Junio del 2026</strong><br/>
 </div>
 
@@ -135,7 +137,9 @@ A continuación, se presentan los principales colaboradores del proyecto:
 
 El equipo utilizó GitHub como plataforma de colaboración para el control de versiones, integración de cambios, seguimiento de avances y trabajo colaborativo durante el Sprint2 - Avance2.
 
-<img width="916" height="703" alt="Image" src="https://github.com/user-attachments/assets/72da4b66-8c45-41c7-a02c-a8258b5f2874" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="916" height="703" alt="Image" src="https://github.com/user-attachments/assets/72da4b66-8c45-41c7-a02c-a8258b5f2874" />
+</div>
 
 <div style="page-break-after: always;"></div>
 
@@ -445,7 +449,7 @@ A continuación se presentan los objetivos SMART, relacionados con el desarrollo
 
 **Velarde Gonzales, Néstor Hernán**
 - Objetivo 1: En posteriores a mi graduación, consolidaré mi perfil profesional como arquitecto de software, participando en el desarrollo de Backend y Frontend. Además me insertaré en tecnologías emergentes como la blockchain y inteligencia artificial, obteniendo al menos una participación en startup reconocidos del Perú.
-- Objetivo 2: En los primeros 12 meses posteriores de ser egresado, obtendré una posición profesional como desarrollador backend, fortaleciendo mis conocimientos en arquitecturas RESTful, .NET y bases de datos en la nube, además de desplegar al menos 3 proyectos funcionales en producción relacionados aplicaciones web o movil.
+- Objetivo 2: En los primeros 12 meses posteriores de ser egresado, obtendré una posición profesional como desarrollador backend, fortaleciendo mis conocimientos en arquitecturas RESTful, .NET y bases de datos en la nube, además de desplegar al menos 3 proyectos funcionales en producción relacionados aplicaciones web o móvil.
 
 **Curi Marcelo, Angelo Marcio**
 - Objetivo 1:  En los primeros 18 meses posteriores a mi graduación, obtendré una posición profesional como desarrollador frontend o analista junior de ciberseguridad, fortaleciendo mis conocimientos en desarrollo web, seguridad informática y gestión de vulnerabilidades, además de desarrollar y publicar proyectos técnicos en GitHub que evidencien mis habilidades prácticas.
@@ -494,7 +498,9 @@ Ser el ecosistema digital líder en la gestión del transporte interurbano y rur
     </thead>
     <tbody>
         <tr>
-            <td><img width="140" alt="Image" src="https://github.com/user-attachments/assets/ff035024-f015-4b7b-9b2b-0abdb15bda50" /></td>
+            <td><div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="140" alt="Image" src="https://github.com/user-attachments/assets/ff035024-f015-4b7b-9b2b-0abdb15bda50" />
+</div></td>
             <td>
                 Cuento con conocimientos y experiencia en diversos lenguajes de 
                 programación como Python, C#, Java, C++ y JavaScript, lo que me 
@@ -505,16 +511,22 @@ Ser el ecosistema digital líder en la gestión del transporte interurbano y rur
             </td>
         </tr>
         <tr>
-            <td><img width="140" alt="foto" src="https://github.com/user-attachments/assets/fb7d3127-17d1-40f8-86bb-cfb703bfd728" /></td>
+            <td><div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="140" alt="foto" src="https://github.com/user-attachments/assets/fb7d3127-17d1-40f8-86bb-cfb703bfd728" />
+</div></td>
             <td>Soy Angelo Curi Marcelo, con conocimientos en lenguajes de programación como C++ y Python. Además, manejo herramientas que apoyan el desarrollo eficiente de proyectos de software. Siempre me esfuerzo por adquirir nuevas habilidades y mejorar mis competencias técnicas para afrontar los desafíos del desarrollo de software. Me considero una persona responsable, comprometida y enfocada en la calidad del trabajo. Tengo la capacidad de adaptarme rápidamente a nuevas tecnologías y entornos. Cumplo con los plazos establecidos y tengo una gran disposición para aprender y colaborar en equipo. </td>
         </tr>
         <tr>
-            <td><img width="140" alt="foto" src="https://github.com/user-attachments/assets/2dd80fc1-e903-4b8e-b550-505cd7712d19" />
+            <td><div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="140" alt="foto" src="https://github.com/user-attachments/assets/2dd80fc1-e903-4b8e-b550-505cd7712d19" />
+</div>
 </td>
             <td>Hola, soy Joaquín Carranza. Tengo 25 años y actualmente curso el septimo ciclo de la carrera de Ingeniería de Software. Me gusta la tecnología y la forma en que ayuda a las personas a resolver problemas de manera más rápida y eficiente. Me interesa especialmente el manejo de datos y la ciberseguridad. Siento que puedo aportar a mi equipo ideas desde otra perspectiva, ya que siempre me cuestiono cómo se podría mejorar el producto o hacia qué objetivo estamos apuntando.</td>
         </tr>
         <tr>
-            <td><img width="140" alt="yaku" src="https://github.com/user-attachments/assets/833d2d67-a1be-4101-a601-6b674dfe2408" />
+            <td><div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="140" alt="yaku" src="https://github.com/user-attachments/assets/833d2d67-a1be-4101-a601-6b674dfe2408" />
+</div>
 </td>
             <td>Soy Yaku Guzmán, estudiante de Ingeniería de Software en el séptimo ciclo. 
 Cuento con conocimientos en lenguajes de programación como Python, C#, Java, 
@@ -526,7 +538,9 @@ Me considero autodidacta, analítico y comprometido con la calidad del trabajo
 en equipo.</td>
         </tr>
         <tr>
-            <td><img width="140" alt="Image" src="https://github.com/user-attachments/assets/a0fb7f84-81aa-452a-913c-4bd584faedaa" /></td>
+            <td><div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="140" alt="Image" src="https://github.com/user-attachments/assets/a0fb7f84-81aa-452a-913c-4bd584faedaa" />
+</div></td>
             <td>Soy Adrian Quiroz, tengo 21 años y actualmente curso el quinto ciclo de Ingeniería de Software. Poseo conocimientos en C++ y bases de datos, áreas que me permiten contribuir al desarrollo de soluciones digitales.</td>
         </tr>
     </tbody>
@@ -615,7 +629,9 @@ A continuación, se realizará el Lean UX Canvas, el cual nos sirve para captura
 
 Figura 1. Lean UX Canvas.
 
-<img width="1231" height="811" alt="Image" src="https://github.com/user-attachments/assets/d9a3bfa7-3b48-4cc4-af58-b6186c6a6069" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1231" height="811" alt="Image" src="https://github.com/user-attachments/assets/d9a3bfa7-3b48-4cc4-af58-b6186c6a6069" />
+</div>
 
 Fuente: Elaboración propia en la plataforma Miro. Disponible en: https://miro.com/app/board/uXjVHeXxRtw=/?share_link_id=413104933358
 
@@ -680,10 +696,18 @@ En esta sección se identifican y analizan las soluciones existentes en el merca
     <tbody>
         <tr>
             <td><strong>Logo</strong></td>
-           <td><img src="https://raw.githubusercontent.com/Grupo-Apps-Moviles/Report/refs/heads/main/images/moovit.png"></td>
-            <td><img src="https://raw.githubusercontent.com/Grupo-Apps-Moviles/Report/refs/heads/main/images/redbus.png"></td>
-            <td><img src="https://raw.githubusercontent.com/Grupo-Apps-Moviles/Report/refs/heads/main/images/quickride.png"></td>
-            <td><img width="857" height="510" alt="Image" src="https://github.com/user-attachments/assets/65ab5b77-d14a-4d14-a52d-438b345817aa"></td>
+           <td><div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" src="https://raw.githubusercontent.com/Grupo-Apps-Moviles/Report/refs/heads/main/images/moovit.png" width="150">
+</div></td>
+            <td><div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" src="https://raw.githubusercontent.com/Grupo-Apps-Moviles/Report/refs/heads/main/images/redbus.png" width="150">
+</div></td>
+            <td><div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" src="https://raw.githubusercontent.com/Grupo-Apps-Moviles/Report/refs/heads/main/images/quickride.png" width="150">
+</div></td>
+            <td><div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" src="https://github.com/user-attachments/assets/65ab5b77-d14a-4d14-a52d-438b345817aa" alt="Waypass" width="150">
+</div></td>
         </tr>
         <tr>
             <td><strong>Overview</strong></td>
@@ -849,7 +873,9 @@ A continuación, se demostrará las entrevistas realizadas a los usuarios (pasaj
 </tr>
 <tr>
 <td>Evidencia</td>
-<td><div align="center"><img src="../images/Entrevista1.png" alt="Entrevista"></td>
+<td><div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" src="../images/Entrevista1.png" alt="Entrevista" width="600">
+</div></td>
 </tr>
 <td>Resumen</td>
 <td>
@@ -889,7 +915,9 @@ Se realizó una entrevista a Jhudith Pumallihua, una joven estudiante de 20 año
 </tr>
 <tr>
 <td>Evidencia</td>
-<td><img width="889" height="316" alt="Captura de pantalla 2026-04-22 171824" src="https://github.com/user-attachments/assets/d2789d3e-4783-4a80-8266-9988f0039b10" /></td>
+<td><div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="600" alt="Captura de pantalla" src="https://github.com/user-attachments/assets/d2789d3e-4783-4a80-8266-9988f0039b10" />
+</div></td>
 </tr>
 <td>Timing donde inicia la entrevista<br></td>
 <td>00:05 min</td>
@@ -936,7 +964,9 @@ Jean Pierre relató que prefiere el colectivo por pura velocidad, ya que los bus
 </tr>
 <tr>
 <td>Evidencia</td>
-<td><img width="882" height="295" alt="Captura de pantalla 2026-04-22 171958" src="https://github.com/Grupo-Apps-Moviles/Report/blob/main/images/Entrevista3.png" /></td>
+<td><div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="600" alt="Captura de pantalla" src="https://github.com/Grupo-Apps-Moviles/Report/blob/main/images/Entrevista3.png" />
+</div></td>
 </tr>
 <td>Timing donde inicia la entrevista<br></td>
 <td>07:59 min</td>
@@ -986,7 +1016,9 @@ Por ello, una aplicación que le brinde rutas claras, opciones de transporte y o
 </tr>
 <tr>
 <td>Evidencia</td>
-<td><img width="882" height="295" alt="Captura de pantalla 2026-04-22 171958" src="https://github.com/Grupo-Apps-Moviles/Report/blob/main/images/Entrevista_Conductor1.png" /></td>
+<td><div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="600" alt="Captura de pantalla" src="https://github.com/Grupo-Apps-Moviles/Report/blob/main/images/Entrevista_Conductor1.png" />
+</div></td>
 </tr>
 <td>Timing donde inicia la entrevista<br></td>
 <td>11:07 min</td>
@@ -1033,7 +1065,9 @@ Se realizó una entrevista a Angel Mamani Cayampi, una Joven estudiante de 20 a�
 </tr>
 <tr>
 <td>Evidencia</td>
-<td><img width="882" height="295" alt="Captura de pantalla 2026-04-22 171958" src="https://github.com/user-attachments/assets/95831038-4065-4d64-8fac-2b15230bfd23" /></td>
+<td><div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="600" alt="Captura de pantalla" src="https://github.com/user-attachments/assets/95831038-4065-4d64-8fac-2b15230bfd23" />
+</div></td>
 </tr>
 <td>Timing donde inicia la entrevista<br></td>
 <td>15:22 min</td>
@@ -1080,7 +1114,9 @@ Fabian explicó que su salida no depende de un reloj, sino de completar sus cuat
 </tr>
 <tr>
 <td>Evidencia</td>
-<td><img width="886" height="362" alt="Captura de pantalla 2026-04-22 172125" src="https://github.com/user-attachments/assets/ec1cd09d-a9a1-414c-88c6-799137c99c00" /></td>
+<td><div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="600" alt="Captura de pantalla" src="https://github.com/user-attachments/assets/ec1cd09d-a9a1-414c-88c6-799137c99c00" />
+</div></td>
 </tr>
 <td>Timing donde inicia la entrevista<br></td>
 <td>21:23 min</td>
@@ -1127,7 +1163,9 @@ Roberto narró que su operación es más rígida, basada en un "cartel" de horar
 </tr>
 <tr>
 <td>Evidencia</td>
-<td><img width="886" height="311" alt="Captura de pantalla 2026-04-22 172203" src="https://github.com/user-attachments/assets/c89cb7ba-3039-4bdd-8e1f-edcd429a17d7" /></td>
+<td><div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="600" alt="Captura de pantalla" src="https://github.com/user-attachments/assets/c89cb7ba-3039-4bdd-8e1f-edcd429a17d7" />
+</div></td>
 </tr>
 <td>Timing donde inicia la entrevista<br></td>
 <td>27:59 min</td>
@@ -1160,7 +1198,9 @@ El análisis de las entrevistas a Jhudith, Jean Pierre y Mateo revela tres punto
 
 Figura 2. Problemas Principales (Pasajeros)
 
-<img width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/163c8f02-7114-4f30-afa3-c7fdec59dfc0" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/163c8f02-7114-4f30-afa3-c7fdec59dfc0" />
+</div>
 
 
 #### Segmento Conductores: Eficiencia Operativa y Seguridad
@@ -1174,7 +1214,9 @@ Las entrevistas a Angel, Fabian, Roberto y Emmanuel muestran una realidad dividi
 
 Figura 3. Percepción de la APP (Conductores)
 
-<img width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/4e08e7b3-a62c-472e-938e-59a0f06f1150" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/4e08e7b3-a62c-472e-938e-59a0f06f1150" />
+</div>
 
 
 #### Conclusiones del Análisis 
@@ -1183,7 +1225,9 @@ Como se observa en la distribución demográfica de nuestras entrevistas, existe
 
 Figura 4. Demografía de Entrevistados
 
-<img width="850" height="500" alt="Image" alt="Image" src="https://github.com/user-attachments/assets/5268f477-4f21-4666-aba2-fd4b18acf88a" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="850" height="500" alt="Image" alt="Image" src="https://github.com/user-attachments/assets/5268f477-4f21-4666-aba2-fd4b18acf88a" />
+</div>
 
 - Validación de la Solución: Ambos segmentos coinciden en que la digitalización de los paraderos y rutas informales reduciría el estrés y mejoraría la eficiencia económica (conductores llenan más rápido, pasajeros esperan menos).
 
@@ -1206,13 +1250,17 @@ A continuación, se detallan los perfiles de User Personas para cada segmento ob
 
 Figura 5. User persona "Javier Ramirez (Pasajero)"
 
-<img width="1050" height="1858" alt="Image" src="https://github.com/user-attachments/assets/dad2f416-e35b-484f-a3ce-be17c6d90a3c" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1050" height="1858" alt="Image" src="https://github.com/user-attachments/assets/dad2f416-e35b-484f-a3ce-be17c6d90a3c" />
+</div>
 
 **User Persona - conductores**
 
 Figura 6. User persona "Jose Marcelo (Conductor)"
 
-<img width="1050" height="1798" alt="Image" src="https://github.com/user-attachments/assets/634a3ff9-1310-4672-915c-04d78eff25d1" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1050" height="1798" alt="Image" src="https://github.com/user-attachments/assets/634a3ff9-1310-4672-915c-04d78eff25d1" />
+</div>
 
 ### 2.3.2. User Task Matrix
 
@@ -1306,7 +1354,9 @@ A continuación, se presenta el User Journey Map:
 
 Figura 7. User Journey Map - WayPass
 
-<img width="1277" height="782" alt="Image" src="https://github.com/user-attachments/assets/c51acc22-1fd4-4b0f-9591-ff79c360abe4" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1277" height="782" alt="Image" src="https://github.com/user-attachments/assets/c51acc22-1fd4-4b0f-9591-ff79c360abe4" />
+</div>
 
 ### 2.3.4. Empathy Mapping
 
@@ -1318,13 +1368,17 @@ A continuación, se detallan los mapas de empatía correspondientes:
 
 Figura 8. Empathy Mapping Jose Marcelo (Conductor)
 
-<img width="1050" height="1408" alt="Image" src="https://github.com/user-attachments/assets/af1561c0-88cd-4e8a-ada0-b97ea67bfc88" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1050" height="1408" alt="Image" src="https://github.com/user-attachments/assets/af1561c0-88cd-4e8a-ada0-b97ea67bfc88" />
+</div>
 
 **Pasajero:**
 
 Figura 9. Empathy Mapping Javier Ramirez (Pasajero)
 
-<img width="1050" height="1468" alt="Image" src="https://github.com/user-attachments/assets/bffbde0f-ceed-4356-9631-88a3b92140a2" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1050" height="1468" alt="Image" src="https://github.com/user-attachments/assets/bffbde0f-ceed-4356-9631-88a3b92140a2" />
+</div>
 
 ### 2.3.5. Big Picture EventStorming
 
@@ -1332,7 +1386,9 @@ El siguiente Big Picture EventStorming representa el flujo end-to-end de nuestra
 
 Figura 10. Big Picture EventStorming
 
-<img width="794" height="1259" alt="Image" src="https://github.com/user-attachments/assets/57edff33-c74a-46f8-9591-861c4aabb174" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="794" height="1259" alt="Image" src="https://github.com/user-attachments/assets/57edff33-c74a-46f8-9591-861c4aabb174" />
+</div>
 
 <div style="page-break-after: always;"></div>
 
@@ -1495,7 +1551,9 @@ El Impact Mapping permite alinear los objetivos del proyecto con las necesidades
 
 Figura 11. Impact mapping de conductor y pasajero
 
-<img width="1121" height="944" alt="Image" src="https://github.com/user-attachments/assets/778a66ff-9186-4f75-90c5-bf7a1aef60b9" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1121" height="944" alt="Image" src="https://github.com/user-attachments/assets/778a66ff-9186-4f75-90c5-bf7a1aef60b9" />
+</div>
 
 ### 2.4.3. Product Backlog
 
@@ -1584,19 +1642,25 @@ En primer lugar, debemos identificar los eventos y trazarlos mediante una linea 
 
 Figura 12. Identificación de eventos de WayPass
 
-<img width="1220" height="1280" alt="Image" src="https://github.com/user-attachments/assets/22ddf260-a354-438e-b437-ab4705eda54d" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1220" height="1280" alt="Image" src="https://github.com/user-attachments/assets/22ddf260-a354-438e-b437-ab4705eda54d" />
+</div>
 
 Como segundo paso, identificamos los comandos que disparan o llevan a acabo el evento. Identificamos a estos con un post-it de color azul.
 
 Figura 13. Identificación de comandos de WayPass
 
-<img width="1411" height="1106" alt="Image" src="https://github.com/user-attachments/assets/58c63398-ab6c-48b6-9ca0-8bec5cc63e7b" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1411" height="1106" alt="Image" src="https://github.com/user-attachments/assets/58c63398-ab6c-48b6-9ca0-8bec5cc63e7b" />
+</div>
 
 Como tercer paso, identificamos los agentes que realizan o usan el comando. Estos se representan mediante un post-it de color amarillo.
 
 Figura 14. Identificación de agentes  de WayPass
 
-<img width="1244" height="1255" alt="Image" src="https://github.com/user-attachments/assets/613e0cf6-1921-4068-a97f-751177e442b3" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1244" height="1255" alt="Image" src="https://github.com/user-attachments/assets/613e0cf6-1921-4068-a97f-751177e442b3" />
+</div>
 
 
 Como último paso, identificamos los eventos que se relacionen entre sí mediante los agregados y entidades que utilizan, agrupandolos por
@@ -1604,7 +1668,9 @@ Bounded Context.
 
 Figura 15. Identificación de relación entre eventos y agentes de WayPass
 
-<img width="1150" height="1357" alt="Image" src="https://github.com/user-attachments/assets/2cecb2a3-f33d-4ed7-80ce-8de2cce29c78" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1150" height="1357" alt="Image" src="https://github.com/user-attachments/assets/2cecb2a3-f33d-4ed7-80ce-8de2cce29c78" />
+</div>
 
 Fuente: Elaboración propia en la plataforma Miro. Encontrado en: https://miro.com/app/board/uXjVHe62Coc=/?share_link_id=80941229308
 
@@ -1652,27 +1718,39 @@ El Domain Message Flow Modelling se utiliza para diagramar el intercambio de men
 
 Figura 16. Crear Nuevo paradero - Domain Message Flows Modeling
 
-<img width="1250" height="795" alt="Image" src="https://github.com/user-attachments/assets/0cc437ed-798a-408b-978b-1e4990ba07bf" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1250" height="795" alt="Image" src="https://github.com/user-attachments/assets/0cc437ed-798a-408b-978b-1e4990ba07bf" />
+</div>
 
 Figura 17. Editar paradero - Domain Message Flows Modeling
 
-<img width="1234" height="789" alt="Image" src="https://github.com/user-attachments/assets/62966ed7-c29f-4d25-a8f1-9411685bc964" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1234" height="789" alt="Image" src="https://github.com/user-attachments/assets/62966ed7-c29f-4d25-a8f1-9411685bc964" />
+</div>
 
 Figura 18. Eliminar paradero - Domain Message Flows Modeling
 
-<img width="1245" height="800" alt="Image" src="https://github.com/user-attachments/assets/fdeea1a1-1f0b-493e-9059-466e8c0303ad" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1245" height="800" alt="Image" src="https://github.com/user-attachments/assets/fdeea1a1-1f0b-493e-9059-466e8c0303ad" />
+</div>
 
 Figura 19. Crear nueva ruta usando paradero existente - Domain Message Flows Modeling
 
-<img width="1239" height="794" alt="Image" src="https://github.com/user-attachments/assets/c0ec5dd5-00c6-44a3-b7a7-1a1feab31ced" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1239" height="794" alt="Image" src="https://github.com/user-attachments/assets/c0ec5dd5-00c6-44a3-b7a7-1a1feab31ced" />
+</div>
 
 Figura 20. Editar ruta usando paradero existente - Domain Message Flows Modeling
 
-<img width="1234" height="786" alt="Image" src="https://github.com/user-attachments/assets/811ce2b8-32a0-471a-8677-6442e92f4b97" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1234" height="786" alt="Image" src="https://github.com/user-attachments/assets/811ce2b8-32a0-471a-8677-6442e92f4b97" />
+</div>
 
 Figura 21. Eliminar ruta - Domain Message Flows Modeling
 
-<img width="1239" height="787" alt="Image" src="https://github.com/user-attachments/assets/985e52d2-9999-4acf-b1c4-cae7c311fc3e" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1239" height="787" alt="Image" src="https://github.com/user-attachments/assets/985e52d2-9999-4acf-b1c4-cae7c311fc3e" />
+</div>
 
 Fuente: Elaboración propia en la plataforma Miro. Registrado en: https://miro.com/app/board/uXjVHe6wZGo=/?share_link_id=531861330130
 
@@ -1686,19 +1764,27 @@ En esta sección se presentan los Bounded Context Canvases correspondientes a lo
 
 Figura 22. IAM - Bounded context
 
-<img width="1022" height="902" alt="Image" src="https://github.com/user-attachments/assets/2d8ed69a-77ca-4f86-b09d-3b8f34a0a5c0" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1022" height="902" alt="Image" src="https://github.com/user-attachments/assets/2d8ed69a-77ca-4f86-b09d-3b8f34a0a5c0" />
+</div>
 
 Figura 23. Profile - Bounded context
 
-<img width="1023" height="903" alt="Image" src="https://github.com/user-attachments/assets/3d1eaae9-17af-456f-a8ea-4c6adc395718" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1023" height="903" alt="Image" src="https://github.com/user-attachments/assets/3d1eaae9-17af-456f-a8ea-4c6adc395718" />
+</div>
 
 Figura 24. Stops Management - Bounded context
 
-<img width="1021" height="905" alt="Image" src="https://github.com/user-attachments/assets/0973a377-b45d-452c-9693-99e4db53fa9a" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1021" height="905" alt="Image" src="https://github.com/user-attachments/assets/0973a377-b45d-452c-9693-99e4db53fa9a" />
+</div>
 
 Figura 25. Routes Management - Bounded context
 
-<img width="1025" height="903" alt="Image" src="https://github.com/user-attachments/assets/ed8216b9-4977-487d-9de1-18fba54f548b" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1025" height="903" alt="Image" src="https://github.com/user-attachments/assets/ed8216b9-4977-487d-9de1-18fba54f548b" />
+</div>
 
 Fuente: Elaboración propia en la plataforma de Miro. Revisar en: https://miro.com/app/board/uXjVHeO0rMw=/?share_link_id=610453112459
 
@@ -1708,7 +1794,9 @@ En esta sección se desarrolla el Context Mapping, una herramienta estratégica 
 
 Figura 26. Context Mapping
 
-<img width="962" height="584" alt="Image" src="https://github.com/user-attachments/assets/d703dddc-e8a8-463b-b038-45734b9617c1" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="962" height="584" alt="Image" src="https://github.com/user-attachments/assets/d703dddc-e8a8-463b-b038-45734b9617c1" />
+</div>
 
 Fuente: Elaboración propia en la plataforma de Miro. Revisar en: https://miro.com/app/board/uXjVHeO0rMw=/?share_link_id=610453112459
 
@@ -1748,7 +1836,9 @@ En este diagrama de contexto se aprecia cómo el sistema centraliza la comunicac
 
 Figura 27. Diagrama de Contexto de WayPass
 
-<img width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/dbf510e0-f463-4190-8c9a-61b61b617483" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/dbf510e0-f463-4190-8c9a-61b61b617483" />
+</div>
 
 #### 2.5.3.2. Software Architecture Container Level Diagrams
 
@@ -1756,7 +1846,9 @@ El siguiente diagrama de contenedores representa los principales componentes del
 
 Figura 28. Diagrama de Contenedores - WayPass
 
-<img width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/2202a09d-068a-460c-9cd1-ba06a44b7045" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/2202a09d-068a-460c-9cd1-ba06a44b7045" />
+</div>
 
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
@@ -1764,7 +1856,9 @@ El siguiente diagrama de despliegue describe la infraestructura física y lógic
 
 Figura 29. Diagrama de despliegue - WayPass
 
-<img width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/e52bfe34-45f9-47b2-94fb-eabaab317815" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/e52bfe34-45f9-47b2-94fb-eabaab317815" />
+</div>
 
 ## 2.6. Tactical-Level Domain-Driven Design
 
@@ -1916,7 +2010,9 @@ Este diagrama representa la descomposición interna del container IAM Applicatio
 
 Figura 30. Diagrama de componentes del Bounded Context IAM - WayPass
 
-<img width="1819" height="1085" alt="Image" src="https://github.com/user-attachments/assets/ecc76aae-e486-4314-b19b-18c67c75ada1" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1819" height="1085" alt="Image" src="https://github.com/user-attachments/assets/ecc76aae-e486-4314-b19b-18c67c75ada1" />
+</div>
 
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -1929,7 +2025,9 @@ registro, Value Objects para encapsular datos importantes, e interfaces para los
 
 Figura 31. Diagrama de clases del Bounded Context IAM - WayPass
 
-<img width="1386" height="830" alt="Image" src="https://github.com/user-attachments/assets/8adc3ac4-3ba0-4f27-b99a-76a12d985ed5" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1386" height="830" alt="Image" src="https://github.com/user-attachments/assets/8adc3ac4-3ba0-4f27-b99a-76a12d985ed5" />
+</div>
 
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
 
@@ -1948,7 +2046,9 @@ Figura 31. Diagrama de clases del Bounded Context IAM - WayPass
 
 Figura 32. Diagrama de base de datos del Bounded Context IAM - WayPass
 
-<img width="352" height="285" alt="Image" src="https://github.com/user-attachments/assets/e4b1a0bf-b854-470c-90d9-3f303102e76f" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="352" height="285" alt="Image" src="https://github.com/user-attachments/assets/e4b1a0bf-b854-470c-90d9-3f303102e76f" />
+</div>
 
 ### 2.6.2. Bounded Context: Profile
 
@@ -2310,7 +2410,9 @@ Este diagrama representa la descomposición interna del container Profile Applic
 
 Figura 33. Diagrama de componentes del Bounded Context Profile - WayPass
 
-<img width="1095" height="848" alt="Image" src="https://github.com/user-attachments/assets/c83ffd98-8100-4c7c-afbd-7d67a27665df" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1095" height="848" alt="Image" src="https://github.com/user-attachments/assets/c83ffd98-8100-4c7c-afbd-7d67a27665df" />
+</div>
 
 #### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -2322,7 +2424,9 @@ En esta imagen se muestran las clases del dominio Profile que incluyen Profile c
 
 Figura 34. Diagrama de clases del Bounded Context Profile - WayPass
 
-<img width="1226" height="645" alt="Image" src="https://github.com/user-attachments/assets/c744279b-4d37-46c2-9028-5a73a477c9c2" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1226" height="645" alt="Image" src="https://github.com/user-attachments/assets/c744279b-4d37-46c2-9028-5a73a477c9c2" />
+</div>
 
 ##### 2.6.2.6.2. Bounded Context Database Design Diagram
 
@@ -2363,7 +2467,9 @@ Figura 34. Diagrama de clases del Bounded Context Profile - WayPass
 
 Figura 35. Diagrama de base de datos del Bounded Context Profile - WayPass
 
-<img width="440" height="262" alt="Image" src="https://github.com/user-attachments/assets/aa97aacc-350d-43d7-9489-93b550a1c120" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="440" height="262" alt="Image" src="https://github.com/user-attachments/assets/aa97aacc-350d-43d7-9489-93b550a1c120" />
+</div>
 
 ### 2.6.3. Bounded Context: Stops
 
@@ -2714,7 +2820,9 @@ Este diagrama representa la descomposición interna del container Stops Applicat
 
 Figura 36. Diagrama de componentes del Bounded Context STOPS - WayPass
 
-<img width="1351" height="1079" alt="Image" src="https://github.com/user-attachments/assets/b15849c3-9726-409b-8bec-e900ba75b20f" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1351" height="1079" alt="Image" src="https://github.com/user-attachments/assets/b15849c3-9726-409b-8bec-e900ba75b20f" />
+</div>
 
 #### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -2726,7 +2834,9 @@ La Capa de Dominio del Bounded Context STOPS actúa como el núcleo central del 
 
 Figura 37. Diagrama de clases del Bounded Context STOPS - WayPass
 
-<img width="1736" height="953" alt="Image" src="https://github.com/user-attachments/assets/f61c8792-ff53-42e5-8d59-d2be56de575b" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1736" height="953" alt="Image" src="https://github.com/user-attachments/assets/f61c8792-ff53-42e5-8d59-d2be56de575b" />
+</div>
 
 ##### 2.6.3.6.2. Bounded Context Database Design Diagram
 
@@ -2804,7 +2914,9 @@ Figura 37. Diagrama de clases del Bounded Context STOPS - WayPass
 
 Figura 38. Diagrama de base de datos del Bounded Context STOPS - WayPass
 
-<img width="440" height="797" alt="Image" src="https://github.com/user-attachments/assets/7547c6d9-bcb3-4d15-97d8-698bf312bcf1" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="440" height="797" alt="Image" src="https://github.com/user-attachments/assets/7547c6d9-bcb3-4d15-97d8-698bf312bcf1" />
+</div>
 
 ### 2.6.4. Bounded Context: Routes
 
@@ -3028,7 +3140,9 @@ Este diagrama representa la descomposición interna del container Routes Applica
 
 Figura 39. Diagrama de componentes del Bounded Context Routes - WayPass
 
-<img width="838" height="1027" alt="Image" src="https://github.com/user-attachments/assets/65b6c584-47ee-4bc4-b6d8-360ab2e85464" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="838" height="1027" alt="Image" src="https://github.com/user-attachments/assets/65b6c584-47ee-4bc4-b6d8-360ab2e85464" />
+</div>
 
 #### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -3038,7 +3152,9 @@ Diagrama de clases de la capa Domain:
 
 Figura 40. Diagrama de clases del Bounded Context Routes - WayPass
 
-<img width="2008" height="860" alt="Image" src="https://github.com/user-attachments/assets/c7276920-7fb4-42ee-87fe-ff8a27d65d77" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="2008" height="860" alt="Image" src="https://github.com/user-attachments/assets/c7276920-7fb4-42ee-87fe-ff8a27d65d77" />
+</div>
 
 ##### 2.6.4.6.2. Bounded Context Database Design Diagram
 
@@ -3120,7 +3236,9 @@ Figura 40. Diagrama de clases del Bounded Context Routes - WayPass
 
 Figura 41. Diagrama de base de datos del Bounded Context Routes - WayPass
 
-<img width="585" height="451" alt="Image" src="https://github.com/user-attachments/assets/d6cc472b-6bb6-435d-a59e-60810793e778" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="585" height="451" alt="Image" src="https://github.com/user-attachments/assets/d6cc472b-6bb6-435d-a59e-60810793e778" />
+</div>
 
 <div style="page-break-after: always;"></div>
 
@@ -3150,7 +3268,9 @@ Se utiliza la familia tipográfica Inter (o una Sans-Serif de corte moderno). Su
 
 - Inter Regular: Para textos de formularios y descripciones detalladas.
 
-<img width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/b806dc93-57cb-4fa3-88d8-601eac508618" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/b806dc93-57cb-4fa3-88d8-601eac508618" />
+</div>
 
 **Paleta de Colores (Extraída de las capturas):**
 
@@ -3164,7 +3284,9 @@ Se utiliza la familia tipográfica Inter (o una Sans-Serif de corte moderno). Su
 
 - Gris Suave / Bordes (#D1D5DB): Utilizado en los bordes de los campos de entrada (inputs) y líneas divisorias.
 
-<img width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/f83c5be5-9f0d-4d8d-9233-9b58c496a434" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/f83c5be5-9f0d-4d8d-9233-9b58c496a434" />
+</div>
 
 
 **Buttons:**
@@ -3176,10 +3298,14 @@ Se utiliza la familia tipográfica Inter (o una Sans-Serif de corte moderno). Su
 - Secundario / Outline: Fondo blanco con borde púrpura o gris, usado para acciones como "Cancelar" o "Integrar PayPal".
 
 
-<img width="412" height="916" alt="image" src="https://github.com/user-attachments/assets/22f930f3-7cc5-4bb4-9c8d-ff803ac9bd33" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="412" height="916" alt="image" src="https://github.com/user-attachments/assets/22f930f3-7cc5-4bb4-9c8d-ff803ac9bd33" />
+</div>
 
 
-<img width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/6ce05f64-a0c2-428f-b307-1415e359fe88" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/6ce05f64-a0c2-428f-b307-1415e359fe88" />
+</div>
 
 
 ### 3.1.2. Information Architecture
@@ -3240,11 +3366,15 @@ La idea central es que el recorrido dentro de la aplicación sea fluido: el usua
 
 #### 3.1.3.1. Landing Page Wireframe
 
-<img width="470" height="1600" alt="Image" src="https://github.com/user-attachments/assets/f3b7afbb-7e5f-4ce8-b6d9-8370867ee822" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="470" height="1600" alt="Image" src="https://github.com/user-attachments/assets/f3b7afbb-7e5f-4ce8-b6d9-8370867ee822" />
+</div>
 
 #### 3.1.3.2. Landing Page Mock-up
 
-<img width="384" height="1600" alt="Image" src="https://github.com/user-attachments/assets/14273de5-df9d-42b5-9ae1-c032c09403f5" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="384" height="1600" alt="Image" src="https://github.com/user-attachments/assets/14273de5-df9d-42b5-9ae1-c032c09403f5" />
+</div>
 
 ### 3.1.4. Mobile Applications UX/UI Design
 
@@ -3290,15 +3420,19 @@ Los siguientes wireframes corresponden a la aplicación móvil Android de WayPas
 Pantallas de acceso a la plataforma: permite al gestor iniciar sesión con correo
 y contraseña, o registrarse seleccionando el rol de Transportista.
 
-<div align="center">
+<div align="center" style="page-break-inside: avoid;">
   <table>
     <tr>
       <td align="center">
-        <img width="200" alt="1login" src="https://github.com/user-attachments/assets/c2cb9e92-3493-4a28-a8fb-5e66e9fd9291" />
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="1login" src="https://github.com/user-attachments/assets/c2cb9e92-3493-4a28-a8fb-5e66e9fd9291" />
+</div>
         <br><em>Login</em>
       </td>
       <td align="center">
-        <img width="200" alt="2register" src="https://github.com/user-attachments/assets/2c3ba587-c33d-41e2-acb3-37f2693e4a6c" />
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="2register" src="https://github.com/user-attachments/assets/2c3ba587-c33d-41e2-acb3-37f2693e4a6c" />
+</div>
         <br><em>Registro</em>
       </td>
     </tr>
@@ -3309,11 +3443,13 @@ y contraseña, o registrarse seleccionando el rol de Transportista.
 Pantalla de onboarding: se muestra únicamente en el primer inicio de sesión,
 solicitando el nombre y logo de la empresa de transporte.
 
-<div align="center">
+<div align="center" style="page-break-inside: avoid;">
   <table>
     <tr>
       <td align="center">
-        <img width="200" alt="3setupCompany" src="https://github.com/user-attachments/assets/5894910c-2926-4c3c-a482-22570d58d2c3" />
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="3setupCompany" src="https://github.com/user-attachments/assets/5894910c-2926-4c3c-a482-22570d58d2c3" />
+</div>
         <br><em>Onboarding de empresa</em>
       </td>
     </tr>
@@ -3327,15 +3463,19 @@ Pantalla de inicio para el gestor: muestra 4 KPIs (tarifa promedio, total de
 paraderos, total de rutas e intervalo promedio), los planes de suscripción
 disponibles y acceso directo a la información de la empresa.
 
-<div align="center">
+<div align="center" style="page-break-inside: avoid;">
   <table>
     <tr>
       <td align="center">
-        <img width="200" alt="4dashboard" src="https://github.com/user-attachments/assets/1807df11-1f81-4d8c-b7f2-820241daf9b2" />
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="4dashboard" src="https://github.com/user-attachments/assets/1807df11-1f81-4d8c-b7f2-820241daf9b2" />
+</div>
         <br><em>Dashboard - KPIs y planes</em>
       </td>
       <td align="center">
-        <img width="200" alt="5dashboard" src="https://github.com/user-attachments/assets/7d17ead2-acb7-46a7-b80a-6a527cafe6cb" />
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="5dashboard" src="https://github.com/user-attachments/assets/7d17ead2-acb7-46a7-b80a-6a527cafe6cb" />
+</div>
         <br><em>Dashboard - Suscripción</em>
       </td>
     </tr>
@@ -3349,15 +3489,19 @@ Pantallas del módulo de Paraderos: muestra el listado de paraderos registrados
 con su dirección, referencia y acciones rápidas (ver ubicación, editar, eliminar).
 Incluye el estado vacío con llamada a la acción para crear el primer paradero.
 
-<div align="center">
+<div align="center" style="page-break-inside: avoid;">
   <table>
     <tr>
       <td align="center">
-        <img width="200" alt="7paraderosVacio" src="https://github.com/user-attachments/assets/1bcde8ca-c917-48c5-812c-c7823a8687e9" />
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="7paraderosVacio" src="https://github.com/user-attachments/assets/1bcde8ca-c917-48c5-812c-c7823a8687e9" />
+</div>
         <br><em>Paraderos - Estado vacío</em>
       </td>
       <td align="center">
-        <img width="200" alt="9paraderosLista" src="https://github.com/user-attachments/assets/75b11e15-8a6b-49c7-99e4-7338a6e2079f" />
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="9paraderosLista" src="https://github.com/user-attachments/assets/75b11e15-8a6b-49c7-99e4-7338a6e2079f" />
+</div>
         <br><em>Paraderos - Lista</em>
       </td>
     </tr>
@@ -3369,15 +3513,19 @@ Pantallas del flujo de gestión de paraderos: formulario con campos de nombre,
 teléfono, dirección, referencia, distrito (selector en cascada región-provincia-distrito)
 y carga opcional de imagen. Se presenta como bottom sheet modal.
 
-<div align="center">
+<div align="center" style="page-break-inside: avoid;">
   <table>
     <tr>
       <td align="center">
-        <img width="200" alt="8paraderosCrear" src="https://github.com/user-attachments/assets/65c8811b-a12f-4c47-8e84-6ac07395285f" />
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="8paraderosCrear" src="https://github.com/user-attachments/assets/65c8811b-a12f-4c47-8e84-6ac07395285f" />
+</div>
         <br><em>Crear paradero</em>
       </td>
       <td align="center">
-        <img width="200" alt="10paraderosEditar" src="https://github.com/user-attachments/assets/89aee1b6-3a8d-480b-9d82-96de5b378fd1" />
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="10paraderosEditar" src="https://github.com/user-attachments/assets/89aee1b6-3a8d-480b-9d82-96de5b378fd1" />
+</div>
         <br><em>Editar paradero</em>
       </td>
     </tr>
@@ -3391,15 +3539,19 @@ Pantallas del módulo de Rutas: muestra las rutas registradas en tarjetas
 horizontales con paradero de origen y destino, duración, frecuencia y tarifa.
 Incluye el estado vacío con llamada a la acción para crear la primera ruta.
 
-<div align="center">
+<div align="center" style="page-break-inside: avoid;">
   <table>
     <tr>
       <td align="center">
-        <img width="200" alt="11rutasVacio" src="https://github.com/user-attachments/assets/b711cb42-f1b6-4354-bad9-f5d97813ae15" />
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="11rutasVacio" src="https://github.com/user-attachments/assets/b711cb42-f1b6-4354-bad9-f5d97813ae15" />
+</div>
         <br><em>Rutas - Estado vacío</em>
       </td>
       <td align="center">
-        <img width="200" alt="13rutasLista" src="https://github.com/user-attachments/assets/0ff1090c-f12f-41a3-9e7b-fdf2a148e26a" />
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="13rutasLista" src="https://github.com/user-attachments/assets/0ff1090c-f12f-41a3-9e7b-fdf2a148e26a" />
+</div>
         <br><em>Rutas - Lista</em>
       </td>
     </tr>
@@ -3410,15 +3562,19 @@ Incluye el estado vacío con llamada a la acción para crear la primera ruta.
 Primera etapa: selección de paradero de origen y destino, ingreso de duración,
 precio y frecuencia.
 
-<div align="center">
+<div align="center" style="page-break-inside: avoid;">
   <table>
     <tr>
       <td align="center">
-        <img width="200" alt="Create Route Step 1 (Wireframe)" src="https://github.com/user-attachments/assets/241b3fae-e3fc-46a9-95ac-72d80b6c9e6c" />
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="Create Route Step 1 (Wireframe)" src="https://github.com/user-attachments/assets/241b3fae-e3fc-46a9-95ac-72d80b6c9e6c" />
+</div>
         <br><em>Crear ruta - Paso 1</em>
       </td>
       <td align="center">
-        <img width="200" alt="Create Route Step 2 (Wireframe)" src="https://github.com/user-attachments/assets/26cc98da-fc8c-4041-b5d5-af5d11b5b93a" />
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="Create Route Step 2 (Wireframe)" src="https://github.com/user-attachments/assets/26cc98da-fc8c-4041-b5d5-af5d11b5b93a" />
+</div>
         <br><em>Crear ruta - Paso 2 Horarios</em>
       </td>
     </tr>
@@ -3432,11 +3588,13 @@ Pantalla de gestión del perfil empresarial: formulario con nombre, RUC, teléfo
 correo electrónico, dirección y descripción de la empresa. Permite mantener
 actualizada la información visible para los pasajeros en la plataforma.
 
-<div align="center">
+<div align="center" style="page-break-inside: avoid;">
   <table>
     <tr>
       <td align="center">
-        <img width="200" alt="6datosGenerales" src="https://github.com/user-attachments/assets/bcefd1a3-bc1b-4605-8dc1-495e8553864f" />
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="6datosGenerales" src="https://github.com/user-attachments/assets/bcefd1a3-bc1b-4605-8dc1-495e8553864f" />
+</div>
         <br><em>Información de empresa</em>
       </td>
     </tr>
@@ -3467,11 +3625,13 @@ Pantallas involucradas: **Login → Registro → Onboarding de empresa → Dashb
 Acciones clave: *Ingresar credenciales → Pulsar "Ingresar →"* /
 *Pulsar "Crear Cuenta" → Seleccionar chip "Transportista" → Pulsar "Registrarse"*
 
-<div align="center">
+<div align="center" style="page-break-inside: avoid;">
   <table>
     <tr>
       <td align="center">
-        <img width="700" alt="UG-01 — Autenticación y registro en la plataforma" src="https://github.com/user-attachments/assets/f29f3eab-237c-47b2-a4df-223c7f18d877" />
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="700" alt="UG-01 — Autenticación y registro en la plataforma" src="https://github.com/user-attachments/assets/f29f3eab-237c-47b2-a4df-223c7f18d877" />
+</div>
         <br><em>WF-01: Autenticación y registro</em>
       </td>
     </tr>
@@ -3491,11 +3651,13 @@ Pantallas involucradas: **Onboarding → Dashboard**
 
 Acciones clave: *Subir logo → Ingresar nombre de empresa → Pulsar "Continuar →"*
 
-<div align="center">
+<div align="center" style="page-break-inside: avoid;">
   <table>
     <tr>
       <td align="center">
-        <img width="700" alt="UG-02 — Configuración inicial de la empresa" src="https://github.com/user-attachments/assets/624103c8-5ef8-485f-9dbc-7e0a3fa61e05" />
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="700" alt="UG-02 — Configuración inicial de la empresa" src="https://github.com/user-attachments/assets/624103c8-5ef8-485f-9dbc-7e0a3fa61e05" />
+</div>
         <br><em>WF-02: Configuración inicial de empresa</em>
       </td>
     </tr>
@@ -3515,11 +3677,13 @@ Pantallas involucradas: **Dashboard (scroll completo)**
 Acciones clave: *Iniciar sesión → Visualizar KPIs → Revisar planes →
 Pulsar "Editar información de Empresa"*
 
-<div align="center">
+<div align="center" style="page-break-inside: avoid;">
   <table>
     <tr>
       <td align="center">
-        <img width="700" alt="UG-03 — Consulta del panel de indicadores" src="https://github.com/user-attachments/assets/0e6b1911-b90c-464e-90ea-a6f826040992" />
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="700" alt="UG-03 — Consulta del panel de indicadores" src="https://github.com/user-attachments/assets/0e6b1911-b90c-464e-90ea-a6f826040992" />
+</div>
         <br><em>WF-03: Consulta del panel de indicadores</em>
       </td>
     </tr>
@@ -3542,11 +3706,13 @@ Paradero → Paraderos (lista actualizada)**
 Acciones clave: *Pulsar "+ Nuevo Paradero" → Completar campos →
 Pulsar "Crear"*
 
-<div align="center">
+<div align="center" style="page-break-inside: avoid;">
   <table>
     <tr>
       <td align="center">
-        <img width="700" alt="UG-04 — Registro de un nuevo paradero" src="https://github.com/user-attachments/assets/91af4140-96ee-441b-afb1-c4cde6eb319a" />
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="700" alt="UG-04 — Registro de un nuevo paradero" src="https://github.com/user-attachments/assets/91af4140-96ee-441b-afb1-c4cde6eb319a" />
+</div>
         <br><em>WF-04: Registro de nuevo paradero</em>
       </td>
     </tr>
@@ -3567,11 +3733,13 @@ Paraderos (lista actualizada)**
 Acciones clave: *Pulsar ícono lápiz → Modificar campos pre-poblados →
 Pulsar "Guardar Cambios"*
 
-<div align="center">
+<div align="center" style="page-break-inside: avoid;">
   <table>
     <tr>
       <td align="center">
-        <img width="700" alt="UG-05 — Edición de un paradero existente" src="https://github.com/user-attachments/assets/e38776d8-7090-4e39-b72d-23b54f0d1a42" />
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="700" alt="UG-05 — Edición de un paradero existente" src="https://github.com/user-attachments/assets/e38776d8-7090-4e39-b72d-23b54f0d1a42" />
+</div>
         <br><em>WF-05: Edición de paradero existente</em>
       </td>
     </tr>
@@ -3593,11 +3761,13 @@ Paraderos (lista actualizada o estado vacío)**
 Acciones clave: *Pulsar ícono basura → Confirmar eliminación →
 Lista actualizada / Estado vacío*
 
-<div align="center">
+<div align="center" style="page-break-inside: avoid;">
   <table>
     <tr>
       <td align="center">
-        <img width="700" alt="UG-06 — Eliminación de un paradero" src="https://github.com/user-attachments/assets/adaa6206-af04-4823-8713-e09eaf86aa6f" />
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="700" alt="UG-06 — Eliminación de un paradero" src="https://github.com/user-attachments/assets/adaa6206-af04-4823-8713-e09eaf86aa6f" />
+</div>
         <br><em>WF-06: Eliminación de paradero</em>
       </td>
     </tr>
@@ -3620,11 +3790,13 @@ Acciones clave: *Pulsar "+ Nueva ruta" → Seleccionar paraderos → Ingresar
 datos → Pulsar "Continuar →" → Activar días → Configurar horarios →
 Pulsar "Guardar y salir"*
 
-<div align="center">
+<div align="center" style="page-break-inside: avoid;">
   <table>
     <tr>
       <td align="center">
-        <img width="700" alt="UG-07 — Creación de una nueva ruta" src="https://github.com/user-attachments/assets/c7a3b2b8-77c2-4663-9985-009a85422b78" />
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="700" alt="UG-07 — Creación de una nueva ruta" src="https://github.com/user-attachments/assets/c7a3b2b8-77c2-4663-9985-009a85422b78" />
+</div>
         <br><em>WF-07: Creación de nueva ruta</em>
       </td>
     </tr>
@@ -3646,11 +3818,13 @@ Rutas (lista actualizada o estado vacío)**
 Acciones clave: *Pulsar ícono basura → Confirmar eliminación →
 Lista actualizada / Estado vacío*
 
-<div align="center">
+<div align="center" style="page-break-inside: avoid;">
   <table>
     <tr>
       <td align="center">
-        <img width="700" alt="UG-08 — Eliminación de una ruta" src="https://github.com/user-attachments/assets/c47f1f42-4f51-4a51-b8a0-fe5be3c918a3" />
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="700" alt="UG-08 — Eliminación de una ruta" src="https://github.com/user-attachments/assets/c47f1f42-4f51-4a51-b8a0-fe5be3c918a3" />
+</div>
         <br><em>WF-08: Eliminación de ruta</em>
       </td>
     </tr>
@@ -3672,11 +3846,13 @@ Dashboard (con datos actualizados)**
 Acciones clave: *Pulsar "Editar información de Empresa" → Modificar campos →
 Pulsar "Guardar Información"* / *Pulsar "Cancelar" → Regresar sin cambios*
 
-<div align="center">
+<div align="center" style="page-break-inside: avoid;">
   <table>
     <tr>
       <td align="center">
-        <img width="700" alt="UG-09 — Actualización de información de la empresa" src="https://github.com/user-attachments/assets/499b4606-8cd5-41c6-9471-2619c3ed8b12" />
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="700" alt="UG-09 — Actualización de información de la empresa" src="https://github.com/user-attachments/assets/499b4606-8cd5-41c6-9471-2619c3ed8b12" />
+</div>
         <br><em>WF-09: Actualización de información de empresa</em>
       </td>
     </tr>
@@ -3728,15 +3904,19 @@ contraseña con botón primario "Ingresar →" en morado sólido. El registro in
 selector de rol mediante chips ("Pasajero" / "Transportista"), definiendo el flujo
 de onboarding posterior según la elección del usuario.
 
-<div align="center">
+<div align="center" style="page-break-inside: avoid;">
   <table>
     <tr>
       <td align="center">
-        <img width="200" alt="Login" src="https://github.com/user-attachments/assets/d1dac6c6-cb55-4451-939f-4e40a96827e5" />
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="Login" src="https://github.com/user-attachments/assets/d1dac6c6-cb55-4451-939f-4e40a96827e5" />
+</div>
         <br><em>Login</em>
       </td>
       <td align="center">
-        <img width="200" alt="Registro" src="https://github.com/user-attachments/assets/af8945f1-a68b-4f49-8657-466d2fb43662" />
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="Registro" src="https://github.com/user-attachments/assets/af8945f1-a68b-4f49-8657-466d2fb43662" />
+</div>
         <br><em>Registro</em>
       </td>
     </tr>
@@ -3748,11 +3928,13 @@ Pantalla de onboarding exclusiva del primer acceso para el rol Transportista:
 permite subir el logo empresarial mediante área de carga con ícono de cámara
 e ingresar el nombre de la empresa antes de acceder al dashboard.
 
-<div align="center">
+<div align="center" style="page-break-inside: avoid;">
   <table>
     <tr>
       <td align="center">
-        <img width="200" alt="Onboarding de Empresa" src="https://github.com/user-attachments/assets/0b1018bc-e787-48ce-a930-5cf0ad75a0e8" />
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="Onboarding de Empresa" src="https://github.com/user-attachments/assets/0b1018bc-e787-48ce-a930-5cf0ad75a0e8" />
+</div>
         <br><em>Onboarding de empresa</em>
       </td>
     </tr>
@@ -3768,15 +3950,19 @@ color semántico. Incluye 3 tarjetas de suscripción (Free, Standard y Premium)
 con el plan Standard destacado con borde morado, y acceso directo a la
 información de la empresa en la parte inferior.
 
-<div align="center">
+<div align="center" style="page-break-inside: avoid;">
   <table>
     <tr>
       <td align="center">
-        <img width="200" alt="Dashboard1" src="https://github.com/user-attachments/assets/f3cb4a49-10f7-49f1-9b31-8cfce923dda0" />
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="Dashboard1" src="https://github.com/user-attachments/assets/f3cb4a49-10f7-49f1-9b31-8cfce923dda0" />
+</div>
         <br><em>Dashboard - KPIs y planes</em>
       </td>
       <td align="center">
-        <img width="200" alt="Dashboard2" src="https://github.com/user-attachments/assets/82bc6a29-db95-4bf3-b01c-7ac568ab7ae0" />
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="Dashboard2" src="https://github.com/user-attachments/assets/82bc6a29-db95-4bf3-b01c-7ac568ab7ae0" />
+</div>
         <br><em>Dashboard - Suscripción</em>
       </td>
     </tr>
@@ -3793,15 +3979,19 @@ con ícono de info, y tres botones de acción (ver ubicación en morado outline,
 editar en azul, eliminar en rojo). El estado vacío presenta ilustración centrada
 con llamada a la acción.
 
-<div align="center">
+<div align="center" style="page-break-inside: avoid;">
   <table>
     <tr>
       <td align="center">
-        <img width="200" alt="Gestión de Paraderos (Mejorado)" src="https://github.com/user-attachments/assets/785d7aff-dc77-4566-89be-d7040741664b" />
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="Gestión de Paraderos (Mejorado)" src="https://github.com/user-attachments/assets/785d7aff-dc77-4566-89be-d7040741664b" />
+</div>
         <br><em>Paraderos - Estado vacío</em>
       </td>
       <td align="center">
-        <img width="200" alt="Gestión de Paraderos (Con contenido)" src="https://github.com/user-attachments/assets/6815c55c-8b48-440d-a021-a2aa97635dbc" />
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="Gestión de Paraderos (Con contenido)" src="https://github.com/user-attachments/assets/6815c55c-8b48-440d-a021-a2aa97635dbc" />
+</div>
         <br><em>Paraderos - Lista</em>
       </td>
     </tr>
@@ -3815,15 +4005,19 @@ de distrito y área de carga de imagen con borde punteado. El botón "Crear" apa
 en verde deshabilitado hasta completar los campos requeridos. La edición muestra
 los mismos campos pre-poblados con el botón "Guardar Cambios".
 
-<div align="center">
+<div align="center" style="page-break-inside: avoid;">
   <table>
     <tr>
       <td align="center">
-        <img width="200" alt="Nuevo Paradero" src="https://github.com/user-attachments/assets/8f9a415b-b885-4b50-ba11-592464ed39b5" />
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="Nuevo Paradero" src="https://github.com/user-attachments/assets/8f9a415b-b885-4b50-ba11-592464ed39b5" />
+</div>
         <br><em>Crear paradero</em>
       </td>
       <td align="center">
-        <img width="200" alt="Editar Paradero" src="https://github.com/user-attachments/assets/e1410042-d7e5-4958-9706-1a2cb1ddcbc0" />
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="Editar Paradero" src="https://github.com/user-attachments/assets/e1410042-d7e5-4958-9706-1a2cb1ddcbc0" />
+</div>
         <br><em>Editar paradero</em>
       </td>
     </tr>
@@ -3839,15 +4033,19 @@ al centro, toggle de "Estado Operativo" y tres chips informativos de duración,
 frecuencia y tarifa. El estado vacío mantiene el encabezado con badge
 "0 Rutas Activas" y llamada a la acción central.
 
-<div align="center">
+<div align="center" style="page-break-inside: avoid;">
   <table>
     <tr>
       <td align="center">
-        <img width="200" alt="Gestión de Rutas (Vacío)" src="https://github.com/user-attachments/assets/6a37d6a1-f698-4b76-bd87-d7fe9e18612a" />
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="Gestión de Rutas (Vacío)" src="https://github.com/user-attachments/assets/6a37d6a1-f698-4b76-bd87-d7fe9e18612a" />
+</div>
         <br><em>Rutas - Estado vacío</em>
       </td>
       <td align="center">
-        <img width="200" alt="Rutas" src="https://github.com/user-attachments/assets/093dfa15-821f-4f73-83c9-1d6f56ba29fe" />
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="Rutas" src="https://github.com/user-attachments/assets/093dfa15-821f-4f73-83c9-1d6f56ba29fe" />
+</div>
         <br><em>Rutas - Lista</em>
       </td>
     </tr>
@@ -3862,15 +4060,19 @@ Segunda etapa: listado de los 7 días con toggle individual; al activar un día
 se despliegan selectores de hora de inicio y fin con validación en tiempo real.
 El día activo se resalta con fondo morado.
 
-<div align="center">
+<div align="center" style="page-break-inside: avoid;">
   <table>
     <tr>
       <td align="center">
-        <img width="200" alt="Nueva Ruta - Paso 1" src="https://github.com/user-attachments/assets/085c953d-8422-474a-8056-e2057199018a" />
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="Nueva Ruta - Paso 1" src="https://github.com/user-attachments/assets/085c953d-8422-474a-8056-e2057199018a" />
+</div>
         <br><em>Crear ruta - Paso 1</em>
       </td>
       <td align="center">
-        <img width="200" alt="Nueva Ruta - Horarios" src="https://github.com/user-attachments/assets/cb700bc5-0a73-443c-992e-e78143fee704" />
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="Nueva Ruta - Horarios" src="https://github.com/user-attachments/assets/cb700bc5-0a73-443c-992e-e78143fee704" />
+</div>
         <br><em>Crear ruta - Paso 2 Horarios</em>
       </td>
     </tr>
@@ -3886,11 +4088,13 @@ de descripción, pre-poblados con datos de ejemplo ("Transportes Rápidos S.A.C.
 RUC 20234567891). Botones "Cancelar" (outlined blanco) y "Guardar Información"
 (azul sólido #478BFF) en fila inferior.
 
-<div align="center">
+<div align="center" style="page-break-inside: avoid;">
   <table>
     <tr>
       <td align="center">
-        <img width="200" alt="Información de la Empresa" src="https://github.com/user-attachments/assets/bc061d67-d55e-4e7b-890a-b200fde1732f" />
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="Información de la Empresa" src="https://github.com/user-attachments/assets/bc061d67-d55e-4e7b-890a-b200fde1732f" />
+</div>
         <br><em>Información de empresa</em>
       </td>
     </tr>
@@ -3925,11 +4129,13 @@ onboarding de empresa.
 - **Unhappy path 1:** Login → credenciales incorrectas → mensaje de error → reintentar
 - **Unhappy path 2:** Login → "Crear Cuenta" → Registro → campos incompletos → botón deshabilitado
 
-<div align="center">
+<div align="center" style="page-break-inside: avoid;">
   <table>
     <tr>
       <td align="center">
-        <img width="800" alt="Mobile User Flow 1" src="https://github.com/user-attachments/assets/a2d84885-6e4d-498a-ac19-1a20f9e3c78c" />
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="800" alt="Mobile User Flow 1" src="https://github.com/user-attachments/assets/a2d84885-6e4d-498a-ac19-1a20f9e3c78c" />
+</div>
         <br><em>UF-01: Autenticación y registro</em>
       </td>
     </tr>
@@ -3951,11 +4157,13 @@ Al confirmar, accede al dashboard con su empresa configurada.
 - **Happy path:** Onboarding → subir logo → ingresar nombre → "Continuar →" → Dashboard
 - **Unhappy path:** Onboarding → omitir nombre → botón deshabilitado → no avanza
 
-<div align="center">
+<div align="center" style="page-break-inside: avoid;">
   <table>
     <tr>
       <td align="center">
-        <img width="800" alt="Mobile User Flow 2" src="https://github.com/user-attachments/assets/a32b9e6e-bda9-4342-8165-9ee313913fba" />
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="800" alt="Mobile User Flow 2" src="https://github.com/user-attachments/assets/a32b9e6e-bda9-4342-8165-9ee313913fba" />
+</div>
         <br><em>UF-02: Configuración inicial de empresa</em>
       </td>
     </tr>
@@ -3976,11 +4184,13 @@ la barra inferior o el acceso rápido del dashboard.
 
 - **Happy path:** Login exitoso → Dashboard → visualizar KPIs y planes → navegar a módulos
 
-<div align="center">
+<div align="center" style="page-break-inside: avoid;">
   <table>
     <tr>
       <td align="center">
-        <img width="800" alt="Mobile User Flow 3" src="https://github.com/user-attachments/assets/1b0f54f8-7925-41d0-855e-7235a63b1a30" />
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="800" alt="Mobile User Flow 3" src="https://github.com/user-attachments/assets/1b0f54f8-7925-41d0-855e-7235a63b1a30" />
+</div>
         <br><em>UF-03: Consulta del panel de indicadores</em>
       </td>
     </tr>
@@ -4003,11 +4213,13 @@ se actualiza.
 - **Happy path:** Paraderos → "+ Nuevo Paradero" → completar campos → "Crear" → lista actualizada
 - **Unhappy path:** Campos requeridos vacíos → botón "Crear" deshabilitado → no avanza
 
-<div align="center">
+<div align="center" style="page-break-inside: avoid;">
   <table>
     <tr>
       <td align="center">
-        <img width="800" alt="Mobile User Flow 4" src="https://github.com/user-attachments/assets/1b103bef-dceb-4612-ab9f-2b2699553308" />
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="800" alt="Mobile User Flow 4" src="https://github.com/user-attachments/assets/1b103bef-dceb-4612-ab9f-2b2699553308" />
+</div>
         <br><em>UF-04: Registro de nuevo paradero</em>
       </td>
     </tr>
@@ -4029,11 +4241,13 @@ el botón se deshabilita hasta corregirlo (**unhappy path**).
 - **Happy path:** Lista → ícono lápiz → modificar campos → "Guardar Cambios" → lista actualizada
 - **Unhappy path:** Borrar campo requerido → botón deshabilitado → completar para habilitar
 
-<div align="center">
+<div align="center" style="page-break-inside: avoid;">
   <table>
     <tr>
       <td align="center">
-        <img width="800" alt="Mobile User Flow 5" src="https://github.com/user-attachments/assets/00c4dca3-f64e-4b7a-aedb-7537df2c5ce3" />
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="800" alt="Mobile User Flow 5" src="https://github.com/user-attachments/assets/00c4dca3-f64e-4b7a-aedb-7537df2c5ce3" />
+</div>
         <br><em>UF-05: Edición de paradero existente</em>
       </td>
     </tr>
@@ -4056,11 +4270,13 @@ vacío con la llamada a la acción.
 - **Happy path:** Lista → ícono basura → confirmar → lista actualizada / estado vacío
 - **Unhappy path:** Diálogo de confirmación → "Cancelar" → regresa sin cambios
 
-<div align="center">
+<div align="center" style="page-break-inside: avoid;">
   <table>
     <tr>
       <td align="center">
-        <img width="800" alt="Mobile User Flow 6" src="https://github.com/user-attachments/assets/e0fa4958-6640-4e6c-a0a8-1108fafd60d1" />
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="800" alt="Mobile User Flow 6" src="https://github.com/user-attachments/assets/e0fa4958-6640-4e6c-a0a8-1108fafd60d1" />
+</div>
         <br><em>UF-06: Eliminación de paradero</em>
       </td>
     </tr>
@@ -4087,7 +4303,9 @@ la ruta aparece en la lista.
 
 | Evidencia |
 |---|
-| <div align="center"><img width="800" alt="Mobile User Flow 7" src="https://github.com/user-attachments/assets/6a0437d4-57d3-417a-9c7e-bf4bc7de6b8f" /><br><em>UF-07: Creación de nueva ruta</em></div> |
+| <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="800" alt="Mobile User Flow 7" src="https://github.com/user-attachments/assets/6a0437d4-57d3-417a-9c7e-bf4bc7de6b8f" />
+</div><br><em>UF-07: Creación de nueva ruta</em></div> |
 
 ---
 
@@ -4107,7 +4325,9 @@ vacío con la llamada a la acción.
 
 | Diseño |
 |---|
-| <div align="center"><img width="800" alt="Mobile User Flow 8" src="https://github.com/user-attachments/assets/0351b246-c51f-414b-ba1b-b54a2c6ef20c" /><br><em>UF-08: Eliminación de ruta</em></div> |
+| <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="800" alt="Mobile User Flow 8" src="https://github.com/user-attachments/assets/0351b246-c51f-414b-ba1b-b54a2c6ef20c" />
+</div><br><em>UF-08: Eliminación de ruta</em></div> |
 
 **Mobile User Flow 9**
 
@@ -4122,11 +4342,13 @@ Si pulsa "Cancelar", regresa al dashboard sin cambios (**unhappy path**).
 - **Happy path:** Dashboard → "Editar Empresa" → modificar campos → "Guardar Información" → confirmación
 - **Unhappy path 1:** Campos obligatorios (*) vacíos → error de validación → no guarda
 
-<div align="center">
+<div align="center" style="page-break-inside: avoid;">
   <table>
     <tr>
       <td align="center">
-        <img width="800" alt="Mobile User Flow 9" src="https://github.com/user-attachments/assets/f3fb1ce1-f1b4-465f-be6b-386a87667a0d" />
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="800" alt="Mobile User Flow 9" src="https://github.com/user-attachments/assets/f3fb1ce1-f1b4-465f-be6b-386a87667a0d" />
+</div>
         <br><em>UF-09: Actualización de información de empresa</em>
       </td>
     </tr>
@@ -4158,11 +4380,13 @@ Se grabó un video donde se explican los principales flujos de interacción del
 prototipo móvil de WayPass, mostrando cómo las decisiones de diseño se reflejan
 en la experiencia del usuario gestor de transporte.
 
-<div align="center">
+<div align="center" style="page-break-inside: avoid;">
   <table>
     <tr>
       <td align="center">
-        <img width="700" alt="PrototypeInforme" src="https://github.com/user-attachments/assets/763a1ef2-bd52-46b3-90b7-3b6d9b09c00d" />
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="700" alt="PrototypeInforme" src="https://github.com/user-attachments/assets/763a1ef2-bd52-46b3-90b7-3b6d9b09c00d" />
+</div>
         <br><em>Screenshot del prototipo móvil WayPass en Figma</em>
       </td>
     </tr>
@@ -4241,27 +4465,27 @@ En esta sección se describen las principales herramientas utilizadas durante el
   <tbody>
     <tr>
       <td>Organización</td>
-      <td><a href="https://github.com/Grupo-Apps-Moviles">https://github.com/Grupo-Apps-Moviles</a></td>
+      <td><a href="https://github.com/Grupo-Apps-Moviles">https://github.com/Grupo-Apps-Móviles</a></td>
     </tr>
     <tr>
       <td>Landing Page</td>
-      <td><a href="https://github.com/Grupo-Apps-Moviles/landing-page">https://github.com/Grupo-Apps-Moviles/landing-page</a></td>
+      <td><a href="https://github.com/Grupo-Apps-Moviles/landing-page">https://github.com/Grupo-Apps-Móviles/landing-page</a></td>
     </tr>
     <tr>
       <td>Android Mobile Application</td>
-      <td><a href="https://github.com/Grupo-Apps-Moviles/Android">https://github.com/Grupo-Apps-Moviles/Android</a></td>
+      <td><a href="https://github.com/Grupo-Apps-Moviles/Android">https://github.com/Grupo-Apps-Móviles/Android</a></td>
     </tr>
     <tr>
       <td>Flutter Mobile Application</td>
-      <td><a href="https://github.com/Grupo-Apps-Moviles/Flutter-Mobile">https://github.com/Grupo-Apps-Moviles/Flutter-Mobile</a></td>
+      <td><a href="https://github.com/Grupo-Apps-Moviles/Flutter-Mobile">https://github.com/Grupo-Apps-Móviles/Flutter-Mobile</a></td>
     </tr>
     <tr>
       <td>Backend</td>
-      <td><a href="https://github.com/Grupo-Apps-Moviles/Backend">https://github.com/Grupo-Apps-Moviles/Backend</a></td>
+      <td><a href="https://github.com/Grupo-Apps-Moviles/Backend">https://github.com/Grupo-Apps-Móviles/Backend</a></td>
     </tr>
     <tr>
       <td>Project Report</td>
-      <td><a href="https://github.com/Grupo-Apps-Moviles/Report">https://github.com/Grupo-Apps-Moviles/Report</a></td>
+      <td><a href="https://github.com/Grupo-Apps-Moviles/Report">https://github.com/Grupo-Apps-Móviles/Report</a></td>
     </tr>
   </tbody>
 </table>
@@ -4651,7 +4875,7 @@ class WelcomeScreen extends StatelessWidget {
   <li>Hacer clic en <strong>Save</strong> y esperar la generación del sitio (1-2 minutos).</li>
   <li>Verificar el despliegue accediendo a la URL generada.</li>
 </ol>
-<p><strong>URL de despliegue: </strong> <a href="https://grupo-apps-moviles.github.io/landing-page/">https://grupo-apps-moviles.github.io/landing-page/</a></p>
+<p><strong>URL de despliegue: </strong> <a href="https://grupo-apps-moviles.github.io/landing-page/">https://grupo-apps-móviles.github.io/landing-page/</a></p>
 
 <h4>Backend - Render (ASP.NET Core / C#)</h4>
 <p>El Backend desarrollado en ASP.NET Core se despliega mediante <strong>Render</strong>, una plataforma cloud que soporta aplicaciones .NET a través de contenedores Docker.</p>
@@ -4674,7 +4898,7 @@ ENTRYPOINT ["dotnet", "WayPass.dll"]</code></pre>
   </li>
   <li>Ingresar a <a href="https://render.com">render.com</a> e iniciar sesión con la cuenta del equipo.</li>
   <li>Hacer clic en <strong>New &gt; Web Service</strong>.</li>
-  <li>Conectar la cuenta de GitHub y seleccionar el repositorio <code>Grupo-Apps-Moviles/Backend</code>.</li>
+  <li>Conectar la cuenta de GitHub y seleccionar el repositorio <code>Grupo-Apps-Móviles/Backend</code>.</li>
   <li>Configurar el servicio:
     <ul>
       <li><strong>Name:</strong> <code>WayPass</code></li>
@@ -4693,7 +4917,7 @@ ENTRYPOINT ["dotnet", "WayPass.dll"]</code></pre>
 <p>Las aplicaciones móviles (tanto la versión nativa en Android Studio como la multiplataforma compilada en Flutter) se distribuyen mediante la generación de archivos binarios APK firmados.</p>
 <p><strong>Pasos de configuración para la versión Flutter:</strong></p>
 <ol>
-  <li>Acceder al repositorio <code>Grupo-Apps-Moviles/Flutter</code>.</li>
+  <li>Acceder al repositorio <code>Grupo-Apps-Móviles/Flutter</code>.</li>
   <li>Configurar las variables de entorno o la URL base del backend en el archivo Dart correspondiente (p. ej., <code>lib/core/constants.dart</code>):
     <pre><code>const String baseUrl = 'https://backendmoviles-hqu5.onrender.com/api/';</code></pre>
   </li>
@@ -4704,7 +4928,7 @@ ENTRYPOINT ["dotnet", "WayPass.dll"]</code></pre>
   <li>El archivo ejecutable resultante se ubicará en la ruta: <code>build/app/outputs/flutter-apk/app-release.apk</code>.</li>
   <li>Subir el archivo APK como un <strong>Release Asset</strong> dentro de la sección correspondiente en su respectivo repositorio de GitHub asignándole la etiqueta de versión estructurada (p. ej., <code>v1.0.0</code>).</li>
 </ol>
-<p><strong>URL del repositorio Flutter: </strong> <a href="https://github.com/Grupo-Apps-Moviles/Flutter">https://github.com/Grupo-Apps-Moviles/Flutter</a></p>
+<p><strong>URL del repositorio Flutter: </strong> <a href="https://github.com/Grupo-Apps-Moviles/Flutter">https://github.com/Grupo-Apps-Móviles/Flutter</a></p>
 
 ## 4.2. Landing Page & Mobile Application Implementation
 
@@ -4738,7 +4962,9 @@ El presente Sprint Backlog 1 detalla las historias de usuario priorizadas para e
 
 [Link del tablero Trello](https://trello.com/invite/b/69ff3d5f6e22ba5114de07be/ATTIe3bce47f3f25411bc433b9188fad27e7C2103B04/movil)
 
-<img width="1137" height="741" alt="Image" src="https://github.com/user-attachments/assets/e2778ef7-e1c4-4fc0-9eaf-aafd239c7c13" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1137" height="741" alt="Image" src="https://github.com/user-attachments/assets/e2778ef7-e1c4-4fc0-9eaf-aafd239c7c13" />
+</div>
 
 #### 4.2.1.3. Development Evidence for Sprint Review
 
@@ -4871,7 +5097,9 @@ A continuación, se presentan las evidencias de ejecución de los productos desa
 
 La Landing Page de WayPass fue desarrollada como la interfaz principal de presentación de la plataforma, mostrando información relevante sobre el servicio de transporte colectivo. Se implementó un diseño responsive y moderno con secciones informativas y botones para dirigir a los usuarios hacia la aplicación móvil.
 
-<img width="1920" height="6563" alt="Image" src="https://github.com/user-attachments/assets/e9410d75-c45b-40d3-ad65-7c375d13de47" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1920" height="6563" alt="Image" src="https://github.com/user-attachments/assets/e9410d75-c45b-40d3-ad65-7c375d13de47" />
+</div>
 
 ## Backend (.net C#)
 
@@ -4879,7 +5107,9 @@ El backend del proyecto WayPass fue desarrollado utilizando ASP.NET Core Web API
 
 La arquitectura DDD permitió organizar las entidades, agregados, servicios y repositorios del sistema de manera modular, facilitando el mantenimiento del código y la evolución progresiva de la plataforma WayPass.
 
-<img width="1920" height="3585" alt="Image" src="https://github.com/user-attachments/assets/a40a99a7-4a02-42a4-a503-a8a26695fccb" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1920" height="3585" alt="Image" src="https://github.com/user-attachments/assets/a40a99a7-4a02-42a4-a503-a8a26695fccb" />
+</div>
 
 ## Base de datos (MySql)
 
@@ -4899,7 +5129,9 @@ La base de datos del proyecto WayPass fue diseñada utilizando MySQL como sistem
 | **provinces** | Contiene las provincias asociadas a cada región. | Pertenece a **regions** y se relaciona con **districts**. |
 | **districts** | Guarda los distritos registrados en el sistema. | Pertenece a **provinces** y se relaciona con **stops**. |
 
-<img width="1163" height="771" alt="Image" src="https://github.com/user-attachments/assets/7d3e33d7-5f31-4e81-9fa3-b3ea906d60a1" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1163" height="771" alt="Image" src="https://github.com/user-attachments/assets/7d3e33d7-5f31-4e81-9fa3-b3ea906d60a1" />
+</div>
 
 ## Android Móvil
 
@@ -4933,30 +5165,68 @@ La aplicación móvil de WayPass fue desarrollada en Android y representa el com
 | **Profile** | Pantalla de perfil del usuario autenticado. |
 
 **Video de Aplicación Móvil:** https://shorturl.at/6yGvj
-<img width="720" alt="executionevidenceappmobilesprint1" src="https://github.com/user-attachments/assets/6c4783e7-2675-486f-91c3-aee990296b90" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="720" alt="executionevidenceappmobilesprint1" src="https://github.com/user-attachments/assets/6c4783e7-2675-486f-91c3-aee990296b90" />
+</div>
 
 ---
 
 A continuación, las capturas de las pantallas principales de la versión entregada:
 
-<img width="180" alt="login" src="https://github.com/user-attachments/assets/f18f6029-260a-4b2f-b526-1c03321cc155" />
-<img width="180" alt="register" src="https://github.com/user-attachments/assets/4ef470d6-14c1-458f-b640-f4229517a29f" />
-<img width="180" alt="dashboard" src="https://github.com/user-attachments/assets/175c0f27-7791-4494-97c2-f6bb8103de2d" />
-<img width="180" alt="stops" src="https://github.com/user-attachments/assets/1aa35704-62ef-4066-9c56-965d4a4d0d3e" />
-<img width="180" alt="createStop1" src="https://github.com/user-attachments/assets/eb90309e-52f5-4584-b3cc-cf71ea1dec8d" />
-<img width="180" alt="crateStop2" src="https://github.com/user-attachments/assets/f5232f9d-a8b5-4664-8a0e-b330d970cb2e" />
-<img width="180" alt="editStop1" src="https://github.com/user-attachments/assets/4d60353c-563e-4d71-a17c-6c18c477242f" />
-<img width="180" alt="editStop2" src="https://github.com/user-attachments/assets/a146e9ea-7c05-4b67-8a60-0f3e14008ceb" />
-<img width="180" alt="deleteStop" src="https://github.com/user-attachments/assets/3e235072-abd3-4325-8a08-1158f4f99d0c" />
-<img width="180" alt="routes" src="https://github.com/user-attachments/assets/76141d77-d414-47a0-9090-5ec1f7e6366e" />
-<img width="180" alt="createRoute1" src="https://github.com/user-attachments/assets/b57387f0-d06d-4a5d-9d1b-4d1ba85bc85b" />
-<img width="180" alt="createRoute2" src="https://github.com/user-attachments/assets/d755ad85-1654-4052-a24f-50d99c5d7562" />
-<img width="180" alt="deleteRoute" src="https://github.com/user-attachments/assets/b83217c2-ad87-4cd0-8f9f-59aefcd24cdb" />
-<img width="180" alt="scheduleRoutes" src="https://github.com/user-attachments/assets/4d15b6dc-5825-45c4-b9cf-f1d688d61738" />
-<img width="180" alt="mapRoute" src="https://github.com/user-attachments/assets/a986961e-122f-4bcf-b721-f4d2043182b8" />
-<img width="180" alt="editRoute1" src="https://github.com/user-attachments/assets/21f6ffba-916b-4523-9e3e-806dc8c38bce" />
-<img width="180" alt="editRoute2" src="https://github.com/user-attachments/assets/661e4532-b1d9-424a-ad62-075f089da523" />
-<img width="180" alt="profile" src="https://github.com/user-attachments/assets/8002c17c-e82b-48b2-89a6-fe6e23e56948" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="180" alt="login" src="https://github.com/user-attachments/assets/f18f6029-260a-4b2f-b526-1c03321cc155" />
+</div>
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="180" alt="register" src="https://github.com/user-attachments/assets/4ef470d6-14c1-458f-b640-f4229517a29f" />
+</div>
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="180" alt="dashboard" src="https://github.com/user-attachments/assets/175c0f27-7791-4494-97c2-f6bb8103de2d" />
+</div>
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="180" alt="stops" src="https://github.com/user-attachments/assets/1aa35704-62ef-4066-9c56-965d4a4d0d3e" />
+</div>
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="180" alt="createStop1" src="https://github.com/user-attachments/assets/eb90309e-52f5-4584-b3cc-cf71ea1dec8d" />
+</div>
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="180" alt="crateStop2" src="https://github.com/user-attachments/assets/f5232f9d-a8b5-4664-8a0e-b330d970cb2e" />
+</div>
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="180" alt="editStop1" src="https://github.com/user-attachments/assets/4d60353c-563e-4d71-a17c-6c18c477242f" />
+</div>
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="180" alt="editStop2" src="https://github.com/user-attachments/assets/a146e9ea-7c05-4b67-8a60-0f3e14008ceb" />
+</div>
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="180" alt="deleteStop" src="https://github.com/user-attachments/assets/3e235072-abd3-4325-8a08-1158f4f99d0c" />
+</div>
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="180" alt="routes" src="https://github.com/user-attachments/assets/76141d77-d414-47a0-9090-5ec1f7e6366e" />
+</div>
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="180" alt="createRoute1" src="https://github.com/user-attachments/assets/b57387f0-d06d-4a5d-9d1b-4d1ba85bc85b" />
+</div>
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="180" alt="createRoute2" src="https://github.com/user-attachments/assets/d755ad85-1654-4052-a24f-50d99c5d7562" />
+</div>
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="180" alt="deleteRoute" src="https://github.com/user-attachments/assets/b83217c2-ad87-4cd0-8f9f-59aefcd24cdb" />
+</div>
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="180" alt="scheduleRoutes" src="https://github.com/user-attachments/assets/4d15b6dc-5825-45c4-b9cf-f1d688d61738" />
+</div>
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="180" alt="mapRoute" src="https://github.com/user-attachments/assets/a986961e-122f-4bcf-b721-f4d2043182b8" />
+</div>
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="180" alt="editRoute1" src="https://github.com/user-attachments/assets/21f6ffba-916b-4523-9e3e-806dc8c38bce" />
+</div>
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="180" alt="editRoute2" src="https://github.com/user-attachments/assets/661e4532-b1d9-424a-ad62-075f089da523" />
+</div>
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="180" alt="profile" src="https://github.com/user-attachments/assets/8002c17c-e82b-48b2-89a6-fe6e23e56948" />
+</div>
 
 #### 4.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -5050,7 +5320,9 @@ La Landing Page del proyecto WayPass fue desplegada utilizando GitHub Pages, per
 
 [Ver Landing Page](https://grupo-apps-moviles.github.io/landing-page/)
 
-<img width="1248" height="778" alt="Image" src="https://github.com/user-attachments/assets/96f2908a-bb0e-4d82-9942-1371cf535e9e" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1248" height="778" alt="Image" src="https://github.com/user-attachments/assets/96f2908a-bb0e-4d82-9942-1371cf535e9e" />
+</div>
 
 ---
 
@@ -5060,27 +5332,39 @@ Para el despliegue e integración de servicios en la aplicación móvil Android,
 
 **Paso 1 — Creación del proyecto en Firebase**
 Se accedió a la consola de Firebase y se creó un nuevo proyecto denominado "ViacoreApp", el cual servirá como contenedor de todos los servicios cloud que utilizará la aplicación.
-<img width="720" alt="crearProyectoFirebase" src="https://github.com/user-attachments/assets/0f9dc6ac-153a-41be-8045-c9e272271ffb" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="720" alt="crearProyectoFirebase" src="https://github.com/user-attachments/assets/0f9dc6ac-153a-41be-8045-c9e272271ffb" />
+</div>
 
 **Paso 2 — Confirmación del proyecto creado**
 Una vez completado el proceso de creación, Firebase mostró la pantalla de confirmación indicando que el proyecto "ViacoreApp" fue creado exitosamente.
-<img width="720" alt="proyectoCreadoFireBase" src="https://github.com/user-attachments/assets/3e80c811-712a-4df9-ac67-82d31f639142" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="720" alt="proyectoCreadoFireBase" src="https://github.com/user-attachments/assets/3e80c811-712a-4df9-ac67-82d31f639142" />
+</div>
 
 **Paso 3 — Registro de la aplicación Android**
 Se registró la aplicación Android en el proyecto Firebase usando el paquete es.upc.waypass. Como parte de este paso, se descargó el archivo de configuración google-services.json y se ubicó dentro del directorio raíz del módulo de la app
-<img width="720" alt="agregarFirebaseParaAppAndroid" src="https://github.com/user-attachments/assets/52e2000f-d3f5-4bc0-86df-821d74fb34b5" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="720" alt="agregarFirebaseParaAppAndroid" src="https://github.com/user-attachments/assets/52e2000f-d3f5-4bc0-86df-821d74fb34b5" />
+</div>
 
 **Paso 4 — Configuración del SDK de Firebase**
 Se revisó e implementó la guía de configuración del SDK de Firebase, añadiendo el complemento Gradle de los servicios de Google (com.google.gms.google-services) mediante el DSL de Kotlin en los archivos build.gradle.kts tanto a nivel de proyecto como a nivel de aplicación.
-<img width="720" alt="agregarElSDK" src="https://github.com/user-attachments/assets/745f42ee-6432-487c-bed2-84c2ac45fdd2" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="720" alt="agregarElSDK" src="https://github.com/user-attachments/assets/745f42ee-6432-487c-bed2-84c2ac45fdd2" />
+</div>
 
 **Paso 5 — Finalización de la integración**
 Se completó el proceso de configuración de Firebase en la app Android, confirmando la integración exitosa mediante la pantalla de "Próximos pasos" de la consola, que indica que Firebase ha sido añadido correctamente al proyecto.
-<img width="720" alt="firebaseAgregadoAppAndroid" src="https://github.com/user-attachments/assets/3b026667-ce4d-41d2-9412-04add0d3e136" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="720" alt="firebaseAgregadoAppAndroid" src="https://github.com/user-attachments/assets/3b026667-ce4d-41d2-9412-04add0d3e136" />
+</div>
 
 **Paso 6 — Implementación de dependencias en el proyecto**
 Finalmente, se añadieron las dependencias necesarias en el archivo de configuración del proyecto bajo la sección de despliegue Firebase, incluyendo el Firebase BoM en su versión 34.13.0 y la librería de Firebase Analytics (com.google.firebase:firebase-analytics).
-<img width="720" alt="agregarImplementationDeployAlCodigoProyecto" src="https://github.com/user-attachments/assets/7cdf41a9-03ad-4592-851b-b292f7c37698" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="720" alt="agregarImplementationDeployAlCodigoProyecto" src="https://github.com/user-attachments/assets/7cdf41a9-03ad-4592-851b-b292f7c37698" />
+</div>
 
 #### 4.2.1.8. Team Collaboration Insights during Sprint
 
@@ -5098,16 +5382,22 @@ El equipo utilizó GitHub como plataforma de colaboración para el control de ve
 
 **Landing page:**
 
-<img width="910" height="598" alt="image" src="https://github.com/user-attachments/assets/293c678d-a4f3-483d-b471-3650bb5a1b2a" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="910" height="598" alt="image" src="https://github.com/user-attachments/assets/293c678d-a4f3-483d-b471-3650bb5a1b2a" />
+</div>
 
 **Web Service:**
 
-<img width="908" height="601" alt="image" src="https://github.com/user-attachments/assets/4bf58cfb-94b5-48ae-9eed-bd42cae354b5" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="908" height="601" alt="image" src="https://github.com/user-attachments/assets/4bf58cfb-94b5-48ae-9eed-bd42cae354b5" />
+</div>
 
 
 **App Mobile:**
 
-<img width="918" height="833" alt="image" src="https://github.com/user-attachments/assets/829e995e-7cb9-4646-835b-d81d083e40fc" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="918" height="833" alt="image" src="https://github.com/user-attachments/assets/829e995e-7cb9-4646-835b-d81d083e40fc" />
+</div>
 
 ### 4.2.2. Sprint 2
 
@@ -5137,7 +5427,9 @@ En esta sección se presenta el Sprint Planning Meeting correspondiente al segun
 
 **Tablero del Sprint 2:** [Link del tablero Trello](https://trello.com/invite/b/69ff3d5f6e22ba5114de07be/ATTIe3bce47f3f25411bc433b9188fad27e7C2103B04/movil)
 
-<img width="1137" alt="sprint backlog 2 foto" src="https://github.com/user-attachments/assets/8c44588f-39d1-4c9e-b552-7401e418cf7c" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1137" alt="sprint backlog 2 foto" src="https://github.com/user-attachments/assets/8c44588f-39d1-4c9e-b552-7401e418cf7c" />
+</div>
 
 A continuación se presenta la descomposición de cada User Story en Engineering Tasks, estimados entre 4 y 8 horas, con su responsable y estado de seguimiento.
 
@@ -5353,13 +5645,17 @@ El backend del proyecto WayPass fue desarrollado utilizando ASP.NET Core Web API
 
 La arquitectura DDD permitió organizar las entidades, agregados, servicios y repositorios del sistema de manera modular, facilitando el mantenimiento del código y la evolución progresiva de la plataforma WayPass.
 
-<img width="1842" height="4131" alt="Image" src="https://github.com/user-attachments/assets/ffb6896a-cd86-4723-9859-fb894c4efd74" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1842" height="4131" alt="Image" src="https://github.com/user-attachments/assets/ffb6896a-cd86-4723-9859-fb894c4efd74" />
+</div>
 
 ## Base de datos (MySql)
 
 La base de datos del proyecto WayPass fue diseñada utilizando MySQL como sistema de gestión de bases de datos relacional, permitiendo almacenar y administrar la información principal de la plataforma de transporte colectivo.
 
-<img width="986" height="1276" alt="Image" src="https://github.com/user-attachments/assets/e4f7a581-5a70-412d-8a12-6dd731c07376" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="986" height="1276" alt="Image" src="https://github.com/user-attachments/assets/e4f7a581-5a70-412d-8a12-6dd731c07376" />
+</div>
 
 # Tablas Principales
 
@@ -5405,11 +5701,21 @@ La aplicación móvil de pasajeros de WayPass fue desarrollada en Flutter, multi
 
 A continuación, las capturas de las pantallas principales de la versión entregada:
 
-<img width="180" alt="Image" src="https://github.com/user-attachments/assets/d370aa15-711e-4fb1-ac29-2be1264145d9" />
-<img width="180" alt="Image" src="https://github.com/user-attachments/assets/abc62f4a-58ed-4707-b14e-5cf3fc61c881" />
-<img width="180" alt="Image" src="https://github.com/user-attachments/assets/f714faab-2f77-4756-8079-86376e14d254" />
-<img width="180" alt="Image" src="https://github.com/user-attachments/assets/50b523f7-5faa-4203-af3a-b6c9c8856657" />
-<img width="180" alt="Image" src="https://github.com/user-attachments/assets/8cd68604-28c1-4c77-8340-ada8db998ab0" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="180" alt="Image" src="https://github.com/user-attachments/assets/d370aa15-711e-4fb1-ac29-2be1264145d9" />
+</div>
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="180" alt="Image" src="https://github.com/user-attachments/assets/abc62f4a-58ed-4707-b14e-5cf3fc61c881" />
+</div>
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="180" alt="Image" src="https://github.com/user-attachments/assets/f714faab-2f77-4756-8079-86376e14d254" />
+</div>
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="180" alt="Image" src="https://github.com/user-attachments/assets/50b523f7-5faa-4203-af3a-b6c9c8856657" />
+</div>
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="180" alt="Image" src="https://github.com/user-attachments/assets/8cd68604-28c1-4c77-8340-ada8db998ab0" />
+</div>
 
 
 #### 4.2.2.6. Services Documentation Evidence for Sprint Review
@@ -5475,19 +5781,25 @@ En esta sección del informe se presentan los principales endpoints desarrollado
 
 - Ejecutamos: flutter build apk
 
-<img width="1573" height="972" alt="Image" src="https://github.com/user-attachments/assets/dee8c3af-26de-42b2-813f-28a9638e9d5f" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1573" height="972" alt="Image" src="https://github.com/user-attachments/assets/dee8c3af-26de-42b2-813f-28a9638e9d5f" />
+</div>
 
 **Paso 2:**
 
 - Generamos la carpeta: build/app/outputs/flutter-apk/
 
-<img width="1600" height="964" alt="Image" src="https://github.com/user-attachments/assets/99a1f096-4be7-4761-a6d0-986e99feca56" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1600" height="964" alt="Image" src="https://github.com/user-attachments/assets/99a1f096-4be7-4761-a6d0-986e99feca56" />
+</div>
 
 **Paso 3:**
 
 - Apk generada satisfactoriamente
 
-<img width="1600" height="918" alt="Image" src="https://github.com/user-attachments/assets/2d438618-0737-4558-aa20-33c4550937cf" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1600" height="918" alt="Image" src="https://github.com/user-attachments/assets/2d438618-0737-4558-aa20-33c4550937cf" />
+</div>
 
 **Backend**
 
@@ -5499,43 +5811,57 @@ Para el despliegue del Backend se utilizó Render
 
 - Creamos un nuevo proyecto
 
-<img width="1824" height="987" alt="Image" src="https://github.com/user-attachments/assets/09ceba4f-75a8-4d0a-a04e-80b6f0fcceae" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1824" height="987" alt="Image" src="https://github.com/user-attachments/assets/09ceba4f-75a8-4d0a-a04e-80b6f0fcceae" />
+</div>
 
 **Paso 2:**
 
 - Creamos un nuevo servicio
 
-<img width="1824" height="990" alt="Image" src="https://github.com/user-attachments/assets/768dc3dd-0455-4703-9628-143dfc51bd72" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1824" height="990" alt="Image" src="https://github.com/user-attachments/assets/768dc3dd-0455-4703-9628-143dfc51bd72" />
+</div>
 
 **Paso 3:**
 
 - Seleccionamos nuestro repositorio
 
-<img width="863" height="917" alt="Image" src="https://github.com/user-attachments/assets/be378217-586e-4329-9d89-259593578764" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="863" height="917" alt="Image" src="https://github.com/user-attachments/assets/be378217-586e-4329-9d89-259593578764" />
+</div>
 
 **Paso 4:**
 
 - Instalamos Render en el repositorio
 
-<img width="855" height="900" alt="Image" src="https://github.com/user-attachments/assets/5dd246bb-72aa-49b6-b26a-7dab08e09251" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="855" height="900" alt="Image" src="https://github.com/user-attachments/assets/5dd246bb-72aa-49b6-b26a-7dab08e09251" />
+</div>
 
 **Paso 5:**
 
 - Completamos los datos de la configuración
 
-<img width="1818" height="991" alt="Image" src="https://github.com/user-attachments/assets/16febab6-78ac-4bf9-9811-678bd11cf975" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1818" height="991" alt="Image" src="https://github.com/user-attachments/assets/16febab6-78ac-4bf9-9811-678bd11cf975" />
+</div>
 
 **Paso 6:**
 
 - Comienza el deploy y corregimos si sale errores
 
-<img width="1822" height="979" alt="Image" src="https://github.com/user-attachments/assets/df586bbd-7192-4721-9b7f-a3e89b391848" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1822" height="979" alt="Image" src="https://github.com/user-attachments/assets/df586bbd-7192-4721-9b7f-a3e89b391848" />
+</div>
 
 **Paso 7:**
 
 - Se realizó el deploy exitosamente
 
-<img width="1820" height="991" alt="Image" src="https://github.com/user-attachments/assets/09039e72-0a6b-492d-b8df-5d4815739ecc" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1820" height="991" alt="Image" src="https://github.com/user-attachments/assets/09039e72-0a6b-492d-b8df-5d4815739ecc" />
+</div>
 
 #### 4.2.2.8. Team Collaboration Insights during Sprint
 
@@ -5553,19 +5879,27 @@ El equipo utilizó GitHub como plataforma de colaboración para el control de ve
 
 **Informe**
 
-<img width="935" height="559" alt="Image" src="https://github.com/user-attachments/assets/277b10e9-0c5e-4765-976e-300ec1e6aa42" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="935" height="559" alt="Image" src="https://github.com/user-attachments/assets/277b10e9-0c5e-4765-976e-300ec1e6aa42" />
+</div>
 
 **Flutter:** 
 
-<img width="920" height="516" alt="Image" src="https://github.com/user-attachments/assets/5c082454-a0d8-496f-ae1a-c9bb4d518bb5" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="920" height="516" alt="Image" src="https://github.com/user-attachments/assets/5c082454-a0d8-496f-ae1a-c9bb4d518bb5" />
+</div>
 
 **Android** 
 
-<img width="936" height="529" alt="Image" src="https://github.com/user-attachments/assets/6ecb9797-3c9b-4b88-b74c-544f5deca0b7" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="936" height="529" alt="Image" src="https://github.com/user-attachments/assets/6ecb9797-3c9b-4b88-b74c-544f5deca0b7" />
+</div>
 
 **Backend**
 
-<img width="939" height="533" alt="Image" src="https://github.com/user-attachments/assets/8e97c689-f86b-41f5-87bb-43bab5172596" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="939" height="533" alt="Image" src="https://github.com/user-attachments/assets/8e97c689-f86b-41f5-87bb-43bab5172596" />
+</div>
 
 
 ## 4.3. Validation Interviews
@@ -5610,7 +5944,9 @@ En este punto se hiso una validación con los segmentos objetivos sobre nuestro 
 | **Ocupación** | Estudiante |
 | **Distrito** | San Juan de Lurigancho, Lima, Lima |
 | **Enlace** | [https://goo.su/B9x7ZY](https://goo.su/B9x7ZY) |
-| **Evidencia** | <img width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/dc2ec478-c88c-4157-aef5-ceded0d7238f" /> |
+| **Evidencia** | <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/dc2ec478-c88c-4157-aef5-ceded0d7238f" />
+</div> |
 | **Resumen** | Durante la evaluación de la landing page de WayPass, Adriana manifestó una recepción muy positiva, otorgando a la propuesta una calificación de 9/10. La entrevistada comprendió de inmediato que la aplicación busca digitalizar pagos y gestionar rutas, una solución que considera de gran interés para optimizar sus traslados diarios y actividades personales. Destacó que el diseño visual es moderno y profesional, y que tanto las capturas de pantalla como la ubicación clara de los botones de registro facilitan la navegación y generan confianza para descargar la herramienta. Finalmente, recomendó el servicio por su potencial para modernizar el transporte público, sugiriendo únicamente añadir un mapa interactivo en tiempo real y una sección de preguntas frecuentes para mejorar la experiencia previa al registro. |
 
 **Entrevista #2**
@@ -5623,7 +5959,9 @@ En este punto se hiso una validación con los segmentos objetivos sobre nuestro 
 | **Ocupación** | Estudiante |
 | **Distrito** | Chorrillos, Lima, Lima |
 | **Enlace** | [https://goo.su/tR8ov](https://goo.su/tR8ov) |
-| **Evidencia** | <img width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/5f38939a-9b78-4a78-a8a2-f65a2326ab1f" /> |
+| **Evidencia** | <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/5f38939a-9b78-4a78-a8a2-f65a2326ab1f" />
+</div> |
 | **Resumen** | Durante la prueba de la aplicación, Oscar calificó la experiencia con un 9/10, destacando que WayPass es sumamente intuitiva y presenta un diseño limpio que facilita la navegación sin distracciones. Resaltó que el proceso de creación de cuenta fue rápido y sencillo, y que las funciones para visualizar rutas y ubicar paraderos son fáciles de entender, lo que aporta mucho orden a sus traslados diarios. Aunque no utilizó la opción de registro de empresas por su perfil de pasajero, Oscar recomendó totalmente la herramienta por la seguridad de no cargar efectivo, sugiriendo únicamente la implementación de un modo oscuro y mayor precisión en las alertas de llegada para optimizar el uso nocturno y en zonas de alto tráfico. |
 
 **Entrevista #3**
@@ -5636,7 +5974,9 @@ En este punto se hiso una validación con los segmentos objetivos sobre nuestro 
 | **Ocupación** | Estudiante |
 | **Distrito** | Villa el Salvador, Lima, Lima |
 | **Enlace** | <a href="https://shorturl.at/ZW5Yd" target="_blank">https://shorturl.at/ZW5Yd</a> |
-| **Evidencia** | <img width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/835d52bc-9ddf-4e60-9e10-12c024e2d189" />
+| **Evidencia** | <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/835d52bc-9ddf-4e60-9e10-12c024e2d189" />
+</div>
 | **Resumen** | Durante la prueba de la aplicación, Mateo calificó la experiencia con un 10/10, destacando que WayPass le ayuda a encontrar rutas de transporte, horarios y tarifas de manera mucho más fácil y rápida. Comentó que la aplicación le resulta útil en su día a día, especialmente para trasladarse a lugares que no conocía anteriormente. En el aspecto visual, resaltó que el diseño minimalista le agrada porque hace que la aplicación sea más sencilla de entender y utilizar. Además, mencionó que las visuales y la organización de la información facilitan la comprensión de las funciones de la plataforma. Finalmente, afirmó que sí recomendaría WayPass por la utilidad y facilidad que brinda a los pasajeros. |
 
 **Conductores:**
@@ -5651,7 +5991,9 @@ En este punto se hiso una validación con los segmentos objetivos sobre nuestro 
 | **Ocupación** | Estudiante |
 | **Distrito** | Lurín, Lima, Lima |
 | **Enlace** | [https://goo.su/AIEuGP2](https://goo.su/AIEuGP2) |
-| **Evidencia** | <img width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/df37c569-f5e9-46d1-8632-5d3b701931eb" /> |
+| **Evidencia** | <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/df37c569-f5e9-46d1-8632-5d3b701931eb" />
+</div> |
 | **Resumen** | Jean Pierre revisó la landing page de WayPass y le dio una calificación de 8/10, destacando que la propuesta es muy clara para un conductor. Lo que más le interesó fue la parte de la seguridad, ya que considera que dejar de manejar efectivo y agilizar los cobros le facilitaría mucho el trabajo diario al volante. Mencionó que el diseño y los colores son adecuados porque permiten una lectura rápida, y que al ver las capturas de la aplicación sintió confianza porque la interfaz se ve sencilla de usar. Jean Pierre afirmó que sí recomendaría la plataforma a otros colegas del gremio, aunque sugirió que la página debería explicar con más detalle cómo se realizan los depósitos de las ganancias y mostrar un poco más sobre cómo se visualizan las paradas de los pasajeros para que el conductor se anime a registrarse de una vez. |
 
 **Entrevista #2**
@@ -5664,7 +6006,9 @@ En este punto se hiso una validación con los segmentos objetivos sobre nuestro 
 | **Ocupación** | Estudiante |
 | **Distrito** | Villa el Salvador, Lima, Lima |
 | **Enlace** | [https://goo.su/foUGt0e](https://goo.su/foUGt0e) |
-| **Evidencia** | <img width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/8d508f8b-3f7d-4653-995a-095778d4886f" /> |
+| **Evidencia** | <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/8d508f8b-3f7d-4653-995a-095778d4886f" />
+</div> |
 | **Resumen** | Emmanuel calificó su experiencia con la aplicación con un 8/10, destacando que WayPass es una herramienta muy práctica que le permite gestionar sus rutas y el registro de la empresa de transporte de manera rápida y organizada. Resaltó que el diseño es limpio y funcional, con botones grandes que facilitan la navegación mientras está al volante, y valoró positivamente la sencillez del proceso de creación de cuenta y validación de documentos. Aunque recomienda totalmente la plataforma por la seguridad que brinda al reducir el uso de efectivo, Emmanuel sugirió mejorar los reportes de ingresos diarios e implementar alertas sonoras más fuertes para confirmar los pagos de los pasajeros sin necesidad de desviar la vista del camino. |
 
 
@@ -5778,7 +6122,9 @@ El presente video presenta de forma promocional la propuesta de valor de nuestro
 
 [Ver video en YouTube](https://youtu.be/QvCi0Bi8GNM)
   
-<img width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/d6e3d1bc-5e30-4eb3-b94c-65707e57da4a" />
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/d6e3d1bc-5e30-4eb3-b94c-65707e57da4a" />
+</div>
 
 # Video About the team
 
@@ -5840,7 +6186,7 @@ El presente video presenta de forma promocional la propuesta de valor de nuestro
   <tbody>
     <tr>
       <td><strong>Repositorio GitHub</strong></td>
-      <td><a href="https://github.com/Grupo-Apps-Moviles" target="_blank">https://github.com/Grupo-Apps-Moviles</a></td>
+      <td><a href="https://github.com/Grupo-Apps-Moviles" target="_blank">https://github.com/Grupo-Apps-Móviles</a></td>
     </tr>
     <tr>
       <td><strong>Entrevistas</strong></td>
