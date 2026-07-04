@@ -438,7 +438,7 @@ por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |---|---|---|
-| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software** | **Joaquín Carranza**  <br><br> **AV1:** Comprendí la importancia de dominar arquitecturas en tiempo real y Geofencing para resolver problemas de informalidad y precisión en el transporte.  <br><br> **TB1:** He actualizado mis conocimientos y competencias profesionales mediante la implementación de un enfoque de ingeniería estratégica en el proyecto: utilicé Spike Stories para investigar incertidumbres y reducir riesgos técnicos de forma anticipada, definí un Bounded Context para el módulo de suscripciones aplicando principios de Domain-Driven Design (DDD) para asegurar una arquitectura limpia, y realicé entrevistas de validación para garantizar que la solución de software responda a necesidades reales del mercado. Esta integración me ha permitido pasar de la simple codificación a la creación de soluciones de software robustas, escalables y alineadas con los objetivos del negocio.  <br><br> **AV2:** Actualicé los conceptos y conocimientos de mi proyecto mediante la integración de Flutter y Dart en la documentación técnica. Para ello, incorporé esta tecnología en el entorno de desarrollo, añadí su repositorio, estructuré sus guías de estilo oficiales (Effective Dart) con sus convenciones de nomenclatura y definí el proceso para compilar el APK en producción.  <br><br> **Curi Marcelo, Angelo Marcio**  <br><br> **AV1:** Identificamos la problemática, user personas y user stories mediante entrevistas.  <br><br> **TB1:** Implementé funcionalidades del módulo conductor en Android usando Google Maps y servicios de geolocalización.  <br><br> **AV2:** Complete la documentación acerca de la evidencia de ejecución, deploy de los servicios y la exportación de los APK.  <br><br> **Yaku Guzmán**  <br><br> **AV1:** Actualicé conocimientos sobre arquitectura C4 Model, DDD y bounded contexts en ASP.NET Core.  <br><br> **TB1:** Implementé un design system completo con Jetpack Compose y Material 3, aplicando buenas prácticas de UI/UX y refactorización de pantallas.  <br><br> **AV2:** Profundicé en Domain-Driven Design al refactorizar el modelo Company–Driver hacia una membresía 1:N como agregado independiente (CompanyMembership), incorporando onboarding por código de invitación y suscripción a nivel de empresa con control de capacidad.  <br><br> **Quiroz Cáceres, Adrian**  <br><br> **AV1:** Definí la problemática, user personas y user stories validadas mediante entrevistas, además de establecer los requerimientos principales y los bounded contexts aplicando principios de Domain-Driven Design (DDD), permitiendo estructurar una solución alineada con las necesidades reales de los usuarios.  <br><br> **TB1:** Implementé la integración de PayPal en el sistema, fortaleciendo conocimientos en pasarelas de pago, consumo de APIs externas y manejo de flujos de suscripción, contribuyendo a una solución más segura, escalable y orientada a la experiencia del usuario.  <br><br> **AV2:** Desarrollé la funcionalidad de reserva de rutas para pasajeros utilizando Flutter, permitiendo registrar y gestionar solicitudes de viaje desde la aplicación móvil. Asimismo, implementé en Kotlin la visualización de dichas reservas para los conductores, fortaleciendo conocimientos en desarrollo móvil multiplataforma, consumo de APIs, sincronización de datos y comunicación entre módulos del sistema, contribuyendo a una solución integrada y orientada a las necesidades de los usuarios.  <br><br> **Velarde Gonzales, Néstor Hernán**  <br><br> **AV1:** Participé en entrevistas y validación de requisitos técnicos para soluciones contextualizadas.  <br><br> **TB1:** Desarrollé el backend aplicando DDD, CQRS, SOLID y buenas prácticas de arquitectura de software.  <br><br> **AV2:** Facilité la comunicación de los objetivos y requerimientos técnicos durante el Sprint 2, estableciendo una base sólida para el avance del equipo WayPass. A nivel técnico, desarrollé el software de la aplicación móvil del módulo del pasajero aplicando buenas prácticas con herramientas de alcance. | Las entrevistas confirmaron que el transporte local presenta una crisis de información. WayPass busca resolverla digitalizando la función del "datero", mejorando la experiencia del pasajero y optimizando el llenado de unidades mediante soluciones tecnológicas contextualizadas. Durante el AV2, el equipo consolidó este aprendizaje al incorporar nuevas tecnologías y enfoques —Flutter/Dart para la aplicación multiplataforma del pasajero, el refactor del modelo de dominio Company–Membership en el backend y pruebas de aceptación BDD—, evidenciando la capacidad de adquirir y aplicar conocimientos nuevos para hacer evolucionar el producto. |
+| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software** | **Joaquín Carranza**  <br><br> **AV1:** Comprendí la importancia de dominar arquitecturas en tiempo real y Geofencing para resolver problemas de informalidad y precisión en el transporte.  <br><br> **TB1:** He actualizado mis conocimientos y competencias profesionales mediante la implementación de un enfoque de ingeniería estratégica en el proyecto: utilicé Spike Stories para investigar incertidumbres y reducir riesgos técnicos de forma anticipada, definí un Bounded Context para el módulo de suscripciones aplicando principios de Domain-Driven Design (DDD) para asegurar una arquitectura limpia, y realicé entrevistas de validación para garantizar que la solución de software responda a necesidades reales del mercado. Esta integración me ha permitido pasar de la simple codificación a la creación de soluciones de software robustas, escalables y alineadas con los objetivos del negocio.  <br><br> **AV2:** Actualicé los conceptos y conocimientos de mi proyecto mediante la integración de Flutter y Dart en la documentación técnica. Para ello, incorporé esta tecnología en el entorno de desarrollo, añadí su repositorio, estructuré sus guías de estilo oficiales (Effective Dart) con sus convenciones de nomenclatura y definí el proceso para compilar el APK en producción.  <br><br> **Curi Marcelo, Angelo Marcio**  <br><br> **AV1:** Identificamos la problemática, user personas y user stories mediante entrevistas.  <br><br> **TB1:** Implementé funcionalidades del módulo conductor en Android usando Google Maps y servicios de geolocalización.  <br><br> **AV2:** Complete la documentación acerca de la evidencia de ejecución, deploy de los servicios y la exportación de los APK.  <br><br> **Yaku Guzmán**  <br><br> **AV1:** Actualicé conocimientos sobre arquitectura C4 Model, DDD y bounded contexts en ASP.NET Core.  <br><br> **TB1:** Implementé un design system completo con Jetpack Compose y Material 3, aplicando buenas prácticas de UI/UX y refactorización de pantallas.  <br><br> **AV2:** Profundicé en Domain-Driven Design al refactorizar el modelo Company–Driver hacia una membresía 1:N como agregado independiente (CompanyMembership), incorporando onboarding por código de invitación y suscripción a nivel de empresa con control de capacidad.  <br><br> **Quiroz Cáceres, Adrian**  <br><br> **AV1:** Definí la problemática, user personas y user stories validadas mediante entrevistas, además de establecer los requerimientos principales y los bounded contexts aplicando principios de Domain-Driven Design (DDD), permitiendo estructurar una solución alineada con las necesidades reales de los usuarios.  <br><br> **TB1:** Implementé la integración de PayPal en el sistema, fortaleciendo conocimientos en pasarelas de pago, consumo de APIs externas y manejo de flujos de suscripción, contribuyendo a una solución más segura, escalable y orientada a la experiencia del usuario.  <br><br> **AV2:** Desarrollé la funcionalidad de reserva de rutas para pasajeros utilizando Flutter, permitiendo registrar y gestionar solicitudes de viaje desde la aplicación móvil. Asimismo, implementé en Kotlin la visualización de dichas reservas para los conductores, fortaleciendo conocimientos en desarrollo móvil multiplataforma, consumo de APIs, sincronización de datos y comunicación entre módulos del sistema, contribuyendo a una solución integrada y orientada a las necesidades de los usuarios.  <br><br> **Velarde Gonzales, Néstor Hernán**  <br><br> **AV1:** Participé en entrevistas y validación de requisitos técnicos para soluciones contextualizadas.  <br><br> **TB1:** Desarrollé el backend aplicando DDD, CQRS, SOLID y buenas prácticas de arquitectura de software.  <br><br> **AV2:** Facilité la comunicación de los objetivos y requerimientos técnicos durante el Sprint 2, estableciendo una base sólida para el avance del equipo ViaCore. A nivel técnico, desarrollé el software de la aplicación móvil del módulo del pasajero aplicando buenas prácticas con herramientas de alcance. | Las entrevistas confirmaron que el transporte local presenta una crisis de información. WayPass busca resolverla digitalizando la función del "datero", mejorando la experiencia del pasajero y optimizando el llenado de unidades mediante soluciones tecnológicas contextualizadas. Durante el AV2, el equipo consolidó este aprendizaje al incorporar nuevas tecnologías y enfoques —Flutter/Dart para la aplicación multiplataforma del pasajero, el refactor del modelo de dominio Company–Membership en el backend y pruebas de aceptación BDD—, evidenciando la capacidad de adquirir y aplicar conocimientos nuevos para hacer evolucionar el producto. |
 | **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software** | **Joaquín Carranza**  <br><br> **AV1:** Comprendí la necesidad de aprender continuamente sobre arquitecturas escalables, sincronización en tiempo real y UX móvil.  <br><br> **TB1:** He cumplido con este objetivo al validar que la ingeniería de software es un campo en constante evolución donde la curiosidad técnica y la investigación son fundamentales; por ello, implementé Spike Stories para profundizar en tecnologías desconocidas y mitigar riesgos, apliqué conceptos avanzados de Bounded Contexts para dominar nuevas formas de estructurar el negocio, y realicé entrevistas de validación para entender que el aprendizaje no es solo técnico, sino también entender el entorno del usuario. Este proceso me ha permitido reconocer que mantener mis conocimientos actualizados es la única vía para construir soluciones de software que sean verdaderamente eficientes, modernas y capaces de adaptarse a los cambios reales del mercado.  <br><br> **AV2:** Reconocí la necesidad del aprendizaje permanente al adoptar de forma autónoma Flutter y Dart como una nueva competencia para el proyecto. Esto me permitió asimilar rápidamente sus herramientas, alinear el código a sus estándares oficiales y dominar su flujo de despliegue, demostrando capacidad de adaptación ante las necesidades tecnológicas del software.  <br><br> **Curi Marcelo, Angelo Marcio**  <br><br> **AV1:** Identificamos requerimientos técnicos y servicios externos para el desarrollo de la aplicación.  <br><br> **TB1:** Fortalecí conocimientos en desarrollo móvil, APIs y geolocalización mediante la implementación de funcionalidades Android.  <br><br> **AV2:** Fortalecí mis competencias en configuración de servicios externos, despliegue y exportación exitosa de los servicios.  <br><br> **Yaku Guzmán**  <br><br> **AV1:** Reconocí la importancia de evolucionar constantemente en herramientas de documentación y arquitectura.  <br><br> **TB1:** Comprendí que Material 3 y Jetpack Compose requieren actualización continua y aplicación constante de buenas prácticas.  <br><br> **AV2:** Reconocí la necesidad del aprendizaje permanente al adoptar Reqnroll (sucesor de SpecFlow) para pruebas BDD en .NET, profundizar en patrones de membresía y suscripción a nivel de compañía, y resolver problemas de despliegue mediante reintentos con backoff. Esto reforzó la importancia de mantenerme actualizado en arquitectura, testing y prácticas de DevOps para entregar software confiable.  <br><br> **Quiroz Cáceres, Adrian**  <br><br> **AV1:** Comprendí la importancia de actualizar constantemente conocimientos en análisis de requerimientos, arquitectura de software y modelado de dominios para desarrollar soluciones tecnológicas más eficientes y adaptadas al contexto del usuario.  <br><br> **TB1:** Fortalecí mis competencias en integración de servicios externos y sistemas de pago digitales mediante la implementación de PayPal, reconociendo la necesidad de mantenerme en constante aprendizaje sobre seguridad, APIs y buenas prácticas de desarrollo para adaptarme a las demandas actuales del mercado tecnológico.  <br><br> **AV2:** Fortalecí mis competencias en el desarrollo de aplicaciones móviles mediante la implementación de reservas de rutas en Flutter y su visualización para conductores en Kotlin, reconociendo la importancia de actualizar constantemente conocimientos sobre frameworks móviles, integración de servicios y buenas prácticas de desarrollo para crear soluciones tecnológicas eficientes y adaptadas a las demandas actuales del mercado.  <br><br> **Velarde Gonzales, Néstor Hernán**  <br><br> **AV1:** Comprendí que las decisiones técnicas deben alinearse con las necesidades reales de los usuarios.  <br><br> **TB1:** Participé activamente en mejoras continuas considerando user stories, requisitos funcionales y retroalimentación de stakeholders en cada Sprint.  <br><br> **AV2:** Apliqué metodologías ágiles y buenas prácticas de ingeniería de software para gestionar el desarrollo del proyecto, lo que me permitió iterar eficientemente, resolver observaciones técnicas e implementar los avances requeridos en el proyecto WayPass. | El desarrollo de software exige aprendizaje permanente para adaptar soluciones tecnológicas a necesidades cambiantes. La evolución profesional requiere equilibrio entre conocimiento técnico, validación con usuarios reales y mejora continua de procesos y herramientas. En el AV2, el equipo reforzó esta necesidad al adoptar de forma autónoma frameworks y herramientas no dominadas previamente (Flutter/Dart, Reqnroll para BDD) y al resolver observaciones técnicas del docente y problemas de despliegue, demostrando adaptación continua ante los retos del proyecto. |
 
 <div style="page-break-after: always;"></div>
@@ -475,11 +475,11 @@ El transporte interurbano en Perú opera predominantemente en la informalidad, d
 
 ## 1.1. Startup Profile
 
-Es este punto de detallará nuestra Startup desarrollado por grupo de estudiantes de la Universidad peruana de Ciencias Aplicadas.
+En este punto se detallará nuestra Startup desarrollado por grupo de estudiantes de la Universidad peruana de Ciencias Aplicadas.
 
 ### 1.1.1. Descripción de la Startup
 
-WayPass es una startup dedicada a la modernización del transporte colectivo informal mediante innovación tecnológica. A través de nuestra plataforma WayPass, buscamos estructurar la conectividad entre ciudades y distritos, centralizando información crítica como rutas, paraderos y horarios en una interfaz digital accesible. Reconocemos la importancia del sistema de colectivos y, con WayPass, aportamos la visibilidad y el orden necesarios para profesionalizar el servicio sin sacrificar su flexibilidad. Nuestro compromiso es transformar la movilidad cotidiana en una experiencia más eficiente, cómoda y centrada en el usuario.
+ViaCore es una startup dedicada a la modernización del transporte colectivo informal mediante innovación tecnológica. A través de nuestra plataforma WayPass, buscamos estructurar la conectividad entre ciudades y distritos, centralizando información crítica como rutas, paraderos y horarios en una interfaz digital accesible. Reconocemos la importancia del sistema de colectivos y, con WayPass, aportamos la visibilidad y el orden necesarios para profesionalizar el servicio sin sacrificar su flexibilidad. Nuestro compromiso es transformar la movilidad cotidiana en una experiencia más eficiente, cómoda y centrada en el usuario.
 
 **Misión**
 Transformar y organizar el transporte colectivo informal mediante soluciones tecnológicas accesibles, brindando estructura, visibilidad y eficiencia a un sistema vital de movilidad. Buscamos mejorar la calidad de vida de usuarios y conductores, facilitando la conexión entre comunidades sin perder la flexibilidad que caracteriza al servicio.
@@ -550,13 +550,13 @@ en equipo.</td>
 
 ## 1.2. Solution Profile
 
-Nuestro producto **WayPass** es una aplicación móvil desarrollada por el equipo de **WayPass** que organiza y moderniza el transporte colectivo informal a través de información clara sobre rutas, paraderos y horarios que conecta ciudades y distritos brindando mayor accesibilidad y eficiencia para usuarios y conductores.
+Nuestro producto **WayPass** es una aplicación móvil desarrollada por el equipo de **ViaCore** que organiza y moderniza el transporte colectivo informal a través de información clara sobre rutas, paraderos y horarios que conecta ciudades y distritos brindando mayor accesibilidad y eficiencia para usuarios y conductores.
 
 ### 1.2.1. Antecedentes y problemática
 
 En el Perú, la movilidad urbana y regional enfrenta una crisis de fragmentación. Según el Plan de Movilidad Urbana (PMU, 2023) de la ATU, en Lima y Callao se realizan más de 22 millones de viajes diarios, donde el transporte público masivo solo cubre una fracción de la demanda, dejando una brecha que es llenada por sistemas no convencionales. Esta realidad se replica con mayor severidad en provincias y zonas rurales, donde los colectivos (autos compartidos) son el eje vertebral del transporte.
 
-Sin embargo, como señala el informe de Lima Cómo Vamos, el transporte informal es la principal fuente de insatisfacción ciudadana debido a la inseguridad y la falta de previsibilidad. A pesar de su importancia, estas unidades operan sin horarios estrictos ni plataformas digitales, generando un escenario de desinformación constante (RPP, 2024). Ante este vacío, ciudades como Trujillo ya están apostando por la digitalización mediante aplicativos para fiscalizar y ordenar el servicio, evidenciando que la tecnología es el camino para mejorar la experiencia del ciudadano (MPT, 2026).
+Sin embargo, como señala el informe de Lima Cómo Vamos, el transporte informal es la principal fuente de insatisfacción ciudadana debido a la inseguridad y la falta de previsibilidad. A pesar de su importancia, estas unidades operan sin horarios estrictos ni plataformas digitales, generando un escenario de desinformación constante (RPP, 2024). Ante este vacío, ciudades como Trujillo ya están apostando por la digitalización mediante aplicaciones para fiscalizar y ordenar el servicio, evidenciando que la tecnología es el camino para mejorar la experiencia del ciudadano (MPT, 2026).
 
 La problemática se puede resumir en los siguientes puntos:
 
@@ -595,7 +595,7 @@ A continuación, se detallan los supuestos identificados:
 **b. Users Assumptions**
 * Creemos que nuestros usuarios principales son personas entre 20 y 60 años, de nivel socioeconómico medio-bajo, que se movilizan entre distritos, pueblos o zonas periféricas.
 * Creemos que actualmente encuentran colectivos preguntando en la calle, por recomendación o yendo a puntos conocidos, sin información clara o digital.
-* Creemos que los conductores son independientes, operan de forma informal, y no usan ninguna app para captar pasajeros.
+* Creemos que los conductores son independientes, operan de forma informal, y no usan ninguna aplicación para captar pasajeros.
 
 **c. User Features Assumptions**
 * Creemos que los pasajeros necesitan planificar sus viajes con confianza, saber dónde tomar el colectivo, cuánto pagar y en qué horario aproximado.
@@ -603,7 +603,7 @@ A continuación, se detallan los supuestos identificados:
 * Creemos que los usuarios valorarán poder ubicar fácilmente colectivos, sin perder la flexibilidad del servicio.
 
 **d. Design Assumptions**
-* Creemos que una app móvil sencilla (desarrollada en **Flutter** para el segmento de pasajeros y en **Kotlin/Android** para el segmento de conductores), sin necesidad de registro obligatorio para el consultante, con geolocalización de paraderos y rutas, será suficiente para ayudar al pasajero.
+* Creemos que una aplicación móvil sencilla (desarrollada en **Flutter** para el segmento de pasajeros y en **Kotlin/Android** para el segmento de conductores), sin necesidad de registro obligatorio para el consultante, con geolocalización de paraderos y rutas, será suficiente para ayudar al pasajero.
 * Creemos que perfiles de conductor con información básica (placa, tipo de vehículo, ruta habitual) mejorarán la percepción de seguridad.
 * Creemos que el sistema debe adaptarse al funcionamiento flexible del colectivo (sin horarios fijos, rutas semi estables).
 
@@ -618,10 +618,10 @@ Creemos que el objetivo de que más personas usen la aplicación para organizar 
 Creemos que aumentar la cantidad de pasajeros por viaje se logrará si los conductores de colectivos obtienen una mejor captación de pasajeros y reducción del tiempo de espera con una funcionalidad en la aplicación **Android (Kotlin)** que muestre su ruta, ubicación actual y hora estimada de salida a los usuarios cercanos que utilicen la aplicación **Flutter**.
 
 * **Hipótesis 3: Perfil del conductor**
-Creemos que aumentar la confianza de los usuarios y su retención en la app se logrará si los pasajeros obtienen una mayor sensación de seguridad y legitimidad del servicio con un perfil de conductor que incluya información del vehículo, ruta habitual, calificaciones y verificación básica.
+Creemos que aumentar la confianza de los usuarios y su retención en la aplicación se logrará si los pasajeros obtienen una mayor sensación de seguridad y legitimidad del servicio con un perfil de conductor que incluya información del vehículo, ruta habitual, calificaciones y verificación básica.
 
 * **Hipótesis 4: Interfaz sin registro obligatorio**
-Creemos que aumentar la accesibilidad de la app y alcanzar a más usuarios en zonas con baja alfabetización digital se logrará si los pasajeros ocasionales obtienen acceso rápido y sin fricciones a la información de viaje con una interfaz sencilla que no requiera registro obligatorio.
+Creemos que aumentar la accesibilidad de la aplicación y alcanzar a más usuarios en zonas con baja alfabetización digital se logrará si los pasajeros ocasionales obtienen acceso rápido y sin fricciones a la información de viaje con una interfaz sencilla que no requiera registro obligatorio.
 
 #### 1.2.2.4. Lean UX Canvas
 
@@ -713,7 +713,7 @@ En esta sección se identifican y analizan las soluciones existentes en el merca
             <td><strong>Overview</strong></td>
             <td>Plataforma global para planificar viajes en transporte público, incluyendo colectivos y buses, con mapas, horarios y rutas.</td>
             <td>Plataforma digital de compra de pasajes en buses interprovinciales en LATAM y Asia.</td>
-            <td>App india para compartir viajes al trabajo (carpooling) entre particulares con rutas fijas.</td>
+            <td>aplicación india para compartir viajes al trabajo (carpooling) entre particulares con rutas fijas.</td>
             <td>Plataforma enfocada en el transporte colectivo informal interurbano en zonas rurales y periféricas de Perú. Informa sobre paraderos, rutas, disponibilidad y tarifas.</td>
         </tr>
         <tr>
@@ -779,7 +779,7 @@ Mientras que el carpooling (QuickRide) es entre particulares, WayPass profesiona
 
 - Táctica: Implementar una insignia de "Conductor Verificado" mediante el registro de placa y DNI, ofreciendo una capa de seguridad que hoy no existe en el paradero físico.
 
-- Táctica: Permitir que la comunidad califique la seguridad y el trato del conductor, emulando la confianza de apps como Uber pero aplicada al colectivo popular.
+- Táctica: Permitir que la comunidad califique la seguridad y el trato del conductor, emulando la confianza de aplicaciones como Uber pero aplicada al colectivo popular.
 
 #### Estrategia de Fidelización del Conductor
 El conductor es el motor de la plataforma. La competencia no les ofrece herramientas de gestión.
@@ -811,7 +811,7 @@ Para conocer a nuestros segmentos objetivos, se diseñaron preguntas en específ
 * ¿Te sentirías más tranquilo si pudieras ver una información concisa en un mapa antes de salir?
 * ¿Sabes aproximadamente cuánto demora en salir un auto? ¿Te incomoda esperar?
 * ¿Cómo sabes si todavía hay autos disponibles en ciertas horas?
-* ¿Qué te gustaría ver en una App de colectivos? (rutas, horarios, mapas, precios, fotos…)
+* ¿Qué te gustaría ver en una aplicación de colectivos? (rutas, horarios, mapas, precios, fotos…)
 
 **Líderes de ruta (Transportistas):**
 * ¿Cómo decides cuándo sale cada auto o bus?
@@ -821,7 +821,7 @@ Para conocer a nuestros segmentos objetivos, se diseñaron preguntas en específ
 * ¿Los pasajeros te llaman? ¿Llegan directo al paradero?
 * ¿Cómo se enteran los pasajeros de dónde están ustedes?
 * ¿Alguna vez te han dicho que se perdieron o que no encontraron el paradero?
-* ¿Te molestaría si alguien pone tu paradero en una App?
+* ¿Te molestaría si alguien pone tu paradero en una aplicación?
 * ¿Tú mismo estarías dispuesto a dar información actualizada de horarios o rutas?
 * ¿Preferirías que lo haga otra persona o tener una persona que te apoye?
 * ¿Te interesaría aparecer como "empresa recomendada"?
@@ -928,7 +928,7 @@ Se realizó una entrevista a Jhudith Pumallihua, una joven estudiante de 20 año
 <tr>
 <td>Resumen</td>
 <td>
-Jean Pierre relató que prefiere el colectivo por pura velocidad, ya que los buses grandes demoran demasiado en salir del distrito, aunque esto le signifique pagar más. Confesó que su día a día es una adivinanza constante, preguntando a dateros o vecinos dónde están los paraderos porque estos cambian de sitio sin aviso, lo que a veces le hace perder tiempo o terminar en lugares equivocados. Para él, una app sería la solución a la ansiedad de no saber si encontrará transporte tarde en la noche o cuánto le querrán cobrar por el viaje.
+Jean Pierre relató que prefiere el colectivo por pura velocidad, ya que los buses grandes demoran demasiado en salir del distrito, aunque esto le signifique pagar más. Confesó que su día a día es una adivinanza constante, preguntando a dateros o vecinos dónde están los paraderos porque estos cambian de sitio sin aviso, lo que a veces le hace perder tiempo o terminar en lugares equivocados. Para él, una aplicación sería la solución a la ansiedad de no saber si encontrará transporte tarde en la noche o cuánto le querrán cobrar por el viaje.
 </td>
   </tr>
 </tbody>
@@ -1078,7 +1078,7 @@ Se realizó una entrevista a Angel Mamani Cayampi, una Joven estudiante de 20 a�
 <tr>
 <td>Resumen</td>
 <td>
-Fabian explicó que su salida no depende de un reloj, sino de completar sus cuatro pasajeros lo más rápido posible para ganarle a la competencia. Admitió que su relación con los pasajeros es de mucha confianza, al punto de coordinar por WhatsApp con algunos frecuentes, y que se apoya totalmente en el datero para saber si la ruta está libre. Se mostró muy a favor de aparecer en una app, pues asegura que mientras más gente sepa dónde se cuadra, más rápido llena el auto y más vueltas puede dar al día. 
+Fabian explicó que su salida no depende de un reloj, sino de completar sus cuatro pasajeros lo más rápido posible para ganarle a la competencia. Admitió que su relación con los pasajeros es de mucha confianza, al punto de coordinar por WhatsApp con algunos frecuentes, y que se apoya totalmente en el datero para saber si la ruta está libre. Se mostró muy a favor de aparecer en una aplicación, pues asegura que mientras más gente sepa dónde se cuadra, más rápido llena el auto y más vueltas puede dar al día. 
 </td>
   </tr>
 </tbody>
@@ -1127,7 +1127,7 @@ Fabian explicó que su salida no depende de un reloj, sino de completar sus cuat
 <tr>
 <td>Resumen</td>
 <td>
-Roberto narró que su operación es más rígida, basada en un "cartel" de horarios controlados por un despachador que le pone multas si se adelanta o se atrasa. Su gran frustración es ver cómo los colectivos le "quitan" gente mientras él cumple su ruta establecida, por lo que considera que una app le daría ventaja al avisar al pasajero exactamente por dónde viene el bus. Dejó claro que él no puede usar el celular por seguridad, pero que su cobrador sería el encargado de mantener la información actualizada.
+Roberto narró que su operación es más rígida, basada en un "cartel" de horarios controlados por un despachador que le pone multas si se adelanta o se atrasa. Su gran frustración es ver cómo los colectivos le "quitan" gente mientras él cumple su ruta establecida, por lo que considera que una aplicación le daría ventaja al avisar al pasajero exactamente por dónde viene el bus. Dejó claro que él no puede usar el celular por seguridad, pero que su cobrador sería el encargado de mantener la información actualizada.
 </td>
   </tr>
 </tbody>
@@ -1176,7 +1176,7 @@ Roberto narró que su operación es más rígida, basada en un "cartel" de horar
 <tr>
 <td>Resumen</td>
 <td>
-Emmanuel escribió una realidad mucho más tensa, donde decide su ruta y sus salidas al momento, dependiendo de cuánta gente haya en la calle y de dónde esté la policía. Contó que no tiene paraderos fijos y que se cuadra donde ve bulto de gente, cambiando de camino según le convenga para evitar el tráfico o las multas. Aunque le atrae la idea de que una app le traiga más clientes, expresó temor de que la tecnología también facilite que los inspectores de transporte lo ubiquen y le quiten la unidad.
+Emmanuel escribió una realidad mucho más tensa, donde decide su ruta y sus salidas al momento, dependiendo de cuánta gente haya en la calle y de dónde esté la policía. Contó que no tiene paraderos fijos y que se cuadra donde ve bulto de gente, cambiando de camino según le convenga para evitar el tráfico o las multas. Aunque le atrae la idea de que una aplicación le traiga más clientes, expresó temor de que la tecnología también facilite que los inspectores de transporte lo ubiquen y le quiten la unidad.
 </td>
   </tr>
 </tbody>
@@ -1206,13 +1206,13 @@ Figura 2. Problemas Principales (Pasajeros)
 #### Segmento Conductores: Eficiencia Operativa y Seguridad
 Las entrevistas a Angel, Fabian, Roberto y Emmanuel muestran una realidad dividida entre la necesidad de ingresos y el miedo a la fiscalización:
 
- - La "Llenada" del Vehículo: Para los conductores de colectivos (Fabian y Angel), el éxito del día depende de qué tan rápido completen sus asientos. Actualmente dependen de dateros o de la suerte de encontrar "bulto de gente", por lo que ven una ventaja competitiva en aparecer en una app que los conecte con pasajeros de forma remota.
+ - La "Llenada" del Vehículo: Para los conductores de colectivos (Fabian y Angel), el éxito del día depende de qué tan rápido completen sus asientos. Actualmente dependen de dateros o de la suerte de encontrar "bulto de gente", por lo que ven una ventaja competitiva en aparecer en una aplicación que los conecte con pasajeros de forma remota.
 
  - Estructura vs. Informalidad: Mientras algunos operan bajo horarios rígidos y multas de despachadores (Roberto), otros como Emmanuel operan en una incertidumbre total, cambiando de ruta según el tráfico o la presencia policial.
 
- - Barreras Tecnológicas y Miedo: Existe una dualidad; por un lado, el deseo de captar más clientes y, por otro, el temor de que la geolocalización sea utilizada por inspectores de transporte para sanciones. Además, se identifica la necesidad de roles auxiliares (como el cobrador) para manejar la app mientras el conductor se enfoca en el volante.
+ - Barreras Tecnológicas y Miedo: Existe una dualidad; por un lado, el deseo de captar más clientes y, por otro, el temor de que la geolocalización sea utilizada por inspectores de transporte para sanciones. Además, se identifica la necesidad de roles auxiliares (como el cobrador) para manejar la aplicación mientras el conductor se enfoca en el volante.
 
-Figura 3. Percepción de la APP (Conductores)
+Figura 3. Percepción de la aplicación (Conductores)
 
 <div align="center" style="page-break-inside: avoid;">
 <img style="max-width: 100%; " width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/4e08e7b3-a62c-472e-938e-59a0f06f1150" />
@@ -1238,7 +1238,7 @@ Figura 4. Demografía de Entrevistados
 
 ## 2.3. Needfinding
 
-En esta sección se profundiza en el proceso de Needfinding, el cual tiene como objetivo descubrir y comprender las necesidades latentes, los comportamientos y los puntos de dolor de los usuarios. A través de este análisis, el equipo de WayPass puede identificar oportunidades clave para diseñar una solución que no solo sea funcional, sino que también genere una conexión real con las experiencias cotidianas de los pasajeros y conductores.
+En esta sección se profundiza en el proceso de Needfinding, el cual tiene como objetivo descubrir y comprender las necesidades latentes, los comportamientos y los puntos de dolor de los usuarios. A través de este análisis, el equipo de ViaCore puede identificar oportunidades clave para diseñar una solución que no solo sea funcional, sino que también genere una conexión real con las experiencias cotidianas de los pasajeros y conductores.
 
 ### 2.3.1. User Personas
 
@@ -1347,7 +1347,7 @@ Los segmentos objetivo representados por los User Personas: Javier Ramirez (pasa
 
 ### 2.3.3. User Journey Mapping
 
-En esta sección se desarrolla el User Journey Mapping, el cual nos permite visualizar el proceso que sigue un usuario para alcanzar un objetivo específico con nuestra solución. Este mapa detalla las acciones, pensamientos y emociones del usuario a lo largo de diferentes etapas, ayudando al equipo de WayPass a identificar oportunidades de mejora y momentos críticos donde la aplicación puede aportar un valor diferencial en la experiencia de transporte.
+En esta sección se desarrolla el User Journey Mapping, el cual nos permite visualizar el proceso que sigue un usuario para alcanzar un objetivo específico con nuestra solución. Este mapa detalla las acciones, pensamientos y emociones del usuario a lo largo de diferentes etapas, ayudando al equipo de ViaCore a identificar oportunidades de mejora y momentos críticos donde la aplicación puede aportar un valor diferencial en la experiencia de transporte.
 
 A continuación, se presenta el User Journey Map: 
 
@@ -1477,21 +1477,21 @@ A continuación, se detallan las historias de usuario organizadas por épicas:
 | **EP03** | Panel de empresa de transporte | Como empresa de transporte, quiero gestionar mi perfil, rutas y paraderos desde un panel centralizado, para mantener la información de mi servicio siempre actualizada y visible para los viajeros. | — | — |
 | **EP04** | Exploración y búsqueda para viajeros | Como viajero, quiero explorar paraderos y rutas, filtrar por ubicación y guardar rutas en colecciones, para planificar mis viajes de forma rápida y personalizada. | — | — |
 | **EP05** | Gestión de cuentas y datos de la plataforma | Como usuario de la plataforma, quiero registrarme, iniciar sesión, editar mi perfil y administrar los recursos del sistema, para acceder a todas las funcionalidades de forma segura y organizada. | — | — |
-| **US01** | Buscar rutas disponibles | Como pasajero, quiero buscar rutas de colectivos cercanas para saber qué opciones tengo para movilizarme. | **Escenario 1:** Búsqueda exitosa<br>Dado que soy un pasajero con acceso a la app, Cuando ingreso una ubicación de origen y destino, Entonces el sistema debe mostrarme las rutas de colectivos disponibles.<br>**Escenario 2:** Sin resultados<br>Dado que no hay rutas activas entre los puntos seleccionados, Cuando realizo la búsqueda, Entonces el sistema debe indicarme que no hay resultados disponibles. | EP01 |
+| **US01** | Buscar rutas disponibles | Como pasajero, quiero buscar rutas de colectivos cercanas para saber qué opciones tengo para movilizarme. | **Escenario 1:** Búsqueda exitosa<br>Dado que soy un pasajero con acceso a la aplicación, Cuando ingreso una ubicación de origen y destino, Entonces el sistema debe mostrarme las rutas de colectivos disponibles.<br>**Escenario 2:** Sin resultados<br>Dado que no hay rutas activas entre los puntos seleccionados, Cuando realizo la búsqueda, Entonces el sistema debe indicarme que no hay resultados disponibles. | EP01 |
 | **US02** | Ver paraderos en el mapa | Como pasajero, quiero ver en un mapa los paraderos cercanos para saber dónde tomar el colectivo. | **Escenario 1:** Visualización de paraderos<br>Dado que ingreso a la sección de mapa, Cuando permito el acceso a mi ubicación, Entonces el sistema debe mostrar los paraderos cercanos en el mapa.<br>**Escenario 2:** Error de ubicación<br>Dado que no doy acceso a mi ubicación, Cuando intento ver el mapa, Entonces el sistema debe mostrar un mensaje indicando que no puede mostrar los paraderos. | EP01 |
 | **US03** | Ver información del conductor | Como pasajero, quiero ver información del conductor antes de abordar para mayor confianza. | **Escenario 1:** Información visible<br>Dado que selecciono una ruta activa, Cuando visualizo los detalles del colectivo, Entonces debo poder ver el nombre, tipo de vehículo y calificaciones del conductor.<br>**Escenario 2:** Información incompleta<br>Dado que el conductor no ha completado su perfil, Cuando visualizo su información, Entonces el sistema debe mostrar solo los datos disponibles y un aviso indicando que el perfil no está completo. | EP01 |
 | **US04** | Calificar al conductor | Como pasajero, quiero calificar al conductor después del viaje para contribuir a la calidad del servicio. | **Escenario 1:** Calificación realizada<br>Dado que he completado un viaje, Cuando accedo a la opción de calificar, Entonces debo poder seleccionar una puntuación y dejar un comentario.<br>**Escenario 2:** Calificación no enviada<br>Dado que no selecciono ninguna puntuación, Cuando intento enviar la calificación, Entonces el sistema debe indicarme que la puntuación es obligatoria. | EP01 |
 | **US05** | Ver historial de viajes | Como pasajero, quiero ver mis viajes anteriores para tener un registro de mis trayectos. | **Escenario 1:** Visualización exitosa del historial de viajes<br>Dado que soy un pasajero con sesión iniciada en la aplicación, Cuando accedo a la sección “Historial de viajes”, Entonces el sistema debe mostrarme una lista con los trayectos realizados previamente, incluyendo fecha, hora, punto de origen, destino y costo del viaje.<br>**Escenario 2:** Sin registros disponibles<br>Dado que soy un pasajero que aún no ha realizado ningún viaje, Cuando ingreso a la sección “Historial de viajes”, Entonces el sistema debe mostrarme un mensaje informando que no existen registros de viajes disponibles. | EP01 |
 | **US06** | Registrarse como conductor | Como conductor, quiero registrarme en la plataforma para ofrecer mi servicio de colectivo. | **Escenario 1:** Registro exitoso<br>Dado que completo el formulario de registro con todos los datos requeridos, Cuando envío el formulario, Entonces debo recibir una confirmación de que el registro fue exitoso.<br>**Escenario 2:** Datos incompletos<br>Dado que no completo todos los campos requeridos, Cuando intento registrarme, Entonces el sistema debe indicarme los campos faltantes. | EP02 |
 | **US07** | Activar disponibilidad de ruta | Como conductor, quiero activar mi ruta disponible para que los pasajeros puedan verla. | **Escenario 1:** Activación de ruta<br>Dado que tengo una ruta registrada, Cuando activo mi disponibilidad, Entonces los pasajeros deben poder verla en tiempo real.<br>**Escenario 2:** Ruta sin activar<br>Dado que no he activado mi disponibilidad, Cuando los pasajeros consultan las rutas, Entonces mi ruta no debe aparecer en los resultados. | EP02 |
-| **US08** | Recibir notificaciones de pasajeros | Como conductor, quiero recibir alertas cuando haya pasajeros interesados en mi ruta. | **Escenario 1:** Notificación activa<br>Dado que tengo activada mi ruta, Cuando un pasajero la selecciona, Entonces debo recibir una notificación con los detalles del posible abordaje.<br>**Escenario 2:** Notificaciones desactivadas<br>Dado que desactivo las notificaciones, Cuando un pasajero selecciona mi ruta, Entonces no debo recibir alertas en la app. | EP02 |
+| **US08** | Recibir notificaciones de pasajeros | Como conductor, quiero recibir alertas cuando haya pasajeros interesados en mi ruta. | **Escenario 1:** Notificación activa<br>Dado que tengo activada mi ruta, Cuando un pasajero la selecciona, Entonces debo recibir una notificación con los detalles del posible abordaje.<br>**Escenario 2:** Notificaciones desactivadas<br>Dado que desactivo las notificaciones, Cuando un pasajero selecciona mi ruta, Entonces no debo recibir alertas en la aplicación. | EP02 |
 | **US09** | Ver demanda de rutas por horario | Como conductor, quiero ver los horarios con mayor demanda para decidir cuándo salir a trabajar. | **Escenario 1:** Datos disponibles<br>Dado que accedo a la sección de análisis, Cuando selecciono un distrito, Entonces el sistema debe mostrarme los horarios con más búsquedas de esa ruta.<br>**Escenario 2:** Sin datos registrados<br>Dado que no hay suficiente información histórica, Cuando intento ver la demanda, Entonces el sistema debe indicarme que no hay datos suficientes aún. | EP02 |
 | **US10** | Ver calificaciones de pasajeros | Como conductor, quiero ver las calificaciones que me han dejado los pasajeros para mejorar mi servicio. | **Escenario 1:** Calificaciones visibles<br>Dado que tengo calificaciones registradas, Cuando ingreso a la sección “Mi reputación”, Entonces debo poder ver un promedio y comentarios recibidos.<br>**Escenario 2:** Sin calificaciones aún<br>Dado que aún no he sido calificado, Cuando ingreso a esa sección, Entonces debo ver un mensaje que me indique que aún no tengo calificaciones disponibles. | EP02 |
-| **US11** | Explorar paraderos desde la app | Como visitante, quiero explorar paraderos disponibles desde la pantalla principal de la app para encontrar opciones cercanas sin necesidad de registrarme. | **Escenario 1:** Acceso a paraderos<br>Dado que ingreso a la pantalla principal de la app, Cuando hago clic en el botón "Explora los paraderos", Entonces debo ser dirigido a una sección donde pueda ver los paraderos disponibles.<br>**Escenario 2:** Error en navegación<br>Dado que el sistema presenta un error de carga, Cuando hago clic en "Explora los paraderos", Entonces el sistema debe mostrar un mensaje de error amigable invitándome a intentar nuevamente. | EP04 |
-| **US12** | Consultar cómo funciona el servicio | Como visitante, quiero entender cómo funciona el servicio para saber cómo usarlo antes de registrarme. | **Escenario 1:** Información disponible<br>Dado que ingreso a la pantalla principal de la app, Cuando hago clic en el menú "Cómo funciona", Entonces debo ser dirigido a una sección donde se explique el funcionamiento del servicio de forma clara.<br>**Escenario 2:** Información no encontrada<br>Dado que no existe la información solicitada, Cuando intento acceder a "Cómo funciona", Entonces el sistema debe mostrar un mensaje indicando que la sección está en construcción o no disponible. | EP04 |
-| **US13** | Conocer las ventajas del servicio | Como visitante, quiero conocer las ventajas de usar la plataforma para decidirme a utilizarla. | **Escenario 1:** Visualización de ventajas<br>Dado que ingreso a la pantalla principal de la app, Cuando hago clic en el menú "Ventajas", Entonces debo ser dirigido a una sección donde se describan claramente los beneficios de usar la plataforma.<br>**Escenario 2:** Sección no cargada<br>Dado que ocurre un error en la app, Cuando hago clic en "Ventajas", Entonces el sistema debe mostrar un mensaje de error amigable. | EP04 |
-| **US14** | Acceder a preguntas frecuentes (FAQ) | Como visitante, quiero resolver mis dudas rápidamente leyendo preguntas frecuentes. | **Escenario 1:** Acceso a FAQ<br>Dado que ingreso a la pantalla principal de la app, Cuando hago clic en el menú "FAQ", Entonces debo ser dirigido a una sección de preguntas frecuentes con respuestas claras.<br>**Escenario 2:** FAQ no disponible<br>Dado que ocurre un problema de carga, Cuando hago clic en "FAQ", Entonces el sistema debe mostrarme un mensaje indicando que el contenido no está disponible temporalmente. | EP04 |
-| **US15** | Postular como colaborador | Como visitante, quiero tener una opción para colaborar con la plataforma para aportar al crecimiento del servicio. | **Escenario 1:** Acceso a colaboración<br>Dado que ingreso a la pantalla principal de la app, Cuando hago clic en "Colabora", Entonces debo ser dirigido a un formulario o sección que explique cómo puedo colaborar.<br>**Escenario 2:** Sección de colaboración no disponible<br>Dado que la sección de colaboración no esté activa aún, Cuando intento acceder, Entonces el sistema debe indicarme que aún no está habilitada pero que pronto estará disponible. | EP04 |
+| **US11** | Explorar paraderos desde la aplicación | Como visitante, quiero explorar paraderos disponibles desde la pantalla principal de la aplicación para encontrar opciones cercanas sin necesidad de registrarme. | **Escenario 1:** Acceso a paraderos<br>Dado que ingreso a la pantalla principal de la aplicación, Cuando hago clic en el botón "Explora los paraderos", Entonces debo ser dirigido a una sección donde pueda ver los paraderos disponibles.<br>**Escenario 2:** Error en navegación<br>Dado que el sistema presenta un error de carga, Cuando hago clic en "Explora los paraderos", Entonces el sistema debe mostrar un mensaje de error amigable invitándome a intentar nuevamente. | EP04 |
+| **US12** | Consultar cómo funciona el servicio | Como visitante, quiero entender cómo funciona el servicio para saber cómo usarlo antes de registrarme. | **Escenario 1:** Información disponible<br>Dado que ingreso a la pantalla principal de la aplicación, Cuando hago clic en el menú "Cómo funciona", Entonces debo ser dirigido a una sección donde se explique el funcionamiento del servicio de forma clara.<br>**Escenario 2:** Información no encontrada<br>Dado que no existe la información solicitada, Cuando intento acceder a "Cómo funciona", Entonces el sistema debe mostrar un mensaje indicando que la sección está en construcción o no disponible. | EP04 |
+| **US13** | Conocer las ventajas del servicio | Como visitante, quiero conocer las ventajas de usar la plataforma para decidirme a utilizarla. | **Escenario 1:** Visualización de ventajas<br>Dado que ingreso a la pantalla principal de la aplicación, Cuando hago clic en el menú "Ventajas", Entonces debo ser dirigido a una sección donde se describan claramente los beneficios de usar la plataforma.<br>**Escenario 2:** Sección no cargada<br>Dado que ocurre un error en la aplicación, Cuando hago clic en "Ventajas", Entonces el sistema debe mostrar un mensaje de error amigable. | EP04 |
+| **US14** | Acceder a preguntas frecuentes (FAQ) | Como visitante, quiero resolver mis dudas rápidamente leyendo preguntas frecuentes. | **Escenario 1:** Acceso a FAQ<br>Dado que ingreso a la pantalla principal de la aplicación, Cuando hago clic en el menú "FAQ", Entonces debo ser dirigido a una sección de preguntas frecuentes con respuestas claras.<br>**Escenario 2:** FAQ no disponible<br>Dado que ocurre un problema de carga, Cuando hago clic en "FAQ", Entonces el sistema debe mostrarme un mensaje indicando que el contenido no está disponible temporalmente. | EP04 |
+| **US15** | Postular como colaborador | Como visitante, quiero tener una opción para colaborar con la plataforma para aportar al crecimiento del servicio. | **Escenario 1:** Acceso a colaboración<br>Dado que ingreso a la pantalla principal de la aplicación, Cuando hago clic en "Colabora", Entonces debo ser dirigido a un formulario o sección que explique cómo puedo colaborar.<br>**Escenario 2:** Sección de colaboración no disponible<br>Dado que la sección de colaboración no esté activa aún, Cuando intento acceder, Entonces el sistema debe indicarme que aún no está habilitada pero que pronto estará disponible. | EP04 |
 | **US16** | Registro de usuario | Como usuario, quiero registrarme en la plataforma, para poder gestionar mis paraderos y rutas. | **Escenario 1:** Registro exitoso<br>Dado que ingreso mi correo y contraseña, Cuando completo el formulario y envío, Entonces mi cuenta debe ser creada y recibiré un mensaje de confirmación.<br>**Escenario 2:** Correo ya registrado<br>Dado que intento registrarme, Cuando ingreso un correo ya registrado, Entonces debo ver un mensaje de error indicando "Correo ya en uso". | EP04 |
 | **US17** | Inicio de sesión de usuario | Como usuario, quiero iniciar sesión en la plataforma, para gestionar mis paraderos y rutas. | **Escenario 1:** Inicio de sesión exitoso<br>Dado que soy un usuario registrado, Cuando ingreso mis credenciales correctamente, Entonces debo ser redirigido a mi pantalla principal. | EP03 |
 | **US18** | Gestión de Rutas para Empresas | Como empresa de transporte, quiero crear, editar y eliminar rutas, para mantener mi servicio actualizado. | **Escenario 1:** Crear nueva ruta<br>Dado que estoy en la sección de rutas, Cuando creo una nueva ruta, Entonces debe aparecer en la lista de rutas.<br>**Escenario 2:** Editar o eliminar ruta<br>Dado que selecciono una ruta existente, Cuando la edito o elimino, Entonces los cambios deben reflejarse de inmediato. | EP03 |
@@ -1533,7 +1533,7 @@ A continuación, se detallan las historias de usuario organizadas por épicas:
 | **TS01** | Configuración de Fake API (JSON Server) | Como desarrollador, quiero configurar una Fake API usando JSON Server para simular datos y endpoints. | **Escenario 1:** Configuración inicial<br>Dado que tengo JSON Server instalado, Cuando configuro el archivo db.json, Entonces debe iniciarse correctamente con los endpoints configurados. | EP05 |
 | **TS02** | Simulación de regiones, provincias y distritos | Como desarrollador, quiero simular regiones, provincias y distritos para organizar las zonas de operación de los colectivos. | **Escenario 1:** Visualización correcta<br>Dado que accedo a la Fake API, Cuando consulto los endpoints de regiones, provincias y distritos, Entonces deben listarse correctamente según la relación establecida. | EP05 |
 | **TS03** | Simulación de paraderos y localidades | Como desarrollador, quiero definir paraderos y localidades para representar puntos de embarque y desembarque. | **Escenario 1:** Paraderos visibles<br>Dado que accedo a la Fake API, Cuando consulto el endpoint de paraderos, Entonces deben mostrarse correctamente con su localidad correspondiente. | EP05 |
-| **TS04** | Simulación de conductores y usuarios | Como desarrollador, quiero crear entidades simuladas de conductores y pasajeros para pruebas de interacción en la app. | **Escenario 1:** Creación de usuarios<br>Dado que accedo a la Fake API, Cuando consulto el endpoint de usuarios, Entonces deben mostrarse los usuarios y conductores simulados correctamente. | EP05 |
+| **TS04** | Simulación de conductores y usuarios | Como desarrollador, quiero crear entidades simuladas de conductores y pasajeros para pruebas de interacción en la aplicación. | **Escenario 1:** Creación de usuarios<br>Dado que accedo a la Fake API, Cuando consulto el endpoint de usuarios, Entonces deben mostrarse los usuarios y conductores simulados correctamente. | EP05 |
 | **TS05** | Simulación de rutas de colectivos | Como desarrollador, quiero definir rutas simuladas que conecten paraderos, especificando precios y horarios. | **Escenario 1:** Rutas creadas correctamente<br>Dado que accedo a la Fake API, Cuando consulto el endpoint de rutas, Entonces las rutas deben aparecer con paraderos, precios y horarios definidos. | EP05 |
 | **TS06** | Gestión de horarios de disponibilidad | Como desarrollador, quiero establecer horarios de salida de los colectivos para probar disponibilidad en la Fake API. | **Escenario 1:** Horarios configurados<br>Dado que accedo al endpoint de horarios, Cuando se consultan los horarios de salida, Entonces deben aparecer correctamente según la configuración. | EP05 |
 | **TS07** | Relación entre rutas y paraderos | Como desarrollador, quiero definir la relación entre rutas y paraderos para reflejar su conexión real. | **Escenario 1:** Relación establecida<br>Dado que accedo a la Fake API, Cuando consulto el endpoint de rutas, Entonces las rutas deben incluir los paraderos asociados correctamente. | EP05 |
@@ -1566,7 +1566,7 @@ A continuación, se detalla la lista priorizada de ítems del backlog:
 | 1 | TS01 | Configuración de Fake API (JSON Server) | Como desarrollador, deseo configurar una Fake API usando JSON Server para simular datos y endpoints. | 3 |
 | 2 | TS02 | Simulación de regiones, provincias y distritos | Como desarrollador, deseo simular regiones, provincias y distritos para organizar las zonas de operación de los colectivos. | 2 |
 | 3 | TS03 | Simulación de paraderos y localidades | Como desarrollador, deseo definir paraderos y localidades para representar puntos de embarque y desembarque. | 2 |
-| 4 | TS04 | Simulación de conductores y usuarios | Como desarrollador, deseo crear entidades simuladas de conductores y pasajeros para pruebas de interacción en la app. | 3 |
+| 4 | TS04 | Simulación de conductores y usuarios | Como desarrollador, deseo crear entidades simuladas de conductores y pasajeros para pruebas de interacción en la aplicación. | 3 |
 | 5 | TS05 | Simulación de rutas de colectivos | Como desarrollador, deseo definir rutas simuladas que conecten paraderos especificando precios y horarios. | 3 |
 | 6 | TS06 | Gestión de horarios de disponibilidad | Como desarrollador, deseo establecer horarios de salida de los colectivos para probar disponibilidad en la Fake API. | 2 |
 | 7 | TS07 | Relación entre rutas y paraderos | Como desarrollador, deseo definir la relación entre rutas y paraderos para reflejar su conexión real. | 2 |
@@ -1621,7 +1621,7 @@ A continuación, se detalla la lista priorizada de ítems del backlog:
 | 56 | US50 | Seleccionar colección para ruta | Como viajero autenticado, deseo seleccionar la colección a la cual agregar la ruta para clasificar cada ruta según el contexto. | 3 |
 | 57 | US51 | Quitar ruta de colección | Como viajero autenticado, deseo quitar una ruta de una colección para eliminar rutas que ya no me interesan. | 3 |
 | 58 | US52 | Ver rutas de colección | Como viajero autenticado, deseo entrar a una colección específica y ver la lista de rutas guardadas. | 4 |
-| 59 | US11 | Explorar paraderos desde la app | Como visitante, deseo explorar paraderos disponibles desde la pantalla principal para encontrar opciones cercanas sin necesidad de registrarme. | 3 |
+| 59 | US11 | Explorar paraderos desde la aplicación | Como visitante, deseo explorar paraderos disponibles desde la pantalla principal para encontrar opciones cercanas sin necesidad de registrarme. | 3 |
 | 60 | US12 | Consultar cómo funciona el servicio | Como visitante, deseo entender cómo funciona el servicio para saber cómo usarlo antes de registrarme. | 2 |
 | 61 | US13 | Conocer las ventajas del servicio | Como visitante, deseo conocer las ventajas de usar la plataforma para decidirme a utilizarla. | 2 |
 | 62 | US14 | Acceder a preguntas frecuentes (FAQ) | Como visitante, deseo resolver mis dudas rápidamente leyendo preguntas frecuentes. | 2 |
@@ -1790,7 +1790,7 @@ Fuente: Elaboración propia en la plataforma de Miro. Revisar en: https://miro.c
 
 ### 2.5.2. Context Mapping
 
-En esta sección se desarrolla el Context Mapping, una herramienta estratégica que permite visualizar las relaciones y dependencias entre los distintos contextos delimitados identificados en el sistema. A través de este mapa, el equipo de WayPass puede definir claramente cómo fluye la información y como interactúan los módulos, asegurando la integridad del modelo de dominio y facilitando la colaboración entre las diferentes partes del software.
+En esta sección se desarrolla el Context Mapping, una herramienta estratégica que permite visualizar las relaciones y dependencias entre los distintos contextos delimitados identificados en el sistema. A través de este mapa, el equipo de ViaCore puede definir claramente cómo fluye la información y como interactúan los módulos, asegurando la integridad del modelo de dominio y facilitando la colaboración entre las diferentes partes del software.
 
 Figura 26. Context Mapping
 
@@ -1837,7 +1837,7 @@ En este diagrama de contexto se aprecia cómo el sistema centraliza la comunicac
 Figura 27. Diagrama de Contexto de WayPass
 
 <div align="center" style="page-break-inside: avoid;">
-<img style="max-width: 100%; " width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/dbf510e0-f463-4190-8c9a-61b61b617483" />
+<img style="max-width: 100%; " width="850" height="500" alt="Image" src="images/Diagrama_Contexto.png" />
 </div>
 
 #### 2.5.3.2. Software Architecture Container Level Diagrams
@@ -1847,7 +1847,7 @@ El siguiente diagrama de contenedores representa los principales componentes del
 Figura 28. Diagrama de Contenedores - WayPass
 
 <div align="center" style="page-break-inside: avoid;">
-<img style="max-width: 100%; " width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/2202a09d-068a-460c-9cd1-ba06a44b7045" />
+<img style="max-width: 100%; " width="850" height="500" alt="Image" src="images/Diagrama_Contenedores.png" />
 </div>
 
 #### 2.5.3.3. Software Architecture Deployment Diagrams
@@ -1857,7 +1857,7 @@ El siguiente diagrama de despliegue describe la infraestructura física y lógic
 Figura 29. Diagrama de despliegue - WayPass
 
 <div align="center" style="page-break-inside: avoid;">
-<img style="max-width: 100%; " width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/e52bfe34-45f9-47b2-94fb-eabaab317815" />
+<img style="max-width: 100%; " width="850" height="500" alt="Image" src="images/Diagrama_Despliegue.png" />
 </div>
 
 ## 2.6. Tactical-Level Domain-Driven Design
@@ -5009,7 +5009,7 @@ En este sprint se implementaron los bounded contexts de suscripción y pagos, se
 
 ### Mobile Application — Android
 
-En este sprint se desarrollaron las funcionalidades del conductor (rutas, paradas, mapa con coordenadas de Google Maps), el flujo de pago con PayPal, la gestión de perfil, y se aplicó el rediseño visual completo de la app mediante el sistema de diseño WayPassTheme con tipografía Poppins y paleta Material 3.
+En este sprint se desarrollaron las funcionalidades del conductor (rutas, paradas, mapa con coordenadas de Google Maps), el flujo de pago con PayPal, la gestión de perfil, y se aplicó el rediseño visual completo de la aplicación mediante el sistema de diseño WayPassTheme con tipografía Poppins y paleta Material 3.
 
 | Repository | Branch | Commit Id | Commit Message | Commit Body | Committed on (Date) |
 |---|---|---|---|---|---|
@@ -5343,7 +5343,7 @@ Una vez completado el proceso de creación, Firebase mostró la pantalla de conf
 </div>
 
 **Paso 3 — Registro de la aplicación Android**
-Se registró la aplicación Android en el proyecto Firebase usando el paquete es.upc.waypass. Como parte de este paso, se descargó el archivo de configuración google-services.json y se ubicó dentro del directorio raíz del módulo de la app
+Se registró la aplicación Android en el proyecto Firebase usando el paquete es.upc.waypass. Como parte de este paso, se descargó el archivo de configuración google-services.json y se ubicó dentro del directorio raíz del módulo de la aplicación
 <div align="center" style="page-break-inside: avoid;">
 <img style="max-width: 100%; " width="720" alt="agregarFirebaseParaAppAndroid" src="https://github.com/user-attachments/assets/52e2000f-d3f5-4bc0-86df-821d74fb34b5" />
 </div>
@@ -5355,7 +5355,7 @@ Se revisó e implementó la guía de configuración del SDK de Firebase, añadie
 </div>
 
 **Paso 5 — Finalización de la integración**
-Se completó el proceso de configuración de Firebase en la app Android, confirmando la integración exitosa mediante la pantalla de "Próximos pasos" de la consola, que indica que Firebase ha sido añadido correctamente al proyecto.
+Se completó el proceso de configuración de Firebase en la aplicación Android, confirmando la integración exitosa mediante la pantalla de "Próximos pasos" de la consola, que indica que Firebase ha sido añadido correctamente al proyecto.
 <div align="center" style="page-break-inside: avoid;">
 <img style="max-width: 100%; " width="720" alt="firebaseAgregadoAppAndroid" src="https://github.com/user-attachments/assets/3b026667-ce4d-41d2-9412-04add0d3e136" />
 </div>
@@ -5393,7 +5393,7 @@ El equipo utilizó GitHub como plataforma de colaboración para el control de ve
 </div>
 
 
-**App Mobile:**
+**Aplicación Móvil:**
 
 <div align="center" style="page-break-inside: avoid;">
 <img style="max-width: 100%; " width="918" height="833" alt="image" src="https://github.com/user-attachments/assets/829e995e-7cb9-4646-835b-d81d083e40fc" />
@@ -5914,19 +5914,19 @@ En este punto se hiso una validación con los segmentos objetivos sobre nuestro 
 - ¿La propuesta de valor (ahorro de tiempo/seguridad) es lo primero que notas al entrar?
 - ¿Las capturas de pantalla de la aplicación te ayudan a confiar en el servicio?
 - ¿Encuentras fácilmente el botón para descargar o registrarte?
-- Califica la app del 1 al 10:
+- Califica la aplicación del 1 al 10:
 - ¿Qué mejorarías?
 - ¿La recomendarías?
 
 
-**App Web:**
+**Aplicación Web:**
 - ¿Es fácil navegar?
 - ¿Entiendes cómo crear rutas?
 - ¿Entiendes cómo crear paraderos?
 - ¿El diseño se ve limpio?
 - ¿Fue fácil crear la cuenta?
 - ¿Fue fácil registrar tu empresa?
-- Califica la app del 1 al 10:
+- Califica la aplicación del 1 al 10:
 - ¿Qué mejorarías?
 - ¿La recomendarías?
 
