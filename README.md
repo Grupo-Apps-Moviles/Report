@@ -306,6 +306,39 @@ El equipo utilizó GitHub como plataforma de colaboración para el control de ve
       - [Tabla: routes](#tabla-routes)
       - [Tabla: route\_stops](#tabla-route_stops)
       - [Tabla: schedules](#tabla-schedules)
+    - [2.6.5. Bounded Context: Companies](#265-bounded-context-companies)
+      - [2.6.5.1. Domain Layer](#2651-domain-layer)
+      - [2.6.5.2. Interface Layer](#2652-interface-layer)
+      - [2.6.5.3. Application Layer](#2653-application-layer)
+      - [2.6.5.4. Infrastructure Layer](#2654-infrastructure-layer)
+      - [2.6.5.5. Bounded Context Software Architecture Component Level Diagrams](#2655-bounded-context-software-architecture-component-level-diagrams)
+      - [2.6.5.6. Bounded Context Software Architecture Code Level Diagrams](#2656-bounded-context-software-architecture-code-level-diagrams)
+      - [Tabla: companies](#tabla-companies)
+      - [Tabla: company_memberships](#tabla-company_memberships)
+    - [2.6.6. Bounded Context: Favorites](#266-bounded-context-favorites)
+      - [2.6.6.1. Domain Layer](#2661-domain-layer)
+      - [2.6.6.2. Interface Layer](#2662-interface-layer)
+      - [2.6.6.3. Application Layer](#2663-application-layer)
+      - [2.6.6.4. Infrastructure Layer](#2664-infrastructure-layer)
+      - [2.6.6.5. Bounded Context Software Architecture Component Level Diagrams](#2665-bounded-context-software-architecture-component-level-diagrams)
+      - [2.6.6.6. Bounded Context Software Architecture Code Level Diagrams](#2666-bounded-context-software-architecture-code-level-diagrams)
+      - [Tabla: favorite_routes](#tabla-favorite_routes)
+    - [2.6.7. Bounded Context: Reservations](#267-bounded-context-reservations)
+      - [2.6.7.1. Domain Layer](#2671-domain-layer)
+      - [2.6.7.2. Interface Layer](#2672-interface-layer)
+      - [2.6.7.3. Application Layer](#2673-application-layer)
+      - [2.6.7.4. Infrastructure Layer](#2674-infrastructure-layer)
+      - [2.6.7.5. Bounded Context Software Architecture Component Level Diagrams](#2675-bounded-context-software-architecture-component-level-diagrams)
+      - [2.6.7.6. Bounded Context Software Architecture Code Level Diagrams](#2676-bounded-context-software-architecture-code-level-diagrams)
+      - [Tabla: reservations](#tabla-reservations)
+    - [2.6.8. Bounded Context: Subscriptions](#268-bounded-context-subscriptions)
+      - [2.6.8.1. Domain Layer](#2681-domain-layer)
+      - [2.6.8.2. Interface Layer](#2682-interface-layer)
+      - [2.6.8.3. Application Layer](#2683-application-layer)
+      - [2.6.8.4. Infrastructure Layer](#2684-infrastructure-layer)
+      - [2.6.8.5. Bounded Context Software Architecture Component Level Diagrams](#2685-bounded-context-software-architecture-component-level-diagrams)
+      - [2.6.8.6. Bounded Context Software Architecture Code Level Diagrams](#2686-bounded-context-software-architecture-code-level-diagrams)
+      - [Tabla: subscriptions](#tabla-subscriptions)
 - [Capítulo III: Solution UI/UX Design](#capítulo-iii-solution-uiux-design)
   - [3.1. Product design](#31-product-design)
     - [3.1.1. Style Guidelines](#311-style-guidelines)
@@ -3241,6 +3274,440 @@ Figura 41. Diagrama de base de datos del Bounded Context Routes - WayPass
 </div>
 
 <div style="page-break-after: always;"></div>
+
+### 2.6.5. Bounded Context: Companies
+
+Siguiendo el modelo de arquitectura 'Clean Architecture' hemos dividido el proyecto en capas. A continuación detallamos las capas del Bounded Context Companies.
+
+#### 2.6.5.1. Domain Layer
+
+##### Sub-capa Model
+
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+|---|---|---|---|---|
+| Aggregate | Company | Representa el modelo Company en el dominio | Mantener la integridad de los datos de Company | Se relaciona con los demás bounded contexts |
+| Aggregate | CompanyMembership | Representa el modelo CompanyMembership en el dominio | Mantener la integridad de los datos de CompanyMembership | Se relaciona con los demás bounded contexts |
+| Command | CreateCompanyCommand | Representa el modelo CreateCompanyCommand en el dominio | Mantener la integridad de los datos de CreateCompanyCommand | Se relaciona con los demás bounded contexts |
+| Query | GetAllCompaniesQuery | Representa el modelo GetAllCompaniesQuery en el dominio | Mantener la integridad de los datos de GetAllCompaniesQuery | Se relaciona con los demás bounded contexts |
+| Interface | ICompanyRepository | Representa el modelo ICompanyRepository en el dominio | Mantener la integridad de los datos de ICompanyRepository | Se relaciona con los demás bounded contexts |
+
+#### 2.6.5.2. Interface Layer
+
+##### Sub-capa REST
+
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+|---|---|---|---|---|
+| Controller | CompaniesController | Controlador/Recurso REST para CompaniesController | Exponer endpoints de CompaniesController | Utilizado por los clientes externos |
+| Controller | MembershipsController | Controlador/Recurso REST para MembershipsController | Exponer endpoints de MembershipsController | Utilizado por los clientes externos |
+| Resource | CompanyResource | Controlador/Recurso REST para CompanyResource | Exponer endpoints de CompanyResource | Utilizado por los clientes externos |
+| Assembler | CompanyResourceFromEntityAssembler | Controlador/Recurso REST para CompanyResourceFromEntityAssembler | Exponer endpoints de CompanyResourceFromEntityAssembler | Utilizado por los clientes externos |
+
+#### 2.6.5.3. Application Layer
+
+##### Sub-capa Internal
+
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+|---|---|---|---|---|
+| CommandService | CompanyCommandService | Servicio interno de aplicación para CompanyCommandService | Orquestar flujos de CompanyCommandService | Conecta interfaces con el dominio y la infraestructura |
+| QueryService | CompanyQueryService | Servicio interno de aplicación para CompanyQueryService | Orquestar flujos de CompanyQueryService | Conecta interfaces con el dominio y la infraestructura |
+
+#### 2.6.5.4. Infrastructure Layer
+
+##### Sub-capa Persistence / Services
+
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+|---|---|---|---|---|
+| Repository | CompanyRepository | Implementación de repositorio/servicio para CompanyRepository | Persistir/comunicar datos de CompanyRepository | Utilizado por la capa Application |
+| Repository | CompanyMembershipRepository | Implementación de repositorio/servicio para CompanyMembershipRepository | Persistir/comunicar datos de CompanyMembershipRepository | Utilizado por la capa Application |
+
+#### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
+
+Diagrama de componentes del Bounded Context Companies - WayPass
+
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="850" alt="Diagrama de componentes del Bounded Context Companies - WayPass" src="images/CompaniesComponentDiagram.png" />
+</div>
+
+
+
+#### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
+
+##### Bounded Context Domain Layer Class Diagrams
+
+Diagrama de clases de la capa Domain del Bounded Context Companies - WayPass
+
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="850" alt="Diagrama de clases de la capa Domain del Bounded Context Companies - WayPass" src="images/CompaniesDomainClassDiagram.png" />
+</div>
+
+##### Bounded Context Database Design Diagram
+
+Diagrama de diseño de base de datos del Bounded Context Companies - WayPass
+
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="850" alt="Diagrama de diseño de base de datos del Bounded Context Companies - WayPass" src="images/CompaniesDatabaseDesignDiagram.png" />
+</div>
+
+
+
+#### Tabla: companies
+<table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
+<thead>
+<tr style="background-color: #f2f2f2;">
+<th style="padding: 10px;">Nombre</th>
+<th style="padding: 10px;">Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="padding: 10px;"><strong>id</strong></td>
+<td style="padding: 10px;">Identificador único (Primary Key).</td>
+</tr>
+<tr>
+<td style="padding: 10px;"><strong>name</strong></td>
+<td style="padding: 10px;">Nombre de la empresa.</td>
+</tr>
+<tr>
+<td style="padding: 10px;"><strong>invitation_code</strong></td>
+<td style="padding: 10px;">Código de invitación para nuevos miembros.</td>
+</tr>
+</tbody>
+</table>
+
+#### Tabla: company_memberships
+<table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
+<thead>
+<tr style="background-color: #f2f2f2;">
+<th style="padding: 10px;">Nombre</th>
+<th style="padding: 10px;">Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="padding: 10px;"><strong>id</strong></td>
+<td style="padding: 10px;">Identificador único (Primary Key).</td>
+</tr>
+<tr>
+<td style="padding: 10px;"><strong>company_id</strong></td>
+<td style="padding: 10px;">Referencia a la empresa (Foreign Key).</td>
+</tr>
+<tr>
+<td style="padding: 10px;"><strong>user_id</strong></td>
+<td style="padding: 10px;">Referencia al usuario (Foreign Key).</td>
+</tr>
+<tr>
+<td style="padding: 10px;"><strong>role</strong></td>
+<td style="padding: 10px;">Rol del miembro (ej. ADMIN, DRIVER).</td>
+</tr>
+</tbody>
+</table>
+
+### 2.6.6. Bounded Context: Favorites
+
+Siguiendo el modelo de arquitectura 'Clean Architecture' hemos dividido el proyecto en capas. A continuación detallamos las capas del Bounded Context Favorites.
+
+#### 2.6.6.1. Domain Layer
+
+##### Sub-capa Model
+
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+|---|---|---|---|---|
+| Aggregate | FavoriteRoute | Representa el modelo FavoriteRoute en el dominio | Mantener la integridad de los datos de FavoriteRoute | Se relaciona con los demás bounded contexts |
+| Command | CreateFavoriteRouteCommand | Representa el modelo CreateFavoriteRouteCommand en el dominio | Mantener la integridad de los datos de CreateFavoriteRouteCommand | Se relaciona con los demás bounded contexts |
+| Query | GetFavoriteRouteByIdQuery | Representa el modelo GetFavoriteRouteByIdQuery en el dominio | Mantener la integridad de los datos de GetFavoriteRouteByIdQuery | Se relaciona con los demás bounded contexts |
+| Interface | IFavoriteRouteRepository | Representa el modelo IFavoriteRouteRepository en el dominio | Mantener la integridad de los datos de IFavoriteRouteRepository | Se relaciona con los demás bounded contexts |
+
+#### 2.6.6.2. Interface Layer
+
+##### Sub-capa REST
+
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+|---|---|---|---|---|
+| Controller | FavoriteRoutesController | Controlador/Recurso REST para FavoriteRoutesController | Exponer endpoints de FavoriteRoutesController | Utilizado por los clientes externos |
+| Resource | FavoriteRouteResource | Controlador/Recurso REST para FavoriteRouteResource | Exponer endpoints de FavoriteRouteResource | Utilizado por los clientes externos |
+| Assembler | FavoriteRouteResourceFromEntityAssembler | Controlador/Recurso REST para FavoriteRouteResourceFromEntityAssembler | Exponer endpoints de FavoriteRouteResourceFromEntityAssembler | Utilizado por los clientes externos |
+
+#### 2.6.6.3. Application Layer
+
+##### Sub-capa Internal
+
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+|---|---|---|---|---|
+| CommandService | FavoriteRouteCommandService | Servicio interno de aplicación para FavoriteRouteCommandService | Orquestar flujos de FavoriteRouteCommandService | Conecta interfaces con el dominio y la infraestructura |
+| QueryService | FavoriteRouteQueryService | Servicio interno de aplicación para FavoriteRouteQueryService | Orquestar flujos de FavoriteRouteQueryService | Conecta interfaces con el dominio y la infraestructura |
+
+#### 2.6.6.4. Infrastructure Layer
+
+##### Sub-capa Persistence / Services
+
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+|---|---|---|---|---|
+| Repository | FavoriteRouteRepository | Implementación de repositorio/servicio para FavoriteRouteRepository | Persistir/comunicar datos de FavoriteRouteRepository | Utilizado por la capa Application |
+
+#### 2.6.6.5. Bounded Context Software Architecture Component Level Diagrams
+
+Diagrama de componentes del Bounded Context Favorites - WayPass
+
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="850" alt="Diagrama de componentes del Bounded Context Favorites - WayPass" src="images/FavoritesComponentDiagram.png" />
+</div>
+
+
+
+#### 2.6.6.6. Bounded Context Software Architecture Code Level Diagrams
+
+##### Bounded Context Domain Layer Class Diagrams
+
+Diagrama de clases de la capa Domain del Bounded Context Favorites - WayPass
+
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="850" alt="Diagrama de clases de la capa Domain del Bounded Context Favorites - WayPass" src="images/FavoritesDomainClassDiagram.png" />
+</div>
+
+##### Bounded Context Database Design Diagram
+
+Diagrama de diseño de base de datos del Bounded Context Favorites - WayPass
+
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="850" alt="Diagrama de diseño de base de datos del Bounded Context Favorites - WayPass" src="images/FavoritesDatabaseDesignDiagram.png" />
+</div>
+
+
+
+#### Tabla: favorite_routes
+<table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
+<thead>
+<tr style="background-color: #f2f2f2;">
+<th style="padding: 10px;">Nombre</th>
+<th style="padding: 10px;">Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="padding: 10px;"><strong>id</strong></td>
+<td style="padding: 10px;">Identificador único (Primary Key).</td>
+</tr>
+<tr>
+<td style="padding: 10px;"><strong>passenger_id</strong></td>
+<td style="padding: 10px;">Referencia al pasajero (Foreign Key).</td>
+</tr>
+<tr>
+<td style="padding: 10px;"><strong>route_id</strong></td>
+<td style="padding: 10px;">Referencia a la ruta (Foreign Key).</td>
+</tr>
+<tr>
+<td style="padding: 10px;"><strong>added_at</strong></td>
+<td style="padding: 10px;">Fecha de adición a favoritos.</td>
+</tr>
+</tbody>
+</table>
+
+### 2.6.7. Bounded Context: Reservations
+
+Siguiendo el modelo de arquitectura 'Clean Architecture' hemos dividido el proyecto en capas. A continuación detallamos las capas del Bounded Context Reservations.
+
+#### 2.6.7.1. Domain Layer
+
+##### Sub-capa Model
+
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+|---|---|---|---|---|
+| Aggregate | Reservation | Representa el modelo Reservation en el dominio | Mantener la integridad de los datos de Reservation | Se relaciona con los demás bounded contexts |
+| Aggregate | ReservationRoute | Representa el modelo ReservationRoute en el dominio | Mantener la integridad de los datos de ReservationRoute | Se relaciona con los demás bounded contexts |
+| Command | CreateReservationCommand | Representa el modelo CreateReservationCommand en el dominio | Mantener la integridad de los datos de CreateReservationCommand | Se relaciona con los demás bounded contexts |
+| ValueObject | ReservationStatus | Representa el modelo ReservationStatus en el dominio | Mantener la integridad de los datos de ReservationStatus | Se relaciona con los demás bounded contexts |
+| Interface | IReservationRepository | Representa el modelo IReservationRepository en el dominio | Mantener la integridad de los datos de IReservationRepository | Se relaciona con los demás bounded contexts |
+
+#### 2.6.7.2. Interface Layer
+
+##### Sub-capa REST
+
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+|---|---|---|---|---|
+| Controller | ReservationsController | Controlador/Recurso REST para ReservationsController | Exponer endpoints de ReservationsController | Utilizado por los clientes externos |
+| Resource | ReservationResource | Controlador/Recurso REST para ReservationResource | Exponer endpoints de ReservationResource | Utilizado por los clientes externos |
+| Assembler | CreateReservationCommandFromResourceAssembler | Controlador/Recurso REST para CreateReservationCommandFromResourceAssembler | Exponer endpoints de CreateReservationCommandFromResourceAssembler | Utilizado por los clientes externos |
+
+#### 2.6.7.3. Application Layer
+
+##### Sub-capa Internal
+
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+|---|---|---|---|---|
+| CommandService | ReservationCommandService | Servicio interno de aplicación para ReservationCommandService | Orquestar flujos de ReservationCommandService | Conecta interfaces con el dominio y la infraestructura |
+| QueryService | ReservationQueryService | Servicio interno de aplicación para ReservationQueryService | Orquestar flujos de ReservationQueryService | Conecta interfaces con el dominio y la infraestructura |
+
+#### 2.6.7.4. Infrastructure Layer
+
+##### Sub-capa Persistence / Services
+
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+|---|---|---|---|---|
+| Repository | ReservationRepository | Implementación de repositorio/servicio para ReservationRepository | Persistir/comunicar datos de ReservationRepository | Utilizado por la capa Application |
+
+#### 2.6.7.5. Bounded Context Software Architecture Component Level Diagrams
+
+Diagrama de componentes del Bounded Context Reservations - WayPass
+
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="850" alt="Diagrama de componentes del Bounded Context Reservations - WayPass" src="images/ReservationsComponentDiagram.png" />
+</div>
+
+
+
+#### 2.6.7.6. Bounded Context Software Architecture Code Level Diagrams
+
+##### Bounded Context Domain Layer Class Diagrams
+
+Diagrama de clases de la capa Domain del Bounded Context Reservations - WayPass
+
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="850" alt="Diagrama de clases de la capa Domain del Bounded Context Reservations - WayPass" src="images/ReservationsDomainClassDiagram.png" />
+</div>
+
+##### Bounded Context Database Design Diagram
+
+Diagrama de diseño de base de datos del Bounded Context Reservations - WayPass
+
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="850" alt="Diagrama de diseño de base de datos del Bounded Context Reservations - WayPass" src="images/ReservationsDatabaseDesignDiagram.png" />
+</div>
+
+
+
+#### Tabla: reservations
+<table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
+<thead>
+<tr style="background-color: #f2f2f2;">
+<th style="padding: 10px;">Nombre</th>
+<th style="padding: 10px;">Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="padding: 10px;"><strong>id</strong></td>
+<td style="padding: 10px;">Identificador único (Primary Key).</td>
+</tr>
+<tr>
+<td style="padding: 10px;"><strong>user_id</strong></td>
+<td style="padding: 10px;">Referencia al usuario (Foreign Key).</td>
+</tr>
+<tr>
+<td style="padding: 10px;"><strong>route_id</strong></td>
+<td style="padding: 10px;">Referencia a la ruta reservada (Foreign Key).</td>
+</tr>
+<tr>
+<td style="padding: 10px;"><strong>status</strong></td>
+<td style="padding: 10px;">Estado de la reserva (ej. PENDING, CONFIRMED).</td>
+</tr>
+</tbody>
+</table>
+
+### 2.6.8. Bounded Context: Subscriptions
+
+Siguiendo el modelo de arquitectura 'Clean Architecture' hemos dividido el proyecto en capas. A continuación detallamos las capas del Bounded Context Subscriptions.
+
+#### 2.6.8.1. Domain Layer
+
+##### Sub-capa Model
+
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+|---|---|---|---|---|
+| Aggregate | Subscription | Representa el modelo Subscription en el dominio | Mantener la integridad de los datos de Subscription | Se relaciona con los demás bounded contexts |
+| Enum | SubscriptionStatus | Representa el modelo SubscriptionStatus en el dominio | Mantener la integridad de los datos de SubscriptionStatus | Se relaciona con los demás bounded contexts |
+| Command | CreateSubscriptionCommand | Representa el modelo CreateSubscriptionCommand en el dominio | Mantener la integridad de los datos de CreateSubscriptionCommand | Se relaciona con los demás bounded contexts |
+| Interface | ISubscriptionRepository | Representa el modelo ISubscriptionRepository en el dominio | Mantener la integridad de los datos de ISubscriptionRepository | Se relaciona con los demás bounded contexts |
+
+#### 2.6.8.2. Interface Layer
+
+##### Sub-capa REST
+
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+|---|---|---|---|---|
+| Controller | SubscriptionsController | Controlador/Recurso REST para SubscriptionsController | Exponer endpoints de SubscriptionsController | Utilizado por los clientes externos |
+| Controller | PaypalWebhookController | Controlador/Recurso REST para PaypalWebhookController | Exponer endpoints de PaypalWebhookController | Utilizado por los clientes externos |
+| Resource | CreateSubscriptionResource | Controlador/Recurso REST para CreateSubscriptionResource | Exponer endpoints de CreateSubscriptionResource | Utilizado por los clientes externos |
+
+#### 2.6.8.3. Application Layer
+
+##### Sub-capa Internal
+
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+|---|---|---|---|---|
+| CommandService | SubscriptionCommandService | Servicio interno de aplicación para SubscriptionCommandService | Orquestar flujos de SubscriptionCommandService | Conecta interfaces con el dominio y la infraestructura |
+| QueryService | SubscriptionQueryService | Servicio interno de aplicación para SubscriptionQueryService | Orquestar flujos de SubscriptionQueryService | Conecta interfaces con el dominio y la infraestructura |
+
+#### 2.6.8.4. Infrastructure Layer
+
+##### Sub-capa Persistence / Services
+
+| Tipo | Nombre | Descripción | Responsabilidad Principal | Relación con otros elementos |
+|---|---|---|---|---|
+| Repository | SubscriptionRepository | Implementación de repositorio/servicio para SubscriptionRepository | Persistir/comunicar datos de SubscriptionRepository | Utilizado por la capa Application |
+| Service | PaypalService | Implementación de repositorio/servicio para PaypalService | Persistir/comunicar datos de PaypalService | Utilizado por la capa Application |
+| Config | PaypalOptions | Implementación de repositorio/servicio para PaypalOptions | Persistir/comunicar datos de PaypalOptions | Utilizado por la capa Application |
+
+#### 2.6.8.5. Bounded Context Software Architecture Component Level Diagrams
+
+Diagrama de componentes del Bounded Context Subscriptions - WayPass
+
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="850" alt="Diagrama de componentes del Bounded Context Subscriptions - WayPass" src="images/SubscriptionsComponentDiagram.png" />
+</div>
+
+
+
+#### 2.6.8.6. Bounded Context Software Architecture Code Level Diagrams
+
+##### Bounded Context Domain Layer Class Diagrams
+
+Diagrama de clases de la capa Domain del Bounded Context Subscriptions - WayPass
+
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="850" alt="Diagrama de clases de la capa Domain del Bounded Context Subscriptions - WayPass" src="images/SubscriptionsDomainClassDiagram.png" />
+</div>
+
+##### Bounded Context Database Design Diagram
+
+Diagrama de diseño de base de datos del Bounded Context Subscriptions - WayPass
+
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="850" alt="Diagrama de diseño de base de datos del Bounded Context Subscriptions - WayPass" src="images/SubscriptionsDatabaseDesignDiagram.png" />
+</div>
+
+
+
+#### Tabla: subscriptions
+<table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
+<thead>
+<tr style="background-color: #f2f2f2;">
+<th style="padding: 10px;">Nombre</th>
+<th style="padding: 10px;">Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="padding: 10px;"><strong>id</strong></td>
+<td style="padding: 10px;">Identificador único (Primary Key).</td>
+</tr>
+<tr>
+<td style="padding: 10px;"><strong>company_id</strong></td>
+<td style="padding: 10px;">Referencia a la empresa suscrita (Foreign Key).</td>
+</tr>
+<tr>
+<td style="padding: 10px;"><strong>paypal_id</strong></td>
+<td style="padding: 10px;">Identificador de la transacción/suscripción en Paypal.</td>
+</tr>
+<tr>
+<td style="padding: 10px;"><strong>status</strong></td>
+<td style="padding: 10px;">Estado de la suscripción (ej. ACTIVE, EXPIRED).</td>
+</tr>
+<tr>
+<td style="padding: 10px;"><strong>end_date</strong></td>
+<td style="padding: 10px;">Fecha de finalización de la suscripción.</td>
+</tr>
+</tbody>
+</table>
 
 # Capítulo III: Solution UI/UX Design
 
