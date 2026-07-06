@@ -6393,18 +6393,18 @@ Durante este sprint, el equipo se enfocó en optimizar la interfaz y accesibilid
 
 #### 4.2.3.2. Sprint Backlog 3
 
-| Historia de Usuario (ID) | Título | Story Points | Responsable | Estado |
-| --- | --- | --- | --- | --- |
-| US-20 | Mejoras de UI y accesibilidad en Android | 8 | Equipo Móvil | Terminado |
-| US-21 | Gestión y visualización de membresías de empresas | 5 | Equipo Móvil | Terminado |
-| US-22 | Puerta de acceso y onboarding para conductores | 5 | Equipo Móvil | Terminado |
-| US-23 | Manejo de perfiles, roles y códigos de invitación | 5 | Equipo Móvil | Terminado |
-| US-24 | Validación de formularios (Auth) en Flutter | 5 | Equipo Móvil | Terminado |
-| US-25 | CRUD de Rutas Favoritas en Flutter | 8 | Equipo Móvil | Terminado |
-| US-26 | Simplificación y rediseño de layout de Reservas | 5 | Equipo Móvil | Terminado |
-| US-27 | Integración de botón de pagos en módulo Travel | 3 | Equipo Móvil | Terminado |
-| US-28 | Centralización de configuración base de API | 3 | Equipo Frontend | Terminado |
-| US-29 | Gestión de errores en rutas no encontradas | 3 | Equipo Frontend | Terminado |
+| User Story | Task Id | Task | Descripción | Est. (h) | Assigned To | Status |
+|---|---|---|---|---|---|---|
+| US20 | T20.1 | Mejoras de UI y accesibilidad en Android | Refactorización de vistas de conductor para mejorar accesibilidad visual | 8 | Guzmán Cabrejos, Yaku Mateo | Done |
+| US21 | T21.1 | Visualización de membresías | Interfaz para ver y administrar las membresías de empresas en Android | 5 | Guzmán Cabrejos, Yaku Mateo | Done |
+| US22 | T22.1 | Onboarding para conductores | Creación del flujo de "Driver Gate" y redireccionamiento inicial | 5 | Curi Marcelo, Angelo Marcio | Done |
+| US23 | T23.1 | Manejo de perfiles y roles | Mostrar rol, código de invitación y gestión en el perfil de Android | 5 | Curi Marcelo, Angelo Marcio | Done |
+| US24 | T24.1 | Validación de Auth en Flutter | Mejoras de UX/UI en validación de registro e inicio de sesión | 5 | Velarde Gonzales, Néstor Hernán | Done |
+| US25 | T25.1 | CRUD de Favoritos en Flutter | Lógica y pantallas para guardar, listar y eliminar rutas favoritas | 8 | Velarde Gonzales, Néstor Hernán | Done |
+| US26 | T26.1 | Layout de Reservas | Simplificación visual de las tarjetas de reserva y remoción de favs | 5 | Quiroz Cáceres, Adrian | Done |
+| US27 | T27.1 | Pagos en módulo Travel | Conexión del botón Reservar a la pantalla de integración de pago | 3 | Quiroz Cáceres, Adrian | Done |
+| US28 | T28.1 | Centralización de API config | Refactorización de las Base URLs para consumo de API centralizado | 3 | Carranza Tesén, Joaquín Enrique | Done |
+| US29 | T29.1 | Manejo de listas vacías | Gestión de errores y UI empty states cuando las rutas no se encuentran | 3 | Carranza Tesén, Joaquín Enrique | Done |
 
 #### 4.2.3.3. Development Evidence for Sprint Review
 
