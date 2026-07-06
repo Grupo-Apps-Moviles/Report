@@ -430,6 +430,15 @@ El equipo utilizó GitHub como plataforma de colaboración para el control de ve
   - [Favorites Services](#favorites-services)
       - [4.2.2.7. Software Deployment Evidence for Sprint Review](#4227-software-deployment-evidence-for-sprint-review)
       - [4.2.2.8. Team Collaboration Insights during Sprint](#4228-team-collaboration-insights-during-sprint)
+    - [4.2.3. Sprint 3](#423-sprint-3)
+      - [4.2.3.1. Sprint Planning 3](#4231-sprint-planning-3)
+      - [4.2.3.2. Sprint Backlog 3](#4232-sprint-backlog-3)
+      - [4.2.3.3. Development Evidence for Sprint Review](#4233-development-evidence-for-sprint-review)
+      - [4.2.3.4. Testing Suite Evidence for Sprint Review](#4234-testing-suite-evidence-for-sprint-review)
+      - [4.2.3.5. Execution Evidence for Sprint Review](#4235-execution-evidence-for-sprint-review)
+      - [4.2.3.6. Services Documentation Evidence for Sprint Review](#4236-services-documentation-evidence-for-sprint-review)
+      - [4.2.3.7. Software Deployment Evidence for Sprint Review](#4237-software-deployment-evidence-for-sprint-review)
+      - [4.2.3.8. Team Collaboration Insights during Sprint](#4238-team-collaboration-insights-during-sprint)
   - [4.3. Validation Interviews](#43-validation-interviews)
     - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
     - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
@@ -6368,6 +6377,94 @@ El equipo utilizó GitHub como plataforma de colaboración para el control de ve
 <img style="max-width: 100%; " width="939" height="533" alt="Image" src="https://github.com/user-attachments/assets/8e97c689-f86b-41f5-87bb-43bab5172596" />
 </div>
 
+
+### 4.2.3. Sprint 3
+
+#### 4.2.3.1. Sprint Planning 3
+
+| Sprint 3 | |
+| --- | --- |
+| **Meta del Sprint** | Refinar la experiencia de usuario (UX/UI) en las aplicaciones móviles, implementar mejoras sustanciales de accesibilidad, y consolidar las funcionalidades de roles, membresías de empresas y rutas favoritas. |
+| **Fecha de inicio** | 04/07/2026 |
+| **Fecha de fin** | 18/07/2026 |
+| **Velocidad del equipo** | 50 Story Points |
+
+Durante este sprint, el equipo se enfocó en optimizar la interfaz y accesibilidad en las aplicaciones móviles (Android y Flutter). Se priorizaron las historias de usuario relacionadas con las funciones de accesibilidad, validaciones de formularios y el refinamiento general de flujos críticos como la reserva y el acceso para conductores con estado de suscripción.
+
+#### 4.2.3.2. Sprint Backlog 3
+
+| Historia de Usuario (ID) | Título | Story Points | Responsable | Estado |
+| --- | --- | --- | --- | --- |
+| US-20 | Mejoras de UI y accesibilidad en Android | 8 | Equipo Móvil | Terminado |
+| US-21 | Gestión y visualización de membresías de empresas | 5 | Equipo Móvil | Terminado |
+| US-22 | Puerta de acceso y onboarding para conductores | 5 | Equipo Móvil | Terminado |
+| US-23 | Manejo de perfiles, roles y códigos de invitación | 5 | Equipo Móvil | Terminado |
+| US-24 | Validación de formularios (Auth) en Flutter | 5 | Equipo Móvil | Terminado |
+| US-25 | CRUD de Rutas Favoritas en Flutter | 8 | Equipo Móvil | Terminado |
+| US-26 | Simplificación y rediseño de layout de Reservas | 5 | Equipo Móvil | Terminado |
+| US-27 | Integración de botón de pagos en módulo Travel | 3 | Equipo Móvil | Terminado |
+| US-28 | Centralización de configuración base de API | 3 | Equipo Frontend | Terminado |
+| US-29 | Gestión de errores en rutas no encontradas | 3 | Equipo Frontend | Terminado |
+
+#### 4.2.3.3. Development Evidence for Sprint Review
+
+**Android Móvil**
+
+Durante el Sprint 3, se implementaron pantallas mejoradas para el onboarding de conductores y visualización de roles, incluyendo la membresía a empresas y el estado de la suscripción.
+<!-- Inserte imagen de Evidencia de Android Sprint 3 -->
+
+**Flutter Móvil**
+
+En la aplicación de pasajeros, se integró un CRUD completo para rutas favoritas, además de rediseñar las validaciones en los formularios de registro (SignUp y SignIn) para mejorar la accesibilidad visual.
+<!-- Inserte imagen de Evidencia de Flutter Sprint 3 -->
+
+**Backend**
+
+El backend se mantuvo altamente estable durante este sprint. Las integraciones de los endpoints para las nuevas vistas en los módulos móviles (como membresías y rutas favoritas) respondieron adecuadamente bajo la arquitectura existente.
+<!-- Inserte imagen de Evidencia Backend Sprint 3 -->
+
+#### 4.2.3.4. Testing Suite Evidence for Sprint Review
+
+Las pruebas de integración y flujos de usuario se enfocaron en validar:
+* Manejo correcto de errores al retornar listas vacías en las consultas de rutas.
+* Accesibilidad y contraste en las pantallas de validación de los formularios de autenticación.
+* Restricciones de UI basadas en roles (ej. gatekeeping del botón premium solo para administradores de empresa en Android).
+
+<!-- Inserte capturas de reportes de testing de UI (Opcional) -->
+
+#### 4.2.3.5. Execution Evidence for Sprint Review
+
+**Funciones de Accesibilidad (Mobile)**
+
+Se ha dado especial atención a las siguientes características:
+* **Mejora en retroalimentación visual:** Al presentarse un error en los formularios (Auth validation), los mensajes son claros y descriptivos, evitando dependencias exclusivas en el color.
+* **Simplificación Cognitiva:** El layout de reservas ha sido rediseñado retirando componentes innecesarios (como los favoritos incrustados en la card), reduciendo el ruido visual para el pasajero.
+* **Onboarding Dedicado:** Se añadió un flujo de enrutamiento claro (Driver Gate) para orientar al conductor nuevo de forma escalonada.
+
+<!-- Inserte capturas del producto ejecutándose Sprint 3 -->
+
+#### 4.2.3.6. Services Documentation Evidence for Sprint Review
+
+Se consolidó y continuó dando soporte a los servicios principales desde el backend para nutrir las aplicaciones móviles. Las firmas documentadas mantienen la estructura establecida en el Sprint 2 para los endpoints de **Authentication**, **Users & Profiles**, **Companies**, **Reservations**, **Favorites** y **Subscriptions**.
+
+<!-- Inserte imagen de documentación Swagger actualizada (Opcional) -->
+
+#### 4.2.3.7. Software Deployment Evidence for Sprint Review
+
+La infraestructura de despliegue para el Sprint 3 mantuvo el esquema exitoso consolidado durante el Sprint 2:
+
+* **Backend:** Desplegado de forma continua en *Render*.
+* **Base de Datos:** Alojamientos estables en la nube (MySQL).
+* **Gestión de Medios:** *Cloudinary* para las fotos de perfil y flotas vehiculares.
+* **Mobile (Android/Flutter):** Los APKs generados se pueden construir localmente utilizando los mismos comandos y outputs configurados previamente (`flutter build apk`).
+
+*(Nota: Los despliegues técnicos no sufrieron variaciones drásticas, manteniendo la solidez del flujo de CI/CD del Sprint anterior).*
+
+#### 4.2.3.8. Team Collaboration Insights during Sprint
+
+El equipo móvil logró un alto grado de cohesión para alinear el consumo de APIs (Base URLs centralizadas en Flutter) con las respuestas del backend, minimizando fricciones y acelerando la entrega de características visuales y de accesibilidad.
+
+---
 
 ## 4.3. Validation Interviews
 En este punto se hiso una validación con los segmentos objetivos sobre nuestro producto de primera fase. 
