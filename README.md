@@ -6408,20 +6408,26 @@ Durante este sprint, el equipo se enfocó en optimizar la interfaz y accesibilid
 
 #### 4.2.3.3. Development Evidence for Sprint Review
 
-**Android Móvil**
+Durante este sprint se avanzó en la implementación y refactorización de las aplicaciones móviles (Android y Flutter), integrando mejoras significativas en la accesibilidad, diseño de interfaz y la estructura de navegación.
 
-Durante el Sprint 3, se implementaron pantallas mejoradas para el onboarding de conductores y visualización de roles, incluyendo la membresía a empresas y el estado de la suscripción.
-<!-- Inserte imagen de Evidencia de Android Sprint 3 -->
-
-**Flutter Móvil**
-
-En la aplicación de pasajeros, se integró un CRUD completo para rutas favoritas, además de rediseñar las validaciones en los formularios de registro (SignUp y SignIn) para mejorar la accesibilidad visual.
-<!-- Inserte imagen de Evidencia de Flutter Sprint 3 -->
-
-**Backend**
-
-El backend se mantuvo altamente estable durante este sprint. Las integraciones de los endpoints para las nuevas vistas en los módulos móviles (como membresías y rutas favoritas) respondieron adecuadamente bajo la arquitectura existente.
-<!-- Inserte imagen de Evidencia Backend Sprint 3 -->
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| Android | main | 8f6c171 | feat(presentation): add admin company members screen | | 04/07/2026 |
+| Android | main | d98b15a | feat(presentation): show role, invitation code and leave/manage in driver profile | | 04/07/2026 |
+| Android | main | 2cc4d99 | feat(navigation): add driver gate and onboarding routing | | 04/07/2026 |
+| Android | main | 49aa6d6 | refactor(driver): resolve companyId from membership instead of getCompanyByUserId | | 04/07/2026 |
+| Android | main | 9344637 | feat(presentation): gate premium subscription button to company admin | | 04/07/2026 |
+| Android | main | b5e046d | feat(presentation): show company subscription status for non-admin drivers | | 04/07/2026 |
+| Android | main | 5926049 | refactor(data): refine join error mapping for capacity vs duplicate membership | | 04/07/2026 |
+| Android | main | 9c2015a | feat(subscription): improve ui. | | 05/07/2026 |
+| Flutter | main | b2ac036 | feat(reservation): add ReservationDto with null-safe fromJson | | 04/07/2026 |
+| Flutter | main | 10cc957 | feat(travel): update TravelPage 'Reservar' button to open payment page | | 05/07/2026 |
+| Flutter | main | f5168d6 | feat: add dependencies | | 05/07/2026 |
+| Flutter | main | 4d5110b | feat: Add favorite routes feature with CRUD operations | | 05/07/2026 |
+| Flutter | main | 73b834f | feat(auth): enhance validation for sign-in and sign-up forms | | 05/07/2026 |
+| Flutter | main | c8e87c1 | feat: refactor API base URLs to use centralized configuration | | 05/07/2026 |
+| Flutter | main | f329e0e | feat(reservation): simplify reservation card layout by removing favorite feature | | 05/07/2026 |
+| Flutter | main | ede7799 | feat(route): handle not found response by returning an empty list | | 05/07/2026 |
 
 #### 4.2.3.4. Testing Suite Evidence for Sprint Review
 
@@ -6434,20 +6440,106 @@ Las pruebas de integración y flujos de usuario se enfocaron en validar:
 
 #### 4.2.3.5. Execution Evidence for Sprint Review
 
-**Funciones de Accesibilidad (Mobile)**
+Durante el Sprint 3 se consolidaron las mejoras funcionales y de experiencia de usuario en ambas aplicaciones móviles, con un claro enfoque en accesibilidad, ruteo eficiente y gestión de membresías/rutas.
 
-Se ha dado especial atención a las siguientes características:
-* **Mejora en retroalimentación visual:** Al presentarse un error en los formularios (Auth validation), los mensajes son claros y descriptivos, evitando dependencias exclusivas en el color.
-* **Simplificación Cognitiva:** El layout de reservas ha sido rediseñado retirando componentes innecesarios (como los favoritos incrustados en la card), reduciendo el ruido visual para el pasajero.
+### Aplicación Móvil — Android (Conductor)
+
+La aplicación orientada a los conductores recibió una refactorización en sus flujos principales para presentar adecuadamente los estados de la membresía y suscripción, integrando a su vez nuevas pantallas administrativas.
+
+**Alcance entregado (Sprint 3)**
+
 * **Onboarding Dedicado:** Se añadió un flujo de enrutamiento claro (Driver Gate) para orientar al conductor nuevo de forma escalonada.
+* **Gestión de roles y suscripciones:** Se incorporó el estado de suscripción de la empresa para todos los conductores y se limitaron las acciones premium únicamente a los administradores.
+* **Pantallas administrativas:** Nueva pantalla para que los administradores gestionen a los miembros de la empresa.
+* **Perfil de Conductor mejorado:** Presentación del rol, código de invitación y opciones de gestión directa.
 
-<!-- Inserte capturas del producto ejecutándose Sprint 3 -->
+**Pantallas implementadas**
+
+| Pantalla | Descripción |
+|---|---|
+| **Driver Gate (Onboarding)** | Pantalla de bienvenida y direccionamiento que guía al conductor a través del proceso inicial, mejorando la comprensión del sistema. |
+| **Perfil de Conductor** | Interfaz mejorada que muestra información crítica como rol y códigos de acceso, con alto contraste para legibilidad en el vehículo. |
+| **Estado de Suscripción** | Tarjeta informativa incrustada que despliega claramente si la empresa cuenta con suscripción premium activa, utilizando colores distintivos. |
+| **Miembros de la Empresa** | Vista de lista administrativa donde se pueden gestionar los accesos, con botones de acción grandes y accesibles. |
+
+<!-- Inserte imagen de Evidencia de Android Sprint 3 -->
+
+### Aplicación Móvil — Flutter (Pasajero)
+
+La aplicación orientada a pasajeros mejoró significativamente en accesibilidad visual, validación de datos y la capacidad transaccional de las rutas.
+
+**Alcance entregado (Sprint 3)**
+
+* **Validación de Formularios (Accesibilidad):** Mensajes de error en Auth (Sign-in / Sign-up) más claros, descriptivos y sin dependencia exclusiva del color.
+* **Rediseño del Layout de Reservas:** Simplificación cognitiva al remover elementos innecesarios (como los favoritos incrustados), reduciendo el ruido visual para el pasajero.
+* **CRUD de Rutas Favoritas:** Implementación de la funcionalidad completa para agregar, visualizar y eliminar rutas favoritas de forma independiente.
+* **Optimización de Pagos:** Botón "Reservar" en la pantalla de viajes ahora enlaza correctamente con la página de pagos.
+* **Gestión de Respuestas:** Refinamiento en el manejo de listas vacías al buscar rutas.
+
+**Pantallas implementadas**
+
+| Pantalla | Descripción |
+|---|---|
+| **Login / Registro Mejorado** | Formularios con validación en tiempo real. Los mensajes de error poseen un icono de alerta y texto contrastante para guiar a los usuarios con discapacidades visuales menores. |
+| **Mis Favoritos** | Pantalla dedicada listando rutas preferidas, con una disposición clara y opciones de eliminación con retroalimentación inmediata. |
+| **Travel (Rutas Disponibles)** | Actualización del botón de reserva, con colores y tamaños optimizados para interacción táctil rápida (Fitts's Law). |
+| **Reservation Layout** | Tarjetas de reserva más limpias y minimalistas, mostrando exclusivamente los detalles transaccionales y de ruta relevantes. |
+
+<!-- Inserte imagen de Evidencia de Flutter Sprint 3 -->
 
 #### 4.2.3.6. Services Documentation Evidence for Sprint Review
 
-Se consolidó y continuó dando soporte a los servicios principales desde el backend para nutrir las aplicaciones móviles. Las firmas documentadas mantienen la estructura establecida en el Sprint 2 para los endpoints de **Authentication**, **Users & Profiles**, **Companies**, **Reservations**, **Favorites** y **Subscriptions**.
+En esta sección del informe se presentan los principales endpoints desarrollados en el backend del proyecto, detallando las funcionalidades implementadas durante el Sprint.
 
-<!-- Inserte imagen de documentación Swagger actualizada (Opcional) -->
+**Backend Desplegado**
+
+[Ver Swagger API Documentation](https://waypass-1egd.onrender.com/index.html)
+
+## Authentication Services
+
+| Método | Endpoint | Función |
+|---|---|---|
+| POST | **/api/v1/auth/sign-in** | Permite iniciar sesión y generar el token de autenticación para el pasajero. |
+| POST | **/api/v1/auth/sign-up** | Permite registrar nuevos usuarios en la plataforma (Pasajero / Conductor). |
+
+---
+
+## Users & Profiles Services
+
+| Método | Endpoint | Función |
+|---|---|---|
+| GET | **/api/v1/users/{userId}/profile** | Obtiene el perfil asociado al pasajero actual. |
+| GET | **/api/v1/profiles/{id}** | Obtiene la información detallada del perfil (Nombre, Correo, Tipo de Cuenta) mediante su Id. |
+| PUT | **/api/v1/profiles/{id}** | Permite al pasajero actualizar los datos de su perfil. |
+
+---
+
+## Travel & Routes Services
+
+| Método | Endpoint | Función |
+|---|---|---|
+| GET | **/api/v1/routes** | Obtiene el listado completo de rutas disponibles para que el pasajero pueda explorar. |
+| GET | **/api/v1/routes/{id}** | Obtiene la información específica de una ruta (Origen, Destino, Duración, Tarifa) mediante su Id. |
+
+---
+
+## Reservation Services
+
+| Método | Endpoint | Función |
+|---|---|---|
+| GET | **/api/v1/reservations** | Obtiene el historial de reservas asociadas al pasajero autenticado. |
+| GET | **/api/v1/reservations/{id}** | Obtiene los detalles de una reserva específica (Ruta ID, Conductor ID, Monto y PayPal TX). |
+| POST | **/api/v1/reservations** | Permite al pasajero crear una nueva reserva de viaje tras procesar el pago. |
+
+---
+
+## Favorites Services
+
+| Método | Endpoint | Función |
+|---|---|---|
+| GET | **/api/v1/favorites** | Obtiene la lista de rutas guardadas como preferidas por el pasajero. |
+| POST | **/api/v1/favorites** | Agrega una ruta a la sección de favoritos del pasajero. |
+| DELETE | **/api/v1/favorites/{id}** | Elimina una ruta de la lista de favoritos mediante su Id. |
 
 #### 4.2.3.7. Software Deployment Evidence for Sprint Review
 
