@@ -6451,14 +6451,93 @@ Se consolidó y continuó dando soporte a los servicios principales desde el bac
 
 #### 4.2.3.7. Software Deployment Evidence for Sprint Review
 
-La infraestructura de despliegue para el Sprint 3 mantuvo el esquema exitoso consolidado durante el Sprint 2:
+**Aplicación Móvil Android**
 
-* **Backend:** Desplegado de forma continua en *Render*.
-* **Base de Datos:** Alojamientos estables en la nube (MySQL).
-* **Gestión de Medios:** *Cloudinary* para las fotos de perfil y flotas vehiculares.
-* **Mobile (Android/Flutter):** Los APKs generados se pueden construir localmente utilizando los mismos comandos y outputs configurados previamente (`flutter build apk`).
+**Paso 1 :**
 
-*(Nota: Los despliegues técnicos no sufrieron variaciones drásticas, manteniendo la solidez del flujo de CI/CD del Sprint anterior).*
+- Ejecutamos: flutter build apk
+
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1573" height="972" alt="Image" src="https://github.com/user-attachments/assets/dee8c3af-26de-42b2-813f-28a9638e9d5f" />
+</div>
+
+**Paso 2:**
+
+- Generamos la carpeta: build/app/outputs/flutter-apk/
+
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1600" height="964" alt="Image" src="https://github.com/user-attachments/assets/99a1f096-4be7-4761-a6d0-986e99feca56" />
+</div>
+
+**Paso 3:**
+
+- Apk generada satisfactoriamente
+
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1600" height="918" alt="Image" src="https://github.com/user-attachments/assets/2d438618-0737-4558-aa20-33c4550937cf" />
+</div>
+
+**Backend**
+
+Para el despliegue del Backend se utilizó Render
+
+[Render](https://render.com/)
+
+**Paso 1:**
+
+- Creamos un nuevo proyecto
+
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1824" height="987" alt="Image" src="https://github.com/user-attachments/assets/09ceba4f-75a8-4d0a-a04e-80b6f0fcceae" />
+</div>
+
+**Paso 2:**
+
+- Creamos un nuevo servicio
+
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1824" height="990" alt="Image" src="https://github.com/user-attachments/assets/768dc3dd-0455-4703-9628-143dfc51bd72" />
+</div>
+
+**Paso 3:**
+
+- Seleccionamos nuestro repositorio
+
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="863" height="917" alt="Image" src="https://github.com/user-attachments/assets/be378217-586e-4329-9d89-259593578764" />
+</div>
+
+**Paso 4:**
+
+- Instalamos Render en el repositorio
+
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="855" height="900" alt="Image" src="https://github.com/user-attachments/assets/5dd246bb-72aa-49b6-b26a-7dab08e09251" />
+</div>
+
+**Paso 5:**
+
+- Completamos los datos de la configuración
+
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1818" height="991" alt="Image" src="https://github.com/user-attachments/assets/16febab6-78ac-4bf9-9811-678bd11cf975" />
+</div>
+
+**Paso 6:**
+
+- Comienza el deploy y corregimos si sale errores
+
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1822" height="979" alt="Image" src="https://github.com/user-attachments/assets/df586bbd-7192-4721-9b7f-a3e89b391848" />
+</div>
+
+**Paso 7:**
+
+- Se realizó el deploy exitosamente
+
+<div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; " width="1820" height="991" alt="Image" src="https://github.com/user-attachments/assets/09039e72-0a6b-492d-b8df-5d4815739ecc" />
+</div>
 
 #### 4.2.3.8. Team Collaboration Insights during Sprint
 
