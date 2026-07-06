@@ -6410,24 +6410,31 @@ Durante este sprint, el equipo se enfocó en optimizar la interfaz y accesibilid
 
 Durante este sprint se avanzó en la implementación y refactorización de las aplicaciones móviles (Android y Flutter), integrando mejoras significativas en la accesibilidad, diseño de interfaz y la estructura de navegación.
 
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
-|---|---|---|---|---|---|
-| Android | main | 8f6c171 | feat(presentation): add admin company members screen | | 04/07/2026 |
-| Android | main | d98b15a | feat(presentation): show role, invitation code and leave/manage in driver profile | | 04/07/2026 |
-| Android | main | 2cc4d99 | feat(navigation): add driver gate and onboarding routing | | 04/07/2026 |
-| Android | main | 49aa6d6 | refactor(driver): resolve companyId from membership instead of getCompanyByUserId | | 04/07/2026 |
-| Android | main | 9344637 | feat(presentation): gate premium subscription button to company admin | | 04/07/2026 |
-| Android | main | b5e046d | feat(presentation): show company subscription status for non-admin drivers | | 04/07/2026 |
-| Android | main | 5926049 | refactor(data): refine join error mapping for capacity vs duplicate membership | | 04/07/2026 |
-| Android | main | 9c2015a | feat(subscription): improve ui. | | 05/07/2026 |
-| Flutter | main | b2ac036 | feat(reservation): add ReservationDto with null-safe fromJson | | 04/07/2026 |
-| Flutter | main | 10cc957 | feat(travel): update TravelPage 'Reservar' button to open payment page | | 05/07/2026 |
-| Flutter | main | f5168d6 | feat: add dependencies | | 05/07/2026 |
-| Flutter | main | 4d5110b | feat: Add favorite routes feature with CRUD operations | | 05/07/2026 |
-| Flutter | main | 73b834f | feat(auth): enhance validation for sign-in and sign-up forms | | 05/07/2026 |
-| Flutter | main | c8e87c1 | feat: refactor API base URLs to use centralized configuration | | 05/07/2026 |
-| Flutter | main | f329e0e | feat(reservation): simplify reservation card layout by removing favorite feature | | 05/07/2026 |
-| Flutter | main | ede7799 | feat(route): handle not found response by returning an empty list | | 05/07/2026 |
+### Repositorio Android
+
+| Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|
+| main | 8f6c171 | feat(presentation): add admin company members screen | | 04/07/2026 |
+| main | d98b15a | feat(presentation): show role, invitation code and leave/manage in driver profile | | 04/07/2026 |
+| main | 2cc4d99 | feat(navigation): add driver gate and onboarding routing | | 04/07/2026 |
+| main | 49aa6d6 | refactor(driver): resolve companyId from membership instead of getCompanyByUserId | | 04/07/2026 |
+| main | 9344637 | feat(presentation): gate premium subscription button to company admin | | 04/07/2026 |
+| main | b5e046d | feat(presentation): show company subscription status for non-admin drivers | | 04/07/2026 |
+| main | 5926049 | refactor(data): refine join error mapping for capacity vs duplicate membership | | 04/07/2026 |
+| main | 9c2015a | feat(subscription): improve ui. | | 05/07/2026 |
+
+### Repositorio Flutter
+
+| Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|
+| main | b2ac036 | feat(reservation): add ReservationDto with null-safe fromJson | | 04/07/2026 |
+| main | 10cc957 | feat(travel): update TravelPage 'Reservar' button to open payment page | | 05/07/2026 |
+| main | f5168d6 | feat: add dependencies | | 05/07/2026 |
+| main | 4d5110b | feat: Add favorite routes feature with CRUD operations | | 05/07/2026 |
+| main | 73b834f | feat(auth): enhance validation for sign-in and sign-up forms | | 05/07/2026 |
+| main | c8e87c1 | feat: refactor API base URLs to use centralized configuration | | 05/07/2026 |
+| main | f329e0e | feat(reservation): simplify reservation card layout by removing favorite feature | | 05/07/2026 |
+| main | ede7799 | feat(route): handle not found response by returning an empty list | | 05/07/2026 |
 
 #### 4.2.3.4. Testing Suite Evidence for Sprint Review
 
@@ -6540,6 +6547,27 @@ En esta sección del informe se presentan los principales endpoints desarrollado
 | GET | **/api/v1/favorites** | Obtiene la lista de rutas guardadas como preferidas por el pasajero. |
 | POST | **/api/v1/favorites** | Agrega una ruta a la sección de favoritos del pasajero. |
 | DELETE | **/api/v1/favorites/{id}** | Elimina una ruta de la lista de favoritos mediante su Id. |
+
+---
+
+## Companies Services
+
+| Método | Endpoint | Función |
+|---|---|---|
+| GET | **/api/v1/companies** | Obtiene el listado de empresas registradas en la plataforma. |
+| GET | **/api/v1/companies/{id}** | Obtiene la información detallada de una empresa mediante su Id. |
+| POST | **/api/v1/companies** | Permite registrar una nueva empresa. |
+| POST | **/api/v1/companies/{companyId}/members** | Permite agregar un miembro (conductor) a una empresa mediante código de invitación. |
+
+---
+
+## Subscriptions Services
+
+| Método | Endpoint | Función |
+|---|---|---|
+| GET | **/api/v1/subscriptions/{companyId}** | Obtiene el estado de la suscripción (Premium) asociada a la empresa, dictando la capacidad de conductores. |
+| POST | **/api/v1/subscriptions** | Permite registrar o actualizar el pago de la suscripción de una empresa. |
+
 
 #### 4.2.3.7. Software Deployment Evidence for Sprint Review
 
