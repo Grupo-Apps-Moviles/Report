@@ -5656,58 +5656,134 @@ La aplicación móvil de WayPass fue desarrollada en Android y representa el com
 A continuación, las capturas de las pantallas principales de la versión entregada:
 
 <div align="center" style="page-break-inside: avoid;">
-<img style="max-width: 100%; " width="180" alt="login" src="https://github.com/user-attachments/assets/f18f6029-260a-4b2f-b526-1c03321cc155" />
+  <table>
+    <tr>
+      <td align="center">
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="login" src="https://github.com/user-attachments/assets/f18f6029-260a-4b2f-b526-1c03321cc155" />
 </div>
-<div align="center" style="page-break-inside: avoid;">
-<img style="max-width: 100%; " width="180" alt="register" src="https://github.com/user-attachments/assets/4ef470d6-14c1-458f-b640-f4229517a29f" />
+        <br><em>Login</em>
+      </td>
+      <td align="center">
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="register" src="https://github.com/user-attachments/assets/4ef470d6-14c1-458f-b640-f4229517a29f" />
 </div>
-<div align="center" style="page-break-inside: avoid;">
-<img style="max-width: 100%; " width="180" alt="dashboard" src="https://github.com/user-attachments/assets/175c0f27-7791-4494-97c2-f6bb8103de2d" />
+        <br><em>Register</em>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="dashboard" src="https://github.com/user-attachments/assets/175c0f27-7791-4494-97c2-f6bb8103de2d" />
 </div>
-<div align="center" style="page-break-inside: avoid;">
-<img style="max-width: 100%; " width="180" alt="stops" src="https://github.com/user-attachments/assets/1aa35704-62ef-4066-9c56-965d4a4d0d3e" />
+        <br><em>Dashboard</em>
+      </td>
+      <td align="center">
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="stops" src="https://github.com/user-attachments/assets/1aa35704-62ef-4066-9c56-965d4a4d0d3e" />
 </div>
-<div align="center" style="page-break-inside: avoid;">
-<img style="max-width: 100%; " width="180" alt="createStop1" src="https://github.com/user-attachments/assets/eb90309e-52f5-4584-b3cc-cf71ea1dec8d" />
+        <br><em>Stops</em>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="createStop1" src="https://github.com/user-attachments/assets/eb90309e-52f5-4584-b3cc-cf71ea1dec8d" />
 </div>
-<div align="center" style="page-break-inside: avoid;">
-<img style="max-width: 100%; " width="180" alt="crateStop2" src="https://github.com/user-attachments/assets/f5232f9d-a8b5-4664-8a0e-b330d970cb2e" />
+        <br><em>Createstop 1</em>
+      </td>
+      <td align="center">
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="crateStop2" src="https://github.com/user-attachments/assets/f5232f9d-a8b5-4664-8a0e-b330d970cb2e" />
 </div>
-<div align="center" style="page-break-inside: avoid;">
-<img style="max-width: 100%; " width="180" alt="editStop1" src="https://github.com/user-attachments/assets/4d60353c-563e-4d71-a17c-6c18c477242f" />
+        <br><em>Cratestop 2</em>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="editStop1" src="https://github.com/user-attachments/assets/4d60353c-563e-4d71-a17c-6c18c477242f" />
 </div>
-<div align="center" style="page-break-inside: avoid;">
-<img style="max-width: 100%; " width="180" alt="editStop2" src="https://github.com/user-attachments/assets/a146e9ea-7c05-4b67-8a60-0f3e14008ceb" />
+        <br><em>Editstop 1</em>
+      </td>
+      <td align="center">
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="editStop2" src="https://github.com/user-attachments/assets/a146e9ea-7c05-4b67-8a60-0f3e14008ceb" />
 </div>
-<div align="center" style="page-break-inside: avoid;">
-<img style="max-width: 100%; " width="180" alt="deleteStop" src="https://github.com/user-attachments/assets/3e235072-abd3-4325-8a08-1158f4f99d0c" />
+        <br><em>Editstop 2</em>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="deleteStop" src="https://github.com/user-attachments/assets/3e235072-abd3-4325-8a08-1158f4f99d0c" />
 </div>
-<div align="center" style="page-break-inside: avoid;">
-<img style="max-width: 100%; " width="180" alt="routes" src="https://github.com/user-attachments/assets/76141d77-d414-47a0-9090-5ec1f7e6366e" />
+        <br><em>Deletestop</em>
+      </td>
+      <td align="center">
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="routes" src="https://github.com/user-attachments/assets/76141d77-d414-47a0-9090-5ec1f7e6366e" />
 </div>
-<div align="center" style="page-break-inside: avoid;">
-<img style="max-width: 100%; " width="180" alt="createRoute1" src="https://github.com/user-attachments/assets/b57387f0-d06d-4a5d-9d1b-4d1ba85bc85b" />
+        <br><em>Routes</em>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="createRoute1" src="https://github.com/user-attachments/assets/b57387f0-d06d-4a5d-9d1b-4d1ba85bc85b" />
 </div>
-<div align="center" style="page-break-inside: avoid;">
-<img style="max-width: 100%; " width="180" alt="createRoute2" src="https://github.com/user-attachments/assets/d755ad85-1654-4052-a24f-50d99c5d7562" />
+        <br><em>Createroute 1</em>
+      </td>
+      <td align="center">
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="createRoute2" src="https://github.com/user-attachments/assets/d755ad85-1654-4052-a24f-50d99c5d7562" />
 </div>
-<div align="center" style="page-break-inside: avoid;">
-<img style="max-width: 100%; " width="180" alt="deleteRoute" src="https://github.com/user-attachments/assets/b83217c2-ad87-4cd0-8f9f-59aefcd24cdb" />
+        <br><em>Createroute 2</em>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="deleteRoute" src="https://github.com/user-attachments/assets/b83217c2-ad87-4cd0-8f9f-59aefcd24cdb" />
 </div>
-<div align="center" style="page-break-inside: avoid;">
-<img style="max-width: 100%; " width="180" alt="scheduleRoutes" src="https://github.com/user-attachments/assets/4d15b6dc-5825-45c4-b9cf-f1d688d61738" />
+        <br><em>Deleteroute</em>
+      </td>
+      <td align="center">
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="scheduleRoutes" src="https://github.com/user-attachments/assets/4d15b6dc-5825-45c4-b9cf-f1d688d61738" />
 </div>
-<div align="center" style="page-break-inside: avoid;">
-<img style="max-width: 100%; " width="180" alt="mapRoute" src="https://github.com/user-attachments/assets/a986961e-122f-4bcf-b721-f4d2043182b8" />
+        <br><em>Scheduleroutes</em>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="mapRoute" src="https://github.com/user-attachments/assets/a986961e-122f-4bcf-b721-f4d2043182b8" />
 </div>
-<div align="center" style="page-break-inside: avoid;">
-<img style="max-width: 100%; " width="180" alt="editRoute1" src="https://github.com/user-attachments/assets/21f6ffba-916b-4523-9e3e-806dc8c38bce" />
+        <br><em>Maproute</em>
+      </td>
+      <td align="center">
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="editRoute1" src="https://github.com/user-attachments/assets/21f6ffba-916b-4523-9e3e-806dc8c38bce" />
 </div>
-<div align="center" style="page-break-inside: avoid;">
-<img style="max-width: 100%; " width="180" alt="editRoute2" src="https://github.com/user-attachments/assets/661e4532-b1d9-424a-ad62-075f089da523" />
+        <br><em>Editroute 1</em>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="editRoute2" src="https://github.com/user-attachments/assets/661e4532-b1d9-424a-ad62-075f089da523" />
 </div>
-<div align="center" style="page-break-inside: avoid;">
-<img style="max-width: 100%; " width="180" alt="profile" src="https://github.com/user-attachments/assets/8002c17c-e82b-48b2-89a6-fe6e23e56948" />
+        <br><em>Editroute 2</em>
+      </td>
+      <td align="center">
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="profile" src="https://github.com/user-attachments/assets/8002c17c-e82b-48b2-89a6-fe6e23e56948" />
+</div>
+        <br><em>Profile</em>
+      </td>
+    </tr>
+  </table>
 </div>
 
 #### 4.2.1.6. Services Documentation Evidence for Sprint Review
