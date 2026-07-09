@@ -116,6 +116,12 @@ En esta sección se presenta el historial de versiones del informe del proyecto 
             <td>Todos</td>
             <td>Completar el informe detallando lo realizado en el Sprint 2.</td>
         </tr>
+        <tr>
+            <td>9.0</td>
+            <td>09/07/2026</td>
+            <td>Todos</td>
+            <td>Completar el informe detallando lo realizado en el Sprint 3 y agregar bounded context implementados en la aplicación.</td>
+        </tr>
     </tbody>
 </table>
 
