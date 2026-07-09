@@ -2,7 +2,7 @@
 <div align="center" style="page-break-inside: avoid;">
     <br><br><br>
     <div align="center" style="page-break-inside: avoid;">
-<img style="max-width: 100%; " src="https://www.upc.edu.pe/static/img/logo_upc_red.png" width="180px" alt="Logo UPC">
+    <img width="180" height="170" alt="logo_upc_red" src="https://github.com/user-attachments/assets/1ad72ca4-8523-45be-8c58-f355370606e6" />
 </div><br><br>
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
     <strong>Ingeniería de Software / Séptimo Ciclo</strong><br><br>
