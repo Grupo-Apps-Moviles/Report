@@ -49,7 +49,7 @@
   <br/><br/>
 
 <div align="center" style="page-break-inside: avoid;">
-  <strong>Lima, 21 de Junio del 2026</strong><br/>
+  <strong>Lima, 09 de Julio del 2026</strong><br/>
 </div>
 
 <div style="page-break-after: always;"></div>
