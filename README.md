@@ -6947,6 +6947,15 @@ Tras el desarrollo del presente informe y la ejecución del primer avance del pr
 ### 5. Sobre el Impacto del Modelo de Negocio
 * **Sostenibilidad mediante B2B:** El modelo de suscripción para conductores independientes es viable, ya que les proporciona una herramienta de gestión profesional a bajo costo, mejorando su competitividad en un mercado cada vez más digitalizado.
 
+### 6. Sobre la Calidad del Desarrollo de Software
+* **Validación de la Arquitectura Tecnológica:** La integración entre la aplicación móvil desarrollada en Flutter y los microservicios del backend demostró que la arquitectura propuesta es capaz de soportar las funcionalidades principales del MVP, facilitando futuras ampliaciones sin afectar la estabilidad del sistema.
+
+### 7. Sobre la Viabilidad del Proyecto
+* **Factibilidad Técnica y Operativa:** Se concluye que WayPass es técnicamente viable, ya que las tecnologías seleccionadas permiten desarrollar una solución escalable, multiplataforma y compatible con las necesidades del transporte interurbano, reduciendo tiempos de desarrollo y mantenimiento.
+
+### 8. Sobre la Transformación Digital del Transporte
+* **Contribución a la Digitalización del Sector:** WayPass representa un paso importante hacia la modernización del transporte interurbano, promoviendo la adopción de herramientas digitales que incrementan la eficiencia operativa de los transportistas y mejoran significativamente la experiencia de viaje de los pasajeros.
+
 <div style="page-break-after: always;"></div>
 
 ## Recomendaciones
@@ -6971,7 +6980,16 @@ Basado en el análisis del proyecto y los hallazgos durante el avance, se sugier
 ### 4. Sobre la Seguridad y el Cumplimiento
 * **Monitoreo de Veracidad:** Desarrollar un sistema de reportes y validación comunitaria para identificar y sancionar conductores que proporcionen información incorrecta sobre precios o rutas, asegurando la integridad de la plataforma.
 * **Protección de Datos y Cifrado en el Cliente:** Garantizar el cumplimiento de la Ley de Protección de Datos Personales mediante el fortalecimiento del módulo IAM (Identity and Access Management), y asegurar el almacenamiento cifrado de tokens de autenticación en la aplicación móvil utilizando mecanismos como *Secure Storage*.
-* 
+
+### 5. Sobre la Analítica y Toma de Decisiones
+* **Implementación de Indicadores de Uso:** Se recomienda incorporar un módulo de analítica que permita monitorear indicadores como rutas más consultadas, reservas realizadas, horarios de mayor demanda y tasas de cancelación. Esta información facilitará la toma de decisiones estratégicas y la mejora continua del servicio.
+
+### 6. Sobre la Calidad del Software
+* **Automatización de Pruebas:** Se recomienda implementar pruebas automatizadas para los módulos críticos del sistema, incluyendo pruebas unitarias, de integración y de interfaz de usuario, con el objetivo de garantizar la calidad del software y reducir errores durante futuras actualizaciones.
+
+### 7. Sobre la Escalabilidad y Evolución del Sistema
+* **Preparación para Nuevas Funcionalidades:** Se recomienda diseñar una hoja de ruta tecnológica que contemple futuras integraciones, como pagos digitales, seguimiento en tiempo real mediante GPS, recomendaciones inteligentes de rutas y paneles de análisis para empresas transportistas, asegurando que la arquitectura actual pueda soportar el crecimiento del sistema sin requerir cambios estructurales significativos.
+
 <div style="page-break-after: always;"></div>
 
 # Video App Validation
