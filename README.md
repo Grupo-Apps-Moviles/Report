@@ -6260,19 +6260,44 @@ La aplicación móvil de pasajeros de WayPass fue desarrollada en Flutter, multi
 A continuación, las capturas de las pantallas principales de la versión entregada:
 
 <div align="center" style="page-break-inside: avoid;">
-<img style="max-width: 100%; " width="180" alt="Image" src="https://github.com/user-attachments/assets/d370aa15-711e-4fb1-ac29-2be1264145d9" />
+  <table>
+    <tr>
+      <td align="center">
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="Login" src="https://github.com/user-attachments/assets/d370aa15-711e-4fb1-ac29-2be1264145d9" />
 </div>
-<div align="center" style="page-break-inside: avoid;">
-<img style="max-width: 100%; " width="180" alt="Image" src="https://github.com/user-attachments/assets/abc62f4a-58ed-4707-b14e-5cf3fc61c881" />
+        <br><em>Login</em>
+      </td>
+      <td align="center">
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="Profile" src="https://github.com/user-attachments/assets/abc62f4a-58ed-4707-b14e-5cf3fc61c881" />
 </div>
-<div align="center" style="page-break-inside: avoid;">
-<img style="max-width: 100%; " width="180" alt="Image" src="https://github.com/user-attachments/assets/f714faab-2f77-4756-8079-86376e14d254" />
+        <br><em>Profile</em>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="Travel" src="https://github.com/user-attachments/assets/f714faab-2f77-4756-8079-86376e14d254" />
 </div>
-<div align="center" style="page-break-inside: avoid;">
-<img style="max-width: 100%; " width="180" alt="Image" src="https://github.com/user-attachments/assets/50b523f7-5faa-4203-af3a-b6c9c8856657" />
+        <br><em>Travel</em>
+      </td>
+      <td align="center">
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="Reservation" src="https://github.com/user-attachments/assets/50b523f7-5faa-4203-af3a-b6c9c8856657" />
 </div>
-<div align="center" style="page-break-inside: avoid;">
-<img style="max-width: 100%; " width="180" alt="Image" src="https://github.com/user-attachments/assets/8cd68604-28c1-4c77-8340-ada8db998ab0" />
+        <br><em>Reservation</em>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" colspan="2">
+        <div align="center" style="page-break-inside: avoid;">
+<img style="max-width: 100%; max-height: 800px;" width="200" alt="Favorites" src="https://github.com/user-attachments/assets/8cd68604-28c1-4c77-8340-ada8db998ab0" />
+</div>
+        <br><em>Favorites</em>
+      </td>
+    </tr>
+  </table>
 </div>
 
 
