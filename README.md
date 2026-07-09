@@ -6971,6 +6971,10 @@ El presente video presenta de forma promocional la propuesta de valor de nuestro
         <td><a href="https://shorturl.at/Wj2JC" target="_blank">Ver Video About the Product</td>
     </tr>
     <tr>
+        <td><strong>About the team<strong></td>
+        <td><a href="..." target="_blank">Ver Video About the Team</td>
+    </tr>
+    <tr>
         <td><strong>APK (Kotlin y Flutter)<strong></td>
         <td><a href="https://upcedupe-my.sharepoint.com/:f:/g/personal/u202022387_upc_edu_pe/IgCxI9c4eQngTrVgDjx7YlZdAY8dLHSk1FGMaDwICrtlEAM?e=fkK8Xo" target="_blank">Descargar APK</td>
     </tr>
@@ -6994,10 +6998,6 @@ El presente video presenta de forma promocional la propuesta de valor de nuestro
     <tr>
       <td><strong>Trello</strong></td>
       <td>Gestión ágil de tareas y Sprint Backlog.</td>
-    </tr>
-    <tr>
-      <td><strong>Jira</strong></td>
-      <td>Referencia para gestión profesional de proyectos ágiles.</td>
     </tr>
     <tr>
       <td><strong>Structurizr</strong></td>
