@@ -6388,14 +6388,21 @@ El equipo utilizó GitHub como plataforma de colaboración para el control de ve
 
 #### 4.2.3.1. Sprint Planning 3
 
-| Sprint 3 | |
-| --- | --- |
-| **Meta del Sprint** | Refinar la experiencia de usuario (UX/UI) en las aplicaciones móviles, implementar mejoras sustanciales de accesibilidad, y consolidar las funcionalidades de roles, membresías de empresas y rutas favoritas. |
-| **Fecha de inicio** | 04/07/2026 |
-| **Fecha de fin** | 18/07/2026 |
-| **Velocidad del equipo** | 50 Story Points |
-
-Durante este sprint, el equipo se enfocó en optimizar la interfaz y accesibilidad en las aplicaciones móviles (Android y Flutter). Se priorizaron las historias de usuario relacionadas con las funciones de accesibilidad, validaciones de formularios y el refinamiento general de flujos críticos como la reserva y el acceso para conductores con estado de suscripción.
+| | |
+|---|---|
+| **Sprint #** | Sprint 3 |
+| **Sprint Planning Background** | |
+| Date | 2026-07-04 |
+| Time | 07:00 PM |
+| Location | Reunión virtual mediante Discord |
+| Prepared By | Guzmán Cabrejos, Yaku Mateo |
+| Attendees (to planning meeting) | Velarde Gonzales, Néstor Hernán / Curi Marcelo, Angelo Marcio / Guzmán Cabrejos, Yaku Mateo / Quiroz Cáceres, Adrian / Carranza Tesén, Joaquín Enrique |
+| **Sprint 2 Review Summary** | Durante el Sprint 2 se implementó satisfactoriamente el backend aplicando principios DDD y se desarrollaron las aplicaciones móviles en Flutter (pasajeros) y Kotlin (conductores), demostrando la funcionalidad clave de autenticación, reservas y navegación, aunque se identificaron importantes oportunidades de mejora en la experiencia de usuario, diseño UI y legibilidad. |
+| **Sprint 2 Retrospective Summary** | El equipo destacó como fortaleza principal la rápida y correcta adopción de nuevas tecnologías (Flutter/Dart) y el refactor de arquitectura. Por otro lado, se evidenció como oportunidad de mejora la necesidad de priorizar la accesibilidad visual en las interfaces (alto contraste), simplificar flujos cognitivos como las reservas y optimizar el feedback de errores en formularios, los cuales se abordarán en este sprint. |
+| **Sprint Goal & User Stories** | |
+| Sprint 3 Goal | Refinar la experiencia de usuario (UX/UI) en las aplicaciones móviles, implementar mejoras sustanciales de accesibilidad, y consolidar las funcionalidades de roles, membresías de empresas y rutas favoritas. |
+| Sprint 3 Velocity | 50 |
+| Sum of Story Points | 50 |
 
 #### 4.2.3.2. Sprint Backlog 3
 
