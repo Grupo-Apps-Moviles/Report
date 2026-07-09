@@ -6775,9 +6775,42 @@ Para el despliegue del Backend se utilizó Render
 
 #### 4.2.3.8. Team Collaboration Insights during Sprint
 
-El equipo móvil logró un alto grado de cohesión para alinear el consumo de APIs (Base URLs centralizadas en Flutter) con las respuestas del backend, minimizando fricciones y acelerando la entrega de características visuales y de accesibilidad.
 
----
+A continuación, se presentan los principales colaboradores del proyecto:
+
+| Integrante | Código Universitario | GitHub |
+|---|---|---|
+| Velarde Gonzales, Néstor Hernán | U20211C221 | @velardesoft |
+| Curi Marcelo, Angelo Marcio | U202022387 | @AngelC999 |
+| Guzmán Cabrejos, Yaku Mateo | U20231B173 | @yakumateo |
+| Quiroz Cáceres, Adrian | U202214864 | @Aqc1019 |
+| Carranza Tesén, Joaquín Enrique | U20191B935 | @thepima |
+
+El equipo utilizó GitHub como plataforma de colaboración para el control de versiones, integración de cambios, seguimiento de avances y trabajo colaborativo durante el Sprint.
+
+**Informe**
+
+<div align="center" style="page-break-inside: avoid;">
+<img width="921" height="512" alt="image" src="https://github.com/user-attachments/assets/97e44f79-7e30-444d-a4d3-014f4be79678" />
+</div>
+
+**Flutter:** 
+
+<div align="center" style="page-break-inside: avoid;">
+<img width="918" height="512" alt="image" src="https://github.com/user-attachments/assets/8da76f90-3c4a-44ec-808b-08c760a36691" />
+</div>
+
+**Android** 
+
+<div align="center" style="page-break-inside: avoid;">
+<img width="928" height="505" alt="image" src="https://github.com/user-attachments/assets/3201bab9-bf1f-4e9f-a0eb-80026f59fdbb" />
+</div>
+
+**Backend**
+
+<div align="center" style="page-break-inside: avoid;">
+<img width="905" height="505" alt="image" src="https://github.com/user-attachments/assets/70c0efca-9e05-4576-96f2-4e32d450216a" />
+</div>
 
 ## 4.3. Validation Interviews
 En este punto se hiso una validación con los segmentos objetivos sobre nuestro producto de primera fase. 
