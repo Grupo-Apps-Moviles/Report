@@ -1,55 +1,62 @@
+<div align="center">
 
-<div align="center" style="page-break-inside: avoid;">
-    <br><br><br>
-    <div align="center" style="page-break-inside: avoid;">
-    <img width="180" height="170" alt="logo_upc_red" src="https://github.com/user-attachments/assets/1ad72ca4-8523-45be-8c58-f355370606e6" />
-</div><br><br>
-    <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
-    <strong>Ingeniería de Software / Séptimo Ciclo</strong><br><br>
-    <strong> Aplicaciones para dispositivos Móviles </strong> <br>
-    2026-10<br><br>
-    <strong>NRC:</strong> 3821 <br>
-    <strong>Profesor:</strong> Mayta Guillermo, Jorge Luis <br><br>
-    <strong>Startup: Viacore </strong> <br>
-    <strong>Nombre del Producto: WayPass </strong> <br><br>
-    <strong>Integrantes:</strong>
-</div>
-  
-  <table border="1px" align="center">
+<br><br><br>
+
+<img width="110" height="109" alt="Image" src="https://github.com/user-attachments/assets/b36c2340-a471-4433-9302-f91323c61fe5" />
+
+<br>
+
+<strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
+<strong>Ingeniería de Software / Séptimo Ciclo</strong><br><br>
+
+<strong> Aplicaciones para dispositivos Móviles</strong> <br>
+2026-10<br><br>
+
+<strong>NRC:</strong> 3821 <br>
+<strong>Profesor:</strong> Mayta Guillermo, Jorge Luis <br><br>
+
+<strong>Startup: Viacore </strong> <br>
+<strong>Nombre del Producto: WayPass </strong> <br><br>
+
+<strong>Integrantes:</strong>
+
+<br><br>
+
+<table align="center">
     <thead>
         <tr>
-            <th><center>Apellidos, Nombres</center></th>
-            <th><center>Código</center></th>
+            <th align="center">Apellidos, Nombres</th>
+            <th align="center">Código</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td><center>Velarde Gonzales, Néstor Hernán</center></td>
-            <td><center>U20211C221</center></td>
+            <td align="center">Velarde Gonzales, Néstor Hernán</td>
+            <td align="center">U20211C221</td>
         </tr>
         <tr>
-            <td><center>Curi Marcelo, Angelo Marcio</center></td>
-            <td><center>U202022387</center></td>
+            <td align="center">Curi Marcelo, Angelo Marcio</td>
+            <td align="center">U202022387</td>
         </tr>
         <tr>
-            <td><center>Guzmán Cabrejos, Yaku Mateo</center></td>
-            <td><center>U20231B173</center></td>
+            <td align="center">Guzmán Cabrejos, Yaku Mateo</td>
+            <td align="center">U20231B173</td>
         </tr>
         <tr>
-            <td><center>Quiroz Cáceres, Adrian</center></td>
-            <td><center>U202214864</center></td>
+            <td align="center">Quiroz Cáceres, Adrian</td>
+            <td align="center">U202214864</td>
         </tr>
         <tr>
-            <td><center>Carranza Tesén, Joaquín Enrique</center></td>
-            <td><center>U20191B935</center></td>
+            <td align="center">Carranza Tesén, Joaquín Enrique</td>
+            <td align="center">U20191B935</td>
         </tr>
     </tbody>
-  </table>
+</table>
 
-  <br/><br/>
+<br><br>
 
-<div align="center" style="page-break-inside: avoid;">
-  <strong>Lima, 09 de Julio del 2026</strong><br/>
+<strong>Lima, 09 de Julio del 2026</strong>
+
 </div>
 
 <div style="page-break-after: always;"></div>
@@ -141,7 +148,7 @@ A continuación, se presentan los principales colaboradores del proyecto:
 | Quiroz Cáceres, Adrian | U202214864 | @Aqc1019 |
 | Carranza Tesén, Joaquín Enrique | U20191B935 | @thepima |
 
-El equipo utilizó GitHub como plataforma de colaboración para el control de versiones, integración de cambios, seguimiento de avances y trabajo colaborativo durante el Sprint2 - Avance2.
+El equipo utilizó GitHub como plataforma de colaboración para el control de versiones, integración de cambios, seguimiento de avances y trabajo colaborativo durante el Sprint1, Trabajo Parcial, Sprint2 y Trabajo final.
 
 <div align="center" style="page-break-inside: avoid;">
 <img style="max-width: 100%; " width="916" height="703" alt="Image" src="https://github.com/user-attachments/assets/72da4b66-8c45-41c7-a02c-a8258b5f2874" />
