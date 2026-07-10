@@ -156,11 +156,24 @@ El equipo utilizó GitHub como plataforma de colaboración para el control de ve
 
 # Enlaces del Proyecto
 
-| Recurso                     | Enlace |
-|---------------------------|--------|
-| Landing Page              | [waypass.com](https://grupo-apps-moviles.github.io/landing-page/) |
-| Organización en GitHub    | [waypass.app](https://github.com/Grupo-Apps-Moviles/) |
-| Repositorio del Informe   | [Report](https://github.com/Grupo-Apps-Moviles/Report) |
+| Recurso | Enlace |
+| :--- | :--- |
+| Landing Page (Sitio Web) | [waypass.com](https://grupo-apps-moviles.github.io/landing-page/) |
+| Organización en GitHub | [waypass.app](https://github.com/Grupo-Apps-Moviles/) |
+| Repositorio del Informe | [Report](https://github.com/Grupo-Apps-Moviles/Report) |
+| Repositorio de la App Android | [Android](https://github.com/Grupo-Apps-Moviles/Android) |
+| Repositorio de la App Flutter | [Flutter](https://github.com/Grupo-Apps-Moviles/Flutter) |
+| Repositorio del Backend | [Backend](https://github.com/Grupo-Apps-Moviles/Backend) |
+| Repositorio de la Landing Page | [landing-page](https://github.com/Grupo-Apps-Moviles/landing-page) |
+| Repositorio de Pruebas de Aceptación | [Backend-AcceptanceTests](https://github.com/Grupo-Apps-Moviles/Backend-AcceptanceTests) |
+
+<br><br>
+
+| Descripción del Video | Enlace |
+| :--- | :---: |
+| **Video de Exposición del Trabajo Final** | [Ver Video](https://youtu.be/tNiiQOLQJ7s) |
+| **Video About the Product** | [Ver Video](https://youtu.be/QvCi0Bi8GNM) |
+| **Video About the team** | [Ver Video](https://youtu.be/WdKdr9IWbyo) |
 
 <div style="page-break-after: always;"></div>
 
@@ -595,8 +608,7 @@ Ser el ecosistema digital líder en la gestión del transporte interurbano y rur
 <img style="max-width: 100%; max-height: 800px;" width="140" alt="Image" src="https://github.com/user-attachments/assets/ff035024-f015-4b7b-9b2b-0abdb15bda50" />
 </div></td>
             <td>
-                Cuento con conocimientos y experiencia en diversos lenguajes de 
-                programación como Python, C#, Java, C++ y JavaScript, lo que me 
+                Soy Velarde Gonzales, Néstor Hernán, cuento con conocimientos y experiencia en diversos lenguajes de programación como Python, C#, Java, C++ y JavaScript, lo que me 
                 permite adaptarme con facilidad a distintos entornos y proyectos. 
                 Además, manejo Frameworks y tecnologías modernas como 
                 Node.js, Vue.js, Angular y Spring Boot, que me han permitido 
@@ -723,12 +735,10 @@ A continuación, se realizará el Lean UX Canvas, el cual nos sirve para captura
 Figura 1. Lean UX Canvas.
 
 <div align="center" style="page-break-inside: avoid;">
-<img style="max-width: 100%; " width="1231" height="811" alt="Image" src="https://github.com/user-attachments/assets/d9a3bfa7-3b48-4cc4-af58-b6186c6a6069" />
+<img style="max-width: 90%; " width="1231" height="811" alt="Image" src="https://github.com/user-attachments/assets/d9a3bfa7-3b48-4cc4-af58-b6186c6a6069" />
 </div>
 
 Fuente: Elaboración propia en la plataforma Miro. Disponible en: https://miro.com/app/board/uXjVHeXxRtw=/?share_link_id=413104933358
-
-<div style="page-break-after: always;"></div>
 
 ## 1.3. Segmentos objetivo
 
@@ -967,7 +977,7 @@ A continuación, se demostrará las entrevistas realizadas a los usuarios (pasaj
 <tr>
 <td>Evidencia</td>
 <td><div align="center" style="page-break-inside: avoid;">
-<img style="max-width: 100%; max-height: 800px;" src="../images/Entrevista1.png" alt="Entrevista" width="600">
+<img width="863" height="243" alt="Image" src="https://github.com/user-attachments/assets/3a9de162-0efe-472b-824e-cbb5ac341a38" />
 </div></td>
 </tr>
 <td>Resumen</td>
@@ -1058,7 +1068,7 @@ Jean Pierre relató que prefiere el colectivo por pura velocidad, ya que los bus
 <tr>
 <td>Evidencia</td>
 <td><div align="center" style="page-break-inside: avoid;">
-<img style="max-width: 100%; max-height: 800px;" width="600" alt="Captura de pantalla" src="https://github.com/Grupo-Apps-Moviles/Report/blob/main/images/Entrevista3.png" />
+<img width="863" height="243" alt="Image" src="https://github.com/user-attachments/assets/3a9de162-0efe-472b-824e-cbb5ac341a38" />
 </div></td>
 </tr>
 <td>Timing donde inicia la entrevista<br></td>
