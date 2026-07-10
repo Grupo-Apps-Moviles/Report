@@ -150,9 +150,7 @@ A continuación, se presentan los principales colaboradores del proyecto:
 
 El equipo utilizó GitHub como plataforma de colaboración para el control de versiones, integración de cambios, seguimiento de avances y trabajo colaborativo durante el Sprint1, Trabajo Parcial, Sprint2 y Trabajo final.
 
-<div align="center" style="page-break-inside: avoid;">
-<img style="max-width: 100%; " width="916" height="703" alt="Image" src="https://github.com/user-attachments/assets/72da4b66-8c45-41c7-a02c-a8258b5f2874" />
-</div>
+<img width="902" height="692" alt="Image" src="https://github.com/user-attachments/assets/273a95f8-7c26-42ef-93fe-872a8e876f28" />
 
 <div style="page-break-after: always;"></div>
 
@@ -161,8 +159,8 @@ El equipo utilizó GitHub como plataforma de colaboración para el control de ve
 | Recurso                     | Enlace |
 |---------------------------|--------|
 | Landing Page              | [waypass.com](https://grupo-apps-moviles.github.io/landing-page/) |
-| Organización en GitHub    | [github.com/Grupo-Apps-Moviles](https://github.com/Grupo-Apps-Moviles/) |
-| Repositorio del Informe   | [github.com/Grupo-Apps-Moviles/Report](https://github.com/Grupo-Apps-Moviles/Report) |
+| Organización en GitHub    | [waypass.app](https://github.com/Grupo-Apps-Moviles/) |
+| Repositorio del Informe   | [Report](https://github.com/Grupo-Apps-Moviles/Report) |
 
 <div style="page-break-after: always;"></div>
 
