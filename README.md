@@ -7083,17 +7083,17 @@ El presente video presenta de forma promocional la propuesta de valor de nuestro
 
 **Video About the Product:** 
 
+Video de Producto de desarrollo Móvil
+
 [Ver Video en Microsoft Stream](https://shorturl.at/Wj2JC)
 
 [Ver video en YouTube](https://youtu.be/QvCi0Bi8GNM)
-  
-<div align="center" style="page-break-inside: avoid;">
-<img style="max-width: 100%; " width="850" height="500" alt="Image" src="https://github.com/user-attachments/assets/d6e3d1bc-5e30-4eb3-b94c-65707e57da4a" />
-</div>
 
 # Video About the team
 
-> *(Sección pendiente de desarrollo)*
+Video de Integrantes de Grupo 01
+
+[Ver video en YouTube](https://youtu.be/WdKdr9IWbyo)
 
 <div style="page-break-after: always;"></div>
 
