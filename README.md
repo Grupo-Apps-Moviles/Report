@@ -321,36 +321,60 @@ El equipo utilizó GitHub como plataforma de colaboración para el control de ve
       - [Tabla: schedules](#tabla-schedules)
     - [2.6.5. Bounded Context: Companies](#265-bounded-context-companies)
       - [2.6.5.1. Domain Layer](#2651-domain-layer)
+        - [Sub-capa Model](#sub-capa-model-1)
       - [2.6.5.2. Interface Layer](#2652-interface-layer)
+        - [Sub-capa REST](#sub-capa-rest)
       - [2.6.5.3. Application Layer](#2653-application-layer)
+        - [Sub-capa Internal](#sub-capa-internal)
       - [2.6.5.4. Infrastructure Layer](#2654-infrastructure-layer)
+        - [Sub-capa Persistence / Services](#sub-capa-persistence--services)
       - [2.6.5.5. Bounded Context Software Architecture Component Level Diagrams](#2655-bounded-context-software-architecture-component-level-diagrams)
       - [2.6.5.6. Bounded Context Software Architecture Code Level Diagrams](#2656-bounded-context-software-architecture-code-level-diagrams)
+        - [Bounded Context Domain Layer Class Diagrams](#bounded-context-domain-layer-class-diagrams)
+        - [Bounded Context Database Design Diagram](#bounded-context-database-design-diagram)
       - [Tabla: companies](#tabla-companies)
-      - [Tabla: company_memberships](#tabla-company_memberships)
+      - [Tabla: company\_memberships](#tabla-company_memberships)
     - [2.6.6. Bounded Context: Favorites](#266-bounded-context-favorites)
       - [2.6.6.1. Domain Layer](#2661-domain-layer)
+        - [Sub-capa Model](#sub-capa-model-2)
       - [2.6.6.2. Interface Layer](#2662-interface-layer)
+        - [Sub-capa REST](#sub-capa-rest-1)
       - [2.6.6.3. Application Layer](#2663-application-layer)
+        - [Sub-capa Internal](#sub-capa-internal-1)
       - [2.6.6.4. Infrastructure Layer](#2664-infrastructure-layer)
+        - [Sub-capa Persistence / Services](#sub-capa-persistence--services-1)
       - [2.6.6.5. Bounded Context Software Architecture Component Level Diagrams](#2665-bounded-context-software-architecture-component-level-diagrams)
       - [2.6.6.6. Bounded Context Software Architecture Code Level Diagrams](#2666-bounded-context-software-architecture-code-level-diagrams)
-      - [Tabla: favorite_routes](#tabla-favorite_routes)
+        - [Bounded Context Domain Layer Class Diagrams](#bounded-context-domain-layer-class-diagrams-1)
+        - [Bounded Context Database Design Diagram](#bounded-context-database-design-diagram-1)
+      - [Tabla: favorite\_routes](#tabla-favorite_routes)
     - [2.6.7. Bounded Context: Reservations](#267-bounded-context-reservations)
       - [2.6.7.1. Domain Layer](#2671-domain-layer)
+        - [Sub-capa Model](#sub-capa-model-3)
       - [2.6.7.2. Interface Layer](#2672-interface-layer)
+        - [Sub-capa REST](#sub-capa-rest-2)
       - [2.6.7.3. Application Layer](#2673-application-layer)
+        - [Sub-capa Internal](#sub-capa-internal-2)
       - [2.6.7.4. Infrastructure Layer](#2674-infrastructure-layer)
+        - [Sub-capa Persistence / Services](#sub-capa-persistence--services-2)
       - [2.6.7.5. Bounded Context Software Architecture Component Level Diagrams](#2675-bounded-context-software-architecture-component-level-diagrams)
       - [2.6.7.6. Bounded Context Software Architecture Code Level Diagrams](#2676-bounded-context-software-architecture-code-level-diagrams)
+        - [Bounded Context Domain Layer Class Diagrams](#bounded-context-domain-layer-class-diagrams-2)
+        - [Bounded Context Database Design Diagram](#bounded-context-database-design-diagram-2)
       - [Tabla: reservations](#tabla-reservations)
     - [2.6.8. Bounded Context: Subscriptions](#268-bounded-context-subscriptions)
       - [2.6.8.1. Domain Layer](#2681-domain-layer)
+        - [Sub-capa Model](#sub-capa-model-4)
       - [2.6.8.2. Interface Layer](#2682-interface-layer)
+        - [Sub-capa REST](#sub-capa-rest-3)
       - [2.6.8.3. Application Layer](#2683-application-layer)
+        - [Sub-capa Internal](#sub-capa-internal-3)
       - [2.6.8.4. Infrastructure Layer](#2684-infrastructure-layer)
+        - [Sub-capa Persistence / Services](#sub-capa-persistence--services-3)
       - [2.6.8.5. Bounded Context Software Architecture Component Level Diagrams](#2685-bounded-context-software-architecture-component-level-diagrams)
       - [2.6.8.6. Bounded Context Software Architecture Code Level Diagrams](#2686-bounded-context-software-architecture-code-level-diagrams)
+        - [Bounded Context Domain Layer Class Diagrams](#bounded-context-domain-layer-class-diagrams-3)
+        - [Bounded Context Database Design Diagram](#bounded-context-database-design-diagram-3)
       - [Tabla: subscriptions](#tabla-subscriptions)
 - [Capítulo III: Solution UI/UX Design](#capítulo-iii-solution-uiux-design)
   - [3.1. Product design](#31-product-design)
@@ -425,7 +449,6 @@ El equipo utilizó GitHub como plataforma de colaboración para el control de ve
       - [4.2.2.1. Sprint Planning 2](#4221-sprint-planning-2)
       - [4.2.2.2. Sprint Backlog 2](#4222-sprint-backlog-2)
       - [4.2.2.3. Development Evidence for Sprint Review](#4223-development-evidence-for-sprint-review)
-  - [Development Evidence for Sprint Review](#development-evidence-for-sprint-review-1)
     - [Web Services — Backend](#web-services--backend-1)
     - [Mobile Application — Flutter (Pasajero)](#mobile-application--flutter-pasajero)
     - [Mobile Application — Android (Conductor)](#mobile-application--android-conductor)
@@ -447,9 +470,20 @@ El equipo utilizó GitHub como plataforma de colaboración para el control de ve
       - [4.2.3.1. Sprint Planning 3](#4231-sprint-planning-3)
       - [4.2.3.2. Sprint Backlog 3](#4232-sprint-backlog-3)
       - [4.2.3.3. Development Evidence for Sprint Review](#4233-development-evidence-for-sprint-review)
+    - [Repositorio Android](#repositorio-android)
+    - [Repositorio Flutter](#repositorio-flutter)
       - [4.2.3.4. Testing Suite Evidence for Sprint Review](#4234-testing-suite-evidence-for-sprint-review)
       - [4.2.3.5. Execution Evidence for Sprint Review](#4235-execution-evidence-for-sprint-review)
+    - [Aplicación Móvil — Android (Conductor)](#aplicación-móvil--android-conductor)
+    - [Aplicación Móvil — Flutter (Pasajero)](#aplicación-móvil--flutter-pasajero-1)
       - [4.2.3.6. Services Documentation Evidence for Sprint Review](#4236-services-documentation-evidence-for-sprint-review)
+  - [Authentication Services](#authentication-services-2)
+  - [Users \& Profiles Services](#users--profiles-services-2)
+  - [Travel \& Routes Services](#travel--routes-services-1)
+  - [Reservation Services](#reservation-services-1)
+  - [Favorites Services](#favorites-services-1)
+  - [Companies Services](#companies-services)
+  - [Subscriptions Services](#subscriptions-services)
       - [4.2.3.7. Software Deployment Evidence for Sprint Review](#4237-software-deployment-evidence-for-sprint-review)
       - [4.2.3.8. Team Collaboration Insights during Sprint](#4238-team-collaboration-insights-during-sprint)
   - [4.3. Validation Interviews](#43-validation-interviews)
@@ -463,11 +497,17 @@ El equipo utilizó GitHub como plataforma de colaboración para el control de ve
     - [3. Sobre la Arquitectura y el Desarrollo Técnico](#3-sobre-la-arquitectura-y-el-desarrollo-técnico)
     - [4. Sobre la Gestión del Alcance y del Proyecto (Métricas Ágiles)](#4-sobre-la-gestión-del-alcance-y-del-proyecto-métricas-ágiles)
     - [5. Sobre el Impacto del Modelo de Negocio](#5-sobre-el-impacto-del-modelo-de-negocio)
+    - [6. Sobre la Calidad del Desarrollo de Software](#6-sobre-la-calidad-del-desarrollo-de-software)
+    - [7. Sobre la Viabilidad del Proyecto](#7-sobre-la-viabilidad-del-proyecto)
+    - [8. Sobre la Transformación Digital del Transporte](#8-sobre-la-transformación-digital-del-transporte)
   - [Recomendaciones](#recomendaciones)
     - [1. Sobre el Producto y la Experiencia de Usuario (UX)](#1-sobre-el-producto-y-la-experiencia-de-usuario-ux)
     - [2. Sobre la Estrategia de Mercado y Validación](#2-sobre-la-estrategia-de-mercado-y-validación)
     - [3. Sobre el Desarrollo Técnico y Escalabilidad](#3-sobre-el-desarrollo-técnico-y-escalabilidad)
     - [4. Sobre la Seguridad y el Cumplimiento](#4-sobre-la-seguridad-y-el-cumplimiento)
+    - [5. Sobre la Analítica y Toma de Decisiones](#5-sobre-la-analítica-y-toma-de-decisiones)
+    - [6. Sobre la Calidad del Software](#6-sobre-la-calidad-del-software)
+    - [7. Sobre la Escalabilidad y Evolución del Sistema](#7-sobre-la-escalabilidad-y-evolución-del-sistema)
 - [Video App Validation](#video-app-validation)
 - [Video About the product](#video-about-the-product)
 - [Video About the team](#video-about-the-team)
@@ -7111,11 +7151,11 @@ El presente video presenta de forma promocional la propuesta de valor de nuestro
   <tbody>
     <tr>
       <td><strong>Repositorio GitHub</strong></td>
-      <td><a href="https://github.com/Grupo-Apps-Moviles" target="_blank">https://github.com/Grupo-Apps-Móviles</a></td>
+      <td><a href="https://github.com/Grupo-Apps-Moviles" target="_blank">Organización en GitHub</a></td>
     </tr>
     <tr>
       <td><strong>Entrevistas</strong></td>
-      <td><a href="https://shorturl.at/dnh1n" target="_blank">https://shorturl.at/dnh1n</a></td>
+      <td><a href="https://shorturl.at/dnh1n" target="_blank">Ver Entrevistas</a></td>
     </tr>
     <tr>
       <td><strong>Figma</strong></td>
@@ -7136,6 +7176,10 @@ El presente video presenta de forma promocional la propuesta de valor de nuestro
     <tr>
         <td><strong>APK (Kotlin y Flutter)<strong></td>
         <td><a href="https://upcedupe-my.sharepoint.com/:f:/g/personal/u202022387_upc_edu_pe/IgCxI9c4eQngTrVgDjx7YlZdAY8dLHSk1FGMaDwICrtlEAM?e=fkK8Xo" target="_blank">Descargar APK</td>
+    </tr>
+    <tr>
+        <td><strong>Video de Exposición del Trabajo Final<strong></td>
+        <td><a href="https://youtu.be/tNiiQOLQJ7s" target="_blank">Ver Video</td>
     </tr>
   </tbody>
 </table>
